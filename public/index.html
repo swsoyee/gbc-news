@@ -130,18 +130,13 @@
         color: var(--muted);
       }
       #filter-status {
-        margin-top: 0.9rem;
+        margin: 0.9rem 0 0;
         padding: 0.75rem 0.85rem;
         border: 1px solid var(--accent);
         background: rgba(232, 93, 76, 0.12);
         color: var(--ink);
         font-size: 0.92rem;
         line-height: 1.55;
-      }
-      .note {
-        color: var(--muted);
-        font-size: 0.88rem;
-        margin-top: 1.5rem;
       }
     </style>
   </head>
@@ -152,36 +147,6 @@
         订阅《ガールズバンドクライ》官网与 First Riff
         新闻。先选组合，再选内容分类；条目时间取活动举办/售票日。
       </p>
-
-      <section>
-        <h2>选择组合</h2>
-        <div class="cats" id="groups"></div>
-        <div class="actions">
-          <button type="button" id="select-all-groups">全选组合</button>
-          <button type="button" id="clear-all-groups">不限组合（全部）</button>
-        </div>
-      </section>
-
-      <section>
-        <h2>选择分类</h2>
-        <div class="cats" id="cats"></div>
-        <div class="actions">
-          <button type="button" id="select-all">全选分类</button>
-          <button type="button" id="clear-all">不限分类（全部）</button>
-        </div>
-        <p class="meta" id="stats">加载中…</p>
-        <p id="filter-status">当前筛选：加载中…</p>
-      </section>
-
-      <section>
-        <h2>各组合日历（ICS）</h2>
-        <div class="links" id="group-links"></div>
-      </section>
-
-      <section>
-        <h2>各分类日历（ICS）</h2>
-        <div class="links" id="cat-links"></div>
-      </section>
 
       <section>
         <h2>自定义订阅</h2>
@@ -203,16 +168,36 @@
             </div>
           </div>
         </div>
-        <p class="note" id="cal-tip">
-          订阅条目时间取正文活动日；有开场/开演则显示在当天具体钟点（不是全天栏）。日历 App 常缓存旧
-          ICS，请删旧订阅后用带 <code>?v=</code> 的新链接重新添加。
-        </p>
-        <p class="note">
-          说明：先勾选组合与分类，「自定义订阅」链接会立刻按
-          <strong>组合 ∩ 分类</strong> 过滤（维内多选为
-          OR）。下方各组合/分类快捷链接是单维订阅；未选中的会变暗。无活动日的稿不进日历，仍在
-          <code>/data/news.json</code>。
-        </p>
+        <p id="filter-status">当前筛选：加载中…</p>
+      </section>
+
+      <section>
+        <h2>选择组合</h2>
+        <div class="cats" id="groups"></div>
+        <div class="actions">
+          <button type="button" id="select-all-groups">全选组合</button>
+          <button type="button" id="clear-all-groups">不限组合（全部）</button>
+        </div>
+      </section>
+
+      <section>
+        <h2>选择分类</h2>
+        <div class="cats" id="cats"></div>
+        <div class="actions">
+          <button type="button" id="select-all">全选分类</button>
+          <button type="button" id="clear-all">不限分类（全部）</button>
+        </div>
+        <p class="meta" id="stats">加载中…</p>
+      </section>
+
+      <section>
+        <h2>各组合日历（ICS）</h2>
+        <div class="links" id="group-links"></div>
+      </section>
+
+      <section>
+        <h2>各分类日历（ICS）</h2>
+        <div class="links" id="cat-links"></div>
       </section>
     </main>
     <script type="module" src="/subscribe.js"></script>

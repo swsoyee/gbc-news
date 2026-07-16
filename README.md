@@ -62,7 +62,7 @@ npx serve public
 
 - GitHub: https://github.com/swsoyee/gbc-news
 - Project Dashboard: https://github.com/users/swsoyee/projects/1
-- CI: GitHub Actions（`CI` workflow）
+- CI: GitHub Actions（`CI` + 定时 `Scrape`：每天日本时间 12:00 / 22:00）
 - 生产站点: https://gbc-news.netlify.app
 - Admin: https://app.netlify.com/projects/gbc-news
 

@@ -21,7 +21,6 @@ const catLinksEl = document.getElementById('cat-links')
 const groupLinksEl = document.getElementById('group-links')
 const statsEl = document.getElementById('stats')
 const filterStatusEl = document.getElementById('filter-status')
-const tipEl = document.getElementById('cal-tip')
 const rssUrlEl = document.getElementById('rss-url')
 const icsUrlEl = document.getElementById('ics-url')
 const rssOpen = document.getElementById('rss-open')
@@ -238,11 +237,6 @@ function refresh() {
   }
 
   renderStaticLinks(groups, categories)
-
-  if (tipEl) {
-    tipEl.textContent =
-      '上方勾选会立刻改写「自定义订阅」链接（组合×分类 AND）。未勾选某一维 = 该维全部。带时刻的条目在当天钟点，不在全天栏；请用带 ?v= 的链接重新订阅。'
-  }
 }
 
 async function copyText(text, button) {
