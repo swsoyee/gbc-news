@@ -2,7 +2,7 @@
 
 定时从官网抓取资讯，并向用户提供 **RSS** 与 **iCal** 订阅接口。
 
-当前已支持 [ガールズバンドクライ 公式 NEWS](https://girls-band-cry.com/news/)：**前 3 页测试抓取**、规则分类、网页点选订阅。
+当前已支持 [ガールズバンドクライ 公式 NEWS](https://girls-band-cry.com/news/)：全量分页抓取、规则分类、网页点选订阅；另合并 [FIRST RIFF](https://gbc-firstriff.com/) 资讯。
 
 ## 目标
 
@@ -17,7 +17,7 @@
 ```bash
 npm install
 npm test
-npm run scrape:gbc      # 抓取官网新闻前 3 页
+npm run scrape:gbc      # 抓取官网新闻全部分页（可用 GBC_MAX_PAGES=3 限制）
 npm run build:feeds     # 生成 public/feeds/*.xml|*.ics 与 public/data/news.json
 npm run build:function  # 打包 Netlify Function
 ```

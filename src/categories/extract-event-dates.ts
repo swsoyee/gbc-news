@@ -136,7 +136,10 @@ export function extractTimeSlots(block: string): TimeSlot[] {
   const slots: TimeSlot[] = []
   const seen = new Set<string>()
 
-  const pushSlot = (startTime: string, endTime?: string) => {
+  const pushSlot = (hour: number, minute: number, endHour?: number, endMinute?: number) => {
+    const startTime = tryHhmm(hour, minute)
+    if (!startTime) return
+    const endTime = endHour != null && endMinute != null ? tryHhmm(endHour, endMinute) : undefined
     const key = `${startTime}|${endTime ?? ''}`
     if (seen.has(key)) return
     seen.add(key)
@@ -148,44 +151,43 @@ export function extractTimeSlots(block: string): TimeSlot[] {
     /(?:開場|OPEN)\s*[/／]\s*(?:開演|START)\s*[：:]\s*(\d{1,2})\s*[:：]\s*(\d{2})\s*[/／]\s*(\d{1,2})\s*[:：]\s*(\d{2})/gi,
   )) {
     matchedDoorShow = true
-    pushSlot(hhmm(Number(m[3]), Number(m[4])))
+    pushSlot(Number(m[3]), Number(m[4]))
   }
 
   for (const m of block.matchAll(
     /(?:開場|OPEN)\s*[：:]?\s*(\d{1,2})\s*[:：]\s*(\d{2})\s*[/／]\s*(?:開演|START)\s*[：:]?\s*(\d{1,2})\s*[:：]\s*(\d{2})/gi,
   )) {
     matchedDoorShow = true
-    pushSlot(hhmm(Number(m[3]), Number(m[4])))
+    pushSlot(Number(m[3]), Number(m[4]))
   }
 
   if (!matchedDoorShow) {
     for (const m of block.matchAll(/(?:開演|START)\s*[：:]?\s*(\d{1,2})\s*[:：]\s*(\d{2})/gi)) {
-      pushSlot(hhmm(Number(m[1]), Number(m[2])))
+      pushSlot(Number(m[1]), Number(m[2]))
     }
   }
 
   for (const m of block.matchAll(
     /(\d{1,2})\s*[:：]\s*(\d{2})\s*[〜～~－-]\s*(\d{1,2})\s*[:：]\s*(\d{2})/g,
   )) {
-    pushSlot(hhmm(Number(m[1]), Number(m[2])), hhmm(Number(m[3]), Number(m[4])))
+    pushSlot(Number(m[1]), Number(m[2]), Number(m[3]), Number(m[4]))
   }
 
   // 日)18:00〜 / 土)18:00
   for (const m of block.matchAll(/[日)）]\s*(\d{1,2})\s*[:：]\s*(\d{2})\s*[〜～~]?/g)) {
-    pushSlot(hhmm(Number(m[1]), Number(m[2])))
+    pushSlot(Number(m[1]), Number(m[2]))
   }
 
   // 独立「18:00〜」
   for (const m of block.matchAll(/(?:^|[^\d/:])(\d{1,2})\s*[:：]\s*(\d{2})\s*[〜～~]/g)) {
-    pushSlot(hhmm(Number(m[1]), Number(m[2])))
+    pushSlot(Number(m[1]), Number(m[2]))
   }
 
   // 20時～ / 13時 / 20時30分（避开「営業日」等已清理块）
   for (const m of block.matchAll(/(\d{1,2})\s*時(?:\s*(\d{2})\s*分)?\s*[〜～~]?/g)) {
     const hour = Number(m[1])
-    if (hour > 23) continue
     const minute = m[2] != null ? Number(m[2]) : 0
-    pushSlot(hhmm(hour, minute))
+    pushSlot(hour, minute)
   }
 
   return slots
@@ -297,9 +299,8 @@ function ymd(year: number, month: number, day: number): string {
   return `${year}-${m}-${d}`
 }
 
-function hhmm(hour: number, minute: number): string {
-  if (hour < 0 || hour > 23 || minute < 0 || minute > 59) {
-    throw new Error(`Invalid time: ${hour}:${minute}`)
-  }
+function tryHhmm(hour: number, minute: number): string | null {
+  if (!Number.isInteger(hour) || !Number.isInteger(minute)) return null
+  if (hour < 0 || hour > 23 || minute < 0 || minute > 59) return null
   return `${String(hour).padStart(2, '0')}:${String(minute).padStart(2, '0')}`
 }

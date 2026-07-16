@@ -13,11 +13,12 @@ export function absoluteUrl(href: string, base = 'https://girls-band-cry.com'): 
 }
 
 export function postIdFromUrl(url: string): string {
-  const match = /post-(\d+)\.html(?:[?#].*)?$/.exec(url)
+  // 常规 post-123.html；偶发 post-265-2.html
+  const match = /\/(?:news\/)?(post-[\w-]+)\.html(?:[?#].*)?$/i.exec(url)
   if (!match) {
     throw new Error(`Cannot extract post id from url: ${url}`)
   }
-  return `post-${match[1]}`
+  return match[1]!.toLowerCase()
 }
 
 export function listPageUrl(page: number): string {

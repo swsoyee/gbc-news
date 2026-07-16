@@ -1,0 +1,28 @@
+{
+  "id": "scrape-all-gbc-news",
+  "name": "scrape-all-gbc-news",
+  "title": "回溯抓取 gbc-news 全部分页",
+  "description": "将 girls-band-cry.com/news 从仅前3页扩展为全量分页抓取并重建 feeds",
+  "status": "in_progress",
+  "dev_type": null,
+  "scope": null,
+  "package": null,
+  "priority": "P2",
+  "creator": "InfinityLoop",
+  "assignee": "InfinityLoop",
+  "createdAt": "2026-07-16",
+  "completedAt": null,
+  "branch": null,
+  "base_branch": "main",
+  "worktree_path": null,
+  "commit": null,
+  "pr_url": null,
+  "subtasks": [],
+  "children": [],
+  "parent": null,
+  "relatedFiles": [],
+  "notes": "",
+  "meta": {
+    "github_issue_url": "https://github.com/swsoyee/gbc-news/issues/21"
+  }
+}

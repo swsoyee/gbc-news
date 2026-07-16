@@ -26,17 +26,23 @@ export function parseNewsList(html: string): GbcListEntry[] {
     const dateRaw = decodeHtml(stripTags(match[3] ?? '')).trim()
     if (!href || !title || !dateRaw) continue
 
-    const url = absoluteUrl(href)
-    const imageMatch = /<img[^>]+src="([^"]+)"/i.exec(match[0])
-    const imageUrl = imageMatch?.[1] ? absoluteUrl(imageMatch[1]) : undefined
+    try {
+      const url = absoluteUrl(href)
+      const imageMatch = /<img[^>]+src="([^"]+)"/i.exec(match[0])
+      const imageUrl = imageMatch?.[1] ? absoluteUrl(imageMatch[1]) : undefined
 
-    items.push({
-      id: postIdFromUrl(url),
-      title,
-      url,
-      publishedAt: parseGbcDate(dateRaw),
-      ...(imageUrl ? { imageUrl } : {}),
-    })
+      items.push({
+        id: postIdFromUrl(url),
+        title,
+        url,
+        publishedAt: parseGbcDate(dateRaw),
+        ...(imageUrl ? { imageUrl } : {}),
+      })
+    } catch (error) {
+      console.warn(
+        `[warn] skip list item href=${href}: ${error instanceof Error ? error.message : String(error)}`,
+      )
+    }
   }
 
   if (items.length === 0) {
