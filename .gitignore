@@ -11,3 +11,4 @@ coverage/
 .trellis/.runtime/
 .trellis/.current-task
 .trellis/hooks.local.json
+netlify/functions/feed.js

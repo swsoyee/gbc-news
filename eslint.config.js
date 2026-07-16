@@ -5,7 +5,16 @@ import tseslint from 'typescript-eslint'
 
 export default tseslint.config(
   {
-    ignores: ['node_modules/**', 'public/**', 'data/**', 'dist/**', '.trellis/**', '.cursor/**'],
+    ignores: [
+      'node_modules/**',
+      'public/**',
+      'data/**',
+      'dist/**',
+      '.trellis/**',
+      '.cursor/**',
+      'netlify/functions/feed.js',
+      'src/scrapers/**/fixtures/**',
+    ],
   },
   eslint.configs.recommended,
   ...tseslint.configs.recommended,

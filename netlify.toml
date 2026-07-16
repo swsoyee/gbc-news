@@ -6,8 +6,19 @@
 [build.environment]
   NODE_VERSION = "20"
 
+[[redirects]]
+  from = "/api/feed"
+  to = "/.netlify/functions/feed"
+  status = 200
+
 [[headers]]
   for = "/feeds/*"
+  [headers.values]
+    Cache-Control = "public, max-age=300"
+    Access-Control-Allow-Origin = "*"
+
+[[headers]]
+  for = "/data/*"
   [headers.values]
     Cache-Control = "public, max-age=300"
     Access-Control-Allow-Origin = "*"

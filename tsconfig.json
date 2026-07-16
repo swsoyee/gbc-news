@@ -17,6 +17,6 @@
     "rootDir": ".",
     "baseUrl": "."
   },
-  "include": ["src/**/*.ts", "scripts/**/*.ts", "tests/**/*.ts"],
-  "exclude": ["node_modules", "public", "data"]
+  "include": ["src/**/*.ts", "scripts/**/*.ts", "tests/**/*.ts", "netlify/functions/feed-entry.ts"],
+  "exclude": ["node_modules", "public", "data", "netlify/functions/feed.js"]
 }

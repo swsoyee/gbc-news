@@ -4,6 +4,11 @@ coverage
 .trellis
 .cursor
 package-lock.json
+netlify/functions/feed.js
+src/scrapers/**/fixtures/**
+data
+public/feeds
+public/data
 *.md
 !README.md
 !docs/**/*.md
