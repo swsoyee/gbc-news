@@ -2,10 +2,10 @@
 <rss version="2.0">
   <channel>
     <title>gbc-news · 曲目</title>
-    <link>https://gbc-news.example.com/</link>
+    <link>https://gbc-news.netlify.app/</link>
     <description>ガールズバンドクライ 公式ニュース（曲目）</description>
-    <lastBuildDate>Thu, 16 Jul 2026 11:10:08 GMT</lastBuildDate>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/music.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jul 2026 11:23:26 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.netlify.app/feeds/music.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>劇場版総集編「ガールズバンドクライ」【前編】青春狂走曲（初回限定版）/【後編】なぁ、未来。（初回限定版）特典CD楽曲の試聴動画を公開！</title>
       <link>https://girls-band-cry.com/news/post-487.html</link>

@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:gbc-news · 曲目
 BEGIN:VEVENT
 UID:post-487@gbc-news
-DTSTAMP:20260716T111008Z
+DTSTAMP:20260716T112326Z
 DTSTART:20260715T000000Z
 SUMMARY:劇場版総集編「ガールズバンドクライ」【前編】青春狂走曲（初回限定版）/【後編】なぁ、未来。（初回限定版）特典CD楽曲の試聴動画を公開！
 DESCRIPTION:劇場版総集編「ガールズバンドクライ」【前編】青春狂走曲（初回限定版）/【後編】なぁ、未来。（初回限定版）にそれぞれ付属する特典
@@ -17,7 +17,7 @@ CATEGORIES:music,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-464@gbc-news
-DTSTAMP:20260716T111008Z
+DTSTAMP:20260716T112326Z
 DTSTART:20260314T000000Z
 SUMMARY:『劇場版総集編 ガールズバンドクライ』「【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD] 2026年7
  月22日(水)発売決定！
@@ -29,7 +29,7 @@ CATEGORIES:live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-465@gbc-news
-DTSTAMP:20260716T111008Z
+DTSTAMP:20260716T112326Z
 DTSTART:20260314T000000Z
 SUMMARY:トゲナシトゲアリ アルバム「棘アリ」「棘ナシ」 完全生産限定アナログレコード盤 2026年8月19日(水)発売決定！
 DESCRIPTION:2024年にリリースされた2枚のアルバム「棘アリ」と「棘ナシ」がアナログレコード盤として同時リリースが決定！ 各ジャケット写真
@@ -40,7 +40,7 @@ CATEGORIES:live,music,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-455@gbc-news
-DTSTAMP:20260716T111008Z
+DTSTAMP:20260716T112326Z
 DTSTART:20260211T000000Z
 SUMMARY:トゲナシトゲアリ 『5th ONE-MAN LIVE “鳴動の刻”』[Blu-ray][DVD] 2026年3月11日(水)発売決定！
 DESCRIPTION:2025年2月7日(金)にパシフィコ横浜 国立大ホールにて開催された、トゲナシトゲアリ 5th ONE-MAN LIVE "鳴

@@ -2,10 +2,10 @@
 <rss version="2.0">
   <channel>
     <title>gbc-news · 周边</title>
-    <link>https://gbc-news.example.com/</link>
+    <link>https://gbc-news.netlify.app/</link>
     <description>ガールズバンドクライ 公式ニュース（周边）</description>
-    <lastBuildDate>Thu, 16 Jul 2026 11:10:08 GMT</lastBuildDate>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/goods.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jul 2026 11:23:26 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.netlify.app/feeds/goods.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>夏らしい新グッズ「トゲナシトゲアリ 甚平」が二次元コスパより登場！</title>
       <link>https://girls-band-cry.com/news/post-483.html</link>

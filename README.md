@@ -63,7 +63,8 @@ npx serve public
 - GitHub: https://github.com/swsoyee/gbc-news
 - Project Dashboard: https://github.com/users/swsoyee/projects/1
 - CI: GitHub Actions（`CI` workflow）
-- 部署目标: Netlify（仓库已含 `netlify.toml`，需在 Netlify 控制台连接本仓库）
+- 生产站点: https://gbc-news.netlify.app  
+- Admin: https://app.netlify.com/projects/gbc-news
 
 ## Trellis
 
