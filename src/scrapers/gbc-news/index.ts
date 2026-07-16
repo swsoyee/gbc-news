@@ -1,5 +1,6 @@
 import { classifyText } from '../../categories/classify.js'
 import type { NewsItem } from '../../models/item.js'
+import { extractEventSchedule } from '../../utils/event-time.js'
 import { fetchText } from '../../utils/http.js'
 import { parseNewsDetail } from './parse-detail.js'
 import { parseNewsList } from './parse-list.js'
@@ -32,15 +33,19 @@ export async function scrapeGbcNews(options: ScrapeGbcOptions = {}): Promise<New
     const detailHtml = await fetchHtml(entry.url)
     const detail = parseNewsDetail(detailHtml)
     const categories = classifyText(detail.title, detail.bodyText)
+    const publishedAt = detail.publishedAt || entry.publishedAt
+    const schedule = extractEventSchedule(detail.title, detail.bodyText, publishedAt)
 
     items.push({
       id: entry.id,
       title: detail.title || entry.title,
       url: entry.url,
-      publishedAt: detail.publishedAt || entry.publishedAt,
+      publishedAt,
       sourceId: GBC_SOURCE_ID,
       categories,
       summary: detail.summary,
+      ...(schedule?.eventAt ? { eventAt: schedule.eventAt } : {}),
+      ...(schedule?.eventEndAt ? { eventEndAt: schedule.eventEndAt } : {}),
       ...(entry.imageUrl ? { imageUrl: entry.imageUrl } : {}),
     })
 

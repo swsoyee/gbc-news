@@ -128,10 +128,13 @@ export function buildIcal(items: NewsItem[], meta: FeedMeta): string {
   ]
 
   for (const item of items) {
-    // 使用稳定时间戳，避免每次请求 DTSTAMP 变化导致订阅客户端不同步
-    const stamp = toIcsDateTimeUtc(item.publishedAt)
-    const startDate = toIcsDateValue(item.publishedAt)
-    const endDate = nextIcsDateValue(startDate)
+    if (!item.eventAt) continue
+
+    // 日历使用事件发生日，而非发稿日
+    const stamp = toIcsDateTimeUtc(item.eventAt)
+    const startDate = toIcsDateValue(item.eventAt)
+    const endSource = item.eventEndAt ?? item.eventAt
+    const endDate = nextIcsDateValue(toIcsDateValue(endSource))
     const summary = truncateIcs(icsText(item.title), 80)
     const description = truncateIcs(icsText(`${item.summary ?? item.title}\n${item.url}`), 200)
     const tags = item.categories.map(icsText).join(',')

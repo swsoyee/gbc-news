@@ -1,6 +1,11 @@
 import { buildIcal, buildRss } from '../../src/feeds/build.js'
 import { parseCategoryList } from '../../src/models/categories.js'
-import { assertNewsItem, filterItemsByCategories, type NewsItem } from '../../src/models/item.js'
+import {
+  assertNewsItem,
+  filterItemsByCategories,
+  filterItemsForCalendar,
+  type NewsItem,
+} from '../../src/models/item.js'
 
 interface Snapshot {
   items: NewsItem[]
@@ -34,20 +39,29 @@ export async function handler(event: {
     }
     for (const item of snapshot.items) assertNewsItem(item)
 
-    const filtered = filterItemsByCategories(snapshot.items, categories)
+    const byCategory = filterItemsByCategories(snapshot.items, categories)
+    const isIcs = format === 'ics' || format === 'ical'
+    const items = isIcs
+      ? filterItemsForCalendar(byCategory).sort((a, b) =>
+          (a.eventAt ?? '').localeCompare(b.eventAt ?? ''),
+        )
+      : byCategory
+
     const label = categories == null ? '全部' : categories.join(',')
     const query = new URLSearchParams()
-    query.set('format', format === 'ics' ? 'ics' : 'rss')
+    query.set('format', isIcs ? 'ics' : 'rss')
     if (categories) query.set('categories', categories.join(','))
 
     const meta = {
       title: `gbc-news · ${label}`,
       homeUrl: `${origin}/`,
       feedUrl: `${origin}/api/feed?${query.toString()}`,
-      description: `ガールズバンドクライ 公式ニュース（${label}）`,
+      description: isIcs
+        ? `ガールズバンドクライ イベント（${label}）`
+        : `ガールズバンドクライ 公式ニュース（${label}）`,
     }
 
-    if (format === 'ics' || format === 'ical') {
+    if (isIcs) {
       return {
         statusCode: 200,
         headers: {
@@ -55,7 +69,7 @@ export async function handler(event: {
           'content-disposition': 'inline; filename="gbc-news.ics"',
           'cache-control': 'public, max-age=300',
         },
-        body: buildIcal(filtered, meta),
+        body: buildIcal(items, meta),
       }
     }
 
@@ -65,7 +79,7 @@ export async function handler(event: {
         'content-type': 'application/rss+xml; charset=utf-8',
         'cache-control': 'public, max-age=300',
       },
-      body: buildRss(filtered, meta),
+      body: buildRss(items, meta),
     }
   } catch (error) {
     return jsonError(500, error instanceof Error ? error.message : 'unknown error')

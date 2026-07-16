@@ -29,20 +29,33 @@ describe('feeds', () => {
     expect(rss).toContain('<category>live</category>')
   })
 
-  it('生成兼容日历客户端的全天 iCal', () => {
-    const ics = buildIcal(items, meta)
+  it('生成兼容日历客户端的全天 iCal（使用事件发生日）', () => {
+    const ics = buildIcal(
+      [
+        {
+          ...items[0]!,
+          eventAt: '2026-09-06T00:00:00.000Z',
+          eventEndAt: '2026-09-06T00:00:00.000Z',
+        },
+      ],
+      meta,
+    )
     expect(ics).toContain('BEGIN:VCALENDAR')
     expect(ics).toContain('UID:post-1@gbc-news')
-    expect(ics).toContain('DTSTART;VALUE=DATE:20260701')
-    expect(ics).toContain('DTEND;VALUE=DATE:20260702')
+    expect(ics).toContain('DTSTART;VALUE=DATE:20260906')
+    expect(ics).toContain('DTEND;VALUE=DATE:20260907')
     expect(ics).toContain('CATEGORIES:live')
     expect(ics).toContain('URL;VALUE=URI:')
     expect(ics).toContain('STATUS:CONFIRMED')
+
+    // 无 eventAt 的条目不应出现在日历中
+    expect(buildIcal(items, meta)).not.toContain('UID:post-1@gbc-news')
 
     // 日文长标题应按 UTF-8 字节折行，不能整行超长
     const longTitleItem: NewsItem = {
       ...items[0]!,
       id: 'post-long',
+      eventAt: '2026-09-06T00:00:00.000Z',
       title:
         '劇場版総集編「ガールズバンドクライ」【前編】青春狂走曲（初回限定版）/【後編】なぁ、未来。（初回限定版）特典CD楽曲の試聴動画を公開！',
     }
