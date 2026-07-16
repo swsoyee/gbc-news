@@ -1,66 +1,74 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//gbc-news//JP
+PRODID:-//gbc-news//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-WR-CALNAME:gbc-news · Live
+NAME:gbc-news · Live
 BEGIN:VEVENT
 UID:post-483@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260702T000000Z
 DTSTART;VALUE=DATE:20260702
 DTEND;VALUE=DATE:20260703
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:夏らしい新グッズ「トゲナシトゲアリ 甚平」が二
  次元コスパより登場！
 DESCRIPTION:通気性・吸水性が抜群。手軽に羽織れる夏らし
- い和装ウェア🎐 トゲナシトゲアリのロゴをデザインし
- た 「トゲナシトゲアリ 甚平」が二次元コスパから登場
- です！ 「トゲナシトゲアリ 甚平」は、肌に張り付きに
- くく、通気性に優れたサラッと感のある「しじら織り
- 」を採用。ルームウェアとしてリラックスしたい時や
- 夕涼みや散歩などでの着用もおすすめなアイテムです
- ！ 上着1か所、パ
-URL:https://girls-band-cry.com/news/post-483.html
+ い和装ウェア トゲナシトゲアリのロゴをデザインした 
+ 「トゲナシトゲアリ 甚平」が二次元コスパから登場で
+ す！ 「トゲナシトゲアリ 甚平」は、肌に張り付きにく
+ く、通気性に優れたサラッと感のある「しじら織り」
+ を採用。ルームウェアとしてリラックスしたい時や夕
+ 涼みや散歩などでの着用もおすすめなアイテムです！ 
+ 上着1か所、パ\nhttps://girls-band-…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-483.html
 CATEGORIES:live,goods,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-480@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260617T000000Z
 DTSTART;VALUE=DATE:20260617
 DTEND;VALUE=DATE:20260618
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA TOUR 2026
   チケット発売情報公開！
 DESCRIPTION:トゲナシトゲアリ初の東南アジアツアー「TOGENA
  SHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026」のチケット
  発売情報が公開となりました。 TOGENASHI TOGEARI “凛音の
  理” SOUTHEAST ASIA TOUR 2026 ▼バンコク TOGENASHI TOGEARI “Rinne
-  no Kotowar
-URL:https://girls-band-cry.com/news/post-480.html
+  no Kotowar\nhttps://girls-ban…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
 CATEGORIES:live
 END:VEVENT
 BEGIN:VEVENT
 UID:post-476@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260601T000000Z
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:トゲナシトゲアリ「ASUTO MUSIC PARK 2026」に出演決定
  ！
 DESCRIPTION:仙台の副都心 あすと長町にて開催 明日が色づ
  く都市型音楽フェス ASUTO MUSIC PARK 2026にトゲナシトゲア
  リの出演が決定しました！ ■開催日時 2026年9月5日(土)/
  6日(日) ※トゲナシトゲアリの出演は9月6日(日) ■開催
- 場所 ゼビオアリーナ仙台/杜の広場 詳細は こちら
-URL:https://girls-band-cry.com/news/post-476.html
+ 場所 ゼビオアリーナ仙台/杜の広場 詳細は こちら\nhttps
+ ://girls-band-cry.com/news/post-476.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-476.html
 CATEGORIES:live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-475@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260520T000000Z
 DTSTART;VALUE=DATE:20260520
 DTEND;VALUE=DATE:20260521
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:トゲナシトゲアリ「ROCK IN JAPAN FESTIVAL 2026」 に出演
  決定！
 DESCRIPTION:「ROCK IN JAPAN FESTIVAL 2026」のトゲナシトゲアリの
@@ -68,32 +76,34 @@ DESCRIPTION:「ROCK IN JAPAN FESTIVAL 2026」のトゲナシトゲアリの
  日)／19日(土)・20日(日)・21日(月・祝) ■トゲナシトゲア
  リ出演日 2026年9月12日(土) ■会場 千葉市蘇我スポーツ
  公園（千葉県千葉市） ▶詳細は コチラ X： https://x.com/r
- ock
-URL:https://girls-band-cry.com/news/post-475.html
+ ock\nhttps://girls-ban…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-475.html
 CATEGORIES:live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-474@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260508T000000Z
 DTSTART;VALUE=DATE:20260508
 DTEND;VALUE=DATE:20260509
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:トゲナシトゲアリ「FEST. INAZUMA 2026」に出演決定！
 DESCRIPTION:2026年9月19日(土)、20日(日)、21日(月・祝)の3日間
  、滋賀県草津市烏丸半島芝生広場で開催される 「FEST. I
  NAZUMA 2026」にトゲナシトゲアリの出演が決定しました！
   トゲナシトゲアリは9月19日(土)の出演になります。 ＜
  第1弾出演アーティスト＞ (50音順) ▼9月19日(土) GENERATION
- S T.M.Revolution
-URL:https://girls-band-cry.com/news/post-474.html
+ S T.M.Revolution\nhttps://girls-ban…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-474.html
 CATEGORIES:live,goods,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-473@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260501T000000Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:ガールズバンドクライ Special LIVE “赤色の響祭” 
  開催決定！
 DESCRIPTION:ガールズバンドクライ Special LIVE “赤色の響祭
@@ -101,16 +111,18 @@ DESCRIPTION:ガールズバンドクライ Special LIVE “赤色の響祭
  ・祝） ■会場 ぴあアリーナMM チケット最速先行抽選申
  し込み券は、2026年7月22日（水）発売 劇場版総集編 ガ
  ールズバンドクライ 【前編】 青春狂走曲 Blu-ray & DVD 劇
- 場版総集編 ガールズバンドクライ 【後編】 なぁ、未
-URL:https://girls-band-cry.com/news/post-473.html
+ 場版総集編 ガールズバンドクライ 【後編】 なぁ、未\n
+ https://girls-ban…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-473.html
 CATEGORIES:live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-467@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260408T000000Z
 DTSTART;VALUE=DATE:20260408
 DTEND;VALUE=DATE:20260409
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:4月22日(水)・4月23日(木) ガルクラプロジェクト始
  動3周年記念『劇場版総集編ガールズバンドクライ』前
  後編二夜連続上映 実施決定！
@@ -119,16 +131,18 @@ DESCRIPTION:2026年4月24日(金)は、「ガルクラプロジェクト始
  html この記念すべき日を前に『劇場版総集編 ガールズ
  バンドクライ 【前編】 青春狂走曲』『劇場版総集編 
  ガールズバンドクライ 【後編】 なぁ、未来。』の二夜
- 連続上映の実施が決定しました！ ＜上映作品
-URL:https://girls-band-cry.com/news/post-467.html
+ 連続上映の実施が決定しました！ ＜上映作品\nhttps://gir
+ ls-ban…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-467.html
 CATEGORIES:live,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-464@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260314T000000Z
 DTSTART;VALUE=DATE:20260314
 DTEND;VALUE=DATE:20260315
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:『劇場版総集編 ガールズバンドクライ』「【前編
  】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD
  ] 2026年7月22日(水)発売決定！
@@ -138,16 +152,18 @@ DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
  ッケージ化が決定！ 発売日は共に7/22(水)、初回限定版
  はこちらも手島nariによる新規描きおろしジャケットが
  起用される。ブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画 
-URL:https://girls-band-cry.com/news/post-464.html
+ して配布された 手島nari描き下ろし漫画 \nhttps://girls-ban
+ …
+URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-465@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260314T000000Z
 DTSTART;VALUE=DATE:20260314
 DTEND;VALUE=DATE:20260315
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:トゲナシトゲアリ アルバム「棘アリ」「棘ナシ」
   完全生産限定アナログレコード盤 2026年8月19日(水)発売
  決定！
@@ -157,16 +173,18 @@ DESCRIPTION:2024年にリリースされた2枚のアルバム「棘アリ
  ろしによりCDから一新。パッケージには先着特典として
  この各ジャケット写真を用いたステッカーも封入しま
  す！ 2枚ともに完全生産限定のため、確実に手に入れた
- い場合は5月24日(日)までのご予約を忘れずに。 ▶「棘
-URL:https://girls-band-cry.com/news/post-465.html
+ い場合は5月24日(日)までのご予約を忘れずに。 ▶「棘\n
+ https://girls-ban…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-465.html
 CATEGORIES:live,music,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-466@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260314T000000Z
 DTSTART;VALUE=DATE:20260314
 DTEND;VALUE=DATE:20260315
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:トゲナシトゲアリ TOUR 2026 FINAL “拍動の未来 -ENCORE
  -” 開催決定！
 DESCRIPTION:トゲナシトゲアリ TOUR 2026 FINAL “拍動の未来 -EN
@@ -174,35 +192,37 @@ DESCRIPTION:トゲナシトゲアリ TOUR 2026 FINAL “拍動の未来 -EN
  5月1日（金） OPEN 18:00 / START 19:00 東京ガーデンシアター 
  ■チケット金額 グッズ付き指定席 15\,400円（税込） 指
  定席 11\,000円（税込） ※グッズは「トゲナシトゲアリ T
- OUR 2026
-URL:https://girls-band-cry.com/news/post-466.html
+ OUR 2026\nhttps://girls-b…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-466.html
 CATEGORIES:live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-462@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260306T000000Z
 DTSTART;VALUE=DATE:20260306
 DTEND;VALUE=DATE:20260307
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来” 3月1
  4日（土）Zepp DiverCity（TOKYO） 東京公演 ツアーファイナ
- ル 機材席解放につき１階スタンディングの追加販売が
- 決定！
+ ル 機材席…
 DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来” 2
  026年3月14日(土)Zepp DiverCity（TOKYO） 東京公演 ツアーファ
  イナル 機材席開放につき１階スタンディングの追加販
  売が決定しました！ 予定枚数に達し次第、販売終了と
  なりますのでご了承ください。 ■販売開始日時：2026年
- 3月7日(土)18:00〜 ※先着順のため、予定枚
-URL:https://girls-band-cry.com/news/post-462.html
+ 3月7日(土)18:00〜 ※先着順のため、予定枚\nhttps://girls-ban
+ …
+URL;VALUE=URI:https://girls-band-cry.com/news/post-462.html
 CATEGORIES:live
 END:VEVENT
 BEGIN:VEVENT
 UID:post-460@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260302T000000Z
 DTSTART;VALUE=DATE:20260302
 DTEND;VALUE=DATE:20260303
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:トゲナシトゲアリ 「5th ONE-MAN LIVE “鳴動の刻”」
  映像商品 発売延期のお知らせ
 DESCRIPTION:平素より格別のご愛顧を賜り、誠にありがとう
@@ -211,16 +231,18 @@ DESCRIPTION:平素より格別のご愛顧を賜り、誠にありがとう
  映像商品につきまして、制作上の都合により、発売日
  を延期させていただくこととなりました。 本商品を楽
  しみにお待ちいただいております皆様には、多大なる
- ご迷惑をおかけいたしますこと、心よりお
-URL:https://girls-band-cry.com/news/post-460.html
+ ご迷惑をおかけいたしますこと、心よりお\nhttps://girls-b
+ an…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-460.html
 CATEGORIES:live,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-454@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260216T000000Z
 DTSTART;VALUE=DATE:20260216
 DTEND;VALUE=DATE:20260217
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”愛知
  公演 機材席解放につき2階指定席の追加販売が決定！
 DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来” 2
@@ -229,16 +251,17 @@ DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来” 2
  予定枚数に達し次第、販売終了となりますのでご了承
  ください。 ■販売開始日時：2026年2月18日(水)20:00〜 ※
  先着順のため、予定枚数に達し次第終了になります。 
- ■受付URL：
-URL:https://girls-band-cry.com/news/post-454.html
+ ■受付URL：\nhttps://girls-ban…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-454.html
 CATEGORIES:live
 END:VEVENT
 BEGIN:VEVENT
 UID:post-456@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260211T000000Z
 DTSTART;VALUE=DATE:20260211
 DTEND;VALUE=DATE:20260212
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:トゲナシトゲアリ 『5th ONE-MAN LIVE "鳴動の刻"』発
  売記念オンライントーク配信開催決定！
 DESCRIPTION:トゲナシトゲアリ『5th ONE-MAN LIVE "鳴動の刻"』
@@ -246,55 +269,59 @@ DESCRIPTION:トゲナシトゲアリ『5th ONE-MAN LIVE "鳴動の刻"』
  の開催が決定！ リミスタにて対象商品 3月11 日発売ト
  ゲナシトゲアリ『5th ONE-MAN LIVE "鳴動の刻"』をご購入い
  ただいたお客様に『5th ONE-MAN LIVE "鳴動の刻"』のジャケ
- ット絵柄を使用したカードを商品と同梱でお届
-URL:https://girls-band-cry.com/news/post-456.html
+ ット絵柄を使用したカードを商品と同梱でお届\nhttps://g
+ irls-ban…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-456.html
 CATEGORIES:live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-455@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260211T000000Z
 DTSTART;VALUE=DATE:20260211
 DTEND;VALUE=DATE:20260212
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:トゲナシトゲアリ 『5th ONE-MAN LIVE “鳴動の刻”』[
  Blu-ray][DVD] 2026年3月11日(水)発売決定！
 DESCRIPTION:2025年2月7日(金)にパシフィコ横浜 国立大ホール
  にて開催された、トゲナシトゲアリ 5th ONE-MAN LIVE "鳴動
  の刻" が映像商品化されることが決定！ 2026年3月11日(水
  ) Release →2026年3月25日(水) Release ▼発売日延期につきま
- して https://girls-band-cry.com/news/post-4
-URL:https://girls-band-cry.com/news/post-455.html
+ して https://girls-band-cry.com/news/post-4\nhttps://girls-ban…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-455.html
 CATEGORIES:live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-458@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260211T000000Z
 DTSTART;VALUE=DATE:20260211
 DTEND;VALUE=DATE:20260212
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:「CON-CON HONG KONG 2026」出演決定！
-DESCRIPTION:🎸香港で開催されるイベント 「CON-CON HONG KONG 2
- 026」 Music Festival Day 1に #トゲナシトゲアリ 出演決定🎉 
- 📅2026年4月4日-5日 📍AsiaWorld-Expo 🔗詳細 https://con-con.asi
- a/en/klook20260210.aspx
-URL:https://girls-band-cry.com/news/post-458.html
+DESCRIPTION:香港で開催されるイベント 「CON-CON HONG KONG 2026
+ 」 Music Festival Day 1に #トゲナシトゲアリ 出演決定 2026年
+ 4月4日-5日 AsiaWorld-Expo 詳細 https://con-con.asia/en/klook20260210.
+ aspx\nhttps://girls-band-cry.com/news/post-458.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-458.html
 CATEGORIES:live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-453@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260129T000000Z
 DTSTART;VALUE=DATE:20260129
 DTEND;VALUE=DATE:20260130
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:RAISE A SUILEN ×トゲナシトゲアリ「RAISE MY CATHARSIS」
- 同時視聴スペース配信が決定📢
+ 同時視聴スペース配信が決定
 DESCRIPTION:RAISE A SUILEN ×トゲナシトゲアリ 「RAISE MY CATHARSIS
  」 同時視聴スペース配信の開催が決定しました！ ■日
  時 2月2日(月)20時～ ■出演 トゲナシトゲアリ（理名・
  夕莉・朱李） RAISE A SUILEN（夏芽・倉知玲鳳） ガールズ
  バンドクライ公式X（ @girlsbandcry ） バンドリ！公式X（ @
- bang_dr
-URL:https://girls-band-cry.com/news/post-453.html
+ bang_dr\nhttps://girls-ban…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-453.html
 CATEGORIES:live,goods,event
 END:VEVENT
 END:VCALENDAR

@@ -1,15 +1,19 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//gbc-news//JP
+PRODID:-//gbc-news//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-WR-CALNAME:gbc-news · 媒体
+NAME:gbc-news · 媒体
 BEGIN:VEVENT
 UID:post-485@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260715T000000Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:劇場版総集編「ガールズバンドクライ」【前編】
  青春狂走曲（初回限定版）/【後編】なぁ、未来。（初
  回限定版）豪華ブックレットのスペシャルインタビュ
@@ -19,34 +23,36 @@ DESCRIPTION:劇場版総集編「ガールズバンドクライ」【前編
  初回限定版）豪華ブックレットのスペシャルインタビ
  ュー対象者を公開いたします！ ●お問い合わせ UNIVERSAL
   MUSIC STORE カスタマーサポート https://store-annex.universal-mus
- ic.co.jp/InquiryInput.
-URL:https://girls-band-cry.com/news/post-485.html
+ ic.co.jp/InquiryInput.\nhttps://girls-ban…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-485.html
 CATEGORIES:cinema,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-468@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260406T000000Z
 DTSTART;VALUE=DATE:20260406
 DTEND;VALUE=DATE:20260407
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:TVアニメ『ガールズバンドクライ』 放送２周年記
  念フォロー＆リポストキャンペーン開催！
 DESCRIPTION:TVアニメ『ガールズバンドクライ』 放送２周年
  を記念して 公式Xにてフォロー＆リポストキャンペーン
  を開催！ ご参加いただいた方の中から抽選で30名様にTV
  アニメ『ガールズバンドクライ』 キービジュアルポス
- ターをプレゼント🎁 【開催期間】 2026年4月13日(月) 23:5
- 9まで 【参加方法】 ①X（旧Twitter）の ＠girlsbandcry をフ
- ォ
-URL:https://girls-band-cry.com/news/post-468.html
+ ターをプレゼント 【開催期間】 2026年4月13日(月) 23:59ま
+ で 【参加方法】 ①X（旧Twitter）の ＠girlsbandcry をフォ\n
+ https://girls-band-…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-468.html
 CATEGORIES:event,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-464@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260314T000000Z
 DTSTART;VALUE=DATE:20260314
 DTEND;VALUE=DATE:20260315
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:『劇場版総集編 ガールズバンドクライ』「【前編
  】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD
  ] 2026年7月22日(水)発売決定！
@@ -56,16 +62,18 @@ DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
  ッケージ化が決定！ 発売日は共に7/22(水)、初回限定版
  はこちらも手島nariによる新規描きおろしジャケットが
  起用される。ブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画 
-URL:https://girls-band-cry.com/news/post-464.html
+ して配布された 手島nari描き下ろし漫画 \nhttps://girls-ban
+ …
+URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-457@gbc-news
-DTSTAMP:20260716T113657Z
+DTSTAMP:20260210T000000Z
 DTSTART;VALUE=DATE:20260210
 DTEND;VALUE=DATE:20260211
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 SUMMARY:『劇場版総集編ガールズバンドクライ』【配信決
  定＆TV放送２周年記念】メモリアルグッズ購入キャンペ
  ーン
@@ -75,8 +83,8 @@ DESCRIPTION:『劇場版総集編ガールズバンドクライ』前編・
  て購入版・レンタル版が視聴できるようになります！ 
  配信決定＆TVアニメ２周年記念を記念して、 「劇場版
  総集編ガールズバンドクライ 青春狂走曲（前編）」、 
- 「劇場版総集編ガールズバンドクライ
-URL:https://girls-band-cry.com/news/post-457.html
+ 「劇場版総集編ガールズバンドクライ\nhttps://girls-ban…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-457.html
 CATEGORIES:goods,event,cinema,media
 END:VEVENT
 END:VCALENDAR

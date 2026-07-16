@@ -52,6 +52,7 @@ export async function handler(event: {
         statusCode: 200,
         headers: {
           'content-type': 'text/calendar; charset=utf-8',
+          'content-disposition': 'inline; filename="gbc-news.ics"',
           'cache-control': 'public, max-age=300',
         },
         body: buildIcal(filtered, meta),

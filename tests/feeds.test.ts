@@ -36,6 +36,8 @@ describe('feeds', () => {
     expect(ics).toContain('DTSTART;VALUE=DATE:20260701')
     expect(ics).toContain('DTEND;VALUE=DATE:20260702')
     expect(ics).toContain('CATEGORIES:live')
+    expect(ics).toContain('URL;VALUE=URI:')
+    expect(ics).toContain('STATUS:CONFIRMED')
 
     // 日文长标题应按 UTF-8 字节折行，不能整行超长
     const longTitleItem: NewsItem = {

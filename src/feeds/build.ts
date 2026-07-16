@@ -76,11 +76,14 @@ function foldIcs(line: string): string {
 
 function icsText(value: string): string {
   return value
+    .replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/gu, '') // 去掉 emoji，提升日历兼容性
     .replace(/\\/g, '\\\\')
     .replace(/;/g, '\\;')
     .replace(/,/g, '\\,')
     .replace(/\r\n/g, '\\n')
     .replace(/\n/g, '\\n')
+    .replace(/\s+/g, ' ')
+    .trim()
 }
 
 function toIcsDateTimeUtc(iso: string): string {
@@ -106,20 +109,31 @@ function nextIcsDateValue(yyyymmdd: string): string {
   return `${y}${m}${d}`
 }
 
+function truncateIcs(value: string, maxChars: number): string {
+  if (value.length <= maxChars) return value
+  return `${value.slice(0, Math.max(0, maxChars - 1))}…`
+}
+
 export function buildIcal(items: NewsItem[], meta: FeedMeta): string {
   const lines = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//gbc-news//JP',
+    'PRODID:-//gbc-news//EN',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
+    'X-PUBLISHED-TTL:PT6H',
+    'REFRESH-INTERVAL;VALUE=DURATION:PT6H',
     foldIcs(`X-WR-CALNAME:${icsText(meta.title)}`),
+    foldIcs(`NAME:${icsText(meta.title)}`),
   ]
 
   for (const item of items) {
-    const stamp = toIcsDateTimeUtc(new Date().toISOString())
+    // 使用稳定时间戳，避免每次请求 DTSTAMP 变化导致订阅客户端不同步
+    const stamp = toIcsDateTimeUtc(item.publishedAt)
     const startDate = toIcsDateValue(item.publishedAt)
     const endDate = nextIcsDateValue(startDate)
+    const summary = truncateIcs(icsText(item.title), 80)
+    const description = truncateIcs(icsText(`${item.summary ?? item.title}\n${item.url}`), 200)
     const tags = item.categories.map(icsText).join(',')
 
     lines.push('BEGIN:VEVENT')
@@ -128,10 +142,11 @@ export function buildIcal(items: NewsItem[], meta: FeedMeta): string {
     lines.push(`DTSTART;VALUE=DATE:${startDate}`)
     lines.push(`DTEND;VALUE=DATE:${endDate}`)
     lines.push('TRANSP:TRANSPARENT')
-    lines.push(foldIcs(`SUMMARY:${icsText(item.title)}`))
-    lines.push(foldIcs(`DESCRIPTION:${icsText(item.summary ?? item.title)}`))
-    lines.push(foldIcs(`URL:${item.url}`))
-    lines.push(foldIcs(`CATEGORIES:${tags}`))
+    lines.push('STATUS:CONFIRMED')
+    lines.push(foldIcs(`SUMMARY:${summary}`))
+    lines.push(foldIcs(`DESCRIPTION:${description}`))
+    lines.push(foldIcs(`URL;VALUE=URI:${item.url}`))
+    if (tags) lines.push(foldIcs(`CATEGORIES:${tags}`))
     lines.push('END:VEVENT')
   }
 

@@ -10,6 +10,7 @@ const CATEGORIES = [
 
 const catsEl = document.getElementById('cats')
 const statsEl = document.getElementById('stats')
+const tipEl = document.getElementById('cal-tip')
 const rssUrlEl = document.getElementById('rss-url')
 const icsUrlEl = document.getElementById('ics-url')
 const rssOpen = document.getElementById('rss-open')
@@ -50,24 +51,50 @@ function selectedCategories() {
   return [...catsEl.querySelectorAll('input:checked')].map((input) => input.value)
 }
 
-function buildFeedUrl(format, categories) {
-  const url = new URL('/api/feed', window.location.origin)
-  url.searchParams.set('format', format)
-  if (categories.length > 0) {
-    url.searchParams.set('categories', categories.join(','))
+function buildFeedUrls(categories) {
+  const origin = window.location.origin
+  // Apple / Google 对静态 .ics 订阅更稳；全选或未选 → all；单选 → 分类静态文件
+  if (categories.length === 0 || categories.length === CATEGORIES.length) {
+    return {
+      rss: `${origin}/feeds/all.xml`,
+      ics: `${origin}/feeds/all.ics`,
+      mode: 'static-all',
+    }
   }
-  return url.toString()
+  if (categories.length === 1) {
+    const id = categories[0]
+    return {
+      rss: `${origin}/feeds/${id}.xml`,
+      ics: `${origin}/feeds/${id}.ics`,
+      mode: 'static-one',
+    }
+  }
+  const rss = new URL('/api/feed', origin)
+  rss.searchParams.set('format', 'rss')
+  rss.searchParams.set('categories', categories.join(','))
+  const ics = new URL('/api/feed', origin)
+  ics.searchParams.set('format', 'ics')
+  ics.searchParams.set('categories', categories.join(','))
+  return { rss: rss.toString(), ics: ics.toString(), mode: 'api-multi' }
 }
 
 function refresh() {
   const categories = selectedCategories()
-  const rss = buildFeedUrl('rss', categories)
-  const ics = buildFeedUrl('ics', categories)
+  const { rss, ics, mode } = buildFeedUrls(categories)
   rssUrlEl.textContent = rss
   icsUrlEl.textContent = ics
   rssOpen.href = rss
-  const webcal = ics.replace(/^https:/, 'webcal:').replace(/^http:/, 'webcal:')
-  icsOpen.href = webcal
+  icsOpen.href = ics.replace(/^https:/, 'webcal:').replace(/^http:/, 'webcal:')
+
+  if (tipEl) {
+    if (mode === 'api-multi') {
+      tipEl.textContent =
+        '多分类组合目前走动态链接；若日历仍空白，请改用「全选」生成的 /feeds/all.ics，或只选一个分类。事件按新闻发布日显示，请翻到 6–7 月查看。'
+    } else {
+      tipEl.textContent =
+        '日历事件按官网新闻的发布日显示（全天）。当前数据多在 2026年6–7月，请翻到那些日期；今天若无新稿会是空的。'
+    }
+  }
 }
 
 async function loadStats() {
