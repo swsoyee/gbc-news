@@ -108,3 +108,36 @@
 ### Next Steps
 
 - None - task complete
+
+
+## Session 4: 修复 ICS URL 折行断链
+
+**Date**: 2026-07-16
+**Task**: 修复 ICS URL 折行断链
+**Branch**: `main`
+
+### Summary
+
+foldIcs 避开切断 URL；DESCRIPTION 去外链；已部署。
+
+### Main Changes
+
+- Detailed change bullets were not supplied; see the summary above.
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `49365d5` | (see git log) |
+
+### Testing
+
+- Validation was not recorded for this session.
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
