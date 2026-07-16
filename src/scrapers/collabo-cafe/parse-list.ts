@@ -30,6 +30,8 @@ export function parseNewsList(html: string): CollaboListEntry[] {
       /title="([^"]+)"/i.exec(body)
     const title = decodeHtml(stripTags(titleMatch?.[1] ?? '')).trim()
     if (!title) continue
+    const eventCategories = extractEventCategories(classAttr)
+    if (!isGirlsBandCryArticle(title, href, eventCategories)) continue
 
     const dateMatch = /<span[^>]*class="[^"]*\bupdated\b[^"]*"[^>]*>([^<]+)<\/span>/i.exec(body)
     const dateRaw = dateMatch?.[1]?.trim()
@@ -51,7 +53,7 @@ export function parseNewsList(html: string): CollaboListEntry[] {
       publishedAt: parseListDate(dateRaw),
       ...(eventDateText ? { eventDateText } : {}),
       ...(imageUrl ? { imageUrl } : {}),
-      eventCategories: extractEventCategories(classAttr),
+      eventCategories,
     })
   }
 
@@ -77,6 +79,17 @@ function extractEventCategories(classAttr: string): string[] {
     if (slug) cats.push(slug)
   }
   return [...new Set(cats)]
+}
+
+function isGirlsBandCryArticle(
+  title: string,
+  url: string,
+  eventCategories: readonly string[],
+): boolean {
+  if (eventCategories.includes('girls-band-cry')) return true
+  return /girls-band-cry|ガールズバンドクライ|ガルクラ|トゲナシ|トゲトゲ|ダイヤモンドダスト/i.test(
+    `${title}\n${url}`,
+  )
 }
 
 function stripTags(value: string): string {

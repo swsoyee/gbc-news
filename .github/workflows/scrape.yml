@@ -38,9 +38,7 @@ jobs:
       - name: Build feeds
         env:
           SITE_URL: https://gbc-news.netlify.app
-        run: |
-          npm run build:feeds
-          npm run build:collabo-feeds
+        run: npm run build:feeds
 
       - name: Commit and push updates
         run: |

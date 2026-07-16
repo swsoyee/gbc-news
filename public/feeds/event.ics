@@ -2919,6 +2919,29 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
 CATEGORIES:togenashi,live,event,media
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-cafe-curemaid-akihabara2025-2025-02-14_2025-03-1
+ 6-hold@gbc-news
+DTSTAMP:20250214T000000Z
+DTSTART;VALUE=DATE:20250214
+DTEND;VALUE=DATE:20250317
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガールズバンドクライ × キュアメイドカフ
+ ェ 2月14日よりコラボ開催!
+DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
+ 「ガールズバンドクライ (ガルクラ)」× キュアメイド
+ カフェにて2025年2月14日〜3月16日までコラボカフェが開
+ 催。作品の世界観やキャラクターをイメージしたコラ
+ ボメニューがお楽しみいただける他、描き下ろしイラ
+ ストを使用したコラボカフェ限定グッズが登場!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-curemaid-akiha
+ bara2025/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-curemaid-akiha
+ bara2025/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-299-2025-02-15-hold@gbc-news
 DTSTAMP:20250215T000000Z
 DTSTART;VALUE=DATE:20250215
@@ -2938,6 +2961,29 @@ DESCRIPTION:インターネットラジオステーション＜音泉＞に
  https://girls-band-cry.com/news/post-299.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
 CATEGORIES:togenashi,live,event,media
+END:VEVENT
+BEGIN:VEVENT
+UID:collabo-girls-band-cry-pop-up-store-shinjuku-marui-annex-2025-2025-02-2
+ 2_2025-03-09-hold@gbc-news
+DTSTAMP:20250222T000000Z
+DTSTART;VALUE=DATE:20250222
+DTEND;VALUE=DATE:20250310
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガールズバンドクライ 描き下ろしストア in
+  新宿 2月22日より開催!
+DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
+ 「ガールズバンドクライ (ガルクラ)」× THEキャラのポ
+ ップアップストアが、新宿マルイアネックスにて2025年2
+ 月22日〜3月9日まで開催される。東映アニメーション描
+ き下ろしイラストを使用した新作グッズが多数ライン
+ ナップ!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-shinju
+ ku-marui-annex-2025/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-shinju
+ ku-marui-annex-2025/
+CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-299-2025-02-24-hold@gbc-news
@@ -3750,6 +3796,30 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-325.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-sanrio-pop-up-store-tokyo-osaka-hukuoka-2025-202
+ 5-07-11_2025-07-21-hold@gbc-news
+DTSTAMP:20250711T000000Z
+DTSTART;VALUE=DATE:20250711
+DTEND;VALUE=DATE:20250722
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガールズバンドクライ × サンリオ ストア i
+ n 全国3店舗 7月11日より開催!
+DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
+ 「ガールズバンドクライ」× サンリオのポップアップ
+ ストアが、東京/大阪/福岡にて2025年7月11日〜7月21日ま
+ で開催される。「ガールズバンドクライ × サンリオ」
+ ストアでは、ガールズバンドクライとサンリオのコラ
+ ボレーションイラストを使用した新作グッズが多数登
+ 場!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-sanrio-pop-up-store
+ -tokyo-osaka-hukuoka-2025/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-sanrio-pop-up-store
+ -tokyo-osaka-hukuoka-2025/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-346-2025-07-23-hold@gbc-news
 DTSTAMP:20250723T000000Z
 DTSTART;VALUE=DATE:20250723
@@ -3845,6 +3915,27 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-364.html
 CATEGORIES:togenashi,live,goods,event,media
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-karatetsu-2025-2025-08-21_2025-09-28-hold@gbc-ne
+ ws
+DTSTAMP:20250821T000000Z
+DTSTART;VALUE=DATE:20250821
+DTEND;VALUE=DATE:20250929
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガールズバンドクライ × カラオケの鉄人5
+ 店舗 8月21日よりコラボ開催!
+DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
+ 「ガールズバンドクライ」× カラオケの鉄人 池袋東口
+ 店、カラオケの鉄人コラボミックス (福岡天神店、大阪
+ なんば店、名古屋名駅店、松山銀天街店) にて、2025年8
+ 月21日〜9月28日までコラボキャンペーンが開催される。
+ コラボメニューやグッズ、コラボルームなどを展開!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-karatetsu-2025/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-karatetsu-2025/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-362-2025-08-21_2025-09-28-hold@gbc-news
 DTSTAMP:20250821T000000Z
 DTSTART;VALUE=DATE:20250821
@@ -3901,6 +3992,30 @@ DESCRIPTION:大阪会場の入場者プレゼント、券売スケジュー
  せん。 ※内容は\nhttps://girls-band-cry.com/news/post-361.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-361.html
 CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:collabo-girls-band-cry-cafe-marufuku-coffee-2025-2025-09-20_2025-10-31-
+ hold@gbc-news
+DTSTAMP:20250920T000000Z
+DTSTART;VALUE=DATE:20250920
+DTEND;VALUE=DATE:20251101
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガールズバンドクライ × 丸福珈琲店 7店舗 
+ 9月20日よりコラボ開催!
+DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
+ 「ガールズバンドクライ」× 昭和9年創業の老舗珈琲店
+ 「丸福珈琲店」7店舗にて2025年9月20日〜10月31日までコ
+ ラボカフェが開催される。作品の世界観やキャラクタ
+ ーをイメージしたコラボメニューが楽しめる他、描き
+ 下ろしイラストを使用したコラボカフェ限定グッズが
+ 登場!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-marufuku-coffe
+ e-2025/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-marufuku-coffe
+ e-2025/
+CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-366-2025-09-20_2025-11-02-hold@gbc-news
@@ -4138,6 +4253,29 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-390.html
 CATEGORIES:togenashi,music,goods,event
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-pop-up-store-cocollabo-tokyo-osaka-aichi-2025-20
+ 25-10-04_2025-10-20-hold@gbc-news
+DTSTAMP:20251004T000000Z
+DTSTART;VALUE=DATE:20251004
+DTEND;VALUE=DATE:20251021
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガールズバンドクライ ストア in 東京/大阪/
+ 愛知 10月4日より順次開催!
+DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
+ 「ガールズバンドクライ」のポップアップストアが、
+ 東京/大阪/愛知にて2025年10月4日〜12月1日まで開催され
+ る。アニメ「ガールズバンドクライ」ポップアップス
+ トアでは、チャイナ衣装の酒井香澄氏 描き下ろしイラ
+ ストを使用した新作グッズが多数ラインナップ!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-cocoll
+ abo-tokyo-osaka-aichi-2025/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-cocoll
+ abo-tokyo-osaka-aichi-2025/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-359-2025-10-04_2025-10-26-hold@gbc-news
 DTSTAMP:20251004T000000Z
 DTSTART;VALUE=DATE:20251004
@@ -4295,6 +4433,29 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-383.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-movie-cure-maid-cafe-2025-2025-10-17_2025-11-03-
+ hold@gbc-news
+DTSTAMP:20251017T000000Z
+DTSTART;VALUE=DATE:20251017
+DTEND;VALUE=DATE:20251104
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 劇場版総集編ガールズバンドクライ カフェ
+  in 秋葉原 10月17日より開催!
+DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
+ の劇場版総集編「ガールズバンドクライ」× キュアメ
+ イドカフェ秋葉原にて2025年10月17日〜11月3日までコラボ
+ カフェが開催される。「劇場版総集編 ガールズバンド
+ クライ」コラボカフェでは、作品の世界観やキャラク
+ ターをイメージしたコラボメニューが登場!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-movie-cure-maid-caf
+ e-2025/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-movie-cure-maid-caf
+ e-2025/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-396-2025-10-17-hold@gbc-news
 DTSTAMP:20251017T000000Z
 DTSTART;VALUE=DATE:20251017
@@ -4356,6 +4517,29 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-412.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-pop-up-store-medicos-tokyo-osaka-fukuoka-kanagaw
+ a-miyagi-2025-2025-10-24_2025-11-09-hold@gbc-news
+DTSTAMP:20251024T000000Z
+DTSTART;VALUE=DATE:20251024
+DTEND;VALUE=DATE:20251110
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガールズバンドクライ ストア in 全国5ヵ所 
+ 10月24日より順次開催!
+DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
+ 「ガールズバンドクライ」× HMVのストアが、全国５ヵ
+ 所にて2025年10月24日〜12月14日まで開催される。アニメ
+ 「ガールズバンドクライ」ストアでは、酒井香澄新規
+ 描き下ろしイラストを使用した新作グッズが多数ライ
+ ンナップ!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-medico
+ s-tokyo-osaka-fukuoka-kanagawa-miyagi-2025/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-medico
+ s-tokyo-osaka-fukuoka-kanagawa-miyagi-2025/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-413-2025-10-24-hold@gbc-news
 DTSTAMP:20251024T000000Z
 DTSTART;VALUE=DATE:20251024
@@ -4375,6 +4559,29 @@ DESCRIPTION:10/24(金)は井芹仁菜の誕生日です。この記念日
  https://girls-band-cry.com/news/post-413.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-413.html
 CATEGORIES:togenashi,live,goods,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:collabo-girls-band-cry-pop-up-store-cocollabo-tokyo-osaka-aichi-2025-20
+ 25-10-30_2025-11-12-hold@gbc-news
+DTSTAMP:20251030T000000Z
+DTSTART;VALUE=DATE:20251030
+DTEND;VALUE=DATE:20251113
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガールズバンドクライ ストア in 東京/大阪/
+ 愛知 10月4日より順次開催!
+DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
+ 「ガールズバンドクライ」のポップアップストアが、
+ 東京/大阪/愛知にて2025年10月4日〜12月1日まで開催され
+ る。アニメ「ガールズバンドクライ」ポップアップス
+ トアでは、チャイナ衣装の酒井香澄氏 描き下ろしイラ
+ ストを使用した新作グッズが多数ラインナップ!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-cocoll
+ abo-tokyo-osaka-aichi-2025/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-cocoll
+ abo-tokyo-osaka-aichi-2025/
+CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-401-2025-10-30_2025-11-12-hold@gbc-news
@@ -4600,6 +4807,29 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-427.html
 CATEGORIES:togenashi,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-pop-up-store-cocollabo-tokyo-osaka-aichi-2025-20
+ 25-11-20_2025-12-01-hold@gbc-news
+DTSTAMP:20251120T000000Z
+DTSTART;VALUE=DATE:20251120
+DTEND;VALUE=DATE:20251202
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガールズバンドクライ ストア in 東京/大阪/
+ 愛知 10月4日より順次開催!
+DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
+ 「ガールズバンドクライ」のポップアップストアが、
+ 東京/大阪/愛知にて2025年10月4日〜12月1日まで開催され
+ る。アニメ「ガールズバンドクライ」ポップアップス
+ トアでは、チャイナ衣装の酒井香澄氏 描き下ろしイラ
+ ストを使用した新作グッズが多数ラインナップ!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-cocoll
+ abo-tokyo-osaka-aichi-2025/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-cocoll
+ abo-tokyo-osaka-aichi-2025/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-401-2025-11-20_2025-12-01-hold@gbc-news
 DTSTAMP:20251120T000000Z
 DTSTART;VALUE=DATE:20251120
@@ -4617,6 +4847,29 @@ DESCRIPTION:アニメ「ガールズバンドクライ」のPOP UP SHOPが
  ：11:00～21\nhttps://girls-band-cry.com/news/post-401.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-401.html
 CATEGORIES:togenashi,live,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:collabo-girls-band-cry-pop-up-store-medicos-tokyo-osaka-fukuoka-kanagaw
+ a-miyagi-2025-2025-11-27_2025-12-14-hold@gbc-news
+DTSTAMP:20251127T000000Z
+DTSTART;VALUE=DATE:20251127
+DTEND;VALUE=DATE:20251215
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガールズバンドクライ ストア in 全国5ヵ所 
+ 10月24日より順次開催!
+DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
+ 「ガールズバンドクライ」× HMVのストアが、全国５ヵ
+ 所にて2025年10月24日〜12月14日まで開催される。アニメ
+ 「ガールズバンドクライ」ストアでは、酒井香澄新規
+ 描き下ろしイラストを使用した新作グッズが多数ライ
+ ンナップ!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-medico
+ s-tokyo-osaka-fukuoka-kanagawa-miyagi-2025/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-medico
+ s-tokyo-osaka-fukuoka-kanagawa-miyagi-2025/
+CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-418-2025-12-01_2025-12-14-hold@gbc-news
@@ -4862,6 +5115,29 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-444.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-pop-up-store-amnibus-shinjuku2026-2026-01-23_202
+ 6-02-01-hold@gbc-news
+DTSTAMP:20260123T000000Z
+DTSTART;VALUE=DATE:20260123
+DTEND;VALUE=DATE:20260202
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガールズバンドクライ Y2Kファッション ス
+ トア in 新宿 1月23日より開催!
+DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
+ 「ガールズバンドクライ」× AMNIBUSのポップアップスト
+ アが、新宿マルイメンにて2026年1月23日～2月1日まで開
+ 催!Y2Kファッションをコンセプトにした、井芹仁菜・河
+ 原木桃香らの描き下ろしイラストを使用した新作グッ
+ ズが多数ラインナップ!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-amnibu
+ s-shinjuku2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-amnibu
+ s-shinjuku2026/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-453-2026-02-02-sale-2000@gbc-news
 DTSTAMP:20260202T110000Z
 DTSTART:20260202T110000Z
@@ -4878,6 +5154,29 @@ DESCRIPTION:RAISE A SUILEN ×トゲナシトゲアリ 「RAISE MY CATHARSIS
  bang_dr\nhttps://girls-band-cry.com/news/post-453.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-453.html
 CATEGORIES:togenashi,live,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:collabo-girls-band-cry-cafe-and-gallery2026-2026-02-04_2026-03-15-hold@
+ gbc-news
+DTSTAMP:20260204T000000Z
+DTSTART;VALUE=DATE:20260204
+DTEND;VALUE=DATE:20260316
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガールズバンドクライカフェ in and GALLERY 2
+ 月4日よりコラボ開催!
+DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
+ 「ガールズバンドクライ (ガルクラ)」× and GALLERY 4店舗 
+ にて、2026年2月4日〜3月15日までコラボカフェが開催さ
+ れる。作品の世界観やキャラクターをイメージしたコ
+ ラボメニュー、描き下ろしイラストを使用したコラボ
+ カフェ限定グッズが登場!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-and-gallery202
+ 6/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-and-gallery202
+ 6/
+CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-447-2026-02-08-hold@gbc-news
@@ -4972,6 +5271,51 @@ DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
  ） 2026年2月23日（\nhttps://girls-band-cry.com/news/post-388.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:collabo-girls-band-cry-japanese-clothing-denim-treevillage2026-2026-02-
+ 27_2026-03-16-hold@gbc-news
+DTSTAMP:20260227T000000Z
+DTSTART;VALUE=DATE:20260227
+DTEND;VALUE=DATE:20260317
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガールズバンドクライ「和装デニムver.」ス
+ トア in 東京 2月27日より開催!
+DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
+ 「ガールズバンドクライ」のポップアップストアが、
+ ツリービレッジ東京店にて2026年2月27日〜3月16日まで開
+ 催される。井芹 仁菜・安和 すばる・海老塚 智らの「
+ 和装デニムver.」描き下ろしイラストを使用した新作グ
+ ッズが多数ラインナップ!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-japanese-clothing-d
+ enim-treevillage2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-japanese-clothing-d
+ enim-treevillage2026/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
+UID:collabo-girls-band-cry-sanrio-yokado-2026-2026-02-27_2026-03-29-hold@gb
+ c-news
+DTSTAMP:20260227T000000Z
+DTSTART;VALUE=DATE:20260227
+DTEND;VALUE=DATE:20260330
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガールズバンドクライ × サンリオ ストア i
+ n 全国8店舗 2月28日より開催!
+DESCRIPTION:東映アニメーションが贈るオリジナルアニメ「
+ ガールズバンドクライ」×「サンリオキャラクターズ」
+ のポップアップストアが、イトーヨーカドー全国8店舗
+ にて2026年2月27日〜3月29日まで開催される。ガルクラの
+ キャラクターとサンリオキャラクターズのコラボレー
+ ションイラストを使用した新作グッズが多数ラインナ
+ ップ!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-sanrio-yokado-2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-sanrio-yokado-2026/
+CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-448-2026-02-27_2026-03-16-hold@gbc-news
@@ -5101,6 +5445,46 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-white-focus-popup-store-village-v2026-2026-03-19
+ _2026-04-05-hold@gbc-news
+DTSTAMP:20260319T000000Z
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260406
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガルクラ ホワイトフォーカス ストア in ヴ
+ ィレヴァン 3月19日開催!
+DESCRIPTION:ガールズバンドクライ (ガルクラ)のポップアッ
+ プストアが、2026年3月19日〜5月6日までヴィレッジヴァ
+ ンガードにて開催！\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-s
+ tore-village-v2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-s
+ tore-village-v2026/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
+UID:collabo-girls-band-cry-white-focus-popup-store-village-v2026-2026-03-20
+ _2026-04-05-hold@gbc-news
+DTSTAMP:20260320T000000Z
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260406
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガルクラ ホワイトフォーカス ストア in ヴ
+ ィレヴァン 3月19日開催!
+DESCRIPTION:ガールズバンドクライ (ガルクラ)のポップアッ
+ プストアが、2026年3月19日〜5月6日までヴィレッジヴァ
+ ンガードにて開催！\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-s
+ tore-village-v2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-s
+ tore-village-v2026/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-456-2026-03-27-hold-1900@gbc-news
 DTSTAMP:20260327T100000Z
 DTSTART:20260327T100000Z
@@ -5178,6 +5562,26 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-459.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-scream-cafe-treevillage-2026-2026-04-04_2026-04-
+ 17-hold@gbc-news
+DTSTAMP:20260404T000000Z
+DTSTART;VALUE=DATE:20260404
+DTEND;VALUE=DATE:20260418
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガルクラ SCREAMカフェ in ツリービレッジ4店
+ 舗 4月4日開始!
+DESCRIPTION:アニメ「ガールズバンドクライ (ガルクラ)」× 
+ ツリービレッジ4店舗にて、2026年4月4日よりコラボカフ
+ ェが順次開催!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-scream-cafe-treevil
+ lage-2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-scream-cafe-treevil
+ lage-2026/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-458-2026-04-04_2026-04-05-hold@gbc-news
 DTSTAMP:20260404T000000Z
 DTSTART;VALUE=DATE:20260404
@@ -5234,6 +5638,46 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-457.html
 CATEGORIES:togenashi,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-in-the-rain-pop-up-store-shibuya2026-2026-04-07_
+ 2026-04-14-hold@gbc-news
+DTSTAMP:20260407T000000Z
+DTSTART;VALUE=DATE:20260407
+DTEND;VALUE=DATE:20260415
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガルクラ In the rain ver. ストア in 渋谷モディ
+  4月7日より開催!
+DESCRIPTION:ガールズバンドクライのポップアップストアが
+ 、2026年4月7日〜4月14日までの期間、渋谷モディにて開
+ 催！\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-in-the-rain-pop-up-
+ store-shibuya2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-in-the-rain-pop-up-
+ store-shibuya2026/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
+UID:collabo-girls-band-cry-white-focus-popup-store-village-v2026-2026-04-10
+ _2026-04-26-hold@gbc-news
+DTSTAMP:20260410T000000Z
+DTSTART;VALUE=DATE:20260410
+DTEND;VALUE=DATE:20260427
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガルクラ ホワイトフォーカス ストア in ヴ
+ ィレヴァン 3月19日開催!
+DESCRIPTION:ガールズバンドクライ (ガルクラ)のポップアッ
+ プストアが、2026年3月19日〜5月6日までヴィレッジヴァ
+ ンガードにて開催！\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-s
+ tore-village-v2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-s
+ tore-village-v2026/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-468-2026-04-13-hold-2359@gbc-news
 DTSTAMP:20260413T145900Z
 DTSTART:20260413T145900Z
@@ -5251,6 +5695,26 @@ DESCRIPTION:TVアニメ『ガールズバンドクライ』 放送２周年
  https://girls-band-cry.com/news/post-468.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-468.html
 CATEGORIES:togenashi,event,media
+END:VEVENT
+BEGIN:VEVENT
+UID:collabo-girls-band-cry-scream-cafe-treevillage-2026-2026-04-24_2026-05-
+ 15-hold@gbc-news
+DTSTAMP:20260424T000000Z
+DTSTART;VALUE=DATE:20260424
+DTEND;VALUE=DATE:20260516
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガルクラ SCREAMカフェ in ツリービレッジ4店
+ 舗 4月4日開始!
+DESCRIPTION:アニメ「ガールズバンドクライ (ガルクラ)」× 
+ ツリービレッジ4店舗にて、2026年4月4日よりコラボカフ
+ ェが順次開催!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-scream-cafe-treevil
+ lage-2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-scream-cafe-treevil
+ lage-2026/
+CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-463-2026-04-24_2026-05-15-hold@gbc-news
@@ -5315,6 +5779,26 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-white-focus-popup-store-village-v2026-2026-04-29
+ _2026-05-06-hold@gbc-news
+DTSTAMP:20260429T000000Z
+DTSTART;VALUE=DATE:20260429
+DTEND;VALUE=DATE:20260507
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガルクラ ホワイトフォーカス ストア in ヴ
+ ィレヴァン 3月19日開催!
+DESCRIPTION:ガールズバンドクライ (ガルクラ)のポップアッ
+ プストアが、2026年3月19日〜5月6日までヴィレッジヴァ
+ ンガードにて開催！\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-s
+ tore-village-v2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-s
+ tore-village-v2026/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-466-2026-05-01-hold-1900@gbc-news
 DTSTAMP:20260501T100000Z
 DTSTART:20260501T100000Z
@@ -5331,6 +5815,26 @@ DESCRIPTION:トゲナシトゲアリ TOUR 2026 FINAL “拍動の未来 -EN
  OUR 2026\nhttps://girls-band-cry.com/news/post-466.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-466.html
 CATEGORIES:togenashi,live,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:collabo-girls-band-cry-sanrio-pop-up-store-tower-records2026-2026-05-16
+ _2026-05-25-hold@gbc-news
+DTSTAMP:20260516T000000Z
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20260526
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガルクラ × サンリオ ストア in タワーレコ
+ ード 5月16日より開催!
+DESCRIPTION:ガールズバンドクライ × サンリオのポップア
+ ップストアが、タワーレコード(4店舗)にて2026年5月16日
+ 〜5月25日まで開催!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-sanrio-pop-up-store
+ -tower-records2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-sanrio-pop-up-store
+ -tower-records2026/
+CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-465-2026-05-29-hold-1900@gbc-news
@@ -5375,6 +5879,26 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-465.html
 CATEGORIES:togenashi,live,music,event
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-scream-cafe-treevillage-2026-2026-06-06_2026-06-
+ 18-hold@gbc-news
+DTSTAMP:20260606T000000Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260619
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガルクラ SCREAMカフェ in ツリービレッジ4店
+ 舗 4月4日開始!
+DESCRIPTION:アニメ「ガールズバンドクライ (ガルクラ)」× 
+ ツリービレッジ4店舗にて、2026年4月4日よりコラボカフ
+ ェが順次開催!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-scream-cafe-treevil
+ lage-2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-scream-cafe-treevil
+ lage-2026/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-463-2026-06-06_2026-06-18-hold@gbc-news
 DTSTAMP:20260606T000000Z
 DTSTART;VALUE=DATE:20260606
@@ -5412,6 +5936,26 @@ URL;VALUE=URI:https://gbc-firstriff.com/news/post-2.html
 CATEGORIES:canna-lily,live,event
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-cafe-sharecafe-2026-2026-07-03_2026-07-20-hold@g
+ bc-news
+DTSTAMP:20260703T000000Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260721
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガールズバンドクライ カフェ in 洒落CAFE 3
+ 店舗 7月3日より開催!
+DESCRIPTION:アニメ「ガールズバンドクライ (ガルクラ)」× 
+ 洒落CAFE 3店舗にて、2026年7月3日よりコラボカフェが開
+ 催される。\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-sharecafe-2026
+ /
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-sharecafe-2026
+ /
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-482-2026-07-03-hold@gbc-news
 DTSTAMP:20260703T000000Z
 DTSTART;VALUE=DATE:20260703
@@ -5430,6 +5974,26 @@ DESCRIPTION:「TVアニメ『ガールズバンドクライ』アイスク
  メニューで\nhttps://girls-band-cry.com/news/post-482.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-482.html
 CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:collabo-girls-band-cry-stride-animate-fair2026-2026-07-10_2026-07-26-ho
+ ld@gbc-news
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260727
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガルクラ Stride! ver. フェア in アニメイト 7
+ 月10日より開催!
+DESCRIPTION:「ガールズバンドクライ」Stride! ver. フェア in 
+ アニメイトが、対象店舗にて2026年7月10日〜7月26日まで
+ 開催!\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-stride-animate-fair
+ 2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-stride-animate-fair
+ 2026/
+CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-464-2026-07-10-hold@gbc-news

@@ -1,5 +1,4 @@
 import type { CategoryId } from '../models/categories.js'
-import { classifyText } from './classify.js'
 
 const EVENT_CATEGORY_SIGNAL = new Set([
   'cafe',
@@ -14,7 +13,7 @@ const GOODS_CATEGORY_SIGNAL = new Set(['goods', 'apparel', 'shop'])
 
 /**
  * collabo-cafe 分类：优先 event / goods（WP event-category + 标题关键词），
- * 再合并 classifyText 的非 event/goods 命中（live 等可保留）。
+ * 不继承官网通用分类，避免协作资讯混入 live/music 等订阅。
  */
 export function classifyCollabo(
   title: string,
@@ -37,16 +36,9 @@ export function classifyCollabo(
   if (/カフェ|フェア|ポップアップ|開催/.test(title)) matched.add('event')
   if (/グッズ|予約受付|発売|アパレル/.test(title)) matched.add('goods')
 
-  for (const id of classifyText(title, body)) {
-    if (id === 'other' || id === 'event' || id === 'goods') continue
-    matched.add(id)
-  }
-
   if (matched.size === 0) {
-    // 无 WP/标题信号时，回退 classifyText 的 event/goods，再否则 other
-    for (const id of classifyText(title, body)) {
-      if (id === 'event' || id === 'goods') matched.add(id)
-    }
+    if (/カフェ|フェア|ポップアップ|イベント|開催|コラボ/.test(body)) matched.add('event')
+    if (/グッズ|予約受付|発売|アパレル|通販/.test(body)) matched.add('goods')
   }
 
   if (matched.size === 0) return ['other']

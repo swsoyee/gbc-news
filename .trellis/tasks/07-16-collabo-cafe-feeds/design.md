@@ -1,4 +1,4 @@
-# Design: collabo-cafe 独立数据源与 feed
+# Design: collabo-cafe 数据源并入活动/周边 feed
 
 ## 架构
 
@@ -6,13 +6,12 @@
 collabo-cafe HTML
   → src/scrapers/collabo-cafe/
   → data/collabo-cafe/latest.json
-  → scripts/build-collabo-feeds.ts   ← 独立，不走 build-feeds 合并
-  → public/feeds/collabo-cafe.xml
-  → public/feeds/collabo-cafe.ics
-  → public/data/collabo-cafe.json    （可选，订阅页统计）
+  → scripts/build-feeds.ts
+  → public/data/news.json
+  → public/feeds/event.xml|ics / goods.xml|ics / all.*
 ```
 
-与 `gbc-news` / `gbc-firstriff` **并行**，不进入 `public/data/news.json`。
+与 `gbc-news` / `gbc-firstriff` 同池合并，但分类只贡献活动/周边。
 
 ## 模块
 
@@ -20,7 +19,6 @@ collabo-cafe HTML
 |------|------|
 | `src/scrapers/collabo-cafe/*` | 同前：urls, parse-list, parse-detail, index |
 | `scripts/scrape-collabo-cafe.ts` | CLI 抓取 |
-| `scripts/build-collabo-feeds.ts` | 读 `data/collabo-cafe/latest.json` → 写出独立 RSS/iCal |
 | `src/categories/classify-collabo.ts`（可选） | 基于 `event-category-*` + 关键词，收敛到 event/goods |
 
 ## 分类策略（event + goods）
@@ -30,9 +28,9 @@ collabo-cafe HTML
 | `event-category-cafe`, `pop-up-store`, カフェ, フェア, ポップアップ, 開催 | `event` |
 | `event-category-goods`, グッズ, 予約受付, 発売, アパレル | `goods` |
 | 两者兼有（如カフェ限定グッズ） | `['event', 'goods']` |
-| 仅 `classifyText` 命中 live 等 | 保留但 MVP 不单独出 live feed |
+| 其他 | `other` |
 
-feed 本身为**全量 collabo 条目**（已限定 GBC 搜索）；不在此 feed 内再拆 event/goods 子 feed（除非后续要加）。
+collabo-cafe 不继承官网通用分类，避免协作资讯混入 live/music 等订阅。
 
 ## eventDates
 
@@ -41,25 +39,9 @@ feed 本身为**全量 collabo 条目**（已限定 GBC 搜索）；不在此 fe
 3. `～まで予約受付` → `sale`
 4. 复用 `endDate` 跨日逻辑
 
-## Feed 元数据
-
-```ts
-{
-  title: 'gbc-news · 协作资讯（collabo-cafe）',
-  description: 'ガールズバンドクライ 协作カフェ・ポップアップ・グッズ（collabo-cafe.com）',
-  feedUrl: `${SITE_URL}/feeds/collabo-cafe.xml`,
-}
-```
-
-iCal 同理，`PRODID` / `UID` 后缀仍可用 `@gbc-news`，`entryId` 含 `collabo-` 前缀便于区分。
-
 ## 订阅页
 
-在 `public/index.html` 增加独立 section（或卡片）：
-
-- 说明：协作活动与周边，来源 collabo-cafe.com
-- 固定链接：`/feeds/collabo-cafe.xml`、`/feeds/collabo-cafe.ics`（带 `?v=` rev）
-- **不**接入组合/分类多选（避免与官网订阅混淆）
+不增加独立 section；用户通过现有「活动」「周边」分类订阅获取 collabo-cafe 条目。
 
 ## 定时任务
 
@@ -67,7 +49,7 @@ iCal 同理，`PRODID` / `UID` 后缀仍可用 `@gbc-news`，`entryId` 含 `coll
 
 ```bash
 npm run scrape:collabo-cafe
-npm run build:collabo-feeds
+npm run build:feeds
 ```
 
 与 `scrape:gbc` / `build:feeds` 并列，互不依赖顺序。
@@ -76,6 +58,6 @@ npm run build:collabo-feeds
 
 | 风险 | 缓解 |
 |------|------|
-| 用户误以为已并入 all | 订阅页文案写清「独立订阅」 |
+| 用户误以为有独立 collabo 入口 | 不渲染独立 section |
 | 与官网重复事件 | `sourceId` + 原文 URL 区分 |
 | `cc-table` 字段变异 | th 别名表 |

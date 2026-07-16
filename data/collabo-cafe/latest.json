@@ -1,9 +1,9 @@
 {
   "sourceId": "collabo-cafe",
-  "scrapedAt": "2026-07-16T15:15:08.934Z",
+  "scrapedAt": "2026-07-16T15:34:34.046Z",
   "mode": "full",
   "maxPages": null,
-  "count": 52,
+  "count": 47,
   "items": [
     {
       "id": "collabo-girls-band-cry-goodsmile-moment-anime-store-goods2026",
@@ -12,8 +12,7 @@
       "publishedAt": "2026-07-11T09:00:15.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "live"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -35,8 +34,7 @@
       "publishedAt": "2026-07-07T01:00:09.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "event",
-        "live"
+        "event"
       ],
       "groups": [
         "togenashi"
@@ -237,8 +235,7 @@
       "publishedAt": "2026-02-03T06:00:58.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "event",
-        "live"
+        "event"
       ],
       "groups": [
         "togenashi"
@@ -260,9 +257,7 @@
       "publishedAt": "2026-02-02T06:30:28.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "event",
-        "live",
-        "music"
+        "event"
       ],
       "groups": [
         "togenashi"
@@ -284,8 +279,7 @@
       "publishedAt": "2026-01-16T08:10:17.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "event",
-        "live"
+        "event"
       ],
       "groups": [
         "togenashi"
@@ -329,8 +323,7 @@
       "publishedAt": "2025-11-19T09:00:58.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "cinema"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -352,8 +345,7 @@
       "publishedAt": "2025-10-24T03:30:02.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "event",
-        "live"
+        "event"
       ],
       "groups": [
         "togenashi"
@@ -380,8 +372,7 @@
       "publishedAt": "2025-10-10T10:10:30.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "event",
-        "cinema"
+        "event"
       ],
       "groups": [
         "togenashi"
@@ -403,8 +394,7 @@
       "publishedAt": "2025-09-30T09:40:34.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "event",
-        "live"
+        "event"
       ],
       "groups": [
         "togenashi"
@@ -436,8 +426,7 @@
       "publishedAt": "2025-09-02T07:40:04.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "event",
-        "media"
+        "event"
       ],
       "groups": [
         "togenashi"
@@ -481,8 +470,7 @@
       "publishedAt": "2025-08-16T08:00:16.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "cinema"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -504,8 +492,7 @@
       "publishedAt": "2025-07-21T09:00:51.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "live"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -549,9 +536,7 @@
       "publishedAt": "2025-06-08T10:00:27.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "live",
-        "cinema"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -620,8 +605,7 @@
       "publishedAt": "2025-04-09T08:00:35.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "live"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -643,9 +627,7 @@
       "publishedAt": "2025-03-23T08:00:00.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "live",
-        "media"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -667,8 +649,7 @@
       "publishedAt": "2025-02-18T03:00:49.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "event",
-        "music"
+        "event"
       ],
       "groups": [
         "togenashi"
@@ -690,8 +671,7 @@
       "publishedAt": "2025-02-16T08:00:47.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "cinema"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -735,8 +715,7 @@
       "publishedAt": "2024-11-14T09:00:37.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "music"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -758,8 +737,7 @@
       "publishedAt": "2024-11-12T03:00:55.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "media"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -781,9 +759,7 @@
       "publishedAt": "2024-11-10T10:00:02.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "live",
-        "music"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -842,9 +818,7 @@
       "publishedAt": "2024-09-25T10:00:41.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "live",
-        "music"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -866,9 +840,7 @@
       "publishedAt": "2024-09-19T10:00:33.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "live",
-        "music"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -899,28 +871,6 @@
       "imageUrl": "https://collabo-cafe.com/wp-content/uploads/8c0c3027e3cfc3d644caab3847a505b0-79.jpg"
     },
     {
-      "id": "collabo-hatsune-miku-piapro-nari-teshima-illust-vol2-sync_innovation-anime-store-goods2024",
-      "title": "初音ミク & ピアプロキャラクターズ 手島nari氏 描き下ろしグッズ 発売!",
-      "url": "https://collabo-cafe.com/events/collabo/hatsune-miku-piapro-nari-teshima-illust-vol2-sync_innovation-anime-store-goods2024/",
-      "publishedAt": "2024-08-15T08:00:31.000Z",
-      "sourceId": "collabo-cafe",
-      "categories": [
-        "goods"
-      ],
-      "groups": [
-        "togenashi"
-      ],
-      "eventDates": [
-        {
-          "date": "2024-08-16",
-          "kind": "sale",
-          "startTime": "23:59"
-        }
-      ],
-      "summary": "世界中で人気を博すバーチャルシンガー・初音ミクをはじめとした「ピアプロキャラクターズ」より、イラストレーター「手島nari」氏による描き下ろしイラスト使用の第2弾グッズが2024年10月に発売される。初音ミク・鏡音リン・鏡音レン・巡音ルカ・MEIKO・KAITOらのアクスタやハート型缶バッジ・アクキー等が登場！",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/7b8982fb78a0b7f7d834a2fa4e241c99-601.jpg"
-    },
-    {
       "id": "collabo-girls-band-cry-nina-sweatshirts-armabianca-anime-store-goods2024",
       "title": "ガールズバンドクライ 仁菜着用トレーナーなど新作グッズ 25年1月発売!",
       "url": "https://collabo-cafe.com/events/collabo/girls-band-cry-nina-sweatshirts-armabianca-anime-store-goods2024/",
@@ -949,9 +899,7 @@
       "publishedAt": "2024-07-22T09:00:25.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "live",
-        "music"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -973,11 +921,7 @@
       "publishedAt": "2024-07-16T10:00:39.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "live",
-        "music",
-        "cinema",
-        "media"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -999,8 +943,7 @@
       "publishedAt": "2024-07-14T09:00:13.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "live"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -1022,8 +965,7 @@
       "publishedAt": "2024-07-13T05:00:00.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "live"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -1048,8 +990,7 @@
       "publishedAt": "2024-07-05T11:00:29.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "live"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -1096,10 +1037,7 @@
       "publishedAt": "2024-07-01T08:00:23.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "live",
-        "music",
-        "media"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -1121,9 +1059,7 @@
       "publishedAt": "2024-06-29T11:00:36.000Z",
       "sourceId": "collabo-cafe",
       "categories": [
-        "goods",
-        "music",
-        "media"
+        "goods"
       ],
       "groups": [
         "togenashi"
@@ -1137,102 +1073,6 @@
       ],
       "summary": "東映アニメーションが贈るオリジナルアニメ「ガールズバンドクライ (ガルクラ)」から、劇中に登場するバンド「トゲナシトゲアリ」のメンバー5人がフィギュアのために描き下ろしたイラストをもとに立体化決定！第1弾はボーカルを務める「井芹仁菜」が2025年4月にコトブキヤより発売される。OP主題歌MV衣装を着た姿で登場！",
       "imageUrl": "https://collabo-cafe.com/wp-content/uploads/ddeb83523114869a6ade3fe8ba2be395-1.jpg"
-    },
-    {
-      "id": "collabo-girls-band-cry-togenashitogeari-logo-design-cospa-anime-store-goods2024",
-      "title": "アニメ「ガールズバンドクライ」トゲトゲ ロゴ入り 新作グッズ 8月発売!",
-      "url": "https://collabo-cafe.com/events/collabo/girls-band-cry-togenashitogeari-logo-design-cospa-anime-store-goods2024/",
-      "publishedAt": "2024-06-04T08:00:49.000Z",
-      "sourceId": "collabo-cafe",
-      "categories": [
-        "goods",
-        "live",
-        "media"
-      ],
-      "groups": [
-        "togenashi"
-      ],
-      "eventDates": [
-        {
-          "date": "2024-06-14",
-          "kind": "sale",
-          "startTime": "23:59"
-        }
-      ],
-      "summary": "東映アニメーションによる完全新作オリジナルアニメ「ガールズバンドクライ (ガルクラ)」より、「トゲナシトゲアリ (トゲトゲ)」のロゴをデザインした新作グッズが2024年8月にコスパから発売される。仁菜、桃香、すばる、智、ルパら大人気5人組ガールスバンドのロゴ入り「マグカップ・ラージトート・ステッカー」等が登場！",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/7b8982fb78a0b7f7d834a2fa4e241c99-562.jpg"
-    },
-    {
-      "id": "collabo-girls-band-cry-diamond-dust-member-illust-sync_innovation-anime-store-goods2024",
-      "title": "ガールズバンドクライ リンら「ダイダス」メンバーの新作グッズ 7月発売",
-      "url": "https://collabo-cafe.com/events/collabo/girls-band-cry-diamond-dust-member-illust-sync_innovation-anime-store-goods2024/",
-      "publishedAt": "2024-05-16T09:00:00.000Z",
-      "sourceId": "collabo-cafe",
-      "categories": [
-        "goods",
-        "media"
-      ],
-      "groups": [
-        "togenashi"
-      ],
-      "eventDates": [
-        {
-          "date": "2024-05-24",
-          "kind": "sale",
-          "startTime": "23:59"
-        }
-      ],
-      "summary": "東映アニメーションによる好評放送中の完全新作オリジナルアニメ「ガールズバンドクライ (ガルクラ)」から新作グッズが2024年7月に発売決定！井芹仁菜・河原木桃香・安和すばる・海老塚智・ルパら「トゲナシトゲアリ (トゲトゲ)」や、ヒナ・ナナ・リン・アイの「ダイヤモンドダスト (ダイタス)」のアクスタなどが新登場。",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/7b8982fb78a0b7f7d834a2fa4e241c99-541.jpg"
-    },
-    {
-      "id": "collabo-girls-band-cry-replica-tshirts-cospa-anime-store-goods2024",
-      "title": "ガールズバンドクライ 不登校・脱退・嘘つき 劇中再現Tシャツ 7月発売!",
-      "url": "https://collabo-cafe.com/events/collabo/girls-band-cry-replica-tshirts-cospa-anime-store-goods2024/",
-      "publishedAt": "2024-05-14T09:00:24.000Z",
-      "sourceId": "collabo-cafe",
-      "categories": [
-        "goods",
-        "live",
-        "media"
-      ],
-      "groups": [
-        "togenashi"
-      ],
-      "eventDates": [
-        {
-          "date": "2024-05-24",
-          "kind": "sale",
-          "startTime": "23:59"
-        }
-      ],
-      "summary": "2024年4月より放送開始した東映アニメーションによる完全新作オリジナルアニメ「ガールズバンドクライ」から、アニメ第5話のライブシーンで井芹仁菜・河原木桃香・安和すばるの3人が着用していた衣装を再現したTシャツが、2024年7月中旬に発売される。「不登校」「脱退」「嘘つき」の文字をデザインした新作グッズが登場！",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/8c0c3027e3cfc3d644caab3847a505b0-36.jpg"
-    },
-    {
-      "id": "collabo-girls-band-cry-togenashitogeari-a3-anime-store-goods2024",
-      "title": "アニメ「ガールズバンドクライ」トゲナシトゲアリの新作グッズ 5月発売!",
-      "url": "https://collabo-cafe.com/events/collabo/girls-band-cry-togenashitogeari-a3-anime-store-goods2024/",
-      "publishedAt": "2024-03-08T11:00:35.000Z",
-      "sourceId": "collabo-cafe",
-      "categories": [
-        "goods",
-        "live",
-        "music",
-        "media"
-      ],
-      "groups": [
-        "togenashi"
-      ],
-      "eventDates": [
-        {
-          "date": "2024-03-27",
-          "kind": "sale",
-          "startTime": "23:59"
-        }
-      ],
-      "summary": "2024年4月から放送開始する東映アニメーションによる完全新作オリジナルアニメ「ガールズバンドクライ」から、劇中に登場するガールズバンド「トゲナシトゲアリ」の公式イラストを使用した新作グッズが、2024年5月中旬に発売される。井芹仁菜・河原木桃香・安和すばる・海老塚智・ルパらの「アクリルスタンド」などが登場！",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/4dffd6776e8c42f7d550beaccde1b678-532.jpg"
     }
   ]
 }

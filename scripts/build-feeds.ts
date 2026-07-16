@@ -11,6 +11,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const sourcePaths = [
   join(root, 'data/gbc-news/latest.json'),
   join(root, 'data/gbc-firstriff/latest.json'),
+  join(root, 'data/collabo-cafe/latest.json'),
 ]
 const publicDataPath = join(root, 'public/data/news.json')
 const feedsDir = join(root, 'public/feeds')

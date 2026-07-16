@@ -1,4 +1,4 @@
-# Implement: collabo-cafe 独立 feed
+# Implement: collabo-cafe 并入活动/周边 feed
 
 ## Checklist
 
@@ -23,21 +23,21 @@
 - [ ] `package.json`: `scrape:collabo-cafe`, `build:collabo-feeds`
 - [ ] 全量 scrape
 
-### 5. 独立 feeds（不合并 all）
+### 5. 合并进现有 feeds
 
-- [ ] `scripts/build-collabo-feeds.ts` → `public/feeds/collabo-cafe.xml|ics`
-- [ ] `public/data/collabo-cafe.json`（可选）
-- [ ] 确认 `build-feeds.ts` **未**加入 collabo 源
-- [ ] AC6 验证：`all.*` 条目数不因 collabo 增加
+- [ ] `scripts/build-feeds.ts` 追加 `data/collabo-cafe/latest.json`
+- [ ] 不生成 `public/feeds/collabo-cafe.xml|ics`
+- [ ] 不生成 `public/data/collabo-cafe.json`
+- [ ] 验证 `event.*` / `goods.*` 含 collabo-cafe 条目
 
 ### 6. 订阅页
 
-- [ ] `index.html` collabo-cafe 独立订阅卡片/区块
-- [ ] `subscribe.js` 加载 `collabo-cafe.json` 显示条数（可选）
+- [ ] 不增加 collabo-cafe 独立订阅卡片/区块
+- [ ] `subscribe.js` 使用合并后的 `news.json` 统计
 
 ### 7. CI / Actions
 
-- [ ] workflow 增加 scrape + build-collabo-feeds
+- [ ] workflow 增加 scrape，构建仍用 `build:feeds`
 - [ ] `npm run ci`
 
 ## 验证
@@ -45,10 +45,10 @@
 ```bash
 npm run ci
 npm run scrape:collabo-cafe
-npm run build:collabo-feeds
-# collabo-cafe.ics 有跨日期间；all.ics 条目数不变
+npm run build:feeds
+# event.ics / goods.ics 有 collabo-cafe 条目和跨日期间
 ```
 
 ## 回滚
 
-删除 scraper、`data/collabo-cafe/`、`public/feeds/collabo-cafe.*`、订阅页区块。
+从 `build-feeds.ts` 移除 collabo 源，删除 scraper 与 `data/collabo-cafe/`，重建 feeds。

@@ -2,7 +2,7 @@
 
 ## Goal
 
-从 [collabo-cafe.com](https://collabo-cafe.com/) 抓取「ガールズバンドクライ」相关协作资讯，生成**独立** RSS / iCal 订阅（与官网、First Riff 的 `all.*` 分开）。条目时间取活动举办/预约截止日。
+从 [collabo-cafe.com](https://collabo-cafe.com/) 抓取「ガールズバンドクライ」相关协作资讯，并入现有 **活动 / 周边** 分类订阅。条目时间取活动举办/预约截止日。
 
 ## Background
 
@@ -24,9 +24,9 @@
    - `event-category-goods` / 予約受付・発売 → 含 `goods`
    - 可同时多标签；极少命中 live/music 等可保留但不作为订阅维度
 7. **R7** `groups: ['togenashi']`（搜索词已限定 GBC）
-8. **R8** **独立 feed 管线**：`public/feeds/collabo-cafe.xml` + `collabo-cafe.ics`；**不写入** `news.json` / `all.*`
-9. **R9** 可选公开快照 `public/data/collabo-cafe.json`（供订阅页展示条数）
-10. **R10** 订阅页增加 collabo-cafe 独立订阅入口（RSS + 日历链接卡片）
+8. **R8** 并入现有 `public/data/news.json` 与分类 feeds；不生成独立 `collabo-cafe.*`
+9. **R9** `活动(event)` / `周边(goods)` 分类订阅包含 collabo-cafe 条目
+10. **R10** 订阅页不新增 collabo-cafe section，沿用现有分类选择与快捷分类日历
 11. **R11** 夹具测试；`npm run ci` 通过
 12. **R12** GitHub Actions 定时增量抓取
 
@@ -34,11 +34,11 @@
 
 | ID | 结论 |
 |----|------|
-| D1 | **独立 feed**（`feeds/collabo-cafe.*`），不并入 `all.*` / `news.json` |
+| D1 | 并入现有订阅池，不生成独立 `feeds/collabo-cafe.*` |
 | D2 | 内容定位：**周边 + 活动**（event / goods） |
 | D3 | MVP 不去重（与官网同活动可并存，来源不同） |
 | D4 | 多城市 `開催期間` → 每条城市段独立 `eventDate`（含 `endDate`） |
-| D5 | `/api/feed` 动态过滤**不**纳入 collabo-cafe（静态独立文件即可） |
+| D5 | `/api/feed` 动态过滤纳入 collabo-cafe（通过 `news.json` 合并数据） |
 
 ## Acceptance Criteria
 
@@ -46,14 +46,14 @@
 - [ ] AC2：全量抓取后 `data/collabo-cafe/latest.json` ≥40 条合法 `NewsItem`
 - [ ] AC3：条目 `sourceId=collabo-cafe`；分类以 `event` / `goods` 为主
 - [ ] AC4：期间活动在 iCal 为跨日事件（`endDate`）
-- [ ] AC5：`public/feeds/collabo-cafe.xml` 与 `.ics` 存在且仅含 collabo-cafe 源
-- [ ] AC6：`public/feeds/all.*` 与 `public/data/news.json` **不含** collabo-cafe 条目
-- [ ] AC7：首页有 collabo-cafe 独立订阅入口
+- [ ] AC5：`public/feeds/event.*` 与 `goods.*` 含 collabo-cafe 条目
+- [ ] AC6：不生成 `public/feeds/collabo-cafe.*` / `public/data/collabo-cafe.json`
+- [ ] AC7：首页无 collabo-cafe 独立 section；现有活动/周边分类入口可订阅
 - [ ] AC8：列表/详情/日期抽取有夹具测试
 
 ## Out of Scope
 
-- 并入官网 `all` 订阅池
+- 独立 collabo-cafe 订阅 section / 独立 feed
 - collabo-cafe 全站 / 其他 IP 关键词
 - 与官网自动去重
 - Function 内按来源动态合成 feed
