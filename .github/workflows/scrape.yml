@@ -1,4 +1,4 @@
-# 定时增量抓取官网 / First Riff，重建 RSS·iCal 并推送（触发 Netlify 部署）
+# 定时增量抓取官网 / First Riff / collabo-cafe，重建 RSS·iCal 并推送（触发 Netlify 部署）
 name: Scrape
 
 on:
@@ -38,7 +38,9 @@ jobs:
       - name: Build feeds
         env:
           SITE_URL: https://gbc-news.netlify.app
-        run: npm run build:feeds
+        run: |
+          npm run build:feeds
+          npm run build:collabo-feeds
 
       - name: Commit and push updates
         run: |

@@ -25,6 +25,11 @@ const rssUrlEl = document.getElementById('rss-url')
 const icsUrlEl = document.getElementById('ics-url')
 const rssOpen = document.getElementById('rss-open')
 const icsOpen = document.getElementById('ics-open')
+const collaboLinksEl = document.getElementById('collabo-links')
+const collaboStatsEl = document.getElementById('collabo-stats')
+
+/** collabo-cafe 独立订阅的 ?v= */
+let collaboFeedRev = ''
 
 /** @type {{ groups?: string[], categories?: string[], eventDates?: { startTime?: string }[] }[]} */
 let newsItems = []
@@ -353,5 +358,46 @@ async function loadStats() {
   }
 }
 
+function renderCollaboLinks() {
+  if (!collaboLinksEl) return
+  const ics = withFeedRevValue(`${window.location.origin}/feeds/collabo-cafe.ics`, collaboFeedRev)
+  collaboLinksEl.replaceChildren(
+    buildLinkRow({
+      title: '协作资讯（collabo-cafe）',
+      ics,
+      rssPath: '/feeds/collabo-cafe.xml',
+      dimmed: false,
+    }),
+  )
+}
+
+function withFeedRevValue(url, rev) {
+  if (!rev) return url
+  const parsed = new URL(url, window.location.origin)
+  parsed.searchParams.set('v', rev)
+  return parsed.toString()
+}
+
+async function loadCollaboStats() {
+  renderCollaboLinks()
+  if (!collaboStatsEl) return
+  try {
+    const response = await fetch('/data/collabo-cafe.json', { cache: 'no-cache' })
+    if (!response.ok) throw new Error(`HTTP ${response.status}`)
+    const data = await response.json()
+    collaboFeedRev = String(data.scrapedAt ?? '')
+      .replace(/[-:.TZ]/g, '')
+      .slice(0, 14)
+    const items = data.items ?? []
+    const dated = items.filter((item) => item.eventDates?.length).length
+    collaboStatsEl.textContent = `独立订阅 · collabo-cafe.com｜资讯 ${data.count ?? items.length} 条（含活动日 ${dated} 条）｜不并入上方官网订阅池`
+    renderCollaboLinks()
+  } catch {
+    collaboStatsEl.textContent =
+      '独立订阅 · 来源 collabo-cafe.com 的协作カフェ・ポップアップ・グッズ（尚未加载到 collabo-cafe.json）'
+  }
+}
+
 refresh()
 loadStats()
+loadCollaboStats()
