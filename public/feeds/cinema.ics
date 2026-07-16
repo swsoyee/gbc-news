@@ -8,6 +8,2730 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-WR-CALNAME:gbc-news · 剧场/映像
 NAME:gbc-news · 剧场/映像
 BEGIN:VEVENT
+UID:post-2-2023-07-26-sale@gbc-news
+DTSTAMP:20230726T000000Z
+DTSTART;VALUE=DATE:20230726
+DTEND;VALUE=DATE:20230727
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 名もなき何もかも／トゲナシトゲアリ 2023
+ 年7月26日(水)CD発売！
+DESCRIPTION:【タイトル】 デビューシングル「名もなき何
+ もかも」 【アーティスト】 トゲナシトゲアリ Vo.井芹 
+ 仁菜（CV:理名） Gt.河原木 桃香（CV:夕莉） Dr.安和 すば
+ る（CV: 美怜） Key.海老塚 智（CV: 凪都） Ba.ルパ （CV: 朱
+ 李） 【発売日】 2023年7月26日(水) 【価格・品番】 CD+Blu-
+ ray : ¥3\,960(Tax\nhttps://girls-band-cry.com/news/post-2.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-2.html
+CATEGORIES:togenashi,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-3-2023-07-29-hold-1700@gbc-news
+DTSTAMP:20230729T080000Z
+DTSTART:20230729T080000Z
+DTEND:20230729T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ［fromガールズバンドクラ
+ イ］ 1st Single『名もなき何もかも』発売記念 オンライ
+ ントーク配信＆サイン会 開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ「ガールズバンドクライ」の主題歌を歌う5人編成の
+ ガールズバンド ‘’トゲナシトゲアリ‘’ リリースイ
+ ベントとして、オンライントーク配信＆サイン会の開
+ 催が決定！ ガールズバンドクライのキャラクター絵柄
+ の後ろで、トゲナシトゲアリメンバーの生声トークを
+ 楽しむことができます。 また、リミスタにて対象商品
+ をご購入いただいたお\n
+ https://girls-band-cry.com/news/post-3.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-3.html
+CATEGORIES:togenashi,live,music,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-3-2023-07-29-hold-1800@gbc-news
+DTSTAMP:20230729T090000Z
+DTSTART:20230729T090000Z
+DTEND:20230729T110000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ［fromガールズバンドクラ
+ イ］ 1st Single『名もなき何もかも』発売記念 オンライ
+ ントーク配信＆サイン会 開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ「ガールズバンドクライ」の主題歌を歌う5人編成の
+ ガールズバンド ‘’トゲナシトゲアリ‘’ リリースイ
+ ベントとして、オンライントーク配信＆サイン会の開
+ 催が決定！ ガールズバンドクライのキャラクター絵柄
+ の後ろで、トゲナシトゲアリメンバーの生声トークを
+ 楽しむことができます。 また、リミスタにて対象商品
+ をご購入いただいたお\n
+ https://girls-band-cry.com/news/post-3.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-3.html
+CATEGORIES:togenashi,live,music,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-5-2023-08-29-hold-1700@gbc-news
+DTSTAMP:20230829T080000Z
+DTSTART:20230829T080000Z
+DTEND:20230829T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] 『トゲナシトゲアリ2ndシングル「気鬱、白
+ 濁す」発売記念イベント トーク&#038\;CDジャケットサイ
+ ン会＠HMV＆BOOKS SHIBUYA』決…
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ「ガールズバンドクライ」から飛び出したガールズ
+ バンド “トゲナシトゲアリ”2ndシングル「気鬱、白濁
+ す」の発売を記念して、HMV＆BOOKS SHIBUYAにてトーク&CDジ
+ ャケットサイン会の開催が決定しました。 こちら、“
+ トゲナシトゲアリ”として、はじめてお客様と直接に
+ 対面するイベントとなります！！ 1stシング\n
+ https://girls-band-cry.com/news/post-5.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-5.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-5-2023-08-29-hold-1900@gbc-news
+DTSTAMP:20230829T100000Z
+DTSTART:20230829T100000Z
+DTEND:20230829T120000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] 『トゲナシトゲアリ2ndシングル「気鬱、白
+ 濁す」発売記念イベント トーク&#038\;CDジャケットサイ
+ ン会＠HMV＆BOOKS SHIBUYA』決…
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ「ガールズバンドクライ」から飛び出したガールズ
+ バンド “トゲナシトゲアリ”2ndシングル「気鬱、白濁
+ す」の発売を記念して、HMV＆BOOKS SHIBUYAにてトーク&CDジ
+ ャケットサイン会の開催が決定しました。 こちら、“
+ トゲナシトゲアリ”として、はじめてお客様と直接に
+ 対面するイベントとなります！！ 1stシング\n
+ https://girls-band-cry.com/news/post-5.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-5.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-18-2023-08-30-sale@gbc-news
+DTSTAMP:20230830T000000Z
+DTSTART;VALUE=DATE:20230830
+DTEND;VALUE=DATE:20230831
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] トゲナシトゲアリ 2nd Single「気鬱、白濁す
+ 」本日発売！
+DESCRIPTION:【タイトル】 セカンドシングル「気鬱、白濁
+ す」 【アーティスト】 トゲナシトゲアリ Vo.井芹仁菜 (
+ CV:理名) Gt.河原木桃香 (CV:夕莉) Dr.安和すばる (CV:美怜) K
+ ey.海老塚智 (CV:凪都) Ba.ルパ (CV:朱李) 【発売日】 2023年8
+ 月30日（水） 【形態・価格・品番】 CD+Blu-ray : ¥3\,960(Tax
+  in\nhttps://girls-band-cry.com/news/post-18.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-18.html
+CATEGORIES:togenashi,live,music,goods,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-4-2023-08-30-sale@gbc-news
+DTSTAMP:20230830T000000Z
+DTSTART;VALUE=DATE:20230830
+DTEND;VALUE=DATE:20230831
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 気鬱、白濁す/トゲナシトゲアリ 2023年8月30
+ 日（水）セカンドシングル発売！
+DESCRIPTION:【タイトル】 セカンドシングル「気鬱、白濁
+ す」 【アーティスト】 トゲナシトゲアリ Vo.井芹仁菜 (
+ CV:理名) Gt.河原木桃香 (CV:夕莉) Dr.安和すばる (CV:美怜) K
+ ey.海老塚智 (CV:凪都) Ba.ルパ (CV:朱李) 【発売日】 2023年8
+ 月30日（水） 【形態・価格・品番】 CD+Blu-ray : ¥3\,960(Tax
+  in\nhttps://girls-band-cry.com/news/post-4.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-4.html
+CATEGORIES:togenashi,live,music,goods,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-10-2023-09-02-hold-1700@gbc-news
+DTSTAMP:20230902T080000Z
+DTSTART:20230902T080000Z
+DTEND:20230902T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ［fromガールズバンドクラ
+ イ］ 2nd Single『気鬱、白濁す』発売記念 オンライント
+ ーク配信＆サイン会 開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ「ガールズバンドクライ」の主題歌を歌う5人編成の
+ ガールズバンド ‘’トゲナシトゲアリ‘’ 2nd Single『
+ 気鬱、白濁す』のリリースを記念して 、オンライント
+ ーク配信＆サイン会【2回目】の開催が決定！ 今回は、
+ トゲナシトゲアシのメンバーが顔を出して出演します
+ 。 また、リミスタにて対象商品をご購入いただいたお
+ 客様\nhttps://girls-band-cry.com/news/post-10.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-10.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-25-2023-09-30-hold-1700@gbc-news
+DTSTAMP:20230930T080000Z
+DTSTART:20230930T080000Z
+DTEND:20230930T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ修行中！公開練習ライブ
+ 敢行記念 アフタートーク＆バックステージパス風カー
+ ドサイン会のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ「ガールズバンドクライ」の主題歌を歌う5人編成の
+ ガールズバンド “トゲナシトゲアリ” 9 月14日(土)代官
+ 山SPACE ODDにて、「トゲナシトゲアリ修行中！公開練習
+ ライブ」を敢行しました。ご来場いただいた皆様、あ
+ りがとうございます。 今回の放送では、初ライブ終了
+ 後のメンバーよるアフタートークをオンラインにて放
+ 送\nhttps://girls-band-cry.com/news/post-25.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-25.html
+CATEGORIES:togenashi,live,music,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-16-2023-10-25-sale@gbc-news
+DTSTAMP:20231025T000000Z
+DTSTART;VALUE=DATE:20231025
+DTEND;VALUE=DATE:20231026
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 爆ぜて咲く/トゲナシトゲアリ 2023年10月25日
+ （水）サードシングル発売！
+DESCRIPTION:【タイトル】 サードシングル「爆ぜて咲く」 
+ 【アーティスト】 トゲナシトゲアリ Vo.井芹仁菜 (CV:理
+ 名) Gt.河原木桃香 (CV:夕莉) Dr.安和すばる (CV:美怜) Key.海
+ 老塚智 (CV:凪都) Ba.ルパ (CV:朱李) 【発売日】 2023年10月25
+ 日（水） 【形態・価格・品番】 CD+Blu-ray : ¥3\,960(Tax in)\
+ nhttps://girls-band-cry.com/news/post-16.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-16.html
+CATEGORIES:togenashi,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-36-2023-10-25-hold-1840@gbc-news
+DTSTAMP:20231025T094000Z
+DTSTART:20231025T094000Z
+DTEND:20231025T114000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ 3rd Single『爆ぜて咲く』
+ 発売記念イベント開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メーション「ガールズバンドクライ」から飛び出した 
+ ガールズバンド“トゲナシトゲアリ”の3rd Single『爆ぜ
+ て咲く』の発売を記念して、 HMV＆BOOKS SHIBUYA ６Fにてト
+ ークイベント【第2回目】の開催が決定！ 【開催日時】
+  2023年10月25日(水) 19:00 【優先エリア入場開始時間】 2023
+ \nhttps://girls-band-cry.com/news/post-36.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-36.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-36-2023-10-25-hold-1900@gbc-news
+DTSTAMP:20231025T100000Z
+DTSTART:20231025T100000Z
+DTEND:20231025T120000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ 3rd Single『爆ぜて咲く』
+ 発売記念イベント開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メーション「ガールズバンドクライ」から飛び出した 
+ ガールズバンド“トゲナシトゲアリ”の3rd Single『爆ぜ
+ て咲く』の発売を記念して、 HMV＆BOOKS SHIBUYA ６Fにてト
+ ークイベント【第2回目】の開催が決定！ 【開催日時】
+  2023年10月25日(水) 19:00 【優先エリア入場開始時間】 2023
+ \nhttps://girls-band-cry.com/news/post-36.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-36.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-35-2023-10-28-hold-1700@gbc-news
+DTSTAMP:20231028T080000Z
+DTSTART:20231028T080000Z
+DTEND:20231028T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ 3rd Single『爆ぜて咲く』
+ 発売記念 オンライントーク配信＆サイン会 開催のご案
+ 内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ「ガールズバンドクライ」の主題歌を歌う5人編成の
+ ガールズバンド “トゲナシトゲアリ” 3rd Single 『爆ぜ
+ て咲く』の発売を記念して大好評のオンライントーク
+ 配信＆サイン会【4回目】の開催が決定！ リミスタにて
+ 対象商品をご購入いただいたお客様に、３rd Single『爆
+ ぜて咲く』ジャケットへメンバー全員がサイン\n
+ https://girls-band-cry.com/news/post-35.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-35.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-35-2023-10-28-hold-1800@gbc-news
+DTSTAMP:20231028T090000Z
+DTSTART:20231028T090000Z
+DTEND:20231028T110000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ 3rd Single『爆ぜて咲く』
+ 発売記念 オンライントーク配信＆サイン会 開催のご案
+ 内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ「ガールズバンドクライ」の主題歌を歌う5人編成の
+ ガールズバンド “トゲナシトゲアリ” 3rd Single 『爆ぜ
+ て咲く』の発売を記念して大好評のオンライントーク
+ 配信＆サイン会【4回目】の開催が決定！ リミスタにて
+ 対象商品をご購入いただいたお客様に、３rd Single『爆
+ ぜて咲く』ジャケットへメンバー全員がサイン\n
+ https://girls-band-cry.com/news/post-35.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-35.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-45-2023-11-27-hold@gbc-news
+DTSTAMP:20231127T000000Z
+DTSTART;VALUE=DATE:20231127
+DTEND;VALUE=DATE:20231128
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ MV第8弾『傷つき傷つけ痛
+ くて辛い』公開記念イベント開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メーション「ガールズバンドクライ」から 飛び出した
+ ガールズバンド“トゲナシトゲアリ”Music Video第8弾『
+ 傷つき傷つけ痛くて辛い』公開を記念して、 HMV＆BOOKS S
+ HIBUYA 5Fにてトークイベント【第3回目】の開催が決定！
+ 初公開となるMusic Videoをメンバーと一緒に観ましょう！
+  【開催日時】\nhttps://girls-band-cry.com/news/post-45.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-45.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-46-2023-12-02-hold-1700@gbc-news
+DTSTAMP:20231202T080000Z
+DTSTART:20231202T080000Z
+DTEND:20231202T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ 3rd Single『爆ぜて咲く～
+ ミュージックビデオ1\,000万回再生目前～』 オンライン
+ トーク配信＆サイン会開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ「ガールズバンドクライ」の主題歌を歌う5人編成の
+ ガールズバンド“トゲナシトゲアリ” 3rd Single 『爆ぜ
+ て咲く』大好評発売中！そしてさらにミュージックビ
+ デオ1\,000万回再生目前を記念して大好評のオンライン
+ トーク配信＆サイン会【5回目】の開催が決定！ 今回の
+ 企画は「夕莉王決定戦～メンバーはどのくらい夕莉の
+ こ\nhttps://girls-band-cry.com/news/post-46.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-46.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-46-2023-12-02-hold-1800@gbc-news
+DTSTAMP:20231202T090000Z
+DTSTART:20231202T090000Z
+DTEND:20231202T110000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ 3rd Single『爆ぜて咲く～
+ ミュージックビデオ1\,000万回再生目前～』 オンライン
+ トーク配信＆サイン会開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ「ガールズバンドクライ」の主題歌を歌う5人編成の
+ ガールズバンド“トゲナシトゲアリ” 3rd Single 『爆ぜ
+ て咲く』大好評発売中！そしてさらにミュージックビ
+ デオ1\,000万回再生目前を記念して大好評のオンライン
+ トーク配信＆サイン会【5回目】の開催が決定！ 今回の
+ 企画は「夕莉王決定戦～メンバーはどのくらい夕莉の
+ こ\nhttps://girls-band-cry.com/news/post-46.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-46.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-40-2023-12-20-sale@gbc-news
+DTSTAMP:20231220T000000Z
+DTSTART;VALUE=DATE:20231220
+DTEND;VALUE=DATE:20231221
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 4th Single「極私的極彩色アンサー」/トゲナ
+ シトゲアリ 2023年12月20日(水)発売！
+DESCRIPTION:【アーティスト】 トゲナシトゲアリ Vo.井芹 仁
+ 菜（CV:理名） Gt.河原木 桃香（CV:夕莉） Dr.安和 すばる
+ （CV: 美怜） Key.海老塚 智（CV: 凪都） Ba.ルパ （CV: 朱李
+ ） 【発売日】 2023年12月20日（水） 【形態・価格・品番
+ 】 CD+Blu-ray : ¥3\,960(Tax in)UMCK-5739 CD+DVD :\n
+ https://girls-band-cry.com/news/post-40.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-40.html
+CATEGORIES:togenashi,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-45-2023-12-20-hold@gbc-news
+DTSTAMP:20231220T000000Z
+DTSTART;VALUE=DATE:20231220
+DTEND;VALUE=DATE:20231221
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ MV第8弾『傷つき傷つけ痛
+ くて辛い』公開記念イベント開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メーション「ガールズバンドクライ」から 飛び出した
+ ガールズバンド“トゲナシトゲアリ”Music Video第8弾『
+ 傷つき傷つけ痛くて辛い』公開を記念して、 HMV＆BOOKS S
+ HIBUYA 5Fにてトークイベント【第3回目】の開催が決定！
+ 初公開となるMusic Videoをメンバーと一緒に観ましょう！
+  【開催日時】\nhttps://girls-band-cry.com/news/post-45.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-45.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-55-2023-12-20-sale@gbc-news
+DTSTAMP:20231220T000000Z
+DTSTART;VALUE=DATE:20231220
+DTEND;VALUE=DATE:20231221
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 5th Single「運命に賭けたい論理」/トゲナシ
+ トゲアリ 2024年2月28日(水)発売！
+DESCRIPTION:【アーティスト】 トゲナシトゲアリ Vo.井芹 仁
+ 菜（CV:理名） Gt.河原木 桃香（CV:夕莉） Dr.安和 すばる
+ （CV: 美怜） Key.海老塚 智（CV: 凪都） Ba.ルパ （CV: 朱李
+ ） 【発売日】 2023年12月20日（水） 【形態・価格・品番
+ 】 [CD+Blu-ray] ￥3\,960 (Tax in) UMCK 5744 [CD+DVD\n
+ https://girls-band-cry.com/news/post-55.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-55.html
+CATEGORIES:togenashi,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-60-2023-12-20-sale@gbc-news
+DTSTAMP:20231220T000000Z
+DTSTART;VALUE=DATE:20231220
+DTEND;VALUE=DATE:20231221
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] トゲナシトゲアリ4th Single「極私的極彩色ア
+ ンサー」本日発売！
+DESCRIPTION:【アーティスト】 トゲナシトゲアリ Vo.井芹 仁
+ 菜（CV:理名） Gt.河原木 桃香（CV:夕莉） Dr.安和 すばる
+ （CV: 美怜） Key.海老塚 智（CV: 凪都） Ba.ルパ （CV: 朱李
+ ） 【発売日】 2023年12月20日（水） 【形態・価格・品番
+ 】 CD+Blu-ray : ¥3\,960(Tax in)UMCK-5739 CD+DVD :\n
+ https://girls-band-cry.com/news/post-60.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-60.html
+CATEGORIES:togenashi,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-53-2023-12-22-hold-1900@gbc-news
+DTSTAMP:20231222T100000Z
+DTSTART:20231222T100000Z
+DTEND:20231222T120000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ 4th Single『極私的極彩色
+ アンサー』発売記念 オンライントーク配信＆サイン会 
+ 開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ「ガールズバンドクライ」の主題歌を歌う5人編成の
+ ガールズバンド “トゲナシトゲアリ” 12 月20日(水)の 4
+ th Single『極私的極彩色アンサー』発売を記念し、大好
+ 評のオンライントーク配信＆サイン会【6回目】の開催
+ が決定！ 今回の企画は「トゲトゲ版！きよしこの夜、
+ プレゼント対決」になります。 ご期待ください\n
+ https://girls-band-cry.com/news/post-53.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-53.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-53-2023-12-22-hold-2000@gbc-news
+DTSTAMP:20231222T110000Z
+DTSTART:20231222T110000Z
+DTEND:20231222T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ 4th Single『極私的極彩色
+ アンサー』発売記念 オンライントーク配信＆サイン会 
+ 開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ「ガールズバンドクライ」の主題歌を歌う5人編成の
+ ガールズバンド “トゲナシトゲアリ” 12 月20日(水)の 4
+ th Single『極私的極彩色アンサー』発売を記念し、大好
+ 評のオンライントーク配信＆サイン会【6回目】の開催
+ が決定！ 今回の企画は「トゲトゲ版！きよしこの夜、
+ プレゼント対決」になります。 ご期待ください\n
+ https://girls-band-cry.com/news/post-53.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-53.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-68-2024-02-03-hold-1700@gbc-news
+DTSTAMP:20240203T080000Z
+DTSTART:20240203T080000Z
+DTEND:20240203T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ 5th Single『運命に賭けた
+ い論理』発売記念 オンライントーク配信＆サイン会 開
+ 催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ「ガールズバンドクライ」の主題歌を歌う5人編成の
+ ガールズバンド “トゲナシトゲアリ” 2024年2月28日（
+ 水）の5th Single 『運命に賭けたい論理』の発売を記念し
+ て、今年第1回目となるオンライントーク配信＆サイン
+ 会の開催が決定！ 今回の企画は「朱李プレゼンツ：ジ
+ ェスチャー伝言ゲーム」になります。ご期待くだ\n
+ https://girls-band-cry.com/news/post-68.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-68.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-68-2024-02-03-hold-1800@gbc-news
+DTSTAMP:20240203T090000Z
+DTSTART:20240203T090000Z
+DTEND:20240203T110000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ 5th Single『運命に賭けた
+ い論理』発売記念 オンライントーク配信＆サイン会 開
+ 催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ「ガールズバンドクライ」の主題歌を歌う5人編成の
+ ガールズバンド “トゲナシトゲアリ” 2024年2月28日（
+ 水）の5th Single 『運命に賭けたい論理』の発売を記念し
+ て、今年第1回目となるオンライントーク配信＆サイン
+ 会の開催が決定！ 今回の企画は「朱李プレゼンツ：ジ
+ ェスチャー伝言ゲーム」になります。ご期待くだ\n
+ https://girls-band-cry.com/news/post-68.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-68.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-74-2024-02-27-hold@gbc-news
+DTSTAMP:20240227T000000Z
+DTSTART;VALUE=DATE:20240227
+DTEND;VALUE=DATE:20240228
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ 5th Single『運命に賭けた
+ い論理』発売記念イベント開催！
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メーション「ガールズバンドクライ」から 飛び出した
+ ガールズバンド “トゲナシトゲアリ” 5th Single『運命
+ に賭けたい論理』の発売を記念して、HMV＆BOOKS SHIBUYA 5F
+ にてトークイベント【第4回目】の開催が決定！ 【開催
+ 日時】 2024年2月27日(火) 19:00 【優先エリア入場開始時間
+ 】 2\nhttps://girls-band-cry.com/news/post-74.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-74.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-55-2024-02-28-sale@gbc-news
+DTSTAMP:20240228T000000Z
+DTSTART;VALUE=DATE:20240228
+DTEND;VALUE=DATE:20240229
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 5th Single「運命に賭けたい論理」/トゲナシ
+ トゲアリ 2024年2月28日(水)発売！
+DESCRIPTION:【アーティスト】 トゲナシトゲアリ Vo.井芹 仁
+ 菜（CV:理名） Gt.河原木 桃香（CV:夕莉） Dr.安和 すばる
+ （CV: 美怜） Key.海老塚 智（CV: 凪都） Ba.ルパ （CV: 朱李
+ ） 【発売日】 2023年12月20日（水） 【形態・価格・品番
+ 】 [CD+Blu-ray] ￥3\,960 (Tax in) UMCK 5744 [CD+DVD\n
+ https://girls-band-cry.com/news/post-55.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-55.html
+CATEGORIES:togenashi,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-74-2024-02-28-hold@gbc-news
+DTSTAMP:20240228T000000Z
+DTSTART;VALUE=DATE:20240228
+DTEND;VALUE=DATE:20240229
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ 5th Single『運命に賭けた
+ い論理』発売記念イベント開催！
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メーション「ガールズバンドクライ」から 飛び出した
+ ガールズバンド “トゲナシトゲアリ” 5th Single『運命
+ に賭けたい論理』の発売を記念して、HMV＆BOOKS SHIBUYA 5F
+ にてトークイベント【第4回目】の開催が決定！ 【開催
+ 日時】 2024年2月27日(火) 19:00 【優先エリア入場開始時間
+ 】 2\nhttps://girls-band-cry.com/news/post-74.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-74.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-84-2024-02-28-sale@gbc-news
+DTSTAMP:20240228T000000Z
+DTSTART;VALUE=DATE:20240228
+DTEND;VALUE=DATE:20240229
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] トゲナシトゲアリ5th Single「運命に賭けたい
+ 論理」販売スタート！
+DESCRIPTION:劇中バンド「トゲナシトゲアリ」の 5thシング
+ ル「運命に賭けたい論理」 の販売がスタートしました 
+ CDのご購入は こちら 【アーティスト】 トゲナシトゲア
+ リ Vo.井芹 仁菜（CV:理名） Gt.河原木 桃香（CV:夕莉） Dr.
+ 安和 すばる（CV: 美怜） Key.海老塚 智（CV: 凪都） Ba.ル
+ パ （CV: 朱李） 【発売日】 2024年2月2\n
+ https://girls-band-cry.com/news/post-84.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-84.html
+CATEGORIES:togenashi,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-289-2024-03-16-sale@gbc-news
+DTSTAMP:20240316T000000Z
+DTSTART;VALUE=DATE:20240316
+DTEND;VALUE=DATE:20240317
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] トゲナシトゲアリ 「1st ONE-MAN LIVE “薄明の
+ 序奏”」パッケージ化決定！
+DESCRIPTION:2024年3月16日(土)に横浜・1000CLUBで開催した初の
+ ワンマンライブ 「“1st ONE-MAN LIVE”『薄明の序奏』”」
+ のパッケージ化決定！ 2025年3月19日(水)Release ご購入は 
+ こちら 【Blu-ray】 UMXK-1124 ￥7\,700円（税込） 【DVD】 UMBK-
+ 1336 ￥6\,600円（税込） 仕様：三方背ケ\n
+ https://girls-band-cry.com/news/post-289.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-289.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-294-2024-03-16-hold@gbc-news
+DTSTAMP:20240316T000000Z
+DTSTART;VALUE=DATE:20240316
+DTEND;VALUE=DATE:20240317
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 【2/28】トゲナシトゲアリ1st ONE-MAN LIVE “薄
+ 明の序奏” [Blu-ray]［DVD］発売記念オンライントーク配
+ 信
+DESCRIPTION:開催日時：2025年2月28日(金)19:00スタート (20:00終
+ 了予定) 2024年3月16日(土)横浜・1000 CLUBで開催されたトゲ
+ ナシトゲアリの1st ONE-MAN LIVE“薄明の序奏”のパッケー
+ ジ化を記念して、リミスタでのオンライントーク開催
+ が決定！ リミスタにて対象商品をご購入いただいたお
+ 客様に、1st ONE-MAN LIVE「薄明\n
+ https://girls-band-cry.com/news/post-294.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-294.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-108-2024-04-19-sale@gbc-news
+DTSTAMP:20240419T000000Z
+DTSTART;VALUE=DATE:20240419
+DTEND;VALUE=DATE:20240420
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] TVアニメ『ガールズバンドクライ』【豪華
+ 限定版BD/DVD】全7巻発売決定！
+DESCRIPTION:／／ TVアニメ『ガールズバンドクライ』 【豪
+ 華限定版BD/DVD】全7巻発売決定！ ＼＼ TVアニメ『ガール
+ ズバンドクライ』の映像商品化が決定！ 再来月の6/26(
+ 水)を皮切りに12月まで毎月発売！ 第1巻豪華限定版は特
+ 典満載！ ・トゲナシトゲアリ 2ndワンマンライブチケッ
+ ト最速先行抽選申し込み券 ・デジジャケット仕様 ・三
+ 方背スリーブケース ・オー\n
+ https://girls-band-cry.com/news/post-108.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-108.html
+CATEGORIES:togenashi,live,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-121-2024-04-24-sale@gbc-news
+DTSTAMP:20240424T000000Z
+DTSTART;VALUE=DATE:20240424
+DTEND;VALUE=DATE:20240425
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] オリジナルアルバム「棘アリ」本日発売！
+DESCRIPTION:トゲナシトゲアリ オリジナルアルバム「棘ア
+ リ」本日発売です㊗ ・アニメ放送前=バンドのインディ
+ ーズ時代を集約！ ・放送前にリリースした10曲を全て
+ 収録！ ぜひゲットしてくださいね ご購入は こちら 配
+ 信は こちら 【店舗別特典】 【第8話同時視聴会】 詳細
+ は こちら 【アーティスト】 トゲナシトゲアリ Vo.井芹 
+ 仁菜（CV:理名） Gt.河原木\n
+ https://girls-band-cry.com/news/post-121.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-121.html
+CATEGORIES:togenashi,music,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-88-2024-04-24-hold@gbc-news
+DTSTAMP:20240424T000000Z
+DTSTART;VALUE=DATE:20240424
+DTEND;VALUE=DATE:20240425
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] オリジナルアルバム『棘アリ』を4月24日(水
+ )にリリース！
+DESCRIPTION:アニメ『ガールズバンドクライ』 本作の劇中
+ バンド「トゲナシトゲアリ」が、 初のオリジナルアル
+ バム『棘アリ』を4月24日(水)にリリース！ ご予約受付
+ を開始しました アルバム予約は こちら から さらに、2
+ 024年3月16日(土)横浜・1000CLUBにて開催されるトゲナシト
+ ゲアリ 1st ONE-MAN LIVE “薄明の序奏” の会場でご\n
+ https://girls-band-cry.com/news/post-88.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-88.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-88-2024-04-24-sale@gbc-news
+DTSTAMP:20240424T000000Z
+DTSTART;VALUE=DATE:20240424
+DTEND;VALUE=DATE:20240425
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] オリジナルアルバム『棘アリ』を4月24日(水
+ )にリリース！
+DESCRIPTION:アニメ『ガールズバンドクライ』 本作の劇中
+ バンド「トゲナシトゲアリ」が、 初のオリジナルアル
+ バム『棘アリ』を4月24日(水)にリリース！ ご予約受付
+ を開始しました アルバム予約は こちら から さらに、2
+ 024年3月16日(土)横浜・1000CLUBにて開催されるトゲナシト
+ ゲアリ 1st ONE-MAN LIVE “薄明の序奏” の会場でご\n
+ https://girls-band-cry.com/news/post-88.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-88.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-90-2024-04-24-sale@gbc-news
+DTSTAMP:20240424T000000Z
+DTSTART;VALUE=DATE:20240424
+DTEND;VALUE=DATE:20240425
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] TVアニメ「ガールズバンドクライ」〈第8話
+ 〉振り返り上映会 開催決定！
+DESCRIPTION:2024年4月24日(水)発売 トゲナシトゲアリ オリジ
+ ナルアルバム 『棘アリ』 を全国アニメイト（通販含む
+ ）でご予約（全額内金）もしくはご購入いただくと、 
+ メンバーと一緒に振り返り上映会にご参加いただける
+ 応募シリアルをプレゼント！ ご当選者のみご参加いた
+ だけるイベントです。 〈開催場所・日時〉 アニメイト
+ シアター(アニメイト池袋本店 B2F) 2024年5\n
+ https://girls-band-cry.com/news/post-90.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-90.html
+CATEGORIES:togenashi,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-107-2024-05-22-hold@gbc-news
+DTSTAMP:20240522T000000Z
+DTSTART;VALUE=DATE:20240522
+DTEND;VALUE=DATE:20240523
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 6th SINGLE『雑踏、僕らの街』 5/22(水) CDリリ
+ ース決定！リリースイベントも開催！
+DESCRIPTION:／／ トゲナシトゲアリ 6th SINGLE『雑踏、僕らの
+ 街』 5/22(水) CDリリース決定！ ＼＼ (収録曲) ・オープ
+ ニング主題歌「雑踏、僕らの街」 ・第1話挿入歌「空の
+ 箱(井芹仁菜、河原木桃香)」 ・「空の箱（Vo.河原木桃
+ 香） / ダイヤモンドダスト」 and more... <ご予約は こち
+ ら > さらに 6th SINGLE リリースイベ\n
+ https://girls-band-cry.com/news/post-107.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-107.html
+CATEGORIES:togenashi,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-109-2024-05-25-hold@gbc-news
+DTSTAMP:20240525T000000Z
+DTSTART;VALUE=DATE:20240525
+DTEND;VALUE=DATE:20240526
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ AL『棘アリ』購入者対象 
+ TVアニメ【第8話】振り返り上映会 応募シリアル配布中
+ ！！
+DESCRIPTION:／／ トゲナシトゲアリ AL『棘アリ』購入者対
+ 象 TVアニメ【第8話】振り返り上映会 応募シリアル配布
+ 中！！ ＼＼ (場所) アニメイトシアター(アニメイト池
+ 袋本店B2F) (日程) 2024年5月25日(土) 【第1部】14:00スター
+ ト 【第2部】17:00スタート ＜詳細は こちら ＞\n
+ https://girls-band-cry.com/news/post-109.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-109.html
+CATEGORIES:togenashi,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-90-2024-05-25-sale@gbc-news
+DTSTAMP:20240525T000000Z
+DTSTART;VALUE=DATE:20240525
+DTEND;VALUE=DATE:20240526
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] TVアニメ「ガールズバンドクライ」〈第8話
+ 〉振り返り上映会 開催決定！
+DESCRIPTION:2024年4月24日(水)発売 トゲナシトゲアリ オリジ
+ ナルアルバム 『棘アリ』 を全国アニメイト（通販含む
+ ）でご予約（全額内金）もしくはご購入いただくと、 
+ メンバーと一緒に振り返り上映会にご参加いただける
+ 応募シリアルをプレゼント！ ご当選者のみご参加いた
+ だけるイベントです。 〈開催場所・日時〉 アニメイト
+ シアター(アニメイト池袋本店 B2F) 2024年5\n
+ https://girls-band-cry.com/news/post-90.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-90.html
+CATEGORIES:togenashi,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-165-2024-06-14-hold@gbc-news
+DTSTAMP:20240614T000000Z
+DTSTART;VALUE=DATE:20240614
+DTEND;VALUE=DATE:20240615
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ニコニコ「 アニメ『ガールズバンドクライ
+ 』 1～10話振り返り上映会 」および無料配信中止のお知
+ らせ
+DESCRIPTION:現在ニコニコ各種サービス（ニコニコ動画・ニ
+ コニコ生放送・ニコニコチャンネルを含む全般）で障
+ 害が発生しております。 6月14日予定しておりました「 
+ アニメ『ガールズバンドクライ』 1～10話振り返り上映
+ 会 」および無料配信については中止とさせていただき
+ ます。 【 ニコニコからのおしらせ 】 配信を楽しみに
+ していただいてた中 このような判断となり誠に申し訳
+ ござい\nhttps://girls-band-cry.com/news/post-165.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-165.html
+CATEGORIES:togenashi,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-151-2024-06-21-hold-1900@gbc-news
+DTSTAMP:20240621T100000Z
+DTSTART:20240621T100000Z
+DTEND:20240621T120000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] TVアニメ『ガールズバンドクライ』 Vol.1〈
+ 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
+ トーク配信 開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ『ガールズバンドクライ』待望の映像商品、TVアニメ
+ 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
+ VD＋CD］のVol.1がいよいよ2024年6月26日(水)より発売開始
+ ！ 発売を記念して、リミスタでのオンライントーク配
+ 信の開催が決定！ リミスタにて対象商品をご購入いた
+ だいたお客様に、TVアニメ『ガ\n
+ https://girls-band-cry.com/news/post-151.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-151.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-151-2024-06-21-hold-2000@gbc-news
+DTSTAMP:20240621T110000Z
+DTSTART:20240621T110000Z
+DTEND:20240621T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] TVアニメ『ガールズバンドクライ』 Vol.1〈
+ 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
+ トーク配信 開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ『ガールズバンドクライ』待望の映像商品、TVアニメ
+ 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
+ VD＋CD］のVol.1がいよいよ2024年6月26日(水)より発売開始
+ ！ 発売を記念して、リミスタでのオンライントーク配
+ 信の開催が決定！ リミスタにて対象商品をご購入いた
+ だいたお客様に、TVアニメ『ガ\n
+ https://girls-band-cry.com/news/post-151.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-151.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-105-2024-06-26-sale@gbc-news
+DTSTAMP:20240626T000000Z
+DTSTART;VALUE=DATE:20240626
+DTEND;VALUE=DATE:20240627
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 2nd ONE-MAN LIVE 2024年秋 開催決定！
+DESCRIPTION:2024年秋にトゲナシトゲアリ2nd ONE-MAN LIVE の開催
+ が決定しました！ チケット先行抽選券は6月26日発売の
+ 「ガールズバンドクライ」Blu-ray１巻についていますの
+ で、お見逃しなく。 ＜Blu-rayの詳細は こちら ＞ LIVE情
+ 報は後日解禁予定！お楽しみに！\n
+ https://girls-band-cry.com/news/post-105.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-105.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-108-2024-06-26-sale@gbc-news
+DTSTAMP:20240626T000000Z
+DTSTART;VALUE=DATE:20240626
+DTEND;VALUE=DATE:20240627
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] TVアニメ『ガールズバンドクライ』【豪華
+ 限定版BD/DVD】全7巻発売決定！
+DESCRIPTION:／／ TVアニメ『ガールズバンドクライ』 【豪
+ 華限定版BD/DVD】全7巻発売決定！ ＼＼ TVアニメ『ガール
+ ズバンドクライ』の映像商品化が決定！ 再来月の6/26(
+ 水)を皮切りに12月まで毎月発売！ 第1巻豪華限定版は特
+ 典満載！ ・トゲナシトゲアリ 2ndワンマンライブチケッ
+ ト最速先行抽選申し込み券 ・デジジャケット仕様 ・三
+ 方背スリーブケース ・オー\n
+ https://girls-band-cry.com/news/post-108.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-108.html
+CATEGORIES:togenashi,live,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-116-2024-06-26-sale@gbc-news
+DTSTAMP:20240626T000000Z
+DTSTART;VALUE=DATE:20240626
+DTEND;VALUE=DATE:20240627
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] TVアニメ『ガールズバンドクライ』待望の
+ 映像商品発売決定！
+DESCRIPTION:TVアニメ『ガールズバンドクライ』待望の映像
+ 商品発売決定！ 全13話の映像を収録した全7巻です TVア
+ ニメの映像以外にも、各巻トゲナシトゲアリの新曲や
+ 、豪華封入特典も付属した特別仕様となります TVアニ
+ メ『ガールズバンドクライ』Blu-ray & DVD 各ストアでのご
+ 予約は こちら から 【TVアニメ『ガールズバンドクライ
+ 』映像商品情報】 ＝＝＝\n
+ https://girls-band-cry.com/news/post-116.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-116.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-142-2024-06-26-sale@gbc-news
+DTSTAMP:20240626T000000Z
+DTSTART;VALUE=DATE:20240626
+DTEND;VALUE=DATE:20240627
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] Blu-ray &#038\; DVD 第1巻ジャケット初公開！
+DESCRIPTION:TVアニメ『ガールズバンドクライ』 キャラクタ
+ ーデザイン手島nari 描きおろし Blu-ray & DVD 第1巻ジャケ
+ ット初公開！ Vol.1＜豪華限定版＞ 2024/6/26(水) Release 仕
+ 様：デジジャケット仕様 / 三方背スリーブケース 収録
+ 内容： 第1話 ご予約は こちら ▼封入特典 ・特典映像 (
+ 本予告第1弾 / 本予告第2弾\n
+ https://girls-band-cry.com/news/post-142.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-142.html
+CATEGORIES:togenashi,live,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-146-2024-06-26-sale@gbc-news
+DTSTAMP:20240626T000000Z
+DTSTART;VALUE=DATE:20240626
+DTEND;VALUE=DATE:20240627
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] トゲナシトゲアリ 新曲 「碧いif」視聴動画
+ 公開
+DESCRIPTION:TVアニメ「ガールズバンドクライ」Blu-ray/DVD Vol.
+ 1（豪華限定版） 2024/6/26(水) Release ▼動画は こちら か
+ ら TVアニメ「ガールズバンドクライ」Blu-ray/DVD Vol.1（豪
+ 華限定版） 【Blu-ray+CD】 UMXK-9034 ￥4\,950(税込) 【DVD+CD】 
+ UMBK-9312 ￥3\,850(税込)\nhttps://girls-band-cry.com/news/post-146.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-146.html
+CATEGORIES:togenashi,live,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-192-2024-07-26-hold-1900@gbc-news
+DTSTAMP:20240726T100000Z
+DTSTART:20240726T100000Z
+DTEND:20240726T120000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] TVアニメ『ガールズバンドクライ』 Vol.2〈
+ 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
+ トーク配信 開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ『ガールズバンドクライ』待望の映像商品、TVアニメ
+ 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
+ VD＋CD］のVol.2の発売を記念して、リミスタでのオンラ
+ イントーク配信 の開催が決定！ リミスタにて対象商品
+ をご購入いただいたお客様に、TVアニメ『ガールズバン
+ ドクライ』豪華限定版Vol.2のジャケ\n
+ https://girls-band-cry.com/news/post-192.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-192.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-192-2024-07-26-hold-2000@gbc-news
+DTSTAMP:20240726T110000Z
+DTSTART:20240726T110000Z
+DTEND:20240726T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] TVアニメ『ガールズバンドクライ』 Vol.2〈
+ 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
+ トーク配信 開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ『ガールズバンドクライ』待望の映像商品、TVアニメ
+ 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
+ VD＋CD］のVol.2の発売を記念して、リミスタでのオンラ
+ イントーク配信 の開催が決定！ リミスタにて対象商品
+ をご購入いただいたお客様に、TVアニメ『ガールズバン
+ ドクライ』豪華限定版Vol.2のジャケ\n
+ https://girls-band-cry.com/news/post-192.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-192.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-199-2024-08-09-hold-1900@gbc-news
+DTSTAMP:20240809T100000Z
+DTSTART:20240809T100000Z
+DTEND:20240809T120000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ ２nd Album「棘ナシ」 / TV
+ アニメ『ガールズバンドクライ』オリジナルサウンド
+ トラック発売記念オンライントーク配信開催！
+DESCRIPTION:TVアニメ『ガールズバンドクライ』放送終了後
+ も精力的な活動を続けるガールズバンド「トゲナシト
+ ゲアリ」早くも２nd Albumが2024年8月28日（水）に発売決
+ 定！ そして2024年9月11日(水)にはオリジナルサウンドト
+ ラックも発売！ 詳細は こちら こちら2作品の発売を記
+ 念して、恒例のリミスタでのオンライントーク配信を
+ 行います リミスタにて対象商品をご\n
+ https://girls-band-cry.com/news/post-199.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-199.html
+CATEGORIES:togenashi,live,music,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-199-2024-08-09-hold-2000@gbc-news
+DTSTAMP:20240809T110000Z
+DTSTART:20240809T110000Z
+DTEND:20240809T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ ２nd Album「棘ナシ」 / TV
+ アニメ『ガールズバンドクライ』オリジナルサウンド
+ トラック発売記念オンライントーク配信開催！
+DESCRIPTION:TVアニメ『ガールズバンドクライ』放送終了後
+ も精力的な活動を続けるガールズバンド「トゲナシト
+ ゲアリ」早くも２nd Albumが2024年8月28日（水）に発売決
+ 定！ そして2024年9月11日(水)にはオリジナルサウンドト
+ ラックも発売！ 詳細は こちら こちら2作品の発売を記
+ 念して、恒例のリミスタでのオンライントーク配信を
+ 行います リミスタにて対象商品をご\n
+ https://girls-band-cry.com/news/post-199.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-199.html
+CATEGORIES:togenashi,live,music,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-206-2024-08-23-hold-1900@gbc-news
+DTSTAMP:20240823T100000Z
+DTSTART:20240823T100000Z
+DTEND:20240823T120000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] TVアニメ『ガールズバンドクライ』 Vol.3〈
+ 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
+ トーク配信 開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ『ガールズバンドクライ』待望の映像商品、TVアニメ
+ 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
+ VD＋CD］のVol.3の発売を記念して、リミスタでのオンラ
+ イントーク配信 の開催が決定！ リミスタにて対象商品
+ をご購入いただいたお客様に、TVアニメ『ガールズバン
+ ドクライ』豪華限定版Vol.3のジャケ\n
+ https://girls-band-cry.com/news/post-206.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-206.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-206-2024-08-23-hold-2000@gbc-news
+DTSTAMP:20240823T110000Z
+DTSTART:20240823T110000Z
+DTEND:20240823T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] TVアニメ『ガールズバンドクライ』 Vol.3〈
+ 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
+ トーク配信 開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ『ガールズバンドクライ』待望の映像商品、TVアニメ
+ 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
+ VD＋CD］のVol.3の発売を記念して、リミスタでのオンラ
+ イントーク配信 の開催が決定！ リミスタにて対象商品
+ をご購入いただいたお客様に、TVアニメ『ガールズバン
+ ドクライ』豪華限定版Vol.3のジャケ\n
+ https://girls-band-cry.com/news/post-206.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-206.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-200-2024-08-28-sale@gbc-news
+DTSTAMP:20240828T000000Z
+DTSTART;VALUE=DATE:20240828
+DTEND;VALUE=DATE:20240829
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] トゲナシトゲアリ２nd Album「棘ナシ」＆オ
+ リジナルサウンドトラック発売決定！
+DESCRIPTION:TVアニメ『ガールズバンドクライ』劇中バンド
+ 「トゲナシトゲアリ」から 2nd Album「棘ナシ」が2024年8
+ 月28日(水)に発売決定！ 初回限定盤にはオフィシャルキ
+ ャラクター設定資料(32P)も付属 そして2024年9月11日(水)
+ にはオリジナルサウンドトラックも発売！ ＜ トゲナシ
+ トゲアリ 2nd Album 「棘ナシ」＞ 2024/8/28(水)\n
+ https://girls-band-cry.com/news/post-200.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-200.html
+CATEGORIES:togenashi,live,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-201-2024-08-28-sale@gbc-news
+DTSTAMP:20240828T000000Z
+DTSTART;VALUE=DATE:20240828
+DTEND;VALUE=DATE:20240829
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] トゲナシトゲアリ 2nd Album「棘ナシ」発売記
+ 念生アフレコイベント 開催のご案内
+DESCRIPTION:2024年8月28日発売 トゲナシトゲアリ 2nd Album「棘
+ ナシ」の発売を記念して、アニメイト池袋本店9F animate 
+ hall BLACKでの〈生アフレコイベント〉の開催が決定しま
+ した。 大好評のうちに全13話のOAが終了したTVアニメ『
+ ガールズバンドクライ』のいくつかのシーンの生アフ
+ レコをメンバーが披露するイベントとなります。 ご応
+ 募をお待ちし\nhttps://girls-band-cry.com/news/post-201.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-201.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-217-2024-09-07-hold@gbc-news
+DTSTAMP:20240907T000000Z
+DTSTART;VALUE=DATE:20240907
+DTEND;VALUE=DATE:20240908
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] アニメ全話一挙上映会開催決定！
+DESCRIPTION:トゲナシトゲアリ 2nd ONE-MAN LIVE “凛音の理”開
+ 催記念 『ガールズバンドクライ』アニメ全話一挙【LIVE
+  ZOUND】上映会 『ガールズバンドクライ』のアニメ全13
+ 話を、 最新鋭のハイエンド音響装置が作り出すCINECITTA
+ ’独自のシネマサウンドシステム 【LIVE ZOUND】で一挙に
+ 見られる特別上映会を開催いたします。 ■日時：202\n
+ https://girls-band-cry.com/news/post-217.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-217.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-200-2024-09-11-sale@gbc-news
+DTSTAMP:20240911T000000Z
+DTSTART;VALUE=DATE:20240911
+DTEND;VALUE=DATE:20240912
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] トゲナシトゲアリ２nd Album「棘ナシ」＆オ
+ リジナルサウンドトラック発売決定！
+DESCRIPTION:TVアニメ『ガールズバンドクライ』劇中バンド
+ 「トゲナシトゲアリ」から 2nd Album「棘ナシ」が2024年8
+ 月28日(水)に発売決定！ 初回限定盤にはオフィシャルキ
+ ャラクター設定資料(32P)も付属 そして2024年9月11日(水)
+ にはオリジナルサウンドトラックも発売！ ＜ トゲナシ
+ トゲアリ 2nd Album 「棘ナシ」＞ 2024/8/28(水)\n
+ https://girls-band-cry.com/news/post-200.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-200.html
+CATEGORIES:togenashi,live,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-217-2024-09-14-hold@gbc-news
+DTSTAMP:20240914T000000Z
+DTSTART;VALUE=DATE:20240914
+DTEND;VALUE=DATE:20240915
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] アニメ全話一挙上映会開催決定！
+DESCRIPTION:トゲナシトゲアリ 2nd ONE-MAN LIVE “凛音の理”開
+ 催記念 『ガールズバンドクライ』アニメ全話一挙【LIVE
+  ZOUND】上映会 『ガールズバンドクライ』のアニメ全13
+ 話を、 最新鋭のハイエンド音響装置が作り出すCINECITTA
+ ’独自のシネマサウンドシステム 【LIVE ZOUND】で一挙に
+ 見られる特別上映会を開催いたします。 ■日時：202\n
+ https://girls-band-cry.com/news/post-217.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-217.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-236-2024-09-20-hold-1900@gbc-news
+DTSTAMP:20240920T100000Z
+DTSTART:20240920T100000Z
+DTEND:20240920T120000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] TVアニメ『ガールズバンドクライ』 Vol.4〈
+ 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
+ トーク配信
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ『ガールズバンドクライ』待望の映像商品、TVアニメ
+ 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
+ VD＋CD］のVol.4の発売を記念して、リミスタでのオンラ
+ イントーク配信の開催が決定！ リミスタにて対象商品
+ をご購入いただいたお客様に、TVアニメ『ガールズバン
+ ドクライ』豪華限定版Vol.4のジャケッ\n
+ https://girls-band-cry.com/news/post-236.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-236.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-236-2024-09-20-hold-2000@gbc-news
+DTSTAMP:20240920T110000Z
+DTSTART:20240920T110000Z
+DTEND:20240920T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] TVアニメ『ガールズバンドクライ』 Vol.4〈
+ 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
+ トーク配信
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ『ガールズバンドクライ』待望の映像商品、TVアニメ
+ 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
+ VD＋CD］のVol.4の発売を記念して、リミスタでのオンラ
+ イントーク配信の開催が決定！ リミスタにて対象商品
+ をご購入いただいたお客様に、TVアニメ『ガールズバン
+ ドクライ』豪華限定版Vol.4のジャケッ\n
+ https://girls-band-cry.com/news/post-236.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-236.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-195-2024-09-25-sale@gbc-news
+DTSTAMP:20240925T000000Z
+DTSTART;VALUE=DATE:20240925
+DTEND;VALUE=DATE:20240926
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 対バンライブ トゲナシトゲアリ×MyGO!!!!!「A
+ void Note」の告知映像を公開！
+DESCRIPTION:2025年1月12日（日）にTOKYO DOME CITY HALLにて開催予
+ 定 対バンライブ トゲナシトゲアリ×MyGO!!!!!「Avoid Note」
+ の告知映像を大公開！ 最速先行抽選申込券は9/25(水)発
+ 売のBlu-ray＆DVD第4巻に封入‼️ ▼ライブ情報は こちら\
+ nhttps://girls-band-cry.com/news/post-195.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-195.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-234-2024-09-25-sale@gbc-news
+DTSTAMP:20240925T000000Z
+DTSTART;VALUE=DATE:20240925
+DTEND;VALUE=DATE:20240926
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] MyGO!!!!!×トゲナシトゲアリのスペース配信
+ 「トゲマイトーク」開催決定！
+DESCRIPTION:フリーダムトークにMyGO!!!!!メンバーが参戦⁉ 10
+ 月4日(金)20:00～ MyGO!!!!!×トゲナシトゲアリ 『トゲマイ
+ トーク』を「ガールズバンドクライ」公式Xにてスペー
+ ス配信 「Avoid Note」 での対バンが決まっている MyGO!!!!!
+ より 千早愛音役 / 立石 凛さん 要 楽奈役 / 青木陽菜さ
+ ん をお招きします️ トゲナ\n
+ https://girls-band-cry.com/news/post-234.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-234.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-234-2024-10-04-sale@gbc-news
+DTSTAMP:20241004T000000Z
+DTSTART;VALUE=DATE:20241004
+DTEND;VALUE=DATE:20241005
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] MyGO!!!!!×トゲナシトゲアリのスペース配信
+ 「トゲマイトーク」開催決定！
+DESCRIPTION:フリーダムトークにMyGO!!!!!メンバーが参戦⁉ 10
+ 月4日(金)20:00～ MyGO!!!!!×トゲナシトゲアリ 『トゲマイ
+ トーク』を「ガールズバンドクライ」公式Xにてスペー
+ ス配信 「Avoid Note」 での対バンが決まっている MyGO!!!!!
+ より 千早愛音役 / 立石 凛さん 要 楽奈役 / 青木陽菜さ
+ ん をお招きします️ トゲナ\n
+ https://girls-band-cry.com/news/post-234.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-234.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-201-2024-10-12-sale@gbc-news
+DTSTAMP:20241012T000000Z
+DTSTART;VALUE=DATE:20241012
+DTEND;VALUE=DATE:20241013
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] トゲナシトゲアリ 2nd Album「棘ナシ」発売記
+ 念生アフレコイベント 開催のご案内
+DESCRIPTION:2024年8月28日発売 トゲナシトゲアリ 2nd Album「棘
+ ナシ」の発売を記念して、アニメイト池袋本店9F animate 
+ hall BLACKでの〈生アフレコイベント〉の開催が決定しま
+ した。 大好評のうちに全13話のOAが終了したTVアニメ『
+ ガールズバンドクライ』のいくつかのシーンの生アフ
+ レコをメンバーが披露するイベントとなります。 ご応
+ 募をお待ちし\nhttps://girls-band-cry.com/news/post-201.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-201.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-239-2024-10-24-hold-1900@gbc-news
+DTSTAMP:20241024T100000Z
+DTSTART:20241024T100000Z
+DTEND:20241024T120000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] TVアニメ『ガールズバンドクライ』 Vol.5〈
+ 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
+ トーク配信 開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ『ガールズバンドクライ』待望の映像商品、TVアニメ
+ 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
+ VD＋CD］のVol.5の発売を記念して、リミスタでのオンラ
+ イントーク配信の開催が決定！ リミスタにて対象商品
+ をご購入いただいたお客様に、TVアニメ『ガールズバン
+ ドクライ』豪華限定版Vol.5のジャケッ\n
+ https://girls-band-cry.com/news/post-239.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-239.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-239-2024-10-24-hold-2000@gbc-news
+DTSTAMP:20241024T110000Z
+DTSTART:20241024T110000Z
+DTEND:20241024T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] TVアニメ『ガールズバンドクライ』 Vol.5〈
+ 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
+ トーク配信 開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ『ガールズバンドクライ』待望の映像商品、TVアニメ
+ 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
+ VD＋CD］のVol.5の発売を記念して、リミスタでのオンラ
+ イントーク配信の開催が決定！ リミスタにて対象商品
+ をご購入いただいたお客様に、TVアニメ『ガールズバン
+ ドクライ』豪華限定版Vol.5のジャケッ\n
+ https://girls-band-cry.com/news/post-239.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-239.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-234-2024-11-10-sale@gbc-news
+DTSTAMP:20241110T000000Z
+DTSTART;VALUE=DATE:20241110
+DTEND;VALUE=DATE:20241111
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] MyGO!!!!!×トゲナシトゲアリのスペース配信
+ 「トゲマイトーク」開催決定！
+DESCRIPTION:フリーダムトークにMyGO!!!!!メンバーが参戦⁉ 10
+ 月4日(金)20:00～ MyGO!!!!!×トゲナシトゲアリ 『トゲマイ
+ トーク』を「ガールズバンドクライ」公式Xにてスペー
+ ス配信 「Avoid Note」 での対バンが決まっている MyGO!!!!!
+ より 千早愛音役 / 立石 凛さん 要 楽奈役 / 青木陽菜さ
+ ん をお招きします️ トゲナ\n
+ https://girls-band-cry.com/news/post-234.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-234.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-251-2024-11-21-hold-1900@gbc-news
+DTSTAMP:20241121T100000Z
+DTSTART:20241121T100000Z
+DTEND:20241121T120000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] TVアニメ『ガールズバンドクライ』 Vol.6〈
+ 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
+ トーク配信 開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ『ガールズバンドクライ』待望の映像商品、TVアニメ
+ 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
+ VD＋CD］のVol.6の発売を記念して、リミスタでのオンラ
+ イントーク配信の開催が決定！ リミスタにて対象商品
+ をご購入いただいたお客様に、TVアニメ『ガールズバン
+ ドクライ』豪華限定版Vol.6のジャケッ\n
+ https://girls-band-cry.com/news/post-251.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-251.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-251-2024-11-21-hold-2000@gbc-news
+DTSTAMP:20241121T110000Z
+DTSTART:20241121T110000Z
+DTEND:20241121T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] TVアニメ『ガールズバンドクライ』 Vol.6〈
+ 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
+ トーク配信 開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ『ガールズバンドクライ』待望の映像商品、TVアニメ
+ 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
+ VD＋CD］のVol.6の発売を記念して、リミスタでのオンラ
+ イントーク配信の開催が決定！ リミスタにて対象商品
+ をご購入いただいたお客様に、TVアニメ『ガールズバン
+ ドクライ』豪華限定版Vol.6のジャケッ\n
+ https://girls-band-cry.com/news/post-251.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-251.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-261-2024-12-07-hold@gbc-news
+DTSTAMP:20241207T000000Z
+DTSTART;VALUE=DATE:20241207
+DTEND;VALUE=DATE:20241208
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 「オールナイト全話上映」の開催が決定！
+DESCRIPTION:12/7(土)立川シネマシティにて、「オールナイト
+ 全話上映」の開催が決定しました！ 詳しくは こちら\n
+ https://girls-band-cry.com/news/post-261.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-261.html
+CATEGORIES:togenashi,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-252-2024-12-22-hold-1500@gbc-news
+DTSTAMP:20241222T060000Z
+DTSTART:20241222T060000Z
+DTEND:20241222T080000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] TVアニメ『ガールズバンドクライ』 Vol.7〈
+ 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
+ トーク配信 開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ『ガールズバンドクライ』待望の映像商品、TVアニメ
+ 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
+ VD＋CD］のVol.7の発売を記念して、リミスタでのオンラ
+ イントーク配信の開催が決定！ リミスタにて対象商品
+ をご購入いただいたお客様に、TVアニメ『ガールズバン
+ ドクライ』豪華限定版Vol.7のジャケッ\n
+ https://girls-band-cry.com/news/post-252.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-252.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-252-2024-12-22-hold-1600@gbc-news
+DTSTAMP:20241222T070000Z
+DTSTART:20241222T070000Z
+DTEND:20241222T090000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] TVアニメ『ガールズバンドクライ』 Vol.7〈
+ 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
+ トーク配信 開催のご案内
+DESCRIPTION:東映アニメーションが製作するオリジナルアニ
+ メ『ガールズバンドクライ』待望の映像商品、TVアニメ
+ 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
+ VD＋CD］のVol.7の発売を記念して、リミスタでのオンラ
+ イントーク配信の開催が決定！ リミスタにて対象商品
+ をご購入いただいたお客様に、TVアニメ『ガールズバン
+ ドクライ』豪華限定版Vol.7のジャケッ\n
+ https://girls-band-cry.com/news/post-252.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-252.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-264-2024-12-25-sale@gbc-news
+DTSTAMP:20241225T000000Z
+DTSTART;VALUE=DATE:20241225
+DTEND;VALUE=DATE:20241226
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 2025年、トゲナシトゲアリのワンマンライブ
+ 開催が決定！
+DESCRIPTION:トゲナシトゲアリのワンマンライブが2025年に
+ 開催することが決定しました！ 12月25日(水)発売 『ガー
+ ルズバンドクライ』Blu-ray＆DVD第7巻 に このライブの最
+ 速先行抽選申込券が封入！ 開催日時・会場等の詳細は
+ 後日発表します。 続報をお楽しみに！\n
+ https://girls-band-cry.com/news/post-264.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-264.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-195-2025-01-12-sale@gbc-news
+DTSTAMP:20250112T000000Z
+DTSTART;VALUE=DATE:20250112
+DTEND;VALUE=DATE:20250113
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 対バンライブ トゲナシトゲアリ×MyGO!!!!!「A
+ void Note」の告知映像を公開！
+DESCRIPTION:2025年1月12日（日）にTOKYO DOME CITY HALLにて開催予
+ 定 対バンライブ トゲナシトゲアリ×MyGO!!!!!「Avoid Note」
+ の告知映像を大公開！ 最速先行抽選申込券は9/25(水)発
+ 売のBlu-ray＆DVD第4巻に封入‼️ ▼ライブ情報は こちら\
+ nhttps://girls-band-cry.com/news/post-195.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-195.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-234-2025-01-12-sale@gbc-news
+DTSTAMP:20250112T000000Z
+DTSTART;VALUE=DATE:20250112
+DTEND;VALUE=DATE:20250113
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] MyGO!!!!!×トゲナシトゲアリのスペース配信
+ 「トゲマイトーク」開催決定！
+DESCRIPTION:フリーダムトークにMyGO!!!!!メンバーが参戦⁉ 10
+ 月4日(金)20:00～ MyGO!!!!!×トゲナシトゲアリ 『トゲマイ
+ トーク』を「ガールズバンドクライ」公式Xにてスペー
+ ス配信 「Avoid Note」 での対バンが決まっている MyGO!!!!!
+ より 千早愛音役 / 立石 凛さん 要 楽奈役 / 青木陽菜さ
+ ん をお招きします️ トゲナ\n
+ https://girls-band-cry.com/news/post-234.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-234.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-309-2025-02-07-hold@gbc-news
+DTSTAMP:20250207T000000Z
+DTSTART;VALUE=DATE:20250207
+DTEND;VALUE=DATE:20250208
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ LIVE in 日本武道館、 2025
+ 年9月23日（火・祝）開催決定！
+DESCRIPTION:【トゲナシトゲアリ LIVE in 日本武道館】の開催
+ が決定しました！ 開催日＝2025年9月23日（火・祝） 最
+ 速先行抽選申込は2025年2月7日（金）21時30分からスター
+ ト！ 申込券は現在発売中の『ガールズバンドクライ』B
+ lu-ray&DVD第7巻に封入！ 詳しくは こちら\n
+ https://girls-band-cry.com/news/post-309.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-309.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-294-2025-02-28-hold@gbc-news
+DTSTAMP:20250228T000000Z
+DTSTART;VALUE=DATE:20250228
+DTEND;VALUE=DATE:20250301
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 【2/28】トゲナシトゲアリ1st ONE-MAN LIVE “薄
+ 明の序奏” [Blu-ray]［DVD］発売記念オンライントーク配
+ 信
+DESCRIPTION:開催日時：2025年2月28日(金)19:00スタート (20:00終
+ 了予定) 2024年3月16日(土)横浜・1000 CLUBで開催されたトゲ
+ ナシトゲアリの1st ONE-MAN LIVE“薄明の序奏”のパッケー
+ ジ化を記念して、リミスタでのオンライントーク開催
+ が決定！ リミスタにて対象商品をご購入いただいたお
+ 客様に、1st ONE-MAN LIVE「薄明\n
+ https://girls-band-cry.com/news/post-294.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-294.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-294-2025-02-28-sale@gbc-news
+DTSTAMP:20250228T000000Z
+DTSTART;VALUE=DATE:20250228
+DTEND;VALUE=DATE:20250301
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 【2/28】トゲナシトゲアリ1st ONE-MAN LIVE “薄
+ 明の序奏” [Blu-ray]［DVD］発売記念オンライントーク配
+ 信
+DESCRIPTION:開催日時：2025年2月28日(金)19:00スタート (20:00終
+ 了予定) 2024年3月16日(土)横浜・1000 CLUBで開催されたトゲ
+ ナシトゲアリの1st ONE-MAN LIVE“薄明の序奏”のパッケー
+ ジ化を記念して、リミスタでのオンライントーク開催
+ が決定！ リミスタにて対象商品をご購入いただいたお
+ 客様に、1st ONE-MAN LIVE「薄明\n
+ https://girls-band-cry.com/news/post-294.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-294.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-312-2025-03-15-hold-1400@gbc-news
+DTSTAMP:20250315T050000Z
+DTSTART:20250315T050000Z
+DTEND:20250315T070000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] 3/15(土)トゲナシトゲアリ 1st ONE-MAN LIVE “薄
+ 明の序奏” 【LIVE ZOUND】上映会 実施決定！
+DESCRIPTION:2024年3月16日(土)に開催された トゲナシトゲア
+ リ 1st ONE-MAN LIVE “薄明の序奏”。 1周年を記念して、川
+ 崎・CINECITTA'で上映会の開催が決定。 最新鋭のハイエン
+ ド音響装置が作り出す CINECITTA’ 独自のシネマサウンド
+ システム 【LIVE ZOUND】で、迫力あるライブの模様を体感
+ いただけます。 ぜひ、ご来場ください！\n
+ https://girls-band-cry.com/news/post-312.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-312.html
+CATEGORIES:togenashi,live,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-289-2025-03-19-sale@gbc-news
+DTSTAMP:20250319T000000Z
+DTSTART;VALUE=DATE:20250319
+DTEND;VALUE=DATE:20250320
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] トゲナシトゲアリ 「1st ONE-MAN LIVE “薄明の
+ 序奏”」パッケージ化決定！
+DESCRIPTION:2024年3月16日(土)に横浜・1000CLUBで開催した初の
+ ワンマンライブ 「“1st ONE-MAN LIVE”『薄明の序奏』”」
+ のパッケージ化決定！ 2025年3月19日(水)Release ご購入は 
+ こちら 【Blu-ray】 UMXK-1124 ￥7\,700円（税込） 【DVD】 UMBK-
+ 1336 ￥6\,600円（税込） 仕様：三方背ケ\n
+ https://girls-band-cry.com/news/post-289.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-289.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-306-2025-03-19-sale@gbc-news
+DTSTAMP:20250319T000000Z
+DTSTART;VALUE=DATE:20250319
+DTEND;VALUE=DATE:20250320
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 「1st ONE-MAN LIVE “薄明の序奏”」Blu-ray&#038\;
+ DVD先着購入特典絵柄公開！
+DESCRIPTION:トゲナシトゲアリ 「1st ONE-MAN LIVE “薄明の序奏
+ ”」Blu-ray&DVDの先着購入特典絵柄を公開しました！ ※
+ 先着特典となります。詳細は各SHOP/ECサイトにお問い合
+ わせください。 ※イメージとなり、実物とは異なる場
+ 合がございます。 トゲナシトゲアリ 「1st ONE-MAN LIVE “
+ 薄明の序奏”」Blu-ray&DVD 202\n
+ https://girls-band-cry.com/news/post-306.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-306.html
+CATEGORIES:togenashi,live,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-310-2025-03-20-sale@gbc-news
+DTSTAMP:20250320T000000Z
+DTSTART;VALUE=DATE:20250320
+DTEND;VALUE=DATE:20250321
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] ガールズバンドクライ劇場版総集編ティザ
+ ービジュアル公開！前売券は3/20(木・祝）発売！
+DESCRIPTION:「ガールズバンドクライ」劇場版総集編 【前
+ 編】「劇場版総集編『ガールズバンドクライ』青春狂
+ 走曲」 10/3(金)公開 【後編】「劇場版総集編『ガールズ
+ バンドクライ』なぁ、未来。」11/14（金）公開 前売券
+ 第1弾は3/20（木・祝）発売！ チケット情報は こちら\n
+ https://girls-band-cry.com/news/post-310.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-310.html
+CATEGORIES:togenashi,live,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-320-2025-03-20-sale@gbc-news
+DTSTAMP:20250320T000000Z
+DTSTART;VALUE=DATE:20250320
+DTEND;VALUE=DATE:20250321
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 劇場版総集編 前売券 第1弾 前後編セット券
+ 詳細決定！
+DESCRIPTION:3月20日(木・祝）発売 前売券 第1弾 前後編セッ
+ ト券 特典：ティザービジュアルB6クリアファイル ・メ
+ イジャー通販サイト ・MOVIE WALKER STORE ・下記の映画館 
+ にて数量限定販売！ 【販売映画館一覧】 北海道／札幌
+ シネマフロンティア 宮城／TOHOシネマズ仙台 東京／新
+ 宿バルト９ 神奈川／横浜ブルク１３ 神奈川／チネチッ
+ タ\nhttps://girls-band-cry.com/news/post-320.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-320.html
+CATEGORIES:togenashi,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-330-2025-05-28-hold@gbc-news
+DTSTAMP:20250528T000000Z
+DTSTART;VALUE=DATE:20250528
+DTEND;VALUE=DATE:20250529
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ 10th Single 「ダレモ」5月28
+ 日(水)リリース！ 収録曲より、新曲「飛べない蝶は夢
+ を見る」の Music Video公…
+DESCRIPTION:5月28日(水)に10th Single「ダレモ」のCDリリースが
+ 決定しました！ カップリングには新曲「飛べない蝶は
+ 夢を見る」を収録。 こちらの楽曲のMusic Videoは4月28日(
+ 月) 20時に『ガールズバンドクライ』公式YouTubeチャンネ
+ ルで初公開され、同時に楽曲の先行配信もスタートし
+ ます。 さらに、メンバー5人が出演するオリジナルドラ
+ マパートも\nhttps://girls-band-cry.com/news/post-330.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-330.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-330-2025-05-28-sale@gbc-news
+DTSTAMP:20250528T000000Z
+DTSTART;VALUE=DATE:20250528
+DTEND;VALUE=DATE:20250529
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] トゲナシトゲアリ 10th Single 「ダレモ」5月28
+ 日(水)リリース！ 収録曲より、新曲「飛べない蝶は夢
+ を見る」の Music Video公…
+DESCRIPTION:5月28日(水)に10th Single「ダレモ」のCDリリースが
+ 決定しました！ カップリングには新曲「飛べない蝶は
+ 夢を見る」を収録。 こちらの楽曲のMusic Videoは4月28日(
+ 月) 20時に『ガールズバンドクライ』公式YouTubeチャンネ
+ ルで初公開され、同時に楽曲の先行配信もスタートし
+ ます。 さらに、メンバー5人が出演するオリジナルドラ
+ マパートも\nhttps://girls-band-cry.com/news/post-330.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-330.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-333-2025-05-30-sale@gbc-news
+DTSTAMP:20250530T000000Z
+DTSTART;VALUE=DATE:20250530
+DTEND;VALUE=DATE:20250531
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 劇場版総集編 キービジュアル＆特報映像を
+ 初公開！ ムビチケ前売券第2弾も発売決定！
+DESCRIPTION:『劇場版総集編 ガールズバンドクライ』 キー
+ ビジュアル＆特報映像を公開しました！ 「劇場版総集
+ 編 ガールズバンドクライ 【前編】 青春狂走曲」 2025年
+ 10月3日(金)公開 ▶上映劇場情報は こちら 「劇場版総集
+ 編 ガールズバンドクライ 【後編】 なぁ、未来。」 2025
+ 年11月14日(金)公開 ▶上映劇場情報は こちら ※上映劇
+ 場情報は順次追加予定です。\n
+ https://girls-band-cry.com/news/post-333.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-333.html
+CATEGORIES:togenashi,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-348-2025-05-30-sale@gbc-news
+DTSTAMP:20250530T000000Z
+DTSTART;VALUE=DATE:20250530
+DTEND;VALUE=DATE:20250531
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 劇場版総集編 ムビチケ前売券（カード）第
+ 2弾が発売！
+DESCRIPTION:劇場版総集編ガールズバンドクライ ムビチケ
+ 前売券（カード）第2弾 本日5月30日(金)より、 一部映画
+ 館、メイジャー通販サイト、MOVIE WALKER STORE、アニメイ
+ ト通販にて販売開始‼️ 第1弾の販売劇場も追加で公開
+ されました ▶チケット詳細は こちら ▶販売劇場一覧
+ は こちら ※【クリアカード】を封入しているOPP袋に傷
+ があるものがございま\n
+ https://girls-band-cry.com/news/post-348.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-348.html
+CATEGORIES:togenashi,live,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-347-2025-06-20-sale@gbc-news
+DTSTAMP:20250620T000000Z
+DTSTART;VALUE=DATE:20250620
+DTEND;VALUE=DATE:20250621
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 【6/20】トゲナシトゲアリONE-MAN LIVE『凛音の
+ 理 』&#038\;『咆哮の奏』 [Blu-ray]［DVD］2作品同時発売記
+ 念オンライ…
+DESCRIPTION:開催日時：2025年6月20日(金)18:00スタート (19:00終
+ 了予定) トゲナシトゲアリ、2nd ONE-MAN LIVE “凛音の理” 
+ 、3rd ONE-MAN LIVE “咆哮の奏”[Blu-ray]［DVD］2作品同時発
+ 売を記念して、オンライントーク配信の開催が決定！ 
+ リミスタにて対象商品をご予約の方に、 各対象商品の
+ ライブキービジュアル絵柄を\n
+ https://girls-band-cry.com/news/post-347.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-347.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-347-2025-06-20-hold-1800@gbc-news
+DTSTAMP:20250620T090000Z
+DTSTART:20250620T090000Z
+DTEND:20250620T110000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] 【6/20】トゲナシトゲアリONE-MAN LIVE『凛音の
+ 理 』&#038\;『咆哮の奏』 [Blu-ray]［DVD］2作品同時発売記
+ 念オンライ…
+DESCRIPTION:開催日時：2025年6月20日(金)18:00スタート (19:00終
+ 了予定) トゲナシトゲアリ、2nd ONE-MAN LIVE “凛音の理” 
+ 、3rd ONE-MAN LIVE “咆哮の奏”[Blu-ray]［DVD］2作品同時発
+ 売を記念して、オンライントーク配信の開催が決定！ 
+ リミスタにて対象商品をご予約の方に、 各対象商品の
+ ライブキービジュアル絵柄を\n
+ https://girls-band-cry.com/news/post-347.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-347.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-357-2025-07-18-sale@gbc-news
+DTSTAMP:20250718T000000Z
+DTSTART;VALUE=DATE:20250718
+DTEND;VALUE=DATE:20250719
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 劇場版総集編【前編】青春狂走曲 本予告を
+ 公開＆ムビチケ前売券第3弾も発売決定！
+DESCRIPTION:「劇場版総集編 ガールズバンドクライ 【前編
+ 】 青春狂走曲」 本予告映像＆キービジュアルを公開し
+ ました！ 「劇場版総集編 ガールズバンドクライ 【前
+ 編】 青春狂走曲」 2025年10月3日(金)公開 ▶上映劇場情
+ 報は こちら 【キャスト】 井芹 仁菜：理名 河原木 桃
+ 香：夕莉 安和 すばる：美怜 海老塚 智：凪都 ルパ：朱
+ 李 【スタッフ】 原作・企画・製作：\n
+ https://girls-band-cry.com/news/post-357.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-357.html
+CATEGORIES:togenashi,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-346-2025-07-23-hold@gbc-news
+DTSTAMP:20250723T000000Z
+DTSTART;VALUE=DATE:20250723
+DTEND;VALUE=DATE:20250724
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ『2nd ONE-MAN LIVE “凛音の
+ 理” 』『3rd ONE-MAN LIVE “咆哮の奏”』[Blu-ray][DVD]7…
+DESCRIPTION:2024年9月13日(金)に川崎・CLUB CITTA’で開催され
+ た『2nd ONE-MAN LIVE “凛音の理”』、2024年11月2日(土)にTOK
+ YO DOME CITY HALLで開催された『3rd ONE-MAN LIVE “咆哮の奏”
+ 』のパッケージが2作品同時リリース決定！ 発売日：202
+ 5年7月23日(水) トゲナシトゲアリ 2nd ON\n
+ https://girls-band-cry.com/news/post-346.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-346.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-346-2025-07-23-sale@gbc-news
+DTSTAMP:20250723T000000Z
+DTSTART;VALUE=DATE:20250723
+DTEND;VALUE=DATE:20250724
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] トゲナシトゲアリ『2nd ONE-MAN LIVE “凛音の
+ 理” 』『3rd ONE-MAN LIVE “咆哮の奏”』[Blu-ray][DVD]7…
+DESCRIPTION:2024年9月13日(金)に川崎・CLUB CITTA’で開催され
+ た『2nd ONE-MAN LIVE “凛音の理”』、2024年11月2日(土)にTOK
+ YO DOME CITY HALLで開催された『3rd ONE-MAN LIVE “咆哮の奏”
+ 』のパッケージが2作品同時リリース決定！ 発売日：202
+ 5年7月23日(水) トゲナシトゲアリ 2nd ON\n
+ https://girls-band-cry.com/news/post-346.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-346.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-330-2025-07-25-hold@gbc-news
+DTSTAMP:20250725T000000Z
+DTSTART;VALUE=DATE:20250725
+DTEND;VALUE=DATE:20250726
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ 10th Single 「ダレモ」5月28
+ 日(水)リリース！ 収録曲より、新曲「飛べない蝶は夢
+ を見る」の Music Video公…
+DESCRIPTION:5月28日(水)に10th Single「ダレモ」のCDリリースが
+ 決定しました！ カップリングには新曲「飛べない蝶は
+ 夢を見る」を収録。 こちらの楽曲のMusic Videoは4月28日(
+ 月) 20時に『ガールズバンドクライ』公式YouTubeチャンネ
+ ルで初公開され、同時に楽曲の先行配信もスタートし
+ ます。 さらに、メンバー5人が出演するオリジナルドラ
+ マパートも\nhttps://girls-band-cry.com/news/post-330.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-330.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-373-2025-09-05-sale-1000@gbc-news
+DTSTAMP:20250905T010000Z
+DTSTART:20250905T010000Z
+DTEND:20250905T020000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[発売] 9月5日（金）よりムビチケ前売券(オンライ
+ ン)発売！ 購入特典はスマホ壁紙！
+DESCRIPTION:『劇場版総集編 ガールズバンドクライ』 9月5
+ 日(金)10時より前編のムビチケ前売券(オンライン)販売
+ 開始 購入特典は前編KVを使ったスマホ壁紙 ムビチケ前
+ 売券(オンライン)購入は こちら ※カード券ではござい
+ ません。\nhttps://girls-band-cry.com/news/post-373.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-373.html
+CATEGORIES:togenashi,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-309-2025-09-23-hold@gbc-news
+DTSTAMP:20250923T000000Z
+DTSTART;VALUE=DATE:20250923
+DTEND;VALUE=DATE:20250924
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ LIVE in 日本武道館、 2025
+ 年9月23日（火・祝）開催決定！
+DESCRIPTION:【トゲナシトゲアリ LIVE in 日本武道館】の開催
+ が決定しました！ 開催日＝2025年9月23日（火・祝） 最
+ 速先行抽選申込は2025年2月7日（金）21時30分からスター
+ ト！ 申込券は現在発売中の『ガールズバンドクライ』B
+ lu-ray&DVD第7巻に封入！ 詳しくは こちら\n
+ https://girls-band-cry.com/news/post-309.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-309.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-363-2025-09-24-hold@gbc-news
+DTSTAMP:20250924T000000Z
+DTSTART;VALUE=DATE:20250924
+DTEND;VALUE=DATE:20250925
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ 11th Single 「薄采ディスプ
+ レイ」9月24日(水)リリース！ 収録曲より、新曲「蜃気
+ 楼ニ問フ」の Music Video…
+DESCRIPTION:9月24日(水)に11th Single「薄采ディスプレイ」のCD
+ リリースが決定しました！ カップリングには新曲「蜃
+ 気楼ニ問フ」を収録。 こちらの楽曲のMusic Videoを8月25
+ 日(月) 20時に『ガールズバンドクライ』公式YouTubeチャ
+ ンネルで初公開。同時に楽曲の先行配信もスタートし
+ ます。 さらに、メンバー5人が出演するオリジナルドラ
+ マパートも収\nhttps://girls-band-cry.com/news/post-363.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-363.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-363-2025-09-24-sale@gbc-news
+DTSTAMP:20250924T000000Z
+DTSTART;VALUE=DATE:20250924
+DTEND;VALUE=DATE:20250925
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] トゲナシトゲアリ 11th Single 「薄采ディスプ
+ レイ」9月24日(水)リリース！ 収録曲より、新曲「蜃気
+ 楼ニ問フ」の Music Video…
+DESCRIPTION:9月24日(水)に11th Single「薄采ディスプレイ」のCD
+ リリースが決定しました！ カップリングには新曲「蜃
+ 気楼ニ問フ」を収録。 こちらの楽曲のMusic Videoを8月25
+ 日(月) 20時に『ガールズバンドクライ』公式YouTubeチャ
+ ンネルで初公開。同時に楽曲の先行配信もスタートし
+ ます。 さらに、メンバー5人が出演するオリジナルドラ
+ マパートも収\nhttps://girls-band-cry.com/news/post-363.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-363.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-376-2025-09-24-sale@gbc-news
+DTSTAMP:20250924T000000Z
+DTSTART;VALUE=DATE:20250924
+DTEND;VALUE=DATE:20250925
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 11th Single『薄采ディスプレイ』収録 「すば
+ るの相談」試聴動画公開！
+DESCRIPTION:11th Single『薄采ディスプレイ』 9月24日(水)発売 
+ 収録されているドラマパートにはトゲトゲメンバー5人
+ が出演！ 3篇の中から「すばるの相談」を特別公開しま
+ した！ トゲナシトゲアリ 11th Single「薄采ディスプレイ
+ 」 9月24日(水)発売予定！ ▼CD収録内容 ■収録曲 01. 薄
+ 采ディスプレイ 02. 蜃気楼ニ問フ 03. 薄采\n
+ https://girls-band-cry.com/news/post-376.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-376.html
+CATEGORIES:togenashi,live,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-377-2025-09-25-hold@gbc-news
+DTSTAMP:20250925T000000Z
+DTSTART;VALUE=DATE:20250925
+DTEND;VALUE=DATE:20250926
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 「桃香(を)ワッショイ」発売＆東京ゲーム
+ ショウ出展決定！
+DESCRIPTION:あの謎ゲーム「桃香（を）ワッショイ」が 9月2
+ 9日(月)よりSteamで発売決定！ さらに、9月25日(木)〜9月28
+ 日(日)に、幕張メッセで開催される「東京ゲームショウ
+ 2025」への出展も決定しました！ Steamストアページは こ
+ ちら から！ 本日よりストアページが公開されておりま
+ す。 ウィッシュリストに登録して発売をお待ちくださ
+ い！！ 『桃\nhttps://girls-band-cry.com/news/post-377.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-377.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-382-2025-09-25-sale@gbc-news
+DTSTAMP:20250925T000000Z
+DTSTART;VALUE=DATE:20250925
+DTEND;VALUE=DATE:20250926
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 9月25日（木）発売！劇場版総集編公開記念 
+ ガールズバンドクライオリジナルラベル缶が登場！
+DESCRIPTION:2025/9/25（木）劇場版総集編公開記念を記念して
+ 、トゲナシトゲアリたちのオリジナルラベル缶が登場
+ ！ ラベルデザインは全5種ランダム！ラベルはステッカ
+ ーとしても活用できます。 数量限定でオリジナルアク
+ キーの当たりつき！！ 【販売場所】 全国のサントリー
+ の自動販売機 ▶詳しくは こちら 【販売期間】 2025/9/25
+ （木）～2025/10/16（木） ※\n
+ https://girls-band-cry.com/news/post-382.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-382.html
+CATEGORIES:togenashi,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-377-2025-09-26-hold@gbc-news
+DTSTAMP:20250926T000000Z
+DTSTART;VALUE=DATE:20250926
+DTEND;VALUE=DATE:20250927
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 「桃香(を)ワッショイ」発売＆東京ゲーム
+ ショウ出展決定！
+DESCRIPTION:あの謎ゲーム「桃香（を）ワッショイ」が 9月2
+ 9日(月)よりSteamで発売決定！ さらに、9月25日(木)〜9月28
+ 日(日)に、幕張メッセで開催される「東京ゲームショウ
+ 2025」への出展も決定しました！ Steamストアページは こ
+ ちら から！ 本日よりストアページが公開されておりま
+ す。 ウィッシュリストに登録して発売をお待ちくださ
+ い！！ 『桃\nhttps://girls-band-cry.com/news/post-377.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-377.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-377-2025-09-27-hold@gbc-news
+DTSTAMP:20250927T000000Z
+DTSTART;VALUE=DATE:20250927
+DTEND;VALUE=DATE:20250928
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 「桃香(を)ワッショイ」発売＆東京ゲーム
+ ショウ出展決定！
+DESCRIPTION:あの謎ゲーム「桃香（を）ワッショイ」が 9月2
+ 9日(月)よりSteamで発売決定！ さらに、9月25日(木)〜9月28
+ 日(日)に、幕張メッセで開催される「東京ゲームショウ
+ 2025」への出展も決定しました！ Steamストアページは こ
+ ちら から！ 本日よりストアページが公開されておりま
+ す。 ウィッシュリストに登録して発売をお待ちくださ
+ い！！ 『桃\nhttps://girls-band-cry.com/news/post-377.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-377.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-377-2025-09-28-hold@gbc-news
+DTSTAMP:20250928T000000Z
+DTSTART;VALUE=DATE:20250928
+DTEND;VALUE=DATE:20250929
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 「桃香(を)ワッショイ」発売＆東京ゲーム
+ ショウ出展決定！
+DESCRIPTION:あの謎ゲーム「桃香（を）ワッショイ」が 9月2
+ 9日(月)よりSteamで発売決定！ さらに、9月25日(木)〜9月28
+ 日(日)に、幕張メッセで開催される「東京ゲームショウ
+ 2025」への出展も決定しました！ Steamストアページは こ
+ ちら から！ 本日よりストアページが公開されておりま
+ す。 ウィッシュリストに登録して発売をお待ちくださ
+ い！！ 『桃\nhttps://girls-band-cry.com/news/post-377.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-377.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-377-2025-09-29-sale@gbc-news
+DTSTAMP:20250929T000000Z
+DTSTART;VALUE=DATE:20250929
+DTEND;VALUE=DATE:20250930
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 「桃香(を)ワッショイ」発売＆東京ゲーム
+ ショウ出展決定！
+DESCRIPTION:あの謎ゲーム「桃香（を）ワッショイ」が 9月2
+ 9日(月)よりSteamで発売決定！ さらに、9月25日(木)〜9月28
+ 日(日)に、幕張メッセで開催される「東京ゲームショウ
+ 2025」への出展も決定しました！ Steamストアページは こ
+ ちら から！ 本日よりストアページが公開されておりま
+ す。 ウィッシュリストに登録して発売をお待ちくださ
+ い！！ 『桃\nhttps://girls-band-cry.com/news/post-377.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-377.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-375-2025-10-03-sale@gbc-news
+DTSTAMP:20251003T000000Z
+DTSTART;VALUE=DATE:20251003
+DTEND;VALUE=DATE:20251004
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 『劇場版総集編 ガールズバンドクライ 【
+ 前編】 青春狂走曲』 初日＆公開記念舞台挨拶 実施決
+ 定！
+DESCRIPTION:『劇場版総集編 ガールズバンドクライ 【前編
+ 】 青春狂走曲』 初日舞台挨拶、公開記念舞台挨拶開催
+ 決定！ ◇実施日時 【初日舞台挨拶】 ■10月3日（金） 
+ ＜舞台挨拶登壇者＞ 理名、夕莉、朱李 ※登壇者は予告
+ なく変更する場合がございますこと、予めご了承くだ
+ さい。 ＜劇場＞ 新宿バルト９ ＜時間＞ ・15：00の回（
+ 上映終了後） ※マスコミあり ・18：20の回\n
+ https://girls-band-cry.com/news/post-375.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-375.html
+CATEGORIES:togenashi,live,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-393-2025-10-03-sale@gbc-news
+DTSTAMP:20251003T000000Z
+DTSTART;VALUE=DATE:20251003
+DTEND;VALUE=DATE:20251004
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 『【前編】青春狂走曲』劇場オリジナルグ
+ ッズ解禁！
+DESCRIPTION:『劇場版総集編 ガールズバンドクライ【前編
+ 】青春狂走曲』 公開に合わせて劇場オリジナルグッズ
+ の発売が決定！ 2025年10月3日(金)より、各上映劇場・#東
+ 映ONLINESTORE にて販売いたします。\n
+ https://girls-band-cry.com/news/post-393.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-393.html
+CATEGORIES:togenashi,goods,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-399-2025-10-03-hold@gbc-news
+DTSTAMP:20251003T000000Z
+DTSTART;VALUE=DATE:20251003
+DTEND;VALUE=DATE:20251004
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 10/3（金）～AniBirth新商品『おなまえアクキ
+ ー』、『チケット風ビジュアルシート』、『HACOスタ』
+ など劇場公開を記念としたグッズが登場！
+DESCRIPTION:2025/10/3（金）～AniBirth各店舗にて新商品が発売
+ ！ 『おなまえアクキー』、『チケット風ビジュアルシ
+ ート』、『HACOスタ』など劇場公開を記念としたグッズ
+ が登場！ 【販売店舗】 AniBirth池袋PARCO店 AniBirth心斎橋PA
+ RCO店\nhttps://girls-band-cry.com/news/post-399.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-399.html
+CATEGORIES:togenashi,live,goods,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-394-2025-10-03-sale-1000@gbc-news
+DTSTAMP:20251003T010000Z
+DTSTART:20251003T010000Z
+DTEND:20251003T020000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[発売] 「劇場版総集編 ガールズバンドクライ【後
+ 編】なぁ、未来。」本予告＆キービジュアルを公開！
+ ムビチケ前売券(カード)第4弾発売も決定！
+DESCRIPTION:「劇場版総集編 ガールズバンドクライ 【後編
+ 】 なぁ、未来。」 本予告映像＆キービジュアルを公開
+ しました！ 「劇場版総集編 ガールズバンドクライ 【
+ 後編】 なぁ、未来。」 2025年11月14日(金)公開 ▶上映劇
+ 場情報は こちら 【キャスト】 井芹 仁菜：理名 河原木
+  桃香：夕莉 安和 すばる：美怜 海老塚 智：凪都 ルパ
+ ：朱李 【スタッフ】 原作・企画・\n
+ https://girls-band-cry.com/news/post-394.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-394.html
+CATEGORIES:togenashi,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-404-2025-10-03-sale-1800@gbc-news
+DTSTAMP:20251003T090000Z
+DTSTART:20251003T090000Z
+DTEND:20251003T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[発売] 10月3日(金)18時より後編のムビチケ前売券(
+ オンライン)発売！ 購入特典はスマホ壁紙！
+DESCRIPTION:『劇場版総集編 ガールズバンドクライ【後編
+ 】なぁ、未来。』 10月3日(金)18時より後編のムビチケ前
+ 売券(オンライン)販売開始 購入特典は後編KVを使ったス
+ マホ壁紙 ムビチケ前売券(オンライン)購入は こちら ※
+ カード券ではございません。\n
+ https://girls-band-cry.com/news/post-404.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-404.html
+CATEGORIES:togenashi,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-359-2025-10-04-hold@gbc-news
+DTSTAMP:20251004T000000Z
+DTSTART;VALUE=DATE:20251004
+DTEND;VALUE=DATE:20251005
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 全国アニメイトにてフェア開催決定！
+DESCRIPTION:アニメイトにて、 『ガールズバンドクライ』
+ ブレイク・ドレスコードフェアを開催いたします！ ■
+ 開催期間 2025 年10 月4 日～10 月26 日 ■開催場所 全国ア
+ ニメイト(通販を含む) ■フェア内容 期間中『ガールズ
+ バンドクライ』関連のグッズをご購入・ご予約内金1\,10
+ 0円(税込)毎、書籍・CD・DVD・BD をご購入・ご予約(内金1\
+ ,100円(税込)以\nhttps://girls-band-cry.com/news/post-359.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-359.html
+CATEGORIES:togenashi,music,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-375-2025-10-04-sale@gbc-news
+DTSTAMP:20251004T000000Z
+DTSTART;VALUE=DATE:20251004
+DTEND;VALUE=DATE:20251005
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 『劇場版総集編 ガールズバンドクライ 【
+ 前編】 青春狂走曲』 初日＆公開記念舞台挨拶 実施決
+ 定！
+DESCRIPTION:『劇場版総集編 ガールズバンドクライ 【前編
+ 】 青春狂走曲』 初日舞台挨拶、公開記念舞台挨拶開催
+ 決定！ ◇実施日時 【初日舞台挨拶】 ■10月3日（金） 
+ ＜舞台挨拶登壇者＞ 理名、夕莉、朱李 ※登壇者は予告
+ なく変更する場合がございますこと、予めご了承くだ
+ さい。 ＜劇場＞ 新宿バルト９ ＜時間＞ ・15：00の回（
+ 上映終了後） ※マスコミあり ・18：20の回\n
+ https://girls-band-cry.com/news/post-375.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-375.html
+CATEGORIES:togenashi,live,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-395-2025-10-04-sale-1600@gbc-news
+DTSTAMP:20251004T070000Z
+DTSTART:20251004T070000Z
+DTEND:20251004T080000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[発売] 10月4日（土）・5日（日）『劇場版総集編 
+ ガールズバンドクライ 【前編】 青春狂走曲』舞台挨拶
+ チケットの一般発売に関して
+DESCRIPTION:10月4日（土）・5日（日）に開催いたします『
+ 劇場版総集編 ガールズバンドクライ 【前編】 青春狂
+ 走曲』舞台挨拶チケットの一般発売に関してお知らせ
+ です。 チケットぴあでの一般発売は、それぞれ下記日
+ 程で受付を終了させていただくことになりました。何
+ 卒ご了承ください。 【10月4日（土）実施分】10月1日（
+ 水）16：00まで 【10月5日（日）実施分】10月2日（\n
+ https://girls-band-cry.com/news/post-395.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-395.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-407-2025-10-11-sale-1600@gbc-news
+DTSTAMP:20251011T070000Z
+DTSTART:20251011T070000Z
+DTEND:20251011T080000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[発売] 10月11日（土）・12日（日）『劇場版総集編 
+ ガールズバンドクライ 【前編】 青春狂走曲』舞台挨拶
+ チケットの一般発売に関して
+DESCRIPTION:10月11日（土）・12日（日）に開催いたします『
+ 劇場版総集編 ガールズバンドクライ 【前編】 青春狂
+ 走曲』舞台挨拶チケットの一般発売に関してお知らせ
+ です。 チケットぴあでの一般発売は、それぞれ下記日
+ 程で受付を終了させていただくことになりました。何
+ 卒ご了承ください。 【10月11日（土）実施分】10月8日（
+ 水）16：00まで 【10月12日（日）実施分】10\n
+ https://girls-band-cry.com/news/post-407.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-407.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-377-2025-10-12-sale@gbc-news
+DTSTAMP:20251012T000000Z
+DTSTART;VALUE=DATE:20251012
+DTEND;VALUE=DATE:20251013
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 「桃香(を)ワッショイ」発売＆東京ゲーム
+ ショウ出展決定！
+DESCRIPTION:あの謎ゲーム「桃香（を）ワッショイ」が 9月2
+ 9日(月)よりSteamで発売決定！ さらに、9月25日(木)〜9月28
+ 日(日)に、幕張メッセで開催される「東京ゲームショウ
+ 2025」への出展も決定しました！ Steamストアページは こ
+ ちら から！ 本日よりストアページが公開されておりま
+ す。 ウィッシュリストに登録して発売をお待ちくださ
+ い！！ 『桃\nhttps://girls-band-cry.com/news/post-377.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-377.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-397-2025-10-17-hold@gbc-news
+DTSTAMP:20251017T000000Z
+DTSTART;VALUE=DATE:20251017
+DTEND;VALUE=DATE:20251018
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 10/17(金)～《「劇場版総集編 ガールズバン
+ ドクライ」カフェ》開催！
+DESCRIPTION:10月3日『劇場版総集編 ガールズバンドクライ 
+ 【前編】 青春狂走曲』 11月14日『劇場版総集編 ガール
+ ズバンドクライ 【後編】 なぁ、未来。』 それぞれの
+ 公開を記念して、コラボカフェが2025年10月17日(金)～11
+ 月3日(月・祝) の期間 CURE MAID CAFÉ(キュアメイドカフェ)
+ で開催決定です！ ・牛丼も紅生姜もオムライスも全部
+ ぶちこめ！ト\nhttps://girls-band-cry.com/news/post-397.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-397.html
+CATEGORIES:togenashi,live,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-412-2025-10-18-sale-1600@gbc-news
+DTSTAMP:20251018T070000Z
+DTSTART:20251018T070000Z
+DTEND:20251018T080000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[発売] 10月18日（土）・19日（日）『劇場版総集編 
+ ガールズバンドクライ 【前編】 青春狂走曲』舞台挨拶
+ チケットの一般発売に関して
+DESCRIPTION:10月18日（土）・19日（日）に開催いたします『
+ 劇場版総集編 ガールズバンドクライ 【前編】 青春狂
+ 走曲』舞台挨拶チケットの一般発売に関してお知らせ
+ です。 チケットぴあでの一般発売は、それぞれ下記日
+ 程で受付を終了させていただくことになりました。何
+ 卒ご了承ください。 【10月18日（土）実施分】10月15日
+ （水）16：00まで 【10月19日（日）実施分】1\n
+ https://girls-band-cry.com/news/post-412.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-412.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-386-2025-10-22-sale@gbc-news
+DTSTAMP:20251022T000000Z
+DTSTART;VALUE=DATE:20251022
+DTEND;VALUE=DATE:20251023
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] トゲナシトゲアリ 『4th ONE-MAN LIVE “協奏の
+ 響”』[Blu-ray][DVD] 2025年10月22日(水)発売決定！
+DESCRIPTION:2024年12月20日、東京・豊洲PITにて3\,000人の観客
+ を熱狂させた、トゲナシトゲアリ 4th ONE-MAN LIVE “協奏
+ の響”のパッケージ化が決定 発売日 2025年10月22日(水) 
+ ▼タイトル トゲナシトゲアリ 4th ONE-MAN LIVE “協奏の響
+ ”[Blu-ray] トゲナシトゲアリ 4th ONE-MAN LIVE “協\n
+ https://girls-band-cry.com/news/post-386.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-386.html
+CATEGORIES:togenashi,live,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-413-2025-10-24-hold@gbc-news
+DTSTAMP:20251024T000000Z
+DTSTART;VALUE=DATE:20251024
+DTEND;VALUE=DATE:20251025
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 10/24(金) 『劇場版総集編 ガールズバンドク
+ ライ 【前編】 青春狂走曲』＜応援上映＞（日本語字幕
+ 付き）開催決定！
+DESCRIPTION:10/24(金)は井芹仁菜の誕生日です。この記念日
+ に応援上映を実施することが決定いたしました！ 井芹
+ 仁菜の生誕を劇場で一緒にお祝いしましょう！ こちら
+ の上映形式は声だしOKの応援上映となります。 歓声OK！
+ 応援OK！拍手OK！ うちわ、タオル、ぬいぐるみ、ペンラ
+ イト、サイリウムなど応援グッズをご持参いただくの
+ もOKです。 大音響のライブシーンなどで手拍子や歓\n
+ https://girls-band-cry.com/news/post-413.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-413.html
+CATEGORIES:togenashi,live,goods,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-359-2025-10-26-hold@gbc-news
+DTSTAMP:20251026T000000Z
+DTSTART;VALUE=DATE:20251026
+DTEND;VALUE=DATE:20251027
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 全国アニメイトにてフェア開催決定！
+DESCRIPTION:アニメイトにて、 『ガールズバンドクライ』
+ ブレイク・ドレスコードフェアを開催いたします！ ■
+ 開催期間 2025 年10 月4 日～10 月26 日 ■開催場所 全国ア
+ ニメイト(通販を含む) ■フェア内容 期間中『ガールズ
+ バンドクライ』関連のグッズをご購入・ご予約内金1\,10
+ 0円(税込)毎、書籍・CD・DVD・BD をご購入・ご予約(内金1\
+ ,100円(税込)以\nhttps://girls-band-cry.com/news/post-359.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-359.html
+CATEGORIES:togenashi,music,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-397-2025-11-03-hold@gbc-news
+DTSTAMP:20251103T000000Z
+DTSTART;VALUE=DATE:20251103
+DTEND;VALUE=DATE:20251104
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 10/17(金)～《「劇場版総集編 ガールズバン
+ ドクライ」カフェ》開催！
+DESCRIPTION:10月3日『劇場版総集編 ガールズバンドクライ 
+ 【前編】 青春狂走曲』 11月14日『劇場版総集編 ガール
+ ズバンドクライ 【後編】 なぁ、未来。』 それぞれの
+ 公開を記念して、コラボカフェが2025年10月17日(金)～11
+ 月3日(月・祝) の期間 CURE MAID CAFÉ(キュアメイドカフェ)
+ で開催決定です！ ・牛丼も紅生姜もオムライスも全部
+ ぶちこめ！ト\nhttps://girls-band-cry.com/news/post-397.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-397.html
+CATEGORIES:togenashi,live,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-416-2025-11-07-hold@gbc-news
+DTSTAMP:20251107T000000Z
+DTSTART;VALUE=DATE:20251107
+DTEND;VALUE=DATE:20251108
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 11月7日(金)・11月8日(土)2日連続のスタッフ
+ トークイベント＠T・ジョイSEIBU大泉＆川崎チネチッタ 
+ 開催決定！
+DESCRIPTION:11月7日(金)にT・ジョイSEIBU大泉にて、11月8日(土
+ )に川崎チネチッタにて、『劇場版総集編 ガールズバン
+ ドクライ 【前編】 青春狂走曲』のスタッフトークイベ
+ ントの開催がそれぞれ決定いたしました！ さらに！ス
+ タッフトークにお越しの全てのお客様に「ガルクラミ
+ ニ色紙 第1弾＆第2弾」を1枚ずつセットでプレゼントい
+ たします！ ＜11月7日(金)に関して＞\n
+ https://girls-band-cry.com/news/post-416.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-416.html
+CATEGORIES:togenashi,live,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-416-2025-11-08-hold@gbc-news
+DTSTAMP:20251108T000000Z
+DTSTART;VALUE=DATE:20251108
+DTEND;VALUE=DATE:20251109
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 11月7日(金)・11月8日(土)2日連続のスタッフ
+ トークイベント＠T・ジョイSEIBU大泉＆川崎チネチッタ 
+ 開催決定！
+DESCRIPTION:11月7日(金)にT・ジョイSEIBU大泉にて、11月8日(土
+ )に川崎チネチッタにて、『劇場版総集編 ガールズバン
+ ドクライ 【前編】 青春狂走曲』のスタッフトークイベ
+ ントの開催がそれぞれ決定いたしました！ さらに！ス
+ タッフトークにお越しの全てのお客様に「ガルクラミ
+ ニ色紙 第1弾＆第2弾」を1枚ずつセットでプレゼントい
+ たします！ ＜11月7日(金)に関して＞\n
+ https://girls-band-cry.com/news/post-416.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-416.html
+CATEGORIES:togenashi,live,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-425-2025-11-14-hold@gbc-news
+DTSTAMP:20251114T000000Z
+DTSTART;VALUE=DATE:20251114
+DTEND;VALUE=DATE:20251115
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 『【後編】なぁ、未来。』劇場パンフレッ
+ ト＆劇場オリジナルグッズが解禁！
+DESCRIPTION:『劇場版総集編 ガールズバンドクライ【後編
+ 】なぁ、未来。』 劇場パンフレット＆劇場オリジナル
+ グッズが解禁！ 2025年11月14日(金)より、各上映劇場・東
+ 映ONLINESTORE にて販売いたします。 ▼劇場パンフレット 
+ ■商品名 劇場版総集編ガールズバンドクライ【後編】
+ なぁ、未来。 パンフレット ■価格 ¥1\,400（税込） ■
+ 仕様 A4サイズ、32ペー\n
+ https://girls-band-cry.com/news/post-425.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-425.html
+CATEGORIES:togenashi,goods,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-421-2025-11-14-sale-1500@gbc-news
+DTSTAMP:20251114T060000Z
+DTSTART:20251114T060000Z
+DTEND:20251114T070000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[発売] 『劇場版総集編 ガールズバンドクライ 【
+ 後編】 なぁ、未来。』 初日舞台挨拶＆舞台挨拶ツアー
+  実施決定！
+DESCRIPTION:『劇場版総集編 ガールズバンドクライ 【後編
+ 】 なぁ、未来。』初日舞台挨拶＆舞台挨拶ツアー、実
+ 施決定！ さらに、初日舞台挨拶＆舞台挨拶ツアー実施
+ の全ての劇場にて、ご来場者の中から抽選で3名様にメ
+ ンバー直筆サイン色紙のプレゼントも決定いたしまし
+ た！ 【初日舞台挨拶に関して】 ＜劇場・時間＞ ・新
+ 宿バルト９\nhttps://girls-band-cry.com/news/post-421.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-421.html
+CATEGORIES:togenashi,live,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-421-2025-11-14-sale-1815@gbc-news
+DTSTAMP:20251114T091500Z
+DTSTART:20251114T091500Z
+DTEND:20251114T101500Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[発売] 『劇場版総集編 ガールズバンドクライ 【
+ 後編】 なぁ、未来。』 初日舞台挨拶＆舞台挨拶ツアー
+  実施決定！
+DESCRIPTION:『劇場版総集編 ガールズバンドクライ 【後編
+ 】 なぁ、未来。』初日舞台挨拶＆舞台挨拶ツアー、実
+ 施決定！ さらに、初日舞台挨拶＆舞台挨拶ツアー実施
+ の全ての劇場にて、ご来場者の中から抽選で3名様にメ
+ ンバー直筆サイン色紙のプレゼントも決定いたしまし
+ た！ 【初日舞台挨拶に関して】 ＜劇場・時間＞ ・新
+ 宿バルト９\nhttps://girls-band-cry.com/news/post-421.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-421.html
+CATEGORIES:togenashi,live,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-418-2025-11-15-hold@gbc-news
+DTSTAMP:20251115T000000Z
+DTSTART;VALUE=DATE:20251115
+DTEND;VALUE=DATE:20251116
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 11/15(土)より『ガールズバンドクライ POP UP S
+ HOP filming ver.』がタワーレコード4店舗にて開催決定！
+DESCRIPTION:劇場版総集編 ガールズバンドクライ 【前編】
+ 青春狂走曲 / 【後編】なぁ、未来。の公開を記念して
+ 、『ガールズバンドクライ POP UP SHOP filming ver.』がタワ
+ ーレコード4店舗にて開催決定いたしました！ 酒井香澄
+ 描き下ろしで、映画クルーな装いのトゲナシトゲアリ
+ の新作グッズを販売いたします！ ぜひこの機会をお見
+ 逃しなく！ 『ガールズバンドクラ\n
+ https://girls-band-cry.com/news/post-418.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-418.html
+CATEGORIES:togenashi,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-427-2025-11-16-hold-2359@gbc-news
+DTSTAMP:20251116T145900Z
+DTSTART:20251116T145900Z
+DTEND:20251116T165900Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] 『劇場版総集編ガールズバンドクライ【後
+ 編】なぁ、未来。』公開記念 Xキャンペーンスタート！
+DESCRIPTION:『劇場版総集編ガールズバンドクライ【後編】
+ なぁ、未来。』公開を記念して、 「ガールズバンドク
+ ライ」公式Xにてフォロー＆リポストキャンペーンを開
+ 催！ ご参加いただいた方の中から抽選で10名様に『劇
+ 場版総集編ガールズバンドクライ【後編】なぁ、未来
+ 。』 キービジュアルポスターをプレゼント 【開催期間
+ 】 2025年11月16日(日) 23:59まで 【参加方法】\n
+ https://girls-band-cry.com/news/post-427.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-427.html
+CATEGORIES:togenashi,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-400-2025-11-19-sale@gbc-news
+DTSTAMP:20251119T000000Z
+DTSTART;VALUE=DATE:20251119
+DTEND;VALUE=DATE:20251120
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] トゲナシトゲアリ EP 2作品の連続リリース
+ リリースが決定！＆先行配信も順次開始！
+DESCRIPTION:トゲナシトゲアリによる、新しいEP2作品の発売
+ が決定しました！ ■1作目：「小指立てませんか」 TVア
+ ニメ『ガールズバンドクライ』の映像商品に特典CDとし
+ て収録されていた楽曲達を1枚にまとめたコレクションE
+ P。ライブでも人気の高い「生きて生きてゆく」をはじ
+ め、切なさや希望が交わる「碧いif」や「臆病な白夜」
+ など、これまで映像商品を購入した人しか聴くことが
+ でき\nhttps://girls-band-cry.com/news/post-400.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-400.html
+CATEGORIES:togenashi,live,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-418-2025-11-26-hold@gbc-news
+DTSTAMP:20251126T000000Z
+DTSTART;VALUE=DATE:20251126
+DTEND;VALUE=DATE:20251127
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 11/15(土)より『ガールズバンドクライ POP UP S
+ HOP filming ver.』がタワーレコード4店舗にて開催決定！
+DESCRIPTION:劇場版総集編 ガールズバンドクライ 【前編】
+ 青春狂走曲 / 【後編】なぁ、未来。の公開を記念して
+ 、『ガールズバンドクライ POP UP SHOP filming ver.』がタワ
+ ーレコード4店舗にて開催決定いたしました！ 酒井香澄
+ 描き下ろしで、映画クルーな装いのトゲナシトゲアリ
+ の新作グッズを販売いたします！ ぜひこの機会をお見
+ 逃しなく！ 『ガールズバンドクラ\n
+ https://girls-band-cry.com/news/post-418.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-418.html
+CATEGORIES:togenashi,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-418-2025-12-01-hold@gbc-news
+DTSTAMP:20251201T000000Z
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20251202
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 11/15(土)より『ガールズバンドクライ POP UP S
+ HOP filming ver.』がタワーレコード4店舗にて開催決定！
+DESCRIPTION:劇場版総集編 ガールズバンドクライ 【前編】
+ 青春狂走曲 / 【後編】なぁ、未来。の公開を記念して
+ 、『ガールズバンドクライ POP UP SHOP filming ver.』がタワ
+ ーレコード4店舗にて開催決定いたしました！ 酒井香澄
+ 描き下ろしで、映画クルーな装いのトゲナシトゲアリ
+ の新作グッズを販売いたします！ ぜひこの機会をお見
+ 逃しなく！ 『ガールズバンドクラ\n
+ https://girls-band-cry.com/news/post-418.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-418.html
+CATEGORIES:togenashi,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-434-2025-12-05-hold@gbc-news
+DTSTAMP:20251205T000000Z
+DTSTART;VALUE=DATE:20251205
+DTEND;VALUE=DATE:20251206
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 12/5(金) 『劇場版総集編 ガールズバンドク
+ ライ 【後編】 なぁ、未来。』＜応援上映＞（日本語字
+ 幕付き）開催決定！
+DESCRIPTION:河原木桃香の誕生日が12/9(火)なのを前に応援上
+ 映を実施することが決定いたしました！ 一足早い12/5(
+ 金)に河原木桃香の生誕を劇場で一緒にお祝いしましょ
+ う！ こちらの上映形式は声だしOKの応援上映となりま
+ す。 歓声OK！応援OK！拍手OK！ うちわ、タオル、ぬいぐ
+ るみ、ペンライト、サイリウムなど応援グッズをご持
+ 参いただくのもOKです。 さらに！応援上映回\n
+ https://girls-band-cry.com/news/post-434.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-434.html
+CATEGORIES:togenashi,live,goods,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-439-2025-12-12-hold@gbc-news
+DTSTAMP:20251212T000000Z
+DTSTART;VALUE=DATE:20251212
+DTEND;VALUE=DATE:20251213
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 12月12日(金)・12月14日(日)スタッフトークイ
+ ベント＠T・ジョイSEIBU大泉＆川崎チネチッタ 開催決定
+ ！
+DESCRIPTION:12月12日(金)・12月14日(日)スタッフトークイベン
+ ト＠T・ジョイSEIBU大泉＆川崎チネチッタ 開催決定！ 12
+ 月12日(金)にT・ジョイSEIBU大泉にて、12月14日(日)に川崎
+ チネチッタにて、『劇場版総集編 ガールズバンドクラ
+ イ 【後編】 なぁ、未来。』のスタッフトークイベント
+ の開催がそれぞれ決定いたしました！ さらに！スタッ
+ フトークにお越しの\nhttps://girls-band-cry.com/news/post-439.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-439.html
+CATEGORIES:togenashi,live,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-418-2025-12-14-hold@gbc-news
+DTSTAMP:20251214T000000Z
+DTSTART;VALUE=DATE:20251214
+DTEND;VALUE=DATE:20251215
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 11/15(土)より『ガールズバンドクライ POP UP S
+ HOP filming ver.』がタワーレコード4店舗にて開催決定！
+DESCRIPTION:劇場版総集編 ガールズバンドクライ 【前編】
+ 青春狂走曲 / 【後編】なぁ、未来。の公開を記念して
+ 、『ガールズバンドクライ POP UP SHOP filming ver.』がタワ
+ ーレコード4店舗にて開催決定いたしました！ 酒井香澄
+ 描き下ろしで、映画クルーな装いのトゲナシトゲアリ
+ の新作グッズを販売いたします！ ぜひこの機会をお見
+ 逃しなく！ 『ガールズバンドクラ\n
+ https://girls-band-cry.com/news/post-418.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-418.html
+CATEGORIES:togenashi,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-439-2025-12-14-hold@gbc-news
+DTSTAMP:20251214T000000Z
+DTSTART;VALUE=DATE:20251214
+DTEND;VALUE=DATE:20251215
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 12月12日(金)・12月14日(日)スタッフトークイ
+ ベント＠T・ジョイSEIBU大泉＆川崎チネチッタ 開催決定
+ ！
+DESCRIPTION:12月12日(金)・12月14日(日)スタッフトークイベン
+ ト＠T・ジョイSEIBU大泉＆川崎チネチッタ 開催決定！ 12
+ 月12日(金)にT・ジョイSEIBU大泉にて、12月14日(日)に川崎
+ チネチッタにて、『劇場版総集編 ガールズバンドクラ
+ イ 【後編】 なぁ、未来。』のスタッフトークイベント
+ の開催がそれぞれ決定いたしました！ さらに！スタッ
+ フトークにお越しの\nhttps://girls-band-cry.com/news/post-439.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-439.html
+CATEGORIES:togenashi,live,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-400-2025-12-17-sale@gbc-news
+DTSTAMP:20251217T000000Z
+DTSTART;VALUE=DATE:20251217
+DTEND;VALUE=DATE:20251218
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] トゲナシトゲアリ EP 2作品の連続リリース
+ リリースが決定！＆先行配信も順次開始！
+DESCRIPTION:トゲナシトゲアリによる、新しいEP2作品の発売
+ が決定しました！ ■1作目：「小指立てませんか」 TVア
+ ニメ『ガールズバンドクライ』の映像商品に特典CDとし
+ て収録されていた楽曲達を1枚にまとめたコレクションE
+ P。ライブでも人気の高い「生きて生きてゆく」をはじ
+ め、切なさや希望が交わる「碧いif」や「臆病な白夜」
+ など、これまで映像商品を購入した人しか聴くことが
+ でき\nhttps://girls-band-cry.com/news/post-400.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-400.html
+CATEGORIES:togenashi,live,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-388-2026-02-11-hold@gbc-news
+DTSTAMP:20260211T000000Z
+DTSTART;VALUE=DATE:20260211
+DTEND;VALUE=DATE:20260212
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
+ ” 開催決定！
+DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
+ の開催が決定しました！ ■開催日時・会場 2026年2月11
+ 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
+  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
+ ） 2026年2月23日（\nhttps://girls-band-cry.com/news/post-388.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
+CATEGORIES:togenashi,live,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-388-2026-02-14-hold@gbc-news
+DTSTAMP:20260214T000000Z
+DTSTART;VALUE=DATE:20260214
+DTEND;VALUE=DATE:20260215
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
+ ” 開催決定！
+DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
+ の開催が決定しました！ ■開催日時・会場 2026年2月11
+ 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
+  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
+ ） 2026年2月23日（\nhttps://girls-band-cry.com/news/post-388.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
+CATEGORIES:togenashi,live,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-388-2026-02-23-hold@gbc-news
+DTSTAMP:20260223T000000Z
+DTSTART;VALUE=DATE:20260223
+DTEND;VALUE=DATE:20260224
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
+ ” 開催決定！
+DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
+ の開催が決定しました！ ■開催日時・会場 2026年2月11
+ 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
+  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
+ ） 2026年2月23日（\nhttps://girls-band-cry.com/news/post-388.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
+CATEGORIES:togenashi,live,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-388-2026-02-28-hold@gbc-news
+DTSTAMP:20260228T000000Z
+DTSTART;VALUE=DATE:20260228
+DTEND;VALUE=DATE:20260301
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
+ ” 開催決定！
+DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
+ の開催が決定しました！ ■開催日時・会場 2026年2月11
+ 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
+  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
+ ） 2026年2月23日（\nhttps://girls-band-cry.com/news/post-388.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
+CATEGORIES:togenashi,live,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-388-2026-03-08-hold@gbc-news
+DTSTAMP:20260308T000000Z
+DTSTART;VALUE=DATE:20260308
+DTEND;VALUE=DATE:20260309
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
+ ” 開催決定！
+DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
+ の開催が決定しました！ ■開催日時・会場 2026年2月11
+ 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
+  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
+ ） 2026年2月23日（\nhttps://girls-band-cry.com/news/post-388.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
+CATEGORIES:togenashi,live,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-455-2026-03-11-sale@gbc-news
 DTSTAMP:20260311T000000Z
 DTSTART;VALUE=DATE:20260311
@@ -43,6 +2767,40 @@ DESCRIPTION:平素より格別のご愛顧を賜り、誠にありがとう
  https://girls-band-cry.com/news/post-460.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-460.html
 CATEGORIES:togenashi,live,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-388-2026-03-13-hold@gbc-news
+DTSTAMP:20260313T000000Z
+DTSTART;VALUE=DATE:20260313
+DTEND;VALUE=DATE:20260314
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
+ ” 開催決定！
+DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
+ の開催が決定しました！ ■開催日時・会場 2026年2月11
+ 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
+  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
+ ） 2026年2月23日（\nhttps://girls-band-cry.com/news/post-388.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
+CATEGORIES:togenashi,live,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-388-2026-03-14-hold@gbc-news
+DTSTAMP:20260314T000000Z
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260315
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
+ ” 開催決定！
+DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
+ の開催が決定しました！ ■開催日時・会場 2026年2月11
+ 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
+  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
+ ） 2026年2月23日（\nhttps://girls-band-cry.com/news/post-388.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
+CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-460-2026-03-25-sale@gbc-news
