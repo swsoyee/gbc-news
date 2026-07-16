@@ -13,7 +13,8 @@
 - 提交未使用的依赖「以后可能用」
 - 在 scraper 里直接拼 RSS/iCal 字符串（必须经统一模型 + feeds 层）
 - 硬编码仅本机可用的绝对路径
-- 绕过 lint / typecheck 合入（`--no-verify` 除非任务明确要求）
+- 绕过 lint / typecheck / format / test 合入（`--no-verify` 除非任务明确要求）
+- **本地 `npm run ci` 未通过就 `git push`**（见 `.trellis/spec/guides/collaboration-and-delivery.md`）
 
 ## 代码评审关注点
 
