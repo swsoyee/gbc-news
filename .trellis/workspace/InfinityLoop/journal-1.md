@@ -75,3 +75,36 @@
 ### Next Steps
 
 - None - task complete
+
+
+## Session 3: 修复 all 覆盖与日历链接
+
+**Date**: 2026-07-16
+**Task**: 修复 all 覆盖与日历链接
+**Branch**: `main`
+
+### Summary
+
+加强 eventDates 抽取（32→59），DESCRIPTION 保留完整 URL；Issue #18 已关并上线。
+
+### Main Changes
+
+- Detailed change bullets were not supplied; see the summary above.
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `fe5caaa` | (see git log) |
+
+### Testing
+
+- Validation was not recorded for this session.
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
