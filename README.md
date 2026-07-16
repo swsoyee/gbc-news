@@ -10,13 +10,13 @@
 
 ## 技术选型（低成本）
 
-| 能力 | 方案 | 成本考量 |
-|------|------|----------|
-| 代码托管 / CI | GitHub + GitHub Actions | 公开仓库 Actions 免费额度足够定时抓取 |
-| 定时抓取 | Actions `schedule` cron | 无需额外付费 cron / 常驻服务器 |
-| 数据存储 | 仓库内 `data/` 静态快照 | 无数据库费用 |
-| 订阅分发 | Netlify 静态站点（必要时再加 Functions） | 免费额度覆盖静态 RSS/iCal |
-| 语言 | TypeScript（Node 20+） | 与 Netlify / Actions 生态契合 |
+| 能力          | 方案                                     | 成本考量                              |
+| ------------- | ---------------------------------------- | ------------------------------------- |
+| 代码托管 / CI | GitHub + GitHub Actions                  | 公开仓库 Actions 免费额度足够定时抓取 |
+| 定时抓取      | Actions `schedule` cron                  | 无需额外付费 cron / 常驻服务器        |
+| 数据存储      | 仓库内 `data/` 静态快照                  | 无数据库费用                          |
+| 订阅分发      | Netlify 静态站点（必要时再加 Functions） | 免费额度覆盖静态 RSS/iCal             |
+| 语言          | TypeScript（Node 20+）                   | 与 Netlify / Actions 生态契合         |
 
 ## 工作方式
 
@@ -26,6 +26,13 @@
 4. CI 跑 lint / typecheck / test；通过后再合并
 
 详细约定见 `.trellis/spec/` 与 `docs/architecture.md`。
+
+## 仓库与进度
+
+- GitHub: https://github.com/swsoyee/gbc-news
+- Project Dashboard: https://github.com/users/swsoyee/projects/1
+- CI: GitHub Actions（`CI` workflow）
+- 部署目标: Netlify（仓库已含 `netlify.toml`，需在 Netlify 控制台连接本仓库）
 
 ## 本地开发（骨架阶段）
 
