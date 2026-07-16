@@ -141,3 +141,36 @@ foldIcs 避开切断 URL；DESCRIPTION 去外链；已部署。
 ### Next Steps
 
 - None - task complete
+
+
+## Session 5: 日历支持具体起止时刻
+
+**Date**: 2026-07-16
+**Task**: 日历支持具体起止时刻
+**Branch**: `main`
+
+### Summary
+
+EventDate 增加 start/endTime；iCal DATE-TIME；两源重抓部署。
+
+### Main Changes
+
+- Detailed change bullets were not supplied; see the summary above.
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `faae4a2` | (see git log) |
+
+### Testing
+
+- Validation was not recorded for this session.
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
