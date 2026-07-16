@@ -4,49 +4,180 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>gbc-news</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;600;700&family=Syne:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
     <style>
       :root {
         color-scheme: light;
-        --bg: #f3f6f4;
-        --ink: #14201a;
-        --muted: #4d5c54;
-        --accent: #1f6f4a;
+        --bg0: #101418;
+        --bg1: #1a2229;
+        --ink: #f4efe6;
+        --muted: #b7c0c8;
+        --accent: #e85d4c;
+        --line: rgba(244, 239, 230, 0.16);
+      }
+      * {
+        box-sizing: border-box;
       }
       body {
         margin: 0;
         min-height: 100vh;
-        font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, serif;
-        background:
-          radial-gradient(circle at top left, #d9ebe1 0%, transparent 45%),
-          linear-gradient(160deg, #f7faf8, #e7eee9);
+        font-family: 'IBM Plex Sans JP', sans-serif;
         color: var(--ink);
+        background:
+          radial-gradient(circle at 12% 18%, rgba(232, 93, 76, 0.28), transparent 42%),
+          radial-gradient(circle at 88% 0%, rgba(90, 140, 180, 0.22), transparent 36%),
+          linear-gradient(160deg, var(--bg0), var(--bg1) 55%, #12171d);
       }
       main {
-        max-width: 40rem;
+        width: min(720px, calc(100% - 2rem));
         margin: 0 auto;
-        padding: 18vh 1.5rem 4rem;
+        padding: 12vh 0 4rem;
       }
       h1 {
-        font-size: clamp(2.5rem, 8vw, 4rem);
-        letter-spacing: -0.03em;
-        margin: 0 0 0.75rem;
+        font-family: Syne, sans-serif;
+        font-size: clamp(2.8rem, 10vw, 4.8rem);
+        line-height: 0.95;
+        letter-spacing: -0.04em;
+        margin: 0 0 0.8rem;
       }
-      p {
+      .lead {
+        color: var(--muted);
+        font-size: 1.05rem;
+        line-height: 1.7;
+        margin: 0 0 2rem;
+        max-width: 36rem;
+      }
+      section {
+        border-top: 1px solid var(--line);
+        padding-top: 1.4rem;
+        margin-top: 1.4rem;
+      }
+      h2 {
+        font-size: 0.85rem;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
         margin: 0 0 1rem;
         color: var(--muted);
-        line-height: 1.6;
-        font-size: 1.05rem;
       }
-      a {
-        color: var(--accent);
+      .cats {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.6rem;
+      }
+      label.cat {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        border: 1px solid var(--line);
+        padding: 0.55rem 0.8rem;
+        cursor: pointer;
+        user-select: none;
+        background: rgba(255, 255, 255, 0.03);
+      }
+      label.cat:has(input:checked) {
+        border-color: var(--accent);
+        background: rgba(232, 93, 76, 0.14);
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.6rem;
+        margin: 0.8rem 0 0;
+      }
+      button,
+      a.btn {
+        appearance: none;
+        border: 1px solid var(--line);
+        background: transparent;
+        color: var(--ink);
+        font: inherit;
+        padding: 0.55rem 0.9rem;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      button.primary,
+      a.btn.primary {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: #1a0f0d;
+        font-weight: 700;
+      }
+      .links {
+        display: grid;
+        gap: 0.8rem;
+      }
+      .link-row {
+        display: grid;
+        gap: 0.35rem;
+      }
+      .link-row code {
+        display: block;
+        overflow-wrap: anywhere;
+        padding: 0.75rem 0.85rem;
+        background: rgba(0, 0, 0, 0.28);
+        border: 1px solid var(--line);
+        font-size: 0.86rem;
+      }
+      .meta {
+        color: var(--muted);
+        font-size: 0.92rem;
+        line-height: 1.6;
+      }
+      .note {
+        color: var(--muted);
+        font-size: 0.88rem;
+        margin-top: 1.5rem;
       }
     </style>
   </head>
   <body>
     <main>
       <h1>gbc-news</h1>
-      <p>官网资讯的低成本 RSS / iCal 订阅服务。订阅源将发布在 <code>/feeds/</code>。</p>
-      <p>工程基础搭建中，业务抓取尚未上线。</p>
+      <p class="lead">
+        订阅《ガールズバンドクライ》官网新闻。点选分类后，可一键复制 RSS 或日历（iCal）链接。
+      </p>
+
+      <section>
+        <h2>选择分类</h2>
+        <div class="cats" id="cats"></div>
+        <div class="actions">
+          <button type="button" id="select-all">全选</button>
+          <button type="button" id="clear-all">清空（订阅全部）</button>
+        </div>
+        <p class="meta" id="stats">加载分类中…</p>
+      </section>
+
+      <section>
+        <h2>订阅链接</h2>
+        <div class="links">
+          <div class="link-row">
+            <strong>RSS</strong>
+            <code id="rss-url"></code>
+            <div class="actions">
+              <button type="button" class="primary" data-copy="rss-url">复制 RSS</button>
+              <a class="btn" id="rss-open" href="#" target="_blank" rel="noopener">打开</a>
+            </div>
+          </div>
+          <div class="link-row">
+            <strong>iCal / 日历</strong>
+            <code id="ics-url"></code>
+            <div class="actions">
+              <button type="button" class="primary" data-copy="ics-url">复制日历链接</button>
+              <a class="btn" id="ics-open" href="#">打开 webcal</a>
+            </div>
+          </div>
+        </div>
+        <p class="note">
+          说明：官网正文不带分类标签，本站按标题/正文关键词自动归类（可多标签）。当前数据来自官网新闻前
+          3 页测试抓取。
+        </p>
+      </section>
     </main>
+    <script type="module" src="/subscribe.js"></script>
   </body>
 </html>
