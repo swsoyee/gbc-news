@@ -8,54 +8,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-WR-CALNAME:gbc-news · 媒体
 NAME:gbc-news · 媒体
 BEGIN:VEVENT
-UID:post-457@gbc-news
-DTSTAMP:20260406T000000Z
-DTSTART;VALUE=DATE:20260406
-DTEND;VALUE=DATE:20260407
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:『劇場版総集編ガールズバンドクライ』【配信決
- 定＆TV放送２周年記念】メモリアルグッズ購入キャンペ
- ーン
-DESCRIPTION:『劇場版総集編ガールズバンドクライ』前編・
- 後編の配信が決定！ 記念すべき、TVアニメ放送２周年
- 記念日［4月6日(月)12:00（正午）］より、 Amazon／U-NEXTに
- て購入版・レンタル版が視聴できるようになります！ 
- 配信決定＆TVアニメ２周年記念を記念して、 「劇場版
- 総集編ガールズバンドクライ 青春狂走曲（前編）」、 
- 「劇場版総集編ガールズバンドクライ\nhttps://girls-ban…
-URL;VALUE=URI:https://girls-band-cry.com/news/post-457.html
-CATEGORIES:goods,event,cinema,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-468@gbc-news
-DTSTAMP:20260413T000000Z
-DTSTART;VALUE=DATE:20260413
-DTEND;VALUE=DATE:20260414
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:TVアニメ『ガールズバンドクライ』 放送２周年記
- 念フォロー＆リポストキャンペーン開催！
-DESCRIPTION:TVアニメ『ガールズバンドクライ』 放送２周年
- を記念して 公式Xにてフォロー＆リポストキャンペーン
- を開催！ ご参加いただいた方の中から抽選で30名様にTV
- アニメ『ガールズバンドクライ』 キービジュアルポス
- ターをプレゼント 【開催期間】 2026年4月13日(月) 23:59ま
- で 【参加方法】 ①X（旧Twitter）の ＠girlsbandcry をフォ\n
- https://girls-band-…
-URL;VALUE=URI:https://girls-band-cry.com/news/post-468.html
-CATEGORIES:event,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-464@gbc-news
+UID:post-464-2026-04-24-hold@gbc-news
 DTSTAMP:20260424T000000Z
 DTSTART;VALUE=DATE:20260424
-DTEND;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260425
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:『劇場版総集編 ガールズバンドクライ』「【前編
- 】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD
- ] 2026年7月22日(水)発売決定！
+SUMMARY:[開催] 『劇場版総集編 ガールズバンドクライ』「
+ 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
+ -ray][DVD] 2026年7月22日(水)…
 DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
  バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
  ガールズバンドクライ 【後編】 なぁ、未来。」 のパ
@@ -65,6 +26,69 @@ DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
  して配布された 手島nari描き下ろし漫画 \nhttps://girls-ban
  …
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
-CATEGORIES:live,music,goods,event,cinema,media
+CATEGORIES:togenashi,live,music,goods,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-464-2026-04-26-sale@gbc-news
+DTSTAMP:20260426T000000Z
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 『劇場版総集編 ガールズバンドクライ』「
+ 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
+ -ray][DVD] 2026年7月22日(水)…
+DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
+ バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
+ ガールズバンドクライ 【後編】 なぁ、未来。」 のパ
+ ッケージ化が決定！ 発売日は共に7/22(水)、初回限定版
+ はこちらも手島nariによる新規描きおろしジャケットが
+ 起用される。ブックレットには、劇場で入場者特典と
+ して配布された 手島nari描き下ろし漫画 \nhttps://girls-ban
+ …
+URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
+CATEGORIES:togenashi,live,music,goods,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-464-2026-07-10-hold@gbc-news
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 『劇場版総集編 ガールズバンドクライ』「
+ 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
+ -ray][DVD] 2026年7月22日(水)…
+DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
+ バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
+ ガールズバンドクライ 【後編】 なぁ、未来。」 のパ
+ ッケージ化が決定！ 発売日は共に7/22(水)、初回限定版
+ はこちらも手島nariによる新規描きおろしジャケットが
+ 起用される。ブックレットには、劇場で入場者特典と
+ して配布された 手島nari描き下ろし漫画 \nhttps://girls-ban
+ …
+URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
+CATEGORIES:togenashi,live,music,goods,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-464-2026-07-22-sale@gbc-news
+DTSTAMP:20260722T000000Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 『劇場版総集編 ガールズバンドクライ』「
+ 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
+ -ray][DVD] 2026年7月22日(水)…
+DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
+ バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
+ ガールズバンドクライ 【後編】 なぁ、未来。」 のパ
+ ッケージ化が決定！ 発売日は共に7/22(水)、初回限定版
+ はこちらも手島nariによる新規描きおろしジャケットが
+ 起用される。ブックレットには、劇場で入場者特典と
+ して配布された 手島nari描き下ろし漫画 \nhttps://girls-ban
+ …
+URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
+CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
 END:VCALENDAR

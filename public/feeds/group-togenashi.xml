@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>gbc-news · Live</title>
+    <title>gbc-news · トゲナシトゲアリ</title>
     <link>https://gbc-news.example.com/</link>
-    <description>ガールズバンドクライ 公式ニュース（Live）</description>
+    <description>ガールズバンドクライ 公式ニュース（トゲナシトゲアリ）</description>
     <lastBuildDate>Thu, 16 Jul 2026 12:08:56 GMT</lastBuildDate>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/live.xml" rel="self" type="application/rss+xml" />
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/group-togenashi.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[発売] トゲナシトゲアリ 「5th ONE-MAN LIVE “鳴動の刻”」映像商品 発売延期のお知らせ</title>
       <link>https://girls-band-cry.com/news/post-460.html</link>
@@ -128,16 +128,6 @@
       <description>トゲナシトゲアリ初の東南アジアツアー「TOGENASHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026」のチケット発売情報が公開となりました。 TOGENASHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026 ▼バンコク TOGENASHI TOGEARI “Rinne no Kotowar</description>
     </item>
     <item>
-      <title>[開催] Canna Lily 1st ONE-MAN LIVE「未明に咲く花」開催決定！</title>
-      <link>https://gbc-firstriff.com/news/post-2.html</link>
-      <guid isPermaLink="false">firstriff-post-2-2026-06-26-hold@gbc-news</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
-      <category>live</category>
-      <category>event</category>
-      <category domain="group">canna-lily</category>
-      <description>Canna Lily 1st ONE-MAN LIVE「未明に咲く花」の開催が決定。 ■開催日時 2026年6月26日(金) 開場 18:00/開演 19:00 ■会場 代官山UNIT(東京都渋谷区) ■チケット情報 先行抽選販売を実施します。 受付期間:2026年3月22日(日)21:00～4月1日(水)23:59 https://livepocket.j</description>
-    </item>
-    <item>
       <title>[発売] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA TOUR 2026 チケット発売情報公開！</title>
       <link>https://girls-band-cry.com/news/post-480.html</link>
       <guid isPermaLink="false">post-480-2026-06-26-sale@gbc-news</guid>
@@ -145,6 +135,24 @@
       <category>live</category>
       <category domain="group">togenashi</category>
       <description>トゲナシトゲアリ初の東南アジアツアー「TOGENASHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026」のチケット発売情報が公開となりました。 TOGENASHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026 ▼バンコク TOGENASHI TOGEARI “Rinne no Kotowar</description>
+    </item>
+    <item>
+      <title>[発売] 2026年ルパ誕生日グッズ</title>
+      <link>https://girls-band-cry.com/news/post-477.html</link>
+      <guid isPermaLink="false">post-477-2026-06-28-sale@gbc-news</guid>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category domain="group">togenashi</category>
+      <description>ルパの誕生日グッズが発売決定！ ＜発売日＞ AniBirthショップ：2026年6月28日(日) 東映アニメーションオフィシャルストア：2026年6月29日(月)13時 ＜AniBirthショップ詳細＞ ◇池袋 〒171-8557 東京都豊島区南池袋1-28-2 池袋PARCO 本館 6F 営業時間：11時～21時 ◇心斎橋 〒542-0085 大阪府大阪市</description>
+    </item>
+    <item>
+      <title>[発売] 2026年ルパ誕生日グッズ</title>
+      <link>https://girls-band-cry.com/news/post-477.html</link>
+      <guid isPermaLink="false">post-477-2026-06-29-sale@gbc-news</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category domain="group">togenashi</category>
+      <description>ルパの誕生日グッズが発売決定！ ＜発売日＞ AniBirthショップ：2026年6月28日(日) 東映アニメーションオフィシャルストア：2026年6月29日(月)13時 ＜AniBirthショップ詳細＞ ◇池袋 〒171-8557 東京都豊島区南池袋1-28-2 池袋PARCO 本館 6F 営業時間：11時～21時 ◇心斎橋 〒542-0085 大阪府大阪市</description>
     </item>
     <item>
       <title>[開催] 『劇場版総集編 ガールズバンドクライ』「【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD] 2026年7月22日(水)発売決定！</title>
@@ -161,16 +169,6 @@
       <description>2025年に公開された、 「劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲」 「劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未来。」 のパッケージ化が決定！ 発売日は共に7/22(水)、初回限定版はこちらも手島nariによる新規描きおろしジャケットが起用される。ブックレットには、劇場で入場者特典として配布された 手島nari描き下ろし漫画 </description>
     </item>
     <item>
-      <title>[開催] F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“ 開催決定！</title>
-      <link>https://gbc-firstriff.com/news/post-3.html</link>
-      <guid isPermaLink="false">firstriff-post-3-2026-07-20-hold@gbc-news</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <category>live</category>
-      <category>event</category>
-      <category domain="group">f272</category>
-      <description>※ 2026/5/22：チケット情報（一般販売）を追記 F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“の開催が決定。 ■開催日時 2026年7月20日(月・祝) 開場 16:00/開演 17:00 ■会場 代官山UNIT(東京都渋谷区) ■チケット情報（一般販売） キャンセル分のチケットを若干数ではございますが、一</description>
-    </item>
-    <item>
       <title>[発売] 『劇場版総集編 ガールズバンドクライ』「【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD] 2026年7月22日(水)発売決定！</title>
       <link>https://girls-band-cry.com/news/post-464.html</link>
       <guid isPermaLink="false">post-464-2026-07-22-sale@gbc-news</guid>
@@ -183,6 +181,36 @@
       <category>media</category>
       <category domain="group">togenashi</category>
       <description>2025年に公開された、 「劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲」 「劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未来。」 のパッケージ化が決定！ 発売日は共に7/22(水)、初回限定版はこちらも手島nariによる新規描きおろしジャケットが起用される。ブックレットには、劇場で入場者特典として配布された 手島nari描き下ろし漫画 </description>
+    </item>
+    <item>
+      <title>[発売] UNIVERSAL MUSIC STORE/東映アニメーションオフィシャルストア限定ぬいぐるみセット （完全受注限定生産） オリジナル配送箱デザイン決定！</title>
+      <link>https://girls-band-cry.com/news/post-469.html</link>
+      <guid isPermaLink="false">post-469-2026-07-22-sale@gbc-news</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>cinema</category>
+      <category domain="group">togenashi</category>
+      <description>UNIVERSAL MUSIC STOREと東映アニメーションオフィシャルストアで限定販売されるぬいぐるみセットのオリジナル配送箱デザインが決定しました！ ・ぬいぐるみセットご購入の方のみガールズバンドクライオリジナル配送箱でお届けします。 ・配送箱は、配送上使用するもので特典ではありません。その為、配送時における凹み・汚れ、破損や角潰れなどに伴う交換・返金</description>
+    </item>
+    <item>
+      <title>[発売] 『劇場版総集編ガールズバンドクライ』（初回限定版）【前編封入】Side-A ／【後編封入】Side-B 豪華ブックレットの一部内容公開！</title>
+      <link>https://girls-band-cry.com/news/post-470.html</link>
+      <guid isPermaLink="false">post-470-2026-07-22-sale@gbc-news</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>cinema</category>
+      <category domain="group">togenashi</category>
+      <description>『劇場版総集編ガールズバンドクライ』（初回限定版） 【前編封入】Side-A ／【後編封入】Side-B 豪華ブックレットの一部内容公開！ ガールズバンドクライ脚本・花田十輝による新規書き下ろし「ミニストーリー」 の収録が決定しました！ 前編・後編、それぞれ別のストーリーが付きます。 ※初回限定版にのみ封入されます。 ※仕様は変更する場合がございます。 UN</description>
+    </item>
+    <item>
+      <title>[発売] UNIVERSAL MUSIC STORE/東映アニメーションオフィシャルストア限定ぬいぐるみセット（完全受注限定生産）【劇場でマナーの悪かった井芹仁菜オリジナルぬいぐるみ】のイラスト公開！</title>
+      <link>https://girls-band-cry.com/news/post-472.html</link>
+      <guid isPermaLink="false">post-472-2026-07-22-sale@gbc-news</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>cinema</category>
+      <category domain="group">togenashi</category>
+      <description>UNIVERSAL MUSIC STOREと東映アニメーションオフィシャルストアで限定販売されるぬいぐるみセットの【劇場でマナーの悪かった井芹仁菜オリジナルぬいぐるみ】イラストを公開いたします！ ※監修中、仕様は変更する場合がございます。 ※ぬいぐるみセットをご購入の方のみ、お届けします。 ※画像はイメージです。実物とは異なる場合がございます。 UNIVER</description>
     </item>
     <item>
       <title>[開催] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA TOUR 2026 チケット発売情報公開！</title>
@@ -221,16 +249,6 @@
       <category>live</category>
       <category domain="group">togenashi</category>
       <description>トゲナシトゲアリ初の東南アジアツアー「TOGENASHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026」のチケット発売情報が公開となりました。 TOGENASHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026 ▼バンコク TOGENASHI TOGEARI “Rinne no Kotowar</description>
-    </item>
-    <item>
-      <title>[開催] Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」開催決定！</title>
-      <link>https://gbc-firstriff.com/news/post-5.html</link>
-      <guid isPermaLink="false">firstriff-post-5-2026-09-05-hold@gbc-news</guid>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-      <category>live</category>
-      <category>event</category>
-      <category domain="group">canna-lily</category>
-      <description>Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」の開催が決定。 ■開催日時 2026年9月5日(土) 一部:開場14:00/開演 15:00 二部:開場 18:30/開演 19:30 ■会場 WWW X https://www-shibuya.jp/schedule/#www_x ■チケット情報 先行抽選販売を実施します。 受付期間:2</description>
     </item>
     <item>
       <title>[開催] トゲナシトゲアリ「ASUTO MUSIC PARK 2026」に出演決定！</title>

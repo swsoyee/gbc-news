@@ -8,32 +8,15 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-WR-CALNAME:gbc-news · 曲目
 NAME:gbc-news · 曲目
 BEGIN:VEVENT
-UID:post-455@gbc-news
-DTSTAMP:20260311T000000Z
-DTSTART;VALUE=DATE:20260311
-DTEND;VALUE=DATE:20260326
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:トゲナシトゲアリ 『5th ONE-MAN LIVE “鳴動の刻”』[
- Blu-ray][DVD] 2026年3月11日(水)発売決定！
-DESCRIPTION:2025年2月7日(金)にパシフィコ横浜 国立大ホール
- にて開催された、トゲナシトゲアリ 5th ONE-MAN LIVE "鳴動
- の刻" が映像商品化されることが決定！ 2026年3月11日(水
- ) Release →2026年3月25日(水) Release ▼発売日延期につきま
- して https://girls-band-cry.com/news/post-4\nhttps://girls-ban…
-URL;VALUE=URI:https://girls-band-cry.com/news/post-455.html
-CATEGORIES:live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-464@gbc-news
+UID:post-464-2026-04-24-hold@gbc-news
 DTSTAMP:20260424T000000Z
 DTSTART;VALUE=DATE:20260424
-DTEND;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260425
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:『劇場版総集編 ガールズバンドクライ』「【前編
- 】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD
- ] 2026年7月22日(水)発売決定！
+SUMMARY:[開催] 『劇場版総集編 ガールズバンドクライ』「
+ 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
+ -ray][DVD] 2026年7月22日(水)…
 DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
  バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
  ガールズバンドクライ 【後編】 なぁ、未来。」 のパ
@@ -43,18 +26,39 @@ DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
  して配布された 手島nari描き下ろし漫画 \nhttps://girls-ban
  …
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
-CATEGORIES:live,music,goods,event,cinema,media
+CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-465@gbc-news
+UID:post-464-2026-04-26-sale@gbc-news
+DTSTAMP:20260426T000000Z
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 『劇場版総集編 ガールズバンドクライ』「
+ 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
+ -ray][DVD] 2026年7月22日(水)…
+DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
+ バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
+ ガールズバンドクライ 【後編】 なぁ、未来。」 のパ
+ ッケージ化が決定！ 発売日は共に7/22(水)、初回限定版
+ はこちらも手島nariによる新規描きおろしジャケットが
+ 起用される。ブックレットには、劇場で入場者特典と
+ して配布された 手島nari描き下ろし漫画 \nhttps://girls-ban
+ …
+URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
+CATEGORIES:togenashi,live,music,goods,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-465-2026-05-29-hold@gbc-news
 DTSTAMP:20260529T000000Z
 DTSTART;VALUE=DATE:20260529
 DTEND;VALUE=DATE:20260530
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:トゲナシトゲアリ アルバム「棘アリ」「棘ナシ」
-  完全生産限定アナログレコード盤 2026年8月19日(水)発売
- 決定！
+SUMMARY:[開催] トゲナシトゲアリ アルバム「棘アリ」「棘
+ ナシ」 完全生産限定アナログレコード盤 2026年8月19日(
+ 水)発売決定！
 DESCRIPTION:2024年にリリースされた2枚のアルバム「棘アリ
  」と「棘ナシ」がアナログレコード盤として同時リリ
  ースが決定！ 各ジャケット写真は手島nariの新規描きお
@@ -64,6 +68,69 @@ DESCRIPTION:2024年にリリースされた2枚のアルバム「棘アリ
  い場合は5月24日(日)までのご予約を忘れずに。 ▶「棘\n
  https://girls-ban…
 URL;VALUE=URI:https://girls-band-cry.com/news/post-465.html
-CATEGORIES:live,music,event
+CATEGORIES:togenashi,live,music,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-464-2026-07-10-hold@gbc-news
+DTSTAMP:20260710T000000Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 『劇場版総集編 ガールズバンドクライ』「
+ 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
+ -ray][DVD] 2026年7月22日(水)…
+DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
+ バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
+ ガールズバンドクライ 【後編】 なぁ、未来。」 のパ
+ ッケージ化が決定！ 発売日は共に7/22(水)、初回限定版
+ はこちらも手島nariによる新規描きおろしジャケットが
+ 起用される。ブックレットには、劇場で入場者特典と
+ して配布された 手島nari描き下ろし漫画 \nhttps://girls-ban
+ …
+URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
+CATEGORIES:togenashi,live,music,goods,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-464-2026-07-22-sale@gbc-news
+DTSTAMP:20260722T000000Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] 『劇場版総集編 ガールズバンドクライ』「
+ 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
+ -ray][DVD] 2026年7月22日(水)…
+DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
+ バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
+ ガールズバンドクライ 【後編】 なぁ、未来。」 のパ
+ ッケージ化が決定！ 発売日は共に7/22(水)、初回限定版
+ はこちらも手島nariによる新規描きおろしジャケットが
+ 起用される。ブックレットには、劇場で入場者特典と
+ して配布された 手島nari描き下ろし漫画 \nhttps://girls-ban
+ …
+URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
+CATEGORIES:togenashi,live,music,goods,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-465-2026-08-19-sale@gbc-news
+DTSTAMP:20260819T000000Z
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] トゲナシトゲアリ アルバム「棘アリ」「棘
+ ナシ」 完全生産限定アナログレコード盤 2026年8月19日(
+ 水)発売決定！
+DESCRIPTION:2024年にリリースされた2枚のアルバム「棘アリ
+ 」と「棘ナシ」がアナログレコード盤として同時リリ
+ ースが決定！ 各ジャケット写真は手島nariの新規描きお
+ ろしによりCDから一新。パッケージには先着特典として
+ この各ジャケット写真を用いたステッカーも封入しま
+ す！ 2枚ともに完全生産限定のため、確実に手に入れた
+ い場合は5月24日(日)までのご予約を忘れずに。 ▶「棘\n
+ https://girls-ban…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-465.html
+CATEGORIES:togenashi,live,music,event
 END:VEVENT
 END:VCALENDAR

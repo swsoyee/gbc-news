@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//gbc-news//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-PUBLISHED-TTL:PT6H
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-WR-CALNAME:gbc-news · F-272
+NAME:gbc-news · F-272
+BEGIN:VEVENT
+UID:firstriff-post-3-2026-07-20-hold@gbc-news
+DTSTAMP:20260720T000000Z
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“ 開催
+ 決定！
+DESCRIPTION:※ 2026/5/22：チケット情報（一般販売）を追記 F
+ -272 1st ONE-MAN LIVE The Dissonant “I DOLL“の開催が決定。 ■
+ 開催日時 2026年7月20日(月・祝) 開場 16:00/開演 17:00 ■会
+ 場 代官山UNIT(東京都渋谷区) ■チケット情報（一般販売
+ ） キャンセル分のチケットを若干数ではございますが
+ 、一\nhttps://gbc-first…
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-3.html
+CATEGORIES:f272,live,event
+END:VEVENT
+END:VCALENDAR

@@ -2,10 +2,10 @@
 <rss version="2.0">
   <channel>
     <title>gbc-news · 其他</title>
-    <link>https://gbc-news.netlify.app/</link>
+    <link>https://gbc-news.example.com/</link>
     <description>ガールズバンドクライ 公式ニュース（其他）</description>
-    <lastBuildDate>Thu, 16 Jul 2026 12:00:28 GMT</lastBuildDate>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.netlify.app/feeds/other.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jul 2026 12:08:56 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/other.xml" rel="self" type="application/rss+xml" />
 
   </channel>
 </rss>

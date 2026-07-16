@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>gbc-news · F-272</title>
+    <link>https://gbc-news.example.com/</link>
+    <description>ガールズバンドクライ 公式ニュース（F-272）</description>
+    <lastBuildDate>Thu, 16 Jul 2026 12:08:56 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/group-f272.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[開催] F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“ 開催決定！</title>
+      <link>https://gbc-firstriff.com/news/post-3.html</link>
+      <guid isPermaLink="false">firstriff-post-3-2026-07-20-hold@gbc-news</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>event</category>
+      <category domain="group">f272</category>
+      <description>※ 2026/5/22：チケット情報（一般販売）を追記 F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“の開催が決定。 ■開催日時 2026年7月20日(月・祝) 開場 16:00/開演 17:00 ■会場 代官山UNIT(東京都渋谷区) ■チケット情報（一般販売） キャンセル分のチケットを若干数ではございますが、一</description>
+    </item>
+  </channel>
+</rss>
