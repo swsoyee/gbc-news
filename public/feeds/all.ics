@@ -8,11 +8,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-WR-CALNAME:gbc-news · 全部
 NAME:gbc-news · 全部
 BEGIN:VEVENT
-UID:post-453-2026-02-02-sale@gbc-news
-DTSTAMP:20260202T000000Z
-DTSTART;VALUE=DATE:20260202
-DTEND;VALUE=DATE:20260203
-TRANSP:TRANSPARENT
+UID:post-453-2026-02-02-sale-2000@gbc-news
+DTSTAMP:20260202T110000Z
+DTSTART:20260202T110000Z
+DTEND:20260202T120000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[発売] RAISE A SUILEN ×トゲナシトゲアリ「RAISE MY CATHA
  RSIS」同時視聴スペース配信が決定
@@ -26,11 +26,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-453.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-452-2026-02-13-hold@gbc-news
-DTSTAMP:20260213T000000Z
-DTSTART;VALUE=DATE:20260213
-DTEND;VALUE=DATE:20260214
-TRANSP:TRANSPARENT
+UID:post-452-2026-02-13-hold-1300@gbc-news
+DTSTAMP:20260213T040000Z
+DTSTART:20260213T040000Z
+DTEND:20260213T060000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] 3週連続！2/13（金）～公式オンラインショ
  ップ『東映アニメーションオフィシャルストア』にて
@@ -47,11 +47,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-452.html
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-454-2026-02-18-sale@gbc-news
-DTSTAMP:20260218T000000Z
-DTSTART;VALUE=DATE:20260218
-DTEND;VALUE=DATE:20260219
-TRANSP:TRANSPARENT
+UID:post-454-2026-02-18-sale-2000@gbc-news
+DTSTAMP:20260218T110000Z
+DTSTART:20260218T110000Z
+DTEND:20260218T120000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[発売] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
  ”愛知公演 機材席解放につき2階指定席の追加販売が決
@@ -88,11 +88,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-448.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-462-2026-03-07-sale@gbc-news
-DTSTAMP:20260307T000000Z
-DTSTART;VALUE=DATE:20260307
-DTEND;VALUE=DATE:20260308
-TRANSP:TRANSPARENT
+UID:post-462-2026-03-07-sale-1800@gbc-news
+DTSTAMP:20260307T090000Z
+DTSTART:20260307T090000Z
+DTEND:20260307T100000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[発売] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
  ” 3月14日（土）Zepp DiverCity（TOKYO） 東京公演 ツアーフ
@@ -225,11 +225,30 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-460.html
 CATEGORIES:togenashi,live,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-456-2026-03-27-hold@gbc-news
-DTSTAMP:20260327T000000Z
-DTSTART;VALUE=DATE:20260327
-DTEND;VALUE=DATE:20260328
-TRANSP:TRANSPARENT
+UID:post-456-2026-03-27-hold-1900@gbc-news
+DTSTAMP:20260327T100000Z
+DTSTART:20260327T100000Z
+DTEND:20260327T120000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ 『5th ONE-MAN LIVE "鳴動の刻
+ "』発売記念オンライントーク配信開催決定！
+DESCRIPTION:トゲナシトゲアリ『5th ONE-MAN LIVE "鳴動の刻"』
+ の発売を記念して、オンライントーク配信＆サイン会
+ の開催が決定！ リミスタにて対象商品 3月11 日発売ト
+ ゲナシトゲアリ『5th ONE-MAN LIVE "鳴動の刻"』をご購入い
+ ただいたお客様に『5th ONE-MAN LIVE "鳴動の刻"』のジャケ
+ ット絵柄を使用したカードを商品と同梱でお届\n
+ https://girls-band-cry.com/news/post-456.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-456.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-456-2026-03-27-hold-2000@gbc-news
+DTSTAMP:20260327T110000Z
+DTSTART:20260327T110000Z
+DTEND:20260327T130000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] トゲナシトゲアリ 『5th ONE-MAN LIVE "鳴動の刻
  "』発売記念オンライントーク配信開催決定！
@@ -351,11 +370,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-458.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-457-2026-04-06-hold@gbc-news
-DTSTAMP:20260406T000000Z
-DTSTART;VALUE=DATE:20260406
-DTEND;VALUE=DATE:20260407
-TRANSP:TRANSPARENT
+UID:post-457-2026-04-06-hold-1200@gbc-news
+DTSTAMP:20260406T030000Z
+DTSTART:20260406T030000Z
+DTEND:20260406T050000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] 『劇場版総集編ガールズバンドクライ』【
  配信決定＆TV放送２周年記念】メモリアルグッズ購入キ
@@ -372,11 +391,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-457.html
 CATEGORIES:togenashi,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-468-2026-04-13-hold@gbc-news
-DTSTAMP:20260413T000000Z
-DTSTART;VALUE=DATE:20260413
-DTEND;VALUE=DATE:20260414
-TRANSP:TRANSPARENT
+UID:post-468-2026-04-13-hold-2359@gbc-news
+DTSTAMP:20260413T145900Z
+DTSTART:20260413T145900Z
+DTEND:20260413T165900Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] TVアニメ『ガールズバンドクライ』 放送２
  周年記念フォロー＆リポストキャンペーン開催！
@@ -511,11 +530,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-466-2026-05-01-hold@gbc-news
-DTSTAMP:20260501T000000Z
-DTSTART;VALUE=DATE:20260501
-DTEND;VALUE=DATE:20260502
-TRANSP:TRANSPARENT
+UID:post-466-2026-05-01-hold-1900@gbc-news
+DTSTAMP:20260501T100000Z
+DTSTART:20260501T100000Z
+DTEND:20260501T120000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] トゲナシトゲアリ TOUR 2026 FINAL “拍動の未
  来 -ENCORE-” 開催決定！
@@ -549,11 +568,32 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-463.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-465-2026-05-29-hold@gbc-news
-DTSTAMP:20260529T000000Z
-DTSTART;VALUE=DATE:20260529
-DTEND;VALUE=DATE:20260530
-TRANSP:TRANSPARENT
+UID:post-465-2026-05-29-hold-1900@gbc-news
+DTSTAMP:20260529T100000Z
+DTSTART:20260529T100000Z
+DTEND:20260529T120000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] トゲナシトゲアリ アルバム「棘アリ」「棘
+ ナシ」 完全生産限定アナログレコード盤 2026年8月19日(
+ 水)発売決定！
+DESCRIPTION:2024年にリリースされた2枚のアルバム「棘アリ
+ 」と「棘ナシ」がアナログレコード盤として同時リリ
+ ースが決定！ 各ジャケット写真は手島nariの新規描きお
+ ろしによりCDから一新。パッケージには先着特典として
+ この各ジャケット写真を用いたステッカーも封入しま
+ す！ 2枚ともに完全生産限定のため、確実に手に入れた
+ い場合は5月24日(日)までのご予約を忘れずに。 ▶「棘\n
+ https://girls-band-cry.com/news/post-465.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-465.html
+CATEGORIES:togenashi,live,music,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-465-2026-05-29-hold-2000@gbc-news
+DTSTAMP:20260529T110000Z
+DTSTART:20260529T110000Z
+DTEND:20260529T130000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] トゲナシトゲアリ アルバム「棘アリ」「棘
  ナシ」 完全生産限定アナログレコード盤 2026年8月19日(
@@ -648,11 +688,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-463.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-480-2026-06-23-sale@gbc-news
-DTSTAMP:20260623T000000Z
-DTSTART;VALUE=DATE:20260623
-DTEND;VALUE=DATE:20260624
-TRANSP:TRANSPARENT
+UID:post-480-2026-06-23-sale-1200@gbc-news
+DTSTAMP:20260623T030000Z
+DTSTART:20260623T030000Z
+DTEND:20260623T040000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[発売] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA 
  TOUR 2026 チケット発売情報公開！
@@ -665,11 +705,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
-UID:post-480-2026-06-25-sale@gbc-news
-DTSTAMP:20260625T000000Z
-DTSTART;VALUE=DATE:20260625
-DTEND;VALUE=DATE:20260626
-TRANSP:TRANSPARENT
+UID:post-480-2026-06-25-sale-1200@gbc-news
+DTSTAMP:20260625T030000Z
+DTSTART:20260625T030000Z
+DTEND:20260625T040000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[発売] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA 
  TOUR 2026 チケット発売情報公開！
@@ -682,11 +722,28 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
-UID:firstriff-post-2-2026-06-26-hold@gbc-news
-DTSTAMP:20260626T000000Z
-DTSTART;VALUE=DATE:20260626
-DTEND;VALUE=DATE:20260627
-TRANSP:TRANSPARENT
+UID:post-480-2026-06-26-sale-1200@gbc-news
+DTSTAMP:20260626T030000Z
+DTSTART:20260626T030000Z
+DTEND:20260626T040000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[発売] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA 
+ TOUR 2026 チケット発売情報公開！
+DESCRIPTION:トゲナシトゲアリ初の東南アジアツアー「TOGENA
+ SHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026」のチケット
+ 発売情報が公開となりました。 TOGENASHI TOGEARI “凛音の
+ 理” SOUTHEAST ASIA TOUR 2026 ▼バンコク TOGENASHI TOGEARI “Rinne
+  no Kotowar\nhttps://girls-band-cry.com/news/post-480.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
+CATEGORIES:togenashi,live
+END:VEVENT
+BEGIN:VEVENT
+UID:firstriff-post-2-2026-06-26-hold-1900@gbc-news
+DTSTAMP:20260626T100000Z
+DTSTART:20260626T100000Z
+DTEND:20260626T120000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] Canna Lily 1st ONE-MAN LIVE「未明に咲く花」開催
  決定！
@@ -697,23 +754,6 @@ DESCRIPTION:Canna Lily 1st ONE-MAN LIVE「未明に咲く花」の開催が
  ～4月1日(水)23:59\nhttps://gbc-firstriff.com/news/post-2.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-2.html
 CATEGORIES:canna-lily,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-480-2026-06-26-sale@gbc-news
-DTSTAMP:20260626T000000Z
-DTSTART;VALUE=DATE:20260626
-DTEND;VALUE=DATE:20260627
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[発売] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA 
- TOUR 2026 チケット発売情報公開！
-DESCRIPTION:トゲナシトゲアリ初の東南アジアツアー「TOGENA
- SHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026」のチケット
- 発売情報が公開となりました。 TOGENASHI TOGEARI “凛音の
- 理” SOUTHEAST ASIA TOUR 2026 ▼バンコク TOGENASHI TOGEARI “Rinne
-  no Kotowar\nhttps://girls-band-cry.com/news/post-480.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
-CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
 UID:post-477-2026-06-28-sale@gbc-news
@@ -791,22 +831,46 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:firstriff-post-3-2026-07-20-hold@gbc-news
-DTSTAMP:20260720T000000Z
-DTSTART;VALUE=DATE:20260720
-DTEND;VALUE=DATE:20260721
-TRANSP:TRANSPARENT
+UID:post-464-2026-07-10-hold-1900@gbc-news
+DTSTAMP:20260710T100000Z
+DTSTART:20260710T100000Z
+DTEND:20260710T120000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[開催] F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“ 開催
- 決定！
-DESCRIPTION:※ 2026/5/22：チケット情報（一般販売）を追記 F
- -272 1st ONE-MAN LIVE The Dissonant “I DOLL“の開催が決定。 ■
- 開催日時 2026年7月20日(月・祝) 開場 16:00/開演 17:00 ■会
- 場 代官山UNIT(東京都渋谷区) ■チケット情報（一般販売
- ） キャンセル分のチケットを若干数ではございますが
- 、一\nhttps://gbc-firstriff.com/news/post-3.html
-URL;VALUE=URI:https://gbc-firstriff.com/news/post-3.html
-CATEGORIES:f272,live,event
+SUMMARY:[開催] 『劇場版総集編 ガールズバンドクライ』「
+ 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
+ -ray][DVD] 2026年7月22日(水)…
+DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
+ バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
+ ガールズバンドクライ 【後編】 なぁ、未来。」 のパ
+ ッケージ化が決定！ 発売日は共に7/22(水)、初回限定版
+ はこちらも手島nariによる新規描きおろしジャケットが
+ 起用される。ブックレットには、劇場で入場者特典と
+ して配布された 手島nari描き下ろし漫画\n
+ https://girls-band-cry.com/news/post-464.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
+CATEGORIES:togenashi,live,music,goods,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-464-2026-07-10-hold-2000@gbc-news
+DTSTAMP:20260710T110000Z
+DTSTART:20260710T110000Z
+DTEND:20260710T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] 『劇場版総集編 ガールズバンドクライ』「
+ 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
+ -ray][DVD] 2026年7月22日(水)…
+DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
+ バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
+ ガールズバンドクライ 【後編】 なぁ、未来。」 のパ
+ ッケージ化が決定！ 発売日は共に7/22(水)、初回限定版
+ はこちらも手島nariによる新規描きおろしジャケットが
+ 起用される。ブックレットには、劇場で入場者特典と
+ して配布された 手島nari描き下ろし漫画\n
+ https://girls-band-cry.com/news/post-464.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
+CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-482-2026-07-20-hold@gbc-news
@@ -827,6 +891,24 @@ DESCRIPTION:「TVアニメ『ガールズバンドクライ』アイスク
  メニューで\nhttps://girls-band-cry.com/news/post-482.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-482.html
 CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:firstriff-post-3-2026-07-20-hold-1700@gbc-news
+DTSTAMP:20260720T080000Z
+DTSTART:20260720T080000Z
+DTEND:20260720T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“ 開催
+ 決定！
+DESCRIPTION:※ 2026/5/22：チケット情報（一般販売）を追記 F
+ -272 1st ONE-MAN LIVE The Dissonant “I DOLL“の開催が決定。 ■
+ 開催日時 2026年7月20日(月・祝) 開場 16:00/開演 17:00 ■会
+ 場 代官山UNIT(東京都渋谷区) ■チケット情報（一般販売
+ ） キャンセル分のチケットを若干数ではございますが
+ 、一\nhttps://gbc-firstriff.com/news/post-3.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-3.html
+CATEGORIES:f272,live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-464-2026-07-22-sale@gbc-news
@@ -850,11 +932,30 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-469-2026-07-22-sale@gbc-news
+UID:post-473-2026-07-22-hold@gbc-news
 DTSTAMP:20260722T000000Z
 DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガールズバンドクライ Special LIVE “赤色の
+ 響祭” 開催決定！
+DESCRIPTION:ガールズバンドクライ Special LIVE “赤色の響祭
+ ”の開催が決定しました！ ■開催日 2026年11月3日（火
+ ・祝） ■会場 ぴあアリーナMM チケット最速先行抽選申
+ し込み券は、2026年7月22日（水）発売 劇場版総集編 ガ
+ ールズバンドクライ 【前編】 青春狂走曲 Blu-ray & DVD 劇
+ 場版総集編 ガールズバンドクライ 【後編】 なぁ、未\n
+ https://girls-band-cry.com/news/post-473.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-473.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-469-2026-07-22-sale-1000@gbc-news
+DTSTAMP:20260722T010000Z
+DTSTART:20260722T010000Z
+DTEND:20260722T020000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[発売] UNIVERSAL MUSIC STORE/東映アニメーションオフィ
  シャルストア限定ぬいぐるみセット （完全受注限定生
@@ -871,11 +972,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-469.html
 CATEGORIES:togenashi,goods,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-470-2026-07-22-sale@gbc-news
-DTSTAMP:20260722T000000Z
-DTSTART;VALUE=DATE:20260722
-DTEND;VALUE=DATE:20260723
-TRANSP:TRANSPARENT
+UID:post-470-2026-07-22-sale-1000@gbc-news
+DTSTAMP:20260722T010000Z
+DTSTART:20260722T010000Z
+DTEND:20260722T020000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[発売] 『劇場版総集編ガールズバンドクライ』（
  初回限定版）【前編封入】Side-A ／【後編封入】Side-B 豪
@@ -892,11 +993,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-470.html
 CATEGORIES:togenashi,goods,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-472-2026-07-22-sale@gbc-news
-DTSTAMP:20260722T000000Z
-DTSTART;VALUE=DATE:20260722
-DTEND;VALUE=DATE:20260723
-TRANSP:TRANSPARENT
+UID:post-472-2026-07-22-sale-1000@gbc-news
+DTSTAMP:20260722T010000Z
+DTSTART:20260722T010000Z
+DTEND:20260722T020000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[発売] UNIVERSAL MUSIC STORE/東映アニメーションオフィ
  シャルストア限定ぬいぐるみセット（完全受注限定生
@@ -933,11 +1034,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-483.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-480-2026-08-14-hold@gbc-news
-DTSTAMP:20260814T000000Z
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
-TRANSP:TRANSPARENT
+UID:post-480-2026-08-14-hold-1930@gbc-news
+DTSTAMP:20260814T103000Z
+DTSTART:20260814T103000Z
+DTEND:20260814T123000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA 
  TOUR 2026 チケット発売情報公開！
@@ -950,11 +1051,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
-UID:post-480-2026-08-16-hold@gbc-news
-DTSTAMP:20260816T000000Z
-DTSTART;VALUE=DATE:20260816
-DTEND;VALUE=DATE:20260817
-TRANSP:TRANSPARENT
+UID:post-480-2026-08-16-hold-1900@gbc-news
+DTSTAMP:20260816T100000Z
+DTSTART:20260816T100000Z
+DTEND:20260816T120000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA 
  TOUR 2026 チケット発売情報公開！
@@ -988,11 +1089,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-465.html
 CATEGORIES:togenashi,live,music,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-480-2026-08-19-hold@gbc-news
-DTSTAMP:20260819T000000Z
-DTSTART;VALUE=DATE:20260819
-DTEND;VALUE=DATE:20260820
-TRANSP:TRANSPARENT
+UID:post-480-2026-08-19-hold-2000@gbc-news
+DTSTAMP:20260819T110000Z
+DTSTART:20260819T110000Z
+DTEND:20260819T130000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA 
  TOUR 2026 チケット発売情報公開！
@@ -1003,23 +1104,6 @@ DESCRIPTION:トゲナシトゲアリ初の東南アジアツアー「TOGENA
   no Kotowar\nhttps://girls-band-cry.com/news/post-480.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
 CATEGORIES:togenashi,live
-END:VEVENT
-BEGIN:VEVENT
-UID:firstriff-post-5-2026-09-05-hold@gbc-news
-DTSTAMP:20260905T000000Z
-DTSTART;VALUE=DATE:20260905
-DTEND;VALUE=DATE:20260906
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[開催] Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」開催
- 決定！
-DESCRIPTION:Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」の開催が
- 決定。 ■開催日時 2026年9月5日(土) 一部:開場14:00/開演 1
- 5:00 二部:開場 18:30/開演 19:30 ■会場 WWW X ■チケット情
- 報 先行抽選販売を実施します。 受付期間:2\n
- https://gbc-firstriff.com/news/post-5.html
-URL;VALUE=URI:https://gbc-firstriff.com/news/post-5.html
-CATEGORIES:canna-lily,live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-476-2026-09-05-hold@gbc-news
@@ -1038,6 +1122,40 @@ DESCRIPTION:仙台の副都心 あすと長町にて開催 明日が色づ
  https://girls-band-cry.com/news/post-476.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-476.html
 CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:firstriff-post-5-2026-09-05-hold-1500@gbc-news
+DTSTAMP:20260905T060000Z
+DTSTART:20260905T060000Z
+DTEND:20260905T080000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」開催
+ 決定！
+DESCRIPTION:Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」の開催が
+ 決定。 ■開催日時 2026年9月5日(土) 一部:開場14:00/開演 1
+ 5:00 二部:開場 18:30/開演 19:30 ■会場 WWW X ■チケット情
+ 報 先行抽選販売を実施します。 受付期間:2\n
+ https://gbc-firstriff.com/news/post-5.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-5.html
+CATEGORIES:canna-lily,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:firstriff-post-5-2026-09-05-hold-1930@gbc-news
+DTSTAMP:20260905T103000Z
+DTSTART:20260905T103000Z
+DTEND:20260905T123000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」開催
+ 決定！
+DESCRIPTION:Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」の開催が
+ 決定。 ■開催日時 2026年9月5日(土) 一部:開場14:00/開演 1
+ 5:00 二部:開場 18:30/開演 19:30 ■会場 WWW X ■チケット情
+ 報 先行抽選販売を実施します。 受付期間:2\n
+ https://gbc-firstriff.com/news/post-5.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-5.html
+CATEGORIES:canna-lily,live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-476-2026-09-06-hold@gbc-news
@@ -1094,11 +1212,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-475.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-474-2026-09-19-hold@gbc-news
-DTSTAMP:20260919T000000Z
-DTSTART;VALUE=DATE:20260919
-DTEND;VALUE=DATE:20260920
-TRANSP:TRANSPARENT
+UID:post-474-2026-09-19-hold-1200@gbc-news
+DTSTAMP:20260919T030000Z
+DTSTART:20260919T030000Z
+DTEND:20260919T080000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] トゲナシトゲアリ「FEST. INAZUMA 2026」に出演
  決定！

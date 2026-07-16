@@ -44,11 +44,11 @@ URL;VALUE=URI:https://gbc-firstriff.com/news/post-1.html
 CATEGORIES:togenashi,canna-lily,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:firstriff-post-2-2026-06-26-hold@gbc-news
-DTSTAMP:20260626T000000Z
-DTSTART;VALUE=DATE:20260626
-DTEND;VALUE=DATE:20260627
-TRANSP:TRANSPARENT
+UID:firstriff-post-2-2026-06-26-hold-1900@gbc-news
+DTSTAMP:20260626T100000Z
+DTSTART:20260626T100000Z
+DTEND:20260626T120000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] Canna Lily 1st ONE-MAN LIVE「未明に咲く花」開催
  決定！
@@ -61,11 +61,28 @@ URL;VALUE=URI:https://gbc-firstriff.com/news/post-2.html
 CATEGORIES:canna-lily,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:firstriff-post-5-2026-09-05-hold@gbc-news
-DTSTAMP:20260905T000000Z
-DTSTART;VALUE=DATE:20260905
-DTEND;VALUE=DATE:20260906
-TRANSP:TRANSPARENT
+UID:firstriff-post-5-2026-09-05-hold-1500@gbc-news
+DTSTAMP:20260905T060000Z
+DTSTART:20260905T060000Z
+DTEND:20260905T080000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」開催
+ 決定！
+DESCRIPTION:Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」の開催が
+ 決定。 ■開催日時 2026年9月5日(土) 一部:開場14:00/開演 1
+ 5:00 二部:開場 18:30/開演 19:30 ■会場 WWW X ■チケット情
+ 報 先行抽選販売を実施します。 受付期間:2\n
+ https://gbc-firstriff.com/news/post-5.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-5.html
+CATEGORIES:canna-lily,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:firstriff-post-5-2026-09-05-hold-1930@gbc-news
+DTSTAMP:20260905T103000Z
+DTSTART:20260905T103000Z
+DTEND:20260905T123000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」開催
  決定！

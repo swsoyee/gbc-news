@@ -1,6 +1,6 @@
 {
   "sourceId": "gbc-firstriff",
-  "scrapedAt": "2026-07-16T12:21:14.853Z",
+  "scrapedAt": "2026-07-16T12:35:48.803Z",
   "maxPages": 1,
   "count": 6,
   "items": [
@@ -36,7 +36,13 @@
       "eventDates": [
         {
           "date": "2026-09-05",
-          "kind": "hold"
+          "kind": "hold",
+          "startTime": "15:00"
+        },
+        {
+          "date": "2026-09-05",
+          "kind": "hold",
+          "startTime": "19:30"
         }
       ],
       "summary": "Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」の開催が決定。 ■開催日時 2026年9月5日(土) 一部:開場14:00/開演 15:00 二部:開場 18:30/開演 19:30 ■会場 WWW X https://www-shibuya.jp/schedule/#www_x ■チケット情報 先行抽選販売を実施します。 受付期間:2"
@@ -82,7 +88,8 @@
       "eventDates": [
         {
           "date": "2026-07-20",
-          "kind": "hold"
+          "kind": "hold",
+          "startTime": "17:00"
         }
       ],
       "summary": "※ 2026/5/22：チケット情報（一般販売）を追記 F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“の開催が決定。 ■開催日時 2026年7月20日(月・祝) 開場 16:00/開演 17:00 ■会場 代官山UNIT(東京都渋谷区) ■チケット情報（一般販売） キャンセル分のチケットを若干数ではございますが、一"
@@ -103,7 +110,8 @@
       "eventDates": [
         {
           "date": "2026-06-26",
-          "kind": "hold"
+          "kind": "hold",
+          "startTime": "19:00"
         }
       ],
       "summary": "Canna Lily 1st ONE-MAN LIVE「未明に咲く花」の開催が決定。 ■開催日時 2026年6月26日(金) 開場 18:00/開演 19:00 ■会場 代官山UNIT(東京都渋谷区) ■チケット情報 先行抽選販売を実施します。 受付期間:2026年3月22日(日)21:00～4月1日(水)23:59 https://livepocket.j"

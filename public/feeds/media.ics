@@ -8,11 +8,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-WR-CALNAME:gbc-news · 媒体
 NAME:gbc-news · 媒体
 BEGIN:VEVENT
-UID:post-457-2026-04-06-hold@gbc-news
-DTSTAMP:20260406T000000Z
-DTSTART;VALUE=DATE:20260406
-DTEND;VALUE=DATE:20260407
-TRANSP:TRANSPARENT
+UID:post-457-2026-04-06-hold-1200@gbc-news
+DTSTAMP:20260406T030000Z
+DTSTART:20260406T030000Z
+DTEND:20260406T050000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] 『劇場版総集編ガールズバンドクライ』【
  配信決定＆TV放送２周年記念】メモリアルグッズ購入キ
@@ -29,11 +29,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-457.html
 CATEGORIES:togenashi,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-468-2026-04-13-hold@gbc-news
-DTSTAMP:20260413T000000Z
-DTSTART;VALUE=DATE:20260413
-DTEND;VALUE=DATE:20260414
-TRANSP:TRANSPARENT
+UID:post-468-2026-04-13-hold-2359@gbc-news
+DTSTAMP:20260413T145900Z
+DTSTART:20260413T145900Z
+DTEND:20260413T165900Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] TVアニメ『ガールズバンドクライ』 放送２
  周年記念フォロー＆リポストキャンペーン開催！
@@ -95,6 +95,48 @@ DTSTAMP:20260710T000000Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] 『劇場版総集編 ガールズバンドクライ』「
+ 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
+ -ray][DVD] 2026年7月22日(水)…
+DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
+ バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
+ ガールズバンドクライ 【後編】 なぁ、未来。」 のパ
+ ッケージ化が決定！ 発売日は共に7/22(水)、初回限定版
+ はこちらも手島nariによる新規描きおろしジャケットが
+ 起用される。ブックレットには、劇場で入場者特典と
+ して配布された 手島nari描き下ろし漫画\n
+ https://girls-band-cry.com/news/post-464.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
+CATEGORIES:togenashi,live,music,goods,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-464-2026-07-10-hold-1900@gbc-news
+DTSTAMP:20260710T100000Z
+DTSTART:20260710T100000Z
+DTEND:20260710T120000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[開催] 『劇場版総集編 ガールズバンドクライ』「
+ 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
+ -ray][DVD] 2026年7月22日(水)…
+DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
+ バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
+ ガールズバンドクライ 【後編】 なぁ、未来。」 のパ
+ ッケージ化が決定！ 発売日は共に7/22(水)、初回限定版
+ はこちらも手島nariによる新規描きおろしジャケットが
+ 起用される。ブックレットには、劇場で入場者特典と
+ して配布された 手島nari描き下ろし漫画\n
+ https://girls-band-cry.com/news/post-464.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
+CATEGORIES:togenashi,live,music,goods,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-464-2026-07-10-hold-2000@gbc-news
+DTSTAMP:20260710T110000Z
+DTSTART:20260710T110000Z
+DTEND:20260710T130000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] 『劇場版総集編 ガールズバンドクライ』「
  【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
