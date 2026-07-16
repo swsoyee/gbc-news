@@ -1,51 +1,15 @@
-# State Management
+# 状态管理
 
-> How state is managed in this project.
+## 默认策略
 
----
+**无客户端全局状态。** 页面内容在构建/部署时确定。
 
-## Overview
+## 允许的状态
 
-<!--
-Document your project's state management conventions here.
+- 纯 UI 局部状态（如「已复制链接」提示）
+- URL query 仅用于无害的展示开关
 
-Questions to answer:
-- What state management solution do you use?
-- How is local vs global state decided?
-- How do you handle server state?
-- What are the patterns for derived state?
--->
+## 禁止
 
-(To be filled by the team)
-
----
-
-## State Categories
-
-<!-- Local state, global state, server state, URL state -->
-
-(To be filled by the team)
-
----
-
-## When to Use Global State
-
-<!-- Criteria for promoting state to global -->
-
-(To be filled by the team)
-
----
-
-## Server State
-
-<!-- How server data is cached and synchronized -->
-
-(To be filled by the team)
-
----
-
-## Common Mistakes
-
-<!-- State management mistakes your team has made -->
-
-(To be filled by the team)
+- Redux / Zustand / 大型服务端状态方案（当前阶段）
+- 把抓取快照缓存在浏览器 LocalStorage 充当数据源

@@ -1,51 +1,11 @@
-# Hook Guidelines
+# Hooks 约定
 
-> How hooks are used in this project.
+默认静态站**不需要**自定义 hooks。
 
----
+仅当引入客户端框架且存在真实交互时：
 
-## Overview
+- 命名以 `use` 开头
+- hooks 不发起官网抓取
+- 数据获取面向本站静态资源（如 `/feeds/...` 元数据），不直连被抓站点
 
-<!--
-Document your project's hook conventions here.
-
-Questions to answer:
-- What custom hooks do you have?
-- How do you handle data fetching?
-- What are the naming conventions?
-- How do you share stateful logic?
--->
-
-(To be filled by the team)
-
----
-
-## Custom Hook Patterns
-
-<!-- How to create and structure custom hooks -->
-
-(To be filled by the team)
-
----
-
-## Data Fetching
-
-<!-- How data fetching is handled (React Query, SWR, etc.) -->
-
-(To be filled by the team)
-
----
-
-## Naming Conventions
-
-<!-- Hook naming rules (use*, etc.) -->
-
-(To be filled by the team)
-
----
-
-## Common Mistakes
-
-<!-- Hook-related mistakes your team has made -->
-
-(To be filled by the team)
+若无客户端框架，忽略本文件即可。

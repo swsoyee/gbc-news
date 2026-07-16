@@ -1,51 +1,40 @@
-# Error Handling
+# 错误处理
 
-> How errors are handled in this project.
+## 原则
 
----
+1. **失败要响亮**：抓取或生成失败必须非零退出，让 Actions 标红。
+2. **单源隔离**：一个官网失败不应拖垮其他源（编排层聚合结果，失败源单独报告）。
+3. **禁止静默空订阅**：不得在失败时写出空的 RSS/iCal 覆盖上次成功产物（除非任务明确要求「失败则清空」）。
 
-## Overview
+## 推荐模式
 
-<!--
-Document your project's error handling conventions here.
+```ts
+// 示意：单源失败抛出带 sourceId 的错误，由编排层捕获汇总
+export class ScrapeError extends Error {
+  constructor(
+    readonly sourceId: string,
+    message: string,
+    readonly cause?: unknown,
+  ) {
+    super(`[${sourceId}] ${message}`)
+    this.name = 'ScrapeError'
+  }
+}
+```
 
-Questions to answer:
-- What error types do you define?
-- How are errors propagated?
-- How are errors logged?
-- How are errors returned to clients?
--->
+## HTTP
 
-(To be filled by the team)
+- 必须设置超时
+- 4xx/5xx 视为失败（除非该源文档约定某些状态可忽略）
+- 重试仅用于瞬时错误（429/5xx），并带上限与退避
 
----
+## Feed 生成
 
-## Error Types
+- 输入校验失败 → 中止生成该 feed
+- 部分条目非法 → 记录告警并跳过非法条目；若合法条目为 0 且上次有数据，视为失败
 
-<!-- Custom error classes/types -->
+## 禁止
 
-(To be filled by the team)
-
----
-
-## Error Handling Patterns
-
-<!-- Try-catch patterns, error propagation -->
-
-(To be filled by the team)
-
----
-
-## API Error Responses
-
-<!-- Standard error response format -->
-
-(To be filled by the team)
-
----
-
-## Common Mistakes
-
-<!-- Error handling mistakes your team has made -->
-
-(To be filled by the team)
+- `catch (e) {}` 空吞异常
+- 用默认空数组掩盖解析失败
+- 在生产路径使用 `any` 抹平错误类型

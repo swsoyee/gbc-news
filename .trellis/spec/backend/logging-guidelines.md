@@ -1,51 +1,29 @@
-# Logging Guidelines
+# 日志约定
 
-> How logging is done in this project.
+## 级别
 
----
+| 级别 | 用途 |
+|------|------|
+| `error` | 导致任务失败或单源失败 |
+| `warn` | 可降级继续，但需关注（如跳过脏条目） |
+| `info` | 关键里程碑：开始/结束、条数、耗时 |
+| `debug` | 本地排查用；CI 默认不刷屏 |
 
-## Overview
+## 格式
 
-<!--
-Document your project's logging conventions here.
+- Actions 环境用单行可读文本即可：`[info] source=foo fetched=12 durationMs=840`
+- 关键带 `sourceId`、条数、耗时；不要打印整页 HTML
+- 禁止记录 Cookie、Token、Authorization 头
 
-Questions to answer:
-- What logging library do you use?
-- What are the log levels and when to use each?
-- What should be logged?
-- What should NOT be logged (PII, secrets)?
--->
+## 成功摘要
 
-(To be filled by the team)
+每次抓取结束应输出摘要，便于在 Actions 日志快速确认：
 
----
+```text
+[info] scrape done ok=3 failed=1 items=42
+```
 
-## Log Levels
+## 禁止
 
-<!-- When to use each level: debug, info, warn, error -->
-
-(To be filled by the team)
-
----
-
-## Structured Logging
-
-<!-- Log format, required fields -->
-
-(To be filled by the team)
-
----
-
-## What to Log
-
-<!-- Important events to log -->
-
-(To be filled by the team)
-
----
-
-## What NOT to Log
-
-<!-- Sensitive data, PII, secrets -->
-
-(To be filled by the team)
+- `console.log` 打印完整响应体
+- 用日志代替测试断言

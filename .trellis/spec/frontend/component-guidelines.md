@@ -1,59 +1,13 @@
-# Component Guidelines
+# 组件约定
 
-> How components are built in this project.
+当前默认**不使用组件框架**。若任务明确引入轻量 UI：
 
----
+1. 组件保持无状态优先；数据来自构建时注入或静态 JSON
+2. 一个组件一件事；订阅链接列表与说明文案可拆分
+3. Props 全部显式类型化；禁止隐式 `any`
+4. 不写「万能 Card」包装一切内容
 
-## Overview
+## 禁止
 
-<!--
-Document your project's component conventions here.
-
-Questions to answer:
-- What component patterns do you use?
-- How are props defined?
-- How do you handle composition?
-- What accessibility standards apply?
--->
-
-(To be filled by the team)
-
----
-
-## Component Structure
-
-<!-- Standard structure of a component file -->
-
-(To be filled by the team)
-
----
-
-## Props Conventions
-
-<!-- How props should be defined and typed -->
-
-(To be filled by the team)
-
----
-
-## Styling Patterns
-
-<!-- How styles are applied (CSS modules, styled-components, Tailwind, etc.) -->
-
-(To be filled by the team)
-
----
-
-## Accessibility
-
-<!-- A11y requirements and patterns -->
-
-(To be filled by the team)
-
----
-
-## Common Mistakes
-
-<!-- Component-related mistakes your team has made -->
-
-(To be filled by the team)
+- 为单个说明页创建完整设计系统
+- 无交互却包一层客户端状态库

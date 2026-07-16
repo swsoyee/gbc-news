@@ -1,51 +1,31 @@
-# Database Guidelines
+# 数据存储约定
 
-> Database patterns and conventions for this project.
+本项目**不使用传统数据库**。资讯以静态快照保存，服务于低成本与可审计。
 
----
+## 存储形态
 
-## Overview
+| 路径 | 内容 | 生命周期 |
+|------|------|----------|
+| `data/<source-id>/latest.json` | 最近一次成功抓取结果 | 每次成功抓取覆盖 |
+| `data/<source-id>/history/`（可选） | 有限窗口历史 | 裁剪策略另定 |
+| `public/feeds/*.xml` / `*.ics` | 对外订阅文件 | 由 `build-feeds` 重写 |
 
-<!--
-Document your project's database conventions here.
+## JSON 快照原则
 
-Questions to answer:
-- What ORM/query library do you use?
-- How are migrations managed?
-- What are the naming conventions for tables/columns?
-- How do you handle transactions?
--->
+1. 使用统一 `Item` 字段；源站特有字段放 `raw` 或 `extras`，避免污染主模型。
+2. 文件必须 UTF-8；日期统一 ISO 8601（含时区或明确约定为 UTC）。
+3. 写入采用「写临时文件 → 校验 → 原子替换」，避免半截文件被部署。
 
-(To be filled by the team)
+## 何时引入 DB
 
----
+仅当出现以下需求且任务明确批准时再评估：
 
-## Query Patterns
+- 需要复杂查询 / 去重跨很长历史
+- 需要用户态数据
 
-<!-- How should queries be written? Batch operations? -->
+在此之前，禁止引入 PostgreSQL、SQLite 服务端、云数据库等。
 
-(To be filled by the team)
+## 仓库体积
 
----
-
-## Migrations
-
-<!-- How to create and run migrations -->
-
-(To be filled by the team)
-
----
-
-## Naming Conventions
-
-<!-- Table names, column names, index names -->
-
-(To be filled by the team)
-
----
-
-## Common Mistakes
-
-<!-- Database-related mistakes your team has made -->
-
-(To be filled by the team)
+- 默认只提交必要快照；大体积附件不进 git
+- 若历史膨胀，改为 Actions artifact + Netlify 构建拉取，而不是无限追加 git 历史

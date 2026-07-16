@@ -1,38 +1,30 @@
-# Backend Development Guidelines
+# 后端开发规范
 
-> Best practices for backend development in this project.
-
----
+> gbc-news 的「后端」指：抓取器、数据模型、RSS/iCal 生成，以及在 GitHub Actions 中运行的批处理逻辑。不是传统常驻 API 服务。
 
 ## Overview
 
-This directory contains guidelines for backend development. Fill in each file with your project's specific conventions.
-
----
+本目录描述抓取与订阅生成相关约定。所有文档使用**简体中文**。
 
 ## Guidelines Index
 
 | Guide | Description | Status |
 |-------|-------------|--------|
-| [Directory Structure](./directory-structure.md) | Module organization and file layout | To fill |
-| [Database Guidelines](./database-guidelines.md) | ORM patterns, queries, migrations | To fill |
-| [Error Handling](./error-handling.md) | Error types, handling strategies | To fill |
-| [Quality Guidelines](./quality-guidelines.md) | Code standards, forbidden patterns | To fill |
-| [Logging Guidelines](./logging-guidelines.md) | Structured logging, log levels | To fill |
+| [Directory Structure](./directory-structure.md) | 模块与目录组织 | Done |
+| [Database Guidelines](./database-guidelines.md) | 静态快照存储约定（无传统 DB） | Done |
+| [Error Handling](./error-handling.md) | 错误处理与失败策略 | Done |
+| [Quality Guidelines](./quality-guidelines.md) | 质量门槛与禁止模式 | Done |
+| [Logging Guidelines](./logging-guidelines.md) | 日志与可观测性 | Done |
 
----
+## Pre-Development Checklist
 
-## How to Fill These Guidelines
+- [ ] 确认该改动属于 scraper / model / feed / script 哪一层
+- [ ] 新增官网源时，使用独立 scraper，不与其他源耦合
+- [ ] 输出必须能映射到统一资讯模型，再生成 RSS/iCal
+- [ ] 失败路径明确：退出码、日志、不写入空订阅
 
-For each guideline file:
+## Quality Check
 
-1. Document your project's **actual conventions** (not ideals)
-2. Include **code examples** from your codebase
-3. List **forbidden patterns** and why
-4. Add **common mistakes** your team has made
-
-The goal is to help AI assistants and new team members understand how YOUR project works.
-
----
-
-**Language**: All documentation should be written in **English**.
+- [ ] TypeScript 严格类型通过
+- [ ] 解析逻辑有固定 HTML/JSON 夹具测试
+- [ ] 不引入常驻服务器或付费基础设施（除非任务明确批准）

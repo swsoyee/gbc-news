@@ -1,51 +1,10 @@
-# Type Safety
+# 前端类型安全
 
-> Type safety patterns in this project.
+- 若存在 `src/web/`，与仓库统一使用 TypeScript strict
+- 订阅链接、来源 ID 等用字面量联合类型或常量枚举，避免魔法字符串散落
+- HTML 模板中的动态数据在生成时转义，防止 XSS
 
----
+## 禁止
 
-## Overview
-
-<!--
-Document your project's type safety conventions here.
-
-Questions to answer:
-- What type system do you use?
-- How are types organized?
-- What validation library do you use?
-- How do you handle type inference?
--->
-
-(To be filled by the team)
-
----
-
-## Type Organization
-
-<!-- Where types are defined, shared types vs local types -->
-
-(To be filled by the team)
-
----
-
-## Validation
-
-<!-- Runtime validation patterns (Zod, Yup, io-ts, etc.) -->
-
-(To be filled by the team)
-
----
-
-## Common Patterns
-
-<!-- Type utilities, generics, type guards -->
-
-(To be filled by the team)
-
----
-
-## Forbidden Patterns
-
-<!-- any, type assertions, etc. -->
-
-(To be filled by the team)
+- `as any` 掩盖 DOM / 数据问题
+- 在前端重新定义与 `src/models` 冲突的资讯类型（应复用或从共享类型生成）

@@ -1,51 +1,16 @@
-# Quality Guidelines
+# 前端质量规范
 
-> Code quality standards for frontend development.
+## 必须
 
----
+- 订阅链接可复制、可在常见阅读器/日历中验证
+- 页面文案使用简体中文（专有名词可保留英文）
+- 基础无障碍：合理标题层级、对比度可读、链接有明确文本
 
-## Overview
+## 禁止
 
-<!--
-Document your project's quality standards here.
+- 用前端打包结果覆盖 `public/feeds/` 生成物
+- 引入分析脚本/广告等与订阅无关的第三方（除非任务批准）
 
-Questions to answer:
-- What patterns are forbidden?
-- What linting rules do you enforce?
-- What are your testing requirements?
-- What code review standards apply?
--->
+## 视觉方向（若做落地页）
 
-(To be filled by the team)
-
----
-
-## Forbidden Patterns
-
-<!-- Patterns that should never be used and why -->
-
-(To be filled by the team)
-
----
-
-## Required Patterns
-
-<!-- Patterns that must always be used -->
-
-(To be filled by the team)
-
----
-
-## Testing Requirements
-
-<!-- What level of testing is expected -->
-
-(To be filled by the team)
-
----
-
-## Code Review Checklist
-
-<!-- What reviewers should check -->
-
-(To be filled by the team)
+遵循仓库用户规则中的前端设计约束：单一构图、品牌优先、避免通用 AI 审美模板。说明页以清晰订阅信息为唯一目标。

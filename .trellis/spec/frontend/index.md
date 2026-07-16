@@ -1,39 +1,30 @@
-# Frontend Development Guidelines
+# 前端开发规范
 
-> Best practices for frontend development in this project.
-
----
+> gbc-news 前端以**轻量静态页**为主（说明、订阅链接、健康状态），不是复杂 SPA。
 
 ## Overview
 
-This directory contains guidelines for frontend development. Fill in each file with your project's specific conventions.
-
----
+若暂无 UI，也可只提供 `public/feeds/` 文件。需要页面时再按本目录约定扩展。文档使用**简体中文**。
 
 ## Guidelines Index
 
 | Guide | Description | Status |
 |-------|-------------|--------|
-| [Directory Structure](./directory-structure.md) | Module organization and file layout | To fill |
-| [Component Guidelines](./component-guidelines.md) | Component patterns, props, composition | To fill |
-| [Hook Guidelines](./hook-guidelines.md) | Custom hooks, data fetching patterns | To fill |
-| [State Management](./state-management.md) | Local state, global state, server state | To fill |
-| [Quality Guidelines](./quality-guidelines.md) | Code standards, forbidden patterns | To fill |
-| [Type Safety](./type-safety.md) | Type patterns, validation | To fill |
+| [Directory Structure](./directory-structure.md) | 静态资源与页面组织 | Done |
+| [Component Guidelines](./component-guidelines.md) | 组件约定（若引入 UI 框架） | Done |
+| [Hook Guidelines](./hook-guidelines.md) | Hooks 使用边界 | Done |
+| [State Management](./state-management.md) | 状态策略 | Done |
+| [Quality Guidelines](./quality-guidelines.md) | 质量与无障碍 | Done |
+| [Type Safety](./type-safety.md) | 类型约定 | Done |
 
----
+## Pre-Development Checklist
 
-## How to Fill These Guidelines
+- [ ] 该改动是否真的需要 UI？能用 README/静态说明解决则不做页面
+- [ ] 订阅 URL 是否稳定、可复制
+- [ ] 不引入重型设计系统或仪表盘式布局
 
-For each guideline file:
+## Quality Check
 
-1. Document your project's **actual conventions** (not ideals)
-2. Include **code examples** from your codebase
-3. List **forbidden patterns** and why
-4. Add **common mistakes** your team has made
-
-The goal is to help AI assistants and new team members understand how YOUR project works.
-
----
-
-**Language**: All documentation should be written in **English**.
+- [ ] 移动端可读
+- [ ] 无障碍基本可用（语义化标题、链接可聚焦）
+- [ ] 不阻塞 feed 文件的正确部署
