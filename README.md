@@ -2,21 +2,52 @@
 
 定时从官网抓取资讯，并向用户提供 **RSS** 与 **iCal** 订阅接口。
 
+当前已支持 [ガールズバンドクライ 公式 NEWS](https://girls-band-cry.com/news/)：**前 3 页测试抓取**、规则分类、网页点选订阅。
+
 ## 目标
 
 - 低成本：优先使用免费额度（GitHub Actions 定时任务 + Netlify 静态托管）
-- 可订阅：稳定输出 RSS / iCal
+- 可订阅：稳定输出 RSS / iCal，并支持按分类过滤
 - 可维护：用 Trellis 管理规格与任务，用 GitHub Issues + Project 管理进度
+
+## 使用
+
+### 本地命令
+
+```bash
+npm install
+npm test
+npm run scrape:gbc      # 抓取官网新闻前 3 页
+npm run build:feeds     # 生成 public/feeds/*.xml|*.ics 与 public/data/news.json
+npm run build:function  # 打包 Netlify Function
+```
+
+本地预览静态页：
+
+```bash
+npx serve public
+```
+
+打开首页勾选分类后：
+
+- 多选订阅走 `/api/feed?format=rss|ics&categories=live,goods`（需 Netlify Function）
+- 也可直接使用静态源：`/feeds/all.xml`、`/feeds/live.ics` 等
+
+### 分类说明
+
+官网页面本身不暴露分类。本站按标题/正文关键词自动打标（一文可多类）：
+
+`live` / `event` / `goods` / `music` / `cinema` / `media` / `other`
 
 ## 技术选型（低成本）
 
-| 能力          | 方案                                     | 成本考量                              |
-| ------------- | ---------------------------------------- | ------------------------------------- |
-| 代码托管 / CI | GitHub + GitHub Actions                  | 公开仓库 Actions 免费额度足够定时抓取 |
-| 定时抓取      | Actions `schedule` cron                  | 无需额外付费 cron / 常驻服务器        |
-| 数据存储      | 仓库内 `data/` 静态快照                  | 无数据库费用                          |
-| 订阅分发      | Netlify 静态站点（必要时再加 Functions） | 免费额度覆盖静态 RSS/iCal             |
-| 语言          | TypeScript（Node 20+）                   | 与 Netlify / Actions 生态契合         |
+| 能力          | 方案                               | 成本考量                              |
+| ------------- | ---------------------------------- | ------------------------------------- |
+| 代码托管 / CI | GitHub + GitHub Actions            | 公开仓库 Actions 免费额度足够定时抓取 |
+| 定时抓取      | Actions `schedule` cron（待启用）  | 无需额外付费 cron / 常驻服务器        |
+| 数据存储      | 仓库内 `data/` 静态快照            | 无数据库费用                          |
+| 订阅分发      | Netlify 静态 feeds + Function 过滤 | 免费额度覆盖                          |
+| 语言          | TypeScript（Node 20+）             | 与 Netlify / Actions 生态契合         |
 
 ## 工作方式
 
@@ -33,17 +64,6 @@
 - Project Dashboard: https://github.com/users/swsoyee/projects/1
 - CI: GitHub Actions（`CI` workflow）
 - 部署目标: Netlify（仓库已含 `netlify.toml`，需在 Netlify 控制台连接本仓库）
-
-## 本地开发（骨架阶段）
-
-```bash
-npm install
-npm run lint
-npm run typecheck
-npm test
-```
-
-业务代码尚未实现；当前仓库先完成工程基础与工作流。
 
 ## Trellis
 
