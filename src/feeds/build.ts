@@ -110,6 +110,18 @@ function stripHttpUrls(value: string): string {
     .trim()
 }
 
+/**
+ * 按句末标点语义断行，便于日历 DESCRIPTION 阅读。
+ * 在 。！？!?… 后插入换行；末尾不额外加空行。
+ */
+export function semanticLineBreak(value: string): string {
+  return value
+    .replace(/([。！？!?…]+)(?!$)/g, '$1\n')
+    .replace(/\n[ \t]+/g, '\n')
+    .replace(/\n{2,}/g, '\n')
+    .trim()
+}
+
 function icsText(value: string): string {
   return value
     .replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/gu, '') // 去掉 emoji，提升日历兼容性
@@ -118,7 +130,7 @@ function icsText(value: string): string {
     .replace(/,/g, '\\,')
     .replace(/\r\n/g, '\\n')
     .replace(/\n/g, '\\n')
-    .replace(/\s+/g, ' ')
+    .replace(/[^\S\n]+/g, ' ') // 折叠空格，保留已插入的换行
     .trim()
 }
 
@@ -170,9 +182,11 @@ export function buildIcal(entries: FeedEntry[], meta: FeedMeta): string {
   for (const entry of entries) {
     const stamp = toIcsDateTimeUtc(entry.occurredOn)
     const summary = truncateIcs(icsText(entry.title), 80)
-    // 摘要去外链并可截断；文末只追加本条目完整 URL（折行时不切断）
-    const descriptionText = truncateIcs(icsText(stripHttpUrls(entry.summary ?? entry.title)), 200)
-    const description = `${descriptionText}\\n${escapeIcsUrl(entry.url)}`
+    // 摘要去外链 → 语义断行 → 截断 → 转义；文末空一行后追加本条目完整 URL
+    const descriptionText = icsText(
+      truncateIcs(semanticLineBreak(stripHttpUrls(entry.summary ?? entry.title)), 200),
+    )
+    const description = `${descriptionText}\\n\\n${escapeIcsUrl(entry.url)}`
     const tags = [...entry.groups, ...entry.categories].map(icsText).join(',')
     const timed = Boolean(entry.endAt)
 

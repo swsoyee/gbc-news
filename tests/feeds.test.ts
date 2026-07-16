@@ -111,6 +111,21 @@ describe('feeds', () => {
     expect(ics).toContain('TRANSP:TRANSPARENT')
   })
 
+  it('iCal DESCRIPTION 按句末标点语义断行', () => {
+    const withSentences: NewsItem = {
+      ...item,
+      id: 'post-break',
+      summary:
+        'ガールズバンドクライのコラボカフェが開催決定！詳細は公式サイトをご確認ください。会場は東京と大阪です。',
+      eventDates: [{ date: '2026-09-06', kind: 'hold' }],
+    }
+    const ics = buildIcal(expandEventDates([withSentences]), meta)
+    const unfolded = ics.replace(/\r\n[ \t]/g, '')
+    expect(unfolded).toContain(
+      'DESCRIPTION:ガールズバンドクライのコラボカフェが開催決定！\\n詳細は公式サイトをご確認ください。\\n会場は東京と大阪です。\\n\\nhttps://girls-band-cry.com/news/post-1.html',
+    )
+  })
+
   it('iCal DESCRIPTION 与 URL 保留完整原始链接（不被截断）', () => {
     const longUrl =
       'https://girls-band-cry.com/news/post-999.html?utm_source=calendar&utm_campaign=very-long-tracking-parameter-should-stay-intact'
