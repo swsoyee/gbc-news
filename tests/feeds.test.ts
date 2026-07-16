@@ -93,6 +93,24 @@ describe('feeds', () => {
     expect(ics).not.toContain('DTSTART;VALUE=DATE:20260501')
   })
 
+  it('全天跨日期间：DTEND 为结束日次日（排他）', () => {
+    const period: NewsItem = {
+      ...item,
+      id: 'post-period',
+      eventDates: [{ date: '2026-04-04', endDate: '2026-05-10', kind: 'hold' }],
+    }
+    const entries = expandEventDates([period])
+    expect(entries).toHaveLength(1)
+    expect(entries[0]?.entryId).toBe('post-period-2026-04-04_2026-05-10-hold')
+    expect(entries[0]?.allDayEndOn).toBe('2026-05-11')
+    expect(entries[0]?.endAt).toBeUndefined()
+
+    const ics = buildIcal(entries, meta)
+    expect(ics).toContain('DTSTART;VALUE=DATE:20260404')
+    expect(ics).toContain('DTEND;VALUE=DATE:20260511')
+    expect(ics).toContain('TRANSP:TRANSPARENT')
+  })
+
   it('iCal DESCRIPTION 与 URL 保留完整原始链接（不被截断）', () => {
     const longUrl =
       'https://girls-band-cry.com/news/post-999.html?utm_source=calendar&utm_campaign=very-long-tracking-parameter-should-stay-intact'

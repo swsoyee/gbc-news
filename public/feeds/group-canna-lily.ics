@@ -8,29 +8,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-WR-CALNAME:gbc-news · Canna Lily
 NAME:gbc-news · Canna Lily
 BEGIN:VEVENT
-UID:firstriff-post-1-2026-03-28-hold@gbc-news
+UID:firstriff-post-1-2026-03-28_2026-03-29-hold-0900@gbc-news
 DTSTAMP:20260328T000000Z
-DTSTART;VALUE=DATE:20260328
-DTEND;VALUE=DATE:20260329
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[開催] AnimeJapan 2026出展情報
-DESCRIPTION:AnimeJapan 2026 東映アニメーションブースに、 「
- ガールズバンドクライ」「ガールズバンドクライ First R
- iff」が出展します。 「トゲナシトゲアリ」と「Canna Lily
- 」のキャラクターパネルの展示や、オリジナルノベル
- ティのプレゼントも予定しています。 皆様のご来場を
- お待ちしております。 ■開催日程 2026年3月28日(土)～29
- 日(\nhttps://gbc-firstriff.com/news/post-1.html
-URL;VALUE=URI:https://gbc-firstriff.com/news/post-1.html
-CATEGORIES:togenashi,canna-lily,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:firstriff-post-1-2026-03-29-hold@gbc-news
-DTSTAMP:20260329T000000Z
-DTSTART;VALUE=DATE:20260329
-DTEND;VALUE=DATE:20260330
-TRANSP:TRANSPARENT
+DTSTART:20260328T000000Z
+DTEND:20260329T080000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] AnimeJapan 2026出展情報
 DESCRIPTION:AnimeJapan 2026 東映アニメーションブースに、 「

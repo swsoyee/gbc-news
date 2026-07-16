@@ -339,10 +339,10 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-30.html
 CATEGORIES:togenashi,music,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-37-2023-10-17-hold@gbc-news
+UID:post-37-2023-10-17_2023-11-20-hold@gbc-news
 DTSTAMP:20231017T000000Z
 DTSTART;VALUE=DATE:20231017
-DTEND;VALUE=DATE:20231018
+DTEND;VALUE=DATE:20231121
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SUMMARY:[開催] 「黎明を穿つ」MVがカラオケDAMにて配信開
@@ -377,11 +377,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-31.html
 CATEGORIES:togenashi,music,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-39-2023-10-23-hold@gbc-news
-DTSTAMP:20231023T000000Z
-DTSTART;VALUE=DATE:20231023
-DTEND;VALUE=DATE:20231024
-TRANSP:TRANSPARENT
+UID:post-39-2023-10-23_2023-10-29-hold-2000@gbc-news
+DTSTAMP:20231023T110000Z
+DTSTART:20231023T110000Z
+DTEND:20231029T145900Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] 第7弾MV「極私的極彩色アンサー」公開！公
  開記念キャンペーンがスタート
@@ -549,44 +549,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-35.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-39-2023-10-29-hold@gbc-news
-DTSTAMP:20231029T000000Z
-DTSTART;VALUE=DATE:20231029
-DTEND;VALUE=DATE:20231030
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[開催] 第7弾MV「極私的極彩色アンサー」公開！公
- 開記念キャンペーンがスタート
-DESCRIPTION:劇中バンド「トゲナシトゲアリ」のメンバーが
- 歌う MV第7弾「極私的極彩色アンサー（ゴクシテキゴク
- サイショクアンサー）」 を公開いたしました MV公開を
- 記念して、 アニメ「ガールズバンドクライ」公式X（旧
- Twitter）にてフォロー＆リポストキャンペーンを開催い
- たします 【開催期間】 10月23日（月）20:00 ～ 10月29日（
- 日） 23:59 【参\nhttps://girls-band-cry.com/news/post-39.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-39.html
-CATEGORIES:togenashi,music,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-37-2023-11-20-hold@gbc-news
-DTSTAMP:20231120T000000Z
-DTSTART;VALUE=DATE:20231120
-DTEND;VALUE=DATE:20231121
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[開催] 「黎明を穿つ」MVがカラオケDAMにて配信開
- 始！
-DESCRIPTION:本日10/17からカラオケDAMにて 「黎明を穿つ」MV
- 配信開始！ また、カラオケDAMで絶賛放映中の曲間番組
- 「DAM CHANNEL」にて、 トゲナシトゲアリ 3rd Single『爆ぜて
- 咲く』15秒CMの放送も開始いたしました （放映期間：10/
- 17～11/20） カラオケDAMをご利用の際はぜひチェックして
- ください！！ そして、たくさん歌ってくだ\n
- https://girls-band-cry.com/news/post-37.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-37.html
-CATEGORIES:togenashi,music,media
-END:VEVENT
-BEGIN:VEVENT
 UID:post-45-2023-11-27-hold@gbc-news
 DTSTAMP:20231127T000000Z
 DTSTART;VALUE=DATE:20231127
@@ -606,11 +568,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-45.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-50-2023-11-27-hold@gbc-news
-DTSTAMP:20231127T000000Z
-DTSTART;VALUE=DATE:20231127
-DTEND;VALUE=DATE:20231128
-TRANSP:TRANSPARENT
+UID:post-50-2023-11-27_2023-12-10-hold-2100@gbc-news
+DTSTAMP:20231127T120000Z
+DTSTART:20231127T120000Z
+DTEND:20231210T145900Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] 第8弾MV「傷つき傷つけ痛くて辛い」公開！
  公開記念キャンペーンがスタート
@@ -667,30 +629,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-46.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-50-2023-12-10-hold@gbc-news
-DTSTAMP:20231210T000000Z
-DTSTART;VALUE=DATE:20231210
-DTEND;VALUE=DATE:20231211
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[開催] 第8弾MV「傷つき傷つけ痛くて辛い」公開！
- 公開記念キャンペーンがスタート
-DESCRIPTION:劇中バンド「トゲナシトゲアリ」のメンバーが
- 歌う MV第8弾「傷つき傷つけ痛くて辛い」 を公開いたし
- ました MV公開を記念して、 アニメ「ガールズバンドク
- ライ」公式X（旧Twitter）にてフォロー＆リポストキャン
- ペーンを開催いたします 【開催期間】 11月27日（月）21
- :00 ～ 12月10日（日） 23:59 【参加方法】 ①X（旧Twitter）\
- nhttps://girls-band-cry.com/news/post-50.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-50.html
-CATEGORIES:togenashi,music,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-56-2023-12-18-hold@gbc-news
-DTSTAMP:20231218T000000Z
-DTSTART;VALUE=DATE:20231218
-DTEND;VALUE=DATE:20231219
-TRANSP:TRANSPARENT
+UID:post-56-2023-12-18_2023-12-24-hold-2100@gbc-news
+DTSTAMP:20231218T120000Z
+DTSTART:20231218T120000Z
+DTEND:20231224T145900Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] 第9弾MV「運命に賭けたい論理」公開！公開
  記念キャンペーンがスタート
@@ -835,25 +778,6 @@ DESCRIPTION:東映アニメーションが製作するオリジナルアニ
  https://girls-band-cry.com/news/post-53.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-53.html
 CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-56-2023-12-24-hold@gbc-news
-DTSTAMP:20231224T000000Z
-DTSTART;VALUE=DATE:20231224
-DTEND;VALUE=DATE:20231225
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[開催] 第9弾MV「運命に賭けたい論理」公開！公開
- 記念キャンペーンがスタート
-DESCRIPTION:劇中バンド「トゲナシトゲアリ」のメンバーが
- 歌う MV第9弾「運命に賭けたい論理」 を公開いたしまし
- た MV公開を記念して、 アニメ「ガールズバンドクライ
- 」公式X（旧Twitter）にてフォロー＆リポストキャンペー
- ンを開催いたします 【開催期間】 12月18日（月）21:00 
- ～ 12月24日（日） 23:59 【参加方法】 ①X（旧Twitter）の
- ＠\nhttps://girls-band-cry.com/news/post-56.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-56.html
-CATEGORIES:togenashi,music,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-68-2024-02-03-hold-1700@gbc-news
@@ -1524,11 +1448,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-199.html
 CATEGORIES:togenashi,live,music,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-209-2024-08-17-hold@gbc-news
-DTSTAMP:20240817T000000Z
-DTSTART;VALUE=DATE:20240817
-DTEND;VALUE=DATE:20240818
-TRANSP:TRANSPARENT
+UID:post-209-2024-08-17_2024-09-13-hold-1900@gbc-news
+DTSTAMP:20240817T100000Z
+DTSTART:20240817T100000Z
+DTEND:20240913T090000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] 2nd ONE-MAN LIVEのライブ配信情報を公開！
 DESCRIPTION:2nd ONE-MAN LIVE “凛音の理” 会場チケット申し込
@@ -1657,24 +1581,6 @@ DESCRIPTION:TVアニメ『ガールズバンドクライ』のLINEスタン
  https://girls-band-cry.com/news/post-230.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-230.html
 CATEGORIES:togenashi,music
-END:VEVENT
-BEGIN:VEVENT
-UID:post-209-2024-09-13-hold@gbc-news
-DTSTAMP:20240913T000000Z
-DTSTART;VALUE=DATE:20240913
-DTEND;VALUE=DATE:20240914
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[開催] 2nd ONE-MAN LIVEのライブ配信情報を公開！
-DESCRIPTION:2nd ONE-MAN LIVE “凛音の理” 会場チケット申し込
- み多数につきライブ配信チケットの販売が決定しまし
- た！ オンラインでのライブ配信のみならず、 お近くの
- カラオケ店舗でライブを楽しめるカラオケ・ビューイ
- ングと 全世界に向けてのグローバル配信も実施します
- 。 【チケット販売期間】 2024年8月17日(土)19:00～9月13日(
- 金)18:00 【配\nhttps://girls-band-cry.com/news/post-209.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-209.html
-CATEGORIES:togenashi,live,music
 END:VEVENT
 BEGIN:VEVENT
 UID:post-228-2024-09-13-sale-1800@gbc-news
@@ -1842,11 +1748,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-251.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-72-2024-12-18-hold@gbc-news
-DTSTAMP:20241218T000000Z
-DTSTART;VALUE=DATE:20241218
-DTEND;VALUE=DATE:20241219
-TRANSP:TRANSPARENT
+UID:post-72-2024-12-18_2024-12-24-hold-2100@gbc-news
+DTSTAMP:20241218T120000Z
+DTSTART:20241218T120000Z
+DTEND:20241224T145900Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] 第10弾MV「サヨナラサヨナラサヨナラ」公開
  ！公開記念キャンペーンがスタート
@@ -1901,25 +1807,6 @@ DESCRIPTION:東映アニメーションが製作するオリジナルアニ
  https://girls-band-cry.com/news/post-252.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-252.html
 CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-72-2024-12-24-hold@gbc-news
-DTSTAMP:20241224T000000Z
-DTSTART;VALUE=DATE:20241224
-DTEND;VALUE=DATE:20241225
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[開催] 第10弾MV「サヨナラサヨナラサヨナラ」公開
- ！公開記念キャンペーンがスタート
-DESCRIPTION:劇中バンド「トゲナシトゲアリ」のメンバーが
- 歌う MV第10弾「サヨナラサヨナラサヨナラ」 を公開い
- たしました MV公開を記念して、 アニメ「ガールズバン
- ドクライ」公式X（旧Twitter）にてフォロー＆リポストキ
- ャンペーンを開催いたします 【開催期間】 12月18日（
- 月）21:00 ～ 12月24日（日） 23:59 【参加方法】 ①X（旧Twi
- tte\nhttps://girls-band-cry.com/news/post-72.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-72.html
-CATEGORIES:togenashi,music,event,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-300-2025-01-31-hold@gbc-news
@@ -1993,31 +1880,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-306.html
 CATEGORIES:togenashi,live,music,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-311-2025-04-26-hold@gbc-news
-DTSTAMP:20250426T000000Z
-DTSTART;VALUE=DATE:20250426
-DTEND;VALUE=DATE:20250427
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[開催] ガルクラ展名古屋会場・福岡会場の開催が
- 決定！イラストレーターコラボも！
-DESCRIPTION:「ガールズバンドクライ展」名古屋会場・福岡
- 会場の開催が決定しました！ 2025年4月26日（土）～5月25
- 日（日）の期間に、名古屋会場はテレピアホールにて
- 開催。 また、2025年6月～7月、福岡で開催！詳細は後日
- 解禁予定です。 そして、イラストレーター・まごとの
- コラボビジュアルが解禁！ 「ガールズバンドクライ展
- 」のためにトゲナシトゲアリのミニキャライラストを\n
- https://girls-band-cry.com/news/post-311.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-311.html
-CATEGORIES:togenashi,live,music,goods,event,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-311-2025-05-25-hold@gbc-news
-DTSTAMP:20250525T000000Z
-DTSTART;VALUE=DATE:20250525
-DTEND;VALUE=DATE:20250526
-TRANSP:TRANSPARENT
+UID:post-311-2025-04-26_2025-05-25-hold-1100@gbc-news
+DTSTAMP:20250426T020000Z
+DTSTART:20250426T020000Z
+DTEND:20250525T100000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] ガルクラ展名古屋会場・福岡会場の開催が
  決定！イラストレーターコラボも！
@@ -2208,10 +2075,10 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-390.html
 CATEGORIES:togenashi,music,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-359-2025-10-04-hold@gbc-news
+UID:post-359-2025-10-04_2025-10-26-hold@gbc-news
 DTSTAMP:20251004T000000Z
 DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251005
+DTEND;VALUE=DATE:20251027
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SUMMARY:[開催] 全国アニメイトにてフェア開催決定！
@@ -2242,24 +2109,6 @@ DESCRIPTION:2024年12月20日、東京・豊洲PITにて3\,000人の観客
  https://girls-band-cry.com/news/post-386.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-386.html
 CATEGORIES:togenashi,live,music,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-359-2025-10-26-hold@gbc-news
-DTSTAMP:20251026T000000Z
-DTSTART;VALUE=DATE:20251026
-DTEND;VALUE=DATE:20251027
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[開催] 全国アニメイトにてフェア開催決定！
-DESCRIPTION:アニメイトにて、 『ガールズバンドクライ』
- ブレイク・ドレスコードフェアを開催いたします！ ■
- 開催期間 2025 年10 月4 日～10 月26 日 ■開催場所 全国ア
- ニメイト(通販を含む) ■フェア内容 期間中『ガールズ
- バンドクライ』関連のグッズをご購入・ご予約内金1\,10
- 0円(税込)毎、書籍・CD・DVD・BD をご購入・ご予約(内金1\
- ,100円(税込)以\nhttps://girls-band-cry.com/news/post-359.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-359.html
-CATEGORIES:togenashi,music,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-400-2025-11-19-sale@gbc-news

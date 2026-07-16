@@ -23,12 +23,11 @@ describe('extractEventDates', () => {
     ])
   })
 
-  it('解析開催日時中的完整年月日与跨日', () => {
+  it('解析開催日時中的完整年月日与跨日期间', () => {
     const text =
       'ASUTO MUSIC PARK 2026に出演決定！ ■開催日時 2026年9月5日(土)/6日(日) ※トゲナシトゲアリの出演は9月6日(日)'
     expect(extractEventDates(text, '', '2026-06-01T00:00:00.000Z')).toEqual([
-      { date: '2026-09-05', kind: 'hold' },
-      { date: '2026-09-06', kind: 'hold' },
+      { date: '2026-09-05', endDate: '2026-09-06', kind: 'hold' },
     ])
   })
 
@@ -77,17 +76,14 @@ describe('extractEventDates', () => {
     ).toEqual([{ date: '2026-07-03', kind: 'hold' }])
   })
 
-  it('開催期間标签与出演决定短文中的跨日', () => {
+  it('開催期間标签与出演决定短文中的跨日期间', () => {
     expect(
       extractEventDates(
         'コラボカフェ開催！',
         '■開催期間 東京：2026年4月4日(土)～5月10日(日)',
         '2026-03-20T00:00:00.000Z',
       ),
-    ).toEqual([
-      { date: '2026-04-04', kind: 'hold' },
-      { date: '2026-05-10', kind: 'hold' },
-    ])
+    ).toEqual([{ date: '2026-04-04', endDate: '2026-05-10', kind: 'hold' }])
 
     expect(
       extractEventDates(
@@ -95,9 +91,38 @@ describe('extractEventDates', () => {
         '📅2026年4月4日-5日 AsiaWorld-Expo',
         '2026-02-10T00:00:00.000Z',
       ),
+    ).toEqual([{ date: '2026-04-04', endDate: '2026-04-05', kind: 'hold' }])
+  })
+
+  it('带起止时刻的キャンペーン期间', () => {
+    expect(
+      extractEventDates(
+        'フォロー＆リポストキャンペーン',
+        '【開催期間】 10月23日（月）20:00 ～ 10月29日（日） 23:59',
+        '2023-10-20T00:00:00.000Z',
+      ),
     ).toEqual([
-      { date: '2026-04-04', kind: 'hold' },
-      { date: '2026-04-05', kind: 'hold' },
+      {
+        date: '2023-10-23',
+        endDate: '2023-10-29',
+        kind: 'hold',
+        startTime: '20:00',
+        endTime: '23:59',
+      },
+    ])
+  })
+
+  it('Tour 离散场次不合并为期间', () => {
+    expect(
+      extractEventDates(
+        'Zepp Tour 開催',
+        '■日程 2月11日、2月14日、2月23日',
+        '2026-01-10T00:00:00.000Z',
+      ),
+    ).toEqual([
+      { date: '2026-02-11', kind: 'hold' },
+      { date: '2026-02-14', kind: 'hold' },
+      { date: '2026-02-23', kind: 'hold' },
     ])
   })
 

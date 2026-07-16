@@ -1093,11 +1093,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-201.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-217-2024-09-07-hold@gbc-news
-DTSTAMP:20240907T000000Z
-DTSTART;VALUE=DATE:20240907
-DTEND;VALUE=DATE:20240908
-TRANSP:TRANSPARENT
+UID:post-217-2024-09-07_2024-09-14-hold-1430@gbc-news
+DTSTAMP:20240907T053000Z
+DTSTART:20240907T053000Z
+DTEND:20240914T053000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[開催] アニメ全話一挙上映会開催決定！
 DESCRIPTION:トゲナシトゲアリ 2nd ONE-MAN LIVE “凛音の理”開
@@ -1128,24 +1128,6 @@ DESCRIPTION:TVアニメ『ガールズバンドクライ』劇中バンド
  https://girls-band-cry.com/news/post-200.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-200.html
 CATEGORIES:togenashi,live,music,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-217-2024-09-14-hold@gbc-news
-DTSTAMP:20240914T000000Z
-DTSTART;VALUE=DATE:20240914
-DTEND;VALUE=DATE:20240915
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[開催] アニメ全話一挙上映会開催決定！
-DESCRIPTION:トゲナシトゲアリ 2nd ONE-MAN LIVE “凛音の理”開
- 催記念 『ガールズバンドクライ』アニメ全話一挙【LIVE
-  ZOUND】上映会 『ガールズバンドクライ』のアニメ全13
- 話を、 最新鋭のハイエンド音響装置が作り出すCINECITTA
- ’独自のシネマサウンドシステム 【LIVE ZOUND】で一挙に
- 見られる特別上映会を開催いたします。 ■日時：202\n
- https://girls-band-cry.com/news/post-217.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-217.html
-CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-236-2024-09-20-hold-1900@gbc-news
@@ -1207,30 +1189,11 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-195.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-234-2024-09-25-sale@gbc-news
-DTSTAMP:20240925T000000Z
-DTSTART;VALUE=DATE:20240925
-DTEND;VALUE=DATE:20240926
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[発売] MyGO!!!!!×トゲナシトゲアリのスペース配信
- 「トゲマイトーク」開催決定！
-DESCRIPTION:フリーダムトークにMyGO!!!!!メンバーが参戦⁉ 10
- 月4日(金)20:00～ MyGO!!!!!×トゲナシトゲアリ 『トゲマイ
- トーク』を「ガールズバンドクライ」公式Xにてスペー
- ス配信 「Avoid Note」 での対バンが決まっている MyGO!!!!!
- より 千早愛音役 / 立石 凛さん 要 楽奈役 / 青木陽菜さ
- ん をお招きします️ トゲナ\n
- https://girls-band-cry.com/news/post-234.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-234.html
-CATEGORIES:togenashi,live,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-234-2024-10-04-sale@gbc-news
-DTSTAMP:20241004T000000Z
-DTSTART;VALUE=DATE:20241004
-DTEND;VALUE=DATE:20241005
-TRANSP:TRANSPARENT
+UID:post-234-2024-09-25_2024-11-10-sale-1000@gbc-news
+DTSTAMP:20240925T010000Z
+DTSTART:20240925T010000Z
+DTEND:20241110T145900Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[発売] MyGO!!!!!×トゲナシトゲアリのスペース配信
  「トゲマイトーク」開催決定！
@@ -1304,25 +1267,6 @@ DESCRIPTION:東映アニメーションが製作するオリジナルアニ
  https://girls-band-cry.com/news/post-239.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-239.html
 CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-234-2024-11-10-sale@gbc-news
-DTSTAMP:20241110T000000Z
-DTSTART;VALUE=DATE:20241110
-DTEND;VALUE=DATE:20241111
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[発売] MyGO!!!!!×トゲナシトゲアリのスペース配信
- 「トゲマイトーク」開催決定！
-DESCRIPTION:フリーダムトークにMyGO!!!!!メンバーが参戦⁉ 10
- 月4日(金)20:00～ MyGO!!!!!×トゲナシトゲアリ 『トゲマイ
- トーク』を「ガールズバンドクライ」公式Xにてスペー
- ス配信 「Avoid Note」 での対バンが決まっている MyGO!!!!!
- より 千早愛音役 / 立石 凛さん 要 楽奈役 / 青木陽菜さ
- ん をお招きします️ トゲナ\n
- https://girls-band-cry.com/news/post-234.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-234.html
-CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-251-2024-11-21-hold-1900@gbc-news
@@ -1918,10 +1862,10 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-376.html
 CATEGORIES:togenashi,live,music,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-377-2025-09-25-hold@gbc-news
+UID:post-377-2025-09-25_2025-09-28-hold@gbc-news
 DTSTAMP:20250925T000000Z
 DTSTART;VALUE=DATE:20250925
-DTEND;VALUE=DATE:20250926
+DTEND;VALUE=DATE:20250929
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SUMMARY:[開催] 「桃香(を)ワッショイ」発売＆東京ゲーム
@@ -1955,63 +1899,6 @@ DESCRIPTION:2025/9/25（木）劇場版総集編公開記念を記念して
  https://girls-band-cry.com/news/post-382.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-382.html
 CATEGORIES:togenashi,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-377-2025-09-26-hold@gbc-news
-DTSTAMP:20250926T000000Z
-DTSTART;VALUE=DATE:20250926
-DTEND;VALUE=DATE:20250927
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[開催] 「桃香(を)ワッショイ」発売＆東京ゲーム
- ショウ出展決定！
-DESCRIPTION:あの謎ゲーム「桃香（を）ワッショイ」が 9月2
- 9日(月)よりSteamで発売決定！ さらに、9月25日(木)〜9月28
- 日(日)に、幕張メッセで開催される「東京ゲームショウ
- 2025」への出展も決定しました！ Steamストアページは こ
- ちら から！ 本日よりストアページが公開されておりま
- す。 ウィッシュリストに登録して発売をお待ちくださ
- い！！ 『桃\nhttps://girls-band-cry.com/news/post-377.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-377.html
-CATEGORIES:togenashi,live,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-377-2025-09-27-hold@gbc-news
-DTSTAMP:20250927T000000Z
-DTSTART;VALUE=DATE:20250927
-DTEND;VALUE=DATE:20250928
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[開催] 「桃香(を)ワッショイ」発売＆東京ゲーム
- ショウ出展決定！
-DESCRIPTION:あの謎ゲーム「桃香（を）ワッショイ」が 9月2
- 9日(月)よりSteamで発売決定！ さらに、9月25日(木)〜9月28
- 日(日)に、幕張メッセで開催される「東京ゲームショウ
- 2025」への出展も決定しました！ Steamストアページは こ
- ちら から！ 本日よりストアページが公開されておりま
- す。 ウィッシュリストに登録して発売をお待ちくださ
- い！！ 『桃\nhttps://girls-band-cry.com/news/post-377.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-377.html
-CATEGORIES:togenashi,live,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-377-2025-09-28-hold@gbc-news
-DTSTAMP:20250928T000000Z
-DTSTART;VALUE=DATE:20250928
-DTEND;VALUE=DATE:20250929
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[開催] 「桃香(を)ワッショイ」発売＆東京ゲーム
- ショウ出展決定！
-DESCRIPTION:あの謎ゲーム「桃香（を）ワッショイ」が 9月2
- 9日(月)よりSteamで発売決定！ さらに、9月25日(木)〜9月28
- 日(日)に、幕張メッセで開催される「東京ゲームショウ
- 2025」への出展も決定しました！ Steamストアページは こ
- ちら から！ 本日よりストアページが公開されておりま
- す。 ウィッシュリストに登録して発売をお待ちくださ
- い！！ 『桃\nhttps://girls-band-cry.com/news/post-377.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-377.html
-CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-377-2025-09-29-sale@gbc-news
@@ -2128,10 +2015,10 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-404.html
 CATEGORIES:togenashi,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-359-2025-10-04-hold@gbc-news
+UID:post-359-2025-10-04_2025-10-26-hold@gbc-news
 DTSTAMP:20251004T000000Z
 DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251005
+DTEND;VALUE=DATE:20251027
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SUMMARY:[開催] 全国アニメイトにてフェア開催決定！
@@ -2167,10 +2054,10 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-375.html
 CATEGORIES:togenashi,live,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-395-2025-10-04-sale-1600@gbc-news
+UID:post-395-2025-10-04_2025-10-05-sale-1600@gbc-news
 DTSTAMP:20251004T070000Z
 DTSTART:20251004T070000Z
-DTEND:20251004T080000Z
+DTEND:20251005T145900Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[発売] 10月4日（土）・5日（日）『劇場版総集編 
@@ -2188,10 +2075,10 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-395.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-407-2025-10-11-sale-1600@gbc-news
+UID:post-407-2025-10-11_2025-10-12-sale-1600@gbc-news
 DTSTAMP:20251011T070000Z
 DTSTART:20251011T070000Z
-DTEND:20251011T080000Z
+DTEND:20251012T145900Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[発売] 10月11日（土）・12日（日）『劇場版総集編 
@@ -2228,10 +2115,10 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-377.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-397-2025-10-17-hold@gbc-news
+UID:post-397-2025-10-17_2025-11-03-hold@gbc-news
 DTSTAMP:20251017T000000Z
 DTSTART;VALUE=DATE:20251017
-DTEND;VALUE=DATE:20251018
+DTEND;VALUE=DATE:20251104
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SUMMARY:[開催] 10/17(金)～《「劇場版総集編 ガールズバン
@@ -2247,10 +2134,10 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-397.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-412-2025-10-18-sale-1600@gbc-news
+UID:post-412-2025-10-18_2025-10-19-sale-1600@gbc-news
 DTSTAMP:20251018T070000Z
 DTSTART:20251018T070000Z
-DTEND:20251018T080000Z
+DTEND:20251019T145900Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[発売] 10月18日（土）・19日（日）『劇場版総集編 
@@ -2305,43 +2192,6 @@ DESCRIPTION:10/24(金)は井芹仁菜の誕生日です。この記念日
  https://girls-band-cry.com/news/post-413.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-413.html
 CATEGORIES:togenashi,live,goods,event,cinema,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-359-2025-10-26-hold@gbc-news
-DTSTAMP:20251026T000000Z
-DTSTART;VALUE=DATE:20251026
-DTEND;VALUE=DATE:20251027
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[開催] 全国アニメイトにてフェア開催決定！
-DESCRIPTION:アニメイトにて、 『ガールズバンドクライ』
- ブレイク・ドレスコードフェアを開催いたします！ ■
- 開催期間 2025 年10 月4 日～10 月26 日 ■開催場所 全国ア
- ニメイト(通販を含む) ■フェア内容 期間中『ガールズ
- バンドクライ』関連のグッズをご購入・ご予約内金1\,10
- 0円(税込)毎、書籍・CD・DVD・BD をご購入・ご予約(内金1\
- ,100円(税込)以\nhttps://girls-band-cry.com/news/post-359.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-359.html
-CATEGORIES:togenashi,music,goods,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-397-2025-11-03-hold@gbc-news
-DTSTAMP:20251103T000000Z
-DTSTART;VALUE=DATE:20251103
-DTEND;VALUE=DATE:20251104
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[開催] 10/17(金)～《「劇場版総集編 ガールズバン
- ドクライ」カフェ》開催！
-DESCRIPTION:10月3日『劇場版総集編 ガールズバンドクライ 
- 【前編】 青春狂走曲』 11月14日『劇場版総集編 ガール
- ズバンドクライ 【後編】 なぁ、未来。』 それぞれの
- 公開を記念して、コラボカフェが2025年10月17日(金)～11
- 月3日(月・祝) の期間 CURE MAID CAFÉ(キュアメイドカフェ)
- で開催決定です！ ・牛丼も紅生姜もオムライスも全部
- ぶちこめ！ト\nhttps://girls-band-cry.com/news/post-397.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-397.html
-CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-416-2025-11-07-hold@gbc-news
@@ -2446,10 +2296,10 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-421.html
 CATEGORIES:togenashi,live,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-418-2025-11-15-hold@gbc-news
+UID:post-418-2025-11-15_2025-11-26-hold@gbc-news
 DTSTAMP:20251115T000000Z
 DTSTART;VALUE=DATE:20251115
-DTEND;VALUE=DATE:20251116
+DTEND;VALUE=DATE:20251127
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SUMMARY:[開催] 11/15(土)より『ガールズバンドクライ POP UP S
@@ -2506,30 +2356,10 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-400.html
 CATEGORIES:togenashi,live,music,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-418-2025-11-26-hold@gbc-news
-DTSTAMP:20251126T000000Z
-DTSTART;VALUE=DATE:20251126
-DTEND;VALUE=DATE:20251127
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[開催] 11/15(土)より『ガールズバンドクライ POP UP S
- HOP filming ver.』がタワーレコード4店舗にて開催決定！
-DESCRIPTION:劇場版総集編 ガールズバンドクライ 【前編】
- 青春狂走曲 / 【後編】なぁ、未来。の公開を記念して
- 、『ガールズバンドクライ POP UP SHOP filming ver.』がタワ
- ーレコード4店舗にて開催決定いたしました！ 酒井香澄
- 描き下ろしで、映画クルーな装いのトゲナシトゲアリ
- の新作グッズを販売いたします！ ぜひこの機会をお見
- 逃しなく！ 『ガールズバンドクラ\n
- https://girls-band-cry.com/news/post-418.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-418.html
-CATEGORIES:togenashi,goods,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-418-2025-12-01-hold@gbc-news
+UID:post-418-2025-12-01_2025-12-14-hold@gbc-news
 DTSTAMP:20251201T000000Z
 DTSTART;VALUE=DATE:20251201
-DTEND;VALUE=DATE:20251202
+DTEND;VALUE=DATE:20251215
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SUMMARY:[開催] 11/15(土)より『ガールズバンドクライ POP UP S
@@ -2585,26 +2415,6 @@ DESCRIPTION:12月12日(金)・12月14日(日)スタッフトークイベン
  フトークにお越しの\nhttps://girls-band-cry.com/news/post-439.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-439.html
 CATEGORIES:togenashi,live,event,cinema,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-418-2025-12-14-hold@gbc-news
-DTSTAMP:20251214T000000Z
-DTSTART;VALUE=DATE:20251214
-DTEND;VALUE=DATE:20251215
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[開催] 11/15(土)より『ガールズバンドクライ POP UP S
- HOP filming ver.』がタワーレコード4店舗にて開催決定！
-DESCRIPTION:劇場版総集編 ガールズバンドクライ 【前編】
- 青春狂走曲 / 【後編】なぁ、未来。の公開を記念して
- 、『ガールズバンドクライ POP UP SHOP filming ver.』がタワ
- ーレコード4店舗にて開催決定いたしました！ 酒井香澄
- 描き下ろしで、映画クルーな装いのトゲナシトゲアリ
- の新作グッズを販売いたします！ ぜひこの機会をお見
- 逃しなく！ 『ガールズバンドクラ\n
- https://girls-band-cry.com/news/post-418.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-418.html
-CATEGORIES:togenashi,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-439-2025-12-14-hold@gbc-news

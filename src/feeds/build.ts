@@ -185,7 +185,9 @@ export function buildIcal(entries: FeedEntry[], meta: FeedMeta): string {
       lines.push('TRANSP:OPAQUE')
     } else {
       const startDate = toIcsDateValue(entry.occurredOn)
-      const endDate = nextIcsDateValue(startDate)
+      const endDate = entry.allDayEndOn
+        ? toIcsDateValue(`${entry.allDayEndOn}T00:00:00.000Z`)
+        : nextIcsDateValue(startDate)
       lines.push(`DTSTART;VALUE=DATE:${startDate}`)
       lines.push(`DTEND;VALUE=DATE:${endDate}`)
       lines.push('TRANSP:TRANSPARENT')

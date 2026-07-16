@@ -46,7 +46,7 @@ export function extractEventDates(title: string, body = '', publishedAt?: string
   const seen = new Set<string>()
 
   const push = (entry: EventDate) => {
-    const key = `${entry.date}|${entry.kind}|${entry.startTime ?? ''}|${entry.endTime ?? ''}`
+    const key = eventKey(entry)
     if (seen.has(key)) return
 
     if (entry.startTime) {
@@ -54,10 +54,11 @@ export function extractEventDates(title: string, body = '', publishedAt?: string
         const existing = found[i]!
         if (
           existing.date === entry.date &&
+          (existing.endDate ?? '') === (entry.endDate ?? '') &&
           existing.kind === entry.kind &&
           existing.startTime === undefined
         ) {
-          seen.delete(`${existing.date}|${existing.kind}||`)
+          seen.delete(eventKey(existing))
           found.splice(i, 1)
         }
       }
@@ -101,34 +102,79 @@ export function extractEventDates(title: string, body = '', publishedAt?: string
 
   enrichTimesFromText(found, text)
 
-  return found.sort(
+  return collapseContainedSingles(found).sort(
     (a, b) =>
       a.date.localeCompare(b.date) ||
+      (a.endDate ?? '').localeCompare(b.endDate ?? '') ||
       a.kind.localeCompare(b.kind) ||
       (a.startTime ?? '').localeCompare(b.startTime ?? ''),
   )
 }
 
+/** 同 kind 下，落在已有期间内的无时刻单日视为重复，去掉。 */
+function collapseContainedSingles(entries: EventDate[]): EventDate[] {
+  const periods = entries.filter((e) => e.endDate && e.endDate > e.date)
+  if (periods.length === 0) return entries
+  return entries.filter((entry) => {
+    if (entry.endDate && entry.endDate > entry.date) return true
+    if (entry.startTime) return true
+    return !periods.some(
+      (period) =>
+        period.kind === entry.kind && entry.date >= period.date && entry.date <= period.endDate!,
+    )
+  })
+}
+
+function eventKey(entry: EventDate): string {
+  return `${entry.date}|${entry.endDate ?? ''}|${entry.kind}|${entry.startTime ?? ''}|${entry.endTime ?? ''}`
+}
+
+interface DateSpan {
+  date: string
+  endDate?: string
+  startTime?: string
+  endTime?: string
+}
+
 function datesWithTimes(block: string, kind: EventDateKind, publishedAt?: string): EventDate[] {
-  const dates = extractDatesInBlock(block, publishedAt)
-  if (dates.length === 0) return []
+  const spans = extractDateSpansInBlock(block, publishedAt)
+  if (spans.length === 0) return []
+
+  const toEntry = (span: DateSpan): EventDate => ({
+    date: span.date,
+    kind,
+    ...(span.endDate ? { endDate: span.endDate } : {}),
+    ...(span.startTime ? { startTime: span.startTime } : {}),
+    ...(span.endTime ? { endTime: span.endTime } : {}),
+  })
+
+  const withOwnTime = spans.filter((s) => s.startTime)
+  const needsSlots = spans.filter((s) => !s.startTime)
+  const singlesNeedingSlots = needsSlots.filter((s) => !s.endDate)
+  const periodsNeedingSlots = needsSlots.filter((s) => s.endDate)
 
   const slots = extractTimeSlots(block)
-  if (slots.length === 0) {
-    return dates.map((date) => ({ date, kind }))
+  const out: EventDate[] = [...withOwnTime.map(toEntry), ...periodsNeedingSlots.map(toEntry)]
+
+  if (slots.length === 0 || singlesNeedingSlots.length === 0) {
+    return [...out, ...singlesNeedingSlots.map(toEntry)]
   }
 
-  if (dates.length === 1) {
+  if (
+    singlesNeedingSlots.length === 1 &&
+    periodsNeedingSlots.length === 0 &&
+    withOwnTime.length === 0
+  ) {
     return slots.map((slot) => ({
-      date: dates[0]!,
+      date: singlesNeedingSlots[0]!.date,
       kind,
       startTime: slot.startTime,
       ...(slot.endTime ? { endTime: slot.endTime } : {}),
     }))
   }
 
-  // 多日不共享单一时刻，避免把销售开始时间套到每一天
-  return dates.map((date) => ({ date, kind }))
+  // 多日/多段不共享单一时刻，避免把销售开始时间套到每一天
+  return [...out, ...singlesNeedingSlots.map(toEntry)]
 }
 
 /** 開場/開演、OPEN/START、HH:mm～、N時 */
@@ -227,36 +273,142 @@ function sanitizeBlock(block: string): string {
   return block.replace(/最大\s*\d+\s*営業日[^\n]*/g, ' ').replace(/\d+\s*営業日/g, ' ')
 }
 
-function extractDatesInBlock(block: string, publishedAt?: string): string[] {
+/**
+ * 抽取日期跨度：带 ～/〜/-/・/／ 的明确范围 → date+endDate；
+ * 离散场次（顿号、换行列举）保持多条单日。
+ */
+function extractDateSpansInBlock(block: string, publishedAt?: string): DateSpan[] {
   const baseYear = yearFromIso(publishedAt) ?? new Date().getUTCFullYear()
-  const dates: string[] = []
+  const spans: DateSpan[] = []
+  const covered = new Set<number>()
 
+  const mark = (start: number, end: number) => {
+    for (let i = start; i < end; i += 1) covered.add(i)
+  }
+  const overlaps = (start: number, end: number) => {
+    for (let i = start; i < end; i += 1) if (covered.has(i)) return true
+    return false
+  }
+  const pushSpan = (span: DateSpan, start: number, end: number) => {
+    if (overlaps(start, end)) return
+    if (span.endDate && span.endDate < span.date) return
+    if (span.endDate && span.endDate === span.date) {
+      spans.push({
+        date: span.date,
+        ...(span.startTime ? { startTime: span.startTime } : {}),
+        ...(span.endTime ? { endTime: span.endTime } : {}),
+      })
+    } else {
+      spans.push(span)
+    }
+    mark(start, end)
+  }
+
+  // 跨月/跨年期间（可带起止时刻）：4月4日～5月10日 / 10月23日 20:00 ～ 10月29日 23:59
   for (const m of block.matchAll(
-    /(\d{4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日[^\n]{0,24}?[/～〜~・\-–—]\s*(\d{1,2})\s*日/g,
+    /(?:(\d{4})\s*年\s*)?(\d{1,2})\s*月\s*(\d{1,2})\s*日(?:[（(][^）)]*[）)])?\s*(?:(\d{1,2})\s*[:：]\s*(\d{2}))?\s*[～〜~－\-–—]\s*(?:(\d{4})\s*年\s*)?(\d{1,2})\s*月\s*(\d{1,2})\s*日(?:[（(][^）)]*[）)])?\s*(?:(\d{1,2})\s*[:：]\s*(\d{2}))?/g,
   )) {
-    dates.push(resolveDate(Number(m[1]), Number(m[2]), Number(m[3]), publishedAt, true))
-    dates.push(resolveDate(Number(m[1]), Number(m[2]), Number(m[4]), publishedAt, true))
+    const idx = m.index ?? 0
+    const startYear = m[1] ? Number(m[1]) : m[6] ? Number(m[6]) : baseYear
+    const endYear = m[6] ? Number(m[6]) : startYear
+    const startExplicit = Boolean(m[1])
+    const endExplicit = Boolean(m[6])
+    const start = resolveDate(startYear, Number(m[2]), Number(m[3]), publishedAt, startExplicit)
+    let end = resolveDate(endYear, Number(m[7]), Number(m[8]), publishedAt, endExplicit)
+    // 省略年且结束月日早于开始：跨年（如 12月21日～1月3日）
+    if (!m[1] && !m[6] && end < start) {
+      end = resolveDate(startYear + 1, Number(m[7]), Number(m[8]), publishedAt, true)
+    }
+    const startTime = m[4] != null && m[5] != null ? tryHhmm(Number(m[4]), Number(m[5])) : null
+    const endTime = m[9] != null && m[10] != null ? tryHhmm(Number(m[9]), Number(m[10])) : null
+    pushSpan(
+      {
+        date: start,
+        endDate: end,
+        ...(startTime ? { startTime } : {}),
+        ...(endTime ? { endTime } : {}),
+      },
+      idx,
+      idx + m[0].length,
+    )
   }
 
+  // 同月跨日期间：2026年9月5日/6日、4月4日-5日
+  for (const m of block.matchAll(
+    /(?:(\d{4})\s*年\s*)?(\d{1,2})\s*月\s*(\d{1,2})\s*日[^\n]{0,24}?[/～〜~・\-–—]\s*(\d{1,2})\s*日/g,
+  )) {
+    const idx = m.index ?? 0
+    if (overlaps(idx, idx + m[0].length)) continue
+    const year = m[1] ? Number(m[1]) : baseYear
+    const explicit = Boolean(m[1])
+    const start = resolveDate(year, Number(m[2]), Number(m[3]), publishedAt, explicit)
+    const end = resolveDate(year, Number(m[2]), Number(m[4]), publishedAt, explicit)
+    pushSpan({ date: start, endDate: end }, idx, idx + m[0].length)
+  }
+
+  // M/D～M/D
+  for (const m of block.matchAll(
+    /(?:^|[^\d])(\d{1,2})\/(\d{1,2})\s*[～〜~－\-–—]\s*(\d{1,2})\/(\d{1,2})(?!\d)/g,
+  )) {
+    const idx = (m.index ?? 0) + (m[0].match(/^\d/) ? 0 : 1)
+    const raw = m[0].replace(/^[^\d]/, '')
+    if (overlaps(idx, idx + raw.length)) continue
+    const sm = Number(m[1])
+    const sd = Number(m[2])
+    const em = Number(m[3])
+    const ed = Number(m[4])
+    if (sm < 1 || sm > 12 || sd < 1 || sd > 31 || em < 1 || em > 12 || ed < 1 || ed > 31) continue
+    const start = resolveDate(baseYear, sm, sd, publishedAt, false)
+    let end = resolveDate(baseYear, em, ed, publishedAt, false)
+    if (end < start) end = resolveDate(baseYear + 1, em, ed, publishedAt, true)
+    pushSpan({ date: start, endDate: end }, idx, idx + raw.length)
+  }
+
+  // 单日：完整年月日
   for (const m of block.matchAll(/(\d{4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日/g)) {
-    dates.push(resolveDate(Number(m[1]), Number(m[2]), Number(m[3]), publishedAt, true))
+    const idx = m.index ?? 0
+    if (overlaps(idx, idx + m[0].length)) continue
+    const date = resolveDate(Number(m[1]), Number(m[2]), Number(m[3]), publishedAt, true)
+    pushSpan({ date }, idx, idx + m[0].length)
   }
 
+  // 单日：省略年 M月D日
   for (const m of block.matchAll(/(?:^|[^\d年])(\d{1,2})\s*月\s*(\d{1,2})\s*日/g)) {
     const idx = m.index ?? 0
+    const start = m[0].match(/^\d/) ? idx : idx + 1
     const before = block.slice(Math.max(0, idx - 8), idx)
     if (/\d{4}\s*年\s*$/.test(before) || /年\s*$/.test(before)) continue
-    dates.push(resolveDate(baseYear, Number(m[1]), Number(m[2]), publishedAt, false))
+    if (overlaps(start, start + m[0].replace(/^[^\d]/, '').length)) continue
+    const raw = `${m[1]}月${m[2]}日`
+    const date = resolveDate(baseYear, Number(m[1]), Number(m[2]), publishedAt, false)
+    pushSpan({ date }, start, start + raw.length)
   }
 
+  // 单日：M/D
   for (const m of block.matchAll(/(?:^|[^\d])(\d{1,2})\/(\d{1,2})(?!\d)/g)) {
     const month = Number(m[1])
     const day = Number(m[2])
     if (month < 1 || month > 12 || day < 1 || day > 31) continue
-    dates.push(resolveDate(baseYear, month, day, publishedAt, false))
+    const idx = (m.index ?? 0) + (m[0].match(/^\d/) ? 0 : 1)
+    const raw = `${month}/${day}`
+    if (overlaps(idx, idx + raw.length)) continue
+    const date = resolveDate(baseYear, month, day, publishedAt, false)
+    pushSpan({ date }, idx, idx + raw.length)
   }
 
-  return [...new Set(dates)]
+  return dedupeSpans(spans)
+}
+
+function dedupeSpans(spans: DateSpan[]): DateSpan[] {
+  const seen = new Set<string>()
+  const out: DateSpan[] = []
+  for (const span of spans) {
+    const key = `${span.date}|${span.endDate ?? ''}|${span.startTime ?? ''}|${span.endTime ?? ''}`
+    if (seen.has(key)) continue
+    seen.add(key)
+    out.push(span)
+  }
+  return out
 }
 
 function resolveDate(

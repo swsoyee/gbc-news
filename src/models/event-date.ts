@@ -5,9 +5,11 @@ export type EventDateKind = (typeof EVENT_DATE_KINDS)[number]
 const TIME_RE = /^([01]\d|2[0-3]):([0-5]\d)$/
 
 export interface EventDate {
-  /** YYYY-MM-DD（Asia/Tokyo 日历日） */
+  /** YYYY-MM-DD（Asia/Tokyo 日历日）开始日 */
   date: string
   kind: EventDateKind
+  /** 跨日期间的结束日（含当日）；缺省 = 单日 */
+  endDate?: string
   /** Asia/Tokyo 墙钟 HH:mm；缺省 = 全天事件 */
   startTime?: string
   /** Asia/Tokyo 墙钟 HH:mm；缺省且有 startTime 时由 feed 层补默认时长 */
@@ -39,6 +41,14 @@ export function assertEventDate(value: unknown): asserts value is EventDate {
   if (entry.endTime !== undefined) assertTime('endTime', entry.endTime)
   if (entry.endTime !== undefined && entry.startTime === undefined) {
     throw new Error('EventDate.endTime requires startTime')
+  }
+  if (entry.endDate !== undefined) {
+    if (typeof entry.endDate !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(entry.endDate)) {
+      throw new Error(`EventDate.endDate must be YYYY-MM-DD, got: ${String(entry.endDate)}`)
+    }
+    if (entry.endDate < entry.date) {
+      throw new Error(`EventDate.endDate must be >= date (${entry.date}..${entry.endDate})`)
+    }
   }
 }
 
@@ -90,19 +100,34 @@ export function tokyoWallToUtcIso(date: string, time: string): string {
   return new Date(Date.UTC(y, m - 1, d, hh - 9, mm, 0)).toISOString()
 }
 
-/** 有 startTime 时返回 UTC 起止；否则 null（全天）。 */
+/** 有 startTime 时返回 UTC 起止；否则 null（全天，可能跨日由 expand 处理）。 */
 export function eventDateToUtcRange(entry: EventDate): { startAt: string; endAt: string } | null {
   if (!entry.startTime) return null
 
   const startAt = tokyoWallToUtcIso(entry.date, entry.startTime)
+  const endDay = entry.endDate ?? entry.date
 
   if (entry.endTime) {
-    let endDate = entry.date
-    if (entry.endTime <= entry.startTime) endDate = addDays(entry.date, 1)
+    let endDate = endDay
+    if (!entry.endDate && entry.endTime <= entry.startTime) endDate = addDays(entry.date, 1)
     return { startAt, endAt: tokyoWallToUtcIso(endDate, entry.endTime) }
+  }
+
+  if (entry.endDate && entry.endDate > entry.date) {
+    // 跨日期间仅有开始时刻：结束日 23:59 JST
+    return { startAt, endAt: tokyoWallToUtcIso(entry.endDate, '23:59') }
   }
 
   const { time, dayDelta } = addMinutesToTime(entry.startTime, defaultDurationMinutes(entry.kind))
   const endDate = dayDelta > 0 ? addDays(entry.date, dayDelta) : entry.date
   return { startAt, endAt: tokyoWallToUtcIso(endDate, time) }
 }
+
+/** 全天跨日：iCal DTEND 为结束日次日（不含）。 */
+export function allDayExclusiveEndDate(entry: EventDate): string | null {
+  if (entry.startTime) return null
+  if (!entry.endDate || entry.endDate <= entry.date) return null
+  return addDays(entry.endDate, 1)
+}
+
+export { addDays as addCalendarDays }
