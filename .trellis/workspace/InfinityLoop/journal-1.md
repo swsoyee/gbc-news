@@ -38,3 +38,40 @@
 ### Next Steps
 
 - None - task complete
+
+
+## Session 2: firstriff 源、组合筛选与活动日订阅
+
+**Date**: 2026-07-16
+**Task**: firstriff 源、组合筛选与活动日订阅
+**Branch**: `main`
+
+### Summary
+
+接入 gbc-firstriff；新增组合维度与维间 AND 过滤；RSS/iCal 按正文活动日（開催/発売）展开；同步 backend spec。
+
+### Main Changes
+
+- Detailed change bullets were not supplied; see the summary above.
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `55ea33e` | (see git log) |
+| `37ac55a` | (see git log) |
+| `94ca9d7` | (see git log) |
+| `59b8253` | (see git log) |
+| `af0d8fb` | (see git log) |
+
+### Testing
+
+- Validation was not recorded for this session.
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
