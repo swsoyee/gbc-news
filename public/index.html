@@ -123,10 +123,20 @@
         border: 1px solid var(--line);
         font-size: 0.86rem;
       }
-      .meta {
+      .link-row.is-dimmed {
+        opacity: 0.45;
+      }
+      .link-row.is-dimmed strong {
         color: var(--muted);
+      }
+      #filter-status {
+        margin-top: 0.9rem;
+        padding: 0.75rem 0.85rem;
+        border: 1px solid var(--accent);
+        background: rgba(232, 93, 76, 0.12);
+        color: var(--ink);
         font-size: 0.92rem;
-        line-height: 1.6;
+        line-height: 1.55;
       }
       .note {
         color: var(--muted);
@@ -148,7 +158,7 @@
         <div class="cats" id="groups"></div>
         <div class="actions">
           <button type="button" id="select-all-groups">全选组合</button>
-          <button type="button" id="clear-all-groups">清空组合（全部）</button>
+          <button type="button" id="clear-all-groups">不限组合（全部）</button>
         </div>
       </section>
 
@@ -157,9 +167,10 @@
         <div class="cats" id="cats"></div>
         <div class="actions">
           <button type="button" id="select-all">全选分类</button>
-          <button type="button" id="clear-all">清空分类（全部）</button>
+          <button type="button" id="clear-all">不限分类（全部）</button>
         </div>
         <p class="meta" id="stats">加载中…</p>
+        <p id="filter-status">当前筛选：加载中…</p>
       </section>
 
       <section>
@@ -197,8 +208,10 @@
           ICS，请删旧订阅后用带 <code>?v=</code> 的新链接重新添加。
         </p>
         <p class="note">
-          说明：组合与分类维间 AND、维内 OR。无活动日的稿不进入 RSS/iCal，但仍保留在
-          <code>/data/news.json</code>。推荐静态链接 <code>/feeds/all.ics</code>。
+          说明：先勾选组合与分类，「自定义订阅」链接会立刻按
+          <strong>组合 ∩ 分类</strong> 过滤（维内多选为
+          OR）。下方各组合/分类快捷链接是单维订阅；未选中的会变暗。无活动日的稿不进日历，仍在
+          <code>/data/news.json</code>。
         </p>
       </section>
     </main>
