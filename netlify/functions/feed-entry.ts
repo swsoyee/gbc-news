@@ -1,11 +1,8 @@
 import { buildIcal, buildRss } from '../../src/feeds/build.js'
+import { expandEventDates } from '../../src/feeds/expand.js'
 import { parseCategoryList } from '../../src/models/categories.js'
-import {
-  assertNewsItem,
-  filterItemsByCategories,
-  filterItemsForCalendar,
-  type NewsItem,
-} from '../../src/models/item.js'
+import { parseGroupList } from '../../src/models/groups.js'
+import { assertNewsItem, filterItems, type NewsItem } from '../../src/models/item.js'
 
 interface Snapshot {
   items: NewsItem[]
@@ -24,6 +21,7 @@ export async function handler(event: {
     const params = event.queryStringParameters ?? {}
     const format = (params.format ?? 'rss').toLowerCase()
     const categories = parseCategoryList(params.categories)
+    const groups = parseGroupList(params.groups)
 
     const host = event.headers?.host ?? 'localhost'
     const proto = event.headers?.['x-forwarded-proto'] ?? 'https'
@@ -39,17 +37,16 @@ export async function handler(event: {
     }
     for (const item of snapshot.items) assertNewsItem(item)
 
-    const byCategory = filterItemsByCategories(snapshot.items, categories)
+    const filtered = filterItems(snapshot.items, { groups, categories })
+    const entries = expandEventDates(filtered)
     const isIcs = format === 'ics' || format === 'ical'
-    const items = isIcs
-      ? filterItemsForCalendar(byCategory).sort((a, b) =>
-          (a.eventAt ?? '').localeCompare(b.eventAt ?? ''),
-        )
-      : byCategory
 
-    const label = categories == null ? '全部' : categories.join(',')
+    const groupLabel = groups == null ? '全部组合' : groups.join(',')
+    const categoryLabel = categories == null ? '全部分类' : categories.join(',')
+    const label = `${groupLabel} · ${categoryLabel}`
     const query = new URLSearchParams()
     query.set('format', isIcs ? 'ics' : 'rss')
+    if (groups) query.set('groups', groups.join(','))
     if (categories) query.set('categories', categories.join(','))
 
     const meta = {
@@ -69,7 +66,7 @@ export async function handler(event: {
           'content-disposition': 'inline; filename="gbc-news.ics"',
           'cache-control': 'public, max-age=300',
         },
-        body: buildIcal(items, meta),
+        body: buildIcal(entries, meta),
       }
     }
 
@@ -79,7 +76,7 @@ export async function handler(event: {
         'content-type': 'application/rss+xml; charset=utf-8',
         'cache-control': 'public, max-age=300',
       },
-      body: buildRss(items, meta),
+      body: buildRss(entries, meta),
     }
   } catch (error) {
     return jsonError(500, error instanceof Error ? error.message : 'unknown error')

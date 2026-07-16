@@ -1,4 +1,4 @@
-import type { NewsItem } from '../models/item.js'
+import type { FeedEntry } from './expand.js'
 
 export interface FeedMeta {
   title: string
@@ -16,20 +16,25 @@ function escapeXml(value: string): string {
     .replace(/'/g, '&apos;')
 }
 
-export function buildRss(items: NewsItem[], meta: FeedMeta): string {
+export function buildRss(entries: FeedEntry[], meta: FeedMeta): string {
   const now = new Date().toUTCString()
-  const entries = items
-    .map((item) => {
-      const categories = item.categories
+  const items = entries
+    .map((entry) => {
+      const categories = entry.categories
         .map((category) => `      <category>${escapeXml(category)}</category>`)
         .join('\n')
-      const description = escapeXml(item.summary ?? item.title)
+      const groups = entry.groups
+        .map((group) => `      <category domain="group">${escapeXml(group)}</category>`)
+        .join('\n')
+      const description = escapeXml(entry.summary ?? entry.title)
+      const guid = `${entry.entryId}@gbc-news`
       return `    <item>
-      <title>${escapeXml(item.title)}</title>
-      <link>${escapeXml(item.url)}</link>
-      <guid isPermaLink="true">${escapeXml(item.url)}</guid>
-      <pubDate>${new Date(item.publishedAt).toUTCString()}</pubDate>
+      <title>${escapeXml(entry.title)}</title>
+      <link>${escapeXml(entry.url)}</link>
+      <guid isPermaLink="false">${escapeXml(guid)}</guid>
+      <pubDate>${new Date(entry.occurredOn).toUTCString()}</pubDate>
 ${categories}
+${groups}
       <description>${description}</description>
     </item>`
     })
@@ -43,7 +48,7 @@ ${categories}
     <description>${escapeXml(meta.description)}</description>
     <lastBuildDate>${now}</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="${escapeXml(meta.feedUrl)}" rel="self" type="application/rss+xml" />
-${entries}
+${items}
   </channel>
 </rss>
 `
@@ -90,10 +95,9 @@ function toIcsDateTimeUtc(iso: string): string {
   return iso.replace(/[-:]/g, '').replace(/\.\d{3}Z$/, 'Z')
 }
 
-/** 新闻按「发布日」作为全天事件，兼容 Apple / Google 日历。 */
 function toIcsDateValue(iso: string): string {
   const match = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso)
-  if (!match) throw new Error(`Invalid publishedAt for iCal: ${iso}`)
+  if (!match) throw new Error(`Invalid occurredOn for iCal: ${iso}`)
   return `${match[1]}${match[2]}${match[3]}`
 }
 
@@ -114,7 +118,8 @@ function truncateIcs(value: string, maxChars: number): string {
   return `${value.slice(0, Math.max(0, maxChars - 1))}…`
 }
 
-export function buildIcal(items: NewsItem[], meta: FeedMeta): string {
+/** 按活动日生成全天事件；DTSTART = occurredOn（非发稿日）。 */
+export function buildIcal(entries: FeedEntry[], meta: FeedMeta): string {
   const lines = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
@@ -127,20 +132,16 @@ export function buildIcal(items: NewsItem[], meta: FeedMeta): string {
     foldIcs(`NAME:${icsText(meta.title)}`),
   ]
 
-  for (const item of items) {
-    if (!item.eventAt) continue
-
-    // 日历使用事件发生日，而非发稿日
-    const stamp = toIcsDateTimeUtc(item.eventAt)
-    const startDate = toIcsDateValue(item.eventAt)
-    const endSource = item.eventEndAt ?? item.eventAt
-    const endDate = nextIcsDateValue(toIcsDateValue(endSource))
-    const summary = truncateIcs(icsText(item.title), 80)
-    const description = truncateIcs(icsText(`${item.summary ?? item.title}\n${item.url}`), 200)
-    const tags = item.categories.map(icsText).join(',')
+  for (const entry of entries) {
+    const stamp = toIcsDateTimeUtc(entry.occurredOn)
+    const startDate = toIcsDateValue(entry.occurredOn)
+    const endDate = nextIcsDateValue(startDate)
+    const summary = truncateIcs(icsText(entry.title), 80)
+    const description = truncateIcs(icsText(`${entry.summary ?? entry.title}\n${entry.url}`), 200)
+    const tags = [...entry.groups, ...entry.categories].map(icsText).join(',')
 
     lines.push('BEGIN:VEVENT')
-    lines.push(foldIcs(`UID:${item.id}@gbc-news`))
+    lines.push(foldIcs(`UID:${entry.entryId}@gbc-news`))
     lines.push(`DTSTAMP:${stamp}`)
     lines.push(`DTSTART;VALUE=DATE:${startDate}`)
     lines.push(`DTEND;VALUE=DATE:${endDate}`)
@@ -148,7 +149,7 @@ export function buildIcal(items: NewsItem[], meta: FeedMeta): string {
     lines.push('STATUS:CONFIRMED')
     lines.push(foldIcs(`SUMMARY:${summary}`))
     lines.push(foldIcs(`DESCRIPTION:${description}`))
-    lines.push(foldIcs(`URL;VALUE=URI:${item.url}`))
+    lines.push(foldIcs(`URL;VALUE=URI:${entry.url}`))
     if (tags) lines.push(foldIcs(`CATEGORIES:${tags}`))
     lines.push('END:VEVENT')
   }
