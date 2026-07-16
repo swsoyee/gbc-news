@@ -137,7 +137,9 @@ export function buildIcal(entries: FeedEntry[], meta: FeedMeta): string {
     const startDate = toIcsDateValue(entry.occurredOn)
     const endDate = nextIcsDateValue(startDate)
     const summary = truncateIcs(icsText(entry.title), 80)
-    const description = truncateIcs(icsText(`${entry.summary ?? entry.title}\n${entry.url}`), 200)
+    // 摘要可截断，但原始跳转链接必须完整（单独追加，避免 truncate 砍断 URL）
+    const descriptionText = truncateIcs(icsText(entry.summary ?? entry.title), 200)
+    const description = `${descriptionText}\\n${icsText(entry.url)}`
     const tags = [...entry.groups, ...entry.categories].map(icsText).join(',')
 
     lines.push('BEGIN:VEVENT')

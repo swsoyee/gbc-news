@@ -10,15 +10,22 @@ interface LabelRule {
 const LABEL_RULES: LabelRule[] = [
   { kind: 'hold', label: /開催日時/g },
   { kind: 'hold', label: /開催日程/g },
+  { kind: 'hold', label: /開催期間/g },
+  { kind: 'hold', label: /開催概要/g },
   { kind: 'hold', label: /開催日/g },
   { kind: 'hold', label: /出演日/g },
   { kind: 'hold', label: /■\s*日程/g },
   { kind: 'hold', label: /(?:^|[^\w])日程[：:\s]/g },
   { kind: 'sale', label: /チケット発売日/g },
+  { kind: 'sale', label: /販売開始日時/g },
   { kind: 'sale', label: /発売日/g },
   { kind: 'sale', label: /通販[^\n]{0,12}開始/g },
   { kind: 'sale', label: /受注[^\n]{0,12}開始/g },
 ]
+
+/** 标题/短摘要里表示「这是活动相关」的线索（用于无正式标签时的回退） */
+const EVENT_CUE =
+  /開催|出演|上映|発売|配信|ライブ|LIVE|ツアー|Tour|カフェ|フェス|ポップアップ|実施決定/
 
 /**
  * 从标题/正文抽取活动相关日（D8/D9/D10）。
@@ -27,12 +34,19 @@ const LABEL_RULES: LabelRule[] = [
 export function extractEventDates(title: string, body = '', publishedAt?: string): EventDate[] {
   const text = `${title}\n${body}`
   // 仅有「N営業日」类相对措辞、无明确活动标签时直接跳过
-  if (/営業日/.test(text) && !hasAllowedDateLabel(text)) {
+  if (/営業日/.test(text) && !hasAllowedDateLabel(text) && !EVENT_CUE.test(text)) {
     return []
   }
 
   const found: EventDate[] = []
   const seen = new Set<string>()
+
+  const push = (date: string, kind: EventDateKind) => {
+    const key = `${date}|${kind}`
+    if (seen.has(key)) return
+    seen.add(key)
+    found.push({ date, kind })
+  }
 
   for (const rule of LABEL_RULES) {
     const flags = rule.label.flags.includes('g') ? rule.label.flags : `${rule.label.flags}g`
@@ -48,13 +62,25 @@ export function extractEventDates(title: string, body = '', publishedAt?: string
       const afterLabel = match[0].length
       const tail = text.slice(start)
       const nextMark = tail.slice(afterLabel).search(/■/)
-      const end = nextMark >= 0 ? afterLabel + nextMark : Math.min(tail.length, afterLabel + 120)
+      const end = nextMark >= 0 ? afterLabel + nextMark : Math.min(tail.length, afterLabel + 160)
       const block = sanitizeBlock(tail.slice(0, end))
       for (const date of extractDatesInBlock(block, publishedAt)) {
-        const key = `${date}|${rule.kind}`
-        if (seen.has(key)) continue
-        seen.add(key)
-        found.push({ date, kind: rule.kind })
+        push(date, rule.kind)
+      }
+    }
+  }
+
+  // 标题回退：无/少标签时覆盖「7/3より開催」「3月14日公演」等
+  if (EVENT_CUE.test(title) || EVENT_CUE.test(text)) {
+    const titleKind: EventDateKind = /発売|Release|通販|受注/.test(title) ? 'sale' : 'hold'
+    for (const date of extractDatesInBlock(sanitizeBlock(title), publishedAt)) {
+      push(date, titleKind)
+    }
+    // 标题无日期时再扫短摘要/正文头（如 CON-CON 的 📅2026年4月4日-5日）
+    if (found.length === 0) {
+      const headKind: EventDateKind = /発売|Release|通販|受注/.test(text) ? 'sale' : 'hold'
+      for (const date of extractDatesInBlock(sanitizeBlock(body.slice(0, 280)), publishedAt)) {
+        push(date, headKind)
       }
     }
   }
@@ -76,9 +102,9 @@ function extractDatesInBlock(block: string, publishedAt?: string): string[] {
   const baseYear = yearFromIso(publishedAt) ?? new Date().getUTCFullYear()
   const dates: string[] = []
 
-  // 2026年9月5日(土)/6日(日) 或 2026年3月28日(土)～29日(日)
+  // 2026年9月5日(土)/6日(日) 或 2026年3月28日(土)～29日(日) 或 2026年4月4日-5日
   for (const m of block.matchAll(
-    /(\d{4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日[^\n]{0,24}?[/～〜~・]\s*(\d{1,2})\s*日/g,
+    /(\d{4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日[^\n]{0,24}?[/～〜~・\-–—]\s*(\d{1,2})\s*日/g,
   )) {
     dates.push(resolveDate(Number(m[1]), Number(m[2]), Number(m[3]), publishedAt, true))
     dates.push(resolveDate(Number(m[1]), Number(m[2]), Number(m[4]), publishedAt, true))
@@ -90,11 +116,19 @@ function extractDatesInBlock(block: string, publishedAt?: string): string[] {
 
   // 省略年：9月6日 / 8月14日(金)
   for (const m of block.matchAll(/(?:^|[^\d年])(\d{1,2})\s*月\s*(\d{1,2})\s*日/g)) {
-    // 跳过已被完整年月日覆盖的片段（避免重复）：若前 6 字符含「年」则是完整日期尾巴
+    // 仅跳过「2026年4月4日」里的月日尾巴；「2026 3月14日」这种空格分隔仍保留
     const idx = m.index ?? 0
-    const before = block.slice(Math.max(0, idx - 6), idx)
-    if (/\d{4}\s*$/.test(before) || /年\s*$/.test(before)) continue
+    const before = block.slice(Math.max(0, idx - 8), idx)
+    if (/\d{4}\s*年\s*$/.test(before) || /年\s*$/.test(before)) continue
     dates.push(resolveDate(baseYear, Number(m[1]), Number(m[2]), publishedAt, false))
+  }
+
+  // 斜杠日期：7/3(金)、4/4(土)より
+  for (const m of block.matchAll(/(?:^|[^\d])(\d{1,2})\/(\d{1,2})(?!\d)/g)) {
+    const month = Number(m[1])
+    const day = Number(m[2])
+    if (month < 1 || month > 12 || day < 1 || day > 31) continue
+    dates.push(resolveDate(baseYear, month, day, publishedAt, false))
   }
 
   return [...new Set(dates)]

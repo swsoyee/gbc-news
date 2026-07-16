@@ -74,4 +74,28 @@ describe('feeds', () => {
       expect(new TextEncoder().encode(line).length).toBeLessThanOrEqual(75)
     }
   })
+
+  it('iCal DESCRIPTION 与 URL 保留完整原始链接（不被截断）', () => {
+    const longUrl =
+      'https://girls-band-cry.com/news/post-999.html?utm_source=calendar&utm_campaign=very-long-tracking-parameter-should-stay-intact'
+    const longSummary =
+      '平素より格別のご愛顧を賜り、誠にありがとうございます。詳細は公式サイトをご確認ください。'.repeat(
+        4,
+      )
+    const withLong = {
+      ...item,
+      id: 'post-url',
+      url: longUrl,
+      summary: longSummary,
+      eventDates: [{ date: '2026-09-06', kind: 'hold' as const }],
+    }
+    const ics = buildIcal(expandEventDates([withLong]), meta)
+    // DESCRIPTION / URL 可能按 RFC5545 折行，展开后再断言完整链接
+    const unfolded = ics.replace(/\r\n[ \t]/g, '')
+    expect(unfolded).toContain(`URL;VALUE=URI:${longUrl}`)
+    expect(unfolded).toContain(longUrl)
+    expect(unfolded).not.toMatch(
+      /https:\/\/girls-band-cry\.com\/news\/post-999\.html\?utm_source=cal…/,
+    )
+  })
 })
