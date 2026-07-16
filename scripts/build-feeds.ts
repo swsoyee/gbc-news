@@ -20,7 +20,9 @@ async function main(): Promise<void> {
   try {
     rawText = await readFile(dataPath, 'utf8')
   } catch {
-    console.warn('[warn] data/gbc-news/latest.json 不存在，跳过 feed 生成（请先 npm run scrape:gbc）')
+    console.warn(
+      '[warn] data/gbc-news/latest.json 不存在，跳过 feed 生成（请先 npm run scrape:gbc）',
+    )
     return
   }
 
@@ -46,8 +48,7 @@ async function main(): Promise<void> {
 }
 
 async function writeFeed(name: string, items: NewsItem[], siteUrl: string): Promise<void> {
-  const label =
-    name === 'all' ? '全部' : (CATEGORY_LABELS[name as CategoryId]?.zh ?? name)
+  const label = name === 'all' ? '全部' : (CATEGORY_LABELS[name as CategoryId]?.zh ?? name)
   const meta = {
     title: `gbc-news · ${label}`,
     homeUrl: `${siteUrl}/`,

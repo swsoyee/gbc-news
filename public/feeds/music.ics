@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:gbc-news · 曲目
 BEGIN:VEVENT
 UID:post-487@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 TRANSP:TRANSPARENT
@@ -21,11 +21,11 @@ DESCRIPTION:劇場版総集編「ガールズバンドクライ」【前編
  青ミニアチュール」 Produced by 玉井健二（agehasprings） 作
  詞：吉岡大地 作曲：吉岡大地
 URL:https://girls-band-cry.com/news/post-487.html
-CATEGORIES:togenashi,music,cinema
+CATEGORIES:music,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-464@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260314
 DTEND;VALUE=DATE:20260315
 TRANSP:TRANSPARENT
@@ -40,11 +40,11 @@ DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
  起用される。ブックレットには、劇場で入場者特典と
  して配布された 手島nari描き下ろし漫画 
 URL:https://girls-band-cry.com/news/post-464.html
-CATEGORIES:togenashi,live,music,goods,event,cinema,media
+CATEGORIES:live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-465@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260314
 DTEND;VALUE=DATE:20260315
 TRANSP:TRANSPARENT
@@ -59,11 +59,11 @@ DESCRIPTION:2024年にリリースされた2枚のアルバム「棘アリ
  す！ 2枚ともに完全生産限定のため、確実に手に入れた
  い場合は5月24日(日)までのご予約を忘れずに。 ▶「棘
 URL:https://girls-band-cry.com/news/post-465.html
-CATEGORIES:togenashi,live,music,event
+CATEGORIES:live,music,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-455@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260211
 DTEND;VALUE=DATE:20260212
 TRANSP:TRANSPARENT
@@ -75,6 +75,6 @@ DESCRIPTION:2025年2月7日(金)にパシフィコ横浜 国立大ホール
  ) Release →2026年3月25日(水) Release ▼発売日延期につきま
  して https://girls-band-cry.com/news/post-4
 URL:https://girls-band-cry.com/news/post-455.html
-CATEGORIES:togenashi,live,music,event,cinema
+CATEGORIES:live,music,event,cinema
 END:VEVENT
 END:VCALENDAR

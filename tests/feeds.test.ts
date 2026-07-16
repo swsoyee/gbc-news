@@ -10,7 +10,6 @@ const items: NewsItem[] = [
     publishedAt: '2026-07-01T00:00:00.000Z',
     sourceId: 'gbc-news',
     categories: ['live'],
-    groups: ['togenashi'],
     summary: 'チケット発売',
   },
 ]
@@ -28,7 +27,6 @@ describe('feeds', () => {
     expect(rss).toContain('<rss version="2.0">')
     expect(rss).toContain('Live 情報')
     expect(rss).toContain('<category>live</category>')
-    expect(rss).toContain('<category>togenashi</category>')
   })
 
   it('生成兼容日历客户端的全天 iCal', () => {
@@ -37,7 +35,7 @@ describe('feeds', () => {
     expect(ics).toContain('UID:post-1@gbc-news')
     expect(ics).toContain('DTSTART;VALUE=DATE:20260701')
     expect(ics).toContain('DTEND;VALUE=DATE:20260702')
-    expect(ics).toContain('CATEGORIES:togenashi,live')
+    expect(ics).toContain('CATEGORIES:live')
 
     // 日文长标题应按 UTF-8 字节折行，不能整行超长
     const longTitleItem: NewsItem = {

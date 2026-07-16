@@ -20,7 +20,7 @@ export function buildRss(items: NewsItem[], meta: FeedMeta): string {
   const now = new Date().toUTCString()
   const entries = items
     .map((item) => {
-      const categories = [...item.groups, ...item.categories]
+      const categories = item.categories
         .map((category) => `      <category>${escapeXml(category)}</category>`)
         .join('\n')
       const description = escapeXml(item.summary ?? item.title)
@@ -120,7 +120,7 @@ export function buildIcal(items: NewsItem[], meta: FeedMeta): string {
     const stamp = toIcsDateTimeUtc(new Date().toISOString())
     const startDate = toIcsDateValue(item.publishedAt)
     const endDate = nextIcsDateValue(startDate)
-    const tags = [...item.groups, ...item.categories].map(icsText).join(',')
+    const tags = item.categories.map(icsText).join(',')
 
     lines.push('BEGIN:VEVENT')
     lines.push(foldIcs(`UID:${item.id}@gbc-news`))

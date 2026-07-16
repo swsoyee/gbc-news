@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:gbc-news · 媒体
 BEGIN:VEVENT
 UID:post-485@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 TRANSP:TRANSPARENT
@@ -21,11 +21,11 @@ DESCRIPTION:劇場版総集編「ガールズバンドクライ」【前編
   MUSIC STORE カスタマーサポート https://store-annex.universal-mus
  ic.co.jp/InquiryInput.
 URL:https://girls-band-cry.com/news/post-485.html
-CATEGORIES:togenashi,cinema,media
+CATEGORIES:cinema,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-468@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260406
 DTEND;VALUE=DATE:20260407
 TRANSP:TRANSPARENT
@@ -39,11 +39,11 @@ DESCRIPTION:TVアニメ『ガールズバンドクライ』 放送２周年
  9まで 【参加方法】 ①X（旧Twitter）の ＠girlsbandcry をフ
  ォ
 URL:https://girls-band-cry.com/news/post-468.html
-CATEGORIES:togenashi,event,media
+CATEGORIES:event,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-464@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260314
 DTEND;VALUE=DATE:20260315
 TRANSP:TRANSPARENT
@@ -58,11 +58,11 @@ DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
  起用される。ブックレットには、劇場で入場者特典と
  して配布された 手島nari描き下ろし漫画 
 URL:https://girls-band-cry.com/news/post-464.html
-CATEGORIES:togenashi,live,music,goods,event,cinema,media
+CATEGORIES:live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-457@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260210
 DTEND;VALUE=DATE:20260211
 TRANSP:TRANSPARENT
@@ -77,6 +77,6 @@ DESCRIPTION:『劇場版総集編ガールズバンドクライ』前編・
  総集編ガールズバンドクライ 青春狂走曲（前編）」、 
  「劇場版総集編ガールズバンドクライ
 URL:https://girls-band-cry.com/news/post-457.html
-CATEGORIES:togenashi,goods,event,cinema,media
+CATEGORIES:goods,event,cinema,media
 END:VEVENT
 END:VCALENDAR

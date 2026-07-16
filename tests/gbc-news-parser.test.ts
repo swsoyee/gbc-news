@@ -46,9 +46,9 @@ describe('classifyText', () => {
   })
 
   it('グッズ文识别为 goods', () => {
-    expect(classifyText('夏らしい新グッズ「トゲナシトゲアリ 甚平」が二次元コスパより登場！')).toContain(
-      'goods',
-    )
+    expect(
+      classifyText('夏らしい新グッズ「トゲナシトゲアリ 甚平」が二次元コスパより登場！'),
+    ).toContain('goods')
   })
 
   it('无关键词时为 other', () => {

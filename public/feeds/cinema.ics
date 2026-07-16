@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:gbc-news · 剧场/映像
 BEGIN:VEVENT
 UID:post-487@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 TRANSP:TRANSPARENT
@@ -21,11 +21,11 @@ DESCRIPTION:劇場版総集編「ガールズバンドクライ」【前編
  青ミニアチュール」 Produced by 玉井健二（agehasprings） 作
  詞：吉岡大地 作曲：吉岡大地
 URL:https://girls-band-cry.com/news/post-487.html
-CATEGORIES:togenashi,music,cinema
+CATEGORIES:music,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-486@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 TRANSP:TRANSPARENT
@@ -39,11 +39,11 @@ DESCRIPTION:劇場版総集編「ガールズバンドクライ」【前編
  ex.universal-music.co.jp/InquiryInput.jsp ＊カスタマーサポート
  通常営業時
 URL:https://girls-band-cry.com/news/post-486.html
-CATEGORIES:togenashi,cinema
+CATEGORIES:cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-485@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
 TRANSP:TRANSPARENT
@@ -58,11 +58,11 @@ DESCRIPTION:劇場版総集編「ガールズバンドクライ」【前編
   MUSIC STORE カスタマーサポート https://store-annex.universal-mus
  ic.co.jp/InquiryInput.
 URL:https://girls-band-cry.com/news/post-485.html
-CATEGORIES:togenashi,cinema,media
+CATEGORIES:cinema,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-479@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260611
 DTEND;VALUE=DATE:20260612
 TRANSP:TRANSPARENT
@@ -73,11 +73,11 @@ DESCRIPTION:劇場版総集編ガールズバンドクライ店舗・スト
  …‼️ 是非チェックしてみてください👀 🔗商品詳細 
  https://girls-band-cry.com/cinema/goods/category/bddvd/
 URL:https://girls-band-cry.com/news/post-479.html
-CATEGORIES:togenashi,goods,cinema
+CATEGORIES:goods,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-478@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260610
 DTEND;VALUE=DATE:20260611
 TRANSP:TRANSPARENT
@@ -86,11 +86,11 @@ SUMMARY:劇場版総集編ガールズバンドクライ〈アニメイト
 DESCRIPTION:💿 劇場版総集編ガールズバンドクライ[Blu-ray][
  DVD]
 URL:https://girls-band-cry.com/news/post-478.html
-CATEGORIES:togenashi,goods,cinema
+CATEGORIES:goods,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-473@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
 TRANSP:TRANSPARENT
@@ -103,11 +103,11 @@ DESCRIPTION:ガールズバンドクライ Special LIVE “赤色の響祭
  ールズバンドクライ 【前編】 青春狂走曲 Blu-ray & DVD 劇
  場版総集編 ガールズバンドクライ 【後編】 なぁ、未
 URL:https://girls-band-cry.com/news/post-473.html
-CATEGORIES:togenashi,live,event,cinema
+CATEGORIES:live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-472@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260417
 DTEND;VALUE=DATE:20260418
 TRANSP:TRANSPARENT
@@ -123,11 +123,11 @@ DESCRIPTION:UNIVERSAL MUSIC STOREと東映アニメーションオフィシ
  の方のみ、お届けします。 ※画像はイメージです。実
  物とは異なる場合がございます。 UNIVER
 URL:https://girls-band-cry.com/news/post-472.html
-CATEGORIES:togenashi,goods,cinema
+CATEGORIES:goods,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-470@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260415
 DTEND;VALUE=DATE:20260416
 TRANSP:TRANSPARENT
@@ -142,11 +142,11 @@ DESCRIPTION:『劇場版総集編ガールズバンドクライ』（初回
  のストーリーが付きます。 ※初回限定版にのみ封入さ
  れます。 ※仕様は変更する場合がございます。 UN
 URL:https://girls-band-cry.com/news/post-470.html
-CATEGORIES:togenashi,goods,cinema
+CATEGORIES:goods,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-469@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260410
 DTEND;VALUE=DATE:20260411
 TRANSP:TRANSPARENT
@@ -161,11 +161,11 @@ DESCRIPTION:UNIVERSAL MUSIC STOREと東映アニメーションオフィシ
  るもので特典ではありません。その為、配送時におけ
  る凹み・汚れ、破損や角潰れなどに伴う交換・返金
 URL:https://girls-band-cry.com/news/post-469.html
-CATEGORIES:togenashi,goods,cinema
+CATEGORIES:goods,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-467@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260408
 DTEND;VALUE=DATE:20260409
 TRANSP:TRANSPARENT
@@ -179,11 +179,11 @@ DESCRIPTION:2026年4月24日(金)は、「ガルクラプロジェクト始
  ガールズバンドクライ 【後編】 なぁ、未来。』の二夜
  連続上映の実施が決定しました！ ＜上映作品
 URL:https://girls-band-cry.com/news/post-467.html
-CATEGORIES:togenashi,live,cinema
+CATEGORIES:live,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-464@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260314
 DTEND;VALUE=DATE:20260315
 TRANSP:TRANSPARENT
@@ -198,11 +198,11 @@ DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
  起用される。ブックレットには、劇場で入場者特典と
  して配布された 手島nari描き下ろし漫画 
 URL:https://girls-band-cry.com/news/post-464.html
-CATEGORIES:togenashi,live,music,goods,event,cinema,media
+CATEGORIES:live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-466@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260314
 DTEND;VALUE=DATE:20260315
 TRANSP:TRANSPARENT
@@ -215,11 +215,11 @@ DESCRIPTION:トゲナシトゲアリ TOUR 2026 FINAL “拍動の未来 -EN
  定席 11\,000円（税込） ※グッズは「トゲナシトゲアリ T
  OUR 2026
 URL:https://girls-band-cry.com/news/post-466.html
-CATEGORIES:togenashi,live,goods,event,cinema
+CATEGORIES:live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-460@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260302
 DTEND;VALUE=DATE:20260303
 TRANSP:TRANSPARENT
@@ -233,11 +233,11 @@ DESCRIPTION:平素より格別のご愛顧を賜り、誠にありがとう
  しみにお待ちいただいております皆様には、多大なる
  ご迷惑をおかけいたしますこと、心よりお
 URL:https://girls-band-cry.com/news/post-460.html
-CATEGORIES:togenashi,live,cinema
+CATEGORIES:live,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-455@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260211
 DTEND;VALUE=DATE:20260212
 TRANSP:TRANSPARENT
@@ -249,11 +249,11 @@ DESCRIPTION:2025年2月7日(金)にパシフィコ横浜 国立大ホール
  ) Release →2026年3月25日(水) Release ▼発売日延期につきま
  して https://girls-band-cry.com/news/post-4
 URL:https://girls-band-cry.com/news/post-455.html
-CATEGORIES:togenashi,live,music,event,cinema
+CATEGORIES:live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-457@gbc-news
-DTSTAMP:20260716T113227Z
+DTSTAMP:20260716T113657Z
 DTSTART;VALUE=DATE:20260210
 DTEND;VALUE=DATE:20260211
 TRANSP:TRANSPARENT
@@ -268,6 +268,6 @@ DESCRIPTION:『劇場版総集編ガールズバンドクライ』前編・
  総集編ガールズバンドクライ 青春狂走曲（前編）」、 
  「劇場版総集編ガールズバンドクライ
 URL:https://girls-band-cry.com/news/post-457.html
-CATEGORIES:togenashi,goods,event,cinema,media
+CATEGORIES:goods,event,cinema,media
 END:VEVENT
 END:VCALENDAR

@@ -1,13 +1,5 @@
 /** 资讯分类（官网无原生分类时由规则推断，一文可多类） */
-export const CATEGORY_IDS = [
-  'live',
-  'event',
-  'goods',
-  'music',
-  'cinema',
-  'media',
-  'other',
-] as const
+export const CATEGORY_IDS = ['live', 'event', 'goods', 'music', 'cinema', 'media', 'other'] as const
 
 export type CategoryId = (typeof CATEGORY_IDS)[number]
 
