@@ -1,4 +1,4 @@
-# 定时抓取官网 / First Riff，重建 RSS·iCal 并推送（触发 Netlify 部署）
+# 定时增量抓取官网 / First Riff，重建 RSS·iCal 并推送（触发 Netlify 部署）
 name: Scrape
 
 on:
@@ -18,7 +18,7 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
@@ -30,7 +30,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Scrape sources
+      - name: Scrape sources (incremental)
+        env:
+          SCRAPE_MODE: incremental
         run: npm run scrape
 
       - name: Build feeds
@@ -47,5 +49,5 @@ jobs:
             echo "No feed changes"
             exit 0
           fi
-          git commit -m "chore: 定时更新抓取快照与订阅源"
+          git commit -m "chore: 增量更新抓取快照与订阅源"
           git push

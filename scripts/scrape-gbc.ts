@@ -1,11 +1,19 @@
-import { mkdir, writeFile } from 'node:fs/promises'
+import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { assertNewsItem } from '../src/models/item.js'
+import { assertNewsItem, type NewsItem } from '../src/models/item.js'
 import { scrapeGbcNews } from '../src/scrapers/gbc-news/index.js'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const outPath = join(root, 'data/gbc-news/latest.json')
+
+interface Snapshot {
+  sourceId?: string
+  scrapedAt?: string
+  maxPages?: number | null
+  count?: number
+  items?: NewsItem[]
+}
 
 function resolveMaxPages(raw: string | undefined): number {
   if (raw == null || raw.trim() === '' || raw === '0' || raw.toLowerCase() === 'all') {
@@ -18,19 +26,62 @@ function resolveMaxPages(raw: string | undefined): number {
   return Math.floor(n)
 }
 
-async function main(): Promise<void> {
-  const maxPages = resolveMaxPages(process.env.GBC_MAX_PAGES)
-  console.log(
-    `[info] scrape source=gbc-news maxPages=${Number.isFinite(maxPages) ? maxPages : 'all'}`,
-  )
+function resolveMode(raw: string | undefined): 'incremental' | 'full' {
+  const mode = (raw ?? 'incremental').toLowerCase()
+  if (mode === 'full') return 'full'
+  if (mode === 'incremental' || mode === 'incr') return 'incremental'
+  throw new Error(`Invalid SCRAPE_MODE: ${raw}`)
+}
 
-  const items = await scrapeGbcNews({ maxPages })
+function mergeById(existing: NewsItem[], newer: NewsItem[]): NewsItem[] {
+  const map = new Map<string, NewsItem>()
+  for (const item of existing) map.set(item.id, item)
+  for (const item of newer) map.set(item.id, item)
+  return [...map.values()].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+}
+
+async function loadExisting(): Promise<NewsItem[]> {
+  try {
+    const raw = JSON.parse(await readFile(outPath, 'utf8')) as Snapshot
+    if (!Array.isArray(raw.items)) return []
+    for (const item of raw.items) assertNewsItem(item)
+    return raw.items
+  } catch {
+    return []
+  }
+}
+
+async function main(): Promise<void> {
+  const mode = resolveMode(process.env.SCRAPE_MODE)
+  const existing = await loadExisting()
+  console.log(`[info] scrape source=gbc-news mode=${mode} existing=${existing.length}`)
+
+  let items: NewsItem[]
+  let maxPagesMeta: number | null
+
+  if (mode === 'incremental' && existing.length > 0) {
+    const maxPages = resolveMaxPages(process.env.GBC_MAX_PAGES ?? '5')
+    const knownIds = new Set(existing.map((item) => item.id))
+    const newer = await scrapeGbcNews({ maxPages, knownIds })
+    items = mergeById(existing, newer)
+    maxPagesMeta = Number.isFinite(maxPages) ? maxPages : null
+    console.log(`[info] incremental fetched=${newer.length} merged=${items.length}`)
+  } else {
+    if (mode === 'incremental' && existing.length === 0) {
+      console.log('[info] no existing snapshot; falling back to full scrape')
+    }
+    const maxPages = resolveMaxPages(process.env.GBC_MAX_PAGES)
+    items = await scrapeGbcNews({ maxPages })
+    maxPagesMeta = Number.isFinite(maxPages) ? maxPages : null
+  }
+
   for (const item of items) assertNewsItem(item)
 
   const payload = {
     sourceId: 'gbc-news',
     scrapedAt: new Date().toISOString(),
-    maxPages: Number.isFinite(maxPages) ? maxPages : null,
+    mode,
+    maxPages: maxPagesMeta,
     count: items.length,
     items,
   }

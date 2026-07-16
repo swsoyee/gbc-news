@@ -17,7 +17,7 @@
 ```bash
 npm install
 npm test
-npm run scrape:gbc      # 抓取官网新闻全部分页（可用 GBC_MAX_PAGES=3 限制）
+npm run scrape:gbc      # 默认增量；全量用 SCRAPE_MODE=full（可用 GBC_MAX_PAGES=3 限制）
 npm run build:feeds     # 生成 public/feeds/*.xml|*.ics 与 public/data/news.json
 npm run build:function  # 打包 Netlify Function
 ```
@@ -62,7 +62,7 @@ npx serve public
 
 - GitHub: https://github.com/swsoyee/gbc-news
 - Project Dashboard: https://github.com/users/swsoyee/projects/1
-- CI: GitHub Actions（`CI` + 定时 `Scrape`：每天日本时间 12:00 / 22:00）
+- CI: GitHub Actions（`CI` + 定时增量 `Scrape`：每天日本时间 12:00 / 22:00）
 - 生产站点: https://gbc-news.netlify.app
 - Admin: https://app.netlify.com/projects/gbc-news
 

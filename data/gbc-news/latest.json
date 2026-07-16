@@ -1,7 +1,8 @@
 {
   "sourceId": "gbc-news",
-  "scrapedAt": "2026-07-16T13:10:41.469Z",
-  "maxPages": null,
+  "scrapedAt": "2026-07-16T13:46:03.925Z",
+  "mode": "incremental",
+  "maxPages": 2,
   "count": 480,
   "items": [
     {
