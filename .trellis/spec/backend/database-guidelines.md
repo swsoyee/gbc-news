@@ -12,9 +12,10 @@
 
 ## JSON 快照原则
 
-1. 使用统一 `Item` 字段；源站特有字段放 `raw` 或 `extras`，避免污染主模型。
-2. 文件必须 UTF-8；日期统一 ISO 8601（含时区或明确约定为 UTC）。
+1. 使用统一 `NewsItem` 字段（必含非空 `groups` / `categories`；可选 `eventDates[{ date, kind }]`）；源站特有字段放 `raw` 或 `extras`，避免污染主模型。
+2. 文件必须 UTF-8；`publishedAt` 为发布日 ISO 8601（UTC）；`eventDates[].date` 为 `YYYY-MM-DD` 活动相关日。
 3. 写入采用「写临时文件 → 校验 → 原子替换」，避免半截文件被部署。
+4. `public/data/news.json` 为多源合并视图；`public/feeds/*` 仅含有活动日的展开条目。
 
 ## 何时引入 DB
 

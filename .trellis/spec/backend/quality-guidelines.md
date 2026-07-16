@@ -28,5 +28,8 @@
 | 层级 | 最小覆盖 |
 |------|----------|
 | parse | 典型页、空列表、缺字段 |
-| feeds | 单条、多条、时间排序 |
+| classify-group | 命中谁打谁、未命中 other、gbc-news→togenashi |
+| extract-event-dates | hold/sale、省略年 D9、営業日排除、无标签→空 |
+| feeds | expand 跳过无日期、前缀/UID、pubDate/DTSTART=活动日 |
+| filterItems | 维间 AND、维内 OR |
 | http utils | 超时/错误映射（可用 mock） |

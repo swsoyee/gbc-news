@@ -32,6 +32,8 @@ export class ScrapeError extends Error {
 
 - 输入校验失败 → 中止生成该 feed
 - 部分条目非法 → 记录告警并跳过非法条目；若合法条目为 0 且上次有数据，视为失败
+- **`all` 订阅禁止空覆盖**：合并后若无任何可展开条目（无 `eventDates`），不得用空 RSS/iCal 覆盖上次成功的 `all.*`
+- **分维静态 feed 允许为空**：某一 `groups`/`categories` 维当前无带活动日的条目时，可写出空的 `group-*` / 分类文件（订阅该维即无事件）；这与「无活动日不进 feeds」一致，不视为生成失败
 
 ## 禁止
 
