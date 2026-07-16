@@ -14,11 +14,12 @@
 [[headers]]
   for = "/feeds/*"
   [headers.values]
-    Cache-Control = "public, max-age=300"
+    # 日历客户端常强缓存；短 TTL + 强制再验证，部署后尽快拿到新 ICS
+    Cache-Control = "public, max-age=0, must-revalidate"
     Access-Control-Allow-Origin = "*"
 
 [[headers]]
   for = "/data/*"
   [headers.values]
-    Cache-Control = "public, max-age=300"
+    Cache-Control = "public, max-age=0, must-revalidate"
     Access-Control-Allow-Origin = "*"

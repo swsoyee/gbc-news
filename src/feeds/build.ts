@@ -161,8 +161,8 @@ export function buildIcal(entries: FeedEntry[], meta: FeedMeta): string {
     'PRODID:-//gbc-news//EN',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
-    'X-PUBLISHED-TTL:PT6H',
-    'REFRESH-INTERVAL;VALUE=DURATION:PT6H',
+    'X-PUBLISHED-TTL:PT1H',
+    'REFRESH-INTERVAL;VALUE=DURATION:PT1H',
     foldIcs(`X-WR-CALNAME:${icsText(meta.title)}`),
     foldIcs(`NAME:${icsText(meta.title)}`),
   ]

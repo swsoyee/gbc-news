@@ -64,7 +64,7 @@ export async function handler(event: {
         headers: {
           'content-type': 'text/calendar; charset=utf-8',
           'content-disposition': 'inline; filename="gbc-news.ics"',
-          'cache-control': 'public, max-age=300',
+          'cache-control': 'public, max-age=0, must-revalidate',
         },
         body: buildIcal(entries, meta),
       }
@@ -74,7 +74,7 @@ export async function handler(event: {
       statusCode: 200,
       headers: {
         'content-type': 'application/rss+xml; charset=utf-8',
-        'cache-control': 'public, max-age=300',
+        'cache-control': 'public, max-age=0, must-revalidate',
       },
       body: buildRss(entries, meta),
     }

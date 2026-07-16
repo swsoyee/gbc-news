@@ -26,6 +26,9 @@ const icsUrlEl = document.getElementById('ics-url')
 const rssOpen = document.getElementById('rss-open')
 const icsOpen = document.getElementById('ics-open')
 
+/** 来自 news.json scrapedAt，用于 ICS URL ?v= 强制日历客户端当新订阅拉取 */
+let feedRev = ''
+
 for (const group of GROUPS) {
   const label = document.createElement('label')
   label.className = 'cat'
@@ -40,35 +43,48 @@ for (const category of CATEGORIES) {
   catsEl.appendChild(label)
 }
 
-if (groupLinksEl) {
-  for (const group of GROUPS) {
-    const row = document.createElement('div')
-    row.className = 'link-row'
-    row.innerHTML = `
+function withFeedRev(url) {
+  if (!feedRev) return url
+  const parsed = new URL(url, window.location.origin)
+  parsed.searchParams.set('v', feedRev)
+  return parsed.toString()
+}
+
+function renderStaticLinks() {
+  if (groupLinksEl) {
+    groupLinksEl.replaceChildren()
+    for (const group of GROUPS) {
+      const ics = withFeedRev(`${location.origin}/feeds/group-${group.id}.ics`)
+      const row = document.createElement('div')
+      row.className = 'link-row'
+      row.innerHTML = `
       <strong>${group.label}</strong>
-      <code>${location.origin}/feeds/group-${group.id}.ics</code>
+      <code>${ics}</code>
       <div class="actions">
-        <a class="btn primary" href="webcal://${location.host}/feeds/group-${group.id}.ics">订阅日历</a>
+        <a class="btn primary" href="${ics.replace(/^https:/, 'webcal:').replace(/^http:/, 'webcal:')}">订阅日历</a>
         <a class="btn" href="/feeds/group-${group.id}.xml" target="_blank" rel="noopener">RSS</a>
       </div>
     `
-    groupLinksEl.appendChild(row)
+      groupLinksEl.appendChild(row)
+    }
   }
-}
 
-if (catLinksEl) {
-  for (const category of CATEGORIES) {
-    const row = document.createElement('div')
-    row.className = 'link-row'
-    row.innerHTML = `
+  if (catLinksEl) {
+    catLinksEl.replaceChildren()
+    for (const category of CATEGORIES) {
+      const ics = withFeedRev(`${location.origin}/feeds/${category.id}.ics`)
+      const row = document.createElement('div')
+      row.className = 'link-row'
+      row.innerHTML = `
       <strong>${category.label}</strong>
-      <code>${location.origin}/feeds/${category.id}.ics</code>
+      <code>${ics}</code>
       <div class="actions">
-        <a class="btn primary" href="webcal://${location.host}/feeds/${category.id}.ics">订阅日历</a>
+        <a class="btn primary" href="${ics.replace(/^https:/, 'webcal:').replace(/^http:/, 'webcal:')}">订阅日历</a>
         <a class="btn" href="/feeds/${category.id}.xml" target="_blank" rel="noopener">RSS</a>
       </div>
     `
-    catLinksEl.appendChild(row)
+      catLinksEl.appendChild(row)
+    }
   }
 }
 
@@ -123,7 +139,7 @@ function buildFeedUrls(groups, categories) {
   if (allGroups && allCategories) {
     return {
       rss: `${origin}/feeds/all.xml`,
-      ics: `${origin}/feeds/all.ics`,
+      ics: withFeedRev(`${origin}/feeds/all.ics`),
     }
   }
 
@@ -131,7 +147,7 @@ function buildFeedUrls(groups, categories) {
     const id = categories[0]
     return {
       rss: `${origin}/feeds/${id}.xml`,
-      ics: `${origin}/feeds/${id}.ics`,
+      ics: withFeedRev(`${origin}/feeds/${id}.ics`),
     }
   }
 
@@ -139,7 +155,7 @@ function buildFeedUrls(groups, categories) {
     const id = groups[0]
     return {
       rss: `${origin}/feeds/group-${id}.xml`,
-      ics: `${origin}/feeds/group-${id}.ics`,
+      ics: withFeedRev(`${origin}/feeds/group-${id}.ics`),
     }
   }
 
@@ -152,6 +168,7 @@ function buildFeedUrls(groups, categories) {
   ics.searchParams.set('format', 'ics')
   if (!allGroups) ics.searchParams.set('groups', groups.join(','))
   if (!allCategories) ics.searchParams.set('categories', categories.join(','))
+  if (feedRev) ics.searchParams.set('v', feedRev)
 
   return { rss: rss.toString(), ics: ics.toString() }
 }
@@ -167,7 +184,7 @@ function refresh() {
 
   if (tipEl) {
     tipEl.textContent =
-      '订阅条目时间取正文活动日（举办/售票）；若有开场/开演等具体时刻则写入日历时段（日本时间），否则为全天。标题含 [開催]/[発売]；无活动日的稿不会出现在 RSS/iCal（仍在 news.json）。组合与分类维间 AND、维内 OR。'
+      '有开场/开演时刻的条目会出现在当天具体钟点（不是全天栏）。日历 App 常强缓存：请删掉旧订阅后，用带 ?v= 的新链接重新添加。组合与分类维间 AND、维内 OR。'
   }
 }
 
@@ -176,11 +193,21 @@ async function loadStats() {
     const response = await fetch('/data/news.json', { cache: 'no-cache' })
     if (!response.ok) throw new Error(`HTTP ${response.status}`)
     const data = await response.json()
+    feedRev = String(data.scrapedAt ?? '')
+      .replace(/[-:.TZ]/g, '')
+      .slice(0, 14)
+    renderStaticLinks()
+    refresh()
+
     const groupCounts = Object.fromEntries(GROUPS.map((group) => [group.id, 0]))
     const catCounts = Object.fromEntries(CATEGORIES.map((category) => [category.id, 0]))
     let withEvent = 0
+    let withTime = 0
     for (const item of data.items ?? []) {
       if (item.eventDates?.length) withEvent += 1
+      for (const eventDate of item.eventDates ?? []) {
+        if (eventDate.startTime) withTime += 1
+      }
       for (const group of item.groups ?? []) {
         if (group in groupCounts) groupCounts[group] += 1
       }
@@ -194,11 +221,14 @@ async function loadStats() {
     const catSummary = CATEGORIES.map(
       (category) => `${category.label} ${catCounts[category.id]}`,
     ).join(' · ')
-    statsEl.textContent = `资讯 ${data.count ?? data.items?.length ?? 0} 条｜有活动日 ${withEvent} 条｜组合 ${groupSummary}｜分类 ${catSummary}`
+    statsEl.textContent = `资讯 ${data.count ?? data.items?.length ?? 0} 条｜有活动日 ${withEvent} 条｜含时刻 ${withTime} 条｜组合 ${groupSummary}｜分类 ${catSummary}`
   } catch {
     statsEl.textContent = '尚未加载到 news.json（先运行 scrape / build-feeds）'
+    renderStaticLinks()
+    refresh()
   }
 }
 
+renderStaticLinks()
 refresh()
 loadStats()
