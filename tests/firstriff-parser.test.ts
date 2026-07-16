@@ -34,7 +34,8 @@ describe('firstriff parseNewsDetail', () => {
     expect(detail.title).toContain('枯れ歌の情景')
     expect(detail.publishedAt).toBe('2026-06-26T00:00:00.000Z')
     expect(extractEventDates(detail.title, detail.bodyText, detail.publishedAt)).toEqual([
-      { date: '2026-09-05', kind: 'hold' },
+      { date: '2026-09-05', kind: 'hold', startTime: '15:00' },
+      { date: '2026-09-05', kind: 'hold', startTime: '19:30' },
     ])
     expect(classifyGroupsForSource('gbc-firstriff', detail.title, detail.bodyText)).toEqual([
       'canna-lily',
@@ -51,6 +52,7 @@ describe('firstriff parseNewsDetail', () => {
     expect(extractEventDates(detail.title, detail.bodyText, detail.publishedAt)).toContainEqual({
       date: '2026-07-20',
       kind: 'hold',
+      startTime: '17:00',
     })
   })
 })

@@ -2,14 +2,26 @@ export const EVENT_DATE_KINDS = ['hold', 'sale'] as const
 
 export type EventDateKind = (typeof EVENT_DATE_KINDS)[number]
 
+const TIME_RE = /^([01]\d|2[0-3]):([0-5]\d)$/
+
 export interface EventDate {
-  /** YYYY-MM-DD（UTC 日历日） */
+  /** YYYY-MM-DD（Asia/Tokyo 日历日） */
   date: string
   kind: EventDateKind
+  /** Asia/Tokyo 墙钟 HH:mm；缺省 = 全天事件 */
+  startTime?: string
+  /** Asia/Tokyo 墙钟 HH:mm；缺省且有 startTime 时由 feed 层补默认时长 */
+  endTime?: string
 }
 
 export function isEventDateKind(value: string): value is EventDateKind {
   return (EVENT_DATE_KINDS as readonly string[]).includes(value)
+}
+
+function assertTime(label: string, value: unknown): asserts value is string {
+  if (typeof value !== 'string' || !TIME_RE.test(value)) {
+    throw new Error(`EventDate.${label} must be HH:mm, got: ${String(value)}`)
+  }
 }
 
 export function assertEventDate(value: unknown): asserts value is EventDate {
@@ -23,9 +35,74 @@ export function assertEventDate(value: unknown): asserts value is EventDate {
   if (typeof entry.kind !== 'string' || !isEventDateKind(entry.kind)) {
     throw new Error(`EventDate.kind must be hold|sale, got: ${String(entry.kind)}`)
   }
+  if (entry.startTime !== undefined) assertTime('startTime', entry.startTime)
+  if (entry.endTime !== undefined) assertTime('endTime', entry.endTime)
+  if (entry.endTime !== undefined && entry.startTime === undefined) {
+    throw new Error('EventDate.endTime requires startTime')
+  }
 }
 
 export const EVENT_DATE_TITLE_PREFIX: Record<EventDateKind, string> = {
   hold: '[開催]',
   sale: '[発売]',
+}
+
+/** hold 默认 2h，sale 默认 1h（分钟） */
+export function defaultDurationMinutes(kind: EventDateKind): number {
+  return kind === 'sale' ? 60 : 120
+}
+
+function hhmm(hour: number, minute: number): string {
+  if (hour < 0 || hour > 23 || minute < 0 || minute > 59) {
+    throw new Error(`Invalid time: ${hour}:${minute}`)
+  }
+  return `${String(hour).padStart(2, '0')}:${String(minute).padStart(2, '0')}`
+}
+
+function ymd(year: number, month: number, day: number): string {
+  const dt = new Date(Date.UTC(year, month - 1, day))
+  if (dt.getUTCFullYear() !== year || dt.getUTCMonth() !== month - 1 || dt.getUTCDate() !== day) {
+    throw new Error(`Invalid calendar date: ${year}-${month}-${day}`)
+  }
+  const m = String(month).padStart(2, '0')
+  const d = String(day).padStart(2, '0')
+  return `${year}-${m}-${d}`
+}
+
+function addDays(date: string, days: number): string {
+  const [y, m, d] = date.split('-').map(Number) as [number, number, number]
+  const dt = new Date(Date.UTC(y, m - 1, d + days))
+  return ymd(dt.getUTCFullYear(), dt.getUTCMonth() + 1, dt.getUTCDate())
+}
+
+function addMinutesToTime(time: string, minutes: number): { time: string; dayDelta: number } {
+  const [hh, mm] = time.split(':').map(Number) as [number, number]
+  const total = hh * 60 + mm + minutes
+  const dayDelta = Math.floor(total / (24 * 60))
+  const wrapped = ((total % (24 * 60)) + 24 * 60) % (24 * 60)
+  return { time: hhmm(Math.floor(wrapped / 60), wrapped % 60), dayDelta }
+}
+
+/** Asia/Tokyo 墙钟 → UTC ISO（东京无夏令时，固定 UTC+9） */
+export function tokyoWallToUtcIso(date: string, time: string): string {
+  const [y, m, d] = date.split('-').map(Number) as [number, number, number]
+  const [hh, mm] = time.split(':').map(Number) as [number, number]
+  return new Date(Date.UTC(y, m - 1, d, hh - 9, mm, 0)).toISOString()
+}
+
+/** 有 startTime 时返回 UTC 起止；否则 null（全天）。 */
+export function eventDateToUtcRange(entry: EventDate): { startAt: string; endAt: string } | null {
+  if (!entry.startTime) return null
+
+  const startAt = tokyoWallToUtcIso(entry.date, entry.startTime)
+
+  if (entry.endTime) {
+    let endDate = entry.date
+    if (entry.endTime <= entry.startTime) endDate = addDays(entry.date, 1)
+    return { startAt, endAt: tokyoWallToUtcIso(endDate, entry.endTime) }
+  }
+
+  const { time, dayDelta } = addMinutesToTime(entry.startTime, defaultDurationMinutes(entry.kind))
+  const endDate = dayDelta > 0 ? addDays(entry.date, dayDelta) : entry.date
+  return { startAt, endAt: tokyoWallToUtcIso(endDate, time) }
 }

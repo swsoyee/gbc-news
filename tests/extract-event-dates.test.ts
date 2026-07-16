@@ -14,12 +14,12 @@ describe('extractEventDates', () => {
     const dates = extractEventDates(detail.title, detail.bodyText, detail.publishedAt)
 
     expect(dates).toEqual([
-      { date: '2026-06-23', kind: 'sale' },
-      { date: '2026-06-25', kind: 'sale' },
-      { date: '2026-06-26', kind: 'sale' },
-      { date: '2026-08-14', kind: 'hold' },
-      { date: '2026-08-16', kind: 'hold' },
-      { date: '2026-08-19', kind: 'hold' },
+      { date: '2026-06-23', kind: 'sale', startTime: '12:00' },
+      { date: '2026-06-25', kind: 'sale', startTime: '12:00' },
+      { date: '2026-06-26', kind: 'sale', startTime: '12:00' },
+      { date: '2026-08-14', kind: 'hold', startTime: '19:30' },
+      { date: '2026-08-16', kind: 'hold', startTime: '19:00' },
+      { date: '2026-08-19', kind: 'hold', startTime: '20:00' },
     ])
   })
 
@@ -109,8 +109,31 @@ describe('extractEventDates', () => {
         '2026-03-01T00:00:00.000Z',
       ),
     ).toEqual([
-      { date: '2026-03-07', kind: 'sale' },
+      { date: '2026-03-07', kind: 'sale', startTime: '18:00' },
       { date: '2026-03-14', kind: 'hold' },
+    ])
+  })
+
+  it('開場/開演写入 startTime（开演时刻）', () => {
+    expect(
+      extractEventDates(
+        'LIVE 開催決定',
+        '■開催日時 2026年5月1日（金） OPEN 18:00 / START 19:00 東京ガーデンシアター',
+        '2026-03-01T00:00:00.000Z',
+      ),
+    ).toEqual([{ date: '2026-05-01', kind: 'hold', startTime: '19:00' }])
+  })
+
+  it('一部/二部开演生成同日多条时刻', () => {
+    expect(
+      extractEventDates(
+        'Canna Lily LIVE',
+        '■開催日時 2026年9月5日(土) 一部:開場14:00/開演 15:00 二部:開場 18:30/開演 19:30',
+        '2026-05-01T00:00:00.000Z',
+      ),
+    ).toEqual([
+      { date: '2026-09-05', kind: 'hold', startTime: '15:00' },
+      { date: '2026-09-05', kind: 'hold', startTime: '19:30' },
     ])
   })
 })

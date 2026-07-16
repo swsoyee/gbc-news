@@ -1,0 +1,28 @@
+{
+  "id": "ics-event-times",
+  "name": "ics-event-times",
+  "title": "日历事件支持具体起止时刻",
+  "description": "当正文含开始/结束时间时，iCal 使用 DATE-TIME 而非仅全天 DATE",
+  "status": "in_progress",
+  "dev_type": null,
+  "scope": null,
+  "package": null,
+  "priority": "P2",
+  "creator": "InfinityLoop",
+  "assignee": "InfinityLoop",
+  "createdAt": "2026-07-16",
+  "completedAt": null,
+  "branch": null,
+  "base_branch": "main",
+  "worktree_path": null,
+  "commit": null,
+  "pr_url": null,
+  "subtasks": [],
+  "children": [],
+  "parent": null,
+  "relatedFiles": [],
+  "notes": "",
+  "meta": {
+    "github_issue_url": "https://github.com/swsoyee/gbc-news/issues/20"
+  }
+}

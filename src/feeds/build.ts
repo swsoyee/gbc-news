@@ -169,20 +169,27 @@ export function buildIcal(entries: FeedEntry[], meta: FeedMeta): string {
 
   for (const entry of entries) {
     const stamp = toIcsDateTimeUtc(entry.occurredOn)
-    const startDate = toIcsDateValue(entry.occurredOn)
-    const endDate = nextIcsDateValue(startDate)
     const summary = truncateIcs(icsText(entry.title), 80)
     // 摘要去外链并可截断；文末只追加本条目完整 URL（折行时不切断）
     const descriptionText = truncateIcs(icsText(stripHttpUrls(entry.summary ?? entry.title)), 200)
     const description = `${descriptionText}\\n${escapeIcsUrl(entry.url)}`
     const tags = [...entry.groups, ...entry.categories].map(icsText).join(',')
+    const timed = Boolean(entry.endAt)
 
     lines.push('BEGIN:VEVENT')
     lines.push(foldIcs(`UID:${entry.entryId}@gbc-news`))
     lines.push(`DTSTAMP:${stamp}`)
-    lines.push(`DTSTART;VALUE=DATE:${startDate}`)
-    lines.push(`DTEND;VALUE=DATE:${endDate}`)
-    lines.push('TRANSP:TRANSPARENT')
+    if (timed && entry.endAt) {
+      lines.push(`DTSTART:${toIcsDateTimeUtc(entry.occurredOn)}`)
+      lines.push(`DTEND:${toIcsDateTimeUtc(entry.endAt)}`)
+      lines.push('TRANSP:OPAQUE')
+    } else {
+      const startDate = toIcsDateValue(entry.occurredOn)
+      const endDate = nextIcsDateValue(startDate)
+      lines.push(`DTSTART;VALUE=DATE:${startDate}`)
+      lines.push(`DTEND;VALUE=DATE:${endDate}`)
+      lines.push('TRANSP:TRANSPARENT')
+    }
     lines.push('STATUS:CONFIRMED')
     lines.push(foldIcs(`SUMMARY:${summary}`))
     lines.push(foldIcs(`DESCRIPTION:${description}`))

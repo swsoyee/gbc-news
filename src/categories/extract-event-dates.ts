@@ -6,6 +6,11 @@ interface LabelRule {
   label: RegExp
 }
 
+interface TimeSlot {
+  startTime: string
+  endTime?: string
+}
+
 /** D8：举办/出演 → hold；售票/通贩开始 → sale */
 const LABEL_RULES: LabelRule[] = [
   { kind: 'hold', label: /開催日時/g },
@@ -28,12 +33,11 @@ const EVENT_CUE =
   /開催|出演|上映|発売|配信|ライブ|LIVE|ツアー|Tour|カフェ|フェス|ポップアップ|実施決定/
 
 /**
- * 从标题/正文抽取活动相关日（D8/D9/D10）。
+ * 从标题/正文抽取活动相关日与可选时刻（D8/D9/D10）。
  * 抽不出则返回 []（该稿不进 feeds，仍可留在快照）。
  */
 export function extractEventDates(title: string, body = '', publishedAt?: string): EventDate[] {
   const text = `${title}\n${body}`
-  // 仅有「N営業日」类相对措辞、无明确活动标签时直接跳过
   if (/営業日/.test(text) && !hasAllowedDateLabel(text) && !EVENT_CUE.test(text)) {
     return []
   }
@@ -41,18 +45,38 @@ export function extractEventDates(title: string, body = '', publishedAt?: string
   const found: EventDate[] = []
   const seen = new Set<string>()
 
-  const push = (date: string, kind: EventDateKind) => {
-    const key = `${date}|${kind}`
+  const push = (entry: EventDate) => {
+    const key = `${entry.date}|${entry.kind}|${entry.startTime ?? ''}|${entry.endTime ?? ''}`
     if (seen.has(key)) return
+
+    if (entry.startTime) {
+      for (let i = found.length - 1; i >= 0; i -= 1) {
+        const existing = found[i]!
+        if (
+          existing.date === entry.date &&
+          existing.kind === entry.kind &&
+          existing.startTime === undefined
+        ) {
+          seen.delete(`${existing.date}|${existing.kind}||`)
+          found.splice(i, 1)
+        }
+      }
+    }
+
     seen.add(key)
-    found.push({ date, kind })
+    found.push(entry)
+  }
+
+  const pushFromBlock = (block: string, kind: EventDateKind) => {
+    for (const entry of datesWithTimes(sanitizeBlock(block), kind, publishedAt)) {
+      push(entry)
+    }
   }
 
   for (const rule of LABEL_RULES) {
     const flags = rule.label.flags.includes('g') ? rule.label.flags : `${rule.label.flags}g`
     const re = new RegExp(rule.label.source, flags)
     for (const match of text.matchAll(re)) {
-      // 排除「最大N営業日」等：标签本身或紧随片段含 営業日 则跳过
       const start = match.index ?? 0
       const window = text.slice(start, start + Math.max(match[0].length + 40, 80))
       if (/営業日/.test(window) && !/\d{4}\s*年|\d{1,2}\s*月\s*\d{1,2}\s*日/.test(window)) {
@@ -61,40 +85,143 @@ export function extractEventDates(title: string, body = '', publishedAt?: string
 
       const afterLabel = match[0].length
       const tail = text.slice(start)
-      const nextMark = tail.slice(afterLabel).search(/■/)
-      const end = nextMark >= 0 ? afterLabel + nextMark : Math.min(tail.length, afterLabel + 160)
-      const block = sanitizeBlock(tail.slice(0, end))
-      for (const date of extractDatesInBlock(block, publishedAt)) {
-        push(date, rule.kind)
-      }
+      const end = findBlockEnd(tail, afterLabel)
+      pushFromBlock(tail.slice(0, end), rule.kind)
     }
   }
 
-  // 标题回退：无/少标签时覆盖「7/3より開催」「3月14日公演」等
   if (EVENT_CUE.test(title) || EVENT_CUE.test(text)) {
     const titleKind: EventDateKind = /発売|Release|通販|受注/.test(title) ? 'sale' : 'hold'
-    for (const date of extractDatesInBlock(sanitizeBlock(title), publishedAt)) {
-      push(date, titleKind)
-    }
-    // 标题无日期时再扫短摘要/正文头（如 CON-CON 的 📅2026年4月4日-5日）
+    pushFromBlock(title, titleKind)
     if (found.length === 0) {
       const headKind: EventDateKind = /発売|Release|通販|受注/.test(text) ? 'sale' : 'hold'
-      for (const date of extractDatesInBlock(sanitizeBlock(body.slice(0, 280)), publishedAt)) {
-        push(date, headKind)
-      }
+      pushFromBlock(body.slice(0, 400), headKind)
     }
   }
 
-  return found.sort((a, b) => a.date.localeCompare(b.date) || a.kind.localeCompare(b.kind))
+  enrichTimesFromText(found, text)
+
+  return found.sort(
+    (a, b) =>
+      a.date.localeCompare(b.date) ||
+      a.kind.localeCompare(b.kind) ||
+      (a.startTime ?? '').localeCompare(b.startTime ?? ''),
+  )
+}
+
+function datesWithTimes(block: string, kind: EventDateKind, publishedAt?: string): EventDate[] {
+  const dates = extractDatesInBlock(block, publishedAt)
+  if (dates.length === 0) return []
+
+  const slots = extractTimeSlots(block)
+  if (slots.length === 0) {
+    return dates.map((date) => ({ date, kind }))
+  }
+
+  if (dates.length === 1) {
+    return slots.map((slot) => ({
+      date: dates[0]!,
+      kind,
+      startTime: slot.startTime,
+      ...(slot.endTime ? { endTime: slot.endTime } : {}),
+    }))
+  }
+
+  // 多日不共享单一时刻，避免把销售开始时间套到每一天
+  return dates.map((date) => ({ date, kind }))
+}
+
+/** 開場/開演、OPEN/START、HH:mm～、N時 */
+export function extractTimeSlots(block: string): TimeSlot[] {
+  const slots: TimeSlot[] = []
+  const seen = new Set<string>()
+
+  const pushSlot = (startTime: string, endTime?: string) => {
+    const key = `${startTime}|${endTime ?? ''}`
+    if (seen.has(key)) return
+    seen.add(key)
+    slots.push(endTime ? { startTime, endTime } : { startTime })
+  }
+
+  let matchedDoorShow = false
+  for (const m of block.matchAll(
+    /(?:開場|OPEN)\s*[/／]\s*(?:開演|START)\s*[：:]\s*(\d{1,2})\s*[:：]\s*(\d{2})\s*[/／]\s*(\d{1,2})\s*[:：]\s*(\d{2})/gi,
+  )) {
+    matchedDoorShow = true
+    pushSlot(hhmm(Number(m[3]), Number(m[4])))
+  }
+
+  for (const m of block.matchAll(
+    /(?:開場|OPEN)\s*[：:]?\s*(\d{1,2})\s*[:：]\s*(\d{2})\s*[/／]\s*(?:開演|START)\s*[：:]?\s*(\d{1,2})\s*[:：]\s*(\d{2})/gi,
+  )) {
+    matchedDoorShow = true
+    pushSlot(hhmm(Number(m[3]), Number(m[4])))
+  }
+
+  if (!matchedDoorShow) {
+    for (const m of block.matchAll(/(?:開演|START)\s*[：:]?\s*(\d{1,2})\s*[:：]\s*(\d{2})/gi)) {
+      pushSlot(hhmm(Number(m[1]), Number(m[2])))
+    }
+  }
+
+  for (const m of block.matchAll(
+    /(\d{1,2})\s*[:：]\s*(\d{2})\s*[〜～~－-]\s*(\d{1,2})\s*[:：]\s*(\d{2})/g,
+  )) {
+    pushSlot(hhmm(Number(m[1]), Number(m[2])), hhmm(Number(m[3]), Number(m[4])))
+  }
+
+  // 日)18:00〜 / 土)18:00
+  for (const m of block.matchAll(/[日)）]\s*(\d{1,2})\s*[:：]\s*(\d{2})\s*[〜～~]?/g)) {
+    pushSlot(hhmm(Number(m[1]), Number(m[2])))
+  }
+
+  // 独立「18:00〜」
+  for (const m of block.matchAll(/(?:^|[^\d/:])(\d{1,2})\s*[:：]\s*(\d{2})\s*[〜～~]/g)) {
+    pushSlot(hhmm(Number(m[1]), Number(m[2])))
+  }
+
+  // 20時～ / 13時 / 20時30分（避开「営業日」等已清理块）
+  for (const m of block.matchAll(/(\d{1,2})\s*時(?:\s*(\d{2})\s*分)?\s*[〜～~]?/g)) {
+    const hour = Number(m[1])
+    if (hour > 23) continue
+    const minute = m[2] != null ? Number(m[2]) : 0
+    pushSlot(hhmm(hour, minute))
+  }
+
+  return slots
+}
+
+function enrichTimesFromText(found: EventDate[], text: string): void {
+  if (found.length !== 1 || found[0]!.startTime) return
+  const slots = extractTimeSlots(text)
+  if (slots.length === 0) return
+  const slot = slots[0]!
+  found[0]!.startTime = slot.startTime
+  if (slot.endTime) found[0]!.endTime = slot.endTime
 }
 
 function hasAllowedDateLabel(text: string): boolean {
-  // 不用带 /g 的原正则 .test()，避免 lastIndex 状态污染
   return LABEL_RULES.some((rule) => new RegExp(rule.label.source, 'i').test(text))
 }
 
+/** 标签后内容块：跳过紧随的 開場/開演/会場 小节，直到下一主标签。 */
+function findBlockEnd(tail: string, afterLabel: number): number {
+  let searchFrom = afterLabel
+  while (searchFrom < tail.length) {
+    const nextMark = tail.slice(searchFrom).search(/■/)
+    if (nextMark < 0) return Math.min(tail.length, afterLabel + 280)
+    const abs = searchFrom + nextMark
+    const heading = tail.slice(abs, abs + 16)
+    if (/■\s*(開場|開演|OPEN|START|会場)/i.test(heading)) {
+      searchFrom = abs + 1
+      continue
+    }
+    return abs
+  }
+  return Math.min(tail.length, afterLabel + 280)
+}
+
 function sanitizeBlock(block: string): string {
-  // 去掉「最大5営業日以内」等相对措辞，避免误抽数字
   return block.replace(/最大\s*\d+\s*営業日[^\n]*/g, ' ').replace(/\d+\s*営業日/g, ' ')
 }
 
@@ -102,7 +229,6 @@ function extractDatesInBlock(block: string, publishedAt?: string): string[] {
   const baseYear = yearFromIso(publishedAt) ?? new Date().getUTCFullYear()
   const dates: string[] = []
 
-  // 2026年9月5日(土)/6日(日) 或 2026年3月28日(土)～29日(日) 或 2026年4月4日-5日
   for (const m of block.matchAll(
     /(\d{4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日[^\n]{0,24}?[/～〜~・\-–—]\s*(\d{1,2})\s*日/g,
   )) {
@@ -114,16 +240,13 @@ function extractDatesInBlock(block: string, publishedAt?: string): string[] {
     dates.push(resolveDate(Number(m[1]), Number(m[2]), Number(m[3]), publishedAt, true))
   }
 
-  // 省略年：9月6日 / 8月14日(金)
   for (const m of block.matchAll(/(?:^|[^\d年])(\d{1,2})\s*月\s*(\d{1,2})\s*日/g)) {
-    // 仅跳过「2026年4月4日」里的月日尾巴；「2026 3月14日」这种空格分隔仍保留
     const idx = m.index ?? 0
     const before = block.slice(Math.max(0, idx - 8), idx)
     if (/\d{4}\s*年\s*$/.test(before) || /年\s*$/.test(before)) continue
     dates.push(resolveDate(baseYear, Number(m[1]), Number(m[2]), publishedAt, false))
   }
 
-  // 斜杠日期：7/3(金)、4/4(土)より
   for (const m of block.matchAll(/(?:^|[^\d])(\d{1,2})\/(\d{1,2})(?!\d)/g)) {
     const month = Number(m[1])
     const day = Number(m[2])
@@ -134,9 +257,6 @@ function extractDatesInBlock(block: string, publishedAt?: string): string[] {
   return [...new Set(dates)]
 }
 
-/**
- * D9：显式年优先；省略年以发布年为基准，若推得日期相对发布日倒退超过一年则 +1 年。
- */
 function resolveDate(
   year: number,
   month: number,
@@ -152,7 +272,6 @@ function resolveDate(
     const pubMs = Date.parse(`${pubDay}T00:00:00.000Z`)
     const eventMs = Date.parse(`${iso}T00:00:00.000Z`)
     const dayMs = 86_400_000
-    // D9：倒退接近/超过一年则 +1。同年最大倒退 <365 天，故用 300 天捕捉跨年（如 12月发稿 + 1月省略年）。
     if (!Number.isNaN(pubMs) && !Number.isNaN(eventMs) && pubMs - eventMs > 300 * dayMs) {
       y += 1
       iso = ymd(y, month, day)
@@ -176,4 +295,11 @@ function ymd(year: number, month: number, day: number): string {
   const m = String(month).padStart(2, '0')
   const d = String(day).padStart(2, '0')
   return `${year}-${m}-${d}`
+}
+
+function hhmm(hour: number, minute: number): string {
+  if (hour < 0 || hour > 23 || minute < 0 || minute > 59) {
+    throw new Error(`Invalid time: ${hour}:${minute}`)
+  }
+  return `${String(hour).padStart(2, '0')}:${String(minute).padStart(2, '0')}`
 }
