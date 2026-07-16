@@ -8,7 +8,7 @@
 
 <!-- @@@auto:current-status -->
 - **Active File**: `journal-1.md`
-- **Total Sessions**: 5
+- **Total Sessions**: 6
 - **Last Active**: 2026-07-16
 <!-- @@@/auto:current-status -->
 
@@ -19,7 +19,7 @@
 <!-- @@@auto:active-documents -->
 | File | Lines | Status |
 |------|-------|--------|
-| `journal-1.md` | ~176 | Active |
+| `journal-1.md` | ~209 | Active |
 <!-- @@@/auto:active-documents -->
 
 ---
@@ -29,6 +29,7 @@
 <!-- @@@auto:session-history -->
 | # | Date | Title | Commits | Branch |
 |---|------|-------|---------|--------|
+| 6 | 2026-07-16 | 官网新闻全量回溯 | `e393474` | `main` |
 | 5 | 2026-07-16 | 日历支持具体起止时刻 | `faae4a2` | `main` |
 | 4 | 2026-07-16 | 修复 ICS URL 折行断链 | `49365d5` | `main` |
 | 3 | 2026-07-16 | 修复 all 覆盖与日历链接 | `fe5caaa` | `main` |

@@ -174,3 +174,36 @@ EventDate 增加 start/endTime；iCal DATE-TIME；两源重抓部署。
 ### Next Steps
 
 - None - task complete
+
+
+## Session 6: 官网新闻全量回溯
+
+**Date**: 2026-07-16
+**Task**: 官网新闻全量回溯
+**Branch**: `main`
+
+### Summary
+
+gbc-news 全量 480 条；all.ics 551 事件；已部署。
+
+### Main Changes
+
+- Detailed change bullets were not supplied; see the summary above.
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `e393474` | (see git log) |
+
+### Testing
+
+- Validation was not recorded for this session.
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
