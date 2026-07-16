@@ -138,6 +138,106 @@
         font-size: 0.92rem;
         line-height: 1.55;
       }
+      .calendar-head {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-bottom: 1rem;
+      }
+      .calendar-head h2 {
+        margin-bottom: 0;
+      }
+      .calendar-note {
+        color: var(--muted);
+        font-size: 0.82rem;
+      }
+      .calendar-list {
+        display: grid;
+        gap: 0.9rem;
+      }
+      .calendar-month {
+        display: grid;
+        gap: 0.55rem;
+      }
+      .calendar-month-title {
+        color: var(--muted);
+        font-size: 0.82rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+      .calendar-event {
+        display: grid;
+        grid-template-columns: 5.4rem 1fr;
+        gap: 0.8rem;
+        align-items: stretch;
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.03);
+        text-decoration: none;
+        color: inherit;
+      }
+      .calendar-event:hover {
+        border-color: var(--accent);
+        background: rgba(232, 93, 76, 0.1);
+      }
+      .calendar-date {
+        display: grid;
+        place-items: center;
+        padding: 0.8rem 0.35rem;
+        border-right: 1px solid var(--line);
+        background: rgba(0, 0, 0, 0.18);
+        text-align: center;
+      }
+      .calendar-day {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 1.8rem;
+        line-height: 1;
+      }
+      .calendar-weekday,
+      .calendar-range {
+        color: var(--muted);
+        font-size: 0.72rem;
+      }
+      .calendar-body {
+        min-width: 0;
+        padding: 0.75rem 0.8rem 0.75rem 0;
+      }
+      .calendar-title {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-weight: 600;
+      }
+      .calendar-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem;
+        margin-top: 0.35rem;
+        color: var(--muted);
+        font-size: 0.78rem;
+      }
+      .calendar-kind {
+        color: var(--accent);
+        font-weight: 700;
+      }
+      .calendar-empty {
+        color: var(--muted);
+        border: 1px solid var(--line);
+        padding: 0.85rem;
+        background: rgba(255, 255, 255, 0.03);
+      }
+      @media (max-width: 560px) {
+        .calendar-head {
+          display: grid;
+        }
+        .calendar-event {
+          grid-template-columns: 4.6rem 1fr;
+        }
+        .calendar-title {
+          white-space: normal;
+        }
+      }
       details.fold {
         border-top: 1px solid var(--line);
         padding-top: 1.4rem;
@@ -248,6 +348,14 @@
           <button type="button" id="clear-all">不限分类（全部）</button>
         </div>
         <p class="meta" id="stats">加载中…</p>
+      </section>
+
+      <section aria-labelledby="calendar-heading">
+        <div class="calendar-head">
+          <h2 id="calendar-heading">近期日历</h2>
+          <span class="calendar-note" id="calendar-note">按当前筛选显示</span>
+        </div>
+        <div class="calendar-list" id="calendar-list"></div>
       </section>
 
       <details class="fold">

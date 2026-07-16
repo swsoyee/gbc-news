@@ -25,8 +25,12 @@ const rssUrlEl = document.getElementById('rss-url')
 const icsUrlEl = document.getElementById('ics-url')
 const rssOpen = document.getElementById('rss-open')
 const icsOpen = document.getElementById('ics-open')
+const calendarListEl = document.getElementById('calendar-list')
+const calendarNoteEl = document.getElementById('calendar-note')
 
-/** @type {{ groups?: string[], categories?: string[], eventDates?: { startTime?: string }[] }[]} */
+const CALENDAR_LIMIT = 36
+
+/** @type {{ title: string, url: string, groups?: string[], categories?: string[], eventDates?: { date: string, endDate?: string, kind: 'hold' | 'sale', startTime?: string }[] }[]} */
 let newsItems = []
 
 /** 来自 news.json scrapedAt，用于 ICS URL ?v= */
@@ -87,6 +91,19 @@ function countFiltered(groups, categories) {
   return { items, dated }
 }
 
+function filterNewsItems(groups, categories) {
+  const allGroups = groups.length === 0 || groups.length === GROUPS.length
+  const allCategories = categories.length === 0 || categories.length === CATEGORIES.length
+  const groupSet = new Set(groups)
+  const catSet = new Set(categories)
+
+  return newsItems.filter((item) => {
+    const groupOk = allGroups || (item.groups ?? []).some((g) => groupSet.has(g))
+    const catOk = allCategories || (item.categories ?? []).some((c) => catSet.has(c))
+    return groupOk && catOk
+  })
+}
+
 function buildFeedUrls(groups, categories) {
   const origin = window.location.origin
   // 未勾选 = 该维不过滤（等同全部）；与「全选」同义，避免空选得到空订阅
@@ -137,6 +154,150 @@ function labelList(ids, catalog) {
   if (ids.length === 0 || ids.length === catalog.length) return '全部'
   const map = Object.fromEntries(catalog.map((item) => [item.id, item.label]))
   return ids.map((id) => map[id] ?? id).join('、')
+}
+
+function localTodayIso() {
+  const today = new Date()
+  const year = today.getFullYear()
+  const month = String(today.getMonth() + 1).padStart(2, '0')
+  const day = String(today.getDate()).padStart(2, '0')
+  return `${year}-${month}-${day}`
+}
+
+function formatMonthTitle(date) {
+  const parsed = new Date(`${date}T00:00:00`)
+  return `${parsed.getFullYear()}年${parsed.getMonth() + 1}月`
+}
+
+function formatDay(date) {
+  return String(Number(date.slice(8, 10)))
+}
+
+function formatWeekday(date) {
+  return new Intl.DateTimeFormat('zh-CN', { weekday: 'short' }).format(new Date(`${date}T00:00:00`))
+}
+
+function formatDateShort(date) {
+  return `${Number(date.slice(5, 7))}/${Number(date.slice(8, 10))}`
+}
+
+function eventKindLabel(kind) {
+  return kind === 'sale' ? '発売' : '開催'
+}
+
+function buildCalendarEvents(groups, categories) {
+  const today = localTodayIso()
+  const events = []
+
+  for (const item of filterNewsItems(groups, categories)) {
+    for (const eventDate of item.eventDates ?? []) {
+      if (!eventDate.date || eventDate.date < today) continue
+      events.push({
+        item,
+        date: eventDate.date,
+        endDate: eventDate.endDate,
+        kind: eventDate.kind,
+        startTime: eventDate.startTime,
+      })
+    }
+  }
+
+  return events
+    .sort(
+      (a, b) =>
+        a.date.localeCompare(b.date) ||
+        (a.startTime ?? '').localeCompare(b.startTime ?? '') ||
+        a.item.title.localeCompare(b.item.title),
+    )
+    .slice(0, CALENDAR_LIMIT)
+}
+
+function renderCalendar(groups, categories) {
+  if (!calendarListEl) return
+
+  const events = buildCalendarEvents(groups, categories)
+  calendarListEl.replaceChildren()
+  if (calendarNoteEl) {
+    calendarNoteEl.textContent =
+      events.length > 0 ? `显示未来 ${events.length} 件` : '当前筛选下没有未来活动'
+  }
+
+  if (events.length === 0) {
+    const empty = document.createElement('p')
+    empty.className = 'calendar-empty'
+    empty.textContent = '当前筛选下没有可显示的未来活动日。'
+    calendarListEl.appendChild(empty)
+    return
+  }
+
+  let currentMonth = ''
+  let monthEl = null
+  for (const event of events) {
+    const month = event.date.slice(0, 7)
+    if (month !== currentMonth) {
+      currentMonth = month
+      monthEl = document.createElement('div')
+      monthEl.className = 'calendar-month'
+      const title = document.createElement('div')
+      title.className = 'calendar-month-title'
+      title.textContent = formatMonthTitle(event.date)
+      monthEl.appendChild(title)
+      calendarListEl.appendChild(monthEl)
+    }
+    monthEl.appendChild(buildCalendarRow(event))
+  }
+}
+
+function buildCalendarRow(event) {
+  const link = document.createElement('a')
+  link.className = 'calendar-event'
+  link.href = event.item.url
+  link.target = '_blank'
+  link.rel = 'noopener'
+
+  const dateBox = document.createElement('span')
+  dateBox.className = 'calendar-date'
+
+  const day = document.createElement('span')
+  day.className = 'calendar-day'
+  day.textContent = formatDay(event.date)
+  const weekday = document.createElement('span')
+  weekday.className = 'calendar-weekday'
+  weekday.textContent = formatWeekday(event.date)
+  dateBox.append(day, weekday)
+
+  if (event.endDate && event.endDate > event.date) {
+    const range = document.createElement('span')
+    range.className = 'calendar-range'
+    range.textContent = `〜${formatDateShort(event.endDate)}`
+    dateBox.appendChild(range)
+  }
+
+  const body = document.createElement('span')
+  body.className = 'calendar-body'
+
+  const title = document.createElement('span')
+  title.className = 'calendar-title'
+  title.textContent = event.item.title
+
+  const meta = document.createElement('span')
+  meta.className = 'calendar-meta'
+  const kind = document.createElement('span')
+  kind.className = 'calendar-kind'
+  kind.textContent = eventKindLabel(event.kind)
+  meta.appendChild(kind)
+  if (event.startTime) {
+    const time = document.createElement('span')
+    time.textContent = event.startTime
+    meta.appendChild(time)
+  }
+  const cats = document.createElement('span')
+  cats.textContent = (event.item.categories ?? []).join(' / ')
+  meta.appendChild(cats)
+
+  body.append(title, meta)
+  link.append(dateBox, body)
+  return link
 }
 
 function renderStaticLinks(activeGroups, activeCategories) {
@@ -236,6 +397,7 @@ function refresh() {
     filterStatusEl.textContent = `当前筛选：组合「${groupLabel}」× 分类「${catLabel}」→ 匹配资讯 ${counts.items} 条（含活动日 ${counts.dated} 条，可进日历）｜订阅模式 ${mode}`
   }
 
+  renderCalendar(groups, categories)
   renderStaticLinks(groups, categories)
 }
 
