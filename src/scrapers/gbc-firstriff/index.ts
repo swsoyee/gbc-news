@@ -3,20 +3,20 @@ import { classifyGroupsForSource } from '../../categories/classify-group.js'
 import { extractEventDates } from '../../categories/extract-event-dates.js'
 import type { NewsItem } from '../../models/item.js'
 import { fetchText } from '../../utils/http.js'
-import { parseNewsDetail } from './parse-detail.js'
+import { parseNewsDetail } from './parse.js'
 import { parseNewsList } from './parse-list.js'
 import { listPageUrl } from './urls.js'
 
-export const GBC_SOURCE_ID = 'gbc-news'
+export const FIRSTRIFF_SOURCE_ID = 'gbc-firstriff'
 
-export interface ScrapeGbcOptions {
+export interface ScrapeFirstriffOptions {
   maxPages?: number
   delayMs?: number
   fetchHtml?: (url: string) => Promise<string>
 }
 
-export async function scrapeGbcNews(options: ScrapeGbcOptions = {}): Promise<NewsItem[]> {
-  const maxPages = options.maxPages ?? 3
+export async function scrapeFirstriff(options: ScrapeFirstriffOptions = {}): Promise<NewsItem[]> {
+  const maxPages = options.maxPages ?? 1
   const delayMs = options.delayMs ?? 400
   const fetchHtml = options.fetchHtml ?? ((url: string) => fetchText(url))
 
@@ -35,7 +35,7 @@ export async function scrapeGbcNews(options: ScrapeGbcOptions = {}): Promise<New
     const detail = parseNewsDetail(detailHtml)
     const title = detail.title || entry.title
     const categories = classifyText(title, detail.bodyText)
-    const groups = classifyGroupsForSource(GBC_SOURCE_ID, title, detail.bodyText)
+    const groups = classifyGroupsForSource(FIRSTRIFF_SOURCE_ID, title, detail.bodyText)
     const publishedAt = detail.publishedAt || entry.publishedAt
     const eventDates = extractEventDates(title, detail.bodyText, publishedAt)
 
@@ -44,12 +44,11 @@ export async function scrapeGbcNews(options: ScrapeGbcOptions = {}): Promise<New
       title,
       url: entry.url,
       publishedAt,
-      sourceId: GBC_SOURCE_ID,
+      sourceId: FIRSTRIFF_SOURCE_ID,
       categories,
       groups,
       ...(eventDates.length > 0 ? { eventDates } : {}),
       summary: detail.summary,
-      ...(entry.imageUrl ? { imageUrl: entry.imageUrl } : {}),
     })
 
     if (delayMs > 0) await sleep(delayMs)

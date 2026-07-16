@@ -3,6 +3,8 @@ import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { describe, expect, it } from 'vitest'
 import { classifyText } from '../src/categories/classify.js'
+import { classifyGroupsForSource } from '../src/categories/classify-group.js'
+import { extractEventDates } from '../src/categories/extract-event-dates.js'
 import { parseNewsDetail } from '../src/scrapers/gbc-news/parse-detail.js'
 import { parseNewsList } from '../src/scrapers/gbc-news/parse-list.js'
 
@@ -35,6 +37,17 @@ describe('parseNewsDetail', () => {
     expect(detail.title).toContain('特典CD')
     expect(detail.publishedAt).toBe('2026-07-15T00:00:00.000Z')
     expect(detail.bodyText.length).toBeGreaterThan(20)
+  })
+
+  it('post-480 组合为 togenashi 且含活动日', () => {
+    const html = readFileSync(join(fixtures, 'detail-post-480.html'), 'utf8')
+    const detail = parseNewsDetail(html)
+    expect(classifyGroupsForSource('gbc-news', detail.title, detail.bodyText)).toEqual([
+      'togenashi',
+    ])
+    expect(
+      extractEventDates(detail.title, detail.bodyText, detail.publishedAt).length,
+    ).toBeGreaterThan(0)
   })
 })
 
