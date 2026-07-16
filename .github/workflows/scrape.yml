@@ -1,0 +1,38 @@
+# 定时抓取骨架：业务脚本落地后再启用 cron 与写入逻辑。
+name: Scrape
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '0 */6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Scrape placeholder
+        run: |
+          echo "抓取流水线尚未实现。实现 scripts/scrape.ts 与 scripts/build-feeds.ts 后启用本 job。"
+          exit 0
+
+      # - name: Commit feed updates
+      #   run: |
+      #     git config user.name "github-actions[bot]"
+      #     git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      #     git add data public/feeds
+      #     git diff --staged --quiet || git commit -m "chore: 更新抓取快照与订阅源"
+      #     git push

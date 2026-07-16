@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>gbc-news</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f3f6f4;
+        --ink: #14201a;
+        --muted: #4d5c54;
+        --accent: #1f6f4a;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, serif;
+        background:
+          radial-gradient(circle at top left, #d9ebe1 0%, transparent 45%),
+          linear-gradient(160deg, #f7faf8, #e7eee9);
+        color: var(--ink);
+      }
+      main {
+        max-width: 40rem;
+        margin: 0 auto;
+        padding: 18vh 1.5rem 4rem;
+      }
+      h1 {
+        font-size: clamp(2.5rem, 8vw, 4rem);
+        letter-spacing: -0.03em;
+        margin: 0 0 0.75rem;
+      }
+      p {
+        margin: 0 0 1rem;
+        color: var(--muted);
+        line-height: 1.6;
+        font-size: 1.05rem;
+      }
+      a {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>gbc-news</h1>
+      <p>官网资讯的低成本 RSS / iCal 订阅服务。订阅源将发布在 <code>/feeds/</code>。</p>
+      <p>工程基础搭建中，业务抓取尚未上线。</p>
+    </main>
+  </body>
+</html>
