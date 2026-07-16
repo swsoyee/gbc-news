@@ -8,6 +8,24 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-WR-CALNAME:gbc-news · 曲目
 NAME:gbc-news · 曲目
 BEGIN:VEVENT
+UID:post-455-2026-03-11-sale@gbc-news
+DTSTAMP:20260311T000000Z
+DTSTART;VALUE=DATE:20260311
+DTEND;VALUE=DATE:20260312
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[発売] トゲナシトゲアリ 『5th ONE-MAN LIVE “鳴動の
+ 刻”』[Blu-ray][DVD] 2026年3月11日(水)発売決定！
+DESCRIPTION:2025年2月7日(金)にパシフィコ横浜 国立大ホール
+ にて開催された、トゲナシトゲアリ 5th ONE-MAN LIVE "鳴動
+ の刻" が映像商品化されることが決定！ 2026年3月11日(水
+ ) Release →2026年3月25日(水) Release ▼発売日延期につきま
+ して https://girls-band-cry.com/news/post-4\nhttps://girls-band-cry.com/
+ news/post-455.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-455.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-464-2026-04-24-hold@gbc-news
 DTSTAMP:20260424T000000Z
 DTSTART;VALUE=DATE:20260424
@@ -23,8 +41,8 @@ DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
  ッケージ化が決定！ 発売日は共に7/22(水)、初回限定版
  はこちらも手島nariによる新規描きおろしジャケットが
  起用される。ブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画 \nhttps://girls-ban
- …
+ して配布された 手島nari描き下ろし漫画\nhttps://girls-band-
+ cry.com/news/post-464.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
@@ -44,8 +62,8 @@ DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
  ッケージ化が決定！ 発売日は共に7/22(水)、初回限定版
  はこちらも手島nariによる新規描きおろしジャケットが
  起用される。ブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画 \nhttps://girls-ban
- …
+ して配布された 手島nari描き下ろし漫画\nhttps://girls-band-
+ cry.com/news/post-464.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
@@ -66,7 +84,7 @@ DESCRIPTION:2024年にリリースされた2枚のアルバム「棘アリ
  この各ジャケット写真を用いたステッカーも封入しま
  す！ 2枚ともに完全生産限定のため、確実に手に入れた
  い場合は5月24日(日)までのご予約を忘れずに。 ▶「棘\n
- https://girls-ban…
+ https://girls-band-cry.com/news/post-465.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-465.html
 CATEGORIES:togenashi,live,music,event
 END:VEVENT
@@ -86,8 +104,8 @@ DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
  ッケージ化が決定！ 発売日は共に7/22(水)、初回限定版
  はこちらも手島nariによる新規描きおろしジャケットが
  起用される。ブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画 \nhttps://girls-ban
- …
+ して配布された 手島nari描き下ろし漫画\nhttps://girls-band-
+ cry.com/news/post-464.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
@@ -107,8 +125,8 @@ DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
  ッケージ化が決定！ 発売日は共に7/22(水)、初回限定版
  はこちらも手島nariによる新規描きおろしジャケットが
  起用される。ブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画 \nhttps://girls-ban
- …
+ して配布された 手島nari描き下ろし漫画\nhttps://girls-band-
+ cry.com/news/post-464.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
@@ -129,7 +147,7 @@ DESCRIPTION:2024年にリリースされた2枚のアルバム「棘アリ
  この各ジャケット写真を用いたステッカーも封入しま
  す！ 2枚ともに完全生産限定のため、確実に手に入れた
  い場合は5月24日(日)までのご予約を忘れずに。 ▶「棘\n
- https://girls-ban…
+ https://girls-band-cry.com/news/post-465.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-465.html
 CATEGORIES:togenashi,live,music,event
 END:VEVENT

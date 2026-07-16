@@ -2,10 +2,22 @@
 <rss version="2.0">
   <channel>
     <title>gbc-news · 曲目</title>
-    <link>https://gbc-news.example.com/</link>
+    <link>https://gbc-news.netlify.app/</link>
     <description>ガールズバンドクライ 公式ニュース（曲目）</description>
-    <lastBuildDate>Thu, 16 Jul 2026 12:08:56 GMT</lastBuildDate>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/music.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jul 2026 12:21:22 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.netlify.app/feeds/music.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[発売] トゲナシトゲアリ 『5th ONE-MAN LIVE “鳴動の刻”』[Blu-ray][DVD] 2026年3月11日(水)発売決定！</title>
+      <link>https://girls-band-cry.com/news/post-455.html</link>
+      <guid isPermaLink="false">post-455-2026-03-11-sale@gbc-news</guid>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>music</category>
+      <category>event</category>
+      <category>cinema</category>
+      <category domain="group">togenashi</category>
+      <description>2025年2月7日(金)にパシフィコ横浜 国立大ホールにて開催された、トゲナシトゲアリ 5th ONE-MAN LIVE &quot;鳴動の刻&quot; が映像商品化されることが決定！ 2026年3月11日(水) Release →2026年3月25日(水) Release ▼発売日延期につきまして https://girls-band-cry.com/news/post-4</description>
+    </item>
     <item>
       <title>[開催] 『劇場版総集編 ガールズバンドクライ』「【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD] 2026年7月22日(水)発売決定！</title>
       <link>https://girls-band-cry.com/news/post-464.html</link>

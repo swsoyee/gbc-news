@@ -2,10 +2,30 @@
 <rss version="2.0">
   <channel>
     <title>gbc-news · F-272</title>
-    <link>https://gbc-news.example.com/</link>
+    <link>https://gbc-news.netlify.app/</link>
     <description>ガールズバンドクライ 公式ニュース（F-272）</description>
-    <lastBuildDate>Thu, 16 Jul 2026 12:08:56 GMT</lastBuildDate>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/group-f272.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jul 2026 12:21:22 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.netlify.app/feeds/group-f272.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[開催] F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“グッズ情報公開！</title>
+      <link>https://gbc-firstriff.com/news/post-4.html</link>
+      <guid isPermaLink="false">firstriff-post-4-2026-06-03-hold@gbc-news</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>goods</category>
+      <category domain="group">f272</category>
+      <description>F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“のライブ会場で販売するグッズ情報を公開。 さらに会場販売に先駆け、グッズの先行販売を実施します。 先行販売期間内にご購入いただくことで、公演日までに商品を発送いたします。 ■先行販売期間 2026年6月3日（水）18:00 ～ 2026年6月11日（木）23:59まで </description>
+    </item>
+    <item>
+      <title>[開催] F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“グッズ情報公開！</title>
+      <link>https://gbc-firstriff.com/news/post-4.html</link>
+      <guid isPermaLink="false">firstriff-post-4-2026-06-11-hold@gbc-news</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>goods</category>
+      <category domain="group">f272</category>
+      <description>F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“のライブ会場で販売するグッズ情報を公開。 さらに会場販売に先駆け、グッズの先行販売を実施します。 先行販売期間内にご購入いただくことで、公演日までに商品を発送いたします。 ■先行販売期間 2026年6月3日（水）18:00 ～ 2026年6月11日（木）23:59まで </description>
+    </item>
     <item>
       <title>[開催] F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“ 開催決定！</title>
       <link>https://gbc-firstriff.com/news/post-3.html</link>

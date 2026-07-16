@@ -2,10 +2,32 @@
 <rss version="2.0">
   <channel>
     <title>gbc-news · 媒体</title>
-    <link>https://gbc-news.example.com/</link>
+    <link>https://gbc-news.netlify.app/</link>
     <description>ガールズバンドクライ 公式ニュース（媒体）</description>
-    <lastBuildDate>Thu, 16 Jul 2026 12:08:56 GMT</lastBuildDate>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/media.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jul 2026 12:21:22 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.netlify.app/feeds/media.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[開催] 『劇場版総集編ガールズバンドクライ』【配信決定＆TV放送２周年記念】メモリアルグッズ購入キャンペーン</title>
+      <link>https://girls-band-cry.com/news/post-457.html</link>
+      <guid isPermaLink="false">post-457-2026-04-06-hold@gbc-news</guid>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>event</category>
+      <category>cinema</category>
+      <category>media</category>
+      <category domain="group">togenashi</category>
+      <description>『劇場版総集編ガールズバンドクライ』前編・後編の配信が決定！ 記念すべき、TVアニメ放送２周年記念日［4月6日(月)12:00（正午）］より、 Amazon／U-NEXTにて購入版・レンタル版が視聴できるようになります！ 配信決定＆TVアニメ２周年記念を記念して、 「劇場版総集編ガールズバンドクライ 青春狂走曲（前編）」、 「劇場版総集編ガールズバンドクライ</description>
+    </item>
+    <item>
+      <title>[開催] TVアニメ『ガールズバンドクライ』 放送２周年記念フォロー＆リポストキャンペーン開催！</title>
+      <link>https://girls-band-cry.com/news/post-468.html</link>
+      <guid isPermaLink="false">post-468-2026-04-13-hold@gbc-news</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+      <category>event</category>
+      <category>media</category>
+      <category domain="group">togenashi</category>
+      <description>TVアニメ『ガールズバンドクライ』 放送２周年を記念して 公式Xにてフォロー＆リポストキャンペーンを開催！ ご参加いただいた方の中から抽選で30名様にTVアニメ『ガールズバンドクライ』 キービジュアルポスターをプレゼント🎁 【開催期間】 2026年4月13日(月) 23:59まで 【参加方法】 ①X（旧Twitter）の ＠girlsbandcry をフォ</description>
+    </item>
     <item>
       <title>[開催] 『劇場版総集編 ガールズバンドクライ』「【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD] 2026年7月22日(水)発売決定！</title>
       <link>https://girls-band-cry.com/news/post-464.html</link>
