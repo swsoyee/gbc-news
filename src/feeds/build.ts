@@ -54,12 +54,17 @@ ${items}
 `
 }
 
-/** RFC5545：按 UTF-8 字节折行（最多 75 octets），避免日文标题被日历客户端拒收。 */
+/** RFC5545：按 UTF-8 字节折行（最多 75 octets）；尽量不切断 http(s) URL。 */
 function foldIcs(line: string): string {
   const encoder = new TextEncoder()
   const decoder = new TextDecoder()
   const bytes = encoder.encode(line)
   if (bytes.length <= 75) return line
+
+  const urlSpans = [...line.matchAll(/https?:\/\/[^\s\\]+/gi)].map((match) => ({
+    start: match.index ?? 0,
+    end: (match.index ?? 0) + match[0].length,
+  }))
 
   const parts: string[] = []
   let offset = 0
@@ -71,12 +76,38 @@ function foldIcs(line: string): string {
     while (end > offset && (bytes[end]! & 0xc0) === 0x80) end -= 1
     if (end === offset) end = Math.min(offset + budget, bytes.length)
 
+    // 映射到字符下标，若切点落在 URL 内则前移到 URL 前，或整段纳入（放得下时）
+    const charStart = decoder.decode(bytes.subarray(0, offset)).length
+    let charEnd = decoder.decode(bytes.subarray(0, end)).length
+    for (const span of urlSpans) {
+      if (charStart < span.end && charEnd > span.start && charEnd < span.end) {
+        if (span.start > charStart) {
+          charEnd = span.start
+        } else {
+          const fullUrlEndOffset = encoder.encode(line.slice(0, span.end)).length
+          if (fullUrlEndOffset - offset <= budget) charEnd = span.end
+        }
+        end = encoder.encode(line.slice(0, charEnd)).length
+        while (end > offset && (bytes[end]! & 0xc0) === 0x80) end -= 1
+        break
+      }
+    }
+    if (end <= offset) end = Math.min(offset + budget, bytes.length)
+
     const chunk = decoder.decode(bytes.subarray(offset, end))
     parts.push(first ? chunk : ` ${chunk}`)
     offset = end
     first = false
   }
   return parts.join('\r\n')
+}
+
+/** 去掉正文中的 URL，避免摘要外链被折行切断后变成错误跳转。 */
+function stripHttpUrls(value: string): string {
+  return value
+    .replace(/https?:\/\/\S+/gi, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
 }
 
 function icsText(value: string): string {
@@ -89,6 +120,10 @@ function icsText(value: string): string {
     .replace(/\n/g, '\\n')
     .replace(/\s+/g, ' ')
     .trim()
+}
+
+function escapeIcsUrl(url: string): string {
+  return url.replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,')
 }
 
 function toIcsDateTimeUtc(iso: string): string {
@@ -137,9 +172,9 @@ export function buildIcal(entries: FeedEntry[], meta: FeedMeta): string {
     const startDate = toIcsDateValue(entry.occurredOn)
     const endDate = nextIcsDateValue(startDate)
     const summary = truncateIcs(icsText(entry.title), 80)
-    // 摘要可截断，但原始跳转链接必须完整（单独追加，避免 truncate 砍断 URL）
-    const descriptionText = truncateIcs(icsText(entry.summary ?? entry.title), 200)
-    const description = `${descriptionText}\\n${icsText(entry.url)}`
+    // 摘要去外链并可截断；文末只追加本条目完整 URL（折行时不切断）
+    const descriptionText = truncateIcs(icsText(stripHttpUrls(entry.summary ?? entry.title)), 200)
+    const description = `${descriptionText}\\n${escapeIcsUrl(entry.url)}`
     const tags = [...entry.groups, ...entry.categories].map(icsText).join(',')
 
     lines.push('BEGIN:VEVENT')

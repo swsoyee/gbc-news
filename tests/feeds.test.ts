@@ -98,4 +98,36 @@ describe('feeds', () => {
       /https:\/\/girls-band-cry\.com\/news\/post-999\.html\?utm_source=cal…/,
     )
   })
+
+  it('iCal 折行不切断 URL，且 DESCRIPTION 去掉摘要外链', () => {
+    const articleUrl = 'https://girls-band-cry.com/news/post-458.html'
+    const withForeign = {
+      ...item,
+      id: 'post-458',
+      url: articleUrl,
+      summary:
+        '香港イベント出演決定！ 詳細 https://con-con.asia/en/klook20260210.aspx および X： https://x.com/rockinjapan をご確認ください。'.repeat(
+          2,
+        ),
+      eventDates: [{ date: '2026-04-04', kind: 'hold' as const }],
+    }
+    const ics = buildIcal(expandEventDates([withForeign]), meta)
+    expect(ics).not.toMatch(/klook20260210\.\r\n aspx/)
+    expect(ics).not.toMatch(/news\/post\r\n -\d/)
+    expect(ics).not.toContain('con-con.asia')
+    expect(ics).not.toContain('x.com/rock')
+
+    const unfolded = ics.replace(/\r\n[ \t]/g, '')
+    expect(unfolded).toContain(articleUrl)
+    expect(unfolded).toContain(`URL;VALUE=URI:${articleUrl}`)
+
+    // 任一物理行若含 https://，则该行内 URL 应完整（不被折到下一行）
+    for (const line of ics.split('\r\n')) {
+      const idx = line.indexOf('https://')
+      if (idx < 0) continue
+      const fromHttp = line.slice(idx).trimEnd()
+      expect(fromHttp.startsWith('https://')).toBe(true)
+      expect(fromHttp.includes(' ')).toBe(false)
+    }
+  })
 })
