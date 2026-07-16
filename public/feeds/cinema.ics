@@ -8,181 +8,67 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-WR-CALNAME:gbc-news · 剧场/映像
 NAME:gbc-news · 剧场/映像
 BEGIN:VEVENT
-UID:post-487@gbc-news
-DTSTAMP:20260715T000000Z
-DTSTART;VALUE=DATE:20260715
-DTEND;VALUE=DATE:20260716
+UID:post-460@gbc-news
+DTSTAMP:20260311T000000Z
+DTSTART;VALUE=DATE:20260311
+DTEND;VALUE=DATE:20260326
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:劇場版総集編「ガールズバンドクライ」【前編】
- 青春狂走曲（初回限定版）/【後編】なぁ、未来。（初
- 回限定版）特典CD楽曲の試聴動画を公開！
-DESCRIPTION:劇場版総集編「ガールズバンドクライ」【前編
- 】青春狂走曲（初回限定版）/【後編】なぁ、未来。（
- 初回限定版）にそれぞれ付属する特典CDに収録されてい
- るトゲナシトゲアリ新曲の試聴動画を公開！ 【前編】
- 青春狂走曲（初回限定版）特典CD収録 ▼試聴動画 「群
- 青ミニアチュール」 Produced by 玉井健二（agehasprings） 作
- 詞：吉岡大地 作曲：吉岡大地\nhttps://girls-ban…
-URL;VALUE=URI:https://girls-band-cry.com/news/post-487.html
-CATEGORIES:music,cinema
+SUMMARY:トゲナシトゲアリ 「5th ONE-MAN LIVE “鳴動の刻”」
+ 映像商品 発売延期のお知らせ
+DESCRIPTION:平素より格別のご愛顧を賜り、誠にありがとう
+ ございます。 2026年3月11日（水）発売を予定しておりま
+ した トゲナシトゲアリ 「5th ONE-MAN LIVE “鳴動の刻”」
+ 映像商品につきまして、制作上の都合により、発売日
+ を延期させていただくこととなりました。 本商品を楽
+ しみにお待ちいただいております皆様には、多大なる
+ ご迷惑をおかけいたしますこと、心よりお\nhttps://girls-b
+ an…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-460.html
+CATEGORIES:live,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-486@gbc-news
-DTSTAMP:20260715T000000Z
-DTSTART;VALUE=DATE:20260715
-DTEND;VALUE=DATE:20260716
+UID:post-455@gbc-news
+DTSTAMP:20260311T000000Z
+DTSTART;VALUE=DATE:20260311
+DTEND;VALUE=DATE:20260326
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:劇場版総集編「ガールズバンドクライ」【前編】
- 青春狂走曲（初回限定版）/【後編】なぁ、未来。（初
- 回限定版）展開図公開！
-DESCRIPTION:劇場版総集編「ガールズバンドクライ」【前編
- 】青春狂走曲（初回限定版）/【後編】なぁ、未来。（
- 初回限定版）の展開図を公開いたします！ ●お問い合
- わせ UNIVERSAL MUSIC STORE カスタマーサポート https://store-ann
- ex.universal-music.co.jp/InquiryInput.jsp ＊カスタマーサポート
- 通常営業時\nhttps://girls-ban…
-URL;VALUE=URI:https://girls-band-cry.com/news/post-486.html
-CATEGORIES:cinema
+SUMMARY:トゲナシトゲアリ 『5th ONE-MAN LIVE “鳴動の刻”』[
+ Blu-ray][DVD] 2026年3月11日(水)発売決定！
+DESCRIPTION:2025年2月7日(金)にパシフィコ横浜 国立大ホール
+ にて開催された、トゲナシトゲアリ 5th ONE-MAN LIVE "鳴動
+ の刻" が映像商品化されることが決定！ 2026年3月11日(水
+ ) Release →2026年3月25日(水) Release ▼発売日延期につきま
+ して https://girls-band-cry.com/news/post-4\nhttps://girls-ban…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-455.html
+CATEGORIES:live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-485@gbc-news
-DTSTAMP:20260715T000000Z
-DTSTART;VALUE=DATE:20260715
-DTEND;VALUE=DATE:20260716
+UID:post-457@gbc-news
+DTSTAMP:20260406T000000Z
+DTSTART;VALUE=DATE:20260406
+DTEND;VALUE=DATE:20260407
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:劇場版総集編「ガールズバンドクライ」【前編】
- 青春狂走曲（初回限定版）/【後編】なぁ、未来。（初
- 回限定版）豪華ブックレットのスペシャルインタビュ
- ー対象者公開！
-DESCRIPTION:劇場版総集編「ガールズバンドクライ」【前編
- 】青春狂走曲（初回限定版）/【後編】なぁ、未来。（
- 初回限定版）豪華ブックレットのスペシャルインタビ
- ュー対象者を公開いたします！ ●お問い合わせ UNIVERSAL
-  MUSIC STORE カスタマーサポート https://store-annex.universal-mus
- ic.co.jp/InquiryInput.\nhttps://girls-ban…
-URL;VALUE=URI:https://girls-band-cry.com/news/post-485.html
-CATEGORIES:cinema,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-479@gbc-news
-DTSTAMP:20260611T000000Z
-DTSTART;VALUE=DATE:20260611
-DTEND;VALUE=DATE:20260612
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:劇場版総集編ガールズバンドクライ店舗・ストア
- 特典〈全絵柄〉公開！
-DESCRIPTION:劇場版総集編ガールズバンドクライ店舗・スト
- ア特典絵柄〈第二弾〉 全ラインナップがついに公開…
- ‼️ 是非チェックしてみてください 商品詳細 https://gir
- ls-band-cry.com/cinema/goods/category/bddvd/\nhttps://girls-band-cry.com/n
- ews/post-479.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-479.html
-CATEGORIES:goods,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-478@gbc-news
-DTSTAMP:20260610T000000Z
-DTSTART;VALUE=DATE:20260610
-DTEND;VALUE=DATE:20260611
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:劇場版総集編ガールズバンドクライ〈アニメイト
- 〉〈Amazon〉〈ゲーマーズ〉限定セット絵柄公開！
-DESCRIPTION:劇場版総集編ガールズバンドクライ[Blu-ray][DVD]\
- nhttps://girls-band-cry.com/news/post-478.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-478.html
-CATEGORIES:goods,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-473@gbc-news
-DTSTAMP:20260501T000000Z
-DTSTART;VALUE=DATE:20260501
-DTEND;VALUE=DATE:20260502
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:ガールズバンドクライ Special LIVE “赤色の響祭” 
- 開催決定！
-DESCRIPTION:ガールズバンドクライ Special LIVE “赤色の響祭
- ”の開催が決定しました！ ■開催日 2026年11月3日（火
- ・祝） ■会場 ぴあアリーナMM チケット最速先行抽選申
- し込み券は、2026年7月22日（水）発売 劇場版総集編 ガ
- ールズバンドクライ 【前編】 青春狂走曲 Blu-ray & DVD 劇
- 場版総集編 ガールズバンドクライ 【後編】 なぁ、未\n
- https://girls-ban…
-URL;VALUE=URI:https://girls-band-cry.com/news/post-473.html
-CATEGORIES:live,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-472@gbc-news
-DTSTAMP:20260417T000000Z
-DTSTART;VALUE=DATE:20260417
-DTEND;VALUE=DATE:20260418
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:UNIVERSAL MUSIC STORE/東映アニメーションオフィシャル
- ストア限定ぬいぐるみセット（完全受注限定生産）【
- 劇場でマナーの悪かった井芹仁菜オリジ…
-DESCRIPTION:UNIVERSAL MUSIC STOREと東映アニメーションオフィシ
- ャルストアで限定販売されるぬいぐるみセットの【劇
- 場でマナーの悪かった井芹仁菜オリジナルぬいぐるみ
- 】イラストを公開いたします！ ※監修中、仕様は変更
- する場合がございます。 ※ぬいぐるみセットをご購入
- の方のみ、お届けします。 ※画像はイメージです。実
- 物とは異なる場合がございます。 UNIVER\nhttps://girls-ban…
-URL;VALUE=URI:https://girls-band-cry.com/news/post-472.html
-CATEGORIES:goods,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-470@gbc-news
-DTSTAMP:20260415T000000Z
-DTSTART;VALUE=DATE:20260415
-DTEND;VALUE=DATE:20260416
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:『劇場版総集編ガールズバンドクライ』（初回限
- 定版）【前編封入】Side-A ／【後編封入】Side-B 豪華ブッ
- クレットの一部内容公開！
-DESCRIPTION:『劇場版総集編ガールズバンドクライ』（初回
- 限定版） 【前編封入】Side-A ／【後編封入】Side-B 豪華
- ブックレットの一部内容公開！ ガールズバンドクライ
- 脚本・花田十輝による新規書き下ろし「ミニストーリ
- ー」 の収録が決定しました！ 前編・後編、それぞれ別
- のストーリーが付きます。 ※初回限定版にのみ封入さ
- れます。 ※仕様は変更する場合がございます。 UN\nhttps
- ://girls-ban…
-URL;VALUE=URI:https://girls-band-cry.com/news/post-470.html
-CATEGORIES:goods,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-469@gbc-news
-DTSTAMP:20260410T000000Z
-DTSTART;VALUE=DATE:20260410
-DTEND;VALUE=DATE:20260411
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:UNIVERSAL MUSIC STORE/東映アニメーションオフィシャル
- ストア限定ぬいぐるみセット （完全受注限定生産） オ
- リジナル配送箱デザイン決定！
-DESCRIPTION:UNIVERSAL MUSIC STOREと東映アニメーションオフィシ
- ャルストアで限定販売されるぬいぐるみセットのオリ
- ジナル配送箱デザインが決定しました！ ・ぬいぐるみ
- セットご購入の方のみガールズバンドクライオリジナ
- ル配送箱でお届けします。 ・配送箱は、配送上使用す
- るもので特典ではありません。その為、配送時におけ
- る凹み・汚れ、破損や角潰れなどに伴う交換・返金\nhtt
- ps://girls-ban…
-URL;VALUE=URI:https://girls-band-cry.com/news/post-469.html
-CATEGORIES:goods,cinema
+SUMMARY:『劇場版総集編ガールズバンドクライ』【配信決
+ 定＆TV放送２周年記念】メモリアルグッズ購入キャンペ
+ ーン
+DESCRIPTION:『劇場版総集編ガールズバンドクライ』前編・
+ 後編の配信が決定！ 記念すべき、TVアニメ放送２周年
+ 記念日［4月6日(月)12:00（正午）］より、 Amazon／U-NEXTに
+ て購入版・レンタル版が視聴できるようになります！ 
+ 配信決定＆TVアニメ２周年記念を記念して、 「劇場版
+ 総集編ガールズバンドクライ 青春狂走曲（前編）」、 
+ 「劇場版総集編ガールズバンドクライ\nhttps://girls-ban…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-457.html
+CATEGORIES:goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-467@gbc-news
-DTSTAMP:20260408T000000Z
-DTSTART;VALUE=DATE:20260408
-DTEND;VALUE=DATE:20260409
+DTSTAMP:20260422T000000Z
+DTSTART;VALUE=DATE:20260422
+DTEND;VALUE=DATE:20260425
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SUMMARY:4月22日(水)・4月23日(木) ガルクラプロジェクト始
@@ -200,9 +86,9 @@ CATEGORIES:live,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-464@gbc-news
-DTSTAMP:20260314T000000Z
-DTSTART;VALUE=DATE:20260314
-DTEND;VALUE=DATE:20260315
+DTSTAMP:20260424T000000Z
+DTSTART;VALUE=DATE:20260424
+DTEND;VALUE=DATE:20260711
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SUMMARY:『劇場版総集編 ガールズバンドクライ』「【前編
@@ -221,9 +107,9 @@ CATEGORIES:live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-466@gbc-news
-DTSTAMP:20260314T000000Z
-DTSTART;VALUE=DATE:20260314
-DTEND;VALUE=DATE:20260315
+DTSTAMP:20260501T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SUMMARY:トゲナシトゲアリ TOUR 2026 FINAL “拍動の未来 -ENCORE
@@ -238,60 +124,84 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-466.html
 CATEGORIES:live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-460@gbc-news
-DTSTAMP:20260302T000000Z
-DTSTART;VALUE=DATE:20260302
-DTEND;VALUE=DATE:20260303
+UID:post-472@gbc-news
+DTSTAMP:20260722T000000Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:トゲナシトゲアリ 「5th ONE-MAN LIVE “鳴動の刻”」
- 映像商品 発売延期のお知らせ
-DESCRIPTION:平素より格別のご愛顧を賜り、誠にありがとう
- ございます。 2026年3月11日（水）発売を予定しておりま
- した トゲナシトゲアリ 「5th ONE-MAN LIVE “鳴動の刻”」
- 映像商品につきまして、制作上の都合により、発売日
- を延期させていただくこととなりました。 本商品を楽
- しみにお待ちいただいております皆様には、多大なる
- ご迷惑をおかけいたしますこと、心よりお\nhttps://girls-b
- an…
-URL;VALUE=URI:https://girls-band-cry.com/news/post-460.html
-CATEGORIES:live,cinema
+SUMMARY:UNIVERSAL MUSIC STORE/東映アニメーションオフィシャル
+ ストア限定ぬいぐるみセット（完全受注限定生産）【
+ 劇場でマナーの悪かった井芹仁菜オリジ…
+DESCRIPTION:UNIVERSAL MUSIC STOREと東映アニメーションオフィシ
+ ャルストアで限定販売されるぬいぐるみセットの【劇
+ 場でマナーの悪かった井芹仁菜オリジナルぬいぐるみ
+ 】イラストを公開いたします！ ※監修中、仕様は変更
+ する場合がございます。 ※ぬいぐるみセットをご購入
+ の方のみ、お届けします。 ※画像はイメージです。実
+ 物とは異なる場合がございます。 UNIVER\nhttps://girls-ban…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-472.html
+CATEGORIES:goods,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-455@gbc-news
-DTSTAMP:20260211T000000Z
-DTSTART;VALUE=DATE:20260211
-DTEND;VALUE=DATE:20260212
+UID:post-470@gbc-news
+DTSTAMP:20260722T000000Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:トゲナシトゲアリ 『5th ONE-MAN LIVE “鳴動の刻”』[
- Blu-ray][DVD] 2026年3月11日(水)発売決定！
-DESCRIPTION:2025年2月7日(金)にパシフィコ横浜 国立大ホール
- にて開催された、トゲナシトゲアリ 5th ONE-MAN LIVE "鳴動
- の刻" が映像商品化されることが決定！ 2026年3月11日(水
- ) Release →2026年3月25日(水) Release ▼発売日延期につきま
- して https://girls-band-cry.com/news/post-4\nhttps://girls-ban…
-URL;VALUE=URI:https://girls-band-cry.com/news/post-455.html
-CATEGORIES:live,music,event,cinema
+SUMMARY:『劇場版総集編ガールズバンドクライ』（初回限
+ 定版）【前編封入】Side-A ／【後編封入】Side-B 豪華ブッ
+ クレットの一部内容公開！
+DESCRIPTION:『劇場版総集編ガールズバンドクライ』（初回
+ 限定版） 【前編封入】Side-A ／【後編封入】Side-B 豪華
+ ブックレットの一部内容公開！ ガールズバンドクライ
+ 脚本・花田十輝による新規書き下ろし「ミニストーリ
+ ー」 の収録が決定しました！ 前編・後編、それぞれ別
+ のストーリーが付きます。 ※初回限定版にのみ封入さ
+ れます。 ※仕様は変更する場合がございます。 UN\nhttps
+ ://girls-ban…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-470.html
+CATEGORIES:goods,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-457@gbc-news
-DTSTAMP:20260210T000000Z
-DTSTART;VALUE=DATE:20260210
-DTEND;VALUE=DATE:20260211
+UID:post-469@gbc-news
+DTSTAMP:20260722T000000Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:『劇場版総集編ガールズバンドクライ』【配信決
- 定＆TV放送２周年記念】メモリアルグッズ購入キャンペ
- ーン
-DESCRIPTION:『劇場版総集編ガールズバンドクライ』前編・
- 後編の配信が決定！ 記念すべき、TVアニメ放送２周年
- 記念日［4月6日(月)12:00（正午）］より、 Amazon／U-NEXTに
- て購入版・レンタル版が視聴できるようになります！ 
- 配信決定＆TVアニメ２周年記念を記念して、 「劇場版
- 総集編ガールズバンドクライ 青春狂走曲（前編）」、 
- 「劇場版総集編ガールズバンドクライ\nhttps://girls-ban…
-URL;VALUE=URI:https://girls-band-cry.com/news/post-457.html
-CATEGORIES:goods,event,cinema,media
+SUMMARY:UNIVERSAL MUSIC STORE/東映アニメーションオフィシャル
+ ストア限定ぬいぐるみセット （完全受注限定生産） オ
+ リジナル配送箱デザイン決定！
+DESCRIPTION:UNIVERSAL MUSIC STOREと東映アニメーションオフィシ
+ ャルストアで限定販売されるぬいぐるみセットのオリ
+ ジナル配送箱デザインが決定しました！ ・ぬいぐるみ
+ セットご購入の方のみガールズバンドクライオリジナ
+ ル配送箱でお届けします。 ・配送箱は、配送上使用す
+ るもので特典ではありません。その為、配送時におけ
+ る凹み・汚れ、破損や角潰れなどに伴う交換・返金\nhtt
+ ps://girls-ban…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-469.html
+CATEGORIES:goods,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-473@gbc-news
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:ガールズバンドクライ Special LIVE “赤色の響祭” 
+ 開催決定！
+DESCRIPTION:ガールズバンドクライ Special LIVE “赤色の響祭
+ ”の開催が決定しました！ ■開催日 2026年11月3日（火
+ ・祝） ■会場 ぴあアリーナMM チケット最速先行抽選申
+ し込み券は、2026年7月22日（水）発売 劇場版総集編 ガ
+ ールズバンドクライ 【前編】 青春狂走曲 Blu-ray & DVD 劇
+ 場版総集編 ガールズバンドクライ 【後編】 なぁ、未\n
+ https://girls-ban…
+URL;VALUE=URI:https://girls-band-cry.com/news/post-473.html
+CATEGORIES:live,event,cinema
 END:VEVENT
 END:VCALENDAR
