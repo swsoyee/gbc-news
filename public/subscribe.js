@@ -25,10 +25,17 @@ const rssUrlEl = document.getElementById('rss-url')
 const icsUrlEl = document.getElementById('ics-url')
 const rssOpen = document.getElementById('rss-open')
 const icsOpen = document.getElementById('ics-open')
-const calendarListEl = document.getElementById('calendar-list')
+const calendarGridEl = document.getElementById('calendar-grid')
 const calendarNoteEl = document.getElementById('calendar-note')
+const calendarMonthLabelEl = document.getElementById('calendar-month-label')
+const calendarPrevBtn = document.getElementById('calendar-prev')
+const calendarNextBtn = document.getElementById('calendar-next')
+const calendarTodayBtn = document.getElementById('calendar-today')
 
-const CALENDAR_LIMIT = 36
+const CHIPS_PER_DAY = 3
+
+/** 当前看板月份：本地时区的年月（日固定为 1） */
+let calendarCursor = startOfMonth(new Date())
 
 /** @type {{ title: string, url: string, groups?: string[], categories?: string[], eventDates?: { date: string, endDate?: string, kind: 'hold' | 'sale', startTime?: string }[] }[]} */
 let newsItems = []
@@ -157,147 +164,157 @@ function labelList(ids, catalog) {
 }
 
 function localTodayIso() {
-  const today = new Date()
-  const year = today.getFullYear()
-  const month = String(today.getMonth() + 1).padStart(2, '0')
-  const day = String(today.getDate()).padStart(2, '0')
+  return toIsoDate(new Date())
+}
+
+function toIsoDate(date) {
+  const year = date.getFullYear()
+  const month = String(date.getMonth() + 1).padStart(2, '0')
+  const day = String(date.getDate()).padStart(2, '0')
   return `${year}-${month}-${day}`
 }
 
-function formatMonthTitle(date) {
-  const parsed = new Date(`${date}T00:00:00`)
-  return `${parsed.getFullYear()}年${parsed.getMonth() + 1}月`
+function startOfMonth(date) {
+  return new Date(date.getFullYear(), date.getMonth(), 1)
 }
 
-function formatDay(date) {
-  return String(Number(date.slice(8, 10)))
+function shiftMonth(date, delta) {
+  return new Date(date.getFullYear(), date.getMonth() + delta, 1)
 }
 
-function formatWeekday(date) {
-  return new Intl.DateTimeFormat('zh-CN', { weekday: 'short' }).format(new Date(`${date}T00:00:00`))
-}
-
-function formatDateShort(date) {
-  return `${Number(date.slice(5, 7))}/${Number(date.slice(8, 10))}`
+function formatMonthLabel(date) {
+  return `${date.getFullYear()}年${date.getMonth() + 1}月`
 }
 
 function eventKindLabel(kind) {
   return kind === 'sale' ? '発売' : '開催'
 }
 
-function buildCalendarEvents(groups, categories) {
-  const today = localTodayIso()
-  const events = []
+function mondayBasedWeekday(date) {
+  return (date.getDay() + 6) % 7
+}
 
+function buildMonthCells(cursor) {
+  const year = cursor.getFullYear()
+  const month = cursor.getMonth()
+  const first = new Date(year, month, 1)
+  const startOffset = mondayBasedWeekday(first)
+  const start = new Date(year, month, 1 - startOffset)
+  const cells = []
+  for (let i = 0; i < 42; i += 1) {
+    const day = new Date(start.getFullYear(), start.getMonth(), start.getDate() + i)
+    cells.push({
+      date: toIsoDate(day),
+      dayNum: day.getDate(),
+      inMonth: day.getMonth() === month,
+    })
+  }
+  return cells
+}
+
+function buildCalendarEvents(groups, categories) {
+  const events = []
   for (const item of filterNewsItems(groups, categories)) {
     for (const eventDate of item.eventDates ?? []) {
-      if (!eventDate.date || eventDate.date < today) continue
+      if (!eventDate.date) continue
       events.push({
         item,
         date: eventDate.date,
-        endDate: eventDate.endDate,
+        endDate:
+          eventDate.endDate && eventDate.endDate > eventDate.date
+            ? eventDate.endDate
+            : eventDate.date,
         kind: eventDate.kind,
         startTime: eventDate.startTime,
       })
     }
   }
+  return events.sort(
+    (a, b) =>
+      a.date.localeCompare(b.date) ||
+      (a.startTime ?? '').localeCompare(b.startTime ?? '') ||
+      a.item.title.localeCompare(b.item.title),
+  )
+}
 
-  return events
-    .sort(
-      (a, b) =>
-        a.date.localeCompare(b.date) ||
-        (a.startTime ?? '').localeCompare(b.startTime ?? '') ||
-        a.item.title.localeCompare(b.item.title),
-    )
-    .slice(0, CALENDAR_LIMIT)
+function eventsCoveringDay(events, isoDate) {
+  return events.filter((event) => event.date <= isoDate && isoDate <= event.endDate)
+}
+
+function chipLabel(event, isoDate) {
+  const kind = eventKindLabel(event.kind)
+  const prefix = event.startTime && event.date === isoDate ? `${event.startTime} ` : ''
+  const spanMark = event.endDate > event.date && event.date !== isoDate ? '… ' : ''
+  return `${kind} ${spanMark}${prefix}${event.item.title}`
 }
 
 function renderCalendar(groups, categories) {
-  if (!calendarListEl) return
+  if (!calendarGridEl) return
 
   const events = buildCalendarEvents(groups, categories)
-  calendarListEl.replaceChildren()
+  const cells = buildMonthCells(calendarCursor)
+  const today = localTodayIso()
+  const monthStart = toIsoDate(calendarCursor)
+  const monthEnd = toIsoDate(
+    new Date(calendarCursor.getFullYear(), calendarCursor.getMonth() + 1, 0),
+  )
+  const monthEventCount = events.filter(
+    (event) => event.date <= monthEnd && event.endDate >= monthStart,
+  ).length
+
+  if (calendarMonthLabelEl) calendarMonthLabelEl.textContent = formatMonthLabel(calendarCursor)
   if (calendarNoteEl) {
     calendarNoteEl.textContent =
-      events.length > 0 ? `显示未来 ${events.length} 件` : '当前筛选下没有未来活动'
+      monthEventCount > 0
+        ? `本月 ${monthEventCount} 件（受当前筛选影响）`
+        : '本月当前筛选下没有活动'
   }
 
-  if (events.length === 0) {
-    const empty = document.createElement('p')
-    empty.className = 'calendar-empty'
-    empty.textContent = '当前筛选下没有可显示的未来活动日。'
-    calendarListEl.appendChild(empty)
-    return
-  }
+  calendarGridEl.replaceChildren()
+  for (const cell of cells) {
+    const cellEl = document.createElement('div')
+    cellEl.className = 'calendar-day-cell'
+    if (!cell.inMonth) cellEl.classList.add('is-outside')
+    if (cell.date === today) cellEl.classList.add('is-today')
 
-  let currentMonth = ''
-  let monthEl = null
-  for (const event of events) {
-    const month = event.date.slice(0, 7)
-    if (month !== currentMonth) {
-      currentMonth = month
-      monthEl = document.createElement('div')
-      monthEl.className = 'calendar-month'
-      const title = document.createElement('div')
-      title.className = 'calendar-month-title'
-      title.textContent = formatMonthTitle(event.date)
-      monthEl.appendChild(title)
-      calendarListEl.appendChild(monthEl)
+    const num = document.createElement('div')
+    num.className = 'calendar-day-num'
+    num.textContent = String(cell.dayNum)
+    cellEl.appendChild(num)
+
+    const dayEvents = eventsCoveringDay(events, cell.date)
+    if (dayEvents.length > 0) {
+      const list = document.createElement('div')
+      list.className = 'calendar-day-events'
+      const visible = dayEvents.slice(0, CHIPS_PER_DAY)
+      for (const event of visible) {
+        const chip = document.createElement('a')
+        chip.className = event.kind === 'sale' ? 'calendar-chip is-sale' : 'calendar-chip'
+        if (event.endDate > event.date) chip.classList.add('is-span')
+        chip.href = event.item.url
+        chip.target = '_blank'
+        chip.rel = 'noopener'
+        chip.title = `${eventKindLabel(event.kind)} ${event.item.title}`
+        chip.textContent = chipLabel(event, cell.date)
+        list.appendChild(chip)
+      }
+      if (dayEvents.length > CHIPS_PER_DAY) {
+        const more = document.createElement('div')
+        more.className = 'calendar-more'
+        more.textContent = `+${dayEvents.length - CHIPS_PER_DAY}`
+        list.appendChild(more)
+      }
+      cellEl.appendChild(list)
     }
-    monthEl.appendChild(buildCalendarRow(event))
+
+    calendarGridEl.appendChild(cellEl)
   }
 }
 
-function buildCalendarRow(event) {
-  const link = document.createElement('a')
-  link.className = 'calendar-event'
-  link.href = event.item.url
-  link.target = '_blank'
-  link.rel = 'noopener'
-
-  const dateBox = document.createElement('span')
-  dateBox.className = 'calendar-date'
-
-  const day = document.createElement('span')
-  day.className = 'calendar-day'
-  day.textContent = formatDay(event.date)
-  const weekday = document.createElement('span')
-  weekday.className = 'calendar-weekday'
-  weekday.textContent = formatWeekday(event.date)
-  dateBox.append(day, weekday)
-
-  if (event.endDate && event.endDate > event.date) {
-    const range = document.createElement('span')
-    range.className = 'calendar-range'
-    range.textContent = `〜${formatDateShort(event.endDate)}`
-    dateBox.appendChild(range)
-  }
-
-  const body = document.createElement('span')
-  body.className = 'calendar-body'
-
-  const title = document.createElement('span')
-  title.className = 'calendar-title'
-  title.textContent = event.item.title
-
-  const meta = document.createElement('span')
-  meta.className = 'calendar-meta'
-  const kind = document.createElement('span')
-  kind.className = 'calendar-kind'
-  kind.textContent = eventKindLabel(event.kind)
-  meta.appendChild(kind)
-  if (event.startTime) {
-    const time = document.createElement('span')
-    time.textContent = event.startTime
-    meta.appendChild(time)
-  }
-  const cats = document.createElement('span')
-  cats.textContent = (event.item.categories ?? []).join(' / ')
-  meta.appendChild(cats)
-
-  body.append(title, meta)
-  link.append(dateBox, body)
-  return link
+function refreshCalendarOnly() {
+  const groups = selectedValues(groupsEl)
+  const categories = selectedValues(catsEl)
+  renderCalendar(groups, categories)
 }
 
 function renderStaticLinks(activeGroups, activeCategories) {
@@ -454,6 +471,19 @@ document.getElementById('clear-all').addEventListener('click', () => {
 
 groupsEl.addEventListener('change', refresh)
 catsEl.addEventListener('change', refresh)
+
+calendarPrevBtn?.addEventListener('click', () => {
+  calendarCursor = shiftMonth(calendarCursor, -1)
+  refreshCalendarOnly()
+})
+calendarNextBtn?.addEventListener('click', () => {
+  calendarCursor = shiftMonth(calendarCursor, 1)
+  refreshCalendarOnly()
+})
+calendarTodayBtn?.addEventListener('click', () => {
+  calendarCursor = startOfMonth(new Date())
+  refreshCalendarOnly()
+})
 
 // 事件委托：静态区动态按钮 + 自定义区复制
 document.addEventListener('click', (event) => {

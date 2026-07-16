@@ -34,7 +34,7 @@
           linear-gradient(160deg, var(--bg0), var(--bg1) 55%, #12171d);
       }
       main {
-        width: min(720px, calc(100% - 2rem));
+        width: min(900px, calc(100% - 2rem));
         margin: 0 auto;
         padding: 12vh 0 4rem;
       }
@@ -140,103 +140,121 @@
       }
       .calendar-head {
         display: flex;
-        align-items: baseline;
+        flex-wrap: wrap;
+        align-items: center;
         justify-content: space-between;
-        gap: 1rem;
-        margin-bottom: 1rem;
+        gap: 0.8rem;
+        margin-bottom: 0.9rem;
       }
       .calendar-head h2 {
         margin-bottom: 0;
       }
+      .calendar-nav {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.45rem;
+      }
+      .calendar-month-label {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 1.05rem;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        min-width: 7.5rem;
+        text-align: center;
+      }
       .calendar-note {
         color: var(--muted);
         font-size: 0.82rem;
+        margin: 0 0 0.75rem;
       }
-      .calendar-list {
-        display: grid;
-        gap: 0.9rem;
-      }
-      .calendar-month {
-        display: grid;
-        gap: 0.55rem;
-      }
-      .calendar-month-title {
-        color: var(--muted);
-        font-size: 0.82rem;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-      }
-      .calendar-event {
-        display: grid;
-        grid-template-columns: 5.4rem 1fr;
-        gap: 0.8rem;
-        align-items: stretch;
+      .calendar-board {
+        overflow-x: auto;
         border: 1px solid var(--line);
-        background: rgba(255, 255, 255, 0.03);
-        text-decoration: none;
-        color: inherit;
+        background: rgba(0, 0, 0, 0.16);
       }
-      .calendar-event:hover {
-        border-color: var(--accent);
-        background: rgba(232, 93, 76, 0.1);
-      }
-      .calendar-date {
+      .calendar-weekdays,
+      .calendar-grid {
         display: grid;
-        place-items: center;
-        padding: 0.8rem 0.35rem;
-        border-right: 1px solid var(--line);
-        background: rgba(0, 0, 0, 0.18);
-        text-align: center;
+        grid-template-columns: repeat(7, minmax(6.2rem, 1fr));
+        min-width: 43.4rem;
       }
-      .calendar-day {
-        font-family: 'Space Grotesk', sans-serif;
-        font-size: 1.8rem;
-        line-height: 1;
-      }
-      .calendar-weekday,
-      .calendar-range {
+      .calendar-weekdays span {
+        padding: 0.45rem 0.35rem;
         color: var(--muted);
         font-size: 0.72rem;
+        letter-spacing: 0.08em;
+        text-align: center;
+        border-bottom: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.03);
       }
-      .calendar-body {
-        min-width: 0;
-        padding: 0.75rem 0.8rem 0.75rem 0;
+      .calendar-day-cell {
+        min-height: 6.4rem;
+        border-right: 1px solid var(--line);
+        border-bottom: 1px solid var(--line);
+        padding: 0.35rem;
+        background: rgba(255, 255, 255, 0.02);
       }
-      .calendar-title {
+      .calendar-day-cell:nth-child(7n) {
+        border-right: none;
+      }
+      .calendar-day-cell.is-outside {
+        opacity: 0.42;
+        background: transparent;
+      }
+      .calendar-day-cell.is-today {
+        background: rgba(232, 93, 76, 0.1);
+      }
+      .calendar-day-num {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 1.55rem;
+        height: 1.55rem;
+        margin-bottom: 0.3rem;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 0.85rem;
+        font-weight: 700;
+      }
+      .calendar-day-cell.is-today .calendar-day-num {
+        border-radius: 999px;
+        background: var(--accent);
+        color: #1a0f0d;
+      }
+      .calendar-day-events {
+        display: grid;
+        gap: 0.2rem;
+      }
+      a.calendar-chip {
         display: block;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
-        font-weight: 600;
+        padding: 0.18rem 0.3rem;
+        border-left: 2px solid var(--accent);
+        background: rgba(232, 93, 76, 0.16);
+        color: var(--ink);
+        font-size: 0.68rem;
+        line-height: 1.35;
+        text-decoration: none;
       }
-      .calendar-meta {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.45rem;
-        margin-top: 0.35rem;
+      a.calendar-chip.is-sale {
+        border-left-color: #5a8cb4;
+        background: rgba(90, 140, 180, 0.2);
+      }
+      a.calendar-chip.is-span {
+        opacity: 0.88;
+      }
+      a.calendar-chip:hover {
+        background: rgba(232, 93, 76, 0.28);
+      }
+      a.calendar-chip.is-sale:hover {
+        background: rgba(90, 140, 180, 0.32);
+      }
+      .calendar-more {
         color: var(--muted);
-        font-size: 0.78rem;
-      }
-      .calendar-kind {
-        color: var(--accent);
-        font-weight: 700;
-      }
-      .calendar-empty {
-        color: var(--muted);
-        border: 1px solid var(--line);
-        padding: 0.85rem;
-        background: rgba(255, 255, 255, 0.03);
-      }
-      @media (max-width: 560px) {
-        .calendar-head {
-          display: grid;
-        }
-        .calendar-event {
-          grid-template-columns: 4.6rem 1fr;
-        }
-        .calendar-title {
-          white-space: normal;
-        }
+        font-size: 0.68rem;
+        padding: 0.1rem 0.2rem;
       }
       details.fold {
         border-top: 1px solid var(--line);
@@ -352,10 +370,22 @@
 
       <section aria-labelledby="calendar-heading">
         <div class="calendar-head">
-          <h2 id="calendar-heading">近期日历</h2>
-          <span class="calendar-note" id="calendar-note">按当前筛选显示</span>
+          <h2 id="calendar-heading">月历</h2>
+          <div class="calendar-nav">
+            <button type="button" id="calendar-prev" aria-label="上个月">上个月</button>
+            <span class="calendar-month-label" id="calendar-month-label">—</span>
+            <button type="button" id="calendar-next" aria-label="下个月">下个月</button>
+            <button type="button" id="calendar-today">本月</button>
+          </div>
         </div>
-        <div class="calendar-list" id="calendar-list"></div>
+        <p class="calendar-note" id="calendar-note">按当前筛选显示</p>
+        <div class="calendar-board" id="calendar-board">
+          <div class="calendar-weekdays" aria-hidden="true">
+            <span>一</span><span>二</span><span>三</span><span>四</span><span>五</span
+            ><span>六</span><span>日</span>
+          </div>
+          <div class="calendar-grid" id="calendar-grid"></div>
+        </div>
       </section>
 
       <details class="fold">
