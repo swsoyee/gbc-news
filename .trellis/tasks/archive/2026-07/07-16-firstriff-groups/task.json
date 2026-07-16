@@ -1,0 +1,28 @@
+{
+  "id": "firstriff-groups",
+  "name": "firstriff-groups",
+  "title": "firstriff 信息源与组合分类",
+  "description": "",
+  "status": "completed",
+  "dev_type": null,
+  "scope": null,
+  "package": null,
+  "priority": "P2",
+  "creator": "InfinityLoop",
+  "assignee": "InfinityLoop",
+  "createdAt": "2026-07-16",
+  "completedAt": "2026-07-16",
+  "branch": null,
+  "base_branch": "main",
+  "worktree_path": null,
+  "commit": null,
+  "pr_url": null,
+  "subtasks": [],
+  "children": [],
+  "parent": null,
+  "relatedFiles": [],
+  "notes": "",
+  "meta": {
+    "github_issue_url": "https://github.com/swsoyee/gbc-news/issues/15"
+  }
+}

@@ -1,0 +1,5 @@
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "检查解析夹具与 feed 断言"}
+{"file": ".trellis/spec/backend/error-handling.md", "reason": "检查失败路径与空订阅防护"}
+{"file": ".trellis/spec/frontend/quality-guidelines.md", "reason": "检查订阅页可用性"}
+{"file": ".trellis/spec/guides/cross-layer-thinking-guide.md", "reason": "检查 UI/API/模型过滤语义一致"}
+{"file": ".trellis/spec/guides/collaboration-and-delivery.md", "reason": "检查小步提交与验收完整性"}

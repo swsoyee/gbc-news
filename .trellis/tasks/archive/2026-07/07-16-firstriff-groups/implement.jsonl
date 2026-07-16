@@ -1,0 +1,8 @@
+{"file": ".trellis/spec/backend/index.md", "reason": "后端 Pre-Development Checklist 入口"}
+{"file": ".trellis/spec/backend/directory-structure.md", "reason": "新源独立 scraper 目录约定"}
+{"file": ".trellis/spec/backend/error-handling.md", "reason": "单源失败与禁止空订阅"}
+{"file": ".trellis/spec/backend/database-guidelines.md", "reason": "快照路径与 Item 字段约定"}
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "夹具测试与质量门槛"}
+{"file": ".trellis/spec/frontend/index.md", "reason": "前端 Pre-Development Checklist"}
+{"file": ".trellis/spec/frontend/directory-structure.md", "reason": "静态订阅页与稳定 URL"}
+{"file": ".trellis/spec/guides/cross-layer-thinking-guide.md", "reason": "groups/categories 跨层契约"}
