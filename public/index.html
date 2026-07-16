@@ -138,6 +138,33 @@
         font-size: 0.92rem;
         line-height: 1.55;
       }
+      details.fold {
+        border-top: 1px solid var(--line);
+        padding-top: 1.4rem;
+        margin-top: 1.4rem;
+      }
+      details.fold > summary {
+        list-style: none;
+        cursor: pointer;
+        font-size: 0.85rem;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--muted);
+        user-select: none;
+      }
+      details.fold > summary::-webkit-details-marker {
+        display: none;
+      }
+      details.fold > summary::before {
+        content: '▸ ';
+        color: var(--accent);
+      }
+      details.fold[open] > summary::before {
+        content: '▾ ';
+      }
+      details.fold .links {
+        margin-top: 1rem;
+      }
     </style>
   </head>
   <body>
@@ -190,15 +217,15 @@
         <p class="meta" id="stats">加载中…</p>
       </section>
 
-      <section>
-        <h2>各组合日历（ICS）</h2>
+      <details class="fold">
+        <summary>各组合日历（ICS）· 快捷单维订阅</summary>
         <div class="links" id="group-links"></div>
-      </section>
+      </details>
 
-      <section>
-        <h2>各分类日历（ICS）</h2>
+      <details class="fold">
+        <summary>各分类日历（ICS）· 快捷单维订阅</summary>
         <div class="links" id="cat-links"></div>
-      </section>
+      </details>
     </main>
     <script type="module" src="/subscribe.js"></script>
   </body>
