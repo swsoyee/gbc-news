@@ -1,0 +1,9 @@
+node_modules
+dist
+coverage
+.trellis
+.cursor
+package-lock.json
+*.md
+!README.md
+!docs/**/*.md
