@@ -510,6 +510,35 @@
       a.calendar-chip.is-sale:hover {
         background: rgba(90, 140, 180, 0.32);
       }
+      .calendar-event-tooltip {
+        position: fixed;
+        z-index: 20;
+        width: max-content;
+        max-width: min(28rem, calc(100vw - 2rem));
+        padding: 0.45rem 0.6rem;
+        border: 1px solid var(--line);
+        background: rgba(16, 20, 24, 0.96);
+        color: var(--ink);
+        font-size: 0.78rem;
+        line-height: 1.45;
+        overflow-wrap: anywhere;
+        opacity: 0;
+        pointer-events: none;
+        transform: translate(-50%, calc(-100% + 0.2rem));
+        transition:
+          opacity 160ms ease,
+          transform 160ms ease;
+      }
+      .calendar-event-tooltip.is-visible {
+        opacity: 1;
+        transform: translate(-50%, -100%);
+      }
+      .calendar-event-tooltip.is-below {
+        transform: translate(-50%, -0.2rem);
+      }
+      .calendar-event-tooltip.is-below.is-visible {
+        transform: translate(-50%, 0);
+      }
       .calendar-more {
         align-self: start;
         grid-row: 1;

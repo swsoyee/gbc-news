@@ -354,6 +354,40 @@ function chipLabel(segment) {
   return `${kind} ${startMark}${time}${event.item.title}${endMark}`
 }
 
+let calendarTooltipEl
+let calendarTooltipTimer
+
+function getCalendarTooltip() {
+  if (calendarTooltipEl) return calendarTooltipEl
+  calendarTooltipEl = document.createElement('div')
+  calendarTooltipEl.className = 'calendar-event-tooltip'
+  calendarTooltipEl.setAttribute('role', 'tooltip')
+  document.body.appendChild(calendarTooltipEl)
+  return calendarTooltipEl
+}
+
+function showCalendarTooltip(anchor, text) {
+  if (calendarTooltipTimer) window.clearTimeout(calendarTooltipTimer)
+  const tooltip = getCalendarTooltip()
+  const rect = anchor.getBoundingClientRect()
+  const showBelow = rect.top < 80
+  tooltip.textContent = text
+  tooltip.style.left = `${Math.min(window.innerWidth - 16, Math.max(16, rect.left + rect.width / 2))}px`
+  tooltip.style.top = `${showBelow ? rect.bottom + 8 : rect.top - 8}px`
+  tooltip.classList.toggle('is-below', showBelow)
+  tooltip.classList.remove('is-visible')
+  void tooltip.offsetWidth
+  tooltip.classList.add('is-visible')
+}
+
+function hideCalendarTooltip() {
+  if (!calendarTooltipEl) return
+  calendarTooltipEl.classList.remove('is-visible')
+  calendarTooltipTimer = window.setTimeout(() => {
+    if (calendarTooltipEl) calendarTooltipEl.textContent = ''
+  }, 180)
+}
+
 function syncCalendarViewButtons() {
   for (const button of calendarViewBtns) {
     button.classList.toggle('is-active', button.getAttribute('data-calendar-view') === calendarView)
@@ -423,7 +457,12 @@ function renderWeekRow(events, weekCells, today, chipLimit) {
     chip.href = event.item.url
     chip.target = '_blank'
     chip.rel = 'noopener'
-    chip.title = `${eventKindLabel(event.kind)} ${event.date}～${event.endDate} ${event.item.title}`
+    const tooltipText = `${eventKindLabel(event.kind)} ${event.item.title}`
+    chip.setAttribute('aria-label', tooltipText)
+    chip.addEventListener('mouseenter', () => showCalendarTooltip(chip, tooltipText))
+    chip.addEventListener('mouseleave', hideCalendarTooltip)
+    chip.addEventListener('focus', () => showCalendarTooltip(chip, tooltipText))
+    chip.addEventListener('blur', hideCalendarTooltip)
     chip.textContent = chipLabel(segment)
     weekEl.appendChild(chip)
   }
@@ -498,6 +537,7 @@ function renderDayAgenda(events, isoDate) {
 function renderCalendar(groups, categories) {
   if (!calendarGridEl) return
 
+  hideCalendarTooltip()
   const events = buildCalendarEvents(groups, categories)
   const today = localTodayIso()
   syncCalendarViewButtons()
