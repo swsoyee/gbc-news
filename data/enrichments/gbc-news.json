@@ -6823,6 +6823,1020 @@
           "kind": "hold"
         }
       ]
+    },
+    "post-485": {
+      "id": "post-485",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "7505f208873a43155962b787dc35b44e3c26f58acc11e96fdf667b1d8985bf2a",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "剧场版总集篇《Girls Band Cry》【前篇】青春狂走曲（初回限定版）/【后篇】呐，未来。（初回限定版）豪华 booklet 特别访谈对象公开！",
+      "summaryZh": "公开前后篇初回限定版豪华 booklet 特别访谈对象；并附购买相关咨询窗口。",
+      "eventDates": []
+    },
+    "post-486": {
+      "id": "post-486",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "ae926813c5131bc98dfd102e4fda2c3a14916bd5dc8b88b8439ef8ca4d393aca",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "剧场版总集篇《Girls Band Cry》【前篇】青春狂走曲（初回限定版）/【后篇】呐，未来。（初回限定版）展开图公开！",
+      "summaryZh": "公开前后篇初回限定版包装展开图。",
+      "eventDates": []
+    },
+    "post-487": {
+      "id": "post-487",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "fa38df3085c07f0ca81203f259e7888b8a368950941fbadf829176280d7d8e98",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "剧场版总集篇《Girls Band Cry》【前篇】/【后篇】初回限定版特典 CD 乐曲试听影像公开！",
+      "summaryZh": "公开前篇特典曲「群青ミニアチュール」与后篇特典曲「Weather code 76」试听影像。",
+      "eventDates": []
+    },
+    "post-481": {
+      "id": "post-481",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "6af5503ae7df1514b8a1cb306f3a1ee6ec21748a396a18612f0673b1eb65df6e",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "SuperGroupies 推出仁菜与「无刺有刺」服装单品！",
+      "summaryZh": "手表、舞台风夹克、肩包于 SuperGroupies 预约，受理期 6/18 12:00–7/13 12:00。",
+      "eventDates": [
+        {
+          "date": "2026-06-18",
+          "endDate": "2026-07-13",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "预约跨日去时刻"
+    },
+    "post-479": {
+      "id": "post-479",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "d8d12961f18bdc7c41aa90c2d69e7a1edcc17f8377ad6608afd493e98793b104",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "剧场版总集篇 Girls Band Cry 各店・商店特典〈全图案〉公开！",
+      "summaryZh": "公开剧场版总集篇各店与商店购入特典全部图案。",
+      "eventDates": []
+    },
+    "post-478": {
+      "id": "post-478",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "90142d987ae1292b13df19c3f578814da831a81a3c9b61f3ecd43f276cd3b265",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "剧场版总集篇 Girls Band Cry〈animate〉〈Amazon〉〈Gamers〉限定套装图案公开！",
+      "summaryZh": "公开 animate / Amazon / Gamers 限定套装特典图案。",
+      "eventDates": []
+    },
+    "post-445": {
+      "id": "post-445",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "c27852d38bb7ab6d14cc4c5532a3c01d27b65a60e456e7a5ab098dd8dc52ab15",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "《剧场版总集篇【后篇】呐，未来。》来场特典透明卡不良及更换通知",
+      "summaryZh": "12/12 起发放的透明卡乐器标注有误，更换申请受理至 2026/2/28。",
+      "eventDates": [
+        {
+          "date": "2026-02-28",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "更换申请截止；去掉 23:59"
+    },
+    "post-443": {
+      "id": "post-443",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "2f4e9a33fa3c6df82498ca66296fcb80eaed226f398ecf58e6bf8681e5acb881",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "《【后篇】呐，未来。》第 5 周来场特典解禁！",
+      "summaryZh": "公开剧场版总集篇后篇第 5 周来场特典内容。",
+      "eventDates": []
+    },
+    "post-440": {
+      "id": "post-440",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "36811e93fd46f53c66e4afab2884e010deb9aba3eb41520bd392d2dd4e6a3c55",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "决定 WEBTOON 化！",
+      "summaryZh": "宣布 Girls Band Cry 将制作 WEBTOON。",
+      "eventDates": []
+    },
+    "post-438": {
+      "id": "post-438",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "80e0334c40c912b58b9b0d23e74f1e2557087e2fad1617a5466736f729062d7e",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "《【后篇】呐，未来。》第 4 周来场特典解禁！",
+      "summaryZh": "公开剧场版总集篇后篇第 4 周来场特典内容。",
+      "eventDates": []
+    },
+    "post-437": {
+      "id": "post-437",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "d3c5fd89ef9a8372989ea49f975d0ef2933a23afb929ae6bddb5f845c1791d56",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "线上抽选第 2 弹登场！",
+      "summaryZh": "酒井香澄绘制周边线上抽选销售期 12/1–12/31；约 2026 年 3 月中旬起发货。",
+      "eventDates": [
+        {
+          "date": "2025-12-01",
+          "endDate": "2025-12-31",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "销售跨日去时刻；中旬发货不补录"
+    },
+    "post-433": {
+      "id": "post-433",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "57ac029b6280c262bf207924f489a0603221fd106daae52879238113f8a9e3a7",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "《【后篇】呐，未来。》第 3 周来场特典解禁！",
+      "summaryZh": "公开剧场版总集篇后篇第 3 周来场特典内容。",
+      "eventDates": []
+    },
+    "post-431": {
+      "id": "post-431",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "31b396837f84f9fd327faff30db028095f142f2d2dc057e9d70c0ef0f9b2d178",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "《【后篇】呐，未来。》第 2 周来场特典解禁！",
+      "summaryZh": "公开剧场版总集篇后篇第 2 周来场特典内容。",
+      "eventDates": []
+    },
+    "post-428": {
+      "id": "post-428",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "c118ee63d6d98525e51a3a7b9677696b7b85589c9b91d9fadc5ec9c6bc8fc95e",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "《【后篇】呐，未来。》第 1 周来场特典解禁！",
+      "summaryZh": "公开剧场版总集篇后篇第 1 周来场特典内容。",
+      "eventDates": []
+    },
+    "post-424": {
+      "id": "post-424",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "b3cb60dba78d19e992da6a5ba3ffaff14968478e4eabbbb4af70b5ac59c32c12",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "「TokyoAnimUnite 2025」Girls Band Cry 工作人员登台决定！",
+      "summaryZh": "本作工作人员将于 TokyoAnimUnite 2025 登台。",
+      "eventDates": [],
+      "reviewNotes": "正文无具体登台日"
+    },
+    "post-419": {
+      "id": "post-419",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "ac52cc7629e7f7ba00831c6cecd519968dc66303d95851e7710f0ed8f3eb1015",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "《【前篇】青春狂走曲》第 5 周来场特典解禁！",
+      "summaryZh": "公开剧场版总集篇前篇第 5 周来场特典内容。",
+      "eventDates": []
+    },
+    "post-415": {
+      "id": "post-415",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "e44dbe8353fe9e9a6cc6a85dfd97a1dfa75679c9b462fd8156a0b244b7b8d373",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "《【前篇】青春狂走曲》第 4 周来场特典解禁！",
+      "summaryZh": "公开剧场版总集篇前篇第 4 周来场特典内容。",
+      "eventDates": []
+    },
+    "post-411": {
+      "id": "post-411",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "ed363fef0f389ec646b22e3c4b1815da6d3791a9cd22a24bf155f75fa0668744",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "《【前篇】青春狂走曲》第 3 周来场特典解禁！",
+      "summaryZh": "公开剧场版总集篇前篇第 3 周来场特典内容。",
+      "eventDates": []
+    },
+    "post-410": {
+      "id": "post-410",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "4c4703d93836b8606d0d01fb1e51ba48ec10b0fe40b8650a6cd5cc6460ae716b",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "《剧场版总集篇【前篇】青春狂走曲》手册商品不良及更换通知",
+      "summaryZh": "前篇手册主视觉图有误，更换申请受理至 2025/12/31。",
+      "eventDates": [
+        {
+          "date": "2025-12-31",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "更换申请截止"
+    },
+    "post-408": {
+      "id": "post-408",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "66b7da51c9167cf34727d02d78d348408a9f7644f000094e484aec7176de1783",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "《剧场版总集篇【前篇】青春狂走曲》剧场原创周边「交易拍立得风卡片」",
+      "summaryZh": "公开前篇剧场原创交易拍立得风卡片等周边。",
+      "eventDates": []
+    },
+    "post-405": {
+      "id": "post-405",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "38a7e9836dfae0675a19e825aac6f716241ee278119aacbfe30da67db7168824",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "《【前篇】青春狂走曲》第 2 周来场特典解禁！",
+      "summaryZh": "公开剧场版总集篇前篇第 2 周来场特典内容。",
+      "eventDates": []
+    },
+    "post-402": {
+      "id": "post-402",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "22cd773bc51a8c9fb7b4c785a36087a895f5f4caa1b6c9a7fcc2eb7c87fc7258",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "「傍若無人」羽织（刺绣版）登场！耳环与图案衬衫同步展开！",
+      "summaryZh": "推出「傍若無人」刺绣羽织，并同步展开耳环与图案衬衫。",
+      "eventDates": []
+    },
+    "post-391": {
+      "id": "post-391",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "78e2a388cc20cf0c87e0595626b6e5ad1d68a019dc914bcb71adb2e769a314a5",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "《【前篇】青春狂走曲》剧场手册解禁！",
+      "summaryZh": "公开剧场版总集篇前篇剧场手册信息。",
+      "eventDates": []
+    },
+    "post-389": {
+      "id": "post-389",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "cd66555e9eb190fcbf6a571d58a82879dbf43acc94a8f0761283d046ec42525f",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "《剧场版总集篇【前篇】青春狂走曲》第 1 周来场特典解禁！",
+      "summaryZh": "公开剧场版总集篇前篇第 1 周来场特典内容。",
+      "eventDates": []
+    },
+    "post-367": {
+      "id": "post-367",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "104e10f5a3c0bdf105b745462b6dd8d45991d1ca7bffc7b6671434cfd1d78b78",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "新曲「蜃気楼二問フ」MV 8 月 25 日（一）20 时首映公开",
+      "summaryZh": "无刺有刺新曲 MV 于 8/25 20:00 YouTube 首映。",
+      "eventDates": [
+        {
+          "date": "2025-08-25",
+          "kind": "hold",
+          "startTime": "20:00"
+        }
+      ]
+    },
+    "post-360": {
+      "id": "post-360",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "daed477dc104c5187843f5944216a570da717e2e1d49f20d6931d1870e9eabce",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "决定于 AT-X 一举播出 TV 系列！",
+      "summaryZh": "8/31 15:15 起于 AT-X「あにふぇす！」企划一举播出。",
+      "eventDates": [
+        {
+          "date": "2025-08-31",
+          "kind": "hold",
+          "startTime": "15:15"
+        }
+      ]
+    },
+    "post-353": {
+      "id": "post-353",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "24df31d658fb56c6291e85ada7de3fd6278ad980a7c9e5efa6b4ac93b629fff6",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "「薄采ディスプレイ」MV 6 月 23 日（一）20 时首映公开",
+      "summaryZh": "无刺有刺新曲 MV 于 6/23 20:00 YouTube 首映。",
+      "eventDates": [
+        {
+          "date": "2025-06-23",
+          "kind": "hold",
+          "startTime": "20:00"
+        }
+      ]
+    },
+    "post-339": {
+      "id": "post-339",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "9a1dbae89b1fe9bae50e0fcaa5c7bbf7a1f651deb38da6997d02cfb883f558d1",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "「飛べない蝶は夢を見る」MV 4 月 28 日（一）20 时首映公开",
+      "summaryZh": "无刺有刺新曲 MV 于 4/28 20:00 YouTube 首映。",
+      "eventDates": [
+        {
+          "date": "2025-04-28",
+          "kind": "hold",
+          "startTime": "20:00"
+        }
+      ]
+    },
+    "post-332": {
+      "id": "post-332",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "da00312a3399fffe044716c1ce3a06de20a75e5b5bd9a040fe4bc59c0a6c16dd",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "美怜、凪都 配音复归通知",
+      "summaryZh": "宣布美怜、凪都将复归配音相关活动。",
+      "eventDates": []
+    },
+    "post-324": {
+      "id": "post-324",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "0b6e972b2de4981ca5d67077963adfa24f54d0b81f3a2be95a04f1d82d1b5d51",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "海老塚智生日纪念漫画公开！",
+      "summaryZh": "公开海老塚智生日纪念漫画。",
+      "eventDates": []
+    },
+    "post-322": {
+      "id": "post-322",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8647814bdfe0ddb39618724144907249eb78907801f2722e886c259a06081529",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "「ダレモ」MV 3 月 12 日（三）20 时首映公开",
+      "summaryZh": "无刺有刺新曲 MV 于 3/12 20:00 YouTube 首映。",
+      "eventDates": [
+        {
+          "date": "2025-03-12",
+          "kind": "hold",
+          "startTime": "20:00"
+        }
+      ]
+    },
+    "post-291": {
+      "id": "post-291",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "fc84f4904d4aeab628bc85461e5e82c9f171525d4eae2dadcb43ae48802c4e9e",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》决定于 RKK 熊本放送播出！",
+      "summaryZh": "自 2025/1/17 起每周五 25:53 于 RKK 熊本放送播出。",
+      "eventDates": [
+        {
+          "date": "2025-01-17",
+          "kind": "hold",
+          "startTime": "01:53"
+        }
+      ],
+      "reviewNotes": "深夜 25:53 规范为次日 01:53；周五档以首播日为准"
+    },
+    "post-285": {
+      "id": "post-285",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "c4840d9f831ed8d1a4bf71b9576dae62bea3fd8a7f2409ded53b35a1861a728b",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "无刺有刺无比例手办登场！自 12/20（五）起东映动画官方商店开始预约销售！",
+      "summaryZh": "桃香・昴・智・RUPA 及再次受理的仁菜手办自 12/20 起预约至 1/31；12/24 起 AniBirth 展示。",
+      "eventDates": [
+        {
+          "date": "2024-12-20",
+          "endDate": "2025-01-31",
+          "kind": "sale"
+        },
+        {
+          "date": "2024-12-24",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "受理跨日去时刻"
+    },
+    "post-265": {
+      "id": "post-265",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "5664f1866af3c278cab30ed2638a7d199398620d92f86fb4104ce416226b4d31",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "无刺有刺新曲 MV＆新 Music Video 制作决定！",
+      "summaryZh": "宣布制作无刺有刺新曲 MV。",
+      "eventDates": []
+    },
+    "post-257": {
+      "id": "post-257",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "0d07e43b94828b20fb1adc2d04ca46018584c23f2f29ada2bc2fffc2da85d695",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "TOKYO MX 开始播出《Girls Band Cry》MV",
+      "summaryZh": "自 10/28 起每周一 21:54 于 TOKYO MX 播出 MV 栏目。",
+      "eventDates": [
+        {
+          "date": "2024-10-28",
+          "kind": "hold",
+          "startTime": "21:54"
+        }
+      ]
+    },
+    "post-254": {
+      "id": "post-254",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "afccbb10e9633fae18cf4862427c0bdc0089d14e43ecb6a3ca6f9eaaaae97edb",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "无刺有刺新曲「臆病な白夜」试听影像公开！",
+      "summaryZh": "公开封入 Vol.6 豪华限定版特典 CD 的新曲试听；Vol.6 于 11/27 发售。",
+      "eventDates": [
+        {
+          "date": "2024-11-27",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-250": {
+      "id": "post-250",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "36339984c41fb24deb84dd88f918d63202afead8d57bc2f75dc4cb1da0052530",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "井芹仁菜生日纪念漫画公开！",
+      "summaryZh": "公开井芹仁菜生日纪念漫画。",
+      "eventDates": []
+    },
+    "post-244": {
+      "id": "post-244",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8cf7f27ee7565ba04219f28536dd23fb8e60f4b1bae96558fa71e675ea935157",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "【无刺有刺】理名(Vo.)开设微博通知",
+      "summaryZh": "宣布主唱理名开设微博账号。",
+      "eventDates": []
+    },
+    "post-241": {
+      "id": "post-241",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "ff6631b6cc7cf4045aa13a79ba6bd1b9a976a171a397216a9e95ec9aae32292f",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "无刺有刺新曲「生きて生きてゆく」试听影像公开！",
+      "summaryZh": "公开无刺有刺新曲「生きて生きてゆく」试听影像。",
+      "eventDates": []
+    },
+    "post-240": {
+      "id": "post-240",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "c3d37aa4f50aa48abb5904a323aae2cc06ddf778994f42863733293a69659a8a",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "MyGO!!!!!×无刺有刺「Avoid Note」主视觉解禁＆最速先行抽选受理开始！",
+      "summaryZh": "公开对邦 LIVE 主视觉，最速先行抽选受理已开始。",
+      "eventDates": []
+    },
+    "post-232": {
+      "id": "post-232",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "a839066af23e0505574e237342e45c69f53fc1eb1b42c8e24573659427900f07",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "决定游戏化！并开始游戏声优海选！",
+      "summaryZh": "宣布制作官方游戏，并开始游戏声优海选。",
+      "eventDates": []
+    },
+    "post-233": {
+      "id": "post-233",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "6dc8b8c279cbadd87ece4879eaee25ba9651447974d72b5bc09b944bfe8b9c8a",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "《Girls Band Cry》剧场版总集篇前篇・后篇制作决定！",
+      "summaryZh": "宣布制作剧场版总集篇前篇与后篇。",
+      "eventDates": []
+    },
+    "post-225": {
+      "id": "post-225",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "a0541f62ea71bd8de4ce8b0bb9204c8f30f9f3d2cb76d7df890376f42fbaf0bc",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "原创原声带试听影像公开！",
+      "summaryZh": "公开 9/11 发售的原创原声带试听影像。",
+      "eventDates": [
+        {
+          "date": "2024-09-11",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-221": {
+      "id": "post-221",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "28d6373f5e6a3e2d690536c3c5bbc1a819f1129cf7b0c52753b2215ed5fcd416",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》Vol.5 封面初公开！",
+      "summaryZh": "公开手島nari 绘制的 Vol.5 豪华限定版封面；10/30 发售。",
+      "eventDates": [
+        {
+          "date": "2024-10-30",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-214": {
+      "id": "post-214",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "087d54009d6573f0f58821b4cf86f7a0e12550d01a24855ef73a7db08ed868f1",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》Vol.4 封面初公开！",
+      "summaryZh": "公开手島nari 绘制的 Vol.4 豪华限定版封面；9/25 发售。",
+      "eventDates": [
+        {
+          "date": "2024-09-25",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-203": {
+      "id": "post-203",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8b476cad1cd3b86609ffa07b684d7a77afe8adfcf874e907976c7a5c17e551c5",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "无刺有刺新曲试听影像连续三晚公开！",
+      "summaryZh": "宣布连续三晚公开无刺有刺新曲试听影像。",
+      "eventDates": []
+    },
+    "post-197": {
+      "id": "post-197",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "1ed5592aa3c01f6737ab26695f896e3fbad3a6660b0cb76c915bd704e8af26ed",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "美怜、凪都 活动休止通知",
+      "summaryZh": "宣布美怜、凪都暂时休止活动。",
+      "eventDates": []
+    },
+    "post-196": {
+      "id": "post-196",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8e3e7b0bf8e0006a0070b956b353e043740dd7d2e0cade7266fc6eb49569189e",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》Blu-ray & DVD 第 3 卷封面初公开！",
+      "summaryZh": "公开手島nari 绘制的 Vol.3 豪华限定版封面；8/28 发售。",
+      "eventDates": [
+        {
+          "date": "2024-08-28",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-191": {
+      "id": "post-191",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "a04f03193b4d62be725271b9fe812d97918090be29d83ef89aec45eca3f6d5e2",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "无刺有刺新曲「無知のち私」试听影像公开！",
+      "summaryZh": "公开封入 Vol.2 豪华限定版特典 CD 的新曲试听；Vol.2 于 7/31 发售。",
+      "eventDates": [
+        {
+          "date": "2024-07-31",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-178": {
+      "id": "post-178",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "dba43f979f2de48d426c2775bdc04ea7cab8f4ff2f392e65370a29d52925a2cc",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》Blu-ray & DVD 全卷＆单卷购入特典图案公开！〈第 3 弹〉",
+      "summaryZh": "公开 Blu-ray＆DVD 全卷与单卷购入特典图案第 3 弹。",
+      "eventDates": []
+    },
+    "post-174": {
+      "id": "post-174",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "4201b2c72c45bc218d18fe234ece9acb40c766a7d8ad36d592ed5503928dc162",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "动画《Girls Band Cry》制作花絮影像公开！",
+      "summaryZh": "公开动画制作花絮影像。",
+      "eventDates": []
+    },
+    "post-173": {
+      "id": "post-173",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "bd613bb8a1b31f5f11009d7a1ff6a5db85bc0e80e05b5dacfcef5e9afe857f37",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》Blu-ray & DVD 全卷＆单卷购入特典图案公开！〈第 2 弹〉",
+      "summaryZh": "公开 Blu-ray＆DVD 全卷与单卷购入特典图案第 2 弹。",
+      "eventDates": []
+    },
+    "post-161": {
+      "id": "post-161",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "17a7ce17dad0ddf0d1bf2073cc498b0da347e556c00c3cb6c9e4c337c11e5799",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》Blu-ray & DVD 全卷购入特典图案公开！〈第 1 弹〉",
+      "summaryZh": "公开 Blu-ray＆DVD 全卷购入特典图案第 1 弹。",
+      "eventDates": []
+    },
+    "post-160": {
+      "id": "post-160",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "bfdd009d67253987843624f222e5abf9e575c36858058ed8b377cae00ef42801",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》Blu-ray & DVD 第 2 卷封面初公开！",
+      "summaryZh": "公开 Blu-ray＆DVD 第 2 卷封面。",
+      "eventDates": []
+    },
+    "post-156": {
+      "id": "post-156",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "6971ae086adac06f0624a1145153fb48d136320a4d22a5e71814d3bbb58bbef9",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "致造访作中舞台地区的各位的请求",
+      "summaryZh": "呼吁造访川崎等地取景地的粉丝注意礼仪与当地规则。",
+      "eventDates": []
+    },
+    "post-155": {
+      "id": "post-155",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "3f529c83c7f8857aa85fb095bcf59e0336eec0d7a25fa93f7a7e2516af819ff3",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "第 10 话「ワンダーフォーゲル」WEB 预告＆剧情概要公开！",
+      "summaryZh": "公开第 10 话 WEB 预告与剧情概要。",
+      "eventDates": []
+    },
+    "post-154": {
+      "id": "post-154",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "3bfb8a2c7b5b3ad4abfd84b15b1add0891db40184832a3da6d1ed3c55d5a58d1",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "GBC 舞台介绍第 7 弹公开！",
+      "summaryZh": "公开作中舞台取景地介绍第 7 弹。",
+      "eventDates": []
+    },
+    "post-153": {
+      "id": "post-153",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "0d716007cbcc6dd3f215dfe659ef915e89871d00bf0d239ea091ae08cc9906a2",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》Blu-ray & DVD 设计初公开！",
+      "summaryZh": "首次公开 Blu-ray＆DVD 商品设计。",
+      "eventDates": []
+    },
+    "post-137": {
+      "id": "post-137",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "227ccc8d134987f50222bfb856974b1db26d39a6c1f897634edb6563f45a22a3",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》第 1 话「東京ワッショイ」于 YouTube 免费公开！",
+      "summaryZh": "第 1 话于官方 YouTube 免费公开。",
+      "eventDates": []
+    },
+    "post-136": {
+      "id": "post-136",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "661f576c8c5b1fd536cbf010a23830b981014aa66f20c8a322067f764b28e146",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "第 7 话「名前をつけてやる」WEB 预告＆剧情概要公开！",
+      "summaryZh": "公开第 7 话 WEB 预告与剧情概要。",
+      "eventDates": []
+    },
+    "post-132": {
+      "id": "post-132",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "6786bb4844a0e0d594d13568d31a340d0b2726db63aa50fc406ba2386c8e0d8a",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "4 月末起于 AniBirth 销售的商品登陆东映动画官方商店！",
+      "summaryZh": "AniBirth 在售周边自 5/10 13:00 起于东映官方商店开售。",
+      "eventDates": [
+        {
+          "date": "2024-05-10",
+          "kind": "sale",
+          "startTime": "13:00"
+        }
+      ]
+    },
+    "post-133": {
+      "id": "post-133",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "1d4e0ad7ebbccf5f949443e8fe1d3c0d6e13a9eae0dc3f0025cd495bcae6b0ba",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "第 6 话「はぐれ者賛歌」WEB 预告＆剧情概要公开！",
+      "summaryZh": "公开第 6 话 WEB 预告与剧情概要。",
+      "eventDates": []
+    },
+    "post-131": {
+      "id": "post-131",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "2fb83f1936ed42b7cc326aed304b49225e26e8a276a50e978fa9b4c9137392e8",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "「GBC 舞台介绍」第 4 弹公开！",
+      "summaryZh": "公开作中舞台取景地介绍第 4 弹。",
+      "eventDates": []
+    },
+    "post-126": {
+      "id": "post-126",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "c5ccc79dba48f9c7c4370a835e624cfd2d4e16d26e7aff6936adff1e050c9986",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "「井芹仁菜 无比例手办」预约受理中！",
+      "summaryZh": "东映官方商店正受理井芹仁菜无比例手办预约；AniBirth 涉谷店展示中。",
+      "eventDates": []
+    },
+    "post-103": {
+      "id": "post-103",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "96dff692c443820c3bcfd5396ef4043d661d4de1ef616dbc1c0e764d338ddc97",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "第 1 话「東京ワッショイ」剧情概要与先行画面公开！",
+      "summaryZh": "公开第 1 话剧情概要与先行画面。",
+      "eventDates": []
+    },
+    "post-104": {
+      "id": "post-104",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "7a47da7c17e0d069995e10ae14beef4f6af38904d29cc6f636dbc5109d76feff",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "新企划「Girls Band Cry 面板任务」",
+      "summaryZh": "宣布新企划「面板任务」。",
+      "eventDates": []
+    },
+    "post-102": {
+      "id": "post-102",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "bac626781108a219dcb94a202ad1c205206eb0c8e203bf8b96f4cdfe831f8741",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "官方 YouTube 频道订阅破 2 万纪念 SP 壁纸 Ver.02 发放中！",
+      "summaryZh": "订阅破 2 万纪念，发放特别壁纸 Ver.02。",
+      "eventDates": []
+    },
+    "post-97": {
+      "id": "post-97",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "88ce5e952aa9edf1eb33dbe7e7f0c31c9ba67328a7bee40b5efb792ded1065d2",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "「无刺有刺 Gt.夕莉与吉他演奏」影像公开🎸",
+      "summaryZh": "公开吉他手夕莉演奏相关影像。",
+      "eventDates": []
+    },
+    "post-93": {
+      "id": "post-93",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "26926ffb7a6d95ede24793f4bd5f76aa4b52802b04a5b542f7a4efcee2ed89d8",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "角色 PV/RUPA 篇公开！",
+      "summaryZh": "公开 RUPA 角色 PV。",
+      "eventDates": []
+    },
+    "post-85": {
+      "id": "post-85",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f730b9b4a8e70815841cca73d11d9e40a4c1021e9edaefbdba786bbf46d00485",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "TV 动画宣传 CM 公开！",
+      "summaryZh": "公开 TV 动画宣传 CM。",
+      "eventDates": []
+    },
+    "post-76": {
+      "id": "post-76",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "561e39007f293e635bd09e9ee3b4690c6689444bbc3337add70190265d33b058",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》自 4 月 5 日起每周五 24:30～开播！",
+      "summaryZh": "自 4/5 起于 TOKYO MX 等台每周五 24:30 开播；2/16 起连续五周公开角色 PV。",
+      "eventDates": [
+        {
+          "date": "2024-04-05",
+          "kind": "hold"
+        },
+        {
+          "date": "2024-02-16",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-71": {
+      "id": "post-71",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "9cc2059443fa1034d7156ebdf9aa913a46a2c1c674b17f612e3aafbb83e26207",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "MV 第 10 弹「サヨナラサヨナラサヨナラ」1 月 29 日（一）20 时公开",
+      "summaryZh": "MV 第 10 弹于 1/29 20:00 YouTube 首映。",
+      "eventDates": [
+        {
+          "date": "2024-01-29",
+          "kind": "hold",
+          "startTime": "20:00"
+        }
+      ]
+    },
+    "post-66": {
+      "id": "post-66",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "5eca870a59b4c8ee5912b9a94c7b44a0b90a11f1ec7ecef6f040c745268c43fb",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "东映动画官方商店＆东映动画博物馆商店开始销售无刺有刺周边！",
+      "summaryZh": "官方商店与博物馆商店开始销售无刺有刺周边。",
+      "eventDates": []
+    },
+    "post-67": {
+      "id": "post-67",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "a3b09871c2dd6371c5c153773a0b35c062a3ebed172bd477d7bcb25bed7fb49a",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "东映动画博物馆开始「Girls Band Cry」展示！",
+      "summaryZh": "自 1/6 起展示主视觉海报与设定资料等。",
+      "eventDates": [
+        {
+          "date": "2024-01-06",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-65": {
+      "id": "post-65",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "ce81ac57934b92fefb750a31aed5f148510cda56080154adfdea453b92ab8f73",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "无刺有刺首档固定节目开始!!!",
+      "summaryZh": "川崎 FM《トゲナシトゲアリのトゲラジ》首播 1/8 21:00–21:30，并征集栏目创意。",
+      "eventDates": [
+        {
+          "date": "2024-01-08",
+          "kind": "hold",
+          "startTime": "21:00",
+          "endTime": "21:30"
+        }
+      ]
+    },
+    "post-58": {
+      "id": "post-58",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "a4f9446872ff209e15401c60c26a47aadf007fdb7f87a519f73bef8d7ee28b2d",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "《Girls Band Cry》决定 2024 年 4 月电视动画播出！主视觉・预告 PV 公开！",
+      "summaryZh": "宣布 2024 年 4 月于 TOKYO MX 等台播出，并公开预告 PV、主视觉与制作阵容。",
+      "eventDates": [],
+      "reviewNotes": "4 月无具体开播日（后文另有 4/5 告知）"
+    },
+    "post-54": {
+      "id": "post-54",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f2a8b008af1be39368a321191554c233739ba712f992678f7335e2483fa1391f",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "MV 第 9 弹「運命に賭けたい論理」12 月 18 日（一）20 时公开",
+      "summaryZh": "MV 第 9 弹于 12/18 20:00 YouTube 首映。",
+      "eventDates": [
+        {
+          "date": "2023-12-18",
+          "kind": "hold",
+          "startTime": "20:00"
+        }
+      ]
+    },
+    "post-48": {
+      "id": "post-48",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "37f5ce322e0b8468c3cada3b01275cc2a4659c8b92410dfa655c24bc35f56e5b",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "MV 第 8 弹「傷つき傷つけ痛くて辛い」11/27（一）公开！",
+      "summaryZh": "MV 第 8 弹于 11/27 20:00 YouTube 首映。",
+      "eventDates": [
+        {
+          "date": "2023-11-27",
+          "kind": "hold",
+          "startTime": "20:00"
+        }
+      ]
+    },
+    "post-38": {
+      "id": "post-38",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "34c75b81f9d457d049f04d21396b4f0b889e4fdd7fadb1c48fef24221bec59ee",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "MV 第 7 弹「極私的極彩色アンサー」10/23（一）20 时公开！",
+      "summaryZh": "MV 第 7 弹于 10/23 20:00 官方 YouTube 公开。",
+      "eventDates": [
+        {
+          "date": "2023-10-23",
+          "kind": "hold",
+          "startTime": "20:00"
+        }
+      ]
+    },
+    "post-27": {
+      "id": "post-27",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "2718fe3b2a0d2c22c184d9ee2aa1c77cb634419e275dc831820f828357347001",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "MV 第 6 弹「黎明を穿つ」9/25（一）20 时首映公开！",
+      "summaryZh": "MV 第 6 弹于 9/25 20:00 YouTube 首映。",
+      "eventDates": [
+        {
+          "date": "2023-09-25",
+          "kind": "hold",
+          "startTime": "20:00"
+        }
+      ]
+    },
+    "post-22": {
+      "id": "post-22",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "4e9be14bae8ffd2de130667b793696b22b8fc9f2a39cb7cc7cc750a65a5963ce",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "官方 X 关注破 1 万纪念发放 SP 壁纸！",
+      "summaryZh": "关注破 1 万纪念，发放特别壁纸。",
+      "eventDates": []
+    },
+    "post-17": {
+      "id": "post-17",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "5a097f3a2f8291dcdff60a084c9cea722b7f2d91d33fa77711e471b3f8555906",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "MV 第 5 弹「爆ぜて咲く」公开中！",
+      "summaryZh": "MV 第 5 弹「爆ぜて咲く」已公开。",
+      "eventDates": []
+    },
+    "post-9": {
+      "id": "post-9",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "84f530f8271d640515a72b517087f96a4be486967cad89ed2218062fc6fc4725",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "主要声优真人艺人写真＆简介公开",
+      "summaryZh": "公开无刺有刺主要声优真人艺人写真与简介。",
+      "eventDates": []
+    },
+    "post-1": {
+      "id": "post-1",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "1770aa954d6df11aa73aaea38f083d6ee6408e454676b416463f03ae50f68115",
+      "reviewedAt": "2026-07-17T20:30:00.000Z",
+      "titleZh": "动画《Girls Band Cry》官方网站开放！",
+      "summaryZh": "官方网站开放；项目于 2023 年 5 月 29 日启动。",
+      "eventDates": [
+        {
+          "date": "2023-05-29",
+          "kind": "hold"
+        }
+      ]
     }
   }
 }

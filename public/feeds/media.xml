@@ -4,7 +4,7 @@
     <title>gbc-news · 媒体</title>
     <link>https://gbc-news.example.com/</link>
     <description>ガールズバンドクライ 公式ニュース（媒体）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 12:40:48 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 12:41:49 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/media.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[发售] 无刺有刺［from Girls Band Cry］1st Single《名もなき何もかも》发售纪念线上 talk 配信＆签名会举办通知</title>
@@ -108,6 +108,15 @@
       <description>纪念 TV 播出决定，JR 川崎站阿塞丽娅视觉屏于 12/25–12/31 播放短 PV。</description>
     </item>
     <item>
+      <title>[举办] 无刺有刺首档固定节目开始!!!</title>
+      <link>https://girls-band-cry.com/news/post-65.html</link>
+      <guid isPermaLink="false">post-65-2024-01-08-hold-2100@gbc-news</guid>
+      <pubDate>Mon, 08 Jan 2024 12:00:00 GMT</pubDate>
+      <category>media</category>
+      <category domain="group">togenashi</category>
+      <description>川崎 FM《トゲナシトゲアリのトゲラジ》首播 1/8 21:00–21:30，并征集栏目创意。</description>
+    </item>
+    <item>
       <title>[发售] 无刺有刺 1st ONE-MAN LIVE “薄明の序奏”举办决定！</title>
       <link>https://girls-band-cry.com/news/post-59.html</link>
       <guid isPermaLink="false">post-59-2024-01-09_2024-01-15-sale@gbc-news</guid>
@@ -141,6 +150,15 @@
       <description>公开第 10 弹 MV「サヨナラサヨナラサヨナラ」；官方 X 关注＆转发活动截止 2/4，有机会获签名海报。</description>
     </item>
     <item>
+      <title>[举办] TV 动画《Girls Band Cry》自 4 月 5 日起每周五 24:30～开播！</title>
+      <link>https://girls-band-cry.com/news/post-76.html</link>
+      <guid isPermaLink="false">post-76-2024-02-16-hold@gbc-news</guid>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 GMT</pubDate>
+      <category>media</category>
+      <category domain="group">togenashi</category>
+      <description>自 4/5 起于 TOKYO MX 等台每周五 24:30 开播；2/16 起连续五周公开角色 PV。</description>
+    </item>
+    <item>
       <title>[举办] 动画第 1 弹预告公开纪念线上 talk 配信＆签名会举办通知</title>
       <link>https://girls-band-cry.com/news/post-81.html</link>
       <guid isPermaLink="false">post-81-2024-03-04-hold-1900@gbc-news</guid>
@@ -172,6 +190,15 @@
       <category>media</category>
       <category domain="group">togenashi</category>
       <description>动画自 4/5 起开播；real Sound 公开成员访谈、玉井健二访谈与 LIVE 报道等特集。</description>
+    </item>
+    <item>
+      <title>[举办] TV 动画《Girls Band Cry》自 4 月 5 日起每周五 24:30～开播！</title>
+      <link>https://girls-band-cry.com/news/post-76.html</link>
+      <guid isPermaLink="false">post-76-2024-04-05-hold@gbc-news</guid>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 GMT</pubDate>
+      <category>media</category>
+      <category domain="group">togenashi</category>
+      <description>自 4/5 起于 TOKYO MX 等台每周五 24:30 开播；2/16 起连续五周公开角色 PV。</description>
     </item>
     <item>
       <title>[发售] 原创专辑《棘アリ》今日发售！</title>
@@ -353,6 +380,16 @@
       <description>纪念 2nd Album《棘ナシ》（8/28）与原声带（9/11）发售，8 月 9 日 19:00–20:00 于 Limista 举办线上 talk；两作预约合计抽选 200 名获签名卡。</description>
     </item>
     <item>
+      <title>[举办] TOKYO MX 开始播出《Girls Band Cry》MV</title>
+      <link>https://girls-band-cry.com/news/post-257.html</link>
+      <guid isPermaLink="false">post-257-2024-10-28-hold-2154@gbc-news</guid>
+      <pubDate>Mon, 28 Oct 2024 12:54:00 GMT</pubDate>
+      <category>music</category>
+      <category>media</category>
+      <category domain="group">togenashi</category>
+      <description>自 10/28 起每周一 21:54 于 TOKYO MX 播出 MV 栏目。</description>
+    </item>
+    <item>
       <title>[发售] 无刺有刺 4th ONE-MAN LIVE “協奏の響” 线上配信票开始发售！</title>
       <link>https://girls-band-cry.com/news/post-284.html</link>
       <guid isPermaLink="false">post-284-2024-12-19_2025-02-11-sale@gbc-news</guid>
@@ -362,6 +399,15 @@
       <category>media</category>
       <category domain="group">togenashi</category>
       <description>4th 个人演唱会「協奏の響」回放票务销售期 2024/12/19–2025/2/11；观看期 2/2–2/11（2/2 12:00 首播），并提供周边限定票。</description>
+    </item>
+    <item>
+      <title>[举办] TV 动画《Girls Band Cry》决定于 RKK 熊本放送播出！</title>
+      <link>https://girls-band-cry.com/news/post-291.html</link>
+      <guid isPermaLink="false">post-291-2025-01-17-hold-0153@gbc-news</guid>
+      <pubDate>Thu, 16 Jan 2025 16:53:00 GMT</pubDate>
+      <category>media</category>
+      <category domain="group">togenashi</category>
+      <description>自 2025/1/17 起每周五 25:53 于 RKK 熊本放送播出。</description>
     </item>
     <item>
       <title>[发售] 「Girls Band Cry～广播也全部砸进去。～」2/24（一・祝）公开活动举办！一般先行抽选开始！</title>
@@ -578,6 +624,15 @@
       <description>《Girls Band Cry》× 卡拉 OK 铁人 5 店联动于 2025 年 8 月 21 日–9 月 28 日举办：联名饮品、室田雄平全新绘制周边、概念包厢与课题曲挑战等。</description>
     </item>
     <item>
+      <title>[举办] 决定于 AT-X 一举播出 TV 系列！</title>
+      <link>https://girls-band-cry.com/news/post-360.html</link>
+      <guid isPermaLink="false">post-360-2025-08-31-hold-1515@gbc-news</guid>
+      <pubDate>Sun, 31 Aug 2025 06:15:00 GMT</pubDate>
+      <category>media</category>
+      <category domain="group">togenashi</category>
+      <description>8/31 15:15 起于 AT-X「あにふぇす！」企划一举播出。</description>
+    </item>
+    <item>
       <title>[举办] 9 月 20 日（六）起「Girls Band Cry × 丸福咖啡店」联动举办！</title>
       <link>https://girls-band-cry.com/news/post-369.html</link>
       <guid isPermaLink="false">post-369-2025-09-20-hold@gbc-news</guid>
@@ -778,6 +833,16 @@
       <category>media</category>
       <category domain="group">togenashi</category>
       <description>《剧场版总集篇 Girls Band Cry【后篇】なぁ、未来。》工作人员 talk：12/12 于 T・Joy 西武大泉（19:15 场映后）、12/14 于川崎 Cinecitta（11:00 场映后）。到场赠迷你色纸第 3・4 弹各 1 张。</description>
+    </item>
+    <item>
+      <title>[发售] 《剧场版总集篇【前篇】青春狂走曲》手册商品不良及更换通知</title>
+      <link>https://girls-band-cry.com/news/post-410.html</link>
+      <guid isPermaLink="false">post-410-2025-12-31-sale@gbc-news</guid>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 GMT</pubDate>
+      <category>cinema</category>
+      <category>media</category>
+      <category domain="group">togenashi</category>
+      <description>前篇手册主视觉图有误，更换申请受理至 2025/12/31。</description>
     </item>
     <item>
       <title>[发售] 《剧场版总集篇 Girls Band Cry》【配信决定＆TV 播出 2 周年纪念】纪念周边购买活动</title>

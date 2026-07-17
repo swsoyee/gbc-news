@@ -302,6 +302,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-30.html
 CATEGORIES:togenashi,music,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-27-2023-09-25-hold-2000@gbc-news
+DTSTAMP:20230925T110000Z
+DTSTART:20230925T110000Z
+DTEND:20230925T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] MV 第 6 弹「黎明を穿つ」9/25（一）20 时首映
+ 公开！
+DESCRIPTION:MV 第 6 弹于 9/25 20:00 YouTube 首映。\n\n
+ https://girls-band-cry.com/news/post-27.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-27.html
+CATEGORIES:togenashi,music
+END:VEVENT
+BEGIN:VEVENT
 UID:post-25-2023-09-30-hold-1700@gbc-news
 DTSTAMP:20230930T080000Z
 DTSTART:20230930T080000Z
@@ -358,6 +372,20 @@ DESCRIPTION:公开第 7 弹 MV；官方 X 关注＆转发活动进行至 10
  https://girls-band-cry.com/news/post-39.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-39.html
 CATEGORIES:togenashi,music,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-38-2023-10-23-hold-2000@gbc-news
+DTSTAMP:20231023T110000Z
+DTSTART:20231023T110000Z
+DTEND:20231023T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] MV 第 7 弹「極私的極彩色アンサー」10/23（
+ 一）20 时公开！
+DESCRIPTION:MV 第 7 弹于 10/23 20:00 官方 YouTube 公开。\n\n
+ https://girls-band-cry.com/news/post-38.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-38.html
+CATEGORIES:togenashi,music
 END:VEVENT
 BEGIN:VEVENT
 UID:post-16-2023-10-25-sale@gbc-news
@@ -520,6 +548,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-45.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-48-2023-11-27-hold-2000@gbc-news
+DTSTAMP:20231127T110000Z
+DTSTART:20231127T110000Z
+DTEND:20231127T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] MV 第 8 弹「傷つき傷つけ痛くて辛い」11/27
+ （一）公开！
+DESCRIPTION:MV 第 8 弹于 11/27 20:00 YouTube 首映。\n\n
+ https://girls-band-cry.com/news/post-48.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-48.html
+CATEGORIES:togenashi,music
+END:VEVENT
+BEGIN:VEVENT
 UID:post-46-2023-12-02-hold-1700@gbc-news
 DTSTAMP:20231202T080000Z
 DTSTART:20231202T080000Z
@@ -548,6 +590,20 @@ DESCRIPTION:公开第 9 弹 MV；官方 X 关注＆转发活动进行至 12
  https://girls-band-cry.com/news/post-56.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-56.html
 CATEGORIES:togenashi,music,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-54-2023-12-18-hold-2000@gbc-news
+DTSTAMP:20231218T110000Z
+DTSTART:20231218T110000Z
+DTEND:20231218T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] MV 第 9 弹「運命に賭けたい論理」12 月 18 日
+ （一）20 时公开
+DESCRIPTION:MV 第 9 弹于 12/18 20:00 YouTube 首映。\n\n
+ https://girls-band-cry.com/news/post-54.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-54.html
+CATEGORIES:togenashi,music
 END:VEVENT
 BEGIN:VEVENT
 UID:post-40-2023-12-20-sale@gbc-news
@@ -652,6 +708,20 @@ DESCRIPTION:公开第 10 弹 MV「サヨナラサヨナラサヨナラ」
  n\nhttps://girls-band-cry.com/news/post-72.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-72.html
 CATEGORIES:togenashi,music,event,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-71-2024-01-29-hold-2000@gbc-news
+DTSTAMP:20240129T110000Z
+DTSTART:20240129T110000Z
+DTEND:20240129T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] MV 第 10 弹「サヨナラサヨナラサヨナラ」1 
+ 月 29 日（一）20 时公开
+DESCRIPTION:MV 第 10 弹于 1/29 20:00 YouTube 首映。\n\n
+ https://girls-band-cry.com/news/post-71.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-71.html
+CATEGORIES:togenashi,music
 END:VEVENT
 BEGIN:VEVENT
 UID:post-68-2024-02-03-hold-1700@gbc-news
@@ -1142,6 +1212,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-192.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-191-2024-07-31-sale@gbc-news
+DTSTAMP:20240731T000000Z
+DTSTART;VALUE=DATE:20240731
+DTEND;VALUE=DATE:20240801
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺新曲「無知のち私」试听影像公开
+ ！
+DESCRIPTION:公开封入 Vol.2 豪华限定版特典 CD 的新曲试听；V
+ ol.2 于 7/31 发售。\n\nhttps://girls-band-cry.com/news/post-191.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-191.html
+CATEGORIES:togenashi,music
+END:VEVENT
+BEGIN:VEVENT
 UID:post-199-2024-08-09-hold-1900@gbc-news
 DTSTAMP:20240809T100000Z
 DTSTART:20240809T100000Z
@@ -1267,6 +1351,19 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-200.html
 CATEGORIES:togenashi,live,music,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-225-2024-09-11-sale@gbc-news
+DTSTAMP:20240911T000000Z
+DTSTART;VALUE=DATE:20240911
+DTEND;VALUE=DATE:20240912
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 原创原声带试听影像公开！
+DESCRIPTION:公开 9/11 发售的原创原声带试听影像。\n\n
+ https://girls-band-cry.com/news/post-225.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-225.html
+CATEGORIES:togenashi,music
+END:VEVENT
+BEGIN:VEVENT
 UID:post-230-2024-09-12-sale@gbc-news
 DTSTAMP:20240912T000000Z
 DTSTART;VALUE=DATE:20240912
@@ -1384,6 +1481,19 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-239.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-257-2024-10-28-hold-2154@gbc-news
+DTSTAMP:20241028T125400Z
+DTSTART:20241028T125400Z
+DTEND:20241028T145400Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] TOKYO MX 开始播出《Girls Band Cry》MV
+DESCRIPTION:自 10/28 起每周一 21:54 于 TOKYO MX 播出 MV 栏目。\n
+ \nhttps://girls-band-cry.com/news/post-257.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-257.html
+CATEGORIES:togenashi,music,media
+END:VEVENT
+BEGIN:VEVENT
 UID:post-251-2024-11-21-hold-1900@gbc-news
 DTSTAMP:20241121T100000Z
 DTSTART:20241121T100000Z
@@ -1397,6 +1507,20 @@ DESCRIPTION:纪念 Vol.6 豪华限定版发售，11 月 21 日 19:00–20:0
  https://girls-band-cry.com/news/post-251.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-251.html
 CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-254-2024-11-27-sale@gbc-news
+DTSTAMP:20241127T000000Z
+DTSTART;VALUE=DATE:20241127
+DTEND;VALUE=DATE:20241128
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺新曲「臆病な白夜」试听影像公开
+ ！
+DESCRIPTION:公开封入 Vol.6 豪华限定版特典 CD 的新曲试听；V
+ ol.6 于 11/27 发售。\n\nhttps://girls-band-cry.com/news/post-254.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-254.html
+CATEGORIES:togenashi,music
 END:VEVENT
 BEGIN:VEVENT
 UID:post-252-2024-12-22-hold-1500@gbc-news
@@ -1441,6 +1565,19 @@ DESCRIPTION:无刺有刺新曲 Music Video 于 2025 年 3 月 12 日 20:00
  起在 Girls Band Cry 官方 YouTube 频道配信。\n\n
  https://girls-band-cry.com/news/post-308.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-308.html
+CATEGORIES:togenashi,music
+END:VEVENT
+BEGIN:VEVENT
+UID:post-322-2025-03-12-hold-2000@gbc-news
+DTSTAMP:20250312T110000Z
+DTSTART:20250312T110000Z
+DTEND:20250312T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 「ダレモ」MV 3 月 12 日（三）20 时首映公开
+DESCRIPTION:无刺有刺新曲 MV 于 3/12 20:00 YouTube 首映。\n\n
+ https://girls-band-cry.com/news/post-322.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-322.html
 CATEGORIES:togenashi,music
 END:VEVENT
 BEGIN:VEVENT
@@ -1525,6 +1662,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-330.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-339-2025-04-28-hold-2000@gbc-news
+DTSTAMP:20250428T110000Z
+DTSTART:20250428T110000Z
+DTEND:20250428T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 「飛べない蝶は夢を見る」MV 4 月 28 日（一
+ ）20 时首映公开
+DESCRIPTION:无刺有刺新曲 MV 于 4/28 20:00 YouTube 首映。\n\n
+ https://girls-band-cry.com/news/post-339.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-339.html
+CATEGORIES:togenashi,music
+END:VEVENT
+BEGIN:VEVENT
 UID:post-330-2025-05-28-sale@gbc-news
 DTSTAMP:20250528T000000Z
 DTSTART;VALUE=DATE:20250528
@@ -1540,6 +1691,20 @@ DESCRIPTION:第 10 张 Single《ダレモ》5/28 发售；《飛べない
  https://girls-band-cry.com/news/post-330.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-330.html
 CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-353-2025-06-23-hold-2000@gbc-news
+DTSTAMP:20250623T110000Z
+DTSTART:20250623T110000Z
+DTEND:20250623T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 「薄采ディスプレイ」MV 6 月 23 日（一）20 
+ 时首映公开
+DESCRIPTION:无刺有刺新曲 MV 于 6/23 20:00 YouTube 首映。\n\n
+ https://girls-band-cry.com/news/post-353.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-353.html
+CATEGORIES:togenashi,music
 END:VEVENT
 BEGIN:VEVENT
 UID:post-346-2025-07-23-sale@gbc-news
@@ -1607,6 +1772,20 @@ DESCRIPTION:第 11 张 Single《薄采ディスプレイ》9/24 发售；
  https://girls-band-cry.com/news/post-363.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-363.html
 CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-367-2025-08-25-hold-2000@gbc-news
+DTSTAMP:20250825T110000Z
+DTSTART:20250825T110000Z
+DTEND:20250825T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 新曲「蜃気楼二問フ」MV 8 月 25 日（一）20 
+ 时首映公开
+DESCRIPTION:无刺有刺新曲 MV 于 8/25 20:00 YouTube 首映。\n\n
+ https://girls-band-cry.com/news/post-367.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-367.html
+CATEGORIES:togenashi,music
 END:VEVENT
 BEGIN:VEVENT
 UID:post-363-2025-09-24-sale@gbc-news

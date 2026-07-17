@@ -4,8 +4,35 @@
     <title>gbc-news · 其他</title>
     <link>https://gbc-news.example.com/</link>
     <description>ガールズバンドクライ 公式ニュース（其他）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 12:40:48 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 12:41:49 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/other.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[举办] 动画《Girls Band Cry》官方网站开放！</title>
+      <link>https://girls-band-cry.com/news/post-1.html</link>
+      <guid isPermaLink="false">post-1-2023-05-29-hold@gbc-news</guid>
+      <pubDate>Mon, 29 May 2023 00:00:00 GMT</pubDate>
+      <category>other</category>
+      <category domain="group">togenashi</category>
+      <description>官方网站开放；项目于 2023 年 5 月 29 日启动。</description>
+    </item>
+    <item>
+      <title>[举办] 东映动画博物馆开始「Girls Band Cry」展示！</title>
+      <link>https://girls-band-cry.com/news/post-67.html</link>
+      <guid isPermaLink="false">post-67-2024-01-06-hold@gbc-news</guid>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 GMT</pubDate>
+      <category>other</category>
+      <category domain="group">togenashi</category>
+      <description>自 1/6 起展示主视觉海报与设定资料等。</description>
+    </item>
+    <item>
+      <title>[发售] 4 月末起于 AniBirth 销售的商品登陆东映动画官方商店！</title>
+      <link>https://girls-band-cry.com/news/post-132.html</link>
+      <guid isPermaLink="false">post-132-2024-05-10-sale-1300@gbc-news</guid>
+      <pubDate>Fri, 10 May 2024 04:00:00 GMT</pubDate>
+      <category>other</category>
+      <category domain="group">togenashi</category>
+      <description>AniBirth 在售周边自 5/10 13:00 起于东映官方商店开售。</description>
+    </item>
     <item>
       <title>[发售] 5/31（五）起 AniBirth 发售 Girls Band Cry 新商品！！</title>
       <link>https://girls-band-cry.com/news/post-149.html</link>
@@ -185,6 +212,15 @@
       <category>other</category>
       <category domain="group">togenashi</category>
       <description>东映动画官方商店预约贩售的人气 GBC 手办于 9/19 起在 AniBirth 池袋 PARCO・心斋桥 PARCO 店发售。</description>
+    </item>
+    <item>
+      <title>[发售] 线上抽选第 2 弹登场！</title>
+      <link>https://girls-band-cry.com/news/post-437.html</link>
+      <guid isPermaLink="false">post-437-2025-12-01_2025-12-31-sale@gbc-news</guid>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+      <category>other</category>
+      <category domain="group">togenashi</category>
+      <description>酒井香澄绘制周边线上抽选销售期 12/1–12/31；约 2026 年 3 月中旬起发货。</description>
     </item>
     <item>
       <title>[发售] 桃ワショ Switch 移植项目启动！</title>

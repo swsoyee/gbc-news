@@ -8,6 +8,46 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-WR-CALNAME:gbc-news · 其他
 NAME:gbc-news · 其他
 BEGIN:VEVENT
+UID:post-1-2023-05-29-hold@gbc-news
+DTSTAMP:20230529T000000Z
+DTSTART;VALUE=DATE:20230529
+DTEND;VALUE=DATE:20230530
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 动画《Girls Band Cry》官方网站开放！
+DESCRIPTION:官方网站开放；项目于 2023 年 5 月 29 日启动。\n
+ \nhttps://girls-band-cry.com/news/post-1.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-1.html
+CATEGORIES:togenashi,other
+END:VEVENT
+BEGIN:VEVENT
+UID:post-67-2024-01-06-hold@gbc-news
+DTSTAMP:20240106T000000Z
+DTSTART;VALUE=DATE:20240106
+DTEND;VALUE=DATE:20240107
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 东映动画博物馆开始「Girls Band Cry」展示！
+DESCRIPTION:自 1/6 起展示主视觉海报与设定资料等。\n\n
+ https://girls-band-cry.com/news/post-67.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-67.html
+CATEGORIES:togenashi,other
+END:VEVENT
+BEGIN:VEVENT
+UID:post-132-2024-05-10-sale-1300@gbc-news
+DTSTAMP:20240510T040000Z
+DTSTART:20240510T040000Z
+DTEND:20240510T050000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] 4 月末起于 AniBirth 销售的商品登陆东映动画
+ 官方商店！
+DESCRIPTION:AniBirth 在售周边自 5/10 13:00 起于东映官方商店开
+ 售。\n\nhttps://girls-band-cry.com/news/post-132.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-132.html
+CATEGORIES:togenashi,other
+END:VEVENT
+BEGIN:VEVENT
 UID:post-149-2024-05-31-sale-1100@gbc-news
 DTSTAMP:20240531T020000Z
 DTSTART:20240531T020000Z
@@ -301,6 +341,20 @@ DESCRIPTION:东映动画官方商店预约贩售的人气 GBC 手办于 9/1
  9 起在 AniBirth 池袋 PARCO・心斋桥 PARCO 店发售。\n\n
  https://girls-band-cry.com/news/post-378.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-378.html
+CATEGORIES:togenashi,other
+END:VEVENT
+BEGIN:VEVENT
+UID:post-437-2025-12-01_2025-12-31-sale@gbc-news
+DTSTAMP:20251201T000000Z
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20260101
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 线上抽选第 2 弹登场！
+DESCRIPTION:酒井香澄绘制周边线上抽选销售期 12/1–12/31；
+ 约 2026 年 3 月中旬起发货。\n\n
+ https://girls-band-cry.com/news/post-437.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-437.html
 CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT

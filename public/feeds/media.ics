@@ -140,6 +140,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-64.html
 CATEGORIES:togenashi,media
 END:VEVENT
 BEGIN:VEVENT
+UID:post-65-2024-01-08-hold-2100@gbc-news
+DTSTAMP:20240108T120000Z
+DTSTART:20240108T120000Z
+DTEND:20240108T123000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺首档固定节目开始!!!
+DESCRIPTION:川崎 FM《トゲナシトゲアリのトゲラジ》首播 1/
+ 8 21:00–21:30，并征集栏目创意。\n\n
+ https://girls-band-cry.com/news/post-65.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-65.html
+CATEGORIES:togenashi,media
+END:VEVENT
+BEGIN:VEVENT
 UID:post-59-2024-01-09_2024-01-15-sale@gbc-news
 DTSTAMP:20240109T000000Z
 DTSTART;VALUE=DATE:20240109
@@ -185,6 +199,21 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-72.html
 CATEGORIES:togenashi,music,event,media
 END:VEVENT
 BEGIN:VEVENT
+UID:post-76-2024-02-16-hold@gbc-news
+DTSTAMP:20240216T000000Z
+DTSTART;VALUE=DATE:20240216
+DTEND;VALUE=DATE:20240217
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] TV 动画《Girls Band Cry》自 4 月 5 日起每周五 2
+ 4:30～开播！
+DESCRIPTION:自 4/5 起于 TOKYO MX 等台每周五 24:30 开播；2/16 起
+ 连续五周公开角色 PV。\n\n
+ https://girls-band-cry.com/news/post-76.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-76.html
+CATEGORIES:togenashi,media
+END:VEVENT
+BEGIN:VEVENT
 UID:post-81-2024-03-04-hold-1900@gbc-news
 DTSTAMP:20240304T100000Z
 DTSTART:20240304T100000Z
@@ -227,6 +256,21 @@ DESCRIPTION:动画自 4/5 起开播；real Sound 公开成员访谈、玉
  https://girls-band-cry.com/news/post-101.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-101.html
 CATEGORIES:togenashi,live,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-76-2024-04-05-hold@gbc-news
+DTSTAMP:20240405T000000Z
+DTSTART;VALUE=DATE:20240405
+DTEND;VALUE=DATE:20240406
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] TV 动画《Girls Band Cry》自 4 月 5 日起每周五 2
+ 4:30～开播！
+DESCRIPTION:自 4/5 起于 TOKYO MX 等台每周五 24:30 开播；2/16 起
+ 连续五周公开角色 PV。\n\n
+ https://girls-band-cry.com/news/post-76.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-76.html
+CATEGORIES:togenashi,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-121-2024-04-24-sale@gbc-news
@@ -501,6 +545,19 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-199.html
 CATEGORIES:togenashi,live,music,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
+UID:post-257-2024-10-28-hold-2154@gbc-news
+DTSTAMP:20241028T125400Z
+DTSTART:20241028T125400Z
+DTEND:20241028T145400Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] TOKYO MX 开始播出《Girls Band Cry》MV
+DESCRIPTION:自 10/28 起每周一 21:54 于 TOKYO MX 播出 MV 栏目。\n
+ \nhttps://girls-band-cry.com/news/post-257.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-257.html
+CATEGORIES:togenashi,music,media
+END:VEVENT
+BEGIN:VEVENT
 UID:post-284-2024-12-19_2025-02-11-sale@gbc-news
 DTSTAMP:20241219T000000Z
 DTSTART;VALUE=DATE:20241219
@@ -514,6 +571,20 @@ DESCRIPTION:4th 个人演唱会「協奏の響」回放票务销售期 2024
  供周边限定票。\n\nhttps://girls-band-cry.com/news/post-284.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-284.html
 CATEGORIES:togenashi,live,goods,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-291-2025-01-17-hold-0153@gbc-news
+DTSTAMP:20250116T165300Z
+DTSTART:20250116T165300Z
+DTEND:20250116T185300Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] TV 动画《Girls Band Cry》决定于 RKK 熊本放送播
+ 出！
+DESCRIPTION:自 2025/1/17 起每周五 25:53 于 RKK 熊本放送播出。\
+ n\nhttps://girls-band-cry.com/news/post-291.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-291.html
+CATEGORIES:togenashi,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-299-2025-01-30_2025-02-06-sale@gbc-news
@@ -805,6 +876,19 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-362.html
 CATEGORIES:togenashi,goods,event,media
 END:VEVENT
 BEGIN:VEVENT
+UID:post-360-2025-08-31-hold-1515@gbc-news
+DTSTAMP:20250831T061500Z
+DTSTART:20250831T061500Z
+DTEND:20250831T081500Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 决定于 AT-X 一举播出 TV 系列！
+DESCRIPTION:8/31 15:15 起于 AT-X「あにふぇす！\n」企划一举播
+ 出。\n\nhttps://girls-band-cry.com/news/post-360.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-360.html
+CATEGORIES:togenashi,media
+END:VEVENT
+BEGIN:VEVENT
 UID:post-369-2025-09-20-hold@gbc-news
 DTSTAMP:20250920T000000Z
 DTSTART;VALUE=DATE:20250920
@@ -1079,6 +1163,20 @@ DESCRIPTION:《剧场版总集篇 Girls Band Cry【后篇】なぁ、未来
  https://girls-band-cry.com/news/post-439.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-439.html
 CATEGORIES:togenashi,live,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-410-2025-12-31-sale@gbc-news
+DTSTAMP:20251231T000000Z
+DTSTART;VALUE=DATE:20251231
+DTEND;VALUE=DATE:20260101
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 《剧场版总集篇【前篇】青春狂走曲》手册
+ 商品不良及更换通知
+DESCRIPTION:前篇手册主视觉图有误，更换申请受理至 2025/12/
+ 31。\n\nhttps://girls-band-cry.com/news/post-410.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-410.html
+CATEGORIES:togenashi,cinema,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-457-2026-04-06-sale-1200@gbc-news

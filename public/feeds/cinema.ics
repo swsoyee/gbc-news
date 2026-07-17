@@ -752,6 +752,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-206.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-196-2024-08-28-sale@gbc-news
+DTSTAMP:20240828T000000Z
+DTSTART;VALUE=DATE:20240828
+DTEND;VALUE=DATE:20240829
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] TV 动画《Girls Band Cry》Blu-ray & DVD 第 3 卷封面
+ 初公开！
+DESCRIPTION:公开手島nari 绘制的 Vol.3 豪华限定版封面；8/28 
+ 发售。\n\nhttps://girls-band-cry.com/news/post-196.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-196.html
+CATEGORIES:togenashi,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-199-2024-08-28-sale@gbc-news
 DTSTAMP:20240828T000000Z
 DTSTART;VALUE=DATE:20240828
@@ -889,6 +903,19 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-195.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-214-2024-09-25-sale@gbc-news
+DTSTAMP:20240925T000000Z
+DTSTART;VALUE=DATE:20240925
+DTEND;VALUE=DATE:20240926
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] TV 动画《Girls Band Cry》Vol.4 封面初公开！
+DESCRIPTION:公开手島nari 绘制的 Vol.4 豪华限定版封面；9/25 
+ 发售。\n\nhttps://girls-band-cry.com/news/post-214.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-214.html
+CATEGORIES:togenashi,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-234-2024-09-25_2024-11-10-sale@gbc-news
 DTSTAMP:20240925T000000Z
 DTSTART;VALUE=DATE:20240925
@@ -964,6 +991,19 @@ DESCRIPTION:纪念 Vol.5 豪华限定版发售，10 月 24 日 19:00–20:0
  https://girls-band-cry.com/news/post-239.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-239.html
 CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-221-2024-10-30-sale@gbc-news
+DTSTAMP:20241030T000000Z
+DTSTART;VALUE=DATE:20241030
+DTEND;VALUE=DATE:20241031
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] TV 动画《Girls Band Cry》Vol.5 封面初公开！
+DESCRIPTION:公开手島nari 绘制的 Vol.5 豪华限定版封面；10/30 
+ 发售。\n\nhttps://girls-band-cry.com/news/post-221.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-221.html
+CATEGORIES:togenashi,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-251-2024-11-21-hold-1900@gbc-news
@@ -2130,6 +2170,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-400.html
 CATEGORIES:togenashi,live,music,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-410-2025-12-31-sale@gbc-news
+DTSTAMP:20251231T000000Z
+DTSTART;VALUE=DATE:20251231
+DTEND;VALUE=DATE:20260101
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 《剧场版总集篇【前篇】青春狂走曲》手册
+ 商品不良及更换通知
+DESCRIPTION:前篇手册主视觉图有误，更换申请受理至 2025/12/
+ 31。\n\nhttps://girls-band-cry.com/news/post-410.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-410.html
+CATEGORIES:togenashi,cinema,media
+END:VEVENT
+BEGIN:VEVENT
 UID:post-388-2026-02-11-hold-1800@gbc-news
 DTSTAMP:20260211T090000Z
 DTSTART:20260211T090000Z
@@ -2176,6 +2230,20 @@ DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来”：2/11 横滨
  https://girls-band-cry.com/news/post-388.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-445-2026-02-28-sale@gbc-news
+DTSTAMP:20260228T000000Z
+DTSTART;VALUE=DATE:20260228
+DTEND;VALUE=DATE:20260301
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 《剧场版总集篇【后篇】呐，未来。》来场
+ 特典透明卡不良及更换通知
+DESCRIPTION:12/12 起发放的透明卡乐器标注有误，更换申请受
+ 理至 2026/2/28。\n\nhttps://girls-band-cry.com/news/post-445.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-445.html
+CATEGORIES:togenashi,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-388-2026-02-28-hold-1700@gbc-news

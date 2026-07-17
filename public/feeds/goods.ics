@@ -988,6 +988,21 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-282.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
 BEGIN:VEVENT
+UID:post-285-2024-12-20_2025-01-31-sale@gbc-news
+DTSTAMP:20241220T000000Z
+DTSTART;VALUE=DATE:20241220
+DTEND;VALUE=DATE:20250201
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺无比例手办登场！自 12/20（五）起
+ 东映动画官方商店开始预约销售！
+DESCRIPTION:桃香・昴・智・RUPA 及再次受理的仁菜手办自 12/
+ 20 起预约至 1/31；12/24 起 AniBirth 展示。\n\n
+ https://girls-band-cry.com/news/post-285.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-285.html
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
 UID:post-277-2024-12-23-sale@gbc-news
 DTSTAMP:20241223T000000Z
 DTSTART;VALUE=DATE:20241223
@@ -1001,6 +1016,21 @@ DESCRIPTION:东映 ONLINE STORE 自 12 月 11 日 12:00 起受理《Girls B
  力夹立牌），预约截止 12 月 23 日 23:59。\n\n
  https://girls-band-cry.com/news/post-277.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-277.html
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
+UID:post-285-2024-12-24-hold@gbc-news
+DTSTAMP:20241224T000000Z
+DTSTART;VALUE=DATE:20241224
+DTEND;VALUE=DATE:20241225
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺无比例手办登场！自 12/20（五）起
+ 东映动画官方商店开始预约销售！
+DESCRIPTION:桃香・昴・智・RUPA 及再次受理的仁菜手办自 12/
+ 20 起预约至 1/31；12/24 起 AniBirth 展示。\n\n
+ https://girls-band-cry.com/news/post-285.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-285.html
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
@@ -2661,6 +2691,21 @@ DESCRIPTION:《Girls Band Cry（GBC）》推出以剧中乐队无刺有刺
 URL;VALUE=URI:
  https://collabo-cafe.com/events/collabo/girls-band-cry-togenashi-togeari-w
  atch-armabianca-anime-store-goods2026/
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
+UID:post-481-2026-06-18_2026-07-13-sale@gbc-news
+DTSTAMP:20260618T000000Z
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260714
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] SuperGroupies 推出仁菜与「无刺有刺」服装单
+ 品！
+DESCRIPTION:手表、舞台风夹克、肩包于 SuperGroupies 预约，受
+ 理期 6/18 12:00–7/13 12:00。\n\n
+ https://girls-band-cry.com/news/post-481.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-481.html
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
