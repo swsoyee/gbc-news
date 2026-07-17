@@ -29,29 +29,7 @@ BEGIN:VEVENT
 UID:post-3-2023-07-29-hold-1700@gbc-news
 DTSTAMP:20230729T080000Z
 DTSTART:20230729T080000Z
-DTEND:20230729T100000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ［fromガールズバンドクラ
- イ］ 1st Single『名もなき何もかも』発売記念 オンライ
- ントーク配信＆サイン会 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド ‘’トゲナシトゲアリ‘’ リリースイ
- ベントとして、オンライントーク配信＆サイン会の開
- 催が決定！\nガールズバンドクライのキャラクター絵柄
- の後ろで、トゲナシトゲアリメンバーの生声トークを
- 楽しむことができます。\nまた、リミスタにて対象商品
- をご購入いただいたお\n\n
- https://girls-band-cry.com/news/post-3.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-3.html
-CATEGORIES:togenashi,live,music,event,cinema,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-3-2023-07-29-hold-1800@gbc-news
-DTSTAMP:20230729T090000Z
-DTSTART:20230729T090000Z
-DTEND:20230729T110000Z
+DTEND:20230729T090000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] トゲナシトゲアリ［fromガールズバンドクラ
@@ -134,7 +112,7 @@ BEGIN:VEVENT
 UID:post-10-2023-09-02-hold-1700@gbc-news
 DTSTAMP:20230902T080000Z
 DTSTART:20230902T080000Z
-DTEND:20230902T100000Z
+DTEND:20230902T090000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] トゲナシトゲアリ［fromガールズバンドクラ
@@ -311,7 +289,7 @@ BEGIN:VEVENT
 UID:post-25-2023-09-30-hold-1700@gbc-news
 DTSTAMP:20230930T080000Z
 DTSTART:20230930T080000Z
-DTEND:20230930T100000Z
+DTEND:20230930T090000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] トゲナシトゲアリ修行中！公開練習ライブ
@@ -370,24 +348,6 @@ UID:post-33-2023-10-21-hold-1300@gbc-news
 DTSTAMP:20231021T040000Z
 DTSTART:20231021T040000Z
 DTEND:20231021T070000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] 10/21 （土） 「高校生バンド王 vol.4 in かわ
- さき」 にゲスト出演決定！
-DESCRIPTION:10/21 （土） 「高校生バンド王 vol.4 in かわさき
- 」 にゲスト出演が決定しました トゲナシトゲアリ は15
- 時からミニライブを行う予定です 【開催日】2023年10月2
- 1日（土）13:00～16:00（予定） 【場所】川崎ルフロン1F 
- （川崎駅前） 入場無料 イベントHPは こちら ぜひ観に
- 来てくださいね\n\nhttps://girls-band-cry.com/news/post-33.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-33.html
-CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-33-2023-10-21-hold-1300@gbc-news
-DTSTAMP:20231021T040000Z
-DTSTART:20231021T040000Z
-DTEND:20231021T060000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] 10/21 （土） 「高校生バンド王 vol.4 in かわ
@@ -519,28 +479,7 @@ BEGIN:VEVENT
 UID:post-35-2023-10-28-hold-1700@gbc-news
 DTSTAMP:20231028T080000Z
 DTSTART:20231028T080000Z
-DTEND:20231028T100000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ 3rd Single『爆ぜて咲く』
- 発売記念 オンライントーク配信＆サイン会 開催のご案
- 内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド “トゲナシトゲアリ” 3rd Single 『爆ぜ
- て咲く』の発売を記念して大好評のオンライントーク
- 配信＆サイン会【4回目】の開催が決定！\nリミスタに
- て対象商品をご購入いただいたお客様に、３rd Single『
- 爆ぜて咲く』ジャケットへメンバー全員がサイン\n\n
- https://girls-band-cry.com/news/post-35.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-35.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-35-2023-10-28-hold-1800@gbc-news
-DTSTAMP:20231028T090000Z
-DTSTART:20231028T090000Z
-DTEND:20231028T110000Z
+DTEND:20231028T090000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] トゲナシトゲアリ 3rd Single『爆ぜて咲く』
@@ -635,28 +574,7 @@ BEGIN:VEVENT
 UID:post-46-2023-12-02-hold-1700@gbc-news
 DTSTAMP:20231202T080000Z
 DTSTART:20231202T080000Z
-DTEND:20231202T100000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ 3rd Single『爆ぜて咲く～
- ミュージックビデオ1\,000万回再生目前～』 オンライン
- トーク配信＆サイン会開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド“トゲナシトゲアリ” 3rd Single 『爆ぜ
- て咲く』大好評発売中！\nそしてさらにミュージックビ
- デオ1\,000万回再生目前を記念して大好評のオンライン
- トーク配信＆サイン会【5回目】の開催が決定！\n今回
- の企画は「夕莉王決定戦～メンバーはどのくらい夕莉
- のこ\n\nhttps://girls-band-cry.com/news/post-46.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-46.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-46-2023-12-02-hold-1800@gbc-news
-DTSTAMP:20231202T090000Z
-DTSTART:20231202T090000Z
-DTEND:20231202T110000Z
+DTEND:20231202T090000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] トゲナシトゲアリ 3rd Single『爆ぜて咲く～
@@ -808,28 +726,7 @@ BEGIN:VEVENT
 UID:post-53-2023-12-22-hold-1900@gbc-news
 DTSTAMP:20231222T100000Z
 DTSTART:20231222T100000Z
-DTEND:20231222T120000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ 4th Single『極私的極彩色
- アンサー』発売記念 オンライントーク配信＆サイン会 
- 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド “トゲナシトゲアリ” 12 月20日(水)の 4
- th Single『極私的極彩色アンサー』発売を記念し、大好
- 評のオンライントーク配信＆サイン会【6回目】の開催
- が決定！\n今回の企画は「トゲトゲ版！\nきよしこの夜
- 、プレゼント対決」になります。\nご期待ください\n\n
- https://girls-band-cry.com/news/post-53.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-53.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-53-2023-12-22-hold-2000@gbc-news
-DTSTAMP:20231222T110000Z
-DTSTART:20231222T110000Z
-DTEND:20231222T130000Z
+DTEND:20231222T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] トゲナシトゲアリ 4th Single『極私的極彩色
@@ -850,28 +747,7 @@ BEGIN:VEVENT
 UID:post-68-2024-02-03-hold-1700@gbc-news
 DTSTAMP:20240203T080000Z
 DTSTART:20240203T080000Z
-DTEND:20240203T100000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ 5th Single『運命に賭けた
- い論理』発売記念 オンライントーク配信＆サイン会 開
- 催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド “トゲナシトゲアリ” 2024年2月28日（
- 水）の5th Single 『運命に賭けたい論理』の発売を記念し
- て、今年第1回目となるオンライントーク配信＆サイン
- 会の開催が決定！\n今回の企画は「朱李プレゼンツ：ジ
- ェスチャー伝言ゲーム」になります。\nご期待くだ\n\n
- https://girls-band-cry.com/news/post-68.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-68.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-68-2024-02-03-hold-1800@gbc-news
-DTSTAMP:20240203T090000Z
-DTSTART:20240203T090000Z
-DTEND:20240203T110000Z
+DTEND:20240203T090000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] トゲナシトゲアリ 5th Single『運命に賭けた
@@ -1024,27 +900,7 @@ BEGIN:VEVENT
 UID:post-81-2024-03-04-hold-1900@gbc-news
 DTSTAMP:20240304T100000Z
 DTSTART:20240304T100000Z
-DTEND:20240304T120000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] アニメ第1弾予告公開記念 オンライントー
- ク配信＆サイン会 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド “トゲナシトゲアリ” 今回はいよいよ
- 4月から放送がスタートするオリジナルTVアニメ「ガー
- ルズバンドクライ」の本予告第1弾公開を記念して、リ
- ミスタでのオフィシャルグッズ販売を行います。\nリミ
- スタにて対象商品をご購入いただいたお客様に、ミニ
- 色紙へメンバー全\n\nhttps://girls-band-cry.com/news/post-81.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-81.html
-CATEGORIES:togenashi,live,goods,event,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-81-2024-03-04-hold-2000@gbc-news
-DTSTAMP:20240304T110000Z
-DTSTART:20240304T110000Z
-DTEND:20240304T130000Z
+DTEND:20240304T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] アニメ第1弾予告公開記念 オンライントー
@@ -1269,25 +1125,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-118.html
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-118-2024-04-20-hold-0000@gbc-news
-DTSTAMP:20240419T150000Z
-DTSTART:20240419T150000Z
-DTEND:20240419T170000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] 【超短期ゲリラ企画】第3話実況キャンペー
- ン開催！
-DESCRIPTION:超短期ゲリラ企画 「#ガールズバンドクライ」 
- TVアニメ第3話実況＆感想投稿キャンペーン 第3話の実況
- を盛り上げてくださる皆様に感謝を込めて超短期キャ
- ンペーンを開催します ⏰4/20(金)0:00～8:59まで⏰ ①Xで(
- ＠girlsbandcry）をフォロー Tweets by girlsbandcry ②Xで【#ガル
- クラ】 をつけてアニメ「ガー\n\n
- https://girls-band-cry.com/news/post-118.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-118.html
-CATEGORIES:togenashi,event
-END:VEVENT
-BEGIN:VEVENT
 UID:post-88-2024-04-24-hold@gbc-news
 DTSTAMP:20240424T000000Z
 DTSTART;VALUE=DATE:20240424
@@ -1384,48 +1221,10 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-124.html
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-124-2024-04-27-hold-0000@gbc-news
-DTSTAMP:20240426T150000Z
-DTSTART:20240426T150000Z
-DTEND:20240426T170000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] 【超短期ゲリラ企画】第4話実況キャンペー
- ン開催！
-DESCRIPTION:超短期ゲリラ企画 「#ガールズバンドクライ」 
- TVアニメ第4話実況＆感想投稿キャンペーン 第4話の実況
- を盛り上げてくださる皆様に感謝を込めて超短期キャ
- ンペーンを開催します ⏰4/27(土)0:00～8:59まで⏰ ①Xで(
- ＠girlsbandcry）をフォロー Tweets by girlsbandcry ②Xで【#ガル
- クラ】 をつけてアニメ「ガー\n\n
- https://girls-band-cry.com/news/post-124.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-124.html
-CATEGORIES:togenashi,event
-END:VEVENT
-BEGIN:VEVENT
 UID:post-127-2024-05-04-hold-0000@gbc-news
 DTSTAMP:20240503T150000Z
 DTSTART:20240503T150000Z
 DTEND:20240503T235900Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] 【超短期ゲリラ企画】第5話実況キャンペー
- ン開催！
-DESCRIPTION:超短期ゲリラ企画 「#ガールズバンドクライ」 
- TVアニメ第5話実況＆感想投稿キャンペーン 第5話の実況
- を盛り上げてくださる皆様に感謝を込めて超短期キャ
- ンペーンを開催します ⏰5/4(土)0:00～8:59まで⏰ ①Xで(＠
- girlsbandcry）をフォロー Tweets by girlsbandcry ②Xで【#ガルク
- ラ】 をつけてアニメ「ガール\n\n
- https://girls-band-cry.com/news/post-127.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-127.html
-CATEGORIES:togenashi,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-127-2024-05-04-hold-0000@gbc-news
-DTSTAMP:20240503T150000Z
-DTSTART:20240503T150000Z
-DTEND:20240503T170000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] 【超短期ゲリラ企画】第5話実況キャンペー
@@ -1480,48 +1279,10 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-135.html
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-135-2024-05-10-hold-0000@gbc-news
-DTSTAMP:20240509T150000Z
-DTSTART:20240509T150000Z
-DTEND:20240509T170000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] 【超短期ゲリラ企画】第6話実況キャンペー
- ン開催！
-DESCRIPTION:超短期ゲリラ企画 「#ガールズバンドクライ」 
- TVアニメ第6話実況＆感想投稿キャンペーン 第6話の実況
- を盛り上げてくださる皆様に感謝を込めて超短期キャ
- ンペーンを開催します ⏰5/10(土)0:00～8:59まで⏰ ①Xで(
- ＠girlsbandcry）をフォロー Tweets by girlsbandcry ②Xで【#ガル
- クラ】 をつけてアニメ「ガー\n\n
- https://girls-band-cry.com/news/post-135.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-135.html
-CATEGORIES:togenashi,event
-END:VEVENT
-BEGIN:VEVENT
 UID:post-138-2024-05-18-hold-0000@gbc-news
 DTSTAMP:20240517T150000Z
 DTSTART:20240517T150000Z
 DTEND:20240517T235900Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] 【超短期ゲリラ企画】第7話実況キャンペー
- ン開催！
-DESCRIPTION:超短期ゲリラ企画 「ガールズバンドクライ」 T
- Vアニメ第7話実況＆感想投稿キャンペーン 第7話の実況
- を盛り上げてくださる皆様に感謝を込めて超短期キャ
- ンペーンを開催します ⏰5/18(土)0:00～8:59まで⏰ ①Xで(
- ＠girlsbandcry）をフォロー Tweets by girlsbandcry ②Xで【#ガル
- クラ】 をつけてアニメ「ガール\n\n
- https://girls-band-cry.com/news/post-138.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-138.html
-CATEGORIES:togenashi,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-138-2024-05-18-hold-0000@gbc-news
-DTSTAMP:20240517T150000Z
-DTSTART:20240517T150000Z
-DTEND:20240517T170000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] 【超短期ゲリラ企画】第7話実況キャンペー
@@ -1615,28 +1376,7 @@ BEGIN:VEVENT
 UID:post-128-2024-05-28-hold-1900@gbc-news
 DTSTAMP:20240528T100000Z
 DTSTART:20240528T100000Z
-DTEND:20240528T120000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ8th Single『視界の隅 朽ち
- る音』発売記念 オンライントーク配信＆サイン会 開催
- のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド "トゲナシトゲアリ" 2024年6月19日(水)の8
- th Single『視界の隅 朽ちる音』発売を記念して、 リミス
- タでのオンライントーク配信＆サイン会 の開催が決定
- ！\n リミスタにて対象商品をご購入いただいたお客様
- に、アニメ「ガールズバンドクライ」\n\n
- https://girls-band-cry.com/news/post-128.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-128.html
-CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-128-2024-05-28-hold-2000@gbc-news
-DTSTAMP:20240528T110000Z
-DTSTART:20240528T110000Z
-DTEND:20240528T130000Z
+DTEND:20240528T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] トゲナシトゲアリ8th Single『視界の隅 朽ち
@@ -1695,28 +1435,7 @@ BEGIN:VEVENT
 UID:post-151-2024-06-21-hold-1900@gbc-news
 DTSTAMP:20240621T100000Z
 DTSTART:20240621T100000Z
-DTEND:20240621T120000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.1〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.1がいよいよ2024年6月26日(水)より発売開始
- ！\n発売を記念して、リミスタでのオンライントーク配
- 信の開催が決定！\nリミスタにて対象商品をご購入いた
- だいたお客様に、TVアニメ『ガ\n\n
- https://girls-band-cry.com/news/post-151.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-151.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-151-2024-06-21-hold-2000@gbc-news
-DTSTAMP:20240621T110000Z
-DTSTART:20240621T110000Z
-DTEND:20240621T130000Z
+DTEND:20240621T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.1〈
@@ -1791,28 +1510,7 @@ BEGIN:VEVENT
 UID:post-171-2024-07-02-hold-1900@gbc-news
 DTSTAMP:20240702T100000Z
 DTSTART:20240702T100000Z
-DTEND:20240702T120000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ［fromガールズバンドクラ
- イ］ 9th Single『空白とカタルシス』オンライントーク配
- 信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド ‘’トゲナシトゲアリ‘’ 7 月10日(水)
- 9th Single『空白とカタルシス』の発売を記念して、 リミ
- スタでのオンライントーク配信 の開催が決定！\nリミ
- スタにて対象商品をご購入いただいたお客様に、アニ
- メ「ガールズバンドクライ」のビジュアルを使用し\n\n
- https://girls-band-cry.com/news/post-171.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-171.html
-CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-171-2024-07-02-hold-2000@gbc-news
-DTSTAMP:20240702T110000Z
-DTSTART:20240702T110000Z
-DTEND:20240702T130000Z
+DTEND:20240702T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] トゲナシトゲアリ［fromガールズバンドクラ
@@ -1833,28 +1531,7 @@ BEGIN:VEVENT
 UID:post-192-2024-07-26-hold-1900@gbc-news
 DTSTAMP:20240726T100000Z
 DTSTART:20240726T100000Z
-DTEND:20240726T120000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.2〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.2の発売を記念して、リミスタでのオンラ
- イントーク配信 の開催が決定！\nリミスタにて対象商
- 品をご購入いただいたお客様に、TVアニメ『ガールズバ
- ンドクライ』豪華限定版Vol.2のジャケ\n\n
- https://girls-band-cry.com/news/post-192.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-192.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-192-2024-07-26-hold-2000@gbc-news
-DTSTAMP:20240726T110000Z
-DTSTART:20240726T110000Z
-DTEND:20240726T130000Z
+DTEND:20240726T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.2〈
@@ -1875,28 +1552,7 @@ BEGIN:VEVENT
 UID:post-199-2024-08-09-hold-1900@gbc-news
 DTSTAMP:20240809T100000Z
 DTSTART:20240809T100000Z
-DTEND:20240809T120000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ ２nd Album「棘ナシ」 / TV
- アニメ『ガールズバンドクライ』オリジナルサウンド
- トラック発売記念オンライントーク配信開催！
-DESCRIPTION:TVアニメ『ガールズバンドクライ』放送終了後
- も精力的な活動を続けるガールズバンド「トゲナシト
- ゲアリ」早くも２nd Albumが2024年8月28日（水）に発売決
- 定！\nそして2024年9月11日(水)にはオリジナルサウンドト
- ラックも発売！\n詳細は こちら こちら2作品の発売を記
- 念して、恒例のリミスタでのオンライントーク配信を
- 行います リミスタにて対象商品をご\n\n
- https://girls-band-cry.com/news/post-199.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-199.html
-CATEGORIES:togenashi,live,music,event,cinema,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-199-2024-08-09-hold-2000@gbc-news
-DTSTAMP:20240809T110000Z
-DTSTART:20240809T110000Z
-DTEND:20240809T130000Z
+DTEND:20240809T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] トゲナシトゲアリ ２nd Album「棘ナシ」 / TV
@@ -1937,28 +1593,7 @@ BEGIN:VEVENT
 UID:post-206-2024-08-23-hold-1900@gbc-news
 DTSTAMP:20240823T100000Z
 DTSTART:20240823T100000Z
-DTEND:20240823T120000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.3〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.3の発売を記念して、リミスタでのオンラ
- イントーク配信 の開催が決定！\nリミスタにて対象商
- 品をご購入いただいたお客様に、TVアニメ『ガールズバ
- ンドクライ』豪華限定版Vol.3のジャケ\n\n
- https://girls-band-cry.com/news/post-206.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-206.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-206-2024-08-23-hold-2000@gbc-news
-DTSTAMP:20240823T110000Z
-DTSTART:20240823T110000Z
-DTEND:20240823T130000Z
+DTEND:20240823T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.3〈
@@ -1999,25 +1634,6 @@ UID:post-218-2024-08-31-hold-1600@gbc-news
 DTSTAMP:20240831T070000Z
 DTSTART:20240831T070000Z
 DTEND:20240831T130000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ「ガールズバンドクライ」一挙配
- 信実況＆感想投稿キャンペーン
-DESCRIPTION:8月31日(土)16:00～22:00 TVアニメ「ガールズバンド
- クライ」一挙配信 実況＆感想投稿キャンペーン開催決
- 定 一挙配信を盛り上げてくださった皆様の中から、抽
- 選で１名様にチケットを特別販売いたします ＜参加方
- 法＞ ①「ガールズバンドクライ」公式Xをフォロー Tweet
- s by girlsbandcry ②【#ガルクラ一挙配信】 をつけてアニ\n\
- nhttps://girls-band-cry.com/news/post-218.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-218.html
-CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-218-2024-08-31-hold-1600@gbc-news
-DTSTAMP:20240831T070000Z
-DTSTART:20240831T070000Z
-DTEND:20240831T090000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] TVアニメ「ガールズバンドクライ」一挙配
@@ -2133,28 +1749,7 @@ BEGIN:VEVENT
 UID:post-236-2024-09-20-hold-1900@gbc-news
 DTSTAMP:20240920T100000Z
 DTSTART:20240920T100000Z
-DTEND:20240920T120000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.4〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.4の発売を記念して、リミスタでのオンラ
- イントーク配信の開催が決定！\nリミスタにて対象商品
- をご購入いただいたお客様に、TVアニメ『ガールズバン
- ドクライ』豪華限定版Vol.4のジャケッ\n\n
- https://girls-band-cry.com/news/post-236.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-236.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-236-2024-09-20-hold-2000@gbc-news
-DTSTAMP:20240920T110000Z
-DTSTART:20240920T110000Z
-DTEND:20240920T130000Z
+DTEND:20240920T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.4〈
@@ -2289,28 +1884,7 @@ BEGIN:VEVENT
 UID:post-239-2024-10-24-hold-1900@gbc-news
 DTSTAMP:20241024T100000Z
 DTSTART:20241024T100000Z
-DTEND:20241024T120000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.5〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.5の発売を記念して、リミスタでのオンラ
- イントーク配信の開催が決定！\nリミスタにて対象商品
- をご購入いただいたお客様に、TVアニメ『ガールズバン
- ドクライ』豪華限定版Vol.5のジャケッ\n\n
- https://girls-band-cry.com/news/post-239.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-239.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-239-2024-10-24-hold-2000@gbc-news
-DTSTAMP:20241024T110000Z
-DTSTART:20241024T110000Z
-DTEND:20241024T130000Z
+DTEND:20241024T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.5〈
@@ -2423,28 +1997,7 @@ BEGIN:VEVENT
 UID:post-251-2024-11-21-hold-1900@gbc-news
 DTSTAMP:20241121T100000Z
 DTSTART:20241121T100000Z
-DTEND:20241121T120000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.6〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.6の発売を記念して、リミスタでのオンラ
- イントーク配信の開催が決定！\nリミスタにて対象商品
- をご購入いただいたお客様に、TVアニメ『ガールズバン
- ドクライ』豪華限定版Vol.6のジャケッ\n\n
- https://girls-band-cry.com/news/post-251.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-251.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-251-2024-11-21-hold-2000@gbc-news
-DTSTAMP:20241121T110000Z
-DTSTART:20241121T110000Z
-DTEND:20241121T130000Z
+DTEND:20241121T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.6〈
@@ -2631,28 +2184,7 @@ BEGIN:VEVENT
 UID:post-252-2024-12-22-hold-1500@gbc-news
 DTSTAMP:20241222T060000Z
 DTSTART:20241222T060000Z
-DTEND:20241222T080000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.7〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.7の発売を記念して、リミスタでのオンラ
- イントーク配信の開催が決定！\nリミスタにて対象商品
- をご購入いただいたお客様に、TVアニメ『ガールズバン
- ドクライ』豪華限定版Vol.7のジャケッ\n\n
- https://girls-band-cry.com/news/post-252.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-252.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-252-2024-12-22-hold-1600@gbc-news
-DTSTAMP:20241222T070000Z
-DTSTART:20241222T070000Z
-DTEND:20241222T090000Z
+DTEND:20241222T070000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.7〈
@@ -2766,7 +2298,7 @@ BEGIN:VEVENT
 UID:post-290-2025-01-17-hold-1900@gbc-news
 DTSTAMP:20250117T100000Z
 DTSTART:20250117T100000Z
-DTEND:20250117T120000Z
+DTEND:20250117T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] TVアニメ『ガールズバンドクライ』＆トゲ
@@ -3722,7 +3254,7 @@ BEGIN:VEVENT
 UID:post-347-2025-06-20-hold-1800@gbc-news
 DTSTAMP:20250620T090000Z
 DTSTART:20250620T090000Z
-DTEND:20250620T110000Z
+DTEND:20250620T100000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] 【6/20】トゲナシトゲアリONE-MAN LIVE『凛音の
@@ -4401,26 +3933,7 @@ BEGIN:VEVENT
 UID:post-383-2025-10-16-hold-1900@gbc-news
 DTSTAMP:20251016T100000Z
 DTSTART:20251016T100000Z
-DTEND:20251016T120000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ 『4th ONE-MAN LIVE “協奏の
- 響”』発売記念オンライントーク配信
-DESCRIPTION:トゲナシトゲアリ、『4th ONE-MAN LIVE "協奏の響"
- 』の発売を記念して、オンライントーク配信＆サイン
- 会の開催が決定！\nリミスタにて対象商品 10月22日発売 
- トゲナシトゲアリ 『4th ONE-MAN LIVE "協奏の響"』をご購入
- いただいたお客様にトゲナシトゲアリ 『4th ONE-MAN LIVE "
- 協奏の響"』のジャケット絵柄を使用した\n\n
- https://girls-band-cry.com/news/post-383.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-383.html
-CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-383-2025-10-16-hold-2000@gbc-news
-DTSTAMP:20251016T110000Z
-DTSTART:20251016T110000Z
-DTEND:20251016T130000Z
+DTEND:20251016T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] トゲナシトゲアリ 『4th ONE-MAN LIVE “協奏の

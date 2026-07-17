@@ -182,12 +182,28 @@ function datesWithTimes(block: string, kind: EventDateKind, publishedAt?: string
   return [...out, ...singlesNeedingSlots.map(toEntry)]
 }
 
-/** 開場/開演、OPEN/START、HH:mm～、N時 */
+/** 開場/開演、OPEN/START、HH:mm～、N時；「N時スタート（M時終了予定）」记为起止一对 */
 export function extractTimeSlots(block: string): TimeSlot[] {
   const slots: TimeSlot[] = []
   const seen = new Set<string>()
+  const covered = new Set<number>()
 
-  const pushSlot = (hour: number, minute: number, endHour?: number, endMinute?: number) => {
+  const markCovered = (start: number, end: number) => {
+    for (let i = start; i < end; i += 1) covered.add(i)
+  }
+  const overlapsCovered = (start: number, end: number) => {
+    for (let i = start; i < end; i += 1) if (covered.has(i)) return true
+    return false
+  }
+
+  const pushSlot = (
+    hour: number,
+    minute: number,
+    endHour?: number,
+    endMinute?: number,
+    range?: { start: number; end: number },
+  ) => {
+    if (range && overlapsCovered(range.start, range.end)) return
     const startTime = tryHhmm(hour, minute)
     if (!startTime) return
     const endTime = endHour != null && endMinute != null ? tryHhmm(endHour, endMinute) : undefined
@@ -195,6 +211,31 @@ export function extractTimeSlots(block: string): TimeSlot[] {
     if (seen.has(key)) return
     seen.add(key)
     slots.push(endTime ? { startTime, endTime } : { startTime })
+    if (range) markCovered(range.start, range.end)
+  }
+
+  // 配信 talk：19時スタート（20時終了予定）— 必须先于裸「N時」，否则会拆成两次开演
+  for (const m of block.matchAll(
+    /(\d{1,2})\s*時(?:\s*(\d{2})\s*分)?\s*(?:スタート|開始)\s*[（(]?\s*(\d{1,2})\s*時(?:\s*(\d{2})\s*分)?\s*終了(?:予定)?[）)]?/g,
+  )) {
+    const idx = m.index ?? 0
+    pushSlot(
+      Number(m[1]),
+      m[2] != null ? Number(m[2]) : 0,
+      Number(m[3]),
+      m[4] != null ? Number(m[4]) : 0,
+      { start: idx, end: idx + m[0].length },
+    )
+  }
+
+  for (const m of block.matchAll(
+    /(\d{1,2})\s*[:：]\s*(\d{2})\s*(?:スタート|開始)\s*[（(]?\s*(\d{1,2})\s*[:：]\s*(\d{2})\s*終了(?:予定)?[）)]?/g,
+  )) {
+    const idx = m.index ?? 0
+    pushSlot(Number(m[1]), Number(m[2]), Number(m[3]), Number(m[4]), {
+      start: idx,
+      end: idx + m[0].length,
+    })
   }
 
   let matchedDoorShow = false
@@ -202,43 +243,69 @@ export function extractTimeSlots(block: string): TimeSlot[] {
     /(?:開場|OPEN)\s*[/／]\s*(?:開演|START)\s*[：:]\s*(\d{1,2})\s*[:：]\s*(\d{2})\s*[/／]\s*(\d{1,2})\s*[:：]\s*(\d{2})/gi,
   )) {
     matchedDoorShow = true
-    pushSlot(Number(m[3]), Number(m[4]))
+    const idx = m.index ?? 0
+    pushSlot(Number(m[3]), Number(m[4]), undefined, undefined, {
+      start: idx,
+      end: idx + m[0].length,
+    })
   }
 
   for (const m of block.matchAll(
     /(?:開場|OPEN)\s*[：:]?\s*(\d{1,2})\s*[:：]\s*(\d{2})\s*[/／]\s*(?:開演|START)\s*[：:]?\s*(\d{1,2})\s*[:：]\s*(\d{2})/gi,
   )) {
     matchedDoorShow = true
-    pushSlot(Number(m[3]), Number(m[4]))
+    const idx = m.index ?? 0
+    pushSlot(Number(m[3]), Number(m[4]), undefined, undefined, {
+      start: idx,
+      end: idx + m[0].length,
+    })
   }
 
   if (!matchedDoorShow) {
     for (const m of block.matchAll(/(?:開演|START)\s*[：:]?\s*(\d{1,2})\s*[:：]\s*(\d{2})/gi)) {
-      pushSlot(Number(m[1]), Number(m[2]))
+      const idx = m.index ?? 0
+      pushSlot(Number(m[1]), Number(m[2]), undefined, undefined, {
+        start: idx,
+        end: idx + m[0].length,
+      })
     }
   }
 
   for (const m of block.matchAll(
     /(\d{1,2})\s*[:：]\s*(\d{2})\s*[〜～~－-]\s*(\d{1,2})\s*[:：]\s*(\d{2})/g,
   )) {
-    pushSlot(Number(m[1]), Number(m[2]), Number(m[3]), Number(m[4]))
+    const idx = m.index ?? 0
+    pushSlot(Number(m[1]), Number(m[2]), Number(m[3]), Number(m[4]), {
+      start: idx,
+      end: idx + m[0].length,
+    })
   }
 
   // 日)18:00〜 / 土)18:00
   for (const m of block.matchAll(/[日)）]\s*(\d{1,2})\s*[:：]\s*(\d{2})\s*[〜～~]?/g)) {
-    pushSlot(Number(m[1]), Number(m[2]))
+    const idx = m.index ?? 0
+    pushSlot(Number(m[1]), Number(m[2]), undefined, undefined, {
+      start: idx,
+      end: idx + m[0].length,
+    })
   }
 
   // 独立「18:00〜」
   for (const m of block.matchAll(/(?:^|[^\d/:])(\d{1,2})\s*[:：]\s*(\d{2})\s*[〜～~]/g)) {
-    pushSlot(Number(m[1]), Number(m[2]))
+    const idx = m.index ?? 0
+    const start = m[0].match(/^\d/) ? idx : idx + 1
+    pushSlot(Number(m[1]), Number(m[2]), undefined, undefined, {
+      start,
+      end: idx + m[0].length,
+    })
   }
 
-  // 20時～ / 13時 / 20時30分（避开「営業日」等已清理块）
+  // 20時～ / 13時 / 20時30分（避开「営業日」等已清理块；已被起止对覆盖的跳过）
   for (const m of block.matchAll(/(\d{1,2})\s*時(?:\s*(\d{2})\s*分)?\s*[〜～~]?/g)) {
+    const idx = m.index ?? 0
     const hour = Number(m[1])
     const minute = m[2] != null ? Number(m[2]) : 0
-    pushSlot(hour, minute)
+    pushSlot(hour, minute, undefined, undefined, { start: idx, end: idx + m[0].length })
   }
 
   return slots

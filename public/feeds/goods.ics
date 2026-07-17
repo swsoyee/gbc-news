@@ -202,27 +202,7 @@ BEGIN:VEVENT
 UID:post-81-2024-03-04-hold-1900@gbc-news
 DTSTAMP:20240304T100000Z
 DTSTART:20240304T100000Z
-DTEND:20240304T120000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] アニメ第1弾予告公開記念 オンライントー
- ク配信＆サイン会 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド “トゲナシトゲアリ” 今回はいよいよ
- 4月から放送がスタートするオリジナルTVアニメ「ガー
- ルズバンドクライ」の本予告第1弾公開を記念して、リ
- ミスタでのオフィシャルグッズ販売を行います。\nリミ
- スタにて対象商品をご購入いただいたお客様に、ミニ
- 色紙へメンバー全\n\nhttps://girls-band-cry.com/news/post-81.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-81.html
-CATEGORIES:togenashi,live,goods,event,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-81-2024-03-04-hold-2000@gbc-news
-DTSTAMP:20240304T110000Z
-DTSTART:20240304T110000Z
-DTEND:20240304T130000Z
+DTEND:20240304T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] アニメ第1弾予告公開記念 オンライントー

@@ -161,4 +161,14 @@ describe('extractEventDates', () => {
       { date: '2026-09-05', kind: 'hold', startTime: '19:30' },
     ])
   })
+
+  it('スタート＋終了予定合并为一条起止，不拆成两次开演', () => {
+    expect(
+      extractEventDates(
+        'オンライントーク配信開催決定',
+        '▼開催日時 2026年3月27日(金) 19時スタート （20時終了予定）',
+        '2026-03-01T00:00:00.000Z',
+      ),
+    ).toEqual([{ date: '2026-03-27', kind: 'hold', startTime: '19:00', endTime: '20:00' }])
+  })
 })

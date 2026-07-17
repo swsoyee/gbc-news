@@ -29,29 +29,7 @@ BEGIN:VEVENT
 UID:post-3-2023-07-29-hold-1700@gbc-news
 DTSTAMP:20230729T080000Z
 DTSTART:20230729T080000Z
-DTEND:20230729T100000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ［fromガールズバンドクラ
- イ］ 1st Single『名もなき何もかも』発売記念 オンライ
- ントーク配信＆サイン会 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド ‘’トゲナシトゲアリ‘’ リリースイ
- ベントとして、オンライントーク配信＆サイン会の開
- 催が決定！\nガールズバンドクライのキャラクター絵柄
- の後ろで、トゲナシトゲアリメンバーの生声トークを
- 楽しむことができます。\nまた、リミスタにて対象商品
- をご購入いただいたお\n\n
- https://girls-band-cry.com/news/post-3.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-3.html
-CATEGORIES:togenashi,live,music,event,cinema,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-3-2023-07-29-hold-1800@gbc-news
-DTSTAMP:20230729T090000Z
-DTSTART:20230729T090000Z
-DTEND:20230729T110000Z
+DTEND:20230729T090000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] トゲナシトゲアリ［fromガールズバンドクラ
@@ -73,7 +51,7 @@ BEGIN:VEVENT
 UID:post-25-2023-09-30-hold-1700@gbc-news
 DTSTAMP:20230930T080000Z
 DTSTART:20230930T080000Z
-DTEND:20230930T100000Z
+DTEND:20230930T090000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] トゲナシトゲアリ修行中！公開練習ライブ
@@ -205,27 +183,7 @@ BEGIN:VEVENT
 UID:post-81-2024-03-04-hold-1900@gbc-news
 DTSTAMP:20240304T100000Z
 DTSTART:20240304T100000Z
-DTEND:20240304T120000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] アニメ第1弾予告公開記念 オンライントー
- ク配信＆サイン会 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド “トゲナシトゲアリ” 今回はいよいよ
- 4月から放送がスタートするオリジナルTVアニメ「ガー
- ルズバンドクライ」の本予告第1弾公開を記念して、リ
- ミスタでのオフィシャルグッズ販売を行います。\nリミ
- スタにて対象商品をご購入いただいたお客様に、ミニ
- 色紙へメンバー全\n\nhttps://girls-band-cry.com/news/post-81.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-81.html
-CATEGORIES:togenashi,live,goods,event,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-81-2024-03-04-hold-2000@gbc-news
-DTSTAMP:20240304T110000Z
-DTSTART:20240304T110000Z
-DTEND:20240304T130000Z
+DTEND:20240304T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] アニメ第1弾予告公開記念 オンライントー
@@ -515,28 +473,7 @@ BEGIN:VEVENT
 UID:post-199-2024-08-09-hold-1900@gbc-news
 DTSTAMP:20240809T100000Z
 DTSTART:20240809T100000Z
-DTEND:20240809T120000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ ２nd Album「棘ナシ」 / TV
- アニメ『ガールズバンドクライ』オリジナルサウンド
- トラック発売記念オンライントーク配信開催！
-DESCRIPTION:TVアニメ『ガールズバンドクライ』放送終了後
- も精力的な活動を続けるガールズバンド「トゲナシト
- ゲアリ」早くも２nd Albumが2024年8月28日（水）に発売決
- 定！\nそして2024年9月11日(水)にはオリジナルサウンドト
- ラックも発売！\n詳細は こちら こちら2作品の発売を記
- 念して、恒例のリミスタでのオンライントーク配信を
- 行います リミスタにて対象商品をご\n\n
- https://girls-band-cry.com/news/post-199.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-199.html
-CATEGORIES:togenashi,live,music,event,cinema,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-199-2024-08-09-hold-2000@gbc-news
-DTSTAMP:20240809T110000Z
-DTSTART:20240809T110000Z
-DTEND:20240809T130000Z
+DTEND:20240809T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SUMMARY:[举办] トゲナシトゲアリ ２nd Album「棘ナシ」 / TV
