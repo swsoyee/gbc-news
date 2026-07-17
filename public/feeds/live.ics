@@ -2001,14 +2001,11 @@ DTSTART:20241125T010000Z
 DTEND:20241125T020000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] TVアニメ『ガールズバンドクライ』新規描
- きおろしイラストを使用したオンラインくじ発売開始
- ！
-DESCRIPTION:＼TVアニメ『ガールズバンドクライ』×くじク
- リフ発売決定！\n／ Liveを演出した新規描きおろしイラ
- ストを使用した特別なグッズが多数登場！\n 11/25(月)10:0
- 0販売開始 ■詳細は こちら\n\n
- https://girls-band-cry.com/news/post-273.html
+SUMMARY:[发售] TV 动画《Girls Band Cry》使用全新绘制插图的
+ 线上抽奖开始发售！
+DESCRIPTION:《Girls Band Cry》× くじクリフ线上抽奖自 2024 年 
+ 11 月 25 日 10:00 起发售，使用 Live 演出主题全新绘制周边
+ 。\n\nhttps://girls-band-cry.com/news/post-273.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-273.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
@@ -2032,60 +2029,16 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-268.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-275-2024-12-07-hold@gbc-news
-DTSTAMP:20241207T000000Z
-DTSTART;VALUE=DATE:20241207
-DTEND;VALUE=DATE:20241208
-TRANSP:TRANSPARENT
+UID:post-278-2024-12-14-sale-1200@gbc-news
+DTSTAMP:20241214T030000Z
+DTSTART:20241214T030000Z
+DTEND:20241214T040000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 「Avoid Note」チケット一般販売に関するお詫
- びとお知らせ
-DESCRIPTION:2025年1月12日(日)開催「Avoid Note」につきまして
- 、 本日12月7日(土)12時より一般販売のお知らせをしてお
- りましたが、予定時間を過ぎても「ガールズバンドク
- ライ」公式HP記載のリンクから販売ページに遷移できな
- い問題が発生いたしました。\nお待ちいただいていた皆
- 様には深くお詫び申し上げます。\n現在、今後の対応を
- 検討しております。\n詳細は後日、「\n\n
- https://girls-band-cry.com/news/post-275.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-275.html
-CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-278-2024-12-07-hold@gbc-news
-DTSTAMP:20241207T000000Z
-DTSTART;VALUE=DATE:20241207
-DTEND;VALUE=DATE:20241208
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 「Avoid Note」チケット一般二次販売に関する
- お知らせ
-DESCRIPTION:2025年1月12日(日)開催 「Avoid Note」につきまして
- 、 12月7日（土）に実施したチケット一般販売における
- 「ガールズバンドクライ」公式ＨＰ記載のＵＲＬから
- 該当ページへ接続できない問題が発生したことを受け
- 、以下の日時にて一般二次販売を実施することといた
- しました。\n12月14日（土）12:00～ 受付URL：\n\n
- https://girls-band-cry.com/news/post-278.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-278.html
-CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-278-2024-12-14-hold@gbc-news
-DTSTAMP:20241214T000000Z
-DTSTART;VALUE=DATE:20241214
-DTEND;VALUE=DATE:20241215
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 「Avoid Note」チケット一般二次販売に関する
- お知らせ
-DESCRIPTION:2025年1月12日(日)開催 「Avoid Note」につきまして
- 、 12月7日（土）に実施したチケット一般販売における
- 「ガールズバンドクライ」公式ＨＰ記載のＵＲＬから
- 該当ページへ接続できない問題が発生したことを受け
- 、以下の日時にて一般二次販売を実施することといた
- しました。\n12月14日（土）12:00～ 受付URL：\n\n
- https://girls-band-cry.com/news/post-278.html
+SUMMARY:[发售] 关于「Avoid Note」门票一般二次发售的通知
+DESCRIPTION:因 12/7 一般发售链接故障，「Avoid Note」（2025/1/1
+ 2）将于 12/14 12:00 起在 eplus 进行一般二次发售（仅智能
+ 手机）。\n\nhttps://girls-band-cry.com/news/post-278.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-278.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
@@ -2105,6 +2058,21 @@ DESCRIPTION:トゲナシトゲアリ初の海外ワンマンライブが上
  ット金額：VIPチケット 880元（優先入場&お見送り会） 
  一般チケット 480元\n\nhttps://girls-band-cry.com/news/post-262.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-262.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-279-2024-12-19-hold@gbc-news
+DTSTAMP:20241219T000000Z
+DTSTART;VALUE=DATE:20241219
+DTEND;VALUE=DATE:20241220
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺 4th ONE-MAN LIVE 纪念 X 活动开始！
+DESCRIPTION:纪念 4th 个人演唱会「協奏の響」，Girls Band Cry 
+ 官方 X 举办关注＆转发抽奖，截止 2024 年 12 月 19 日 23:59
+ ，抽选 30 名赠送主视觉海报。\n\n
+ https://girls-band-cry.com/news/post-279.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-279.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
@@ -2153,39 +2121,16 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-284.html
 CATEGORIES:togenashi,live,goods,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-279-2024-12-19-hold-2359@gbc-news
-DTSTAMP:20241219T145900Z
-DTSTART:20241219T145900Z
-DTEND:20241219T165900Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ4th ONE-MAN LIVE 記念 Xキャン
- ペーンスタート！
-DESCRIPTION:トゲナシトゲアリ4th ONE-MAN LIVE「協奏の響」開
- 催を記念して 「ガールズバンドクライ」公式Xにてフォ
- ロー＆リポストキャンペーンを開催！\nご参加いただい
- た方の中から抽選で30名様4th ONE-MAN LIVEキービジュアル
- ポスターをプレゼント 【開催期間】 2024年12月19日(木) 2
- 3:59まで 【参加方法】 ①X（旧Twitter）\n\n
- https://girls-band-cry.com/news/post-279.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-279.html
-CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
 UID:post-282-2024-12-20-hold@gbc-news
 DTSTAMP:20241220T000000Z
 DTSTART;VALUE=DATE:20241220
 DTEND;VALUE=DATE:20241221
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 4th ONE-MAN LIVE、ご来場の皆様へお願い
-DESCRIPTION:ご来場の皆様へお願い 皆様が、楽しく安全に
- ライブをお楽しみいただけるよう、以下のルールのご
- 理解・ご協力をお願いいたします。\n12月20日(金) トゲ
- ナシトゲアリ 4th ONE-MAN LIVE"協奏の響" 公演を 安全・快
- 適にお楽しみいただくために来場される皆様に手荷物
- 検査のご協力をお願いします。\n入場前にスタッフがお
- 荷物を拝見し、持ち込み禁止物がないかを\n\n
+SUMMARY:[举办] 4th ONE-MAN LIVE 致到场观众须知
+DESCRIPTION:2024 年 12 月 20 日无刺有刺 4th 个人演唱会「協奏
+ の響」将实施行李检查与身份证件确认；禁止携带荧光
+ 棒、团扇及录音录像设备等。\n\n
  https://girls-band-cry.com/news/post-282.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-282.html
 CATEGORIES:togenashi,live,goods
@@ -2197,17 +2142,12 @@ DTSTART;VALUE=DATE:20241220
 DTEND;VALUE=DATE:20241221
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 川崎で‟爪痕‐スタンプ‐残せ！ ”-「ガ
- ールズバンドクライ スタンプツアー」12月20日スタート
- ！
-DESCRIPTION:神奈川県川崎市を舞台とする本作品のスタンプ
- ツアーを12月20日からスタート！\n 第1弾は井芹仁菜 &河
- 原木桃香が登場！\n川崎市内2箇所にスタンプを設置し
- 、スタンプ用に描き下ろされたイラストの缶バッジと
- 、スタンプツアーをより楽しめるスタンプ帳を発売い
- たします 今後川崎市を中心に、さらにスタンプが設置
- されますので続報をお待ちください スタンプツアー詳
- 細は\n\nhttps://girls-band-cry.com/news/post-283.html
+SUMMARY:[举办] 在川崎「留下爪痕‐印章‐！」—「Girls Band
+  Cry 印章巡游」12 月 20 日开始！
+DESCRIPTION:以神奈川县川崎市为舞台的印章巡游自 12 月 20 
+ 日起启动；第 1 弹为仁菜＆桃香，市内 2 处设印，并销
+ 售全新绘制徽章与印章册。\n\n
+ https://girls-band-cry.com/news/post-283.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-283.html
 CATEGORIES:togenashi,live
 END:VEVENT
@@ -2324,15 +2264,9 @@ DTSTART;VALUE=DATE:20250112
 DTEND;VALUE=DATE:20250113
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「Avoid Note」チケット一般販売に関するお詫
- びとお知らせ
-DESCRIPTION:2025年1月12日(日)開催「Avoid Note」につきまして
- 、 本日12月7日(土)12時より一般販売のお知らせをしてお
- りましたが、予定時間を過ぎても「ガールズバンドク
- ライ」公式HP記載のリンクから販売ページに遷移できな
- い問題が発生いたしました。\nお待ちいただいていた皆
- 様には深くお詫び申し上げます。\n現在、今後の対応を
- 検討しております。\n詳細は後日、「\n\n
+SUMMARY:[举办] 关于「Avoid Note」门票一般发售的致歉与通知
+DESCRIPTION:「Avoid Note」（2025/1/12）原定 12/7 12:00 一般发售
+ 因官网链接无法跳转而受阻；后续安排另行通知。\n\n
  https://girls-band-cry.com/news/post-275.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-275.html
 CATEGORIES:togenashi,live,event
@@ -2344,15 +2278,10 @@ DTSTART;VALUE=DATE:20250112
 DTEND;VALUE=DATE:20250113
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「Avoid Note」チケット一般二次販売に関する
- お知らせ
-DESCRIPTION:2025年1月12日(日)開催 「Avoid Note」につきまして
- 、 12月7日（土）に実施したチケット一般販売における
- 「ガールズバンドクライ」公式ＨＰ記載のＵＲＬから
- 該当ページへ接続できない問題が発生したことを受け
- 、以下の日時にて一般二次販売を実施することといた
- しました。\n12月14日（土）12:00～ 受付URL：\n\n
- https://girls-band-cry.com/news/post-278.html
+SUMMARY:[举办] 关于「Avoid Note」门票一般二次发售的通知
+DESCRIPTION:因 12/7 一般发售链接故障，「Avoid Note」（2025/1/1
+ 2）将于 12/14 12:00 起在 eplus 进行一般二次发售（仅智能
+ 手机）。\n\nhttps://girls-band-cry.com/news/post-278.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-278.html
 CATEGORIES:togenashi,live,event
 END:VEVENT

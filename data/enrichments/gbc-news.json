@@ -1,6 +1,6 @@
 {
   "sourceId": "gbc-news",
-  "updatedAt": "2026-07-17T15:00:00.000Z",
+  "updatedAt": "2026-07-17T15:10:00.000Z",
   "items": {
     "post-483": {
       "id": "post-483",
@@ -2811,6 +2811,172 @@
         }
       ],
       "reviewNotes": "跨日去时刻"
+    },
+    "post-282": {
+      "id": "post-282",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "d8bb6c4c55c8d09cdee6b5560bc70e6a3540949a3a7a3d0130cf959ec4a0a783",
+      "reviewedAt": "2026-07-17T15:10:00.000Z",
+      "titleZh": "4th ONE-MAN LIVE 致到场观众须知",
+      "summaryZh": "2024 年 12 月 20 日无刺有刺 4th 个人演唱会「協奏の響」将实施行李检查与身份证件确认；禁止携带荧光棒、团扇及录音录像设备等。",
+      "eventDates": [
+        {
+          "date": "2024-12-20",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-283": {
+      "id": "post-283",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "1c116d1ffa8a24abae42ee8ae19578cd9aa7fb4f651063f10da6ca8728fc1c6c",
+      "reviewedAt": "2026-07-17T15:10:00.000Z",
+      "titleZh": "在川崎「留下爪痕‐印章‐！」—「Girls Band Cry 印章巡游」12 月 20 日开始！",
+      "summaryZh": "以神奈川县川崎市为舞台的印章巡游自 12 月 20 日起启动；第 1 弹为仁菜＆桃香，市内 2 处设印，并销售全新绘制徽章与印章册。",
+      "eventDates": [
+        {
+          "date": "2024-12-20",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-279": {
+      "id": "post-279",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "b006c10079d594fc04bcdc151d5d0187f91cd821a06415d7f0dca32a9fd57514",
+      "reviewedAt": "2026-07-17T15:10:00.000Z",
+      "titleZh": "无刺有刺 4th ONE-MAN LIVE 纪念 X 活动开始！",
+      "summaryZh": "纪念 4th 个人演唱会「協奏の響」，Girls Band Cry 官方 X 举办关注＆转发抽奖，截止 2024 年 12 月 19 日 23:59，抽选 30 名赠送主视觉海报。",
+      "eventDates": [
+        {
+          "date": "2024-12-19",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "截止日；去掉误抽 23:59"
+    },
+    "post-277": {
+      "id": "post-277",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "b14191dd41e2f79425d9e01ddead29c8b52aff770516eb368603ebb69a2dcc08",
+      "reviewedAt": "2026-07-17T15:10:00.000Z",
+      "titleZh": "动画《Girls Band Cry》东映 ONLINE STORE 推出新原创周边！！",
+      "summaryZh": "东映 ONLINE STORE 自 12 月 11 日 12:00 起受理《Girls Band Cry》新原创周边（含「竖中指！」系列 T 恤与亚克力夹立牌），预约截止 12 月 23 日 23:59。",
+      "eventDates": [
+        {
+          "date": "2024-12-11",
+          "kind": "sale",
+          "startTime": "12:00"
+        },
+        {
+          "date": "2024-12-23",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "开售与截止；去掉误抽仅截止时刻"
+    },
+    "post-278": {
+      "id": "post-278",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "28abcc65133ff91c1bf84cd4ff6877cb69ccf54bb1b3518c69f2af828e1f3d24",
+      "reviewedAt": "2026-07-17T15:10:00.000Z",
+      "titleZh": "关于「Avoid Note」门票一般二次发售的通知",
+      "summaryZh": "因 12/7 一般发售链接故障，「Avoid Note」（2025/1/12）将于 12/14 12:00 起在 eplus 进行一般二次发售（仅智能手机）。",
+      "eventDates": [
+        {
+          "date": "2025-01-12",
+          "kind": "hold"
+        },
+        {
+          "date": "2024-12-14",
+          "kind": "sale",
+          "startTime": "12:00"
+        }
+      ],
+      "reviewNotes": "去掉故障日 hold；二次发售为 sale"
+    },
+    "post-276": {
+      "id": "post-276",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "1a73a88ccaa8f7dcb91bab66a007f6a959c821d99b06e95d78c470737d746745",
+      "reviewedAt": "2026-07-17T15:10:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》官方粉丝书发售决定！",
+      "summaryZh": "TV 动画《Girls Band Cry》官方粉丝书于 2025 年 2 月 7 日发售，收录至动画播出的轨迹、设定资料与声优访谈等。",
+      "eventDates": [
+        {
+          "date": "2025-02-07",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-275": {
+      "id": "post-275",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "31d52eb85570daa5da4de051d010de3c66ad40212d054fc084d7340441cbb820",
+      "reviewedAt": "2026-07-17T15:10:00.000Z",
+      "titleZh": "关于「Avoid Note」门票一般发售的致歉与通知",
+      "summaryZh": "「Avoid Note」（2025/1/12）原定 12/7 12:00 一般发售因官网链接无法跳转而受阻；后续安排另行通知。",
+      "eventDates": [
+        {
+          "date": "2025-01-12",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "故障日非活动日；仅保留公演日"
+    },
+    "post-274": {
+      "id": "post-274",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "85b00cec325608dab5f318fc227145ebc62b11462d485f4db43cf4660035d5eb",
+      "reviewedAt": "2026-07-17T15:10:00.000Z",
+      "titleZh": "12/6（五）起 AniBirth 发售 Girls Band Cry 新商品！",
+      "summaryZh": "纪念桃香生日（12/9），AniBirth 自 12/6 起发售桃香签名拨片＆收纳盒、名场面透明卡、收藏夹及《運命の華》场面亚克力立牌等。",
+      "eventDates": [
+        {
+          "date": "2024-12-06",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-273": {
+      "id": "post-273",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "eaf8e00035e7e03881c73d48a2a5bc87dea400737066650a1fd0ba09808b2b85",
+      "reviewedAt": "2026-07-17T15:10:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》使用全新绘制插图的线上抽奖开始发售！",
+      "summaryZh": "《Girls Band Cry》× くじクリフ线上抽奖自 2024 年 11 月 25 日 10:00 起发售，使用 Live 演出主题全新绘制周边。",
+      "eventDates": [
+        {
+          "date": "2024-11-25",
+          "kind": "sale",
+          "startTime": "10:00"
+        }
+      ]
+    },
+    "post-272": {
+      "id": "post-272",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "329663dc16e0a9b33bf7ad97f43b6252384b511e46963c3d643ef7bc2195c25a",
+      "reviewedAt": "2026-07-17T15:10:00.000Z",
+      "titleZh": "「爆ぜて咲く」主题新作周边发售决定！",
+      "summaryZh": "「爆ぜて咲く」主题新周边预定 2024 年 12 月中旬发售，店头即日起开放预约；12 月 3 日起于 POP UP SHOP ～rugged style～ 先行发售。",
+      "eventDates": [
+        {
+          "date": "2024-12-03",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "12 月中旬无具体日"
     }
   }
 }

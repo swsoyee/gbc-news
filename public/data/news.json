@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-17T12:28:57.771Z",
+  "scrapedAt": "2026-07-17T12:29:29.916Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
@@ -5945,7 +5945,9 @@
         }
       ],
       "summary": "神奈川県川崎市を舞台とする本作品のスタンプツアーを12月20日からスタート！🎉 第1弾は井芹仁菜 &河原木桃香が登場！ 川崎市内2箇所にスタンプを設置し、スタンプ用に描き下ろされたイラストの缶バッジと、スタンプツアーをより楽しめるスタンプ帳を発売いたします🎁 今後川崎市を中心に、さらにスタンプが設置されますので続報をお待ちください✨ スタンプツアー詳細は",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/12/GBCST_spe_640_360.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/12/GBCST_spe_640_360.jpg",
+      "titleZh": "在川崎「留下爪痕‐印章‐！」—「Girls Band Cry 印章巡游」12 月 20 日开始！",
+      "summaryZh": "以神奈川县川崎市为舞台的印章巡游自 12 月 20 日起启动；第 1 弹为仁菜＆桃香，市内 2 处设印，并销售全新绘制徽章与印章册。"
     },
     {
       "id": "post-282",
@@ -5967,7 +5969,9 @@
         }
       ],
       "summary": "ご来場の皆様へお願い 皆様が、楽しく安全にライブをお楽しみいただけるよう、以下のルールのご理解・ご協力をお願いいたします。 12月20日(金) トゲナシトゲアリ 4th ONE-MAN LIVE\"協奏の響\" 公演を 安全・快適にお楽しみいただくために来場される皆様に手荷物検査のご協力をお願いします。 入場前にスタッフがお荷物を拝見し、持ち込み禁止物がないかを",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "4th ONE-MAN LIVE 致到场观众须知",
+      "summaryZh": "2024 年 12 月 20 日无刺有刺 4th 个人演唱会「協奏の響」将实施行李检查与身份证件确认；禁止携带荧光棒、团扇及录音录像设备等。"
     },
     {
       "id": "post-279",
@@ -5985,12 +5989,13 @@
       "eventDates": [
         {
           "date": "2024-12-19",
-          "kind": "hold",
-          "startTime": "23:59"
+          "kind": "hold"
         }
       ],
       "summary": "トゲナシトゲアリ4th ONE-MAN LIVE「協奏の響」開催を記念して 「ガールズバンドクライ」公式Xにてフォロー＆リポストキャンペーンを開催！ ご参加いただいた方の中から抽選で30名様4th ONE-MAN LIVEキービジュアルポスターをプレゼント🎁 【開催期間】 2024年12月19日(木) 23:59まで 【参加方法】 ①X（旧Twitter）",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/12/4th%E3%83%AF%E3%83%B3%E3%83%9E%E3%83%B3%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E5%91%8A%E7%9F%A5%E7%94%A8_HP%E3%83%90%E3%83%8A%E3%83%BC.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/12/4th%E3%83%AF%E3%83%B3%E3%83%9E%E3%83%B3%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E5%91%8A%E7%9F%A5%E7%94%A8_HP%E3%83%90%E3%83%8A%E3%83%BC.png",
+      "titleZh": "无刺有刺 4th ONE-MAN LIVE 纪念 X 活动开始！",
+      "summaryZh": "纪念 4th 个人演唱会「協奏の響」，Girls Band Cry 官方 X 举办关注＆转发抽奖，截止 2024 年 12 月 19 日 23:59，抽选 30 名赠送主视觉海报。"
     },
     {
       "id": "post-278",
@@ -6007,20 +6012,19 @@
       ],
       "eventDates": [
         {
-          "date": "2024-12-07",
+          "date": "2025-01-12",
           "kind": "hold"
         },
         {
           "date": "2024-12-14",
-          "kind": "hold"
-        },
-        {
-          "date": "2025-01-12",
-          "kind": "hold"
+          "kind": "sale",
+          "startTime": "12:00"
         }
       ],
       "summary": "2025年1月12日(日)開催 「Avoid Note」につきまして、 12月7日（土）に実施したチケット一般販売における「ガールズバンドクライ」公式ＨＰ記載のＵＲＬから該当ページへ接続できない問題が発生したことを受け、以下の日時にて一般二次販売を実施することといたしました。 12月14日（土）12:00～ 受付URL： https://eplus.jp/m",
-      "imageUrl": "https://girls-band-cry.com/wp-content/themes/gbc_v1/assets/images/common/img_thumb.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/themes/gbc_v1/assets/images/common/img_thumb.png",
+      "titleZh": "关于「Avoid Note」门票一般二次发售的通知",
+      "summaryZh": "因 12/7 一般发售链接故障，「Avoid Note」（2025/1/12）将于 12/14 12:00 起在 eplus 进行一般二次发售（仅智能手机）。"
     },
     {
       "id": "post-277",
@@ -6036,13 +6040,19 @@
       ],
       "eventDates": [
         {
-          "date": "2024-12-23",
+          "date": "2024-12-11",
           "kind": "sale",
-          "startTime": "23:59"
+          "startTime": "12:00"
+        },
+        {
+          "date": "2024-12-23",
+          "kind": "sale"
         }
       ],
       "summary": "12月11日(水)12時より東映 ONLINE STOREにて、 アニメ『ガールズバンドクライ』の新オリジナルグッズが受注販売開始！ \"中指立ててけ！\"をあしらったグッズが登場！ 印象的な場面を使用したTシャツや、スタンドにもクリップにもなるマルチユーズなアクリルクリップスタンドがラインナップ！✨ 受注締切：12月23日（月）23：59 お届け時期：2025",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "动画《Girls Band Cry》东映 ONLINE STORE 推出新原创周边！！",
+      "summaryZh": "东映 ONLINE STORE 自 12 月 11 日 12:00 起受理《Girls Band Cry》新原创周边（含「竖中指！」系列 T 恤与亚克力夹立牌），预约截止 12 月 23 日 23:59。"
     },
     {
       "id": "post-276",
@@ -6063,7 +6073,9 @@
         }
       ],
       "summary": "ＴＶアニメ『ガールズバンドクライ』 公式ファンブック2025年2月7日に発売決定！🎉 アニメ放送までの軌跡や設定資料、キャスト陣のインタビュー等盛りだくさんの内容です✨ 🔗詳細は こちら",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "TV 动画《Girls Band Cry》官方粉丝书发售决定！",
+      "summaryZh": "TV 动画《Girls Band Cry》官方粉丝书于 2025 年 2 月 7 日发售，收录至动画播出的轨迹、设定资料与声优访谈等。"
     },
     {
       "id": "post-275",
@@ -6080,16 +6092,14 @@
       ],
       "eventDates": [
         {
-          "date": "2024-12-07",
-          "kind": "hold"
-        },
-        {
           "date": "2025-01-12",
           "kind": "hold"
         }
       ],
       "summary": "2025年1月12日(日)開催「Avoid Note」につきまして、 本日12月7日(土)12時より一般販売のお知らせをしておりましたが、予定時間を過ぎても「ガールズバンドクライ」公式HP記載のリンクから販売ページに遷移できない問題が発生いたしました。 お待ちいただいていた皆様には深くお詫び申し上げます。 現在、今後の対応を検討しております。 詳細は後日、「",
-      "imageUrl": "https://girls-band-cry.com/wp-content/themes/gbc_v1/assets/images/common/img_thumb.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/themes/gbc_v1/assets/images/common/img_thumb.png",
+      "titleZh": "关于「Avoid Note」门票一般发售的致歉与通知",
+      "summaryZh": "「Avoid Note」（2025/1/12）原定 12/7 12:00 一般发售因官网链接无法跳转而受阻；后续安排另行通知。"
     },
     {
       "id": "post-274",
@@ -6110,7 +6120,9 @@
         }
       ],
       "summary": "12/9は河原木桃香の誕生日！ 桃香のサインが入ったピック＆ケースや、 桃香の名場面を集めたクリアカード、 コレクションローダーが登場！ コレクションローダーにはクリアカードがぴったり入るので、 MYベスト桃香を飾って楽しめます。 『運命の華』の場面写アクリルスタンドも見逃せない！ ぜひチェックしてみてください♪",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "12/6（五）起 AniBirth 发售 Girls Band Cry 新商品！",
+      "summaryZh": "纪念桃香生日（12/9），AniBirth 自 12/6 起发售桃香签名拨片＆收纳盒、名场面透明卡、收藏夹及《運命の華》场面亚克力立牌等。"
     },
     {
       "id": "post-273",
@@ -6133,7 +6145,9 @@
         }
       ],
       "summary": "＼TVアニメ『ガールズバンドクライ』×くじクリフ発売決定！／ Liveを演出した新規描きおろしイラストを使用した特別なグッズが多数登場！ ✨ 11/25(月)10:00販売開始📝 ■詳細は こちら",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "TV 动画《Girls Band Cry》使用全新绘制插图的线上抽奖开始发售！",
+      "summaryZh": "《Girls Band Cry》× くじクリフ线上抽奖自 2024 年 11 月 25 日 10:00 起发售，使用 Live 演出主题全新绘制周边。"
     },
     {
       "id": "post-272",
@@ -6154,7 +6168,9 @@
         }
       ],
       "summary": "「爆ぜて咲く」モチーフの新作グッズが2024年12月中旬に発売決定！ グッズ取扱店にて、本日より予約受付を開始しました！ なお、12月3日(火)より開始する 『ガールズバンドクライ POP UP SHOP ～rugged style～』 では先行販売を行います！ ぜひゲットしてください！ ▼ガールズバンドクライ POP UP SHOP ～rugged sty",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "「爆ぜて咲く」主题新作周边发售决定！",
+      "summaryZh": "「爆ぜて咲く」主题新周边预定 2024 年 12 月中旬发售，店头即日起开放预约；12 月 3 日起于 POP UP SHOP ～rugged style～ 先行发售。"
     },
     {
       "id": "collabo-girls-band-cry-artist-photos-ver-newly-drawn-cospa-anime-store-goods2024",

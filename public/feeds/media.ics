@@ -577,13 +577,11 @@ DTSTART;VALUE=DATE:20250207
 DTEND;VALUE=DATE:20250208
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] ＴＶアニメ『ガールズバンドクライ』 公式
- ファンブック発売決定！
-DESCRIPTION:ＴＶアニメ『ガールズバンドクライ』 公式フ
- ァンブック2025年2月7日に発売決定！\n アニメ放送まで
- の軌跡や設定資料、キャスト陣のインタビュー等盛り
- だくさんの内容です 詳細は こちら\n\n
- https://girls-band-cry.com/news/post-276.html
+SUMMARY:[发售] TV 动画《Girls Band Cry》官方粉丝书发售决定
+ ！
+DESCRIPTION:TV 动画《Girls Band Cry》官方粉丝书于 2025 年 2 月 
+ 7 日发售，收录至动画播出的轨迹、设定资料与声优访谈
+ 等。\n\nhttps://girls-band-cry.com/news/post-276.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-276.html
 CATEGORIES:togenashi,media
 END:VEVENT

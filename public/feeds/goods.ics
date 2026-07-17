@@ -1027,14 +1027,11 @@ DTSTART:20241125T010000Z
 DTEND:20241125T020000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] TVアニメ『ガールズバンドクライ』新規描
- きおろしイラストを使用したオンラインくじ発売開始
- ！
-DESCRIPTION:＼TVアニメ『ガールズバンドクライ』×くじク
- リフ発売決定！\n／ Liveを演出した新規描きおろしイラ
- ストを使用した特別なグッズが多数登場！\n 11/25(月)10:0
- 0販売開始 ■詳細は こちら\n\n
- https://girls-band-cry.com/news/post-273.html
+SUMMARY:[发售] TV 动画《Girls Band Cry》使用全新绘制插图的
+ 线上抽奖开始发售！
+DESCRIPTION:《Girls Band Cry》× くじクリフ线上抽奖自 2024 年 
+ 11 月 25 日 10:00 起发售，使用 Live 演出主题全新绘制周边
+ 。\n\nhttps://girls-band-cry.com/news/post-273.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-273.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
@@ -1105,14 +1102,10 @@ DTSTART;VALUE=DATE:20241203
 DTEND;VALUE=DATE:20241204
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 「爆ぜて咲く」モチーフの新作グッズ発売
- 決定！
-DESCRIPTION:「爆ぜて咲く」モチーフの新作グッズが2024年12
- 月中旬に発売決定！\nグッズ取扱店にて、本日より予約
- 受付を開始しました！\nなお、12月3日(火)より開始する 
- 『ガールズバンドクライ POP UP SHOP ～rugged style～』 では
- 先行販売を行います！\nぜひゲットしてください！\n▼
- ガールズバンドクライ POP UP SHOP ～rugged sty\n\n
+SUMMARY:[发售] 「爆ぜて咲く」主题新作周边发售决定！
+DESCRIPTION:「爆ぜて咲く」主题新周边预定 2024 年 12 月中
+ 旬发售，店头即日起开放预约；12 月 3 日起于 POP UP SHOP 
+ ～rugged style～ 先行发售。\n\n
  https://girls-band-cry.com/news/post-272.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-272.html
 CATEGORIES:togenashi,goods
@@ -1142,6 +1135,22 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
+UID:post-277-2024-12-11-sale-1200@gbc-news
+DTSTAMP:20241211T030000Z
+DTSTART:20241211T030000Z
+DTEND:20241211T040000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] 动画《Girls Band Cry》东映 ONLINE STORE 推出新原
+ 创周边！！
+DESCRIPTION:东映 ONLINE STORE 自 12 月 11 日 12:00 起受理《Girls B
+ and Cry》新原创周边（含「竖中指！\n」系列 T 恤与亚克
+ 力夹立牌），预约截止 12 月 23 日 23:59。\n\n
+ https://girls-band-cry.com/news/post-277.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-277.html
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
 UID:post-284-2024-12-19_2025-02-11-sale@gbc-news
 DTSTAMP:20241219T000000Z
 DTSTART;VALUE=DATE:20241219
@@ -1163,34 +1172,26 @@ DTSTART;VALUE=DATE:20241220
 DTEND;VALUE=DATE:20241221
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 4th ONE-MAN LIVE、ご来場の皆様へお願い
-DESCRIPTION:ご来場の皆様へお願い 皆様が、楽しく安全に
- ライブをお楽しみいただけるよう、以下のルールのご
- 理解・ご協力をお願いいたします。\n12月20日(金) トゲ
- ナシトゲアリ 4th ONE-MAN LIVE"協奏の響" 公演を 安全・快
- 適にお楽しみいただくために来場される皆様に手荷物
- 検査のご協力をお願いします。\n入場前にスタッフがお
- 荷物を拝見し、持ち込み禁止物がないかを\n\n
+SUMMARY:[举办] 4th ONE-MAN LIVE 致到场观众须知
+DESCRIPTION:2024 年 12 月 20 日无刺有刺 4th 个人演唱会「協奏
+ の響」将实施行李检查与身份证件确认；禁止携带荧光
+ 棒、团扇及录音录像设备等。\n\n
  https://girls-band-cry.com/news/post-282.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-282.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-277-2024-12-23-sale-2359@gbc-news
-DTSTAMP:20241223T145900Z
-DTSTART:20241223T145900Z
-DTEND:20241223T155900Z
-TRANSP:OPAQUE
+UID:post-277-2024-12-23-sale@gbc-news
+DTSTAMP:20241223T000000Z
+DTSTART;VALUE=DATE:20241223
+DTEND;VALUE=DATE:20241224
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] アニメ『ガールズバンドクライ』東映 ONLINE
-  STOREに新たなオリジナルグッズが登場！！
-DESCRIPTION:12月11日(水)12時より東映 ONLINE STOREにて、 アニ
- メ『ガールズバンドクライ』の新オリジナルグッズが
- 受注販売開始！\n"中指立ててけ！\n"をあしらったグッ
- ズが登場！\n印象的な場面を使用したTシャツや、スタ
- ンドにもクリップにもなるマルチユーズなアクリルク
- リップスタンドがラインナップ！\n 受注締切：12月23日
- （月）23：59 お届け時期：2025\n\n
+SUMMARY:[发售] 动画《Girls Band Cry》东映 ONLINE STORE 推出新原
+ 创周边！！
+DESCRIPTION:东映 ONLINE STORE 自 12 月 11 日 12:00 起受理《Girls B
+ and Cry》新原创周边（含「竖中指！\n」系列 T 恤与亚克
+ 力夹立牌），预约截止 12 月 23 日 23:59。\n\n
  https://girls-band-cry.com/news/post-277.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-277.html
 CATEGORIES:togenashi,goods
