@@ -21,12 +21,13 @@ const groupsEl = document.getElementById('groups')
 const catsEl = document.getElementById('cats')
 const catLinksEl = document.getElementById('cat-links')
 const groupLinksEl = document.getElementById('group-links')
-const statsEl = document.getElementById('stats')
 const filterStatusEl = document.getElementById('filter-status')
 const rssUrlEl = document.getElementById('rss-url')
 const icsUrlEl = document.getElementById('ics-url')
 const rssOpen = document.getElementById('rss-open')
 const icsOpen = document.getElementById('ics-open')
+const toggleGroupsBtn = document.getElementById('toggle-groups')
+const toggleCatsBtn = document.getElementById('toggle-cats')
 const calendarGridEl = document.getElementById('calendar-grid')
 const calendarNoteEl = document.getElementById('calendar-note')
 const calendarMonthLabelEl = document.getElementById('calendar-month-label')
@@ -83,6 +84,21 @@ function setAllChecked(container, checked) {
   for (const input of container.querySelectorAll('input[type="checkbox"]')) {
     input.checked = checked
   }
+}
+
+function areAllChecked(container) {
+  const inputs = [...container.querySelectorAll('input[type="checkbox"]')]
+  return inputs.length > 0 && inputs.every((input) => input.checked)
+}
+
+function toggleAllChecked(container) {
+  setAllChecked(container, !areAllChecked(container))
+}
+
+function syncToggleButton(container, button) {
+  if (!button) return
+  button.textContent = '全选'
+  button.classList.toggle('is-active', areAllChecked(container))
 }
 
 function countFiltered(groups, categories) {
@@ -514,11 +530,13 @@ function refresh() {
   const groupLabel = labelList(groups, GROUPS)
   const catLabel = labelList(categories, CATEGORIES)
   if (filterStatusEl) {
-    filterStatusEl.textContent = `当前筛选：组合「${groupLabel}」× 分类「${catLabel}」→ 匹配资讯 ${counts.items} 条（含活动日 ${counts.dated} 条，可进日历）｜订阅模式 ${mode}`
+    filterStatusEl.textContent = `当前筛选：组合「${groupLabel}」× 分类「${catLabel}」→ 匹配资讯 ${counts.items} 条（含活动日 ${counts.dated} 条）｜订阅模式 ${mode}`
   }
 
   renderCalendar(groups, categories)
   renderStaticLinks(groups, categories)
+  syncToggleButton(groupsEl, toggleGroupsBtn)
+  syncToggleButton(catsEl, toggleCatsBtn)
 }
 
 async function copyText(text, button) {
@@ -569,24 +587,13 @@ function showCopyTooltip(button, message) {
   copyTooltipTimers.set(button, { hide })
 }
 
-document.getElementById('select-all-groups').addEventListener('click', () => {
-  setAllChecked(groupsEl, true)
+toggleGroupsBtn?.addEventListener('click', () => {
+  toggleAllChecked(groupsEl)
   refresh()
 })
 
-document.getElementById('clear-all-groups').addEventListener('click', () => {
-  // 清空 = 该维不过滤（全部），与按钮文案一致
-  setAllChecked(groupsEl, false)
-  refresh()
-})
-
-document.getElementById('select-all').addEventListener('click', () => {
-  setAllChecked(catsEl, true)
-  refresh()
-})
-
-document.getElementById('clear-all').addEventListener('click', () => {
-  setAllChecked(catsEl, false)
+toggleCatsBtn?.addEventListener('click', () => {
+  toggleAllChecked(catsEl)
   refresh()
 })
 
@@ -636,33 +643,11 @@ async function loadStats() {
     feedRev = String(data.scrapedAt ?? '')
       .replace(/[-:.TZ]/g, '')
       .slice(0, 14)
-
-    const groupCounts = Object.fromEntries(GROUPS.map((group) => [group.id, 0]))
-    const catCounts = Object.fromEntries(CATEGORIES.map((category) => [category.id, 0]))
-    let withEvent = 0
-    let withTime = 0
-    for (const item of newsItems) {
-      if (item.eventDates?.length) withEvent += 1
-      for (const eventDate of item.eventDates ?? []) {
-        if (eventDate.startTime) withTime += 1
-      }
-      for (const group of item.groups ?? []) {
-        if (group in groupCounts) groupCounts[group] += 1
-      }
-      for (const category of item.categories ?? []) {
-        if (category in catCounts) catCounts[category] += 1
-      }
-    }
-    const groupSummary = GROUPS.map((group) => `${group.label} ${groupCounts[group.id]}`).join(
-      ' · ',
-    )
-    const catSummary = CATEGORIES.map(
-      (category) => `${category.label} ${catCounts[category.id]}`,
-    ).join(' · ')
-    statsEl.textContent = `资讯 ${data.count ?? newsItems.length} 条｜有活动日 ${withEvent} 条｜含时刻 ${withTime} 条｜组合 ${groupSummary}｜分类 ${catSummary}`
     refresh()
   } catch {
-    statsEl.textContent = '尚未加载到 news.json（先运行 scrape / build-feeds）'
+    if (filterStatusEl) {
+      filterStatusEl.textContent = '尚未加载到 news.json（先运行 scrape / build-feeds）'
+    }
     refresh()
   }
 }

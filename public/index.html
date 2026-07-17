@@ -269,6 +269,31 @@
       .calendar-head h2 {
         margin-bottom: 0;
       }
+      .section-head {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 0.55rem;
+        margin-bottom: 1rem;
+      }
+      .section-head h2 {
+        margin-bottom: 0;
+      }
+      .section-head button {
+        padding: 0.28rem 0.55rem;
+        font-size: 0.78rem;
+      }
+      .section-head button.is-active {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: #1a0f0d;
+        font-weight: 700;
+      }
+      .section-head button.is-active:hover {
+        background: #ff8a7a;
+        border-color: #ff8a7a;
+      }
       .calendar-nav {
         display: flex;
         flex-wrap: wrap;
@@ -589,22 +614,19 @@
       </section>
 
       <section>
-        <h2>选择组合</h2>
-        <div class="cats" id="groups"></div>
-        <div class="actions">
-          <button type="button" id="select-all-groups">全选组合</button>
-          <button type="button" id="clear-all-groups">不限组合（全部）</button>
+        <div class="section-head">
+          <h2>选择组合</h2>
+          <button type="button" id="toggle-groups">全选</button>
         </div>
+        <div class="cats" id="groups"></div>
       </section>
 
       <section>
-        <h2>选择分类</h2>
-        <div class="cats" id="cats"></div>
-        <div class="actions">
-          <button type="button" id="select-all">全选分类</button>
-          <button type="button" id="clear-all">不限分类（全部）</button>
+        <div class="section-head">
+          <h2>选择分类</h2>
+          <button type="button" id="toggle-cats">全选</button>
         </div>
-        <p class="meta" id="stats">加载中…</p>
+        <div class="cats" id="cats"></div>
       </section>
 
       <section aria-labelledby="calendar-heading">
