@@ -791,6 +791,22 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-338.html
 CATEGORIES:togenashi,live,goods,event,media
 END:VEVENT
 BEGIN:VEVENT
+UID:post-311-2025-04-26_2025-05-25-hold@gbc-news
+DTSTAMP:20250426T000000Z
+DTSTART;VALUE=DATE:20250426
+DTEND;VALUE=DATE:20250526
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] GBC 展名古屋・福冈会场举办决定！亦有插画
+ 师联动！
+DESCRIPTION:GBC 展名古屋会场于 Telepia Hall 举办：2025 年 4 月 
+ 26 日–5 月 25 日；福冈会场 6–7 月举办（详情另行公布
+ ）。\n并公开插画师まご全新绘制迷你角色视觉。\n\n
+ https://girls-band-cry.com/news/post-311.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-311.html
+CATEGORIES:togenashi,live,music,goods,event,media
+END:VEVENT
+BEGIN:VEVENT
 UID:post-334-2025-04-26_2025-05-25-hold@gbc-news
 DTSTAMP:20250426T000000Z
 DTSTART;VALUE=DATE:20250426
@@ -804,26 +820,6 @@ DESCRIPTION:4/15 于 TOKYO MX 播出的「GBC 展大特集 SP」已在 YouT
  阪。\n\nhttps://girls-band-cry.com/news/post-334.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-334.html
 CATEGORIES:togenashi,live,event,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-311-2025-04-26_2025-05-25-hold-1100@gbc-news
-DTSTAMP:20250426T020000Z
-DTSTART:20250426T020000Z
-DTEND:20250525T100000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] ガルクラ展名古屋会場・福岡会場の開催が
- 決定！イラストレーターコラボも！
-DESCRIPTION:「ガールズバンドクライ展」名古屋会場・福岡
- 会場の開催が決定しました！\n2025年4月26日（土）～5月2
- 5日（日）の期間に、名古屋会場はテレピアホールにて
- 開催。\nまた、2025年6月～7月、福岡で開催！\n詳細は後
- 日解禁予定です。\nそして、イラストレーター・まごと
- のコラボビジュアルが解禁！\n「ガールズバンドクライ
- 展」のためにトゲナシトゲアリのミニキャライラスト
- を\n\nhttps://girls-band-cry.com/news/post-311.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-311.html
-CATEGORIES:togenashi,live,music,goods,event,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-338-2025-04-27-hold@gbc-news

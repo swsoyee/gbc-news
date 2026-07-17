@@ -341,17 +341,15 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-274.html
 CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT
-UID:post-307-2025-03-20-hold-0000@gbc-news
+UID:post-307-2025-03-20-sale-0000@gbc-news
 DTSTAMP:20250319T150000Z
 DTSTART:20250319T150000Z
-DTEND:20250319T170000Z
+DTEND:20250319T160000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』オリジ
- ナルサウンドトラック 配信決定！
-DESCRIPTION:TVアニメ『ガールズバンドクライ』オリジナル
- サウンドトラックが 3月20日(木・祝）0時より配信決定
- ！\nお楽しみに！\n\n\nhttps://girls-band-cry.com/news/post-307.html
+SUMMARY:[发售] TV 动画《Girls Band Cry》原声带配信决定！
+DESCRIPTION:TV 动画《Girls Band Cry》原声带于 2025 年 3 月 20 日
+  0:00 起配信。\n\nhttps://girls-band-cry.com/news/post-307.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-307.html
 CATEGORIES:togenashi,other
 END:VEVENT

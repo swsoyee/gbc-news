@@ -4,7 +4,7 @@
     <title>gbc-news · 媒体</title>
     <link>https://gbc-news.example.com/</link>
     <description>ガールズバンドクライ 公式ニュース（媒体）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 12:27:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 12:27:52 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/media.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[举办] 生配信番組「トゲナシトゲアリ修行中」7月29日（土）17:00スタート</title>
@@ -440,6 +440,19 @@
       <description>4 月 27 日于 Kanadevia Hall 举办的《Girls Band Cry》2nd Anniversary LIVE 回放票务销售期 4/25–6/22；观看期 6/6–6/22（6/6 19:00 首播）。</description>
     </item>
     <item>
+      <title>[举办] GBC 展名古屋・福冈会场举办决定！亦有插画师联动！</title>
+      <link>https://girls-band-cry.com/news/post-311.html</link>
+      <guid isPermaLink="false">post-311-2025-04-26_2025-05-25-hold@gbc-news</guid>
+      <pubDate>Sat, 26 Apr 2025 00:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>music</category>
+      <category>goods</category>
+      <category>event</category>
+      <category>media</category>
+      <category domain="group">togenashi</category>
+      <description>GBC 展名古屋会场于 Telepia Hall 举办：2025 年 4 月 26 日–5 月 25 日；福冈会场 6–7 月举办（详情另行公布）。并公开插画师まご全新绘制迷你角色视觉。</description>
+    </item>
+    <item>
       <title>[举办] 「Girls Band Cry 展大特集 SP」也在 YouTube 公开！</title>
       <link>https://girls-band-cry.com/news/post-334.html</link>
       <guid isPermaLink="false">post-334-2025-04-26_2025-05-25-hold@gbc-news</guid>
@@ -449,19 +462,6 @@
       <category>media</category>
       <category domain="group">togenashi</category>
       <description>4/15 于 TOKYO MX 播出的「GBC 展大特集 SP」已在 YouTube 公开；东京会场至 4/20，随后巡回名古屋・福冈・大阪。</description>
-    </item>
-    <item>
-      <title>[举办] ガルクラ展名古屋会場・福岡会場の開催が決定！イラストレーターコラボも！</title>
-      <link>https://girls-band-cry.com/news/post-311.html</link>
-      <guid isPermaLink="false">post-311-2025-04-26_2025-05-25-hold-1100@gbc-news</guid>
-      <pubDate>Sat, 26 Apr 2025 02:00:00 GMT</pubDate>
-      <category>live</category>
-      <category>music</category>
-      <category>goods</category>
-      <category>event</category>
-      <category>media</category>
-      <category domain="group">togenashi</category>
-      <description>「ガールズバンドクライ展」名古屋会場・福岡会場の開催が決定しました！ 2025年4月26日（土）～5月25日（日）の期間に、名古屋会場はテレピアホールにて開催。 また、2025年6月～7月、福岡で開催！詳細は後日解禁予定です。 そして、イラストレーター・まごとのコラボビジュアルが解禁！ 「ガールズバンドクライ展」のためにトゲナシトゲアリのミニキャライラストを</description>
     </item>
     <item>
       <title>[举办] 2nd Anniversary LIVE 线上配信票开始发售！</title>

@@ -1560,11 +1560,10 @@ DTSTART:20250312T110000Z
 DTEND:20250312T130000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ 新曲ミュージックビデオ
-  3/12（水）20時から配信開始！
-DESCRIPTION:トゲナシトゲアリの新曲ミュージックビデオ 3/
- 12(水)20時より ガールズバンドクライ公式YouTubeチャンネ
- ル にて配信開始！\n お楽しみにお待ちください\n\n
+SUMMARY:[举办] 无刺有刺新曲 MV 3/12（三）20:00 起开始配信
+ ！
+DESCRIPTION:无刺有刺新曲 Music Video 于 2025 年 3 月 12 日 20:00 
+ 起在 Girls Band Cry 官方 YouTube 频道配信。\n\n
  https://girls-band-cry.com/news/post-308.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-308.html
 CATEGORIES:togenashi,music
@@ -1624,22 +1623,18 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-330.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-311-2025-04-26_2025-05-25-hold-1100@gbc-news
-DTSTAMP:20250426T020000Z
-DTSTART:20250426T020000Z
-DTEND:20250525T100000Z
-TRANSP:OPAQUE
+UID:post-311-2025-04-26_2025-05-25-hold@gbc-news
+DTSTAMP:20250426T000000Z
+DTSTART;VALUE=DATE:20250426
+DTEND;VALUE=DATE:20250526
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガルクラ展名古屋会場・福岡会場の開催が
- 決定！イラストレーターコラボも！
-DESCRIPTION:「ガールズバンドクライ展」名古屋会場・福岡
- 会場の開催が決定しました！\n2025年4月26日（土）～5月2
- 5日（日）の期間に、名古屋会場はテレピアホールにて
- 開催。\nまた、2025年6月～7月、福岡で開催！\n詳細は後
- 日解禁予定です。\nそして、イラストレーター・まごと
- のコラボビジュアルが解禁！\n「ガールズバンドクライ
- 展」のためにトゲナシトゲアリのミニキャライラスト
- を\n\nhttps://girls-band-cry.com/news/post-311.html
+SUMMARY:[举办] GBC 展名古屋・福冈会场举办决定！亦有插画
+ 师联动！
+DESCRIPTION:GBC 展名古屋会场于 Telepia Hall 举办：2025 年 4 月 
+ 26 日–5 月 25 日；福冈会场 6–7 月举办（详情另行公布
+ ）。\n并公开插画师まご全新绘制迷你角色视觉。\n\n
+ https://girls-band-cry.com/news/post-311.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-311.html
 CATEGORIES:togenashi,live,music,goods,event,media
 END:VEVENT
@@ -1684,12 +1679,14 @@ DTSTART;VALUE=DATE:20250723
 DTEND;VALUE=DATE:20250724
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 无刺有刺『2nd ONE-MAN LIVE “凛音の理”』『3r
- d ONE-MAN LIVE “咆哮の奏”』[Blu-ray][DVD] 7 月 2…
-DESCRIPTION:无刺有刺 2nd「凛音の理」、3rd「咆哮の奏」个
- 人演唱会影像于 2025 年 7 月 23 日同时发售 Blu-ray/DVD，附
- 幕后影像、交易卡及最速先行抽选申请券。\n\n
- https://girls-band-cry.com/news/post-346.html
+SUMMARY:[发售] 无刺有刺《2nd ONE-MAN LIVE “凛音之理”》《3r
+ d ONE-MAN LIVE “咆哮之奏”》[Blu-ray][DVD] 7月23日…
+DESCRIPTION:无刺有刺 2024年9月13日 川崎 CLUB CITTA' 举办的「2n
+ d ONE-MAN LIVE “凛音之理”」与2024年11月2日 TOKYO DOME CITY HA
+ LL 举办的「3rd ONE-MAN LIVE “咆哮之奏”」影音将于2025年7
+ 月23日（三）两作同时发行，Blu-ray 各8\,800日元、DVD 各7\,
+ 700日元（含税），附花絮影像、随机交换卡与最速先行
+ 抽选申请券。\n\nhttps://girls-band-cry.com/news/post-346.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-346.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT

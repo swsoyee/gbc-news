@@ -4,7 +4,7 @@
     <title>gbc-news · 剧场/映像</title>
     <link>https://gbc-news.example.com/</link>
     <description>ガールズバンドクライ 公式ニュース（剧场/映像）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 12:27:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 12:27:52 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/cinema.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[发售] 名もなき何もかも／トゲナシトゲアリ 2023年7月26日(水)CD発売！</title>
@@ -679,15 +679,15 @@
       <description>フリーダムトークにMyGO!!!!!メンバーが参戦⁉ 📅10月4日(金)20:00～ MyGO!!!!!×トゲナシトゲアリ 『トゲマイトーク』を「ガールズバンドクライ」公式Xにてスペース配信🎤 「Avoid Note」 での対バンが決まっている MyGO!!!!!より 千早愛音役 / 立石 凛さん 要 楽奈役 / 青木陽菜さん をお招きします✨️ トゲナ</description>
     </item>
     <item>
-      <title>[举办] トゲナシトゲアリ LIVE in 日本武道館、 2025年9月23日（火・祝）開催決定！</title>
+      <title>[发售] 无刺有刺 LIVE in 日本武道馆 定于 2025 年 9 月 23 日（二・祝）举办！</title>
       <link>https://girls-band-cry.com/news/post-309.html</link>
-      <guid isPermaLink="false">post-309-2025-02-07-hold@gbc-news</guid>
-      <pubDate>Fri, 07 Feb 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">post-309-2025-02-07-sale-2130@gbc-news</guid>
+      <pubDate>Fri, 07 Feb 2025 12:30:00 GMT</pubDate>
       <category>live</category>
       <category>event</category>
       <category>cinema</category>
       <category domain="group">togenashi</category>
-      <description>【トゲナシトゲアリ LIVE in 日本武道館】の開催が決定しました！ 開催日＝2025年9月23日（火・祝） 最速先行抽選申込は2025年2月7日（金）21時30分からスタート！ 申込券は現在発売中の『ガールズバンドクライ』Blu-ray&amp;DVD第7巻に封入！ 詳しくは こちら</description>
+      <description>无刺有刺 LIVE in 日本武道馆于 2025 年 9 月 23 日举办；最速先行抽选自 2 月 7 日 21:30 起，申请券封入 Blu-ray&amp;DVD 第 7 卷。</description>
     </item>
     <item>
       <title>[举办] 【2/28】トゲナシトゲアリ1st ONE-MAN LIVE “薄明の序奏” [Blu-ray]［DVD］発売記念オンライントーク配信</title>
@@ -712,7 +712,19 @@
       <description>開催日時：2025年2月28日(金)19:00スタート (20:00終了予定) 2024年3月16日(土)横浜・1000 CLUBで開催されたトゲナシトゲアリの1st ONE-MAN LIVE“薄明の序奏”のパッケージ化を記念して、リミスタでのオンライントーク開催が決定！ リミスタにて対象商品をご購入いただいたお客様に、1st ONE-MAN LIVE「薄明</description>
     </item>
     <item>
-      <title>[举办] 3/15(土)トゲナシトゲアリ 1st ONE-MAN LIVE “薄明の序奏” 【LIVE ZOUND】上映会 実施決定！</title>
+      <title>[发售] 3/15（六）无刺有刺 1st ONE-MAN LIVE “薄明の序奏”【LIVE ZOUND】上映会举办决定！</title>
+      <link>https://girls-band-cry.com/news/post-312.html</link>
+      <guid isPermaLink="false">post-312-2025-03-01-sale@gbc-news</guid>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>goods</category>
+      <category>event</category>
+      <category>cinema</category>
+      <category domain="group">togenashi</category>
+      <description>纪念 1st 个人演唱会一周年，3/15 14:00 于川崎 Cinecitta 以 LIVE ZOUND 系统应援上映；门票 3/1 起发售，票价 2500 日元。</description>
+    </item>
+    <item>
+      <title>[举办] 3/15（六）无刺有刺 1st ONE-MAN LIVE “薄明の序奏”【LIVE ZOUND】上映会举办决定！</title>
       <link>https://girls-band-cry.com/news/post-312.html</link>
       <guid isPermaLink="false">post-312-2025-03-15-hold-1400@gbc-news</guid>
       <pubDate>Sat, 15 Mar 2025 05:00:00 GMT</pubDate>
@@ -721,7 +733,7 @@
       <category>event</category>
       <category>cinema</category>
       <category domain="group">togenashi</category>
-      <description>2024年3月16日(土)に開催された トゲナシトゲアリ 1st ONE-MAN LIVE “薄明の序奏”。 1周年を記念して、川崎・CINECITTA&apos;で上映会の開催が決定。 最新鋭のハイエンド音響装置が作り出す CINECITTA’ 独自のシネマサウンドシステム 【LIVE ZOUND】で、迫力あるライブの模様を体感いただけます。 ぜひ、ご来場ください！</description>
+      <description>纪念 1st 个人演唱会一周年，3/15 14:00 于川崎 Cinecitta 以 LIVE ZOUND 系统应援上映；门票 3/1 起发售，票价 2500 日元。</description>
     </item>
     <item>
       <title>[发售] トゲナシトゲアリ 「1st ONE-MAN LIVE “薄明の序奏”」パッケージ化決定！</title>
@@ -747,14 +759,14 @@
       <description>トゲナシトゲアリ 「1st ONE-MAN LIVE “薄明の序奏”」Blu-ray&amp;DVDの先着購入特典絵柄を公開しました！ ※先着特典となります。詳細は各SHOP/ECサイトにお問い合わせください。 ※イメージとなり、実物とは異なる場合がございます。 トゲナシトゲアリ 「1st ONE-MAN LIVE “薄明の序奏”」Blu-ray&amp;DVD 📅202</description>
     </item>
     <item>
-      <title>[发售] ガールズバンドクライ劇場版総集編ティザービジュアル公開！前売券は3/20(木・祝）発売！</title>
+      <title>[发售] Girls Band Cry 剧场版总集篇 teaser 视觉公开！预售券 3/20（四・祝）发售！</title>
       <link>https://girls-band-cry.com/news/post-310.html</link>
       <guid isPermaLink="false">post-310-2025-03-20-sale@gbc-news</guid>
       <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
       <category>live</category>
       <category>cinema</category>
       <category domain="group">togenashi</category>
-      <description>「ガールズバンドクライ」劇場版総集編 【前編】「劇場版総集編『ガールズバンドクライ』青春狂走曲」 10/3(金)公開 【後編】「劇場版総集編『ガールズバンドクライ』なぁ、未来。」11/14（金）公開 前売券第1弾は3/20（木・祝）発売！ 🔗チケット情報は こちら</description>
+      <description>剧场版总集篇【前篇】青春狂走曲 10/3、【后篇】なぁ、未来。11/14 上映；预售券第 1 弹于 3/20 发售。</description>
     </item>
     <item>
       <title>[发售] 剧场版总集篇预售券第 1 弹 前后篇套票详情决定！</title>
@@ -811,17 +823,17 @@
       <description>剧场版总集篇【前篇】10/3、【后篇】11/14 上映；主视觉与特报公开。Movi-Ticket 预售卡第 2 弹于 5/30 发售（附透明卡特典）。</description>
     </item>
     <item>
-      <title>[发售] 剧场版总集篇 Movi-Ticket 预售券（卡）第 2 弹发售！</title>
+      <title>[发售] 剧场版总集编 前售电影票（卡片）第2弹发售！</title>
       <link>https://girls-band-cry.com/news/post-348.html</link>
       <guid isPermaLink="false">post-348-2025-05-30-sale@gbc-news</guid>
       <pubDate>Fri, 30 May 2025 00:00:00 GMT</pubDate>
       <category>live</category>
       <category>cinema</category>
       <category domain="group">togenashi</category>
-      <description>剧场版总集篇 Girls Band Cry Movi-Ticket 预售券（卡）第 2 弹自 2025 年 5 月 30 日起在部分影院及通贩渠道发售；第 1 弹销售影院名单亦追加公开。</description>
+      <description>《剧场版总集编 Girls Band Cry（GBC）》前售电影票（卡片）第2弹于2025年5月30日（五）起在部分影院、主要网购平台、MOVIE WALKER STORE 及 animate 网店发售，并追加公开了第1弹的销售影院。</description>
     </item>
     <item>
-      <title>[举办] 【6/20】无刺有刺个人演唱会『凛音の理』&amp;『咆哮の奏』[Blu-ray][DVD] 两作同时发售纪念线上 talk 配信</title>
+      <title>[举办] 【6/20】无刺有刺 ONE-MAN LIVE《凛音之理》&amp;《咆哮之奏》[Blu-ray][DVD] 两作同时发售纪念线上谈话直播</title>
       <link>https://girls-band-cry.com/news/post-347.html</link>
       <guid isPermaLink="false">post-347-2025-06-20-hold-1800@gbc-news</guid>
       <pubDate>Fri, 20 Jun 2025 09:00:00 GMT</pubDate>
@@ -829,7 +841,7 @@
       <category>event</category>
       <category>cinema</category>
       <category domain="group">togenashi</category>
-      <description>纪念 2nd/3rd 个人演唱会影像同时发售，6 月 20 日 18:00–19:00 于 Limista 举办线上 talk 配信（理名・夕莉・朱李出演预定）；预约抽选获签名卡。</description>
+      <description>为纪念无刺有刺「2nd ONE-MAN LIVE “凛音之理”」「3rd ONE-MAN LIVE “咆哮之奏”」[Blu-ray][DVD] 两作同时发售，将于2025年6月20日（五）18:00–19:00举办线上谈话直播。参加成员（预定）：理名（饰 井芹仁菜）、夕莉（饰 河原木桃香）、朱李（饰 RUPA）。</description>
     </item>
     <item>
       <title>[发售] 剧场版总集篇【前篇】青春狂走曲 正式预告公开 &amp; Movi-Ticket 预售第 3 弹发售！</title>
@@ -841,7 +853,7 @@
       <description>《【前篇】青春狂走曲》正式预告与主视觉公开，2025 年 10 月 3 日上映；Movi-Ticket 预售卡第 3 弹于 7 月 18 日发售（附亚克力立牌特典，限量）。</description>
     </item>
     <item>
-      <title>[发售] 无刺有刺『2nd ONE-MAN LIVE “凛音の理”』『3rd ONE-MAN LIVE “咆哮の奏”』[Blu-ray][DVD] 7 月 23 日（三）两作同时发售！</title>
+      <title>[发售] 无刺有刺《2nd ONE-MAN LIVE “凛音之理”》《3rd ONE-MAN LIVE “咆哮之奏”》[Blu-ray][DVD] 7月23日（三）两作同时发行！</title>
       <link>https://girls-band-cry.com/news/post-346.html</link>
       <guid isPermaLink="false">post-346-2025-07-23-sale@gbc-news</guid>
       <pubDate>Wed, 23 Jul 2025 00:00:00 GMT</pubDate>
@@ -850,7 +862,7 @@
       <category>event</category>
       <category>cinema</category>
       <category domain="group">togenashi</category>
-      <description>无刺有刺 2nd「凛音の理」、3rd「咆哮の奏」个人演唱会影像于 2025 年 7 月 23 日同时发售 Blu-ray/DVD，附幕后影像、交易卡及最速先行抽选申请券。</description>
+      <description>无刺有刺 2024年9月13日 川崎 CLUB CITTA&apos; 举办的「2nd ONE-MAN LIVE “凛音之理”」与2024年11月2日 TOKYO DOME CITY HALL 举办的「3rd ONE-MAN LIVE “咆哮之奏”」影音将于2025年7月23日（三）两作同时发行，Blu-ray 各8,800日元、DVD 各7,700日元（含税），附花絮影像、随机交换卡与最速先行抽选申请券。</description>
     </item>
     <item>
       <title>[举办] 无刺有刺第 10 张 Single《ダレモ》5 月 28 日（三）发售！收录曲《飛べない蝶は夢を見る》MV 亦将公开！</title>
@@ -898,7 +910,7 @@
       <description>《剧场版总集篇 Girls Band Cry》【前篇】Movi-Ticket 线上预售券于 9/5 10:00 起发售，购买特典为前篇主视觉手机壁纸。</description>
     </item>
     <item>
-      <title>[举办] トゲナシトゲアリ LIVE in 日本武道館、 2025年9月23日（火・祝）開催決定！</title>
+      <title>[举办] 无刺有刺 LIVE in 日本武道馆 定于 2025 年 9 月 23 日（二・祝）举办！</title>
       <link>https://girls-band-cry.com/news/post-309.html</link>
       <guid isPermaLink="false">post-309-2025-09-23-hold@gbc-news</guid>
       <pubDate>Tue, 23 Sep 2025 00:00:00 GMT</pubDate>
@@ -906,7 +918,7 @@
       <category>event</category>
       <category>cinema</category>
       <category domain="group">togenashi</category>
-      <description>【トゲナシトゲアリ LIVE in 日本武道館】の開催が決定しました！ 開催日＝2025年9月23日（火・祝） 最速先行抽選申込は2025年2月7日（金）21時30分からスタート！ 申込券は現在発売中の『ガールズバンドクライ』Blu-ray&amp;DVD第7巻に封入！ 詳しくは こちら</description>
+      <description>无刺有刺 LIVE in 日本武道馆于 2025 年 9 月 23 日举办；最速先行抽选自 2 月 7 日 21:30 起，申请券封入 Blu-ray&amp;DVD 第 7 卷。</description>
     </item>
     <item>
       <title>[发售] 无刺有刺第 11 张 Single《薄采ディスプレイ》9 月 24 日（三）发售！</title>
@@ -961,6 +973,16 @@
       <category>cinema</category>
       <category domain="group">togenashi</category>
       <description>谜游戏《桃香（を）ワッショイ》于 9/29 在 Steam 发售（定价 500 日元，10/12 前特价 350 日元），并将于 9/25–28 在幕张 Messe 东京电玩展 2025 出展。</description>
+    </item>
+    <item>
+      <title>[举办] Girls Band Cry 剧场版总集篇 teaser 视觉公开！预售券 3/20（四・祝）发售！</title>
+      <link>https://girls-band-cry.com/news/post-310.html</link>
+      <guid isPermaLink="false">post-310-2025-10-03-hold@gbc-news</guid>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>cinema</category>
+      <category domain="group">togenashi</category>
+      <description>剧场版总集篇【前篇】青春狂走曲 10/3、【后篇】なぁ、未来。11/14 上映；预售券第 1 弹于 3/20 发售。</description>
     </item>
     <item>
       <title>[举办] 剧场版总集篇主视觉 &amp; 特报影像首次公开！Movi-Ticket 预售第 2 弹亦决定发售！</title>
@@ -1228,6 +1250,16 @@
       <category>media</category>
       <category domain="group">togenashi</category>
       <description>《【后篇】なぁ、未来。》11/14 于新宿 B9 举办首日舞台问候（理名・夕莉・朱李），并展开舞台问候巡演（11/15–16 等多剧场）。先行抽选 11/1–11/6，一般发售 11/8 10:00 起。</description>
+    </item>
+    <item>
+      <title>[举办] Girls Band Cry 剧场版总集篇 teaser 视觉公开！预售券 3/20（四・祝）发售！</title>
+      <link>https://girls-band-cry.com/news/post-310.html</link>
+      <guid isPermaLink="false">post-310-2025-11-14-hold@gbc-news</guid>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>cinema</category>
+      <category domain="group">togenashi</category>
+      <description>剧场版总集篇【前篇】青春狂走曲 10/3、【后篇】なぁ、未来。11/14 上映；预售券第 1 弹于 3/20 发售。</description>
     </item>
     <item>
       <title>[举办] 剧场版总集篇主视觉 &amp; 特报影像首次公开！Movi-Ticket 预售第 2 弹亦决定发售！</title>
