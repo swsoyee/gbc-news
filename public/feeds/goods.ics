@@ -2311,36 +2311,28 @@ DTSTART;VALUE=DATE:20251114
 DTEND;VALUE=DATE:20251201
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 11/14(金)より『ガールズバンドクライ×HUB』
- コラボが開催！グッズ・コラボメニューや店舗予約を
- チェック！
-DESCRIPTION:アニメ「ガールズバンドクライ」と英国風パブ
- 「 HUB」のコラボイベントが2025年11月14日(金)より開催！
- \n作品やキャラクターをイメージした様々な限定コラボ
- メニューが登場します！\nコラボメニューを1点ご注文
- ごとに「限定フォト風カード(全14種)」をランダムで1枚
- プレゼント！\n混雑の場合にはご入店いただけない場合
- もございますので、ぜひ下記よりご予約をお願い\n\n
- https://girls-band-cry.com/news/post-423.html
+SUMMARY:[举办] 11/14（五）起《Girls Band Cry × HUB》联动举办
+ ！查看周边、联动菜单与店铺预约
+DESCRIPTION:《Girls Band Cry》× 英式酒吧 HUB 联动于 2025 年 11 
+ 月 14 日–30 日在川崎、新桥银座口、西武新宿站前、难
+ 波戎桥、名站四丁目等店举办；点单赠限定卡片，并有
+ 酒井香澄全新绘制联动周边在 HUB 及 ami ami 等渠道销售。
+ \n\nhttps://girls-band-cry.com/news/post-423.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-423.html
 CATEGORIES:togenashi,goods,event,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-425-2025-11-14-hold@gbc-news
+UID:post-425-2025-11-14-sale@gbc-news
 DTSTAMP:20251114T000000Z
 DTSTART;VALUE=DATE:20251114
 DTEND;VALUE=DATE:20251115
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 『【後編】なぁ、未来。』劇場パンフレッ
- ト＆劇場オリジナルグッズが解禁！
-DESCRIPTION:『劇場版総集編 ガールズバンドクライ【後編
- 】なぁ、未来。\n』 劇場パンフレット＆劇場オリジナ
- ルグッズが解禁！\n2025年11月14日(金)より、各上映劇場
- ・東映ONLINESTORE にて販売いたします。\n▼劇場パンフレ
- ット ■商品名 劇場版総集編ガールズバンドクライ【後
- 編】なぁ、未来。\nパンフレット ■価格 ¥1\,400（税込
- ） ■仕様 A4サイズ、32ペー\n\n
+SUMMARY:[发售] 《【后篇】なぁ、未来。》剧场手册 & 剧场
+ 原创周边公开！
+DESCRIPTION:《剧场版总集篇 Girls Band Cry【后篇】なぁ、未来
+ 。\n》剧场手册（1400 日元）与剧场原创周边自 2025 年 11 
+ 月 14 日起在各上映剧场及东映 ONLINE STORE 发售。\n\n
  https://girls-band-cry.com/news/post-425.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-425.html
 CATEGORIES:togenashi,goods,cinema
@@ -2386,21 +2378,17 @@ CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
 UID:collabo-girls-band-cry-hub-amiami-anime-store-goods2025-2025-11-30-sale
- -2359@gbc-news
-DTSTAMP:20251130T145900Z
-DTSTART:20251130T145900Z
-DTEND:20251130T155900Z
-TRANSP:OPAQUE
+ @gbc-news
+DTSTAMP:20251130T000000Z
+DTSTART;VALUE=DATE:20251130
+DTEND;VALUE=DATE:20251201
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ × 英国風パブHUB 描
- き下ろしコラボグッズ 発売!
-DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
- 「ガールズバンドクライ (ガルクラ)」× 英国風パブ「HU
- B」から、コラボグッズが2026年3月に一般発売される。\n
- HUB各店で開催中のコラボ先行販売グッズで、酒井香澄
- 氏による描き下ろしイラストを使用した、仁菜、桃香
- 、すばる、智、ルパらトゲトゲを描いた記念グッズが
- 登場。\n\n
+SUMMARY:[发售] Girls Band Cry × 英式酒吧 HUB 全新绘制联动周
+ 边发售！
+DESCRIPTION:《Girls Band Cry（GBC）》× HUB 联动周边预定 2026 年
+  3 月一般发售；HUB 店内先行销售已于 2025 年 11 月 14 日
+ 起举办。\nAnime Store.JP 预约至 2025 年 11 月 30 日。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-hub-amiami-anime-st
  ore-goods2025/
 URL;VALUE=URI:
@@ -2435,59 +2423,30 @@ DTSTART;VALUE=DATE:20251205
 DTEND;VALUE=DATE:20251206
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 12/5(金) 『劇場版総集編 ガールズバンドク
- ライ 【後編】 なぁ、未来。』＜応援上映＞（日本語字
- 幕付き）開催決定！
-DESCRIPTION:河原木桃香の誕生日が12/9(火)なのを前に応援上
- 映を実施することが決定いたしました！\n一足早い12/5(
- 金)に河原木桃香の生誕を劇場で一緒にお祝いしましょ
- う！\nこちらの上映形式は声だしOKの応援上映となりま
- す。\n歓声OK！\n応援OK！\n拍手OK！\nうちわ、タオル、ぬ
- いぐるみ、ペンライト、サイリウムなど応援グッズを
- ご持参いただくのもOKです。\nさらに！\n応援上映回\n\n
+SUMMARY:[举办] 12/5（五）《剧场版总集篇 Girls Band Cry【后篇
+ 】なぁ、未来。》＜应援上映＞（附日语字幕）举办决
+ 定！
+DESCRIPTION:为桃香生日（12/9）提前于 12/5 举办《【后篇】
+ なぁ、未来。\n》应援上映（可出声应援、附日语字幕）
+ ，于新宿 B9、立川 Cinema City、川崎 Cinecitta、T・Joy 梅田
+ 、Midland Square Cinema 等上映；到场赠第 4 周入场特典。\n\n
  https://girls-band-cry.com/news/post-434.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-434.html
 CATEGORIES:togenashi,live,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-441-2025-12-11-sale@gbc-news
-DTSTAMP:20251211T000000Z
-DTSTART;VALUE=DATE:20251211
-DTEND;VALUE=DATE:20251212
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] 二次元コスパより数量限定「トゲナシトゲ
- アリ フルグラフィックシェルジャケット」登場!!【12/11
- (木)18時】予約受付開始
-DESCRIPTION:二次元コスパより、【数量限定】の新グッズ 
- 「トゲナシトゲアリ フルグラフィックシェルジャケッ
- ト」が登場!!\n【12/11(木)18時】二次元コスパ通販ほかに
- て予約受付開始予定です。\n通販分は2026年1月中旬お届
- け予定となります。\nさらに通販に加えて、12/30(火)31(
- 水)東京ビッグサイトで開催の ＜コミックマーケット107
- ＞ジーストアブースでの先行販売\n\n
- https://girls-band-cry.com/news/post-441.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-441.html
-CATEGORIES:togenashi,goods,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-441-2025-12-11-hold-1800@gbc-news
+UID:post-441-2025-12-11-sale-1800@gbc-news
 DTSTAMP:20251211T090000Z
 DTSTART:20251211T090000Z
-DTEND:20251211T110000Z
+DTEND:20251211T100000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 二次元コスパより数量限定「トゲナシトゲ
- アリ フルグラフィックシェルジャケット」登場!!【12/11
- (木)18時】予約受付開始
-DESCRIPTION:二次元コスパより、【数量限定】の新グッズ 
- 「トゲナシトゲアリ フルグラフィックシェルジャケッ
- ト」が登場!!\n【12/11(木)18時】二次元コスパ通販ほかに
- て予約受付開始予定です。\n通販分は2026年1月中旬お届
- け予定となります。\nさらに通販に加えて、12/30(火)31(
- 水)東京ビッグサイトで開催の ＜コミックマーケット107
- ＞ジーストアブースでの先行販売\n\n
- https://girls-band-cry.com/news/post-441.html
+SUMMARY:[发售] 二次元 COSPA 推出数量限定「无刺有刺全印花
+ 冲锋衣」!!【12/11（四）18:00】起开放预约
+DESCRIPTION:数量限定无刺有刺全印花冲锋衣于 12/11 18:00 起
+ 在二次元 COSPA 通贩等处开放预约，预定 2026 年 1 月中旬
+ 送达；12/30–31 Comic Market 107 ジーストア展位亦可先行购
+ 买。\n\nhttps://girls-band-cry.com/news/post-441.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-441.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
@@ -2498,17 +2457,12 @@ DTSTART;VALUE=DATE:20251230
 DTEND;VALUE=DATE:20251231
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 二次元コスパより数量限定「トゲナシトゲ
- アリ フルグラフィックシェルジャケット」登場!!【12/11
- (木)18時】予約受付開始
-DESCRIPTION:二次元コスパより、【数量限定】の新グッズ 
- 「トゲナシトゲアリ フルグラフィックシェルジャケッ
- ト」が登場!!\n【12/11(木)18時】二次元コスパ通販ほかに
- て予約受付開始予定です。\n通販分は2026年1月中旬お届
- け予定となります。\nさらに通販に加えて、12/30(火)31(
- 水)東京ビッグサイトで開催の ＜コミックマーケット107
- ＞ジーストアブースでの先行販売\n\n
- https://girls-band-cry.com/news/post-441.html
+SUMMARY:[发售] 二次元 COSPA 推出数量限定「无刺有刺全印花
+ 冲锋衣」!!【12/11（四）18:00】起开放预约
+DESCRIPTION:数量限定无刺有刺全印花冲锋衣于 12/11 18:00 起
+ 在二次元 COSPA 通贩等处开放预约，预定 2026 年 1 月中旬
+ 送达；12/30–31 Comic Market 107 ジーストア展位亦可先行购
+ 买。\n\nhttps://girls-band-cry.com/news/post-441.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-441.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
@@ -2519,36 +2473,45 @@ DTSTART;VALUE=DATE:20251230
 DTEND;VALUE=DATE:20251231
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 二次元コスパより、仁菜たちそれぞれの「
- ネクタイ」など新グッズ登場!!一部グッズのコミケ107先
- 行販売も決定
-DESCRIPTION:二次元コスパより、仁菜たちそれぞれの「ネク
- タイ」をはじめ、トゲナシトゲアリ 5人の「オールプリ
- ントTシャツ」や「トゲナシトゲアリ 120cmビッグタオル 
- アー写Ver.」が登場です！\n・ネクタイ [3種/井芹仁菜 、
- 河原木桃香、安和すばる] ・オールプリントTシャツ [5
- 種] ・トゲナシトゲアリ 120cmビッグタオル アー写Ver. こ
- れらは、12/30(\n\nhttps://girls-band-cry.com/news/post-444.html
+SUMMARY:[发售] 二次元 COSPA 推出仁菜等人「领带」等新周边
+ !! 部分商品 Comiket 107 先行发售
+DESCRIPTION:二次元 COSPA 推出无刺有刺成员领带、全印花 T 
+ 恤、120cm 大毛巾等；12/30–31 Comic Market 107 ジーストア展
+ 位先行发售，一般发售预定 2026 年 4 月上旬。\n\n
+ https://girls-band-cry.com/news/post-444.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-444.html
+CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-444-2025-12-31-sale@gbc-news
+DTSTAMP:20251231T000000Z
+DTSTART;VALUE=DATE:20251231
+DTEND;VALUE=DATE:20260101
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 二次元 COSPA 推出仁菜等人「领带」等新周边
+ !! 部分商品 Comiket 107 先行发售
+DESCRIPTION:二次元 COSPA 推出无刺有刺成员领带、全印花 T 
+ 恤、120cm 大毛巾等；12/30–31 Comic Market 107 ジーストア展
+ 位先行发售，一般发售预定 2026 年 4 月上旬。\n\n
+ https://girls-band-cry.com/news/post-444.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-444.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
 UID:collabo-girls-band-cry-necktie-cospa-anime-store-goods2026-2026-01-17-s
- ale-2359@gbc-news
-DTSTAMP:20260117T145900Z
-DTSTART:20260117T145900Z
-DTEND:20260117T155900Z
-TRANSP:OPAQUE
+ ale@gbc-news
+DTSTAMP:20260117T000000Z
+DTSTART;VALUE=DATE:20260117
+DTEND;VALUE=DATE:20260118
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ 4月発売の新作グッ
- ズ 職場に馴染むネクタイが登場
-DESCRIPTION:アニメ『ガールズバンドクライ』より、新作グ
- ッズが2026年4月に発売予定。\n職場の装いに馴染む、キ
- ャラクターを忍ばせた日本製ネクタイをはじめ、トゲ
- ナシトゲアリのアー写を使用した120cmビッグタオル、キ
- ャラクター別のTシャツなどが登場。\n発売元はコスパ
- 。\nコミックマーケット107先行販売アイテムが予約受付
- 中。\n\n
+SUMMARY:[发售] Girls Band Cry 4 月发售新作周边：职场风领带
+ 登场
+DESCRIPTION:无刺有刺新作周边（领带、T 恤、大毛巾）由二
+ 次元 COSPA 推出，预定 2026 年 4 月发售；Comic Market 107 已
+ 先行销售。\nAnime Store.JP 预约受理至 2026 年 1 月 17 日。\n
+ \n
  https://collabo-cafe.com/events/collabo/girls-band-cry-necktie-cospa-anime
  -store-goods2026/
 URL;VALUE=URI:

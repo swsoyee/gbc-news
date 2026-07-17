@@ -1,6 +1,6 @@
 {
   "sourceId": "collabo-cafe",
-  "updatedAt": "2026-07-17T12:30:00.000Z",
+  "updatedAt": "2026-07-17T12:45:00.000Z",
   "items": {
     "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026": {
       "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
@@ -243,6 +243,54 @@
           "kind": "hold"
         }
       ]
+    },
+    "collabo-girls-band-cry-pop-up-store-amnibus-shinjuku2026": {
+      "id": "collabo-girls-band-cry-pop-up-store-amnibus-shinjuku2026",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "84c8d89f311146ce4e66855052d2864588948acd4edc9baefaa8bb68baaef17d",
+      "reviewedAt": "2026-07-17T12:45:00.000Z",
+      "titleZh": "Girls Band Cry Y2K 时尚限定店 in 新宿 1 月 23 日起举办！",
+      "summaryZh": "《Girls Band Cry》× AMNIBUS 弹出商店于新宿丸井 Men 举办：2026 年 1 月 23 日–2 月 1 日，销售 Y2K 时尚主题全新绘制周边；满 2000 日元（含税）随机赠明信片 1 张。",
+      "eventDates": [
+        {
+          "date": "2026-01-23",
+          "endDate": "2026-02-01",
+          "kind": "hold"
+        }
+      ]
+    },
+    "collabo-girls-band-cry-necktie-cospa-anime-store-goods2026": {
+      "id": "collabo-girls-band-cry-necktie-cospa-anime-store-goods2026",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "35190cbaa5cd75fd02a989f1e4615a0b6a2b2724fcb44224858f4952c2cfd416",
+      "reviewedAt": "2026-07-17T12:45:00.000Z",
+      "titleZh": "Girls Band Cry 4 月发售新作周边：职场风领带登场",
+      "summaryZh": "无刺有刺新作周边（领带、T 恤、大毛巾）由二次元 COSPA 推出，预定 2026 年 4 月发售；Comic Market 107 已先行销售。Anime Store.JP 预约受理至 2026 年 1 月 17 日。",
+      "eventDates": [
+        {
+          "date": "2026-01-17",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "预约截止日；去掉误抽 23:59"
+    },
+    "collabo-girls-band-cry-hub-amiami-anime-store-goods2025": {
+      "id": "collabo-girls-band-cry-hub-amiami-anime-store-goods2025",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "1877f2fdc487b2872f899f49e4d92f4481c85ebf3d6a0402628f82ffd71ae915",
+      "reviewedAt": "2026-07-17T12:45:00.000Z",
+      "titleZh": "Girls Band Cry × 英式酒吧 HUB 全新绘制联动周边发售！",
+      "summaryZh": "《Girls Band Cry（GBC）》× HUB 联动周边预定 2026 年 3 月一般发售；HUB 店内先行销售已于 2025 年 11 月 14 日起举办。Anime Store.JP 预约至 2025 年 11 月 30 日。",
+      "eventDates": [
+        {
+          "date": "2025-11-30",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "预约截止日；3 月无具体日不补录"
     }
   }
 }

@@ -4523,16 +4523,13 @@ DTSTART;VALUE=DATE:20251205
 DTEND;VALUE=DATE:20251206
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 12/5(金) 『劇場版総集編 ガールズバンドク
- ライ 【後編】 なぁ、未来。』＜応援上映＞（日本語字
- 幕付き）開催決定！
-DESCRIPTION:河原木桃香の誕生日が12/9(火)なのを前に応援上
- 映を実施することが決定いたしました！\n一足早い12/5(
- 金)に河原木桃香の生誕を劇場で一緒にお祝いしましょ
- う！\nこちらの上映形式は声だしOKの応援上映となりま
- す。\n歓声OK！\n応援OK！\n拍手OK！\nうちわ、タオル、ぬ
- いぐるみ、ペンライト、サイリウムなど応援グッズを
- ご持参いただくのもOKです。\nさらに！\n応援上映回\n\n
+SUMMARY:[举办] 12/5（五）《剧场版总集篇 Girls Band Cry【后篇
+ 】なぁ、未来。》＜应援上映＞（附日语字幕）举办决
+ 定！
+DESCRIPTION:为桃香生日（12/9）提前于 12/5 举办《【后篇】
+ なぁ、未来。\n》应援上映（可出声应援、附日语字幕）
+ ，于新宿 B9、立川 Cinema City、川崎 Cinecitta、T・Joy 梅田
+ 、Midland Square Cinema 等上映；到场赠第 4 周入场特典。\n\n
  https://girls-band-cry.com/news/post-434.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-434.html
 CATEGORIES:togenashi,live,goods,event,cinema,media
@@ -4583,16 +4580,12 @@ DTSTART;VALUE=DATE:20251212
 DTEND;VALUE=DATE:20251213
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 12月12日(金)・12月14日(日)スタッフトークイ
- ベント＠T・ジョイSEIBU大泉＆川崎チネチッタ 開催決定
- ！
-DESCRIPTION:12月12日(金)・12月14日(日)スタッフトークイベン
- ト＠T・ジョイSEIBU大泉＆川崎チネチッタ 開催決定！\n12
- 月12日(金)にT・ジョイSEIBU大泉にて、12月14日(日)に川崎
- チネチッタにて、『劇場版総集編 ガールズバンドクラ
- イ 【後編】 なぁ、未来。\n』のスタッフトークイベン
- トの開催がそれぞれ決定いたしました！\nさらに！\nス
- タッフトークにお越しの\n\n
+SUMMARY:[举办] 12 月 12 日（五）・14 日（日）工作人员 talk 
+ 活动 @ T・Joy 西武大泉 & 川崎 Cinecitta 举办决定！
+DESCRIPTION:《剧场版总集篇 Girls Band Cry【后篇】なぁ、未来
+ 。\n》工作人员 talk：12/12 于 T・Joy 西武大泉（19:15 场映
+ 后）、12/14 于川崎 Cinecitta（11:00 场映后）。\n到场赠迷
+ 你色纸第 3・4 弹各 1 张。\n\n
  https://girls-band-cry.com/news/post-439.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-439.html
 CATEGORIES:togenashi,live,event,cinema,media
@@ -4625,16 +4618,12 @@ DTSTART;VALUE=DATE:20251214
 DTEND;VALUE=DATE:20251215
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 12月12日(金)・12月14日(日)スタッフトークイ
- ベント＠T・ジョイSEIBU大泉＆川崎チネチッタ 開催決定
- ！
-DESCRIPTION:12月12日(金)・12月14日(日)スタッフトークイベン
- ト＠T・ジョイSEIBU大泉＆川崎チネチッタ 開催決定！\n12
- 月12日(金)にT・ジョイSEIBU大泉にて、12月14日(日)に川崎
- チネチッタにて、『劇場版総集編 ガールズバンドクラ
- イ 【後編】 なぁ、未来。\n』のスタッフトークイベン
- トの開催がそれぞれ決定いたしました！\nさらに！\nス
- タッフトークにお越しの\n\n
+SUMMARY:[举办] 12 月 12 日（五）・14 日（日）工作人员 talk 
+ 活动 @ T・Joy 西武大泉 & 川崎 Cinecitta 举办决定！
+DESCRIPTION:《剧场版总集篇 Girls Band Cry【后篇】なぁ、未来
+ 。\n》工作人员 talk：12/12 于 T・Joy 西武大泉（19:15 场映
+ 后）、12/14 于川崎 Cinecitta（11:00 场映后）。\n到场赠迷
+ 你色纸第 3・4 弹各 1 张。\n\n
  https://girls-band-cry.com/news/post-439.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-439.html
 CATEGORIES:togenashi,live,event,cinema,media
@@ -4676,21 +4665,18 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-420.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
-UID:post-446-2026-01-10-sale@gbc-news
-DTSTAMP:20260110T000000Z
-DTSTART;VALUE=DATE:20260110
-DTEND;VALUE=DATE:20260111
-TRANSP:TRANSPARENT
+UID:post-446-2026-01-10-sale-1300@gbc-news
+DTSTAMP:20260110T040000Z
+DTSTART:20260110T040000Z
+DTEND:20260110T050000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ”一般先着発売が決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- 一般先着販売が決定しました！\n1月10日（土）13：00よ
- り受付開始！\n発売する券種は1階スタンディング、2階
- 後方立見になります。\n先着順のため、予定枚数に達し
- 次第受付終了となります。\n【日程・会場】 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp\n\n
- https://girls-band-cry.com/news/post-446.html
+SUMMARY:[发售] 无刺有刺 Zepp Tour 2026 “拍動の未来” 一般
+ 先到先得发售决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来” 一般先到
+ 先得售票：1 月 10 日 13:00 起受理。\n巡演 2/11 横滨、2/14 
+ 福冈、2/23 名古屋、2/28 札幌、3/8 大阪、3/13–14 东京 Dive
+ rCity。\n\nhttps://girls-band-cry.com/news/post-446.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-446.html
 CATEGORIES:togenashi,live
 END:VEVENT
@@ -4777,21 +4763,18 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-446-2026-02-11-sale@gbc-news
-DTSTAMP:20260211T000000Z
-DTSTART;VALUE=DATE:20260211
-DTEND;VALUE=DATE:20260212
-TRANSP:TRANSPARENT
+UID:post-446-2026-02-11-hold-1800@gbc-news
+DTSTAMP:20260211T090000Z
+DTSTART:20260211T090000Z
+DTEND:20260211T110000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ”一般先着発売が決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- 一般先着販売が決定しました！\n1月10日（土）13：00よ
- り受付開始！\n発売する券種は1階スタンディング、2階
- 後方立見になります。\n先着順のため、予定枚数に達し
- 次第受付終了となります。\n【日程・会場】 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp\n\n
- https://girls-band-cry.com/news/post-446.html
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 一般
+ 先到先得发售决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来” 一般先到
+ 先得售票：1 月 10 日 13:00 起受理。\n巡演 2/11 横滨、2/14 
+ 福冈、2/23 名古屋、2/28 札幌、3/8 大阪、3/13–14 东京 Dive
+ rCity。\n\nhttps://girls-band-cry.com/news/post-446.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-446.html
 CATEGORIES:togenashi,live
 END:VEVENT
@@ -4813,21 +4796,18 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-446-2026-02-14-sale@gbc-news
-DTSTAMP:20260214T000000Z
-DTSTART;VALUE=DATE:20260214
-DTEND;VALUE=DATE:20260215
-TRANSP:TRANSPARENT
+UID:post-446-2026-02-14-hold-1700@gbc-news
+DTSTAMP:20260214T080000Z
+DTSTART:20260214T080000Z
+DTEND:20260214T100000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ”一般先着発売が決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- 一般先着販売が決定しました！\n1月10日（土）13：00よ
- り受付開始！\n発売する券種は1階スタンディング、2階
- 後方立見になります。\n先着順のため、予定枚数に達し
- 次第受付終了となります。\n【日程・会場】 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp\n\n
- https://girls-band-cry.com/news/post-446.html
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 一般
+ 先到先得发售决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来” 一般先到
+ 先得售票：1 月 10 日 13:00 起受理。\n巡演 2/11 横滨、2/14 
+ 福冈、2/23 名古屋、2/28 札幌、3/8 大阪、3/13–14 东京 Dive
+ rCity。\n\nhttps://girls-band-cry.com/news/post-446.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-446.html
 CATEGORIES:togenashi,live
 END:VEVENT
@@ -4865,25 +4845,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-446-2026-02-23-sale@gbc-news
-DTSTAMP:20260223T000000Z
-DTSTART;VALUE=DATE:20260223
-DTEND;VALUE=DATE:20260224
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ”一般先着発売が決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- 一般先着販売が決定しました！\n1月10日（土）13：00よ
- り受付開始！\n発売する券種は1階スタンディング、2階
- 後方立見になります。\n先着順のため、予定枚数に達し
- 次第受付終了となります。\n【日程・会場】 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp\n\n
- https://girls-band-cry.com/news/post-446.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-446.html
-CATEGORIES:togenashi,live
-END:VEVENT
-BEGIN:VEVENT
 UID:post-454-2026-02-23-hold@gbc-news
 DTSTAMP:20260223T000000Z
 DTSTART;VALUE=DATE:20260223
@@ -4897,6 +4858,22 @@ DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来” 2026年2月23
  自2026年2月18日20:00起先着，售完即止。\n\n
  https://girls-band-cry.com/news/post-454.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-454.html
+CATEGORIES:togenashi,live
+END:VEVENT
+BEGIN:VEVENT
+UID:post-446-2026-02-23-hold-1700@gbc-news
+DTSTAMP:20260223T080000Z
+DTSTART:20260223T080000Z
+DTEND:20260223T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 一般
+ 先到先得发售决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来” 一般先到
+ 先得售票：1 月 10 日 13:00 起受理。\n巡演 2/11 横滨、2/14 
+ 福冈、2/23 名古屋、2/28 札幌、3/8 大阪、3/13–14 东京 Dive
+ rCity。\n\nhttps://girls-band-cry.com/news/post-446.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-446.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
@@ -4917,21 +4894,18 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-446-2026-02-28-sale@gbc-news
-DTSTAMP:20260228T000000Z
-DTSTART;VALUE=DATE:20260228
-DTEND;VALUE=DATE:20260301
-TRANSP:TRANSPARENT
+UID:post-446-2026-02-28-hold-1700@gbc-news
+DTSTAMP:20260228T080000Z
+DTSTART:20260228T080000Z
+DTEND:20260228T100000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ”一般先着発売が決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- 一般先着販売が決定しました！\n1月10日（土）13：00よ
- り受付開始！\n発売する券種は1階スタンディング、2階
- 後方立見になります。\n先着順のため、予定枚数に達し
- 次第受付終了となります。\n【日程・会場】 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp\n\n
- https://girls-band-cry.com/news/post-446.html
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 一般
+ 先到先得发售决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来” 一般先到
+ 先得售票：1 月 10 日 13:00 起受理。\n巡演 2/11 横滨、2/14 
+ 福冈、2/23 名古屋、2/28 札幌、3/8 大阪、3/13–14 东京 Dive
+ rCity。\n\nhttps://girls-band-cry.com/news/post-446.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-446.html
 CATEGORIES:togenashi,live
 END:VEVENT
@@ -4969,21 +4943,18 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-446-2026-03-08-sale@gbc-news
-DTSTAMP:20260308T000000Z
-DTSTART;VALUE=DATE:20260308
-DTEND;VALUE=DATE:20260309
-TRANSP:TRANSPARENT
+UID:post-446-2026-03-08-hold-1700@gbc-news
+DTSTAMP:20260308T080000Z
+DTSTART:20260308T080000Z
+DTEND:20260308T100000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ”一般先着発売が決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- 一般先着販売が決定しました！\n1月10日（土）13：00よ
- り受付開始！\n発売する券種は1階スタンディング、2階
- 後方立見になります。\n先着順のため、予定枚数に達し
- 次第受付終了となります。\n【日程・会場】 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp\n\n
- https://girls-band-cry.com/news/post-446.html
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 一般
+ 先到先得发售决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来” 一般先到
+ 先得售票：1 月 10 日 13:00 起受理。\n巡演 2/11 横滨、2/14 
+ 福冈、2/23 名古屋、2/28 札幌、3/8 大阪、3/13–14 东京 Dive
+ rCity。\n\nhttps://girls-band-cry.com/news/post-446.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-446.html
 CATEGORIES:togenashi,live
 END:VEVENT
@@ -5003,6 +4974,22 @@ DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
  ） 2026年2月23日（\n\nhttps://girls-band-cry.com/news/post-388.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-446-2026-03-13-hold-1900@gbc-news
+DTSTAMP:20260313T100000Z
+DTSTART:20260313T100000Z
+DTEND:20260313T120000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 一般
+ 先到先得发售决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来” 一般先到
+ 先得售票：1 月 10 日 13:00 起受理。\n巡演 2/11 横滨、2/14 
+ 福冈、2/23 名古屋、2/28 札幌、3/8 大阪、3/13–14 东京 Dive
+ rCity。\n\nhttps://girls-band-cry.com/news/post-446.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-446.html
+CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
 UID:post-388-2026-03-14-hold@gbc-news
@@ -5035,6 +5022,22 @@ DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来” 东京公演
  楼站席。\n销售自2026年3月7日18:00起先着，售完即止。\n\n
  https://girls-band-cry.com/news/post-462.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-462.html
+CATEGORIES:togenashi,live
+END:VEVENT
+BEGIN:VEVENT
+UID:post-446-2026-03-14-hold-1700@gbc-news
+DTSTAMP:20260314T080000Z
+DTSTART:20260314T080000Z
+DTEND:20260314T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 一般
+ 先到先得发售决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来” 一般先到
+ 先得售票：1 月 10 日 13:00 起受理。\n巡演 2/11 横滨、2/14 
+ 福冈、2/23 名古屋、2/28 札幌、3/8 大阪、3/13–14 东京 Dive
+ rCity。\n\nhttps://girls-band-cry.com/news/post-446.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-446.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
