@@ -55,14 +55,14 @@ npx serve public -l 3000
 
 ## 技术选型（低成本）
 
-| 能力          | 方案                                      | 成本考量                              |
-| ------------- | ----------------------------------------- | ------------------------------------- |
-| 代码托管 / CI | GitHub + GitHub Actions                   | 公开仓库 Actions 免费额度足够定时抓取 |
-| 定时抓取      | Actions `Scrape` cron（日本时间 12:00 / 22:00） | 无需额外付费 cron / 常驻服务器  |
-| 数据存储      | 仓库内 `data/` 静态快照                   | 无数据库费用                          |
-| 订阅分发      | Netlify 静态 feeds + Function 过滤        | 免费额度覆盖                          |
-| 前端          | `public/` 静态 HTML/CSS/JS + 可测纯函数   | 不引入 React/Vue                      |
-| 语言          | TypeScript（Node 20+）                    | 与 Netlify / Actions 生态契合         |
+| 能力          | 方案                                            | 成本考量                              |
+| ------------- | ----------------------------------------------- | ------------------------------------- |
+| 代码托管 / CI | GitHub + GitHub Actions                         | 公开仓库 Actions 免费额度足够定时抓取 |
+| 定时抓取      | Actions `Scrape` cron（日本时间 12:00 / 22:00） | 无需额外付费 cron / 常驻服务器        |
+| 数据存储      | 仓库内 `data/` 静态快照                         | 无数据库费用                          |
+| 订阅分发      | Netlify 静态 feeds + Function 过滤              | 免费额度覆盖                          |
+| 前端          | `public/` 静态 HTML/CSS/JS + 可测纯函数         | 不引入 React/Vue                      |
+| 语言          | TypeScript（Node 20+）                          | 与 Netlify / Actions 生态契合         |
 
 ## 工作方式
 
