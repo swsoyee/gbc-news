@@ -14,6 +14,8 @@ import {
   isAllDayEvent,
   labelList,
   layoutTimedLanes,
+  MIN_TIMED_BLOCK_MINUTES,
+  DAY_MINUTES,
   resolveEventWallRange,
   shiftDay,
   shiftMonth,
@@ -326,11 +328,28 @@ function renderWeekRow(events, weekCells, today, chipLimit) {
   }
 }
 
+function timedBlockStyleWithEarlyToggle(block, laneCount) {
+  const { left, width } = timedBlockStyle(block, laneCount)
+  const span = Math.max(block.endMin - block.startMin, MIN_TIMED_BLOCK_MINUTES)
+  const boundaryMin = EARLY_HOURS * 60
+  const topExtra = block.startMin >= boundaryMin ? 'var(--toggle-row-height)' : '0px'
+  const heightExtra =
+    block.startMin < boundaryMin && block.startMin + span > boundaryMin
+      ? 'var(--toggle-row-height)'
+      : '0px'
+  return {
+    top: `calc(${block.startMin} / ${DAY_MINUTES} * 24 * var(--hour-row-height) + ${topExtra})`,
+    height: `calc(${span} / ${DAY_MINUTES} * 24 * var(--hour-row-height) + ${heightExtra})`,
+    left,
+    width,
+  }
+}
+
 function appendTimedBlocks(layerEl, events, isoDate) {
   const blocks = layoutTimedLanes(buildDayTimedBlocks(events, isoDate))
   const laneCount = blocks.reduce((max, block) => Math.max(max, block.lane + 1), 0)
   for (const block of blocks) {
-    const style = timedBlockStyle(block, laneCount)
+    const style = timedBlockStyleWithEarlyToggle(block, laneCount)
     const el = document.createElement('a')
     el.className =
       block.event.kind === 'sale' ? 'calendar-timed-block is-sale' : 'calendar-timed-block'
@@ -368,16 +387,18 @@ function buildHourRail() {
   const rail = document.createElement('div')
   rail.className = 'calendar-hour-rail'
   for (let hour = 0; hour < 24; hour += 1) {
+    if (hour === EARLY_HOURS) {
+      const toggleRow = document.createElement('div')
+      toggleRow.className = 'calendar-early-toggle-row'
+      toggleRow.appendChild(buildEarlyHoursToggle())
+      rail.appendChild(toggleRow)
+    }
     const mark = document.createElement('div')
     mark.className = 'calendar-hour-mark'
-    if (hour === EARLY_HOURS) mark.classList.add('is-early-boundary')
     const label = document.createElement('span')
     label.className = 'calendar-hour-label'
-    label.textContent = `${String(hour).padStart(2, '0')}:00`
+    label.textContent = `${hour}:00`
     mark.appendChild(label)
-    if (hour === EARLY_HOURS) {
-      mark.appendChild(buildEarlyHoursToggle())
-    }
     rail.appendChild(mark)
   }
   return rail
