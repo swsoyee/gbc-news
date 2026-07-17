@@ -1788,16 +1788,12 @@ DTSTART;VALUE=DATE:20251003
 DTEND;VALUE=DATE:20251004
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 10月3日(金)より「ガールズバンドクライ×カ
- ラオケ館」コラボ開催決定！
-DESCRIPTION:■ガールズバンドクライの楽曲を歌って豪華賞
- 品ゲット 参加者にはもれなくオリジナルスマホ待ち受
- けをプレゼント！\nさらに豪華賞品に応募できるチャン
- スも ■メンバーカラーをイメージしたコラボドリンク5
- 種を販売 コラボドリンク1杯ご注文ごとにオリジナルコ
- ースター1枚をプレゼント ■描き下ろしイラストを使用
- したグッズを販売 5種の店頭販売のほかに、通販でしか
- 手に入らな\n\nhttps://girls-band-cry.com/news/post-390.html
+SUMMARY:[举办] 10 月 3 日（五）起「Girls Band Cry × 卡拉 OK 馆
+ 」联动举办！
+DESCRIPTION:《Girls Band Cry》× 卡拉 OK 馆联动自 10/3 起举办：
+ 歌唱活动赠手机壁纸、成员色联动饮品赠杯垫、销售全
+ 新绘制周边，并在池袋东口本店等 3 店设置联动包厢。\n
+ \nhttps://girls-band-cry.com/news/post-390.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-390.html
 CATEGORIES:togenashi,music,goods,event
 END:VEVENT
@@ -1826,13 +1822,11 @@ DTSTART;VALUE=DATE:20251022
 DTEND;VALUE=DATE:20251023
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 『4th ONE-MAN LIVE “協奏の
- 響”』[Blu-ray][DVD] 2025年10月22日(水)発売決定！
-DESCRIPTION:2024年12月20日、東京・豊洲PITにて3\,000人の観客
- を熱狂させた、トゲナシトゲアリ 4th ONE-MAN LIVE “協奏
- の響”のパッケージ化が決定 発売日 2025年10月22日(水) 
- ▼タイトル トゲナシトゲアリ 4th ONE-MAN LIVE “協奏の響
- ”[Blu-ray] トゲナシトゲアリ 4th ONE-MAN LIVE “協\n\n
+SUMMARY:[发售] 无刺有刺『4th ONE-MAN LIVE “协奏之响”』[Blu-
+ ray][DVD] 2025 年 10 月 22 日（三）发售！
+DESCRIPTION:无刺有刺 4th 个人演唱会「协奏之响」Blu-ray/DVD 
+ 于 2025 年 10 月 22 日发售（BD 8800 日元、DVD 7700 日元，含
+ 税），附幕后影像与随机交易卡。\n\n
  https://girls-band-cry.com/news/post-386.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-386.html
 CATEGORIES:togenashi,live,music,cinema

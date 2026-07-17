@@ -3788,21 +3788,18 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-361.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-380-2025-09-22-hold-2359@gbc-news
-DTSTAMP:20250922T145900Z
-DTSTART:20250922T145900Z
-DTEND:20250922T165900Z
-TRANSP:OPAQUE
+UID:post-380-2025-09-22-hold@gbc-news
+DTSTAMP:20250922T000000Z
+DTSTART;VALUE=DATE:20250922
+DTEND;VALUE=DATE:20250923
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ LIVE in 日本武道館 “奏檄
- の叫” 記念 Xキャンペーンスタート！
-DESCRIPTION:トゲナシトゲアリ LIVE in 日本武道館 “奏檄の
- 叫” 開催を記念して 「ガールズバンドクライ」公式X
- にてフォロー＆リポストキャンペーンを開催！\nご参加
- いただいた方の中から抽選で10名様にLIVE in 日本武道館 
- “奏檄の叫” キービジュアルポスターをプレゼント 【
- 開催期間】 2025年9月22日(月) 23:59まで 【参加方法】 ①X
- （旧Twi\n\nhttps://girls-band-cry.com/news/post-380.html
+SUMMARY:[举办] 无刺有刺 LIVE in 日本武道馆 “奏檄之叫” 
+ 纪念 X 活动开始！
+DESCRIPTION:纪念无刺有刺武道馆 LIVE “奏檄之叫”，Girls Ban
+ d Cry 官方 X 举办关注＆转发抽奖，截止 2025 年 9 月 22 日 
+ 23:59，抽选 10 名赠送主视觉海报。\n\n
+ https://girls-band-cry.com/news/post-380.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-380.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
@@ -3982,20 +3979,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-377.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-381-2025-09-26-hold-1800@gbc-news
+UID:post-381-2025-09-26-sale-1800@gbc-news
 DTSTAMP:20250926T090000Z
 DTSTART:20250926T090000Z
-DTEND:20250926T110000Z
+DTEND:20250926T100000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 2025/10/２(木)～11/3(月)ラゾーナ川崎プラザ４
- Fにて ガールズバンドクライPOP UPストアが開催決定！
-DESCRIPTION:2025/10/２（木）～11/3（月）ラゾーナ川崎プラザ
- ４Fにて ガールズバンドクライPOP UPストアが開催決定！
- \nフォトスポットや館内装飾ジャックも！！\n新川崎（
- 仮）＆beni-shougaの描き起こしアートは必見です！\n【POPU
- Pストア開催場所】 ラゾーナ川崎プラザ4F 中央通路 【
- 期間】 2025/10/２（木）～11/3（月） 営業時間：10:\n\n
+SUMMARY:[发售] 2025/10/2（四）–11/3（一）于 LaLaport 川崎 Plaz
+ a 4F 举办 Girls Band Cry POP UP STORE！
+DESCRIPTION:Girls Band Cry POP UP STORE 于 LaLaport 川崎 Plaza 4F 举办
+ ：2025/10/2–11/3，设拍照点与馆内装饰；入場预约自 9/26 1
+ 8:00 起在 Live Pocket 受理。\n\n
  https://girls-band-cry.com/news/post-381.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-381.html
 CATEGORIES:togenashi,live,event
@@ -4018,6 +4012,22 @@ DESCRIPTION:あの謎ゲーム「桃香（を）ワッショイ」が 9月2
  ださい！！\n『桃\n\nhttps://girls-band-cry.com/news/post-377.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-377.html
 CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-381-2025-10-02_2025-11-03-hold@gbc-news
+DTSTAMP:20251002T000000Z
+DTSTART;VALUE=DATE:20251002
+DTEND;VALUE=DATE:20251104
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 2025/10/2（四）–11/3（一）于 LaLaport 川崎 Plaz
+ a 4F 举办 Girls Band Cry POP UP STORE！
+DESCRIPTION:Girls Band Cry POP UP STORE 于 LaLaport 川崎 Plaza 4F 举办
+ ：2025/10/2–11/3，设拍照点与馆内装饰；入場预约自 9/26 1
+ 8:00 起在 Live Pocket 受理。\n\n
+ https://girls-band-cry.com/news/post-381.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-381.html
+CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-375-2025-10-03-sale@gbc-news
@@ -4182,14 +4192,11 @@ DTSTART:20251016T100000Z
 DTEND:20251016T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ 『4th ONE-MAN LIVE “協奏の
- 響”』発売記念オンライントーク配信
-DESCRIPTION:トゲナシトゲアリ、『4th ONE-MAN LIVE "協奏の響"
- 』の発売を記念して、オンライントーク配信＆サイン
- 会の開催が決定！\nリミスタにて対象商品 10月22日発売 
- トゲナシトゲアリ 『4th ONE-MAN LIVE "協奏の響"』をご購入
- いただいたお客様にトゲナシトゲアリ 『4th ONE-MAN LIVE "
- 協奏の響"』のジャケット絵柄を使用した\n\n
+SUMMARY:[举办] 无刺有刺『4th ONE-MAN LIVE “协奏之响”』发
+ 售纪念线上 talk 配信
+DESCRIPTION:纪念无刺有刺『4th ONE-MAN LIVE “协奏之响”』（1
+ 0/22 发售）于 10/16 19:00–20:00 在 Limista 举办线上 talk 配信
+ ＆签名会（理名・夕莉・朱李出演预定）。\n\n
  https://girls-band-cry.com/news/post-383.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-383.html
 CATEGORIES:togenashi,live,event
@@ -4266,13 +4273,11 @@ DTSTART;VALUE=DATE:20251022
 DTEND;VALUE=DATE:20251023
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 『4th ONE-MAN LIVE “協奏の
- 響”』[Blu-ray][DVD] 2025年10月22日(水)発売決定！
-DESCRIPTION:2024年12月20日、東京・豊洲PITにて3\,000人の観客
- を熱狂させた、トゲナシトゲアリ 4th ONE-MAN LIVE “協奏
- の響”のパッケージ化が決定 発売日 2025年10月22日(水) 
- ▼タイトル トゲナシトゲアリ 4th ONE-MAN LIVE “協奏の響
- ”[Blu-ray] トゲナシトゲアリ 4th ONE-MAN LIVE “協\n\n
+SUMMARY:[发售] 无刺有刺『4th ONE-MAN LIVE “协奏之响”』[Blu-
+ ray][DVD] 2025 年 10 月 22 日（三）发售！
+DESCRIPTION:无刺有刺 4th 个人演唱会「协奏之响」Blu-ray/DVD 
+ 于 2025 年 10 月 22 日发售（BD 8800 日元、DVD 7700 日元，含
+ 税），附幕后影像与随机交易卡。\n\n
  https://girls-band-cry.com/news/post-386.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-386.html
 CATEGORIES:togenashi,live,music,cinema
@@ -4341,25 +4346,6 @@ DESCRIPTION:《【后篇】なぁ、未来。\n》11/14 于新宿 B9 举办
  发售 11/8 10:00 起。\n\nhttps://girls-band-cry.com/news/post-421.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-421.html
 CATEGORIES:togenashi,live,event,cinema,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-381-2025-11-03-hold@gbc-news
-DTSTAMP:20251103T000000Z
-DTSTART;VALUE=DATE:20251103
-DTEND;VALUE=DATE:20251104
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 2025/10/２(木)～11/3(月)ラゾーナ川崎プラザ４
- Fにて ガールズバンドクライPOP UPストアが開催決定！
-DESCRIPTION:2025/10/２（木）～11/3（月）ラゾーナ川崎プラザ
- ４Fにて ガールズバンドクライPOP UPストアが開催決定！
- \nフォトスポットや館内装飾ジャックも！！\n新川崎（
- 仮）＆beni-shougaの描き起こしアートは必見です！\n【POPU
- Pストア開催場所】 ラゾーナ川崎プラザ4F 中央通路 【
- 期間】 2025/10/２（木）～11/3（月） 営業時間：10:\n\n
- https://girls-band-cry.com/news/post-381.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-381.html
-CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-370-2025-11-03-hold-1530@gbc-news
@@ -4450,15 +4436,11 @@ DTSTART;VALUE=DATE:20251114
 DTEND;VALUE=DATE:20251115
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 公式メイキングブックが玄光社より発売決
- 定！
-DESCRIPTION:アニメーション作品『ガールズバンドクライ』
- 初の公式メイキングブックが玄光社より発売決定！\n発
- 売日 2025年11月14日(金) ▼タイトル ガールズバンドクラ
- イ公式 メイキングブック ▼発売日 2025年11月14日 ▼判
- 型 B5変型判 ▼本体価格 2\,500円＋税 ▼ページ数 160p 『
- ガールズバンドクライ』制作チームへの数十時間にお
- よぶインタビュー\n\nhttps://girls-band-cry.com/news/post-384.html
+SUMMARY:[发售] 官方制作书将由玄光社发售！
+DESCRIPTION:《Girls Band Cry》首部官方制作书（B5 变型、160 页
+ 、2500 日元+税）由玄光社于 2025 年 11 月 14 日发售，收录
+ 制作团队访谈与大量制作资料。\n\n
+ https://girls-band-cry.com/news/post-384.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-384.html
 CATEGORIES:togenashi,live,media
 END:VEVENT
@@ -4741,19 +4723,18 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-450.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-388-2026-02-11-hold@gbc-news
-DTSTAMP:20260211T000000Z
-DTSTART;VALUE=DATE:20260211
-DTEND;VALUE=DATE:20260212
-TRANSP:TRANSPARENT
+UID:post-388-2026-02-11-hold-1800@gbc-news
+DTSTAMP:20260211T090000Z
+DTSTART:20260211T090000Z
+DTEND:20260211T110000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ” 開催決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- の開催が決定しました！\n■開催日時・会場 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
-  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
- ） 2026年2月23日（\n\nhttps://girls-band-cry.com/news/post-388.html
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 举办
+ 决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来”：2/11 横滨
+  18:00、2/14 福冈 17:00、2/23 名古屋 17:00、2/28 札幌 17:00、3/
+ 8 大阪 17:00、3/13 东京 19:00、3/14 东京 17:00 开演。\n\n
+ https://girls-band-cry.com/news/post-388.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
@@ -4774,19 +4755,18 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-446.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
-UID:post-388-2026-02-14-hold@gbc-news
-DTSTAMP:20260214T000000Z
-DTSTART;VALUE=DATE:20260214
-DTEND;VALUE=DATE:20260215
-TRANSP:TRANSPARENT
+UID:post-388-2026-02-14-hold-1700@gbc-news
+DTSTAMP:20260214T080000Z
+DTSTART:20260214T080000Z
+DTEND:20260214T100000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ” 開催決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- の開催が決定しました！\n■開催日時・会場 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
-  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
- ） 2026年2月23日（\n\nhttps://girls-band-cry.com/news/post-388.html
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 举办
+ 决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来”：2/11 横滨
+  18:00、2/14 福冈 17:00、2/23 名古屋 17:00、2/28 札幌 17:00、3/
+ 8 大阪 17:00、3/13 东京 19:00、3/14 东京 17:00 开演。\n\n
+ https://girls-band-cry.com/news/post-388.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
@@ -4823,23 +4803,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-454.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
-UID:post-388-2026-02-23-hold@gbc-news
-DTSTAMP:20260223T000000Z
-DTSTART;VALUE=DATE:20260223
-DTEND;VALUE=DATE:20260224
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ” 開催決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- の開催が決定しました！\n■開催日時・会場 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
-  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
- ） 2026年2月23日（\n\nhttps://girls-band-cry.com/news/post-388.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
-CATEGORIES:togenashi,live,goods,event,cinema
-END:VEVENT
-BEGIN:VEVENT
 UID:post-454-2026-02-23-hold@gbc-news
 DTSTAMP:20260223T000000Z
 DTSTART;VALUE=DATE:20260223
@@ -4854,6 +4817,22 @@ DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来” 2026年2月23
  https://girls-band-cry.com/news/post-454.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-454.html
 CATEGORIES:togenashi,live
+END:VEVENT
+BEGIN:VEVENT
+UID:post-388-2026-02-23-hold-1700@gbc-news
+DTSTAMP:20260223T080000Z
+DTSTART:20260223T080000Z
+DTEND:20260223T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 举办
+ 决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来”：2/11 横滨
+  18:00、2/14 福冈 17:00、2/23 名古屋 17:00、2/28 札幌 17:00、3/
+ 8 大阪 17:00、3/13 东京 19:00、3/14 东京 17:00 开演。\n\n
+ https://girls-band-cry.com/news/post-388.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
+CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-446-2026-02-23-hold-1700@gbc-news
@@ -4872,19 +4851,18 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-446.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
-UID:post-388-2026-02-28-hold@gbc-news
-DTSTAMP:20260228T000000Z
-DTSTART;VALUE=DATE:20260228
-DTEND;VALUE=DATE:20260301
-TRANSP:TRANSPARENT
+UID:post-388-2026-02-28-hold-1700@gbc-news
+DTSTAMP:20260228T080000Z
+DTSTART:20260228T080000Z
+DTEND:20260228T100000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ” 開催決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- の開催が決定しました！\n■開催日時・会場 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
-  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
- ） 2026年2月23日（\n\nhttps://girls-band-cry.com/news/post-388.html
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 举办
+ 决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来”：2/11 横滨
+  18:00、2/14 福冈 17:00、2/23 名古屋 17:00、2/28 札幌 17:00、3/
+ 8 大阪 17:00、3/13 东京 19:00、3/14 东京 17:00 开演。\n\n
+ https://girls-band-cry.com/news/post-388.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
@@ -4921,19 +4899,18 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-462.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
-UID:post-388-2026-03-08-hold@gbc-news
-DTSTAMP:20260308T000000Z
-DTSTART;VALUE=DATE:20260308
-DTEND;VALUE=DATE:20260309
-TRANSP:TRANSPARENT
+UID:post-388-2026-03-08-hold-1700@gbc-news
+DTSTAMP:20260308T080000Z
+DTSTART:20260308T080000Z
+DTEND:20260308T100000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ” 開催決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- の開催が決定しました！\n■開催日時・会場 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
-  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
- ） 2026年2月23日（\n\nhttps://girls-band-cry.com/news/post-388.html
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 举办
+ 决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来”：2/11 横滨
+  18:00、2/14 福冈 17:00、2/23 名古屋 17:00、2/28 札幌 17:00、3/
+ 8 大阪 17:00、3/13 东京 19:00、3/14 东京 17:00 开演。\n\n
+ https://girls-band-cry.com/news/post-388.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
@@ -4954,19 +4931,18 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-446.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
-UID:post-388-2026-03-13-hold@gbc-news
-DTSTAMP:20260313T000000Z
-DTSTART;VALUE=DATE:20260313
-DTEND;VALUE=DATE:20260314
-TRANSP:TRANSPARENT
+UID:post-388-2026-03-13-hold-1900@gbc-news
+DTSTAMP:20260313T100000Z
+DTSTART:20260313T100000Z
+DTEND:20260313T120000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ” 開催決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- の開催が決定しました！\n■開催日時・会場 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
-  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
- ） 2026年2月23日（\n\nhttps://girls-band-cry.com/news/post-388.html
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 举办
+ 决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来”：2/11 横滨
+  18:00、2/14 福冈 17:00、2/23 名古屋 17:00、2/28 札幌 17:00、3/
+ 8 大阪 17:00、3/13 东京 19:00、3/14 东京 17:00 开演。\n\n
+ https://girls-band-cry.com/news/post-388.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
@@ -4987,23 +4963,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-446.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
-UID:post-388-2026-03-14-hold@gbc-news
-DTSTAMP:20260314T000000Z
-DTSTART;VALUE=DATE:20260314
-DTEND;VALUE=DATE:20260315
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ” 開催決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- の開催が決定しました！\n■開催日時・会場 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
-  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
- ） 2026年2月23日（\n\nhttps://girls-band-cry.com/news/post-388.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
-CATEGORIES:togenashi,live,goods,event,cinema
-END:VEVENT
-BEGIN:VEVENT
 UID:post-462-2026-03-14-hold@gbc-news
 DTSTAMP:20260314T000000Z
 DTSTART;VALUE=DATE:20260314
@@ -5018,6 +4977,22 @@ DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来” 东京公演
  https://girls-band-cry.com/news/post-462.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-462.html
 CATEGORIES:togenashi,live
+END:VEVENT
+BEGIN:VEVENT
+UID:post-388-2026-03-14-hold-1700@gbc-news
+DTSTAMP:20260314T080000Z
+DTSTART:20260314T080000Z
+DTEND:20260314T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 举办
+ 决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来”：2/11 横滨
+  18:00、2/14 福冈 17:00、2/23 名古屋 17:00、2/28 札幌 17:00、3/
+ 8 大阪 17:00、3/13 东京 19:00、3/14 东京 17:00 开演。\n\n
+ https://girls-band-cry.com/news/post-388.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
+CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-446-2026-03-14-hold-1700@gbc-news

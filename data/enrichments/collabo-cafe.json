@@ -1,6 +1,6 @@
 {
   "sourceId": "collabo-cafe",
-  "updatedAt": "2026-07-17T13:00:00.000Z",
+  "updatedAt": "2026-07-17T13:25:00.000Z",
   "items": {
     "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026": {
       "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
@@ -325,6 +325,32 @@
         {
           "date": "2025-10-17",
           "endDate": "2025-11-03",
+          "kind": "hold"
+        }
+      ]
+    },
+    "collabo-girls-band-cry-pop-up-store-cocollabo-tokyo-osaka-aichi-2025": {
+      "id": "collabo-girls-band-cry-pop-up-store-cocollabo-tokyo-osaka-aichi-2025",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "18aed3c84da2a38d777498e451e0dd40ba94d1cbc480bb8c14e1eb05af90f7db",
+      "reviewedAt": "2026-07-17T13:25:00.000Z",
+      "titleZh": "Girls Band Cry 限定店 in 东京/大阪/爱知 10 月 4 日起陆续举办！",
+      "summaryZh": "《Girls Band Cry》弹出商店于东京/大阪/爱知举办：大阪 10/4–10/20、东京 10/30–11/12、名古屋 11/20–12/1，销售中式服装全新绘制周边；满 3000 日元随机赠写真 1 张。",
+      "eventDates": [
+        {
+          "date": "2025-10-04",
+          "endDate": "2025-10-20",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-10-30",
+          "endDate": "2025-11-12",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-11-20",
+          "endDate": "2025-12-01",
           "kind": "hold"
         }
       ]

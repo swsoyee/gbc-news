@@ -1051,15 +1051,11 @@ DTSTART;VALUE=DATE:20251114
 DTEND;VALUE=DATE:20251115
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 公式メイキングブックが玄光社より発売決
- 定！
-DESCRIPTION:アニメーション作品『ガールズバンドクライ』
- 初の公式メイキングブックが玄光社より発売決定！\n発
- 売日 2025年11月14日(金) ▼タイトル ガールズバンドクラ
- イ公式 メイキングブック ▼発売日 2025年11月14日 ▼判
- 型 B5変型判 ▼本体価格 2\,500円＋税 ▼ページ数 160p 『
- ガールズバンドクライ』制作チームへの数十時間にお
- よぶインタビュー\n\nhttps://girls-band-cry.com/news/post-384.html
+SUMMARY:[发售] 官方制作书将由玄光社发售！
+DESCRIPTION:《Girls Band Cry》首部官方制作书（B5 变型、160 页
+ 、2500 日元+税）由玄光社于 2025 年 11 月 14 日发售，收录
+ 制作团队访谈与大量制作资料。\n\n
+ https://girls-band-cry.com/news/post-384.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-384.html
 CATEGORIES:togenashi,live,media
 END:VEVENT

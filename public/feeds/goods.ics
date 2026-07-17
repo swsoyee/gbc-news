@@ -2139,16 +2139,12 @@ DTSTART;VALUE=DATE:20251003
 DTEND;VALUE=DATE:20251004
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 10月3日(金)より「ガールズバンドクライ×カ
- ラオケ館」コラボ開催決定！
-DESCRIPTION:■ガールズバンドクライの楽曲を歌って豪華賞
- 品ゲット 参加者にはもれなくオリジナルスマホ待ち受
- けをプレゼント！\nさらに豪華賞品に応募できるチャン
- スも ■メンバーカラーをイメージしたコラボドリンク5
- 種を販売 コラボドリンク1杯ご注文ごとにオリジナルコ
- ースター1枚をプレゼント ■描き下ろしイラストを使用
- したグッズを販売 5種の店頭販売のほかに、通販でしか
- 手に入らな\n\nhttps://girls-band-cry.com/news/post-390.html
+SUMMARY:[举办] 10 月 3 日（五）起「Girls Band Cry × 卡拉 OK 馆
+ 」联动举办！
+DESCRIPTION:《Girls Band Cry》× 卡拉 OK 馆联动自 10/3 起举办：
+ 歌唱活动赠手机壁纸、成员色联动饮品赠杯垫、销售全
+ 新绘制周边，并在池袋东口本店等 3 店设置联动包厢。\n
+ \nhttps://girls-band-cry.com/news/post-390.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-390.html
 CATEGORIES:togenashi,music,goods,event
 END:VEVENT
@@ -2159,12 +2155,10 @@ DTSTART;VALUE=DATE:20251003
 DTEND;VALUE=DATE:20251004
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 『【前編】青春狂走曲』劇場オリジナルグ
- ッズ解禁！
-DESCRIPTION:『劇場版総集編 ガールズバンドクライ【前編
- 】青春狂走曲』 公開に合わせて劇場オリジナルグッズ
- の発売が決定！\n2025年10月3日(金)より、各上映劇場・#
- 東映ONLINESTORE にて販売いたします。\n\n
+SUMMARY:[发售] 《【前篇】青春狂走曲》剧场原创周边公开
+ ！
+DESCRIPTION:《【前篇】青春狂走曲》剧场原创周边自 2025 年
+  10 月 3 日起在各上映剧场及东映 ONLINE STORE 发售。\n\n
  https://girls-band-cry.com/news/post-393.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-393.html
 CATEGORIES:togenashi,goods,cinema
@@ -2570,19 +2564,18 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-450.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-388-2026-02-11-hold@gbc-news
-DTSTAMP:20260211T000000Z
-DTSTART;VALUE=DATE:20260211
-DTEND;VALUE=DATE:20260212
-TRANSP:TRANSPARENT
+UID:post-388-2026-02-11-hold-1800@gbc-news
+DTSTAMP:20260211T090000Z
+DTSTART:20260211T090000Z
+DTEND:20260211T110000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ” 開催決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- の開催が決定しました！\n■開催日時・会場 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
-  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
- ） 2026年2月23日（\n\nhttps://girls-band-cry.com/news/post-388.html
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 举办
+ 决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来”：2/11 横滨
+  18:00、2/14 福冈 17:00、2/23 名古屋 17:00、2/28 札幌 17:00、3/
+ 8 大阪 17:00、3/13 东京 19:00、3/14 东京 17:00 开演。\n\n
+ https://girls-band-cry.com/news/post-388.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
@@ -2602,19 +2595,18 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-452.html
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-388-2026-02-14-hold@gbc-news
-DTSTAMP:20260214T000000Z
-DTSTART;VALUE=DATE:20260214
-DTEND;VALUE=DATE:20260215
-TRANSP:TRANSPARENT
+UID:post-388-2026-02-14-hold-1700@gbc-news
+DTSTAMP:20260214T080000Z
+DTSTART:20260214T080000Z
+DTEND:20260214T100000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ” 開催決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- の開催が決定しました！\n■開催日時・会場 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
-  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
- ） 2026年2月23日（\n\nhttps://girls-band-cry.com/news/post-388.html
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 举办
+ 决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来”：2/11 横滨
+  18:00、2/14 福冈 17:00、2/23 名古屋 17:00、2/28 札幌 17:00、3/
+ 8 大阪 17:00、3/13 东京 19:00、3/14 东京 17:00 开演。\n\n
+ https://girls-band-cry.com/news/post-388.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
@@ -2634,19 +2626,18 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-452.html
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-388-2026-02-23-hold@gbc-news
-DTSTAMP:20260223T000000Z
-DTSTART;VALUE=DATE:20260223
-DTEND;VALUE=DATE:20260224
-TRANSP:TRANSPARENT
+UID:post-388-2026-02-23-hold-1700@gbc-news
+DTSTAMP:20260223T080000Z
+DTSTART:20260223T080000Z
+DTEND:20260223T100000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ” 開催決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- の開催が決定しました！\n■開催日時・会場 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
-  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
- ） 2026年2月23日（\n\nhttps://girls-band-cry.com/news/post-388.html
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 举办
+ 决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来”：2/11 横滨
+  18:00、2/14 福冈 17:00、2/23 名古屋 17:00、2/28 札幌 17:00、3/
+ 8 大阪 17:00、3/13 东京 19:00、3/14 东京 17:00 开演。\n\n
+ https://girls-band-cry.com/news/post-388.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
@@ -2698,70 +2689,66 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-452.html
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-388-2026-02-28-hold@gbc-news
-DTSTAMP:20260228T000000Z
-DTSTART;VALUE=DATE:20260228
-DTEND;VALUE=DATE:20260301
-TRANSP:TRANSPARENT
+UID:post-388-2026-02-28-hold-1700@gbc-news
+DTSTAMP:20260228T080000Z
+DTSTART:20260228T080000Z
+DTEND:20260228T100000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ” 開催決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- の開催が決定しました！\n■開催日時・会場 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
-  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
- ） 2026年2月23日（\n\nhttps://girls-band-cry.com/news/post-388.html
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 举办
+ 决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来”：2/11 横滨
+  18:00、2/14 福冈 17:00、2/23 名古屋 17:00、2/28 札幌 17:00、3/
+ 8 大阪 17:00、3/13 东京 19:00、3/14 东京 17:00 开演。\n\n
+ https://girls-band-cry.com/news/post-388.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-388-2026-03-08-hold@gbc-news
-DTSTAMP:20260308T000000Z
-DTSTART;VALUE=DATE:20260308
-DTEND;VALUE=DATE:20260309
-TRANSP:TRANSPARENT
+UID:post-388-2026-03-08-hold-1700@gbc-news
+DTSTAMP:20260308T080000Z
+DTSTART:20260308T080000Z
+DTEND:20260308T100000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ” 開催決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- の開催が決定しました！\n■開催日時・会場 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
-  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
- ） 2026年2月23日（\n\nhttps://girls-band-cry.com/news/post-388.html
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 举办
+ 决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来”：2/11 横滨
+  18:00、2/14 福冈 17:00、2/23 名古屋 17:00、2/28 札幌 17:00、3/
+ 8 大阪 17:00、3/13 东京 19:00、3/14 东京 17:00 开演。\n\n
+ https://girls-band-cry.com/news/post-388.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-388-2026-03-13-hold@gbc-news
-DTSTAMP:20260313T000000Z
-DTSTART;VALUE=DATE:20260313
-DTEND;VALUE=DATE:20260314
-TRANSP:TRANSPARENT
+UID:post-388-2026-03-13-hold-1900@gbc-news
+DTSTAMP:20260313T100000Z
+DTSTART:20260313T100000Z
+DTEND:20260313T120000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ” 開催決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- の開催が決定しました！\n■開催日時・会場 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
-  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
- ） 2026年2月23日（\n\nhttps://girls-band-cry.com/news/post-388.html
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 举办
+ 决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来”：2/11 横滨
+  18:00、2/14 福冈 17:00、2/23 名古屋 17:00、2/28 札幌 17:00、3/
+ 8 大阪 17:00、3/13 东京 19:00、3/14 东京 17:00 开演。\n\n
+ https://girls-band-cry.com/news/post-388.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-388-2026-03-14-hold@gbc-news
-DTSTAMP:20260314T000000Z
-DTSTART;VALUE=DATE:20260314
-DTEND;VALUE=DATE:20260315
-TRANSP:TRANSPARENT
+UID:post-388-2026-03-14-hold-1700@gbc-news
+DTSTAMP:20260314T080000Z
+DTSTART:20260314T080000Z
+DTEND:20260314T100000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ” 開催決定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
- の開催が決定しました！\n■開催日時・会場 2026年2月11
- 日（水・祝）OPEN 17:00 / START 18:00 KT Zepp Yokohama（神奈川）
-  2026年2月14日（土）OPEN 16:00 / START 17:00 Zepp Fukuoka（福岡
- ） 2026年2月23日（\n\nhttps://girls-band-cry.com/news/post-388.html
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 举办
+ 决定！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来”：2/11 横滨
+  18:00、2/14 福冈 17:00、2/23 名古屋 17:00、2/28 札幌 17:00、3/
+ 8 大阪 17:00、3/13 东京 19:00、3/14 东京 17:00 开演。\n\n
+ https://girls-band-cry.com/news/post-388.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
