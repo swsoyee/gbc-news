@@ -1,4 +1,4 @@
-import { isSourceId, type SourceId } from '../../src/models/source.js'
+import { SOURCE_IDS, isSourceId, type SourceId } from '../../src/models/source.js'
 import type { NewsItem } from '../../src/models/item.js'
 
 export interface BackfillCliOptions {
@@ -8,7 +8,7 @@ export interface BackfillCliOptions {
 }
 
 export function parseBackfillArgs(args: string[]): BackfillCliOptions {
-  let sources: SourceId[] = ['gbc-news', 'gbc-firstriff', 'collabo-cafe']
+  let sources: SourceId[] = [...SOURCE_IDS]
   let force = false
   let delayMs = 400
   for (let index = 0; index < args.length; index += 1) {
@@ -20,7 +20,7 @@ export function parseBackfillArgs(args: string[]): BackfillCliOptions {
     if (arg === '--source') {
       const value = args[++index]
       if (value === 'all') {
-        sources = ['gbc-news', 'gbc-firstriff', 'collabo-cafe']
+        sources = [...SOURCE_IDS]
       } else if (value && isSourceId(value)) {
         sources = [value]
       } else {

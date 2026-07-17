@@ -13,13 +13,13 @@
     │
     ▼
 GitHub Actions（定时 cron）
-    │  scrape-all：三源独立执行，失败隔离
+    │  scrape-all：四源独立执行，失败隔离
     │  解析 + 校验 + 快照合并
     ▼
 data/<source>/latest.json
     │
     ▼
-build-feeds → public/data/news.json + public/feeds/*
+build-feeds → enrichment → 人工去重名单剔除 → public/data/news.json + public/feeds/*
     │  commit → 触发 Netlify 部署
     ▼
 Netlify
@@ -29,7 +29,8 @@ Netlify
 
 ## 当前能力边界
 
-- **三源**：`gbc-news`、`gbc-firstriff`、`collabo-cafe`；单源失败不阻断其他源写入。
+- **四源**：`gbc-news`、`gbc-firstriff`、`collabo-cafe`、`gamepedia`；单源失败不阻断其他源写入。
+- **跨源去重**：流水线**不自动去重**（自动规则会误杀同档期不同商品）。改为人工在 Cursor 用 `dedupe-news` skill 判定，把确认的重复写入 `data/dedupe/manual.json`；`build-feeds` 只按该名单剔除，保留高优先级源（gbc-news > firstriff > collabo-cafe > gamepedia）。`scripts/dedupe-candidates.ts` 仅提供 `eventDates` 重叠的候选建议供人工参考。
 - **订阅**：静态 `/feeds/*` + 动态 `/api/feed`；公开 URL 保持稳定。
 - **前端**：`public/index.html` + `subscribe.js`；日历与筛选为客户端交互，但**零框架**。可测纯函数在 `src/web/subscribe-core.ts`，经 `build:web` 输出到 `public/subscribe-core.js`。
 - **空订阅防护**：`build-feeds` 在无可用快照或展开后无活动日时失败退出，禁止覆盖有效 `all` 订阅。

@@ -22,6 +22,8 @@ src/
     expand.ts        # eventDates → FeedEntry（无日期跳过）
     build.ts         # RSS / iCal 字符串生成（只吃 FeedEntry）
     merge-snapshots.ts # 多源合并 + 空订阅防护
+    manual-dedupe.ts # 人工去重名单（data/dedupe/manual.json）加载与剔除
+    dedupe-candidates.ts # 跨源重复候选（仅建议，不自动剔除）
     dynamic-feed.ts  # /api/feed 可测响应逻辑
   web/
     subscribe-core.ts # 前端纯函数（打包到 public/）
@@ -30,12 +32,14 @@ src/
     html.ts          # strip/decode 共享工具
 scripts/
   scrape-<source>.ts # 单源入口：抓取并写 data/
-  scrape-all.ts      # 三源编排（失败隔离）
+  scrape-all.ts      # 多源编排（失败隔离）
   build-feeds.ts     # 多源合并 → public/data/news.json + feeds
   bundle-function.mjs
   bundle-web.mjs
 data/
   <source-id>/       # 抓取快照（生成物）
+  enrichments/       # 人工汉化/日程叠加层（每源一文件）
+  dedupe/manual.json # 人工跨源去重名单（build-feeds 按此剔除）
 public/
   feeds/             # 对外订阅文件（按活动日展开）
   data/news.json     # 合并快照（含无活动日条目）

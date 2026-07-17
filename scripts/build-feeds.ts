@@ -3,6 +3,11 @@ import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { buildIcal, buildRss } from '../src/feeds/build.js'
 import {
+  applyManualDrops,
+  assertManualDedupeFile,
+  type ManualDedupeFile,
+} from '../src/feeds/manual-dedupe.js'
+import {
   mergeNewsSnapshots,
   requireExpandableEntries,
   requireNonEmptyMergedItems,
@@ -21,9 +26,24 @@ const sourcePaths = [
   join(root, 'data/gbc-news/latest.json'),
   join(root, 'data/gbc-firstriff/latest.json'),
   join(root, 'data/collabo-cafe/latest.json'),
+  join(root, 'data/gamepedia/latest.json'),
 ]
+const manualDedupePath = join(root, 'data/dedupe/manual.json')
 const publicDataPath = join(root, 'public/data/news.json')
 const feedsDir = join(root, 'public/feeds')
+
+async function loadManualDedupe(): Promise<ManualDedupeFile> {
+  try {
+    const parsed: unknown = JSON.parse(await readFile(manualDedupePath, 'utf8'))
+    assertManualDedupeFile(parsed)
+    return parsed
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === 'ENOENT') {
+      return { updatedAt: new Date().toISOString(), drops: [] }
+    }
+    throw error
+  }
+}
 
 async function main(): Promise<void> {
   const inputs = await Promise.all(
@@ -42,7 +62,19 @@ async function main(): Promise<void> {
 
   requireNonEmptyMergedItems(merged)
   const enrichmentFiles = await loadEnrichmentFiles(root)
-  const publicItems = applyEnrichments(merged, enrichmentFiles)
+  const enriched = applyEnrichments(merged, enrichmentFiles)
+  const manualDedupe = await loadManualDedupe()
+  const {
+    items: publicItems,
+    dropped,
+    warnings: dedupeWarnings,
+  } = applyManualDrops(enriched, manualDedupe)
+  for (const warning of dedupeWarnings) console.warn(`[warn] ${warning}`)
+  for (const drop of dropped) {
+    console.log(
+      `[info] manual dedupe drop id=${drop.id} kept=${drop.keptId ?? '-'} reason=${drop.reason ?? '-'}`,
+    )
+  }
 
   const siteUrl = process.env.SITE_URL ?? 'https://gbc-news.example.com'
   await mkdir(dirname(publicDataPath), { recursive: true })
@@ -51,7 +83,7 @@ async function main(): Promise<void> {
   const snapshot = {
     scrapedAt: new Date().toISOString(),
     sources,
-    count: merged.length,
+    count: publicItems.length,
     items: publicItems,
   }
   await writeFile(publicDataPath, `${JSON.stringify(snapshot, null, 2)}\n`, 'utf8')
@@ -77,7 +109,7 @@ async function main(): Promise<void> {
   }
 
   console.log(
-    `[info] build-feeds done items=${merged.length} feedEntries=${allEntries.length} sources=${sources.join(',')}`,
+    `[info] build-feeds done items=${publicItems.length} feedEntries=${allEntries.length} sources=${sources.join(',')} manualDrops=${dropped.length}`,
   )
 }
 

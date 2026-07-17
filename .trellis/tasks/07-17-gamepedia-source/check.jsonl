@@ -1,0 +1,5 @@
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "CI/夹具与质量门槛"}
+{"file": ".trellis/spec/backend/error-handling.md", "reason": "失败与空订阅防护"}
+{"file": ".trellis/spec/backend/enrichment-guidelines.md", "reason": "去重相对 enrichment 叠加层的契约"}
+{"file": ".trellis/tasks/07-17-gamepedia-source/prd.md", "reason": "AC 对照验收"}
+{"file": ".trellis/tasks/07-17-gamepedia-source/design.md", "reason": "合并→增强→去重顺序"}

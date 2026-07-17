@@ -2,10 +2,10 @@
 <rss version="2.0">
   <channel>
     <title>gbc-news · 全部</title>
-    <link>https://gbc-news.netlify.app/</link>
+    <link>https://gbc-news.example.com/</link>
     <description>ガールズバンドクライ 公式ニュース（全部）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 14:48:22 GMT</lastBuildDate>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.netlify.app/feeds/all.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jul 2026 15:07:48 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/all.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[举办] 动画《Girls Band Cry》官方网站开放！</title>
       <link>https://girls-band-cry.com/news/post-1.html</link>
@@ -1836,24 +1836,6 @@
       <category>live</category>
       <category domain="group">togenashi</category>
       <description>东映动画「Encore」全新绘制 Don Quijote 限定周边自 2024 年 7 月 13 日起在指定店铺发售。</description>
-    </item>
-    <item>
-      <title>[发售] Girls Band Cry 新作周边 7 月 13 日起于 Don Quijote 发售！</title>
-      <link>https://collabo-cafe.com/events/collabo/girls-band-cry-don-quijote-item-2024/</link>
-      <guid isPermaLink="false">collabo-girls-band-cry-don-quijote-item-2024-2024-07-13-sale-1000@gbc-news</guid>
-      <pubDate>Sat, 13 Jul 2024 01:00:00 GMT</pubDate>
-      <category>goods</category>
-      <category domain="group">togenashi</category>
-      <description>《Girls Band Cry》× Don Quijote「Encore」主题限定周边自 2024 年 7 月 13 日 10:00 起发售；满 3000 日元随机赠明信片。</description>
-    </item>
-    <item>
-      <title>[发售] Girls Band Cry × Don Quijote 7 月 13 日起联动周边登场！</title>
-      <link>https://collabo-cafe.com/events/collabo/girls-band-cry-don-quijote-item2024/</link>
-      <guid isPermaLink="false">collabo-girls-band-cry-don-quijote-item2024-2024-07-13-sale-1000@gbc-news</guid>
-      <pubDate>Sat, 13 Jul 2024 01:00:00 GMT</pubDate>
-      <category>goods</category>
-      <category domain="group">togenashi</category>
-      <description>《Girls Band Cry》× Don Quijote「Encore」主题限定周边自 2024 年 7 月 13 日 10:00 起发售；满 3000 日元随机赠原创明信片。</description>
     </item>
     <item>
       <title>[发售] Girls Band Cry 含 2 首新曲的 2nd 专辑《棘ナシ》8 月发售！</title>
@@ -3907,6 +3889,15 @@
       <description>GBC 展大阪会场于大丸博物馆梅田举办：2025 年 9 月 17 日–30 日（10:00–19:00）。先行抽选 7/25–8/3，一般预售 8/16 起；入场赠大阪版舞台通行证风缎面贴纸（随机 5 种）。</description>
     </item>
     <item>
+      <title>[发售] GBC×arti-mate 新作周边！animate 限定「直播巡演」周边全种公开！</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/12678</link>
+      <guid isPermaLink="false">gamepedia-12678-2025-07-30-sale@gbc-news</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category domain="group">togenashi</category>
+      <description>arti-mate（alma bianca×animate）推出《Girls Band Cry（GBC）》直播巡演 ver. 周边；自2025年7月30日起可预约，2025年10月18日发售，animate 限定店售（池袋・秋叶原・涩谷・梅田等）及通贩。</description>
+    </item>
+    <item>
       <title>[发售] She is Legend × 无刺有刺「SOUL &amp; CRY」LIVE 线上回放配信</title>
       <link>https://girls-band-cry.com/news/post-364.html</link>
       <guid isPermaLink="false">post-364-2025-08-03_2025-08-31-sale@gbc-news</guid>
@@ -3978,15 +3969,6 @@
       <category>media</category>
       <category domain="group">togenashi</category>
       <description>She is Legend × 无刺有刺「SOUL &amp; CRY」LIVE 回放票务 8/3–8/31 销售；首播 8/16 12:00 起至 8/31 23:59 可观看（含幕后影像）。</description>
-    </item>
-    <item>
-      <title>[举办] Girls Band Cry × 卡拉 OK 铁人 5 店 8 月 21 日起联动举办！</title>
-      <link>https://collabo-cafe.com/events/collabo/girls-band-cry-karatetsu-2025/</link>
-      <guid isPermaLink="false">collabo-girls-band-cry-karatetsu-2025-2025-08-21_2025-09-28-hold@gbc-news</guid>
-      <pubDate>Thu, 21 Aug 2025 00:00:00 GMT</pubDate>
-      <category>event</category>
-      <category domain="group">togenashi</category>
-      <description>《Girls Band Cry》× 卡拉 OK 铁人 5 店联动于 2025 年 8 月 21 日–9 月 28 日举办：联名饮品、室田雄平全新绘制特典与周边、概念包厢及课题曲挑战。</description>
     </item>
     <item>
       <title>[举办] 8 月 21 日（四）起「Girls Band Cry × 卡拉 OK 铁人 COLLABORATION」举办！</title>
@@ -4069,6 +4051,16 @@
       <description>《剧场版总集篇 Girls Band Cry》【前篇】Movi-Ticket 线上预售券于 9/5 10:00 起发售，购买特典为前篇主视觉手机壁纸。</description>
     </item>
     <item>
+      <title>[举办] 「Girls Band Cry（GBC）弹出商店 2025」in atre 川崎！限定周边＆特典一览</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/25723</link>
+      <guid isPermaLink="false">gamepedia-25723-2025-09-13_2025-09-28-hold@gbc-news</guid>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>动画《Girls Band Cry（GBC）》弹出商店于作品舞台 atre 川崎自2025年9月13日至9月28日举办；销售「爆ぜて咲く Ver.」描き下ろし周边与香氛等，部分日期发放整理券。</description>
+    </item>
+    <item>
       <title>[发售] 无刺有刺 LIVE in 日本武道馆 “奏檄之叫” 9 月 13 日（六）18:00 起一般先到先得发售</title>
       <link>https://girls-band-cry.com/news/post-374.html</link>
       <guid isPermaLink="false">post-374-2025-09-13-sale-1800@gbc-news</guid>
@@ -4107,13 +4099,14 @@
       <description>东映动画官方商店预约贩售的人气 GBC 手办于 9/19 起在 AniBirth 池袋 PARCO・心斋桥 PARCO 店发售。</description>
     </item>
     <item>
-      <title>[举办] Girls Band Cry × 丸福咖啡店 7 店 9 月 20 日起联动举办！</title>
-      <link>https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-marufuku-coffee-2025/</link>
-      <guid isPermaLink="false">collabo-girls-band-cry-cafe-marufuku-coffee-2025-2025-09-20_2025-10-31-hold@gbc-news</guid>
+      <title>[发售] 《Girls Band Cry（GBC）》×金考斯联动！推活应援周边＆展示会！限定丝带发放也有【电影公开纪念】</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/32283</link>
+      <guid isPermaLink="false">gamepedia-32283-2025-09-20_2025-09-26-sale@gbc-news</guid>
       <pubDate>Sat, 20 Sep 2025 00:00:00 GMT</pubDate>
+      <category>goods</category>
       <category>event</category>
       <category domain="group">togenashi</category>
-      <description>《Girls Band Cry》× 丸福咖啡店 7 店联动咖啡厅于 2025 年 9 月 20 日–10 月 31 日举办，提供联名菜单与制服主题全新绘制限定周边。</description>
+      <description>金考斯联动自定制应援周边第一次受理2025年9月20日–9月26日、第二次与店头展示/丝带发放2025年10月3日–10月13日；川崎站前店另有等身面板等特别展示。</description>
     </item>
     <item>
       <title>[举办] 《Girls Band Cry》弹出商店 2025 年首次于中国华南举办！</title>
@@ -4216,6 +4209,16 @@
       <description>无刺有刺武道馆 LIVE “奏檄之叫”（9/23 开演 18:00）追加票种一般先到先得售票：9/13 18:00 起受理舞台侧后方席与 2F 后方立见席。</description>
     </item>
     <item>
+      <title>[举办] Girls Band Cry（GBC）盖章巡礼第6弹最新信息！徽章＆盖章本也有！哪里能盖？</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/34089</link>
+      <guid isPermaLink="false">gamepedia-34089-2025-09-24-hold@gbc-news</guid>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>《Girls Band Cry（GBC）》盖章巡礼第6弹自2025年9月24日起在川崎市内多处（含ラ チッタデッラ・チネチッタ等）实施；新增 Diamond Dust 的ヒナ印章，并有限定徽章与盖章本。</description>
+    </item>
+    <item>
       <title>[发售] 无刺有刺第 11 张 Single《薄采ディスプレイ》9 月 24 日（三）发售！</title>
       <link>https://girls-band-cry.com/news/post-363.html</link>
       <guid isPermaLink="false">post-363-2025-09-24-sale@gbc-news</guid>
@@ -4269,6 +4272,36 @@
       <description>Girls Band Cry POP UP STORE 于 LaLaport 川崎 Plaza 4F 举办：2025/10/2–11/3，设拍照点与馆内装饰；入場预约自 9/26 18:00 起在 Live Pocket 受理。</description>
     </item>
     <item>
+      <title>[举办] Girls Band Cry（GBC）弹出商店举办！新作周边信息＆销售店铺汇总</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/32005</link>
+      <guid isPermaLink="false">gamepedia-32005-2025-09-27_2025-10-13-hold@gbc-news</guid>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>剧场版总集篇公开纪念弹出商店于新宿丸井 ANNEX（2025年9月27日–10月13日）、名古屋セントラルパーク（10/24–10/27）、海老名丸井（10/31–11/24）顺次举办；销售等身立绘亚克力等新周边。</description>
+    </item>
+    <item>
+      <title>[举办] 「JR 东海×Girls Band Cry（GBC）」联动第2弹决定举办！新周边线与购入特典等最新信息</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/23459</link>
+      <guid isPermaLink="false">gamepedia-23459-2025-09-29_2025-12-07-hold@gbc-news</guid>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>JR 东海×《Girls Band Cry（GBC）》Vol.2 自2025年9月29日至12月7日举办；含数字盖章巡礼、新干线车内语音剧、描き下ろし周边，以及 GiGO 河原町オーパ 弹出商店（同期）。</description>
+    </item>
+    <item>
+      <title>[发售] GBC×卡拉铁周边！AMNIBUS 销售！新作亚克力立牌等全线介绍</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/37500</link>
+      <guid isPermaLink="false">gamepedia-37500-2025-09-29-sale@gbc-news</guid>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>《Girls Band Cry（GBC）》×「卡拉 OK の铁人」联动周边于 AMNIBUS 自2025年9月29日起受理；含私服 ver. 与浴衣ちびキャラ亚克力等，BOX 订单附限定徽章特典。</description>
+    </item>
+    <item>
       <title>[发售] 「桃香（を）ワッショイ」发售 &amp; 东京电玩展出展决定！</title>
       <link>https://girls-band-cry.com/news/post-377.html</link>
       <guid isPermaLink="false">post-377-2025-09-29_2025-10-12-sale@gbc-news</guid>
@@ -4280,6 +4313,16 @@
       <description>谜游戏《桃香（を）ワッショイ》于 9/29 在 Steam 发售（定价 500 日元，10/12 前特价 350 日元），并将于 9/25–28 在幕张 Messe 东京电玩展 2025 出展。</description>
     </item>
     <item>
+      <title>[发售] GBC 周边展会 2025！animate 限定特典＆预约信息汇总｜有机会拿到明信片！</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/36849</link>
+      <guid isPermaLink="false">gamepedia-36849-2025-10-01-sale-1200@gbc-news</guid>
+      <pubDate>Wed, 01 Oct 2025 03:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>TV动画《Girls Band Cry（GBC）》周边展会 in animate 于2025年12月19日至2026年1月12日在全国多家 animate 举办；销售居家服主题描き下ろし周边，购入/预约内金每1100日元赠明信片。通贩预约自10月1日12:00起。</description>
+    </item>
+    <item>
       <title>[举办] 2025/10/2（四）–11/3（一）于 LaLaport 川崎 Plaza 4F 举办 Girls Band Cry POP UP STORE！</title>
       <link>https://girls-band-cry.com/news/post-381.html</link>
       <guid isPermaLink="false">post-381-2025-10-02_2025-11-03-hold@gbc-news</guid>
@@ -4288,6 +4331,25 @@
       <category>event</category>
       <category domain="group">togenashi</category>
       <description>Girls Band Cry POP UP STORE 于 LaLaport 川崎 Plaza 4F 举办：2025/10/2–11/3，设拍照点与馆内装饰；入場预约自 9/26 18:00 起在 Live Pocket 受理。</description>
+    </item>
+    <item>
+      <title>[举办] 《Girls Band Cry（GBC）》×金考斯联动！推活应援周边＆展示会！限定丝带发放也有【电影公开纪念】</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/32283</link>
+      <guid isPermaLink="false">gamepedia-32283-2025-10-03_2025-10-13-hold@gbc-news</guid>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>金考斯联动自定制应援周边第一次受理2025年9月20日–9月26日、第二次与店头展示/丝带发放2025年10月3日–10月13日；川崎站前店另有等身面板等特别展示。</description>
+    </item>
+    <item>
+      <title>[发售] GBC 粉丝必看！Gatebox「应援计时器」与井芹仁菜一起专注！通常版/特别版区别</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/38384</link>
+      <guid isPermaLink="false">gamepedia-38384-2025-10-03-sale@gbc-news</guid>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category domain="group">togenashi</category>
+      <description>Gatebox 于2025年10月3日发售动画《Girls Band Cry（GBC）》数字手办扩展包「应援计时器」；可用井芹仁菜应援语音辅助专注，分通常版与特别版。</description>
     </item>
     <item>
       <title>[举办] Girls Band Cry 剧场版总集篇 teaser 视觉公开！预售券 3/20（四・祝）发售！</title>
@@ -4380,15 +4442,6 @@
       <description>《【后篇】なぁ、未来。》Movi-Ticket 线上预售券于 10/3 18:00 起发售，购买特典为后篇主视觉手机壁纸。</description>
     </item>
     <item>
-      <title>[举办] Girls Band Cry 限定店 in 东京/大阪/爱知 10 月 4 日起陆续举办！</title>
-      <link>https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-cocollabo-tokyo-osaka-aichi-2025/</link>
-      <guid isPermaLink="false">collabo-girls-band-cry-pop-up-store-cocollabo-tokyo-osaka-aichi-2025-2025-10-04_2025-10-20-hold@gbc-news</guid>
-      <pubDate>Sat, 04 Oct 2025 00:00:00 GMT</pubDate>
-      <category>event</category>
-      <category domain="group">togenashi</category>
-      <description>《Girls Band Cry》弹出商店于东京/大阪/爱知举办：大阪 10/4–10/20、东京 10/30–11/12、名古屋 11/20–12/1，销售中式服装全新绘制周边；满 3000 日元随机赠写真 1 张。</description>
-    </item>
-    <item>
       <title>[举办] 全国 animate 举办展会决定！</title>
       <link>https://girls-band-cry.com/news/post-359.html</link>
       <guid isPermaLink="false">post-359-2025-10-04_2025-10-26-hold@gbc-news</guid>
@@ -4458,6 +4511,15 @@
       <description>《【前篇】青春狂走曲》10/4–5 舞台问候：ぴあ一般发售分别于 10/1 16:00、10/2 16:00 截止；于川崎 Cinecitta、川崎、梅田、姬路等举办。</description>
     </item>
     <item>
+      <title>[发售] Girls Band Cry（GBC）周边开始预约！亚克力钥匙扣等粉丝必看单品！</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/39742</link>
+      <guid isPermaLink="false">gamepedia-39742-2025-10-07_2025-10-29-sale@gbc-news</guid>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category domain="group">togenashi</category>
+      <description>シンクイノベーション 于 VVIT 自2025年10月7日12:00起至10月29日23:59受理《Girls Band Cry（GBC）》新周边预约（亚克力钥匙扣、立牌、徽章等），出货预定12月下旬。</description>
+    </item>
+    <item>
       <title>[举办] 10 月 11 日（六）・12 日（日）《【前篇】青春狂走曲》舞台问候门票一般发售通知</title>
       <link>https://girls-band-cry.com/news/post-407.html</link>
       <guid isPermaLink="false">post-407-2025-10-11-hold@gbc-news</guid>
@@ -4490,15 +4552,6 @@
       <description>纪念无刺有刺『4th ONE-MAN LIVE “协奏之响”』（10/22 发售）于 10/16 19:00–20:00 在 Limista 举办线上 talk 配信＆签名会（理名・夕莉・朱李出演预定）。</description>
     </item>
     <item>
-      <title>[举办] 剧场版总集篇 Girls Band Cry 联动咖啡厅 in 秋叶原 10 月 17 日起举办！</title>
-      <link>https://collabo-cafe.com/events/collabo/girls-band-cry-movie-cure-maid-cafe-2025/</link>
-      <guid isPermaLink="false">collabo-girls-band-cry-movie-cure-maid-cafe-2025-2025-10-17_2025-11-03-hold@gbc-news</guid>
-      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
-      <category>event</category>
-      <category domain="group">togenashi</category>
-      <description>《剧场版总集篇 Girls Band Cry》× Cure Maid Cafe 秋叶原联动咖啡厅于 2025 年 10 月 17 日–11 月 3 日举办；点单赠限定卡片，同楼 Gran Entas 亦销售联动周边。</description>
-    </item>
-    <item>
       <title>[举办] 全新绘制插图周边公开！10/17（五）起于 Atre 秋叶原举办《Girls Band Cry POP UP SHOP》</title>
       <link>https://girls-band-cry.com/news/post-396.html</link>
       <guid isPermaLink="false">post-396-2025-10-17-hold@gbc-news</guid>
@@ -4520,6 +4573,15 @@
       <category>cinema</category>
       <category domain="group">togenashi</category>
       <description>纪念剧场版前后篇上映，联动咖啡厅于 Cure Maid Cafe 举办：2025 年 10 月 17 日–11 月 3 日；点单赠限定卡片，并与 Atre 秋叶原 POP UP SHOP 联动赠特典。仁菜生日饮品 10/22–28 限定提供。</description>
+    </item>
+    <item>
+      <title>[发售] GBC×arti-mate 新作周边！animate 限定「直播巡演」周边全种公开！</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/12678</link>
+      <guid isPermaLink="false">gamepedia-12678-2025-10-18-sale@gbc-news</guid>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category domain="group">togenashi</category>
+      <description>arti-mate（alma bianca×animate）推出《Girls Band Cry（GBC）》直播巡演 ver. 周边；自2025年7月30日起可预约，2025年10月18日发售，animate 限定店售（池袋・秋叶原・涩谷・梅田等）及通贩。</description>
     </item>
     <item>
       <title>[举办] 10 月 18 日（六）・19 日（日）《【前篇】青春狂走曲》舞台问候门票一般发售通知</title>
@@ -4576,6 +4638,16 @@
       <description>《Girls Band Cry》× HMV 弹出商店于东京・福冈・神奈川（10/24–11/9）与大阪・宫城（11/27–12/14）举办，销售酒井香澄全新绘制周边；满 2000 日元随机赠透明卡 1 张。</description>
     </item>
     <item>
+      <title>[举办] Girls Band Cry（GBC）弹出商店举办！新作周边信息＆销售店铺汇总</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/32005</link>
+      <guid isPermaLink="false">gamepedia-32005-2025-10-24_2025-10-27-hold@gbc-news</guid>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>剧场版总集篇公开纪念弹出商店于新宿丸井 ANNEX（2025年9月27日–10月13日）、名古屋セントラルパーク（10/24–10/27）、海老名丸井（10/31–11/24）顺次举办；销售等身立绘亚克力等新周边。</description>
+    </item>
+    <item>
       <title>[举办] 特别联动决定！「剧场版总集篇 Girls Band Cry」✕「僵尸乐园传说 梦银河乐园」</title>
       <link>https://girls-band-cry.com/news/post-392.html</link>
       <guid isPermaLink="false">post-392-2025-10-24_2025-11-23-hold@gbc-news</guid>
@@ -4599,15 +4671,6 @@
       <description>为纪念仁菜生日，10/24 于新宿 B9、川崎 Cinecitta、T・Joy 梅田举办《【前篇】青春狂走曲》应援上映（可出声应援、附日语字幕）；到场赠迷你色纸第 1・2 弹各 1 张。</description>
     </item>
     <item>
-      <title>[举办] Girls Band Cry 限定店 in 东京/大阪/爱知 10 月 4 日起陆续举办！</title>
-      <link>https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-cocollabo-tokyo-osaka-aichi-2025/</link>
-      <guid isPermaLink="false">collabo-girls-band-cry-pop-up-store-cocollabo-tokyo-osaka-aichi-2025-2025-10-30_2025-11-12-hold@gbc-news</guid>
-      <pubDate>Thu, 30 Oct 2025 00:00:00 GMT</pubDate>
-      <category>event</category>
-      <category domain="group">togenashi</category>
-      <description>《Girls Band Cry》弹出商店于东京/大阪/爱知举办：大阪 10/4–10/20、东京 10/30–11/12、名古屋 11/20–12/1，销售中式服装全新绘制周边；满 3000 日元随机赠写真 1 张。</description>
-    </item>
-    <item>
       <title>[举办] 10 月 4 日（六）起《Girls Band Cry》POP UP SHOP 于全国 Loft 三店举办！</title>
       <link>https://girls-band-cry.com/news/post-401.html</link>
       <guid isPermaLink="false">post-401-2025-10-30_2025-11-12-hold@gbc-news</guid>
@@ -4617,6 +4680,16 @@
       <category>event</category>
       <category domain="group">togenashi</category>
       <description>《Girls Band Cry》POP UP SHOP 于 Loft 三店举办：大阪 10/4–10/20、东京池袋 10/30–11/12、名古屋 11/20–12/1，销售酒井香澄中式服装全新绘制周边。</description>
+    </item>
+    <item>
+      <title>[举办] Girls Band Cry（GBC）弹出商店举办！新作周边信息＆销售店铺汇总</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/32005</link>
+      <guid isPermaLink="false">gamepedia-32005-2025-10-31_2025-11-24-hold@gbc-news</guid>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>剧场版总集篇公开纪念弹出商店于新宿丸井 ANNEX（2025年9月27日–10月13日）、名古屋セントラルパーク（10/24–10/27）、海老名丸井（10/31–11/24）顺次举办；销售等身立绘亚克力等新周边。</description>
     </item>
     <item>
       <title>[发售] 《【后篇】なぁ、未来。》首日舞台问候 &amp; 舞台问候巡演举办决定！</title>
@@ -4638,6 +4711,16 @@
       <category>live</category>
       <category domain="group">togenashi</category>
       <description>无刺有刺将出演 Natalie × 日本工学院蒲田祭 School Festival LIVE：2025 年 11 月 3 日于日本工学院 Arena，开演 15:30。</description>
+    </item>
+    <item>
+      <title>[发售] Girls Band Cry（GBC）BLACK COLLECTION by ZOZOTOWN！能买什么？价格多少？</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/51582</link>
+      <guid isPermaLink="false">gamepedia-51582-2025-11-07_2025-12-01-sale@gbc-news</guid>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>《Girls Band Cry（GBC）》×ZOZOTOWN「BLACK COLLECTION」于 ZOZOTOWN 限定自2025年11月7日正午起受理至12月1日11:59；含 T 恤、卫衣等共8种，送达预定2026年4月上旬。</description>
     </item>
     <item>
       <title>[举办] 11 月 7 日（五）・8 日（六）连续两天工作人员 talk @ T・Joy 西武大泉 &amp; 川崎 Cinecitta 举办决定！</title>
@@ -4813,15 +4896,6 @@
       <description>无刺有刺 EP《小指立てませんか》（2025/11/19 发售）与《全部をさらして生きてやる》（2025/12/17 发售）决定发售，并陆续开始先行配信。</description>
     </item>
     <item>
-      <title>[举办] Girls Band Cry 限定店 in 东京/大阪/爱知 10 月 4 日起陆续举办！</title>
-      <link>https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-cocollabo-tokyo-osaka-aichi-2025/</link>
-      <guid isPermaLink="false">collabo-girls-band-cry-pop-up-store-cocollabo-tokyo-osaka-aichi-2025-2025-11-20_2025-12-01-hold@gbc-news</guid>
-      <pubDate>Thu, 20 Nov 2025 00:00:00 GMT</pubDate>
-      <category>event</category>
-      <category domain="group">togenashi</category>
-      <description>《Girls Band Cry》弹出商店于东京/大阪/爱知举办：大阪 10/4–10/20、东京 10/30–11/12、名古屋 11/20–12/1，销售中式服装全新绘制周边；满 3000 日元随机赠写真 1 张。</description>
-    </item>
-    <item>
       <title>[举办] 10 月 4 日（六）起《Girls Band Cry》POP UP SHOP 于全国 Loft 三店举办！</title>
       <link>https://girls-band-cry.com/news/post-401.html</link>
       <guid isPermaLink="false">post-401-2025-11-20_2025-12-01-hold@gbc-news</guid>
@@ -4842,15 +4916,6 @@
       <description>《Girls Band Cry》× HMV 弹出商店于东京・福冈・神奈川（10/24–11/9）与大阪・宫城（11/27–12/14）举办，销售酒井香澄全新绘制周边；满 2000 日元随机赠透明卡 1 张。</description>
     </item>
     <item>
-      <title>[发售] Girls Band Cry × 英式酒吧 HUB 全新绘制联动周边发售！</title>
-      <link>https://collabo-cafe.com/events/collabo/girls-band-cry-hub-amiami-anime-store-goods2025/</link>
-      <guid isPermaLink="false">collabo-girls-band-cry-hub-amiami-anime-store-goods2025-2025-11-30-sale@gbc-news</guid>
-      <pubDate>Sun, 30 Nov 2025 00:00:00 GMT</pubDate>
-      <category>goods</category>
-      <category domain="group">togenashi</category>
-      <description>《Girls Band Cry（GBC）》× HUB 联动周边预定 2026 年 3 月一般发售；HUB 店内先行销售已于 2025 年 11 月 14 日起举办。Anime Store.JP 预约至 2025 年 11 月 30 日。</description>
-    </item>
-    <item>
       <title>[举办] 11/15（六）起《Girls Band Cry POP UP SHOP filming ver.》于 TOWER RECORDS 四店举办！</title>
       <link>https://girls-band-cry.com/news/post-418.html</link>
       <guid isPermaLink="false">post-418-2025-12-01_2025-12-14-hold@gbc-news</guid>
@@ -4869,6 +4934,16 @@
       <category>other</category>
       <category domain="group">togenashi</category>
       <description>酒井香澄绘制周边线上抽选销售期 12/1–12/31；约 2026 年 3 月中旬起发货。</description>
+    </item>
+    <item>
+      <title>[发售] GBC 新周边！BIC CAMERA 集团先行发售开始！全线与购入特典</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/67561</link>
+      <guid isPermaLink="false">gamepedia-67561-2025-12-05_2025-12-21-sale@gbc-news</guid>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>《Girls Band Cry（GBC）》描き下ろし「- DOG Dress-」周边于 BIC CAMERA 集团等自2025年12月5日至12月21日先行发售；含亚克力立牌、徽章、挂毯等，购入有特典。</description>
     </item>
     <item>
       <title>[发售] Bic Camera 集团第二弹展会举办决定！</title>
@@ -4967,6 +5042,34 @@
       <description>无刺有刺 EP《小指立てませんか》（2025/11/19 发售）与《全部をさらして生きてやる》（2025/12/17 发售）决定发售，并陆续开始先行配信。</description>
     </item>
     <item>
+      <title>[举办] GBC 周边展会 2025！animate 限定特典＆预约信息汇总｜有机会拿到明信片！</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/36849</link>
+      <guid isPermaLink="false">gamepedia-36849-2025-12-19_2026-01-12-hold@gbc-news</guid>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>TV动画《Girls Band Cry（GBC）》周边展会 in animate 于2025年12月19日至2026年1月12日在全国多家 animate 举办；销售居家服主题描き下ろし周边，购入/预约内金每1100日元赠明信片。通贩预约自10月1日12:00起。</description>
+    </item>
+    <item>
+      <title>[发售] GBC 靠垫套5种！让房间更有氛围！预约受理中</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/64567</link>
+      <guid isPermaLink="false">gamepedia-64567-2025-12-21-sale@gbc-news</guid>
+      <pubDate>Sun, 21 Dec 2025 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category domain="group">togenashi</category>
+      <description>二次元 COSPA 推出《Girls Band Cry（GBC）》双面印刷靠垫套全5种（井芹仁菜・河原木桃香・安和昴・海老塚智・RUPA，税入3300日元）；基本预约受理至2025年12月21日，发售预定2026年3月中旬。</description>
+    </item>
+    <item>
+      <title>[发售] GBC 乐队总谱 vol.3 决定发售！全10曲收录＆预约受理中！</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/61440</link>
+      <guid isPermaLink="false">gamepedia-61440-2025-12-22-sale@gbc-news</guid>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category domain="group">togenashi</category>
+      <description>雅马哈音乐娱乐控股于2025年12月22日发售动画《Girls Band Cry（GBC）》乐队总谱 vol.3（税入4400日元，B5/156页），收录无刺有刺曲目共10首；vol.1–2 已发售。</description>
+    </item>
+    <item>
       <title>[举办] 无刺有刺决定出演「rockin&apos;on presents COUNTDOWN JAPAN 25/26」！</title>
       <link>https://girls-band-cry.com/news/post-420.html</link>
       <guid isPermaLink="false">post-420-2025-12-27-hold@gbc-news</guid>
@@ -5016,6 +5119,16 @@
       <description>二次元 COSPA 推出无刺有刺成员领带、全印花 T 恤、120cm 大毛巾等；12/30–31 Comic Market 107 ジーストア展位先行发售，一般发售预定 2026 年 4 月上旬。</description>
     </item>
     <item>
+      <title>[举办] GBC 弹出商店举办！未来屋书店6店限定周边销售｜会场・会期一览</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/79062</link>
+      <guid isPermaLink="false">gamepedia-79062-2026-01-09_2026-02-11-hold@gbc-news</guid>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>《Girls Band Cry（GBC）》弹出商店于未来屋书店6店「コミLab.」自2026年1月9日至2月11日举办；销售描き下ろし限定周边，购入赠名片尺寸特典卡，部分店铺设等身面板打卡点。</description>
+    </item>
+    <item>
       <title>[发售] 无刺有刺 Zepp Tour 2026 “拍動の未来” 一般先到先得发售决定！</title>
       <link>https://girls-band-cry.com/news/post-446.html</link>
       <guid isPermaLink="false">post-446-2026-01-10-sale-1300@gbc-news</guid>
@@ -5063,6 +5176,15 @@
       <description>TV 动画《Girls Band Cry》漫画化将于 2026 年 1 月 30 日起在 WEB 杂志「Comic Ride」／ライコミ开始连载配信，预定每周五更新。</description>
     </item>
     <item>
+      <title>[发售] 《Girls Band Cry（GBC）》AMNIBUS 开始受理 Y2K 时尚 ver. 新周边！</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/95286</link>
+      <guid isPermaLink="false">gamepedia-95286-2026-02-02-sale@gbc-news</guid>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category domain="group">togenashi</category>
+      <description>AMNIBUS 自2026年2月2日起受理《Girls Band Cry（GBC）》描き下ろし Y2K 时尚 ver. 周边全11种（井芹仁菜・河原木桃香・安和昴・海老塚智・RUPA 及 Diamond Dust 等），含亚克力卡与徽章。</description>
+    </item>
+    <item>
       <title>[举办] RAISE A SUILEN × 无刺有刺「RAISE MY CATHARSIS」同步观看 Space 配信决定</title>
       <link>https://girls-band-cry.com/news/post-453.html</link>
       <guid isPermaLink="false">post-453-2026-02-02-hold-2000@gbc-news</guid>
@@ -5103,6 +5225,15 @@
       <category>event</category>
       <category domain="group">togenashi</category>
       <description>二次元 COSPA 推出无刺有刺疲劳夹克、桃香「竖中指！」T 恤等周边；部分商品于 2/8 Wonder Festival 2026［冬］COSPA 展位先行发售，一般发售预定 2026 年 4 月中旬。</description>
+    </item>
+    <item>
+      <title>[发售] 「桃香（を）ワッショイ」Switch 版众筹 1小时37分达标！回报品也更新！</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/98803</link>
+      <guid isPermaLink="false">gamepedia-98803-2026-02-09_2026-03-31-sale@gbc-news</guid>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category domain="group">togenashi</category>
+      <description>东映动画宣布 Nintendo Switch 版《桃香（を）ワッショイ》众筹自2026年2月9日20:00起至3月31日23:59，开始约1小时37分即达成目标300万日元；支援方案与回报已更新。</description>
     </item>
     <item>
       <title>[发售] 桃ワショ Switch 移植项目启动！</title>
@@ -5220,15 +5351,6 @@
       <category>event</category>
       <category domain="group">togenashi</category>
       <description>《Girls Band Cry（GBC）》× and GALLERY 四店（池袋・道顿堀・名古屋・福冈）联动咖啡厅于 2026 年 2 月 4 日–3 月 15 日举办；提供联动菜单与无刺有刺原创插图限定周边，并有来店／点单／购入／预约特典。部分周边自 2/24 起追加发售。</description>
-    </item>
-    <item>
-      <title>[举办] Girls Band Cry「和装牛仔 ver.」限定店 in 东京 2 月 27 日起举办！</title>
-      <link>https://collabo-cafe.com/events/collabo/girls-band-cry-japanese-clothing-denim-treevillage2026/</link>
-      <guid isPermaLink="false">collabo-girls-band-cry-japanese-clothing-denim-treevillage2026-2026-02-27_2026-03-16-hold@gbc-news</guid>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-      <category>event</category>
-      <category domain="group">togenashi</category>
-      <description>《Girls Band Cry（GBC）》弹出商店于 Tree Village 东京店举办：2026 年 2 月 27 日–3 月 16 日，销售无刺有刺成员和装牛仔 ver. 全新绘制周边；满 2200 日元（含税）随机赠迷你写真 1 张。</description>
     </item>
     <item>
       <title>[举办] Girls Band Cry（GBC）× 三丽鸥弹出商店 in 全国8店 2月28日起举办！</title>
@@ -5380,15 +5502,6 @@
       <description>无刺有刺 Zepp Tour 2026 “拍動の未来” 一般先到先得售票：1 月 10 日 13:00 起受理。巡演 2/11 横滨、2/14 福冈、2/23 名古屋、2/28 札幌、3/8 大阪、3/13–14 东京 DiverCity。</description>
     </item>
     <item>
-      <title>[举办] GBC White Focus 弹出商店 in Village Vanguard 3月19日起举办！</title>
-      <link>https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-store-village-v2026/</link>
-      <guid isPermaLink="false">collabo-girls-band-cry-white-focus-popup-store-village-v2026-2026-03-19_2026-04-05-hold@gbc-news</guid>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 GMT</pubDate>
-      <category>event</category>
-      <category domain="group">togenashi</category>
-      <description>《Girls Band Cry（GBC）》White Focus 弹出商店于 Village Vanguard 各店举办，使用井芹仁菜、RUPA、安和昴、河原木桃香、海老塚智白色服装新绘插图周边。会期：川崎3/19–4/5、阿倍野3/20–4/5、福冈天神4/10–4/26、名古屋4/29–5/6。</description>
-    </item>
-    <item>
       <title>[发售] 《Girls Band Cry（GBC）》Village Vanguard 限定周边决定发售！！</title>
       <link>https://girls-band-cry.com/news/post-461.html</link>
       <guid isPermaLink="false">post-461-2026-03-19-sale@gbc-news</guid>
@@ -5396,15 +5509,6 @@
       <category>goods</category>
       <category domain="group">togenashi</category>
       <description>自2026年3月19日起，Village Vanguard 对象店铺发售东映动画新绘「White Focus」系列无刺有刺周边；Village Vanguard 线上商店亦在先行受理预约。</description>
-    </item>
-    <item>
-      <title>[举办] GBC White Focus 弹出商店 in Village Vanguard 3月19日起举办！</title>
-      <link>https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-store-village-v2026/</link>
-      <guid isPermaLink="false">collabo-girls-band-cry-white-focus-popup-store-village-v2026-2026-03-20_2026-04-05-hold@gbc-news</guid>
-      <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
-      <category>event</category>
-      <category domain="group">togenashi</category>
-      <description>《Girls Band Cry（GBC）》White Focus 弹出商店于 Village Vanguard 各店举办，使用井芹仁菜、RUPA、安和昴、河原木桃香、海老塚智白色服装新绘插图周边。会期：川崎3/19–4/5、阿倍野3/20–4/5、福冈天神4/10–4/26、名古屋4/29–5/6。</description>
     </item>
     <item>
       <title>[发售] Canna Lily 第1场个人演唱会「未明に咲く花」决定举办！</title>
@@ -5415,6 +5519,15 @@
       <category>event</category>
       <category domain="group">canna-lily</category>
       <description>Canna Lily 第1场个人演唱会「未明に咲く花」于2026年6月26日在代官山 UNIT 举办，开演19:00。先行抽选受理为2026年3月22日21:00–4月1日23:59。</description>
+    </item>
+    <item>
+      <title>[发售] Girls Band Cry（GBC）乐队总谱 vol.4 3/24 发售！收录曲目一览</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/116841</link>
+      <guid isPermaLink="false">gamepedia-116841-2026-03-24-sale@gbc-news</guid>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category domain="group">togenashi</category>
+      <description>雅马哈音乐娱乐控股于2026年3月24日发售动画《Girls Band Cry（GBC）》乐队总谱 vol.4（税入4400日元，B5/148页），收录包括片尾主题歌等曲目；vol.1–3 已发售。</description>
     </item>
     <item>
       <title>[发售] 无刺有刺『5th ONE-MAN LIVE “鳴動の刻”』[Blu-ray][DVD] 发售决定！</title>
@@ -5451,6 +5564,15 @@
       <description>无刺有刺 TOUR 2026 FINAL “拍動の未来 -ENCORE-” 将于2026年5月1日在东京花园剧场举办，开演19:00。最快先行抽选受理为2026年3月25日–4月6日，申请券封入3月25日发售的 Live Blu-ray &amp; DVD「5th ONE-MAN LIVE “鳴動の刻”」。</description>
     </item>
     <item>
+      <title>[发售] 《Girls Band Cry（GBC）》描き下ろし舞台服装风周边＆项链开始预约！</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/127061</link>
+      <guid isPermaLink="false">gamepedia-127061-2026-03-27_2026-04-17-sale@gbc-news</guid>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category domain="group">togenashi</category>
+      <description>舞台服装风描き下ろし周边（含拨片项链、亚克力立牌等）于ゲツオシマート等自2026年3月27日12:00起预约至4月17日12:00；角色含井芹仁菜・河原木桃香・安和昴・海老塚智・RUPA。</description>
+    </item>
+    <item>
       <title>[举办] 无刺有刺『5th ONE-MAN LIVE “鳴動の刻”』发售纪念线上 talk 配信决定举办！</title>
       <link>https://girls-band-cry.com/news/post-456.html</link>
       <guid isPermaLink="false">post-456-2026-03-27-hold-1900@gbc-news</guid>
@@ -5480,15 +5602,6 @@
       <category>event</category>
       <category domain="group">togenashi</category>
       <description>二次元 COSPA 推出酒井香澄新绘「全彩 T 恤 爆ぜて咲く Ver.」及徽章、报纸袋、环保袋等周边；将于2026年3月28日–3月29日东京 Big Sight《AnimeJapan 2026》COSPA 展位先行发售，一般销售预定2026年6月中旬。</description>
-    </item>
-    <item>
-      <title>[举办] GBC SCREAM CAFE in Tree Village 四店 4月4日起开始！</title>
-      <link>https://collabo-cafe.com/events/collabo/girls-band-cry-scream-cafe-treevillage-2026/</link>
-      <guid isPermaLink="false">collabo-girls-band-cry-scream-cafe-treevillage-2026-2026-04-04_2026-04-17-hold@gbc-news</guid>
-      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
-      <category>event</category>
-      <category domain="group">togenashi</category>
-      <description>《Girls Band Cry（GBC）》× Tree Village 四店（东京、横滨、大阪、博多）自2026年4月4日起顺次举办联动咖啡厅。会期：东京4/4–4/17，横滨4/24–5/15，大阪・博多6/6–6/18；提供联动菜单、随机杯垫与「SCREAM」限定周边。</description>
     </item>
     <item>
       <title>[举办] 「CON-CON HONG KONG 2026」出演决定！</title>
@@ -5532,13 +5645,13 @@
       <description>《Girls Band Cry（GBC）》× AMNIBUS 弹出商店于涩谷 MODI 举办，会期2026年4月7日–4月14日；售卖以「In the rain ver.」为主题的井芹仁菜、河原木桃香、安和昴、海老塚智、RUPA 新绘周边，满2000日元（含税）随机赠送明信片。</description>
     </item>
     <item>
-      <title>[举办] GBC White Focus 弹出商店 in Village Vanguard 3月19日起举办！</title>
-      <link>https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-store-village-v2026/</link>
-      <guid isPermaLink="false">collabo-girls-band-cry-white-focus-popup-store-village-v2026-2026-04-10_2026-04-26-hold@gbc-news</guid>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-      <category>event</category>
+      <title>[发售] GBC 新周边！AMNIBUS 雨天 Ver. 描き下ろし周边开始受理！｜种类・价格汇总</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/138198</link>
+      <guid isPermaLink="false">gamepedia-138198-2026-04-07-sale@gbc-news</guid>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+      <category>goods</category>
       <category domain="group">togenashi</category>
-      <description>《Girls Band Cry（GBC）》White Focus 弹出商店于 Village Vanguard 各店举办，使用井芹仁菜、RUPA、安和昴、河原木桃香、海老塚智白色服装新绘插图周边。会期：川崎3/19–4/5、阿倍野3/20–4/5、福冈天神4/10–4/26、名古屋4/29–5/6。</description>
+      <description>AMNIBUS 自2026年4月7日起受理动画《Girls Band Cry（GBC）》描き下ろし「In the rain ver.」周边全13种（井芹仁菜・河原木桃香・安和昴・海老塚智・RUPA 等），含亚克力卡、徽章等日常可用单品。</description>
     </item>
     <item>
       <title>[举办] TV动画《Girls Band Cry（GBC）》播出2周年关注＆转发活动举办！</title>
@@ -5581,15 +5694,6 @@
       <description>为纪念 GBC 项目启动3周年，《剧场版总集篇 Girls Band Cry（GBC）【前篇】青春狂走曲》与【后篇】なぁ、未来。将在新宿 Wald 9、立川 Cinema City、川崎 Cinecitta、T・Joy 梅田连续两晚上映：前篇4月22日、后篇4月23日。各影院上映时间不同，并附第4周入场特典与 GBC 观影礼仪讲座一举上映。</description>
     </item>
     <item>
-      <title>[举办] GBC SCREAM CAFE in Tree Village 四店 4月4日起开始！</title>
-      <link>https://collabo-cafe.com/events/collabo/girls-band-cry-scream-cafe-treevillage-2026/</link>
-      <guid isPermaLink="false">collabo-girls-band-cry-scream-cafe-treevillage-2026-2026-04-24_2026-05-15-hold@gbc-news</guid>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-      <category>event</category>
-      <category domain="group">togenashi</category>
-      <description>《Girls Band Cry（GBC）》× Tree Village 四店（东京、横滨、大阪、博多）自2026年4月4日起顺次举办联动咖啡厅。会期：东京4/4–4/17，横滨4/24–5/15，大阪・博多6/6–6/18；提供联动菜单、随机杯垫与「SCREAM」限定周边。</description>
-    </item>
-    <item>
       <title>[举办] 4/4 起联动咖啡厅《Girls Band Cry（GBC）SCREAM CAFE in Tree Village》在 Tree Village 举办！</title>
       <link>https://girls-band-cry.com/news/post-463.html</link>
       <guid isPermaLink="false">post-463-2026-04-24_2026-05-15-hold@gbc-news</guid>
@@ -5598,6 +5702,16 @@
       <category>event</category>
       <category domain="group">togenashi</category>
       <description>《Girls Band Cry（GBC）SCREAM CAFE in Tree Village》于东京、横滨、大阪、博多举办。会期：东京4/4–4/17，横滨4/24–5/15，大阪・博多6/6–6/18；使用酒井香澄绘制的「SCREAM」插图推出联动菜单和限定周边。</description>
+    </item>
+    <item>
+      <title>[发售] 《Girls Band Cry（GBC）》手表5种开始受理！价格・设计一览</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/150391</link>
+      <guid isPermaLink="false">gamepedia-150391-2026-04-24-sale-1200@gbc-news</guid>
+      <pubDate>Fri, 24 Apr 2026 03:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>AMNIBUS 自2026年4月24日12:00起受理《Girls Band Cry（GBC）》成员形象手表全5种（井芹仁菜・河原木桃香・安和昴・海老塚智・RUPA），各税入9878日元。</description>
     </item>
     <item>
       <title>[举办] 《剧场版总集篇 Girls Band Cry（GBC）》【前篇】青春狂走曲 / 【后篇】なぁ、未来。Blu-ray/DVD 将于2026年7月22日发售！</title>
@@ -5612,6 +5726,16 @@
       <category>media</category>
       <category domain="group">togenashi</category>
       <description>2025年公开的《剧场版总集篇 Girls Band Cry（GBC）》前篇与后篇确定发行 Blu-ray/DVD，发售日为2026年7月22日。完全受注限定毛绒玩偶套装预约截止4月26日23:59；发售纪念线上 talk 配信为前篇4月24日19:00、后篇7月10日19:00。</description>
+    </item>
+    <item>
+      <title>[举办] Girls Band Cry（GBC）×くまみね 新商品登场！animate 卫星弹出商店举办！</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/146140</link>
+      <guid isPermaLink="false">gamepedia-146140-2026-04-25_2026-05-24-hold@gbc-news</guid>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>动画《Girls Band Cry（GBC）》与くまみね联动周边于全国部分 animate 举办卫星弹出商店：第1弹2026年4月25日–5月24日、第2弹5月30日–6月28日；销售描き起こし Q版亚克力积木等。</description>
     </item>
     <item>
       <title>[发售] 《剧场版总集篇 Girls Band Cry（GBC）》【前篇】青春狂走曲 / 【后篇】なぁ、未来。Blu-ray/DVD 将于2026年7月22日发售！</title>
@@ -5658,15 +5782,6 @@
       <description>公开 UNIVERSAL MUSIC STORE 与东映动画官方商店限定销售的毛绒玩偶套装中「在剧场举止不佳的井芹仁菜原创玩偶」插图。预约截止为2026年4月26日23:59，发售日为2026年7月22日。</description>
     </item>
     <item>
-      <title>[举办] GBC White Focus 弹出商店 in Village Vanguard 3月19日起举办！</title>
-      <link>https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-store-village-v2026/</link>
-      <guid isPermaLink="false">collabo-girls-band-cry-white-focus-popup-store-village-v2026-2026-04-29_2026-05-06-hold@gbc-news</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <category>event</category>
-      <category domain="group">togenashi</category>
-      <description>《Girls Band Cry（GBC）》White Focus 弹出商店于 Village Vanguard 各店举办，使用井芹仁菜、RUPA、安和昴、河原木桃香、海老塚智白色服装新绘插图周边。会期：川崎3/19–4/5、阿倍野3/20–4/5、福冈天神4/10–4/26、名古屋4/29–5/6。</description>
-    </item>
-    <item>
       <title>[举办] 无刺有刺 TOUR 2026 FINAL “拍動の未来 -ENCORE-” 决定举办！</title>
       <link>https://girls-band-cry.com/news/post-466.html</link>
       <guid isPermaLink="false">post-466-2026-05-01-hold-1900@gbc-news</guid>
@@ -5690,6 +5805,15 @@
       <description>无刺有刺确定出演滋贺县草津市乌丸半岛芝生广场举办的 FEST. INAZUMA 2026，出演日为2026年9月19日。音乐节整体会期为9月19日–9月21日；官方最快先行抽选受理为5月8日17:00–5月24日23:59。</description>
     </item>
     <item>
+      <title>[发售] 《Girls Band Cry（GBC）》ちびとこ周边7种开始预约！AMNIBUS限定特典也有</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/159476</link>
+      <guid isPermaLink="false">gamepedia-159476-2026-05-11-sale@gbc-news</guid>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category domain="group">togenashi</category>
+      <description>AMNIBUS 自2026年5月11日起受理《Girls Band Cry（GBC）》「ちびとこ」系列周边7种预约（亚克力马口铁等）；含无刺有刺与 Diamond Dust 角色，BOX 订单附 AMNIBUS 限定特典。</description>
+    </item>
+    <item>
       <title>[举办] GBC × 三丽鸥弹出商店 in TOWER RECORDS 5月16日起举办！</title>
       <link>https://collabo-cafe.com/events/collabo/girls-band-cry-sanrio-pop-up-store-tower-records2026/</link>
       <guid isPermaLink="false">collabo-girls-band-cry-sanrio-pop-up-store-tower-records2026-2026-05-16_2026-05-25-hold@gbc-news</guid>
@@ -5697,6 +5821,25 @@
       <category>event</category>
       <category domain="group">togenashi</category>
       <description>《Girls Band Cry（GBC）》× 三丽鸥角色弹出商店于 TOWER RECORDS 涩谷店、川崎店、名古屋 PARCO 店、梅田NU茶屋町店举办，会期2026年5月16日–5月25日；新商品满2200日元（含税）随机赠送明信片1张。</description>
+    </item>
+    <item>
+      <title>[发售] Girls Band Cry（GBC）夏日新周边！夏威夷衬衫＆手机壳登场</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/140747</link>
+      <guid isPermaLink="false">gamepedia-140747-2026-05-17-sale@gbc-news</guid>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category domain="group">togenashi</category>
+      <description>二次元 COSPA 推出无刺有刺夏威夷衬衫 2026MODEL（初回限定）与成员手帳型手机壳；基本预约受理至2026年5月17日。衬衫预定8月上旬发售，手机壳预定7月上旬发售。</description>
+    </item>
+    <item>
+      <title>[举办] 【Girls Band Cry（GBC）】全国高塔巡演举办！限定周边＆特典信息</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/164689</link>
+      <guid isPermaLink="false">gamepedia-164689-2026-05-22_2026-06-10-hold@gbc-news</guid>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>动画《Girls Band Cry（GBC）》全国高塔巡演「GIRLS BAND CRY TOWER TOURRRRR！」于全国6处高塔设施举办；东京塔会场自2026年5月22日至6月10日开放，销售描き下ろし周边与特典票。</description>
     </item>
     <item>
       <title>[发售] F-272 第1场个人演唱会 The Dissonant “I DOLL” 决定举办！</title>
@@ -5731,6 +5874,25 @@
       <description>2024年发行的无刺有刺两张专辑《棘アリ》《棘ナシ》确定同步推出完全生产限定黑胶唱片，发售日为2026年8月19日。确保购买需在5月24日前预约；发售纪念线上 talk 配信为2026年5月29日19:00。</description>
     </item>
     <item>
+      <title>[举办] Girls Band Cry（GBC）×くまみね 新商品登场！animate 卫星弹出商店举办！</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/146140</link>
+      <guid isPermaLink="false">gamepedia-146140-2026-05-30_2026-06-28-hold@gbc-news</guid>
+      <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>动画《Girls Band Cry（GBC）》与くまみね联动周边于全国部分 animate 举办卫星弹出商店：第1弹2026年4月25日–5月24日、第2弹5月30日–6月28日；销售描き起こし Q版亚克力积木等。</description>
+    </item>
+    <item>
+      <title>[发售] Girls Band Cry（GBC）徽章抽赏，5/30 发售！豪华特典内容一览</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/97257</link>
+      <guid isPermaLink="false">gamepedia-97257-2026-05-30-sale@gbc-news</guid>
+      <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category domain="group">togenashi</category>
+      <description>シンクイノベーション 将于2026年5月30日起全国展开《Girls Band Cry（GBC）》「あたり付き！ビビット缶バッジ」抽赏；抽中可得大型亚克力立牌，店铺最后一抽另赠 A4 亚克力板。</description>
+    </item>
+    <item>
       <title>[发售] F-272 第1场个人演唱会 The Dissonant “I DOLL” 周边信息公开！</title>
       <link>https://gbc-firstriff.com/news/post-4.html</link>
       <guid isPermaLink="false">firstriff-post-4-2026-06-03_2026-06-11-sale@gbc-news</guid>
@@ -5739,15 +5901,6 @@
       <category>goods</category>
       <category domain="group">f272</category>
       <description>公开 F-272 第1场个人演唱会周边信息；先行销售期间为2026年6月3日18:00–6月11日23:59，公演日前发货。</description>
-    </item>
-    <item>
-      <title>[举办] GBC SCREAM CAFE in Tree Village 四店 4月4日起开始！</title>
-      <link>https://collabo-cafe.com/events/collabo/girls-band-cry-scream-cafe-treevillage-2026/</link>
-      <guid isPermaLink="false">collabo-girls-band-cry-scream-cafe-treevillage-2026-2026-06-06_2026-06-18-hold@gbc-news</guid>
-      <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
-      <category>event</category>
-      <category domain="group">togenashi</category>
-      <description>《Girls Band Cry（GBC）》× Tree Village 四店（东京、横滨、大阪、博多）自2026年4月4日起顺次举办联动咖啡厅。会期：东京4/4–4/17，横滨4/24–5/15，大阪・博多6/6–6/18；提供联动菜单、随机杯垫与「SCREAM」限定周边。</description>
     </item>
     <item>
       <title>[举办] 4/4 起联动咖啡厅《Girls Band Cry（GBC）SCREAM CAFE in Tree Village》在 Tree Village 举办！</title>
@@ -5834,6 +5987,16 @@
       <description>RUPA 生日周边发售决定。AniBirth 店铺：2026年6月28日；东映动画官方商店：2026年6月29日13:00。</description>
     </item>
     <item>
+      <title>[发售] 【6/29发售】《Girls Band Cry（GBC）》漫画第1卷！简介＆店铺特典汇总</title>
+      <link>https://premium.gamepedia.jp/hobby/archives/190258</link>
+      <guid isPermaLink="false">gamepedia-190258-2026-06-29-sale@gbc-news</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>TV动画《Girls Band Cry（GBC）》漫画化第1卷于2026年6月29日由微杂志社发售（税入847日元，漫画：伊势海老ボイル）。收录试刊话数及描き下ろし；合作书店购入可获数量限定イラストカード。</description>
+    </item>
+    <item>
       <title>[发售] 2026年 RUPA 生日周边</title>
       <link>https://girls-band-cry.com/news/post-477.html</link>
       <guid isPermaLink="false">post-477-2026-06-29-sale-1300@gbc-news</guid>
@@ -5852,15 +6015,6 @@
       <category>event</category>
       <category domain="group">canna-lily</category>
       <description>Canna Lily 1st 个人演唱会会场周边已于东映动画官方商店开始事后通贩（数量有限，售完即止）。</description>
-    </item>
-    <item>
-      <title>[举办] GBC 咖啡厅 in 洒落CAFE 三店 7月3日起举办！</title>
-      <link>https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-sharecafe-2026/</link>
-      <guid isPermaLink="false">collabo-girls-band-cry-cafe-sharecafe-2026-2026-07-03_2026-07-20-hold@gbc-news</guid>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
-      <category>event</category>
-      <category domain="group">togenashi</category>
-      <description>《Girls Band Cry（GBC）》× 洒落CAFE（东京哈拉卡多店、大阪心斋桥 BIGSTEP 店、福冈博多丸井店）于2026年7月3日–7月20日举办联动咖啡厅；提供联动菜单，米村雅人「冰淇淋女孩」限定周边发售。</description>
     </item>
     <item>
       <title>[举办] 7/3(五)起《Girls Band Cry（GBC）》冰淇淋女孩咖啡厅 at 洒落CAFE 决定举办！</title>

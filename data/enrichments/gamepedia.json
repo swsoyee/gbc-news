@@ -1,0 +1,817 @@
+{
+  "sourceId": "gamepedia",
+  "updatedAt": "2026-07-17T15:00:00.000Z",
+  "items": {
+    "gamepedia-205942": {
+      "id": "gamepedia-205942",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "835f5cf2b295b4532791d187caf0bacba6a1db497d8adb8bb81d74fc8e71659d",
+      "reviewedAt": "2026-07-17T14:45:00.000Z",
+      "titleZh": "【Girls Band Cry（GBC）】TOWER RECORDS 限定！浴衣描き下ろし周边发售＆特典信息汇总",
+      "summaryZh": "《Girls Band Cry（GBC）》弹出商店于 TOWER RECORDS 川崎店、梅田NU茶屋町店、阿里奥购物中心苏我店举办；无刺有刺浴衣夏日祭插图周边发售，店内满3300日元（含税）先着赠特典卡。会期：川崎8/7–8/16、梅田9/4–9/13、苏我9/11–9/21；另有线上销售时段。",
+      "eventDates": [
+        {
+          "date": "2026-08-07",
+          "endDate": "2026-08-16",
+          "kind": "hold"
+        },
+        {
+          "date": "2026-09-04",
+          "endDate": "2026-09-13",
+          "kind": "hold"
+        },
+        {
+          "date": "2026-09-11",
+          "endDate": "2026-09-21",
+          "kind": "hold"
+        },
+        {
+          "date": "2026-09-18",
+          "endDate": "2026-09-27",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "四段店面会期与正文一致；跨日去时刻。"
+    },
+    "gamepedia-199710": {
+      "id": "gamepedia-199710",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "fb07c406305a0d6f87066a4dac82c6ea8ac73c345ff7a86bc0413c8d6b760e23",
+      "reviewedAt": "2026-07-17T14:45:00.000Z",
+      "titleZh": "《Girls Band Cry（GBC）》夏日甚平发售！先行发售＆预约信息汇总",
+      "summaryZh": "二次元 COSPA 推出无刺有刺甚平（税入13750日元，中/大两码，绀・利休鼠）；Wonder Festival 2026［夏］COSPA 摊位于2026年7月26日先行发售，一般发售预定10月上旬。基本预约受理至7月26日。",
+      "eventDates": [
+        {
+          "date": "2026-07-26",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "保留 WF 先行发售日；10月上旬无具体日不补录。"
+    },
+    "gamepedia-190258": {
+      "id": "gamepedia-190258",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "9b7769b685c7d3c7cef99cd294002b6c3d88ac9340f3dbcad213e2f713c342c9",
+      "reviewedAt": "2026-07-17T14:45:00.000Z",
+      "titleZh": "【6/29发售】《Girls Band Cry（GBC）》漫画第1卷！简介＆店铺特典汇总",
+      "summaryZh": "TV动画《Girls Band Cry（GBC）》漫画化第1卷于2026年6月29日由微杂志社发售（税入847日元，漫画：伊势海老ボイル）。收录试刊话数及描き下ろし；合作书店购入可获数量限定イラストカード。",
+      "eventDates": [
+        {
+          "date": "2026-06-29",
+          "kind": "sale"
+        }
+      ]
+    },
+    "gamepedia-185352": {
+      "id": "gamepedia-185352",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "0e7ef4d425a0f8d67eafc6fcdb3119f4f9cfeac4b684996424994be61de63819",
+      "reviewedAt": "2026-07-17T14:45:00.000Z",
+      "titleZh": "GBC「冰淇淋女孩」联动咖啡厅举办！限定菜单＆周边信息汇总",
+      "summaryZh": "《Girls Band Cry（GBC）》×洒落CAFE「冰淇淋女孩咖啡馆」于东京・大阪・福冈三店举办（2026年7月3日–7月20日）。来店预约自6月9日20:00起受理；原创周边店头与 Anique Shop 销售至8月3日。",
+      "eventDates": [
+        {
+          "date": "2026-06-09",
+          "kind": "sale",
+          "startTime": "20:00"
+        },
+        {
+          "date": "2026-07-03",
+          "endDate": "2026-07-20",
+          "kind": "hold"
+        },
+        {
+          "date": "2026-07-03",
+          "endDate": "2026-08-03",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "订正误抽；周边销售跨日>24h去时刻；保留预约开始时刻。"
+    },
+    "gamepedia-177792": {
+      "id": "gamepedia-177792",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "ce4da5efb5b2b769fbc269736ba358171c8f4c1fec1091fb817894c9520732d5",
+      "reviewedAt": "2026-07-17T14:45:00.000Z",
+      "titleZh": "【Girls Band Cry（GBC）】冰淇淋女孩咖啡馆于东京・大阪・福冈举办！限定菜单＆周边",
+      "summaryZh": "《Girls Band Cry（GBC）》×洒落CAFE 联动咖啡厅自2026年7月3日起在东京・大阪・福冈三店举办至7月20日；来店预约自6月9日20:00起受理，另有当日空位可免预约入场。",
+      "eventDates": [
+        {
+          "date": "2026-06-09",
+          "kind": "sale",
+          "startTime": "20:00"
+        },
+        {
+          "date": "2026-07-03",
+          "endDate": "2026-07-20",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "去掉误抽的 hold 时刻；预约开始为 sale。"
+    },
+    "gamepedia-164689": {
+      "id": "gamepedia-164689",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "dadce4d36ccbd9c8a3f120fba6cf7d70bd13822cd9aae2206c2031a8a2b6a883",
+      "reviewedAt": "2026-07-17T14:45:00.000Z",
+      "titleZh": "【Girls Band Cry（GBC）】全国高塔巡演举办！限定周边＆特典信息",
+      "summaryZh": "动画《Girls Band Cry（GBC）》全国高塔巡演「GIRLS BAND CRY TOWER TOURRRRR！」于全国6处高塔设施举办；东京塔会场自2026年5月22日至6月10日开放，销售描き下ろし周边与特典票。",
+      "eventDates": [
+        {
+          "date": "2026-05-22",
+          "endDate": "2026-06-10",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "正文仅明确东京塔会期；其他会场无具体日不补录。营业时间非活动时刻。"
+    },
+    "gamepedia-159476": {
+      "id": "gamepedia-159476",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "f47207fe32ebe956a3cdf1fb1f0d51f0eeccdfcc50ff2cef15e3aea329b11433",
+      "reviewedAt": "2026-07-17T14:45:00.000Z",
+      "titleZh": "《Girls Band Cry（GBC）》ちびとこ周边7种开始预约！AMNIBUS限定特典也有",
+      "summaryZh": "AMNIBUS 自2026年5月11日起受理《Girls Band Cry（GBC）》「ちびとこ」系列周边7种预约（亚克力马口铁等）；含无刺有刺与 Diamond Dust 角色，BOX 订单附 AMNIBUS 限定特典。",
+      "eventDates": [
+        {
+          "date": "2026-05-11",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "正文仅明确受注开始日，无截止日。"
+    },
+    "gamepedia-150391": {
+      "id": "gamepedia-150391",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "90a9be3f8a285b2182980dbdcb4984920a1e45e6c4565a59fdfd674c5915d004",
+      "reviewedAt": "2026-07-17T14:45:00.000Z",
+      "titleZh": "《Girls Band Cry（GBC）》手表5种开始受理！价格・设计一览",
+      "summaryZh": "AMNIBUS 自2026年4月24日12:00起受理《Girls Band Cry（GBC）》成员形象手表全5种（井芹仁菜・河原木桃香・安和昴・海老塚智・RUPA），各税入9878日元。",
+      "eventDates": [
+        {
+          "date": "2026-04-24",
+          "kind": "sale",
+          "startTime": "12:00"
+        }
+      ]
+    },
+    "gamepedia-146140": {
+      "id": "gamepedia-146140",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "a643edf966ed337cac54edbf185c9633ccb21deb5aca396e483a9634c8f746ae",
+      "reviewedAt": "2026-07-17T14:45:00.000Z",
+      "titleZh": "Girls Band Cry（GBC）×くまみね 新商品登场！animate 卫星弹出商店举办！",
+      "summaryZh": "动画《Girls Band Cry（GBC）》与くまみね联动周边于全国部分 animate 举办卫星弹出商店：第1弹2026年4月25日–5月24日、第2弹5月30日–6月28日；销售描き起こし Q版亚克力积木等。",
+      "eventDates": [
+        {
+          "date": "2026-04-25",
+          "endDate": "2026-05-24",
+          "kind": "hold"
+        },
+        {
+          "date": "2026-05-30",
+          "endDate": "2026-06-28",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "两段会期作 hold；去掉与会期重复的 sale 区间。"
+    },
+    "gamepedia-140747": {
+      "id": "gamepedia-140747",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "51eba29eb0212b50c6741f74c7fd6ba77eb347b63c5f887e11b8017a6e2b8a0b",
+      "reviewedAt": "2026-07-17T14:45:00.000Z",
+      "titleZh": "Girls Band Cry（GBC）夏日新周边！夏威夷衬衫＆手机壳登场",
+      "summaryZh": "二次元 COSPA 推出无刺有刺夏威夷衬衫 2026MODEL（初回限定）与成员手帳型手机壳；基本预约受理至2026年5月17日。衬衫预定8月上旬发售，手机壳预定7月上旬发售。",
+      "eventDates": [
+        {
+          "date": "2026-05-17",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "保留预约截止；发售月上旬无具体日不补录。"
+    },
+    "gamepedia-138198": {
+      "id": "gamepedia-138198",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "cf97137d2ff1047f1075edd7ab10ea86b70eee8903a9f4f36166054fe47cd082",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "GBC 新周边！AMNIBUS 雨天 Ver. 描き下ろし周边开始受理！｜种类・价格汇总",
+      "summaryZh": "AMNIBUS 自2026年4月7日起受理动画《Girls Band Cry（GBC）》描き下ろし「In the rain ver.」周边全13种（井芹仁菜・河原木桃香・安和昴・海老塚智・RUPA 等），含亚克力卡、徽章等日常可用单品。",
+      "eventDates": [
+        {
+          "date": "2026-04-07",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "受注开始为4/7；去掉与发稿日重复的误抽 sale。"
+    },
+    "gamepedia-127061": {
+      "id": "gamepedia-127061",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "fb99d15c2da79089ecdda73219888aa982f5ed66c7b542ba8d58c423b898d94b",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "《Girls Band Cry（GBC）》描き下ろし舞台服装风周边＆项链开始预约！",
+      "summaryZh": "舞台服装风描き下ろし周边（含拨片项链、亚克力立牌等）于ゲツオシマート等自2026年3月27日12:00起预约至4月17日12:00；角色含井芹仁菜・河原木桃香・安和昴・海老塚智・RUPA。",
+      "eventDates": [
+        {
+          "date": "2026-03-27",
+          "endDate": "2026-04-17",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "预约销售跨日>24h，去时刻仅保留日期。"
+    },
+    "gamepedia-124554": {
+      "id": "gamepedia-124554",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "06382cbd5f2690bab91d91648616a4cbd6659a2761e37b8a6af0bc5843bbb77d",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "《Girls Band Cry（GBC）》弹出商店于涩谷 MODI 举办！限定周边与特典信息",
+      "summaryZh": "《Girls Band Cry（GBC）》弹出商店于 AMNIBUS STORE -white- 涩谷 MODI 自2026年4月7日至4月14日举办；先行销售「In the rain」ver. 周边，满2000日元（含税）赠特典明信片。",
+      "eventDates": [
+        {
+          "date": "2026-04-07",
+          "endDate": "2026-04-14",
+          "kind": "hold"
+        }
+      ]
+    },
+    "gamepedia-122829": {
+      "id": "gamepedia-122829",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "a8ad32cae479eba8bd63bcd5a08f8881bbbc55db654f92dc67df37f599107264",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "GBC animate 展会决定举办！新周边＆特典一览",
+      "summaryZh": "动画《Girls Band Cry（GBC）》Stride! ver. 展会 in animate 于2026年7月10日–7月26日在全国多家 animate 举办；通贩事前预约自3月19日12:00起受理，销售 Stride! ver. 亚克力等新周边。",
+      "eventDates": [
+        {
+          "date": "2026-03-19",
+          "kind": "sale",
+          "startTime": "12:00"
+        },
+        {
+          "date": "2026-07-10",
+          "endDate": "2026-07-26",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "补录通贩预约开始；展会会期作 hold。"
+    },
+    "gamepedia-122314": {
+      "id": "gamepedia-122314",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "fcce53dc9e55524638b601d22c421ba3d844ecf16b81dc2a50ac96b697dd4de8",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "Girls Band Cry（GBC）RUPA 1/7 手办！amiAmi 预约受理中！也有特典",
+      "summaryZh": "妲域推出《Girls Band Cry（GBC）》RUPA 1/7 完成品手办（税入约11550日元，全高约265mm），amiAmi 预约受理中；发售预定2027年4月，预约附交换卡特典。",
+      "eventDates": [],
+      "reviewNotes": "规则误抽 2026-01-07；正文仅写预约中与2027年4月预定发售、无具体受理日，故清空。"
+    },
+    "gamepedia-116841": {
+      "id": "gamepedia-116841",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "d55f870457cf07ecce409eeabff36653885fb8209addcdaa625365711ed8d98a",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "Girls Band Cry（GBC）乐队总谱 vol.4 3/24 发售！收录曲目一览",
+      "summaryZh": "雅马哈音乐娱乐控股于2026年3月24日发售动画《Girls Band Cry（GBC）》乐队总谱 vol.4（税入4400日元，B5/148页），收录包括片尾主题歌等曲目；vol.1–3 已发售。",
+      "eventDates": [
+        {
+          "date": "2026-03-24",
+          "kind": "sale"
+        }
+      ]
+    },
+    "gamepedia-111485": {
+      "id": "gamepedia-111485",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "821f48f7da7c6f7eaca2f2efae9d7d62b9d6aa922e950032e21d956cdc717df1",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "Girls Band Cry（GBC）新周边信息！AnimeJapan 2026 先行发售！详情汇总",
+      "summaryZh": "二次元 COSPA 新周边（「爆ぜて咲くVer.」T恤、徽章、报纸袋、环保袋等）于 AnimeJapan 2026（2026年3月28–29日）COSPA 摊位先行发售；基本预约受理至3月22日，一般发售预定6月中旬。",
+      "eventDates": [
+        {
+          "date": "2026-03-22",
+          "kind": "sale"
+        },
+        {
+          "date": "2026-03-28",
+          "endDate": "2026-03-29",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "保留预约截止与 AJ 先行两日；6月中旬无具体日不补录。"
+    },
+    "gamepedia-98803": {
+      "id": "gamepedia-98803",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "36481a2c02c01ee1933ad39112f631b95fe6276c3c1e87d7a03e0e8be96a3ccb",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "「桃香（を）ワッショイ」Switch 版众筹 1小时37分达标！回报品也更新！",
+      "summaryZh": "东映动画宣布 Nintendo Switch 版《桃香（を）ワッショイ》众筹自2026年2月9日20:00起至3月31日23:59，开始约1小时37分即达成目标300万日元；支援方案与回报已更新。",
+      "eventDates": [
+        {
+          "date": "2026-02-09",
+          "endDate": "2026-03-31",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "众筹期间跨日>24h去时刻；去掉误抽 hold 01:00。"
+    },
+    "gamepedia-97257": {
+      "id": "gamepedia-97257",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "5d7dc4727cec1860d1dc485b2649fb53d8c3e35f394cf1aafc2554e3ab80ca38",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "Girls Band Cry（GBC）徽章抽赏，5/30 发售！豪华特典内容一览",
+      "summaryZh": "シンクイノベーション 将于2026年5月30日起全国展开《Girls Band Cry（GBC）》「あたり付き！ビビット缶バッジ」抽赏；抽中可得大型亚克力立牌，店铺最后一抽另赠 A4 亚克力板。",
+      "eventDates": [
+        {
+          "date": "2026-05-30",
+          "kind": "sale"
+        }
+      ]
+    },
+    "gamepedia-95286": {
+      "id": "gamepedia-95286",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "1da6700eec903c5983de73e8e419fb297fa23acb9f488f2d81347690bab1271d",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "《Girls Band Cry（GBC）》AMNIBUS 开始受理 Y2K 时尚 ver. 新周边！",
+      "summaryZh": "AMNIBUS 自2026年2月2日起受理《Girls Band Cry（GBC）》描き下ろし Y2K 时尚 ver. 周边全11种（井芹仁菜・河原木桃香・安和昴・海老塚智・RUPA 及 Diamond Dust 等），含亚克力卡与徽章。",
+      "eventDates": [
+        {
+          "date": "2026-02-02",
+          "kind": "sale"
+        }
+      ]
+    },
+    "gamepedia-92817": {
+      "id": "gamepedia-92817",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "71f0b5a82e698fad35a151dcc6970b768e9e575de673326f4191672a4c9a2132",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "GBC｜桃香 T 恤与大浴巾等新周边信息！也有先行发售",
+      "summaryZh": "二次元 COSPA 推出无刺有刺夹克、T 恤、桃香「中指立ててけ！」T 恤与 120cm 大浴巾等；部分于 Wonder Festival 2026［冬］（2026年2月8日）COSPA 摊位先行发售，一般发售预定3月下旬–4月中旬。",
+      "eventDates": [
+        {
+          "date": "2026-02-08",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "仅保留 WF 先行日；规则误抽多日与预约日不清者去掉；发售月上旬无具体日不补录。"
+    },
+    "gamepedia-88859": {
+      "id": "gamepedia-88859",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "f1641eadea3372498ef6a7785a0f6a5d4b55b2b92d17e0215469725104c3f124",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "Girls Band Cry（GBC）漫画化启动！简介＆配信信息",
+      "summaryZh": "TV动画《Girls Band Cry（GBC）》漫画化决定，自2026年1月30日起于 WEB 杂志「コミックライド」与「ライコミ」连载；漫画描绘无刺有刺少女们的故事。",
+      "eventDates": [
+        {
+          "date": "2026-01-30",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "连载开始日按发售/公开类记为 sale。"
+    },
+    "gamepedia-81738": {
+      "id": "gamepedia-81738",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "5b8e54c59102c2debb3db30f6f2e4436d001dbad6fc53327b8ccd9226fc206c2",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "GBC 弹出商店 in 丸井决定举办！限定特典与周边信息",
+      "summaryZh": "《Girls Band Cry（GBC）》弹出商店于新宿丸井 MEN 8F 自2026年1月23日至2月1日举办（11:00–19:00）；Y2K 时尚描き下ろし周边先行销售，满2000日元（含税）赠特典明信片。",
+      "eventDates": [
+        {
+          "date": "2026-01-23",
+          "endDate": "2026-02-01",
+          "kind": "hold"
+        }
+      ]
+    },
+    "gamepedia-79062": {
+      "id": "gamepedia-79062",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "ce74e3187d2a7a8ff1aced172c491e3eb0c919494d87fd99045588232eb72c19",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "GBC 弹出商店举办！未来屋书店6店限定周边销售｜会场・会期一览",
+      "summaryZh": "《Girls Band Cry（GBC）》弹出商店于未来屋书店6店「コミLab.」自2026年1月9日至2月11日举办；销售描き下ろし限定周边，购入赠名片尺寸特典卡，部分店铺设等身面板打卡点。",
+      "eventDates": [
+        {
+          "date": "2026-01-09",
+          "endDate": "2026-02-11",
+          "kind": "hold"
+        }
+      ]
+    },
+    "gamepedia-75464": {
+      "id": "gamepedia-75464",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "768abd6f3772fdbb6c1776e12ba8d47847726c81da6687383eadac024efadc0a",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "GBC 周边信息！粉丝必看领带、T 恤、大浴巾！预约受理中",
+      "summaryZh": "二次元 COSPA 推出无刺有刺领带、全印花 T 恤与写真风 120cm 大浴巾等；Comic Market 107（2025年12月30–31日）GEE!STORE 摊位先行发售部分商品，基本预约受理至2026年1月25日，一般发售预定4月上旬。",
+      "eventDates": [
+        {
+          "date": "2025-12-30",
+          "endDate": "2025-12-31",
+          "kind": "sale"
+        },
+        {
+          "date": "2026-01-25",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "C107 先行与预约截止为 sale；去掉误标 hold。"
+    },
+    "gamepedia-70436": {
+      "id": "gamepedia-70436",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "521ffb413ba108fd888c00339089a1627484a558da5c59a886de155af1d7a160",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "Girls Band Cry（GBC）井芹仁菜 不登校 T 恤造型手办！哪里可以预约？",
+      "summaryZh": "井芹仁菜「不登校 Ver.」1/7 完成品手办（参考价税入约16000日元）于 amiAmi 等受理中；发售预定2026年10月，再现第5话 LIVE 不登校 T 恤造型。",
+      "eventDates": [],
+      "reviewNotes": "规则误抽 2026-01-07；正文仅写预约中与2026年10月预定发售、无具体受理日，故清空。"
+    },
+    "gamepedia-67561": {
+      "id": "gamepedia-67561",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "0485ebc4b04014b6d0f1aa6748ede84b3578b650f4568ddac9263d706381657e",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "GBC 新周边！BIC CAMERA 集团先行发售开始！全线与购入特典",
+      "summaryZh": "《Girls Band Cry（GBC）》描き下ろし「- DOG Dress-」周边于 BIC CAMERA 集团等自2025年12月5日至12月21日先行发售；含亚克力立牌、徽章、挂毯等，购入有特典。",
+      "eventDates": [
+        {
+          "date": "2025-12-05",
+          "endDate": "2025-12-21",
+          "kind": "sale"
+        }
+      ]
+    },
+    "gamepedia-64567": {
+      "id": "gamepedia-64567",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "81593858be94a6785983d5770f9288685c1c3c272f4256730a4141205eaca432",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "GBC 靠垫套5种！让房间更有氛围！预约受理中",
+      "summaryZh": "二次元 COSPA 推出《Girls Band Cry（GBC）》双面印刷靠垫套全5种（井芹仁菜・河原木桃香・安和昴・海老塚智・RUPA，税入3300日元）；基本预约受理至2025年12月21日，发售预定2026年3月中旬。",
+      "eventDates": [
+        {
+          "date": "2025-12-21",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "保留预约截止；3月中旬发售无具体日不补录。"
+    },
+    "gamepedia-61440": {
+      "id": "gamepedia-61440",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "ac0223864999c43495812d8c878363b705d59259f6d8c3b8fb416cfec0dbe666",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "GBC 乐队总谱 vol.3 决定发售！全10曲收录＆预约受理中！",
+      "summaryZh": "雅马哈音乐娱乐控股于2025年12月22日发售动画《Girls Band Cry（GBC）》乐队总谱 vol.3（税入4400日元，B5/156页），收录无刺有刺曲目共10首；vol.1–2 已发售。",
+      "eventDates": [
+        {
+          "date": "2025-12-22",
+          "kind": "sale"
+        }
+      ]
+    },
+    "gamepedia-51582": {
+      "id": "gamepedia-51582",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "b4e11174156f62a431995117574f06c15863f8e9396d1b03d7c14be3772f2907",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "Girls Band Cry（GBC）BLACK COLLECTION by ZOZOTOWN！能买什么？价格多少？",
+      "summaryZh": "《Girls Band Cry（GBC）》×ZOZOTOWN「BLACK COLLECTION」于 ZOZOTOWN 限定自2025年11月7日正午起受理至12月1日11:59；含 T 恤、卫衣等共8种，送达预定2026年4月上旬。",
+      "eventDates": [
+        {
+          "date": "2025-11-07",
+          "endDate": "2025-12-01",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "受注销售跨日>24h去时刻。"
+    },
+    "gamepedia-47582": {
+      "id": "gamepedia-47582",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "f9dab9b6e87c21279e4efc75261d941176b5d135c5ced5665a20eec815867663",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "Girls Band Cry（GBC）×HUB 联动决定举办！限定菜单＆周边信息汇总",
+      "summaryZh": "《Girls Band Cry（GBC）》×英国风 PUB「HUB」联动于2025年11月14日–11月30日在多家 HUB 门店举办；提供限定菜单与周边，店头及 amiAmi 等同步受理至同日。",
+      "eventDates": [
+        {
+          "date": "2025-11-14",
+          "endDate": "2025-11-30",
+          "kind": "hold"
+        }
+      ]
+    },
+    "gamepedia-41313": {
+      "id": "gamepedia-41313",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "ee7263954d11dfcea15c0336240a39f7c50c376a312ac6d41d6880bf848b1573",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "Girls Band Cry（GBC）咖啡馆于秋叶原举办！会期＆特典、菜单汇总",
+      "summaryZh": "剧场版总集篇联动「Girls Band Cry（GBC）」咖啡馆于 CURE MAID CAFÉ（秋叶原）自2025年10月17日至11月3日举办；点单赠限定卡，井芹仁菜生日饮品限10月22日–28日供应。",
+      "eventDates": [
+        {
+          "date": "2025-10-17",
+          "endDate": "2025-11-03",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-10-22",
+          "endDate": "2025-10-28",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "去掉无关的 10/3、11/14 误抽；保留咖啡馆会期与生日饮品周。"
+    },
+    "gamepedia-41292": {
+      "id": "gamepedia-41292",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "ff71c8e4e371a6728a803b562f3ec71898b06b2984f0a8cf67096ab138f1e700",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "GBC！atre 秋叶原弹出商店 2025 决定举办！描き下ろし周边＆限定特典也有！",
+      "summaryZh": "《Girls Band Cry（GBC）》弹出商店于 atre 秋叶原自2025年10月17日至10月30日举办；销售手岛 nari「命运之华 Ver.」描き下ろし周边，并与 atre 川崎会场（9/13–9/28）联动特典。",
+      "eventDates": [
+        {
+          "date": "2025-09-13",
+          "endDate": "2025-09-28",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-10-17",
+          "endDate": "2025-10-30",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "秋叶原会期为主；保留文中提及的川崎联动会期。"
+    },
+    "gamepedia-39742": {
+      "id": "gamepedia-39742",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "4e1b7cc045b743c78a6f8528f43a69a322516ea990fc7609f2c8f880eda36afc",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "Girls Band Cry（GBC）周边开始预约！亚克力钥匙扣等粉丝必看单品！",
+      "summaryZh": "シンクイノベーション 于 VVIT 自2025年10月7日12:00起至10月29日23:59受理《Girls Band Cry（GBC）》新周边预约（亚克力钥匙扣、立牌、徽章等），出货预定12月下旬。",
+      "eventDates": [
+        {
+          "date": "2025-10-07",
+          "endDate": "2025-10-29",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "预约期间跨日>24h去时刻。"
+    },
+    "gamepedia-38384": {
+      "id": "gamepedia-38384",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "6b49146cf9ac6bd53bd230c17a5c119968cfd7153f333be2b4f6520a7086fc95",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "GBC 粉丝必看！Gatebox「应援计时器」与井芹仁菜一起专注！通常版/特别版区别",
+      "summaryZh": "Gatebox 于2025年10月3日发售动画《Girls Band Cry（GBC）》数字手办扩展包「应援计时器」；可用井芹仁菜应援语音辅助专注，分通常版与特别版。",
+      "eventDates": [
+        {
+          "date": "2025-10-03",
+          "kind": "sale"
+        }
+      ]
+    },
+    "gamepedia-37500": {
+      "id": "gamepedia-37500",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "48ad1c58eb8163ffa83dcfbd8b104e9625acce8453bf6c7db244e4662add06a5",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "GBC×卡拉铁周边！AMNIBUS 销售！新作亚克力立牌等全线介绍",
+      "summaryZh": "《Girls Band Cry（GBC）》×「卡拉 OK の铁人」联动周边于 AMNIBUS 自2025年9月29日起受理；含私服 ver. 与浴衣ちびキャラ亚克力等，BOX 订单附限定徽章特典。",
+      "eventDates": [
+        {
+          "date": "2025-09-29",
+          "kind": "sale"
+        }
+      ]
+    },
+    "gamepedia-36849": {
+      "id": "gamepedia-36849",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "3909d401e2f952c822a4b4f315386bf718a89ac32496cf0a3d6b68848c985ec7",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "GBC 周边展会 2025！animate 限定特典＆预约信息汇总｜有机会拿到明信片！",
+      "summaryZh": "TV动画《Girls Band Cry（GBC）》周边展会 in animate 于2025年12月19日至2026年1月12日在全国多家 animate 举办；销售居家服主题描き下ろし周边，购入/预约内金每1100日元赠明信片。通贩预约自10月1日12:00起。",
+      "eventDates": [
+        {
+          "date": "2025-10-01",
+          "kind": "sale",
+          "startTime": "12:00"
+        },
+        {
+          "date": "2025-12-19",
+          "endDate": "2026-01-12",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "订正误标 hold 的预约开始；店头会期作 hold。"
+    },
+    "gamepedia-35807": {
+      "id": "gamepedia-35807",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "d16260914540a9a9599886ac21f49d163ad8e532a9ed7c2bd6674c65fde5da5a",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "GBC 新作游戏《桃香（を）ワッショイ》Steam 配信！挑战通关率4%！也有促销信息",
+      "summaryZh": "东映动画动作游戏《桃香（を）ワッショイ》于 Steam 自2025年9月29日起配信；定税入500日元，至10月12日有折扣。TGS2025 试玩通关率约4%。",
+      "eventDates": [
+        {
+          "date": "2025-09-29",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-09-29",
+          "endDate": "2025-10-12",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "配信日与促销期间；后者跨日去时刻。"
+    },
+    "gamepedia-34089": {
+      "id": "gamepedia-34089",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "2db5245889cbad2a794f4067806518216ee64942fac0482a844380caaf326393",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "Girls Band Cry（GBC）盖章巡礼第6弹最新信息！徽章＆盖章本也有！哪里能盖？",
+      "summaryZh": "《Girls Band Cry（GBC）》盖章巡礼第6弹自2025年9月24日起在川崎市内多处（含ラ チッタデッラ・チネチッタ等）实施；新增 Diamond Dust 的ヒナ印章，并有限定徽章与盖章本。",
+      "eventDates": [
+        {
+          "date": "2025-09-24",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "正文写2024年疑为笔误，按发稿日与上下文记为2025-09-24起；无明确结束日。"
+    },
+    "gamepedia-32283": {
+      "id": "gamepedia-32283",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "64c1d305030e522b0c4963e8d96d2ee52c55aa68721aabe258b68872b4b31f7d",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "《Girls Band Cry（GBC）》×金考斯联动！推活应援周边＆展示会！限定丝带发放也有【电影公开纪念】",
+      "summaryZh": "金考斯联动自定制应援周边第一次受理2025年9月20日–9月26日、第二次与店头展示/丝带发放2025年10月3日–10月13日；川崎站前店另有等身面板等特别展示。",
+      "eventDates": [
+        {
+          "date": "2025-09-20",
+          "endDate": "2025-09-26",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-10-03",
+          "endDate": "2025-10-13",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "正文年份写2024，按发稿与剧场公开语境订正为2025。"
+    },
+    "gamepedia-32005": {
+      "id": "gamepedia-32005",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "694d058f8261013001d0f3ec2d7515d1256f0475e29411aa0abf519591b99e52",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "Girls Band Cry（GBC）弹出商店举办！新作周边信息＆销售店铺汇总",
+      "summaryZh": "剧场版总集篇公开纪念弹出商店于新宿丸井 ANNEX（2025年9月27日–10月13日）、名古屋セントラルパーク（10/24–10/27）、海老名丸井（10/31–11/24）顺次举办；销售等身立绘亚克力等新周边。",
+      "eventDates": [
+        {
+          "date": "2025-09-27",
+          "endDate": "2025-10-13",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-10-24",
+          "endDate": "2025-10-27",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-10-31",
+          "endDate": "2025-11-24",
+          "kind": "hold"
+        }
+      ]
+    },
+    "gamepedia-28988": {
+      "id": "gamepedia-28988",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "5ba7b898592c4d8acc4442fc47bc960e95bbc8d2f476eae3f8dc9cb3fb785efb",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "Girls Band Cry（GBC）谜题游戏《桃香（を）ワッショイ》是什么？也有 TGS2025 试玩信息！",
+      "summaryZh": "东映动画 2D 跑跳动作《桃香（を）ワッショイ》于 Steam 2025年9月29日发售（税入500日元，至10月12日促销）；东京电玩展2025（9/25–28）设试玩，一般日9/27–28有试玩挑战。",
+      "eventDates": [
+        {
+          "date": "2025-09-25",
+          "endDate": "2025-09-28",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-09-29",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "合并 TGS 会期为一段 hold；保留发售日。"
+    },
+    "gamepedia-25723": {
+      "id": "gamepedia-25723",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "9572a406310c027a9dfe2a94babbe7ab165988020814e64f3b2f899d8177339b",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "「Girls Band Cry（GBC）弹出商店 2025」in atre 川崎！限定周边＆特典一览",
+      "summaryZh": "动画《Girls Band Cry（GBC）》弹出商店于作品舞台 atre 川崎自2025年9月13日至9月28日举办；销售「爆ぜて咲く Ver.」描き下ろし周边与香氛等，部分日期发放整理券。",
+      "eventDates": [
+        {
+          "date": "2025-09-13",
+          "endDate": "2025-09-28",
+          "kind": "hold"
+        }
+      ]
+    },
+    "gamepedia-23459": {
+      "id": "gamepedia-23459",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "4da4a85650df1874885f616e54f635941a8fa157aeb6e8475e52b5faf8701b65",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "「JR 东海×Girls Band Cry（GBC）」联动第2弹决定举办！新周边线与购入特典等最新信息",
+      "summaryZh": "JR 东海×《Girls Band Cry（GBC）》Vol.2 自2025年9月29日至12月7日举办；含数字盖章巡礼、新干线车内语音剧、描き下ろし周边，以及 GiGO 河原町オーパ 弹出商店（同期）。",
+      "eventDates": [
+        {
+          "date": "2025-09-29",
+          "endDate": "2025-12-07",
+          "kind": "hold"
+        }
+      ]
+    },
+    "gamepedia-12678": {
+      "id": "gamepedia-12678",
+      "sourceId": "gamepedia",
+      "status": "reviewed",
+      "contentFingerprint": "f67192d607d9b2cb80088b3374b5ad168be19e1549f4a3726a27b88d6c4583fd",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "GBC×arti-mate 新作周边！animate 限定「直播巡演」周边全种公开！",
+      "summaryZh": "arti-mate（alma bianca×animate）推出《Girls Band Cry（GBC）》直播巡演 ver. 周边；自2025年7月30日起可预约，2025年10月18日发售，animate 限定店售（池袋・秋叶原・涩谷・梅田等）及通贩。",
+      "eventDates": [
+        {
+          "date": "2025-07-30",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-10-18",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "补录预约开始；保留发售日。"
+    }
+  }
+}

@@ -2,11 +2,12 @@
 
 定时从官网抓取资讯，并向用户提供 **RSS** 与 **iCal** 订阅接口。
 
-当前已合并三源：
+当前已合并四源：
 
 - [ガールズバンドクライ 公式 NEWS](https://girls-band-cry.com/news/)
 - [FIRST RIFF](https://gbc-firstriff.com/)
 - [collabo-cafe（GBC 相关）](https://collabo-cafe.com/)
+- [キャラホビ / gamepedia（GBC 周边）](https://premium.gamepedia.jp/hobby/?s=%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA%E3%83%90%E3%83%B3%E3%83%89%E3%82%AF%E3%83%A9%E3%82%A4)
 
 支持按**组合**与**分类**筛选订阅；首页提供月 / 周 / 日活动日历（纯静态，无前端框架）。
 
@@ -23,14 +24,18 @@
 ```bash
 npm install
 npm test
-npm run scrape              # 三源编排（单源失败隔离）；默认增量
+npm run scrape              # 四源编排（单源失败隔离）；默认增量
 npm run scrape:gbc          # 单源；全量用 SCRAPE_MODE=full
 npm run scrape:firstriff
 npm run scrape:collabo-cafe
+npm run scrape:gamepedia
 npm run build:feeds         # 生成 public/feeds/*.xml|*.ics 与 public/data/news.json
+npm run dedupe:candidates   # 列跨源重复候选（人工去重参考）
 npm run build:function      # 打包 Netlify Function
 npm run build:web           # 打包 public/subscribe-core.js（前端纯函数）
 ```
+
+跨源重复**不自动**合并：用 `dedupe:candidates` 查看候选，人工确认后写入 `data/dedupe/manual.json`，`build:feeds` 会按名单剔除低优先级源的重复条目（优先级 gbc-news > firstriff > collabo-cafe > gamepedia）。
 
 本地预览静态页：
 

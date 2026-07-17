@@ -1,4 +1,4 @@
-# 定时增量抓取官网 / First Riff / collabo-cafe，重建 RSS·iCal 并推送（触发 Netlify 部署）
+# 定时增量抓取四源（gbc-news / firstriff / collabo-cafe / gamepedia），重建 RSS·iCal 并推送（触发 Netlify 部署）
 name: Scrape
 
 on:

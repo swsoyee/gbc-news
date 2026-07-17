@@ -9,6 +9,7 @@ const SOURCES = [
   { sourceId: 'gbc-news', script: 'scripts/scrape-gbc.ts' },
   { sourceId: 'gbc-firstriff', script: 'scripts/scrape-firstriff.ts' },
   { sourceId: 'collabo-cafe', script: 'scripts/scrape-collabo-cafe.ts' },
+  { sourceId: 'gamepedia', script: 'scripts/scrape-gamepedia.ts' },
 ] as const
 
 function runSource(sourceId: string, script: string): Promise<SourceRunResult> {

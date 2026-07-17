@@ -8,6 +8,7 @@ import { fetchText } from '../src/utils/http.js'
 import { parseNewsDetail as parseGbcDetail } from '../src/scrapers/gbc-news/parse-detail.js'
 import { parseNewsDetail as parseFirstriffDetail } from '../src/scrapers/gbc-firstriff/parse.js'
 import { parseNewsDetail as parseCollaboDetail } from '../src/scrapers/collabo-cafe/parse-detail.js'
+import { parseNewsDetail as parseGamepediaDetail } from '../src/scrapers/gamepedia/parse-detail.js'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 
@@ -15,6 +16,7 @@ const parseBody: Record<SourceId, (html: string) => string> = {
   'gbc-news': (html) => parseGbcDetail(html).bodyText,
   'gbc-firstriff': (html) => parseFirstriffDetail(html).bodyText,
   'collabo-cafe': (html) => parseCollaboDetail(html).bodyText,
+  gamepedia: (html) => parseGamepediaDetail(html).bodyText,
 }
 
 interface SnapshotDocument {

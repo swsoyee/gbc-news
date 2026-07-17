@@ -21,7 +21,7 @@ description: 批量核对、汉化并补录 gbc-news 抓取资讯的活动日期
    ```bash
    npm run enrich:list-pending -- --limit 10 --source gbc-news --json
    ```
-   `--source` 可用 `gbc-news`、`gbc-firstriff`、`collabo-cafe`；需要跨源时省略。
+   `--source` 可用 `gbc-news`、`gbc-firstriff`、`collabo-cafe`、`gamepedia`；需要跨源时省略。
 2. 逐条核对输出中的 `title`、`bodyText`、`eventDates` 与 `url`：
    - 按 [glossary.md](glossary.md) 翻译简体中文 `titleZh`、`summaryZh`，忠于原文，不扩写未证实信息。
    - `summaryZh` 只写面向用户的事实摘要；**不要**写「无具体日不补录」等内部说明（那些放 `reviewNotes`）。

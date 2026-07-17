@@ -2677,46 +2677,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-182.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
-UID:collabo-girls-band-cry-don-quijote-item-2024-2024-07-13-sale-1000@gbc-n
- ews
-DTSTAMP:20240713T010000Z
-DTSTART:20240713T010000Z
-DTEND:20240713T020000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[发售] Girls Band Cry 新作周边 7 月 13 日起于 Don Quijote
-  发售！
-DESCRIPTION:《Girls Band Cry》× Don Quijote「Encore」主题限定周
- 边自 2024 年 7 月 13 日 10:00 起发售；满 3000 日元随机赠明
- 信片。\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-don-quijote-item-20
- 24/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-don-quijote-item-20
- 24/
-CATEGORIES:togenashi,goods
-END:VEVENT
-BEGIN:VEVENT
-UID:collabo-girls-band-cry-don-quijote-item2024-2024-07-13-sale-1000@gbc-ne
- ws
-DTSTAMP:20240713T010000Z
-DTSTART:20240713T010000Z
-DTEND:20240713T020000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[发售] Girls Band Cry × Don Quijote 7 月 13 日起联动周边
- 登场！
-DESCRIPTION:《Girls Band Cry》× Don Quijote「Encore」主题限定周
- 边自 2024 年 7 月 13 日 10:00 起发售；满 3000 日元随机赠原
- 创明信片。\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-don-quijote-item202
- 4/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-don-quijote-item202
- 4/
-CATEGORIES:togenashi,goods
-END:VEVENT
-BEGIN:VEVENT
 UID:collabo-girls-band-cry-2nd-album-togenashi-universal-music-anime-store-
  goods2024-2024-07-22-sale@gbc-news
 DTSTAMP:20240722T000000Z
@@ -5931,6 +5891,23 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-361.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
+UID:gamepedia-12678-2025-07-30-sale@gbc-news
+DTSTAMP:20250730T000000Z
+DTSTART;VALUE=DATE:20250730
+DTEND;VALUE=DATE:20250731
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] GBC×arti-mate 新作周边！animate 限定「直播巡
+ 演」周边全种公开！
+DESCRIPTION:arti-mate（alma bianca×animate）推出《Girls Band Cry（GB
+ C）》直播巡演 ver. 周边；自2025年7月30日起可预约，2025
+ 年10月18日发售，animate 限定店售（池袋・秋叶原・涩谷
+ ・梅田等）及通贩。\n\n
+ https://premium.gamepedia.jp/hobby/archives/12678
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/12678
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
 UID:post-364-2025-08-03_2025-08-31-sale@gbc-news
 DTSTAMP:20250803T000000Z
 DTSTART;VALUE=DATE:20250803
@@ -6042,24 +6019,6 @@ DESCRIPTION:She is Legend × 无刺有刺「SOUL & CRY」LIVE 回放票务
  后影像）。\n\nhttps://girls-band-cry.com/news/post-364.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-364.html
 CATEGORIES:togenashi,live,goods,event,media
-END:VEVENT
-BEGIN:VEVENT
-UID:collabo-girls-band-cry-karatetsu-2025-2025-08-21_2025-09-28-hold@gbc-ne
- ws
-DTSTAMP:20250821T000000Z
-DTSTART;VALUE=DATE:20250821
-DTEND;VALUE=DATE:20250929
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] Girls Band Cry × 卡拉 OK 铁人 5 店 8 月 21 日起
- 联动举办！
-DESCRIPTION:《Girls Band Cry》× 卡拉 OK 铁人 5 店联动于 2025 年
-  8 月 21 日–9 月 28 日举办：联名饮品、室田雄平全新绘
- 制特典与周边、概念包厢及课题曲挑战。\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-karatetsu-2025/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-karatetsu-2025/
-CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-362-2025-08-21_2025-09-28-hold@gbc-news
@@ -6189,6 +6148,22 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-373.html
 CATEGORIES:togenashi,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:gamepedia-25723-2025-09-13_2025-09-28-hold@gbc-news
+DTSTAMP:20250913T000000Z
+DTSTART;VALUE=DATE:20250913
+DTEND;VALUE=DATE:20250929
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 「Girls Band Cry（GBC）弹出商店 2025」in atre 川
+ 崎！限定周边＆特典一览
+DESCRIPTION:动画《Girls Band Cry（GBC）》弹出商店于作品舞台 
+ atre 川崎自2025年9月13日至9月28日举办；销售「爆ぜて咲
+ く Ver.」描き下ろし周边与香氛等，部分日期发放整理券
+ 。\n\nhttps://premium.gamepedia.jp/hobby/archives/25723
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/25723
+CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-374-2025-09-13-sale-1800@gbc-news
 DTSTAMP:20250913T090000Z
 DTSTART:20250913T090000Z
@@ -6250,24 +6225,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-378.html
 CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT
-UID:collabo-girls-band-cry-cafe-marufuku-coffee-2025-2025-09-20_2025-10-31-
- hold@gbc-news
+UID:gamepedia-32283-2025-09-20_2025-09-26-sale@gbc-news
 DTSTAMP:20250920T000000Z
 DTSTART;VALUE=DATE:20250920
-DTEND;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20250927
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] Girls Band Cry × 丸福咖啡店 7 店 9 月 20 日起联
- 动举办！
-DESCRIPTION:《Girls Band Cry》× 丸福咖啡店 7 店联动咖啡厅于 
- 2025 年 9 月 20 日–10 月 31 日举办，提供联名菜单与制服
- 主题全新绘制限定周边。\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-marufuku-coffe
- e-2025/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-marufuku-coffe
- e-2025/
-CATEGORIES:togenashi,event
+SUMMARY:[发售] 《Girls Band Cry（GBC）》×金考斯联动！推活应
+ 援周边＆展示会！限定丝带发放也有【电影公开纪念】
+DESCRIPTION:金考斯联动自定制应援周边第一次受理2025年9月2
+ 0日–9月26日、第二次与店头展示/丝带发放2025年10月3日
+ –10月13日；川崎站前店另有等身面板等特别展示。\n\n
+ https://premium.gamepedia.jp/hobby/archives/32283
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/32283
+CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-366-2025-09-20_2025-11-02-hold@gbc-news
@@ -6430,6 +6401,22 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-374.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
+UID:gamepedia-34089-2025-09-24-hold@gbc-news
+DTSTAMP:20250924T000000Z
+DTSTART;VALUE=DATE:20250924
+DTEND;VALUE=DATE:20250925
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] Girls Band Cry（GBC）盖章巡礼第6弹最新信息！
+ 徽章＆盖章本也有！哪里能盖？
+DESCRIPTION:《Girls Band Cry（GBC）》盖章巡礼第6弹自2025年9月2
+ 4日起在川崎市内多处（含ラ チッタデッラ・チネチッタ
+ 等）实施；新增 Diamond Dust 的ヒナ印章，并有限定徽章与
+ 盖章本。\n\nhttps://premium.gamepedia.jp/hobby/archives/34089
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/34089
+CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-363-2025-09-24-sale@gbc-news
 DTSTAMP:20250924T000000Z
 DTSTART;VALUE=DATE:20250924
@@ -6509,6 +6496,55 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-381.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
+UID:gamepedia-32005-2025-09-27_2025-10-13-hold@gbc-news
+DTSTAMP:20250927T000000Z
+DTSTART;VALUE=DATE:20250927
+DTEND;VALUE=DATE:20251014
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] Girls Band Cry（GBC）弹出商店举办！新作周边
+ 信息＆销售店铺汇总
+DESCRIPTION:剧场版总集篇公开纪念弹出商店于新宿丸井 ANNEX
+ （2025年9月27日–10月13日）、名古屋セントラルパーク（
+ 10/24–10/27）、海老名丸井（10/31–11/24）顺次举办；销售
+ 等身立绘亚克力等新周边。\n\n
+ https://premium.gamepedia.jp/hobby/archives/32005
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/32005
+CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-23459-2025-09-29_2025-12-07-hold@gbc-news
+DTSTAMP:20250929T000000Z
+DTSTART;VALUE=DATE:20250929
+DTEND;VALUE=DATE:20251208
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 「JR 东海×Girls Band Cry（GBC）」联动第2弹决
+ 定举办！新周边线与购入特典等最新信息
+DESCRIPTION:JR 东海×《Girls Band Cry（GBC）》Vol.2 自2025年9月29
+ 日至12月7日举办；含数字盖章巡礼、新干线车内语音剧
+ 、描き下ろし周边，以及 GiGO 河原町オーパ 弹出商店（
+ 同期）。\n\nhttps://premium.gamepedia.jp/hobby/archives/23459
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/23459
+CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-37500-2025-09-29-sale@gbc-news
+DTSTAMP:20250929T000000Z
+DTSTART;VALUE=DATE:20250929
+DTEND;VALUE=DATE:20250930
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] GBC×卡拉铁周边！AMNIBUS 销售！新作亚克力立
+ 牌等全线介绍
+DESCRIPTION:《Girls Band Cry（GBC）》×「卡拉 OK の铁人」联动
+ 周边于 AMNIBUS 自2025年9月29日起受理；含私服 ver. 与浴衣
+ ちびキャラ亚克力等，BOX 订单附限定徽章特典。\n\n
+ https://premium.gamepedia.jp/hobby/archives/37500
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/37500
+CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-377-2025-09-29_2025-10-12-sale@gbc-news
 DTSTAMP:20250929T000000Z
 DTSTART;VALUE=DATE:20250929
@@ -6525,6 +6561,23 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-377.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:gamepedia-36849-2025-10-01-sale-1200@gbc-news
+DTSTAMP:20251001T030000Z
+DTSTART:20251001T030000Z
+DTEND:20251001T040000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] GBC 周边展会 2025！animate 限定特典＆预约信
+ 息汇总｜有机会拿到明信片！
+DESCRIPTION:TV动画《Girls Band Cry（GBC）》周边展会 in animate 
+ 于2025年12月19日至2026年1月12日在全国多家 animate 举办；
+ 销售居家服主题描き下ろし周边，购入/预约内金每1100日
+ 元赠明信片。\n通贩预约自10月1日12:00起。\n\n
+ https://premium.gamepedia.jp/hobby/archives/36849
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/36849
+CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-381-2025-10-02_2025-11-03-hold@gbc-news
 DTSTAMP:20251002T000000Z
 DTSTART;VALUE=DATE:20251002
@@ -6539,6 +6592,38 @@ DESCRIPTION:Girls Band Cry POP UP STORE 于 LaLaport 川崎 Plaza 4F 举办
  https://girls-band-cry.com/news/post-381.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-381.html
 CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-32283-2025-10-03_2025-10-13-hold@gbc-news
+DTSTAMP:20251003T000000Z
+DTSTART;VALUE=DATE:20251003
+DTEND;VALUE=DATE:20251014
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 《Girls Band Cry（GBC）》×金考斯联动！推活应
+ 援周边＆展示会！限定丝带发放也有【电影公开纪念】
+DESCRIPTION:金考斯联动自定制应援周边第一次受理2025年9月2
+ 0日–9月26日、第二次与店头展示/丝带发放2025年10月3日
+ –10月13日；川崎站前店另有等身面板等特别展示。\n\n
+ https://premium.gamepedia.jp/hobby/archives/32283
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/32283
+CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-38384-2025-10-03-sale@gbc-news
+DTSTAMP:20251003T000000Z
+DTSTART;VALUE=DATE:20251003
+DTEND;VALUE=DATE:20251004
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] GBC 粉丝必看！Gatebox「应援计时器」与井芹
+ 仁菜一起专注！通常版/特别版区别
+DESCRIPTION:Gatebox 于2025年10月3日发售动画《Girls Band Cry（GBC
+ ）》数字手办扩展包「应援计时器」；可用井芹仁菜应
+ 援语音辅助专注，分通常版与特别版。\n\n
+ https://premium.gamepedia.jp/hobby/archives/38384
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/38384
+CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
 UID:post-310-2025-10-03-hold@gbc-news
@@ -6682,27 +6767,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-404.html
 CATEGORIES:togenashi,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:collabo-girls-band-cry-pop-up-store-cocollabo-tokyo-osaka-aichi-2025-20
- 25-10-04_2025-10-20-hold@gbc-news
-DTSTAMP:20251004T000000Z
-DTSTART;VALUE=DATE:20251004
-DTEND;VALUE=DATE:20251021
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] Girls Band Cry 限定店 in 东京/大阪/爱知 10 月 4 
- 日起陆续举办！
-DESCRIPTION:《Girls Band Cry》弹出商店于东京/大阪/爱知举办
- ：大阪 10/4–10/20、东京 10/30–11/12、名古屋 11/20–12/1，
- 销售中式服装全新绘制周边；满 3000 日元随机赠写真 1 
- 张。\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-cocoll
- abo-tokyo-osaka-aichi-2025/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-cocoll
- abo-tokyo-osaka-aichi-2025/
-CATEGORIES:togenashi,event
-END:VEVENT
-BEGIN:VEVENT
 UID:post-359-2025-10-04_2025-10-26-hold@gbc-news
 DTSTAMP:20251004T000000Z
 DTSTART;VALUE=DATE:20251004
@@ -6798,6 +6862,22 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-395.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:gamepedia-39742-2025-10-07_2025-10-29-sale@gbc-news
+DTSTAMP:20251007T000000Z
+DTSTART;VALUE=DATE:20251007
+DTEND;VALUE=DATE:20251030
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] Girls Band Cry（GBC）周边开始预约！亚克力钥
+ 匙扣等粉丝必看单品！
+DESCRIPTION:シンクイノベーション 于 VVIT 自2025年10月7日12:0
+ 0起至10月29日23:59受理《Girls Band Cry（GBC）》新周边预约
+ （亚克力钥匙扣、立牌、徽章等），出货预定12月下旬。
+ \n\nhttps://premium.gamepedia.jp/hobby/archives/39742
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/39742
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
 UID:post-407-2025-10-11-hold@gbc-news
 DTSTAMP:20251011T000000Z
 DTSTART;VALUE=DATE:20251011
@@ -6846,26 +6926,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-383.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:collabo-girls-band-cry-movie-cure-maid-cafe-2025-2025-10-17_2025-11-03-
- hold@gbc-news
-DTSTAMP:20251017T000000Z
-DTSTART;VALUE=DATE:20251017
-DTEND;VALUE=DATE:20251104
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 剧场版总集篇 Girls Band Cry 联动咖啡厅 in 秋
- 叶原 10 月 17 日起举办！
-DESCRIPTION:《剧场版总集篇 Girls Band Cry》× Cure Maid Cafe 秋叶
- 原联动咖啡厅于 2025 年 10 月 17 日–11 月 3 日举办；点单
- 赠限定卡片，同楼 Gran Entas 亦销售联动周边。\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-movie-cure-maid-caf
- e-2025/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-movie-cure-maid-caf
- e-2025/
-CATEGORIES:togenashi,event
-END:VEVENT
-BEGIN:VEVENT
 UID:post-396-2025-10-17-hold@gbc-news
 DTSTAMP:20251017T000000Z
 DTSTART;VALUE=DATE:20251017
@@ -6897,6 +6957,23 @@ DESCRIPTION:纪念剧场版前后篇上映，联动咖啡厅于 Cure Maid C
  https://girls-band-cry.com/news/post-397.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-397.html
 CATEGORIES:togenashi,live,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-12678-2025-10-18-sale@gbc-news
+DTSTAMP:20251018T000000Z
+DTSTART;VALUE=DATE:20251018
+DTEND;VALUE=DATE:20251019
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] GBC×arti-mate 新作周边！animate 限定「直播巡
+ 演」周边全种公开！
+DESCRIPTION:arti-mate（alma bianca×animate）推出《Girls Band Cry（GB
+ C）》直播巡演 ver. 周边；自2025年7月30日起可预约，2025
+ 年10月18日发售，animate 限定店售（池袋・秋叶原・涩谷
+ ・梅田等）及通贩。\n\n
+ https://premium.gamepedia.jp/hobby/archives/12678
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/12678
+CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
 UID:post-412-2025-10-18-hold@gbc-news
@@ -6985,6 +7062,23 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
+UID:gamepedia-32005-2025-10-24_2025-10-27-hold@gbc-news
+DTSTAMP:20251024T000000Z
+DTSTART;VALUE=DATE:20251024
+DTEND;VALUE=DATE:20251028
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] Girls Band Cry（GBC）弹出商店举办！新作周边
+ 信息＆销售店铺汇总
+DESCRIPTION:剧场版总集篇公开纪念弹出商店于新宿丸井 ANNEX
+ （2025年9月27日–10月13日）、名古屋セントラルパーク（
+ 10/24–10/27）、海老名丸井（10/31–11/24）顺次举办；销售
+ 等身立绘亚克力等新周边。\n\n
+ https://premium.gamepedia.jp/hobby/archives/32005
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/32005
+CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-392-2025-10-24_2025-11-23-hold@gbc-news
 DTSTAMP:20251024T000000Z
 DTSTART;VALUE=DATE:20251024
@@ -7016,27 +7110,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-413.html
 CATEGORIES:togenashi,live,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:collabo-girls-band-cry-pop-up-store-cocollabo-tokyo-osaka-aichi-2025-20
- 25-10-30_2025-11-12-hold@gbc-news
-DTSTAMP:20251030T000000Z
-DTSTART;VALUE=DATE:20251030
-DTEND;VALUE=DATE:20251113
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] Girls Band Cry 限定店 in 东京/大阪/爱知 10 月 4 
- 日起陆续举办！
-DESCRIPTION:《Girls Band Cry》弹出商店于东京/大阪/爱知举办
- ：大阪 10/4–10/20、东京 10/30–11/12、名古屋 11/20–12/1，
- 销售中式服装全新绘制周边；满 3000 日元随机赠写真 1 
- 张。\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-cocoll
- abo-tokyo-osaka-aichi-2025/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-cocoll
- abo-tokyo-osaka-aichi-2025/
-CATEGORIES:togenashi,event
-END:VEVENT
-BEGIN:VEVENT
 UID:post-401-2025-10-30_2025-11-12-hold@gbc-news
 DTSTAMP:20251030T000000Z
 DTSTART;VALUE=DATE:20251030
@@ -7051,6 +7124,23 @@ DESCRIPTION:《Girls Band Cry》POP UP SHOP 于 Loft 三店举办：大阪
  https://girls-band-cry.com/news/post-401.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-401.html
 CATEGORIES:togenashi,live,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-32005-2025-10-31_2025-11-24-hold@gbc-news
+DTSTAMP:20251031T000000Z
+DTSTART;VALUE=DATE:20251031
+DTEND;VALUE=DATE:20251125
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] Girls Band Cry（GBC）弹出商店举办！新作周边
+ 信息＆销售店铺汇总
+DESCRIPTION:剧场版总集篇公开纪念弹出商店于新宿丸井 ANNEX
+ （2025年9月27日–10月13日）、名古屋セントラルパーク（
+ 10/24–10/27）、海老名丸井（10/31–11/24）顺次举办；销售
+ 等身立绘亚克力等新周边。\n\n
+ https://premium.gamepedia.jp/hobby/archives/32005
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/32005
+CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-421-2025-11-01_2025-11-06-sale@gbc-news
@@ -7081,6 +7171,22 @@ DESCRIPTION:无刺有刺将出演 Natalie × 日本工学院蒲田祭 Schoo
  5:30。\n\nhttps://girls-band-cry.com/news/post-370.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-370.html
 CATEGORIES:togenashi,live
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-51582-2025-11-07_2025-12-01-sale@gbc-news
+DTSTAMP:20251107T000000Z
+DTSTART;VALUE=DATE:20251107
+DTEND;VALUE=DATE:20251202
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] Girls Band Cry（GBC）BLACK COLLECTION by ZOZOTOWN！能
+ 买什么？价格多少？
+DESCRIPTION:《Girls Band Cry（GBC）》×ZOZOTOWN「BLACK COLLECTION」
+ 于 ZOZOTOWN 限定自2025年11月7日正午起受理至12月1日11:59；
+ 含 T 恤、卫衣等共8种，送达预定2026年4月上旬。\n\n
+ https://premium.gamepedia.jp/hobby/archives/51582
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/51582
+CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-416-2025-11-07-hold@gbc-news
@@ -7339,27 +7445,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-400.html
 CATEGORIES:togenashi,live,music,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:collabo-girls-band-cry-pop-up-store-cocollabo-tokyo-osaka-aichi-2025-20
- 25-11-20_2025-12-01-hold@gbc-news
-DTSTAMP:20251120T000000Z
-DTSTART;VALUE=DATE:20251120
-DTEND;VALUE=DATE:20251202
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] Girls Band Cry 限定店 in 东京/大阪/爱知 10 月 4 
- 日起陆续举办！
-DESCRIPTION:《Girls Band Cry》弹出商店于东京/大阪/爱知举办
- ：大阪 10/4–10/20、东京 10/30–11/12、名古屋 11/20–12/1，
- 销售中式服装全新绘制周边；满 3000 日元随机赠写真 1 
- 张。\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-cocoll
- abo-tokyo-osaka-aichi-2025/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-cocoll
- abo-tokyo-osaka-aichi-2025/
-CATEGORIES:togenashi,event
-END:VEVENT
-BEGIN:VEVENT
 UID:post-401-2025-11-20_2025-12-01-hold@gbc-news
 DTSTAMP:20251120T000000Z
 DTSTART;VALUE=DATE:20251120
@@ -7397,26 +7482,6 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
-UID:collabo-girls-band-cry-hub-amiami-anime-store-goods2025-2025-11-30-sale
- @gbc-news
-DTSTAMP:20251130T000000Z
-DTSTART;VALUE=DATE:20251130
-DTEND;VALUE=DATE:20251201
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] Girls Band Cry × 英式酒吧 HUB 全新绘制联动周
- 边发售！
-DESCRIPTION:《Girls Band Cry（GBC）》× HUB 联动周边预定 2026 年
-  3 月一般发售；HUB 店内先行销售已于 2025 年 11 月 14 日
- 起举办。\nAnime Store.JP 预约至 2025 年 11 月 30 日。\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-hub-amiami-anime-st
- ore-goods2025/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-hub-amiami-anime-st
- ore-goods2025/
-CATEGORIES:togenashi,goods
-END:VEVENT
-BEGIN:VEVENT
 UID:post-418-2025-12-01_2025-12-14-hold@gbc-news
 DTSTAMP:20251201T000000Z
 DTSTART;VALUE=DATE:20251201
@@ -7445,6 +7510,22 @@ DESCRIPTION:酒井香澄绘制周边线上抽选销售期 12/1–12/31；
  https://girls-band-cry.com/news/post-437.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-437.html
 CATEGORIES:togenashi,other
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-67561-2025-12-05_2025-12-21-sale@gbc-news
+DTSTAMP:20251205T000000Z
+DTSTART;VALUE=DATE:20251205
+DTEND;VALUE=DATE:20251222
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] GBC 新周边！BIC CAMERA 集团先行发售开始！全
+ 线与购入特典
+DESCRIPTION:《Girls Band Cry（GBC）》描き下ろし「- DOG Dress-」
+ 周边于 BIC CAMERA 集团等自2025年12月5日至12月21日先行发售
+ ；含亚克力立牌、徽章、挂毯等，购入有特典。\n\n
+ https://premium.gamepedia.jp/hobby/archives/67561
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/67561
+CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-429-2025-12-05-sale@gbc-news
@@ -7591,6 +7672,56 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-400.html
 CATEGORIES:togenashi,live,music,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:gamepedia-36849-2025-12-19_2026-01-12-hold@gbc-news
+DTSTAMP:20251219T000000Z
+DTSTART;VALUE=DATE:20251219
+DTEND;VALUE=DATE:20260113
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] GBC 周边展会 2025！animate 限定特典＆预约信
+ 息汇总｜有机会拿到明信片！
+DESCRIPTION:TV动画《Girls Band Cry（GBC）》周边展会 in animate 
+ 于2025年12月19日至2026年1月12日在全国多家 animate 举办；
+ 销售居家服主题描き下ろし周边，购入/预约内金每1100日
+ 元赠明信片。\n通贩预约自10月1日12:00起。\n\n
+ https://premium.gamepedia.jp/hobby/archives/36849
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/36849
+CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-64567-2025-12-21-sale@gbc-news
+DTSTAMP:20251221T000000Z
+DTSTART;VALUE=DATE:20251221
+DTEND;VALUE=DATE:20251222
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] GBC 靠垫套5种！让房间更有氛围！预约受理
+ 中
+DESCRIPTION:二次元 COSPA 推出《Girls Band Cry（GBC）》双面印刷
+ 靠垫套全5种（井芹仁菜・河原木桃香・安和昴・海老塚
+ 智・RUPA，税入3300日元）；基本预约受理至2025年12月21日
+ ，发售预定2026年3月中旬。\n\n
+ https://premium.gamepedia.jp/hobby/archives/64567
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/64567
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-61440-2025-12-22-sale@gbc-news
+DTSTAMP:20251222T000000Z
+DTSTART;VALUE=DATE:20251222
+DTEND;VALUE=DATE:20251223
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] GBC 乐队总谱 vol.3 决定发售！全10曲收录＆预
+ 约受理中！
+DESCRIPTION:雅马哈音乐娱乐控股于2025年12月22日发售动画《G
+ irls Band Cry（GBC）》乐队总谱 vol.3（税入4400日元，B5/156页
+ ），收录无刺有刺曲目共10首；vol.1–2 已发售。\n\n
+ https://premium.gamepedia.jp/hobby/archives/61440
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/61440
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
 UID:post-420-2025-12-27-hold@gbc-news
 DTSTAMP:20251227T000000Z
 DTSTART;VALUE=DATE:20251227
@@ -7665,6 +7796,22 @@ DESCRIPTION:二次元 COSPA 推出无刺有刺成员领带、全印花 T
  位先行发售，一般发售预定 2026 年 4 月上旬。\n\n
  https://girls-band-cry.com/news/post-444.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-444.html
+CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-79062-2026-01-09_2026-02-11-hold@gbc-news
+DTSTAMP:20260109T000000Z
+DTSTART;VALUE=DATE:20260109
+DTEND;VALUE=DATE:20260212
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] GBC 弹出商店举办！未来屋书店6店限定周边
+ 销售｜会场・会期一览
+DESCRIPTION:《Girls Band Cry（GBC）》弹出商店于未来屋书店6店
+ 「コミLab.」自2026年1月9日至2月11日举办；销售描き下ろ
+ し限定周边，购入赠名片尺寸特典卡，部分店铺设等身
+ 面板打卡点。\n\nhttps://premium.gamepedia.jp/hobby/archives/79062
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/79062
 CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
@@ -7757,6 +7904,23 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-449.html
 CATEGORIES:togenashi,music
 END:VEVENT
 BEGIN:VEVENT
+UID:gamepedia-95286-2026-02-02-sale@gbc-news
+DTSTAMP:20260202T000000Z
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260203
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 《Girls Band Cry（GBC）》AMNIBUS 开始受理 Y2K 时
+ 尚 ver. 新周边！
+DESCRIPTION:AMNIBUS 自2026年2月2日起受理《Girls Band Cry（GBC）
+ 》描き下ろし Y2K 时尚 ver. 周边全11种（井芹仁菜・河原
+ 木桃香・安和昴・海老塚智・RUPA 及 Diamond Dust 等），含
+ 亚克力卡与徽章。\n\n
+ https://premium.gamepedia.jp/hobby/archives/95286
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/95286
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
 UID:post-453-2026-02-02-hold-2000@gbc-news
 DTSTAMP:20260202T110000Z
 DTSTART:20260202T110000Z
@@ -7826,6 +7990,22 @@ DESCRIPTION:二次元 COSPA 推出无刺有刺疲劳夹克、桃香「竖
  。\n\nhttps://girls-band-cry.com/news/post-450.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-450.html
 CATEGORIES:togenashi,live,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-98803-2026-02-09_2026-03-31-sale@gbc-news
+DTSTAMP:20260209T000000Z
+DTSTART;VALUE=DATE:20260209
+DTEND;VALUE=DATE:20260401
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 「桃香（を）ワッショイ」Switch 版众筹 1小
+ 时37分达标！回报品也更新！
+DESCRIPTION:东映动画宣布 Nintendo Switch 版《桃香（を）ワッ
+ ショイ》众筹自2026年2月9日20:00起至3月31日23:59，开始约1
+ 小时37分即达成目标300万日元；支援方案与回报已更新。
+ \n\nhttps://premium.gamepedia.jp/hobby/archives/98803
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/98803
+CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
 UID:post-451-2026-02-09_2026-03-31-sale@gbc-news
@@ -8019,27 +8199,6 @@ DESCRIPTION:《Girls Band Cry（GBC）》× and GALLERY 四店（池袋・
 URL;VALUE=URI:
  https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-and-gallery202
  6/
-CATEGORIES:togenashi,event
-END:VEVENT
-BEGIN:VEVENT
-UID:collabo-girls-band-cry-japanese-clothing-denim-treevillage2026-2026-02-
- 27_2026-03-16-hold@gbc-news
-DTSTAMP:20260227T000000Z
-DTSTART;VALUE=DATE:20260227
-DTEND;VALUE=DATE:20260317
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] Girls Band Cry「和装牛仔 ver.」限定店 in 东京 2
-  月 27 日起举办！
-DESCRIPTION:《Girls Band Cry（GBC）》弹出商店于 Tree Village 东
- 京店举办：2026 年 2 月 27 日–3 月 16 日，销售无刺有刺
- 成员和装牛仔 ver. 全新绘制周边；满 2200 日元（含税）
- 随机赠迷你写真 1 张。\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-japanese-clothing-d
- enim-treevillage2026/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-japanese-clothing-d
- enim-treevillage2026/
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
@@ -8283,28 +8442,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-446.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
-UID:collabo-girls-band-cry-white-focus-popup-store-village-v2026-2026-03-19
- _2026-04-05-hold@gbc-news
-DTSTAMP:20260319T000000Z
-DTSTART;VALUE=DATE:20260319
-DTEND;VALUE=DATE:20260406
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] GBC White Focus 弹出商店 in Village Vanguard 3月19日
- 起举办！
-DESCRIPTION:《Girls Band Cry（GBC）》White Focus 弹出商店于 Villag
- e Vanguard 各店举办，使用井芹仁菜、RUPA、安和昴、河原
- 木桃香、海老塚智白色服装新绘插图周边。\n会期：川崎
- 3/19–4/5、阿倍野3/20–4/5、福冈天神4/10–4/26、名古屋4/29
- –5/6。\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-s
- tore-village-v2026/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-s
- tore-village-v2026/
-CATEGORIES:togenashi,event
-END:VEVENT
-BEGIN:VEVENT
 UID:post-461-2026-03-19-sale@gbc-news
 DTSTAMP:20260319T000000Z
 DTSTART;VALUE=DATE:20260319
@@ -8321,28 +8458,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-461.html
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:collabo-girls-band-cry-white-focus-popup-store-village-v2026-2026-03-20
- _2026-04-05-hold@gbc-news
-DTSTAMP:20260320T000000Z
-DTSTART;VALUE=DATE:20260320
-DTEND;VALUE=DATE:20260406
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] GBC White Focus 弹出商店 in Village Vanguard 3月19日
- 起举办！
-DESCRIPTION:《Girls Band Cry（GBC）》White Focus 弹出商店于 Villag
- e Vanguard 各店举办，使用井芹仁菜、RUPA、安和昴、河原
- 木桃香、海老塚智白色服装新绘插图周边。\n会期：川崎
- 3/19–4/5、阿倍野3/20–4/5、福冈天神4/10–4/26、名古屋4/29
- –5/6。\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-s
- tore-village-v2026/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-s
- tore-village-v2026/
-CATEGORIES:togenashi,event
-END:VEVENT
-BEGIN:VEVENT
 UID:firstriff-post-2-2026-03-22_2026-04-01-sale@gbc-news
 DTSTAMP:20260322T000000Z
 DTSTART;VALUE=DATE:20260322
@@ -8357,6 +8472,22 @@ DESCRIPTION:Canna Lily 第1场个人演唱会「未明に咲く花」于202
  https://gbc-firstriff.com/news/post-2.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-2.html
 CATEGORIES:canna-lily,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-116841-2026-03-24-sale@gbc-news
+DTSTAMP:20260324T000000Z
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] Girls Band Cry（GBC）乐队总谱 vol.4 3/24 发售！
+ 收录曲目一览
+DESCRIPTION:雅马哈音乐娱乐控股于2026年3月24日发售动画《Gi
+ rls Band Cry（GBC）》乐队总谱 vol.4（税入4400日元，B5/148页
+ ），收录包括片尾主题歌等曲目；vol.1–3 已发售。\n\n
+ https://premium.gamepedia.jp/hobby/archives/116841
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/116841
+CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
 UID:post-455-2026-03-25-sale@gbc-news
@@ -8407,6 +8538,23 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-466.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:gamepedia-127061-2026-03-27_2026-04-17-sale@gbc-news
+DTSTAMP:20260327T000000Z
+DTSTART;VALUE=DATE:20260327
+DTEND;VALUE=DATE:20260418
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 《Girls Band Cry（GBC）》描き下ろし舞台服装
+ 风周边＆项链开始预约！
+DESCRIPTION:舞台服装风描き下ろし周边（含拨片项链、亚克
+ 力立牌等）于ゲツオシマート等自2026年3月27日12:00起预
+ 约至4月17日12:00；角色含井芹仁菜・河原木桃香・安和昴
+ ・海老塚智・RUPA。\n\n
+ https://premium.gamepedia.jp/hobby/archives/127061
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/127061
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
 UID:post-456-2026-03-27-hold-1900@gbc-news
 DTSTAMP:20260327T100000Z
 DTSTART:20260327T100000Z
@@ -8454,28 +8602,6 @@ DESCRIPTION:二次元 COSPA 推出酒井香澄新绘「全彩 T 恤 爆ぜ
  https://girls-band-cry.com/news/post-459.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-459.html
 CATEGORIES:togenashi,goods,event
-END:VEVENT
-BEGIN:VEVENT
-UID:collabo-girls-band-cry-scream-cafe-treevillage-2026-2026-04-04_2026-04-
- 17-hold@gbc-news
-DTSTAMP:20260404T000000Z
-DTSTART;VALUE=DATE:20260404
-DTEND;VALUE=DATE:20260418
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] GBC SCREAM CAFE in Tree Village 四店 4月4日起开始
- ！
-DESCRIPTION:《Girls Band Cry（GBC）》× Tree Village 四店（东京、
- 横滨、大阪、博多）自2026年4月4日起顺次举办联动咖啡
- 厅。\n会期：东京4/4–4/17，横滨4/24–5/15，大阪・博多6/6
- –6/18；提供联动菜单、随机杯垫与「SCREAM」限定周边。\
- n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-scream-cafe-treevil
- lage-2026/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-scream-cafe-treevil
- lage-2026/
-CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-458-2026-04-04-hold@gbc-news
@@ -8548,26 +8674,21 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
-UID:collabo-girls-band-cry-white-focus-popup-store-village-v2026-2026-04-10
- _2026-04-26-hold@gbc-news
-DTSTAMP:20260410T000000Z
-DTSTART;VALUE=DATE:20260410
-DTEND;VALUE=DATE:20260427
+UID:gamepedia-138198-2026-04-07-sale@gbc-news
+DTSTAMP:20260407T000000Z
+DTSTART;VALUE=DATE:20260407
+DTEND;VALUE=DATE:20260408
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] GBC White Focus 弹出商店 in Village Vanguard 3月19日
- 起举办！
-DESCRIPTION:《Girls Band Cry（GBC）》White Focus 弹出商店于 Villag
- e Vanguard 各店举办，使用井芹仁菜、RUPA、安和昴、河原
- 木桃香、海老塚智白色服装新绘插图周边。\n会期：川崎
- 3/19–4/5、阿倍野3/20–4/5、福冈天神4/10–4/26、名古屋4/29
- –5/6。\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-s
- tore-village-v2026/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-s
- tore-village-v2026/
-CATEGORIES:togenashi,event
+SUMMARY:[发售] GBC 新周边！AMNIBUS 雨天 Ver. 描き下ろし周边
+ 开始受理！｜种类・价格汇总
+DESCRIPTION:AMNIBUS 自2026年4月7日起受理动画《Girls Band Cry（GB
+ C）》描き下ろし「In the rain ver.」周边全13种（井芹仁菜
+ ・河原木桃香・安和昴・海老塚智・RUPA 等），含亚克力
+ 卡、徽章等日常可用单品。\n\n
+ https://premium.gamepedia.jp/hobby/archives/138198
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/138198
+CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
 UID:post-468-2026-04-13-hold-2359@gbc-news
@@ -8640,28 +8761,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-467.html
 CATEGORIES:togenashi,live,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:collabo-girls-band-cry-scream-cafe-treevillage-2026-2026-04-24_2026-05-
- 15-hold@gbc-news
-DTSTAMP:20260424T000000Z
-DTSTART;VALUE=DATE:20260424
-DTEND;VALUE=DATE:20260516
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] GBC SCREAM CAFE in Tree Village 四店 4月4日起开始
- ！
-DESCRIPTION:《Girls Band Cry（GBC）》× Tree Village 四店（东京、
- 横滨、大阪、博多）自2026年4月4日起顺次举办联动咖啡
- 厅。\n会期：东京4/4–4/17，横滨4/24–5/15，大阪・博多6/6
- –6/18；提供联动菜单、随机杯垫与「SCREAM」限定周边。\
- n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-scream-cafe-treevil
- lage-2026/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-scream-cafe-treevil
- lage-2026/
-CATEGORIES:togenashi,event
-END:VEVENT
-BEGIN:VEVENT
 UID:post-463-2026-04-24_2026-05-15-hold@gbc-news
 DTSTAMP:20260424T000000Z
 DTSTART;VALUE=DATE:20260424
@@ -8676,6 +8775,22 @@ DESCRIPTION:《Girls Band Cry（GBC）SCREAM CAFE in Tree Village》于东
  「SCREAM」插图推出联动菜单和限定周边。\n\n
  https://girls-band-cry.com/news/post-463.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-463.html
+CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-150391-2026-04-24-sale-1200@gbc-news
+DTSTAMP:20260424T030000Z
+DTSTART:20260424T030000Z
+DTEND:20260424T040000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] 《Girls Band Cry（GBC）》手表5种开始受理！价
+ 格・设计一览
+DESCRIPTION:AMNIBUS 自2026年4月24日12:00起受理《Girls Band Cry（GB
+ C）》成员形象手表全5种（井芹仁菜・河原木桃香・安和
+ 昴・海老塚智・RUPA），各税入9878日元。\n\n
+ https://premium.gamepedia.jp/hobby/archives/150391
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/150391
 CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
@@ -8695,6 +8810,23 @@ DESCRIPTION:2025年公开的《剧场版总集篇 Girls Band Cry（GBC）
  。\n\nhttps://girls-band-cry.com/news/post-464.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-146140-2026-04-25_2026-05-24-hold@gbc-news
+DTSTAMP:20260425T000000Z
+DTSTART;VALUE=DATE:20260425
+DTEND;VALUE=DATE:20260525
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] Girls Band Cry（GBC）×くまみね 新商品登场！an
+ imate 卫星弹出商店举办！
+DESCRIPTION:动画《Girls Band Cry（GBC）》与くまみね联动周边
+ 于全国部分 animate 举办卫星弹出商店：第1弹2026年4月25日
+ –5月24日、第2弹5月30日–6月28日；销售描き起こし Q版
+ 亚克力积木等。\n\n
+ https://premium.gamepedia.jp/hobby/archives/146140
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/146140
+CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-464-2026-04-26-sale-2359@gbc-news
@@ -8766,28 +8898,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-472.html
 CATEGORIES:togenashi,goods,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:collabo-girls-band-cry-white-focus-popup-store-village-v2026-2026-04-29
- _2026-05-06-hold@gbc-news
-DTSTAMP:20260429T000000Z
-DTSTART;VALUE=DATE:20260429
-DTEND;VALUE=DATE:20260507
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] GBC White Focus 弹出商店 in Village Vanguard 3月19日
- 起举办！
-DESCRIPTION:《Girls Band Cry（GBC）》White Focus 弹出商店于 Villag
- e Vanguard 各店举办，使用井芹仁菜、RUPA、安和昴、河原
- 木桃香、海老塚智白色服装新绘插图周边。\n会期：川崎
- 3/19–4/5、阿倍野3/20–4/5、福冈天神4/10–4/26、名古屋4/29
- –5/6。\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-s
- tore-village-v2026/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-white-focus-popup-s
- tore-village-v2026/
-CATEGORIES:togenashi,event
-END:VEVENT
-BEGIN:VEVENT
 UID:post-466-2026-05-01-hold-1900@gbc-news
 DTSTAMP:20260501T100000Z
 DTSTART:20260501T100000Z
@@ -8821,6 +8931,22 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-474.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
+UID:gamepedia-159476-2026-05-11-sale@gbc-news
+DTSTAMP:20260511T000000Z
+DTSTART;VALUE=DATE:20260511
+DTEND;VALUE=DATE:20260512
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 《Girls Band Cry（GBC）》ちびとこ周边7种开始
+ 预约！AMNIBUS限定特典也有
+DESCRIPTION:AMNIBUS 自2026年5月11日起受理《Girls Band Cry（GBC）
+ 》「ちびとこ」系列周边7种预约（亚克力马口铁等）；
+ 含无刺有刺与 Diamond Dust 角色，BOX 订单附 AMNIBUS 限定特
+ 典。\n\nhttps://premium.gamepedia.jp/hobby/archives/159476
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/159476
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
 UID:collabo-girls-band-cry-sanrio-pop-up-store-tower-records2026-2026-05-16
  _2026-05-25-hold@gbc-news
 DTSTAMP:20260516T000000Z
@@ -8840,6 +8966,38 @@ URL;VALUE=URI:
  https://collabo-cafe.com/events/collabo/girls-band-cry-sanrio-pop-up-store
  -tower-records2026/
 CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-140747-2026-05-17-sale@gbc-news
+DTSTAMP:20260517T000000Z
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] Girls Band Cry（GBC）夏日新周边！夏威夷衬衫
+ ＆手机壳登场
+DESCRIPTION:二次元 COSPA 推出无刺有刺夏威夷衬衫 2026MODEL（
+ 初回限定）与成员手帳型手机壳；基本预约受理至2026年5
+ 月17日。\n衬衫预定8月上旬发售，手机壳预定7月上旬发
+ 售。\n\nhttps://premium.gamepedia.jp/hobby/archives/140747
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/140747
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-164689-2026-05-22_2026-06-10-hold@gbc-news
+DTSTAMP:20260522T000000Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260611
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 【Girls Band Cry（GBC）】全国高塔巡演举办！
+ 限定周边＆特典信息
+DESCRIPTION:动画《Girls Band Cry（GBC）》全国高塔巡演「GIRLS B
+ AND CRY TOWER TOURRRRR！\n」于全国6处高塔设施举办；东京塔
+ 会场自2026年5月22日至6月10日开放，销售描き下ろし周边
+ 与特典票。\n\nhttps://premium.gamepedia.jp/hobby/archives/164689
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/164689
+CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
 UID:firstriff-post-3-2026-05-24-sale-1000@gbc-news
@@ -8892,6 +9050,40 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-465.html
 CATEGORIES:togenashi,live,music,event
 END:VEVENT
 BEGIN:VEVENT
+UID:gamepedia-146140-2026-05-30_2026-06-28-hold@gbc-news
+DTSTAMP:20260530T000000Z
+DTSTART;VALUE=DATE:20260530
+DTEND;VALUE=DATE:20260629
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] Girls Band Cry（GBC）×くまみね 新商品登场！an
+ imate 卫星弹出商店举办！
+DESCRIPTION:动画《Girls Band Cry（GBC）》与くまみね联动周边
+ 于全国部分 animate 举办卫星弹出商店：第1弹2026年4月25日
+ –5月24日、第2弹5月30日–6月28日；销售描き起こし Q版
+ 亚克力积木等。\n\n
+ https://premium.gamepedia.jp/hobby/archives/146140
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/146140
+CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-97257-2026-05-30-sale@gbc-news
+DTSTAMP:20260530T000000Z
+DTSTART;VALUE=DATE:20260530
+DTEND;VALUE=DATE:20260531
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] Girls Band Cry（GBC）徽章抽赏，5/30 发售！豪华
+ 特典内容一览
+DESCRIPTION:シンクイノベーション 将于2026年5月30日起全国
+ 展开《Girls Band Cry（GBC）》「あたり付き！\nビビット缶
+ バッジ」抽赏；抽中可得大型亚克力立牌，店铺最后一
+ 抽另赠 A4 亚克力板。\n\n
+ https://premium.gamepedia.jp/hobby/archives/97257
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/97257
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
 UID:firstriff-post-4-2026-06-03_2026-06-11-sale@gbc-news
 DTSTAMP:20260603T000000Z
 DTSTART;VALUE=DATE:20260603
@@ -8905,28 +9097,6 @@ DESCRIPTION:公开 F-272 第1场个人演唱会周边信息；先行销售
  https://gbc-firstriff.com/news/post-4.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-4.html
 CATEGORIES:f272,live,goods
-END:VEVENT
-BEGIN:VEVENT
-UID:collabo-girls-band-cry-scream-cafe-treevillage-2026-2026-06-06_2026-06-
- 18-hold@gbc-news
-DTSTAMP:20260606T000000Z
-DTSTART;VALUE=DATE:20260606
-DTEND;VALUE=DATE:20260619
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] GBC SCREAM CAFE in Tree Village 四店 4月4日起开始
- ！
-DESCRIPTION:《Girls Band Cry（GBC）》× Tree Village 四店（东京、
- 横滨、大阪、博多）自2026年4月4日起顺次举办联动咖啡
- 厅。\n会期：东京4/4–4/17，横滨4/24–5/15，大阪・博多6/6
- –6/18；提供联动菜单、随机杯垫与「SCREAM」限定周边。\
- n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-scream-cafe-treevil
- lage-2026/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-scream-cafe-treevil
- lage-2026/
-CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-463-2026-06-06_2026-06-18-hold@gbc-news
@@ -9077,6 +9247,23 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-477.html
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
+UID:gamepedia-190258-2026-06-29-sale@gbc-news
+DTSTAMP:20260629T000000Z
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 【6/29发售】《Girls Band Cry（GBC）》漫画第1卷
+ ！简介＆店铺特典汇总
+DESCRIPTION:TV动画《Girls Band Cry（GBC）》漫画化第1卷于2026年
+ 6月29日由微杂志社发售（税入847日元，漫画：伊势海老
+ ボイル）。\n收录试刊话数及描き下ろし；合作书店购入
+ 可获数量限定イラストカード。\n\n
+ https://premium.gamepedia.jp/hobby/archives/190258
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/190258
+CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-477-2026-06-29-sale-1300@gbc-news
 DTSTAMP:20260629T040000Z
 DTSTART:20260629T040000Z
@@ -9104,26 +9291,6 @@ DESCRIPTION:Canna Lily 1st 个人演唱会会场周边已于东映动画官
  https://gbc-firstriff.com/news/post-6.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-6.html
 CATEGORIES:canna-lily,live,goods,event
-END:VEVENT
-BEGIN:VEVENT
-UID:collabo-girls-band-cry-cafe-sharecafe-2026-2026-07-03_2026-07-20-hold@g
- bc-news
-DTSTAMP:20260703T000000Z
-DTSTART;VALUE=DATE:20260703
-DTEND;VALUE=DATE:20260721
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] GBC 咖啡厅 in 洒落CAFE 三店 7月3日起举办！
-DESCRIPTION:《Girls Band Cry（GBC）》× 洒落CAFE（东京哈拉卡多
- 店、大阪心斋桥 BIGSTEP 店、福冈博多丸井店）于2026年7月
- 3日–7月20日举办联动咖啡厅；提供联动菜单，米村雅人
- 「冰淇淋女孩」限定周边发售。\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-sharecafe-2026
- /
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-sharecafe-2026
- /
-CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-482-2026-07-03_2026-07-20-hold@gbc-news
