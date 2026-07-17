@@ -477,13 +477,7 @@ function renderDayTimeGrid(events, isoDate, today) {
     isRestDay: cursorDate.getDay() === 0 || cursorDate.getDay() === 6,
     holidayName: holidayNames.get(isoDate),
   }
-  const { root, timedCount, allDayCount } = renderTimeGridFrame(events, [dayCell], today)
-  if (timedCount === 0 && allDayCount === 0) {
-    const empty = document.createElement('div')
-    empty.className = 'calendar-day-empty'
-    empty.textContent = '当天当前筛选下没有活动'
-    root.appendChild(empty)
-  }
+  const { root } = renderTimeGridFrame(events, [dayCell], today)
   calendarGridEl.appendChild(root)
 }
 
@@ -512,8 +506,7 @@ function renderCalendar(groups, categories) {
       const count = events.filter(
         (event) => event.date <= isoDate && isoDate <= event.endDate,
       ).length
-      calendarNoteEl.textContent =
-        count > 0 ? `当天 ${count} 件（受当前筛选影响）` : '当天当前筛选下没有活动'
+      calendarNoteEl.textContent = count > 0 ? `当天 ${count} 件（受当前筛选影响）` : ''
     }
     renderDayTimeGrid(events, isoDate, today)
     return
