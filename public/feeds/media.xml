@@ -2,10 +2,10 @@
 <rss version="2.0">
   <channel>
     <title>gbc-news · 媒体</title>
-    <link>https://gbc-news.example.com/</link>
+    <link>https://gbc-news.netlify.app/</link>
     <description>ガールズバンドクライ 公式ニュース（媒体）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 13:04:08 GMT</lastBuildDate>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/media.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jul 2026 14:48:23 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.netlify.app/feeds/media.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[发售] 无刺有刺［from Girls Band Cry］1st Single《名もなき何もかも》发售纪念线上 talk 配信＆签名会举办通知</title>
       <link>https://girls-band-cry.com/news/post-3.html</link>

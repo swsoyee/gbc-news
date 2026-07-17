@@ -2,10 +2,10 @@
 <rss version="2.0">
   <channel>
     <title>gbc-news · 剧场/映像</title>
-    <link>https://gbc-news.example.com/</link>
+    <link>https://gbc-news.netlify.app/</link>
     <description>ガールズバンドクライ 公式ニュース（剧场/映像）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 13:04:08 GMT</lastBuildDate>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/cinema.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jul 2026 14:48:23 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.netlify.app/feeds/cinema.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[发售] 名もなき何もかも／无刺有刺 2023 年 7 月 26 日（三）CD 发售！</title>
       <link>https://girls-band-cry.com/news/post-2.html</link>
