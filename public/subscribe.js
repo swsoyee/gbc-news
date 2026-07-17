@@ -17,6 +17,7 @@ import {
   startOfWeek,
   toIsoDate,
   toWebcal,
+  withFeedRev,
 } from './subscribe-core.js'
 
 const GROUPS = [
@@ -436,7 +437,7 @@ function renderStaticLinks(activeGroups, activeCategories) {
     groupLinksEl.replaceChildren()
     for (const group of GROUPS) {
       const active = allGroups || groupSet.has(group.id)
-      const ics = withFeedRev(`${location.origin}/feeds/group-${group.id}.ics`)
+      const ics = withFeedRev(`${location.origin}/feeds/group-${group.id}.ics`, feedRev)
       groupLinksEl.appendChild(
         buildLinkRow({
           title: active ? group.label : `${group.label}（当前未选）`,
@@ -452,7 +453,7 @@ function renderStaticLinks(activeGroups, activeCategories) {
     catLinksEl.replaceChildren()
     for (const category of CATEGORIES) {
       const active = allCategories || catSet.has(category.id)
-      const ics = withFeedRev(`${location.origin}/feeds/${category.id}.ics`)
+      const ics = withFeedRev(`${location.origin}/feeds/${category.id}.ics`, feedRev)
       catLinksEl.appendChild(
         buildLinkRow({
           title: active ? category.label : `${category.label}（当前未选）`,
