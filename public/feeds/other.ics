@@ -373,20 +373,16 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-378.html
 CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT
-UID:post-451-2026-02-09-hold-2000@gbc-news
-DTSTAMP:20260209T110000Z
-DTSTART:20260209T110000Z
-DTEND:20260209T130000Z
-TRANSP:OPAQUE
+UID:post-451-2026-02-09_2026-03-31-sale@gbc-news
+DTSTAMP:20260209T000000Z
+DTSTART;VALUE=DATE:20260209
+DTEND;VALUE=DATE:20260401
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 桃ワショSwitch移植プロジェクト始動！
-DESCRIPTION:Steamプラットフォームにて配信中の、アニメ「
- ガールズバンドクライ」から生まれた謎ゲーム『桃香
- （を）ワッショイ』の Nintendo Switch (DL版) の販売を目標
- としたクラウドファンディングを実施することが決定
- いたしました。\n■クラウドファンディングの概要 ◇
- プロジェクト名 Nintendo Switchでも桃香さんをワッショイ
- したい！\n▼支援ペ\n\n
+SUMMARY:[发售] 桃ワショ Switch 移植项目启动！
+DESCRIPTION:谜游戏《桃香（を）ワッショイ》为登陆 Nintendo
+  Switch（下载版）发起众筹：受理期 2026 年 2 月 9 日–3 
+ 月 31 日，目标金额 300 万日元，经 CAMPFIRE 实施。\n\n
  https://girls-band-cry.com/news/post-451.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-451.html
 CATEGORIES:togenashi,other

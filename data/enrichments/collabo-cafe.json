@@ -1,6 +1,6 @@
 {
   "sourceId": "collabo-cafe",
-  "updatedAt": "2026-07-17T12:15:00.000Z",
+  "updatedAt": "2026-07-17T12:30:00.000Z",
   "items": {
     "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026": {
       "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
@@ -206,6 +206,43 @@
         }
       ],
       "reviewNotes": "标题写 2/28，正文会期自 2/27；采用正文期间。"
+    },
+    "collabo-girls-band-cry-cafe-and-gallery2026": {
+      "id": "collabo-girls-band-cry-cafe-and-gallery2026",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "bdb78b69254969c4fb5239a0fadf14a59e66bf0e20e2a708d48012676beb2f87",
+      "reviewedAt": "2026-07-17T12:30:00.000Z",
+      "titleZh": "Girls Band Cry 联动咖啡厅 in and GALLERY 2 月 4 日起举办！",
+      "summaryZh": "《Girls Band Cry（GBC）》× and GALLERY 四店（池袋・道顿堀・名古屋・福冈）联动咖啡厅于 2026 年 2 月 4 日–3 月 15 日举办；提供联动菜单与无刺有刺原创插图限定周边，并有来店／点单／购入／预约特典。部分周边自 2/24 起追加发售。",
+      "eventDates": [
+        {
+          "date": "2026-02-04",
+          "endDate": "2026-03-15",
+          "kind": "hold"
+        },
+        {
+          "date": "2026-02-24",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "会期正确；补录 2/24 部分周边销售开始"
+    },
+    "collabo-girls-band-cry-japanese-clothing-denim-treevillage2026": {
+      "id": "collabo-girls-band-cry-japanese-clothing-denim-treevillage2026",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "51bc2cc77acc2f38ba23cc857ee025e89b03a06a9841d7fda79651ac64d931d6",
+      "reviewedAt": "2026-07-17T12:30:00.000Z",
+      "titleZh": "Girls Band Cry「和装牛仔 ver.」限定店 in 东京 2 月 27 日起举办！",
+      "summaryZh": "《Girls Band Cry（GBC）》弹出商店于 Tree Village 东京店举办：2026 年 2 月 27 日–3 月 16 日，销售无刺有刺成员和装牛仔 ver. 全新绘制周边；满 2200 日元（含税）随机赠迷你写真 1 张。",
+      "eventDates": [
+        {
+          "date": "2026-02-27",
+          "endDate": "2026-03-16",
+          "kind": "hold"
+        }
+      ]
     }
   }
 }

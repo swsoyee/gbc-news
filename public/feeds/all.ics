@@ -8150,37 +8150,49 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-453-2026-01-29_2026-02-12-sale@gbc-news
+DTSTAMP:20260129T000000Z
+DTSTART;VALUE=DATE:20260129
+DTEND;VALUE=DATE:20260213
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] RAISE A SUILEN × 无刺有刺「RAISE MY CATHARSIS」同
+ 步观看 Space 配信决定
+DESCRIPTION:RAISE A SUILEN × 无刺有刺「RAISE MY CATHARSIS」同步观
+ 看 Space 将于 2 月 2 日 20:00 起在 Girls Band Cry 与 BanG Dream!\n
+ 官方 X 配信。\n回放票务销售期 1/29–2/12，回放至 2/12 23:
+ 59。\n\nhttps://girls-band-cry.com/news/post-453.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-453.html
+CATEGORIES:togenashi,live,goods,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-449-2026-01-30-hold@gbc-news
 DTSTAMP:20260130T000000Z
 DTSTART;VALUE=DATE:20260130
 DTEND;VALUE=DATE:20260131
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] コミカライズ始動！2026年1月30日より連載配
- 信開始！
-DESCRIPTION:TVアニメ『ガールズバンドクライ』コミカライ
- ズを、WEBマガジン「コミックライド」やライコミにて
- 、2026年1月30日より待望の連載配信を開始！\n毎週金曜
- 日更新予定 連載配信は、「ライコミ」にてご覧くださ
- い。\n\nhttps://girls-band-cry.com/news/post-449.html
+SUMMARY:[举办] 漫画化启动！2026 年 1 月 30 日起开始连载配
+ 信！
+DESCRIPTION:TV 动画《Girls Band Cry》漫画化将于 2026 年 1 月 30 
+ 日起在 WEB 杂志「Comic Ride」／ライコミ开始连载配信，
+ 预定每周五更新。\n\nhttps://girls-band-cry.com/news/post-449.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-449.html
 CATEGORIES:togenashi,music
 END:VEVENT
 BEGIN:VEVENT
-UID:post-453-2026-02-02-sale-2000@gbc-news
+UID:post-453-2026-02-02-hold-2000@gbc-news
 DTSTAMP:20260202T110000Z
 DTSTART:20260202T110000Z
-DTEND:20260202T120000Z
+DTEND:20260202T130000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] RAISE A SUILEN ×トゲナシトゲアリ「RAISE MY CATHA
- RSIS」同時視聴スペース配信が決定
-DESCRIPTION:RAISE A SUILEN ×トゲナシトゲアリ 「RAISE MY CATHARSIS
- 」 同時視聴スペース配信の開催が決定しました！\n■
- 日時 2月2日(月)20時～ ■出演 トゲナシトゲアリ（理名
- ・夕莉・朱李） RAISE A SUILEN（夏芽・倉知玲鳳） ガール
- ズバンドクライ公式X（ @girlsbandcry ） バンドリ！\n公式X
- （ @bang_dr\n\nhttps://girls-band-cry.com/news/post-453.html
+SUMMARY:[举办] RAISE A SUILEN × 无刺有刺「RAISE MY CATHARSIS」同
+ 步观看 Space 配信决定
+DESCRIPTION:RAISE A SUILEN × 无刺有刺「RAISE MY CATHARSIS」同步观
+ 看 Space 将于 2 月 2 日 20:00 起在 Girls Band Cry 与 BanG Dream!\n
+ 官方 X 配信。\n回放票务销售期 1/29–2/12，回放至 2/12 23:
+ 59。\n\nhttps://girls-band-cry.com/news/post-453.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-453.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
@@ -8192,14 +8204,13 @@ DTSTART;VALUE=DATE:20260204
 DTEND;VALUE=DATE:20260316
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライカフェ in and GALLERY 2
- 月4日よりコラボ開催!
-DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
- 「ガールズバンドクライ (ガルクラ)」× and GALLERY 4店舗 
- にて、2026年2月4日〜3月15日までコラボカフェが開催さ
- れる。\n作品の世界観やキャラクターをイメージしたコ
- ラボメニュー、描き下ろしイラストを使用したコラボ
- カフェ限定グッズが登場!\n\n
+SUMMARY:[举办] Girls Band Cry 联动咖啡厅 in and GALLERY 2 月 4 日
+ 起举办！
+DESCRIPTION:《Girls Band Cry（GBC）》× and GALLERY 四店（池袋・
+ 道顿堀・名古屋・福冈）联动咖啡厅于 2026 年 2 月 4 日
+ –3 月 15 日举办；提供联动菜单与无刺有刺原创插图限
+ 定周边，并有来店／点单／购入／预约特典。\n部分周边
+ 自 2/24 起追加发售。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-and-gallery202
  6/
 URL;VALUE=URI:
@@ -8208,22 +8219,17 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-447-2026-02-08-hold@gbc-news
+UID:post-447-2026-02-08-sale@gbc-news
 DTSTAMP:20260208T000000Z
 DTSTART;VALUE=DATE:20260208
 DTEND;VALUE=DATE:20260209
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 二次元コスパより、プレゼント交換を楽し
- むトゲトゲメンバーたちの「120cmビッグタオル」登場!!
- イベント先行販売も決定
-DESCRIPTION:二次元コスパより、プレゼント交換を楽しむ仁
- 菜たちトゲナシトゲアリメンバーの姿をデザインした
- 新グッズ、「トゲナシトゲアリ 120cmビッグタオル 「for 
- you」Ver.」が登場です！\nこちらは、2/8(日)幕張メッセで
- 開催の＜ワンダーフェスティバル2026［冬］＞COSPA(コス
- パ)ブースで先行販売も決定。\nいち早く手に入るこの
- 機会をどうぞお見逃しなく！\nま\n\n
+SUMMARY:[发售] 二次元 COSPA 推出互赠礼物的刺刺成员「120cm 
+ 大毛巾」!! 决定活动先行发售
+DESCRIPTION:二次元 COSPA 推出无刺有刺 120cm 大毛巾「for you」
+ Ver.；2/8 Wonder Festival 2026［冬］COSPA 展位先行发售，一般
+ 发售预定 2026 年 3 月下旬。\n\n
  https://girls-band-cry.com/news/post-447.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-447.html
 CATEGORIES:togenashi,live,goods,event
@@ -8235,36 +8241,27 @@ DTSTART;VALUE=DATE:20260208
 DTEND;VALUE=DATE:20260209
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 「ファティーグジャケッ
- ト」、桃香の「中指立ててけ！」 Tシャツなど新グッズ
- が二次元コスパから登場!! 一部グッズはイベントでの
- 先行…
-DESCRIPTION:二次元コスパより、トゲナシトゲアリのロゴを
- デザインした、3シーズン使える軽快でタフなミリタリ
- ージャケット「ファティーグジャケット」をはじめ、
- 桃香の「中指立ててけ！\n」 Tシャツなど新グッズが登
- 場です。\n・トゲナシトゲアリ ファティーグジャケッ
- ト ・トゲナシトゲアリ Tシャツ ・桃香の「中指立てて
- け！\n」 Tシャツ ・桃香の「中指立ててけ！\n」 ラージ
- トート ・桃香\n\nhttps://girls-band-cry.com/news/post-450.html
+SUMMARY:[发售] 无刺有刺「疲劳夹克」、桃香「竖中指！」T
+  恤等新周边登陆二次元 COSPA!! 部分商品将于活动先行发
+ 售
+DESCRIPTION:二次元 COSPA 推出无刺有刺疲劳夹克、桃香「竖
+ 中指！\n」T 恤等周边；部分商品于 2/8 Wonder Festival 2026［
+ 冬］COSPA 展位先行发售，一般发售预定 2026 年 4 月中旬
+ 。\n\nhttps://girls-band-cry.com/news/post-450.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-450.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-451-2026-02-09-hold-2000@gbc-news
-DTSTAMP:20260209T110000Z
-DTSTART:20260209T110000Z
-DTEND:20260209T130000Z
-TRANSP:OPAQUE
+UID:post-451-2026-02-09_2026-03-31-sale@gbc-news
+DTSTAMP:20260209T000000Z
+DTSTART;VALUE=DATE:20260209
+DTEND;VALUE=DATE:20260401
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 桃ワショSwitch移植プロジェクト始動！
-DESCRIPTION:Steamプラットフォームにて配信中の、アニメ「
- ガールズバンドクライ」から生まれた謎ゲーム『桃香
- （を）ワッショイ』の Nintendo Switch (DL版) の販売を目標
- としたクラウドファンディングを実施することが決定
- いたしました。\n■クラウドファンディングの概要 ◇
- プロジェクト名 Nintendo Switchでも桃香さんをワッショイ
- したい！\n▼支援ペ\n\n
+SUMMARY:[发售] 桃ワショ Switch 移植项目启动！
+DESCRIPTION:谜游戏《桃香（を）ワッショイ》为登陆 Nintendo
+  Switch（下载版）发起众筹：受理期 2026 年 2 月 9 日–3 
+ 月 31 日，目标金额 300 万日元，经 CAMPFIRE 实施。\n\n
  https://girls-band-cry.com/news/post-451.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-451.html
 CATEGORIES:togenashi,other
@@ -8306,23 +8303,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-446.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
-UID:post-452-2026-02-13-hold-1300@gbc-news
+UID:post-452-2026-02-13-sale-1300@gbc-news
 DTSTAMP:20260213T040000Z
 DTSTART:20260213T040000Z
-DTEND:20260213T060000Z
+DTEND:20260213T050000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 3週連続！2/13（金）～公式オンラインショ
- ップ『東映アニメーションオフィシャルストア』にて
- ガールズバンドクライグッズ拡充！
-DESCRIPTION:公式オンラインショップ『東映アニメーション
- オフィシャルストア』にて2/13（金）/2/20（金）/2/27（金
- ）とガールズバンドクライグッズ拡充いたします！\n発
- 売グッズの一部を公開！\n取り扱い開始時間は各日程の
- 13:00～です。\n詳細情報は東映アニメーションオフィシ
- ャルストアXをご確認ください！\n東映アニメーション
- オフィシャルストアX： @toeianime\n\n
- https://girls-band-cry.com/news/post-452.html
+SUMMARY:[发售] 连续 3 周！2/13（五）起官方网店「东映动画
+ 官方商店」扩充 Girls Band Cry 周边！
+DESCRIPTION:东映动画官方商店将于 2/13、2/20、2/27 连续三周
+ 五扩充 Girls Band Cry 周边，各日 13:00 起开始销售。\n详情
+ 见该店 X。\n\nhttps://girls-band-cry.com/news/post-452.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-452.html
 CATEGORIES:togenashi,goods
 END:VEVENT
@@ -8379,6 +8370,21 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-454.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
+UID:post-452-2026-02-20-sale-1300@gbc-news
+DTSTAMP:20260220T040000Z
+DTSTART:20260220T040000Z
+DTEND:20260220T050000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] 连续 3 周！2/13（五）起官方网店「东映动画
+ 官方商店」扩充 Girls Band Cry 周边！
+DESCRIPTION:东映动画官方商店将于 2/13、2/20、2/27 连续三周
+ 五扩充 Girls Band Cry 周边，各日 13:00 起开始销售。\n详情
+ 见该店 X。\n\nhttps://girls-band-cry.com/news/post-452.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-452.html
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
 UID:post-388-2026-02-23-hold@gbc-news
 DTSTAMP:20260223T000000Z
 DTSTART;VALUE=DATE:20260223
@@ -8431,6 +8437,27 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-454.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-cafe-and-gallery2026-2026-02-24-sale@gbc-news
+DTSTAMP:20260224T000000Z
+DTSTART;VALUE=DATE:20260224
+DTEND;VALUE=DATE:20260225
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] Girls Band Cry 联动咖啡厅 in and GALLERY 2 月 4 日
+ 起举办！
+DESCRIPTION:《Girls Band Cry（GBC）》× and GALLERY 四店（池袋・
+ 道顿堀・名古屋・福冈）联动咖啡厅于 2026 年 2 月 4 日
+ –3 月 15 日举办；提供联动菜单与无刺有刺原创插图限
+ 定周边，并有来店／点单／购入／预约特典。\n部分周边
+ 自 2/24 起追加发售。\n\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-and-gallery202
+ 6/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-and-gallery202
+ 6/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:collabo-girls-band-cry-japanese-clothing-denim-treevillage2026-2026-02-
  27_2026-03-16-hold@gbc-news
 DTSTAMP:20260227T000000Z
@@ -8438,14 +8465,12 @@ DTSTART;VALUE=DATE:20260227
 DTEND;VALUE=DATE:20260317
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライ「和装デニムver.」ス
- トア in 東京 2月27日より開催!
-DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
- 「ガールズバンドクライ」のポップアップストアが、
- ツリービレッジ東京店にて2026年2月27日〜3月16日まで開
- 催される。\n井芹 仁菜・安和 すばる・海老塚 智らの「
- 和装デニムver.」描き下ろしイラストを使用した新作グ
- ッズが多数ラインナップ!\n\n
+SUMMARY:[举办] Girls Band Cry「和装牛仔 ver.」限定店 in 东京 2
+  月 27 日起举办！
+DESCRIPTION:《Girls Band Cry（GBC）》弹出商店于 Tree Village 东
+ 京店举办：2026 年 2 月 27 日–3 月 16 日，销售无刺有刺
+ 成员和装牛仔 ver. 全新绘制周边；满 2200 日元（含税）
+ 随机赠迷你写真 1 张。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-japanese-clothing-d
  enim-treevillage2026/
 URL;VALUE=URI:
@@ -8479,40 +8504,45 @@ DTSTART;VALUE=DATE:20260227
 DTEND;VALUE=DATE:20260317
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 2/27(金)より『ガールズバンドクライ 描き下
- ろし和装デニムver. ポップアップショップ』がツリービ
- レッジ東京にて開催決定！
-DESCRIPTION:『ガールズバンドクライ 描き下ろし和装デニ
- ムver. ポップアップショップ』がツリービレッジ東京に
- て開催決定いたしました！\n東映アニメーション描き下
- ろしのデニムがおしゃれな和装に身を包んだトゲナシ
- トゲアリの新作グッズを販売いたします ぜひこの機会
- をお見逃しなく！\n『ガールズバンドクライ 描き下ろ
- し和装デニムver. ポップアップショップ』 ■開催概要 
- 開催\n\nhttps://girls-band-cry.com/news/post-448.html
+SUMMARY:[举办] 2/27（五）起《Girls Band Cry 全新绘制和装牛仔
+  ver. 弹出商店》于 Tree Village 东京举办！
+DESCRIPTION:全新绘制和装牛仔 ver. 弹出商店于 Tree Village 东
+ 京店举办：2026 年 2 月 27 日–3 月 16 日，销售无刺有刺
+ 新周边。\n同期间 Tree Village 通贩亦可购买（2/27 10:00–3/1
+ 6 23:59）。\n\nhttps://girls-band-cry.com/news/post-448.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-448.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-448-2026-02-27_2026-03-16-hold-1000@gbc-news
-DTSTAMP:20260227T010000Z
-DTSTART:20260227T010000Z
-DTEND:20260316T145900Z
-TRANSP:OPAQUE
+UID:post-448-2026-02-27_2026-03-16-sale@gbc-news
+DTSTAMP:20260227T000000Z
+DTSTART;VALUE=DATE:20260227
+DTEND;VALUE=DATE:20260317
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 2/27(金)より『ガールズバンドクライ 描き下
- ろし和装デニムver. ポップアップショップ』がツリービ
- レッジ東京にて開催決定！
-DESCRIPTION:『ガールズバンドクライ 描き下ろし和装デニ
- ムver. ポップアップショップ』がツリービレッジ東京に
- て開催決定いたしました！\n東映アニメーション描き下
- ろしのデニムがおしゃれな和装に身を包んだトゲナシ
- トゲアリの新作グッズを販売いたします ぜひこの機会
- をお見逃しなく！\n『ガールズバンドクライ 描き下ろ
- し和装デニムver. ポップアップショップ』 ■開催概要 
- 開催\n\nhttps://girls-band-cry.com/news/post-448.html
+SUMMARY:[发售] 2/27（五）起《Girls Band Cry 全新绘制和装牛仔
+  ver. 弹出商店》于 Tree Village 东京举办！
+DESCRIPTION:全新绘制和装牛仔 ver. 弹出商店于 Tree Village 东
+ 京店举办：2026 年 2 月 27 日–3 月 16 日，销售无刺有刺
+ 新周边。\n同期间 Tree Village 通贩亦可购买（2/27 10:00–3/1
+ 6 23:59）。\n\nhttps://girls-band-cry.com/news/post-448.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-448.html
 CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-452-2026-02-27-sale-1300@gbc-news
+DTSTAMP:20260227T040000Z
+DTSTART:20260227T040000Z
+DTEND:20260227T050000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] 连续 3 周！2/13（五）起官方网店「东映动画
+ 官方商店」扩充 Girls Band Cry 周边！
+DESCRIPTION:东映动画官方商店将于 2/13、2/20、2/27 连续三周
+ 五扩充 Girls Band Cry 周边，各日 13:00 起开始销售。\n详情
+ 见该店 X。\n\nhttps://girls-band-cry.com/news/post-452.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-452.html
+CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
 UID:post-388-2026-02-28-hold@gbc-news
@@ -8879,23 +8909,19 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-463.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-457-2026-04-06-hold-1200@gbc-news
+UID:post-457-2026-04-06-sale-1200@gbc-news
 DTSTAMP:20260406T030000Z
 DTSTART:20260406T030000Z
-DTEND:20260406T050000Z
+DTEND:20260406T040000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 『劇場版総集編ガールズバンドクライ』【
- 配信決定＆TV放送２周年記念】メモリアルグッズ購入キ
- ャンペーン
-DESCRIPTION:『劇場版総集編ガールズバンドクライ』前編・
- 後編の配信が決定！\n記念すべき、TVアニメ放送２周年
- 記念日［4月6日(月)12:00（正午）］より、 Amazon／U-NEXTに
- て購入版・レンタル版が視聴できるようになります！\n
- 配信決定＆TVアニメ２周年記念を記念して、 「劇場版
- 総集編ガールズバンドクライ 青春狂走曲（前編）」、 
- 「劇場版総集編ガールズバンドクライ\n\n
- https://girls-band-cry.com/news/post-457.html
+SUMMARY:[发售] 《剧场版总集篇 Girls Band Cry》【配信决定＆T
+ V 播出 2 周年纪念】纪念周边购买活动
+DESCRIPTION:《剧场版总集篇 Girls Band Cry》前后篇将于 TV 动
+ 画播出 2 周年纪念日 2026 年 4 月 6 日 12:00（正午）起在 A
+ mazon／U-NEXT 以购买版・租借版形式配信。\n活动期间购买
+ 配信购买版可参与 2 周年纪念周边购买活动，详情见站
+ 内 STREAMING 页。\n\nhttps://girls-band-cry.com/news/post-457.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-457.html
 CATEGORIES:togenashi,goods,event,cinema,media
 END:VEVENT

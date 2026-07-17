@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-17T12:09:29.705Z",
+  "scrapedAt": "2026-07-17T12:12:46.826Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
@@ -1297,12 +1297,14 @@
       "eventDates": [
         {
           "date": "2026-04-06",
-          "kind": "hold",
+          "kind": "sale",
           "startTime": "12:00"
         }
       ],
       "summary": "『劇場版総集編ガールズバンドクライ』前編・後編の配信が決定！ 記念すべき、TVアニメ放送２周年記念日［4月6日(月)12:00（正午）］より、 Amazon／U-NEXTにて購入版・レンタル版が視聴できるようになります！ 配信決定＆TVアニメ２周年記念を記念して、 「劇場版総集編ガールズバンドクライ 青春狂走曲（前編）」、 「劇場版総集編ガールズバンドクライ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2026/02/%E6%A8%AA%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%EF%BC%BF2FIX-1024x576.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2026/02/%E6%A8%AA%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%EF%BC%BF2FIX-1024x576.png",
+      "titleZh": "《剧场版总集篇 Girls Band Cry》【配信决定＆TV 播出 2 周年纪念】纪念周边购买活动",
+      "summaryZh": "《剧场版总集篇 Girls Band Cry》前后篇将于 TV 动画播出 2 周年纪念日 2026 年 4 月 6 日 12:00（正午）起在 Amazon／U-NEXT 以购买版・租借版形式配信。活动期间购买配信购买版可参与 2 周年纪念周边购买活动，详情见站内 STREAMING 页。"
     },
     {
       "id": "post-452",
@@ -1319,12 +1321,24 @@
       "eventDates": [
         {
           "date": "2026-02-13",
-          "kind": "hold",
+          "kind": "sale",
+          "startTime": "13:00"
+        },
+        {
+          "date": "2026-02-20",
+          "kind": "sale",
+          "startTime": "13:00"
+        },
+        {
+          "date": "2026-02-27",
+          "kind": "sale",
           "startTime": "13:00"
         }
       ],
       "summary": "公式オンラインショップ『東映アニメーションオフィシャルストア』にて2/13（金）/2/20（金）/2/27（金）とガールズバンドクライグッズ拡充いたします！ 発売グッズの一部を公開！ 取り扱い開始時間は各日程の13:00～です。 詳細情報は東映アニメーションオフィシャルストアXをご確認ください！ 東映アニメーションオフィシャルストアX： @toeianime",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "连续 3 周！2/13（五）起官方网店「东映动画官方商店」扩充 Girls Band Cry 周边！",
+      "summaryZh": "东映动画官方商店将于 2/13、2/20、2/27 连续三周五扩充 Girls Band Cry 周边，各日 13:00 起开始销售。详情见该店 X。"
     },
     {
       "id": "collabo-girls-band-cry-cafe-and-gallery2026",
@@ -1341,12 +1355,18 @@
       "eventDates": [
         {
           "date": "2026-02-04",
-          "kind": "hold",
-          "endDate": "2026-03-15"
+          "endDate": "2026-03-15",
+          "kind": "hold"
+        },
+        {
+          "date": "2026-02-24",
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが贈るオリジナルTVアニメ「ガールズバンドクライ (ガルクラ)」× and GALLERY 4店舗 にて、2026年2月4日〜3月15日までコラボカフェが開催される。作品の世界観やキャラクターをイメージしたコラボメニュー、描き下ろしイラストを使用したコラボカフェ限定グッズが登場!",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/8a01b032f112e00f148c90b900c3bda4.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/8a01b032f112e00f148c90b900c3bda4.jpg",
+      "titleZh": "Girls Band Cry 联动咖啡厅 in and GALLERY 2 月 4 日起举办！",
+      "summaryZh": "《Girls Band Cry（GBC）》× and GALLERY 四店（池袋・道顿堀・名古屋・福冈）联动咖啡厅于 2026 年 2 月 4 日–3 月 15 日举办；提供联动菜单与无刺有刺原创插图限定周边，并有来店／点单／购入／预约特典。部分周边自 2/24 起追加发售。"
     },
     {
       "id": "collabo-girls-band-cry-japanese-clothing-denim-treevillage2026",
@@ -1363,12 +1383,14 @@
       "eventDates": [
         {
           "date": "2026-02-27",
-          "kind": "hold",
-          "endDate": "2026-03-16"
+          "endDate": "2026-03-16",
+          "kind": "hold"
         }
       ],
       "summary": "東映アニメーションが贈るオリジナルTVアニメ「ガールズバンドクライ」のポップアップストアが、ツリービレッジ東京店にて2026年2月27日〜3月16日まで開催される。井芹 仁菜・安和 すばる・海老塚 智らの「和装デニムver.」描き下ろしイラストを使用した新作グッズが多数ラインナップ!",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/7fa4200526562b9034e4049c763a0be2.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/7fa4200526562b9034e4049c763a0be2.jpg",
+      "titleZh": "Girls Band Cry「和装牛仔 ver.」限定店 in 东京 2 月 27 日起举办！",
+      "summaryZh": "《Girls Band Cry（GBC）》弹出商店于 Tree Village 东京店举办：2026 年 2 月 27 日–3 月 16 日，销售无刺有刺成员和装牛仔 ver. 全新绘制周边；满 2200 日元（含税）随机赠迷你写真 1 张。"
     },
     {
       "id": "post-448",
@@ -1386,19 +1408,19 @@
       "eventDates": [
         {
           "date": "2026-02-27",
-          "kind": "hold",
-          "endDate": "2026-03-16"
+          "endDate": "2026-03-16",
+          "kind": "hold"
         },
         {
           "date": "2026-02-27",
-          "kind": "hold",
           "endDate": "2026-03-16",
-          "startTime": "10:00",
-          "endTime": "23:59"
+          "kind": "sale"
         }
       ],
       "summary": "『ガールズバンドクライ 描き下ろし和装デニムver. ポップアップショップ』がツリービレッジ東京にて開催決定いたしました！ 東映アニメーション描き下ろしのデニムがおしゃれな和装に身を包んだトゲナシトゲアリの新作グッズを販売いたします♪ ぜひこの機会をお見逃しなく！ 『ガールズバンドクライ 描き下ろし和装デニムver. ポップアップショップ』 ■開催概要 開催",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png",
+      "titleZh": "2/27（五）起《Girls Band Cry 全新绘制和装牛仔 ver. 弹出商店》于 Tree Village 东京举办！",
+      "summaryZh": "全新绘制和装牛仔 ver. 弹出商店于 Tree Village 东京店举办：2026 年 2 月 27 日–3 月 16 日，销售无刺有刺新周边。同期间 Tree Village 通贩亦可购买（2/27 10:00–3/16 23:59）。"
     },
     {
       "id": "post-453",
@@ -1417,12 +1439,19 @@
       "eventDates": [
         {
           "date": "2026-02-02",
-          "kind": "sale",
+          "kind": "hold",
           "startTime": "20:00"
+        },
+        {
+          "date": "2026-01-29",
+          "endDate": "2026-02-12",
+          "kind": "sale"
         }
       ],
       "summary": "RAISE A SUILEN ×トゲナシトゲアリ 「RAISE MY CATHARSIS」 同時視聴スペース配信の開催が決定しました！ ■日時 2月2日(月)20時～ ■出演 トゲナシトゲアリ（理名・夕莉・朱李） RAISE A SUILEN（夏芽・倉知玲鳳） ガールズバンドクライ公式X（ @girlsbandcry ） バンドリ！公式X（ @bang_dr",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/09/%E3%80%90WEB%E7%94%A8%E3%80%91RASTOGE_LIVE_KV_0925.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/09/%E3%80%90WEB%E7%94%A8%E3%80%91RASTOGE_LIVE_KV_0925.png",
+      "titleZh": "RAISE A SUILEN × 无刺有刺「RAISE MY CATHARSIS」同步观看 Space 配信决定",
+      "summaryZh": "RAISE A SUILEN × 无刺有刺「RAISE MY CATHARSIS」同步观看 Space 将于 2 月 2 日 20:00 起在 Girls Band Cry 与 BanG Dream! 官方 X 配信。回放票务销售期 1/29–2/12，回放至 2/12 23:59。"
     },
     {
       "id": "post-450",
@@ -1445,7 +1474,9 @@
         }
       ],
       "summary": "二次元コスパより、トゲナシトゲアリのロゴをデザインした、3シーズン使える軽快でタフなミリタリージャケット「ファティーグジャケット」をはじめ、桃香の「中指立ててけ！」 Tシャツなど新グッズが登場です。 ・トゲナシトゲアリ ファティーグジャケット ・トゲナシトゲアリ Tシャツ ・桃香の「中指立ててけ！」 Tシャツ ・桃香の「中指立ててけ！」 ラージトート ・桃香",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "无刺有刺「疲劳夹克」、桃香「竖中指！」T 恤等新周边登陆二次元 COSPA!! 部分商品将于活动先行发售",
+      "summaryZh": "二次元 COSPA 推出无刺有刺疲劳夹克、桃香「竖中指！」T 恤等周边；部分商品于 2/8 Wonder Festival 2026［冬］COSPA 展位先行发售，一般发售预定 2026 年 4 月中旬。"
     },
     {
       "id": "post-451",
@@ -1462,12 +1493,14 @@
       "eventDates": [
         {
           "date": "2026-02-09",
-          "kind": "hold",
-          "startTime": "20:00"
+          "endDate": "2026-03-31",
+          "kind": "sale"
         }
       ],
       "summary": "Steamプラットフォームにて配信中の、アニメ「ガールズバンドクライ」から生まれた謎ゲーム『桃香（を）ワッショイ』の Nintendo Switch (DL版) の販売を目標としたクラウドファンディングを実施することが決定いたしました。 ■クラウドファンディングの概要 ◇プロジェクト名 Nintendo Switchでも桃香さんをワッショイしたい！ ▼支援ペ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2026/01/01_%E3%83%A1%E3%82%A4%E3%83%B3%E7%94%BB%E5%83%8F_%E3%83%AD%E3%82%B4%E3%81%82%E3%82%8A-1024x683.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2026/01/01_%E3%83%A1%E3%82%A4%E3%83%B3%E7%94%BB%E5%83%8F_%E3%83%AD%E3%82%B4%E3%81%82%E3%82%8A-1024x683.png",
+      "titleZh": "桃ワショ Switch 移植项目启动！",
+      "summaryZh": "谜游戏《桃香（を）ワッショイ》为登陆 Nintendo Switch（下载版）发起众筹：受理期 2026 年 2 月 9 日–3 月 31 日，目标金额 300 万日元，经 CAMPFIRE 实施。"
     },
     {
       "id": "post-449",
@@ -1488,7 +1521,9 @@
         }
       ],
       "summary": "TVアニメ『ガールズバンドクライ』コミカライズを、WEBマガジン「コミックライド」やライコミにて、2026年1月30日より待望の連載配信を開始！ 📅毎週金曜日更新予定 連載配信は、「ライコミ」にてご覧ください。 https://comicride.jp/",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2026/01/RC_%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA%E3%83%90%E3%83%B3%E3%83%89%E3%82%AF%E3%83%A9%E3%82%A4_top_01-1024x538.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2026/01/RC_%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA%E3%83%90%E3%83%B3%E3%83%89%E3%82%AF%E3%83%A9%E3%82%A4_top_01-1024x538.jpg",
+      "titleZh": "漫画化启动！2026 年 1 月 30 日起开始连载配信！",
+      "summaryZh": "TV 动画《Girls Band Cry》漫画化将于 2026 年 1 月 30 日起在 WEB 杂志「Comic Ride」／ライコミ开始连载配信，预定每周五更新。"
     },
     {
       "id": "post-447",
@@ -1507,11 +1542,13 @@
       "eventDates": [
         {
           "date": "2026-02-08",
-          "kind": "hold"
+          "kind": "sale"
         }
       ],
       "summary": "二次元コスパより、プレゼント交換を楽しむ仁菜たちトゲナシトゲアリメンバーの姿をデザインした新グッズ、「トゲナシトゲアリ 120cmビッグタオル 「for you」Ver.」が登場です！ こちらは、2/8(日)幕張メッセで開催の＜ワンダーフェスティバル2026［冬］＞COSPA(コスパ)ブースで先行販売も決定。いち早く手に入るこの機会をどうぞお見逃しなく！ ま",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "二次元 COSPA 推出互赠礼物的刺刺成员「120cm 大毛巾」!! 决定活动先行发售",
+      "summaryZh": "二次元 COSPA 推出无刺有刺 120cm 大毛巾「for you」Ver.；2/8 Wonder Festival 2026［冬］COSPA 展位先行发售，一般发售预定 2026 年 3 月下旬。"
     },
     {
       "id": "collabo-girls-band-cry-pop-up-store-amnibus-shinjuku2026",

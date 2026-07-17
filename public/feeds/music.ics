@@ -1884,13 +1884,11 @@ DTSTART;VALUE=DATE:20260130
 DTEND;VALUE=DATE:20260131
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] コミカライズ始動！2026年1月30日より連載配
- 信開始！
-DESCRIPTION:TVアニメ『ガールズバンドクライ』コミカライ
- ズを、WEBマガジン「コミックライド」やライコミにて
- 、2026年1月30日より待望の連載配信を開始！\n毎週金曜
- 日更新予定 連載配信は、「ライコミ」にてご覧くださ
- い。\n\nhttps://girls-band-cry.com/news/post-449.html
+SUMMARY:[举办] 漫画化启动！2026 年 1 月 30 日起开始连载配
+ 信！
+DESCRIPTION:TV 动画《Girls Band Cry》漫画化将于 2026 年 1 月 30 
+ 日起在 WEB 杂志「Comic Ride」／ライコミ开始连载配信，
+ 预定每周五更新。\n\nhttps://girls-band-cry.com/news/post-449.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-449.html
 CATEGORIES:togenashi,music
 END:VEVENT
