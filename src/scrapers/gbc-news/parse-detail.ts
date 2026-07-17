@@ -1,3 +1,4 @@
+import { decodeHtml, stripTags } from '../../utils/html.js'
 import { parseGbcDate } from './urls.js'
 
 export interface GbcArticleDetail {
@@ -35,19 +36,4 @@ export function parseNewsDetail(html: string): GbcArticleDetail {
   }
 
   return { title, publishedAt, bodyText, summary }
-}
-
-function stripTags(value: string): string {
-  return value.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<[^>]+>/g, ' ')
-}
-
-function decodeHtml(value: string): string {
-  return value
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/\s+/g, ' ')
 }

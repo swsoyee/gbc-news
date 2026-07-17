@@ -1,3 +1,4 @@
+import { decodeHtml, stripTags } from '../../utils/html.js'
 import { absoluteUrl, itemIdFromUrl, parseListDate } from './urls.js'
 
 export interface CollaboListEntry {
@@ -90,20 +91,4 @@ function isGirlsBandCryArticle(
   return /girls-band-cry|ガールズバンドクライ|ガルクラ|トゲナシ|トゲトゲ|ダイヤモンドダスト/i.test(
     `${title}\n${url}`,
   )
-}
-
-function stripTags(value: string): string {
-  return value.replace(/<[^>]+>/g, ' ')
-}
-
-function decodeHtml(value: string): string {
-  return value
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&#8211;/g, '–')
-    .replace(/\s+/g, ' ')
 }

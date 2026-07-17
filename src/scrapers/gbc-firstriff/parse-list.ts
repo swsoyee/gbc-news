@@ -1,3 +1,4 @@
+import { decodeHtml, stripTags } from '../../utils/html.js'
 import { absoluteUrl, parseFirstriffDate, postIdFromUrl } from './urls.js'
 
 export interface FirstriffListEntry {
@@ -39,19 +40,4 @@ export function parseNewsList(html: string): FirstriffListEntry[] {
   }
 
   return items
-}
-
-function stripTags(value: string): string {
-  return value.replace(/<[^>]+>/g, ' ')
-}
-
-function decodeHtml(value: string): string {
-  return value
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/\s+/g, ' ')
 }

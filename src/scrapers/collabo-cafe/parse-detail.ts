@@ -1,3 +1,4 @@
+import { decodeHtml, decodeHtmlKeepNewlines, stripTags } from '../../utils/html.js'
 import { parseIsoDate } from './urls.js'
 
 export interface CollaboArticleDetail {
@@ -96,45 +97,8 @@ export function parseCcTable(html: string): Record<string, string> {
     const key = decodeHtml(stripTags(thMatch[1])).trim()
     if (!key) continue
     const withBreaks = tdMatch[1].replace(/<br\s*\/?>/gi, '\n')
-    const value = decodeHtmlKeepNewlines(stripTagsKeepNewlines(withBreaks)).trim()
+    const value = decodeHtmlKeepNewlines(stripTags(withBreaks)).trim()
     rows[key] = value
   }
   return rows
-}
-
-function stripTags(value: string): string {
-  return value
-    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
-    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
-    .replace(/<[^>]+>/g, ' ')
-}
-
-function stripTagsKeepNewlines(value: string): string {
-  return value
-    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
-    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
-    .replace(/<[^>]+>/g, ' ')
-}
-
-function decodeEntities(value: string): string {
-  return value
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&#8211;/g, '–')
-    .replace(/&#038;/g, '&')
-}
-
-function decodeHtml(value: string): string {
-  return decodeEntities(value).replace(/\s+/g, ' ')
-}
-
-function decodeHtmlKeepNewlines(value: string): string {
-  return decodeEntities(value)
-    .replace(/[^\S\n]+/g, ' ')
-    .replace(/ ?\n ?/g, '\n')
-    .replace(/\n+/g, '\n')
 }
