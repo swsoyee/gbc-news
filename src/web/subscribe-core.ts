@@ -11,6 +11,7 @@ export interface NewsItemLike {
   title: string
   titleZh?: string
   url: string
+  sourceId?: string
   groups?: string[]
   categories?: string[]
   eventDates?: {
@@ -20,6 +21,14 @@ export interface NewsItemLike {
     startTime?: string
     endTime?: string
   }[]
+}
+
+/** 日历悬浮层用来源展示名；未知源返回空串。 */
+export function sourceDisplayLabel(sourceId: string | undefined): string {
+  if (sourceId === 'gbc-news' || sourceId === 'gbc-firstriff') return '官方'
+  if (sourceId === 'gamepedia') return 'キャラホビ'
+  if (sourceId === 'collabo-cafe') return 'コラボカフェ'
+  return ''
 }
 
 export function displayNewsTitle(item: Pick<NewsItemLike, 'title' | 'titleZh'>): string {
@@ -537,13 +546,17 @@ export function chipLabel(segment: {
   return `${startMark}${time}${displayNewsTitle(event.item)}${endMark}`
 }
 
-/** 日历悬浮层：加粗日期行（含可选时间）+ 换行标题；不含開催/発売。 */
+/** 日历悬浮层：加粗日期行（含可选时间）+ 来源标签 + 换行标题；不含開催/発売。 */
 export function formatCalendarEventTooltip(event: CalendarEvent): {
   dateLine: string
+  sourceLabel: string
+  sourceId: string
   title: string
   ariaLabel: string
 } {
   const title = displayNewsTitle(event.item)
+  const sourceId = event.item.sourceId ?? ''
+  const sourceLabel = sourceDisplayLabel(sourceId)
   const datePart =
     event.endDate && event.endDate !== event.date ? `${event.date} – ${event.endDate}` : event.date
   let dateLine = datePart
@@ -553,8 +566,10 @@ export function formatCalendarEventTooltip(event: CalendarEvent): {
   }
   return {
     dateLine,
+    sourceLabel,
+    sourceId,
     title,
-    ariaLabel: `${dateLine}. ${title}`,
+    ariaLabel: sourceLabel ? `${dateLine}. ${sourceLabel}. ${title}` : `${dateLine}. ${title}`,
   }
 }
 

@@ -4,6 +4,12 @@ function defaultDurationMinutes(kind) {
 }
 
 // src/web/subscribe-core.ts
+function sourceDisplayLabel(sourceId) {
+  if (sourceId === 'gbc-news' || sourceId === 'gbc-firstriff') return '\u5B98\u65B9'
+  if (sourceId === 'gamepedia') return '\u30AD\u30E3\u30E9\u30DB\u30D3'
+  if (sourceId === 'collabo-cafe') return '\u30B3\u30E9\u30DC\u30AB\u30D5\u30A7'
+  return ''
+}
 function displayNewsTitle(item) {
   return item.titleZh ?? item.title
 }
@@ -358,6 +364,8 @@ function chipLabel(segment) {
 }
 function formatCalendarEventTooltip(event) {
   const title = displayNewsTitle(event.item)
+  const sourceId = event.item.sourceId ?? ''
+  const sourceLabel = sourceDisplayLabel(sourceId)
   const datePart =
     event.endDate && event.endDate !== event.date
       ? `${event.date} \u2013 ${event.endDate}`
@@ -369,8 +377,10 @@ function formatCalendarEventTooltip(event) {
   }
   return {
     dateLine,
+    sourceLabel,
+    sourceId,
     title,
-    ariaLabel: `${dateLine}. ${title}`,
+    ariaLabel: sourceLabel ? `${dateLine}. ${sourceLabel}. ${title}` : `${dateLine}. ${title}`,
   }
 }
 var THEME_STORAGE_KEY = 'gbc-news-theme'
@@ -414,6 +424,7 @@ export {
   resolveTheme,
   shiftDay,
   shiftMonth,
+  sourceDisplayLabel,
   startOfDay,
   startOfMonth,
   startOfWeek,

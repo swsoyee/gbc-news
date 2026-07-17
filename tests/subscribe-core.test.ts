@@ -8,6 +8,7 @@ import {
   chipLabel,
   formatCalendarEventTooltip,
   displayNewsTitle,
+  sourceDisplayLabel,
   EARLY_HOURS,
   earlyHoursFrameVars,
   formatMonthLabel,
@@ -144,12 +145,13 @@ describe('calendar helpers', () => {
     expect(chipLabel({ event, continuesBefore: false, continuesAfter: false })).toBe('演出')
   })
 
-  it('日历悬浮提示为加粗日期行与换行标题，不含開催/発売', () => {
+  it('日历悬浮提示为加粗日期行、来源标签与换行标题，不含開催/発売', () => {
     const allDay = buildCalendarEvents(
       [
         {
           title: 'Tour',
           url: 'https://example.com/1',
+          sourceId: 'gbc-news',
           eventDates: [{ date: '2026-07-14', endDate: '2026-07-16', kind: 'hold' as const }],
         },
       ],
@@ -160,8 +162,10 @@ describe('calendar helpers', () => {
     )[0]!
     expect(formatCalendarEventTooltip(allDay)).toEqual({
       dateLine: '2026-07-14 – 2026-07-16',
+      sourceLabel: '官方',
+      sourceId: 'gbc-news',
       title: 'Tour',
-      ariaLabel: '2026-07-14 – 2026-07-16. Tour',
+      ariaLabel: '2026-07-14 – 2026-07-16. 官方. Tour',
     })
 
     const timed = buildCalendarEvents(
@@ -170,6 +174,7 @@ describe('calendar helpers', () => {
           title: 'Talk',
           titleZh: '线上 talk',
           url: 'https://example.com/2',
+          sourceId: 'gamepedia',
           eventDates: [
             {
               date: '2026-07-14',
@@ -187,9 +192,15 @@ describe('calendar helpers', () => {
     )[0]!
     expect(formatCalendarEventTooltip(timed)).toEqual({
       dateLine: '2026-07-14 19:00–20:00',
+      sourceLabel: 'キャラホビ',
+      sourceId: 'gamepedia',
       title: '线上 talk',
-      ariaLabel: '2026-07-14 19:00–20:00. 线上 talk',
+      ariaLabel: '2026-07-14 19:00–20:00. キャラホビ. 线上 talk',
     })
+
+    expect(sourceDisplayLabel('gbc-firstriff')).toBe('官方')
+    expect(sourceDisplayLabel('collabo-cafe')).toBe('コラボカフェ')
+    expect(sourceDisplayLabel(undefined)).toBe('')
   })
 
   it('toWebcal 转换协议', () => {

@@ -257,13 +257,23 @@ function showCalendarTooltip(anchor, parts) {
   const tooltip = getCalendarTooltip()
   const rect = anchor.getBoundingClientRect()
   const showBelow = rect.top < 80
+  const metaEl = document.createElement('div')
+  metaEl.className = 'calendar-event-tooltip-meta'
   const dateEl = document.createElement('div')
   dateEl.className = 'calendar-event-tooltip-date'
   dateEl.textContent = parts.dateLine
+  metaEl.appendChild(dateEl)
+  if (parts.sourceLabel) {
+    const sourceEl = document.createElement('span')
+    sourceEl.className = 'calendar-event-tooltip-source'
+    if (parts.sourceId) sourceEl.dataset.source = parts.sourceId
+    sourceEl.textContent = parts.sourceLabel
+    metaEl.appendChild(sourceEl)
+  }
   const titleEl = document.createElement('div')
   titleEl.className = 'calendar-event-tooltip-title'
   titleEl.textContent = parts.title
-  tooltip.replaceChildren(dateEl, titleEl)
+  tooltip.replaceChildren(metaEl, titleEl)
   tooltip.style.left = `${Math.min(window.innerWidth - 16, Math.max(16, rect.left + rect.width / 2))}px`
   tooltip.style.top = `${showBelow ? rect.bottom + 8 : rect.top - 8}px`
   tooltip.classList.toggle('is-below', showBelow)
