@@ -344,9 +344,14 @@ export function resolveEventWallRange(event: CalendarEvent): EventWallRange | nu
     return { startDate, startTime, endDate: spanEndDate, endTime: '23:59' }
   }
 
+  // 截止时刻 23:59（无 endTime）：日历显示当日 23:00–23:59，避免补默认时长或贴到 24:00
+  if (startTime === '23:59') {
+    return { startDate, startTime: '23:00', endDate: startDate, endTime: '23:59' }
+  }
+
   const duration = defaultDurationMinutes(event.kind)
   const endTotal = parseHhmm(startTime) + duration
-  // 缺省补时长若跨午夜：只画到当日 24:00，避免「截止 23:59」被拆成两天色块
+  // 缺省补时长若跨午夜：只画到当日 24:00，避免被拆成两天色块
   if (endTotal >= DAY_MINUTES) {
     return { startDate, startTime, endDate: startDate, endTime: '24:00' }
   }

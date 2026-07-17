@@ -232,7 +232,7 @@ describe('timed event helpers', () => {
     expect(formatTimeRangeLabel('19:00', '21:00')).toBe('19:00–21:00')
   })
 
-  it('仅有 23:59 时缺省时长不跨日拆成两块', () => {
+  it('仅有 23:59 时显示为当日 23:00–23:59', () => {
     const events = buildCalendarEvents(
       [
         {
@@ -248,11 +248,13 @@ describe('timed event helpers', () => {
     )
     expect(resolveEventWallRange(events[0]!)).toEqual({
       startDate: '2026-07-18',
-      startTime: '23:59',
+      startTime: '23:00',
       endDate: '2026-07-18',
-      endTime: '24:00',
+      endTime: '23:59',
     })
-    expect(buildDayTimedBlocks(events, '2026-07-18')).toHaveLength(1)
+    const blocks = buildDayTimedBlocks(events, '2026-07-18')
+    expect(blocks).toHaveLength(1)
+    expect(blocks[0]).toMatchObject({ startMin: 23 * 60, endMin: 23 * 60 + 59 })
     expect(buildDayTimedBlocks(events, '2026-07-19')).toHaveLength(0)
   })
 })

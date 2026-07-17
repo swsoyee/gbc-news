@@ -207,6 +207,9 @@ function resolveEventWallRange(event) {
   if (spanEndDate > startDate) {
     return { startDate, startTime, endDate: spanEndDate, endTime: "23:59" };
   }
+  if (startTime === "23:59") {
+    return { startDate, startTime: "23:00", endDate: startDate, endTime: "23:59" };
+  }
   const duration = defaultDurationMinutes(event.kind);
   const endTotal = parseHhmm(startTime) + duration;
   if (endTotal >= DAY_MINUTES) {
