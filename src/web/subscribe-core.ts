@@ -1,4 +1,5 @@
 import { defaultDurationMinutes } from '../models/event-date.js'
+import type { SourceId } from '../models/source.js'
 
 export type CalendarView = 'month' | 'week' | 'day'
 
@@ -24,7 +25,7 @@ export interface NewsItemLike {
 }
 
 /** 日历悬浮层用来源展示名；未知源返回空串。 */
-export function sourceDisplayLabel(sourceId: string | undefined): string {
+export function sourceDisplayLabel(sourceId: SourceId | string | undefined): string {
   if (sourceId === 'gbc-news' || sourceId === 'gbc-firstriff') return '官方'
   if (sourceId === 'gamepedia') return 'キャラホビ'
   if (sourceId === 'collabo-cafe') return 'コラボカフェ'

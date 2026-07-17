@@ -82,6 +82,15 @@ describe('pending enrichment queue', () => {
     )
   })
 
+  it('排除 manual dedupe drop id', () => {
+    const pending = listPendingItems(
+      [item('keep-me'), item('drop-me', { eventDates: [{ date: '2026-09-01', kind: 'hold' }] })],
+      new Map(),
+      { excludeIds: new Set(['drop-me']) },
+    )
+    expect(pending.map((entry) => entry.item.id)).toEqual(['keep-me'])
+  })
+
   it('解析 source/limit/json 参数并拒绝非法值', () => {
     expect(parsePendingCliArgs(['--source', 'collabo-cafe', '--limit', '5', '--json'])).toEqual({
       source: 'collabo-cafe',

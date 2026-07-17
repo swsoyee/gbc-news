@@ -1,6 +1,9 @@
 /**
  * 用现有 latest.json 的 URL 重抓详情，仅刷新 eventDates（期间抽取升级后用）。
  * 用法：tsx scripts/reenrich-event-dates.ts [gbc-news|gbc-firstriff|all]
+ *
+ * 注意：历史维护脚本，目前只支持 gbc-news / gbc-firstriff。
+ * collabo-cafe / gamepedia 请用各自 scrape 脚本重抓，不要在此扩展硬编码列表时绕过 SOURCE_IDS 约定。
  */
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'

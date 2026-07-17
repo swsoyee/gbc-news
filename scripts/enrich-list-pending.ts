@@ -3,13 +3,14 @@ import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { loadEnrichmentFiles } from '../src/enrichments/files.js'
 import { listPendingItems, parsePendingCliArgs } from '../src/enrichments/pending.js'
+import { loadManualDedupeFile } from '../src/feeds/manual-dedupe.js'
 import { assertNewsItem, type NewsItem } from '../src/models/item.js'
-import { SOURCE_IDS } from '../src/models/source.js'
+import { SOURCE_IDS, sourceLatestRelPath, type SourceId } from '../src/models/source.js'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 
-async function loadItems(sourceId: string): Promise<NewsItem[]> {
-  const path = join(root, 'data', sourceId, 'latest.json')
+async function loadItems(sourceId: SourceId): Promise<NewsItem[]> {
+  const path = join(root, sourceLatestRelPath(sourceId))
   const parsed = JSON.parse(await readFile(path, 'utf8')) as { items?: unknown }
   if (!Array.isArray(parsed.items)) throw new Error(`${path} items must be an array`)
   for (const item of parsed.items) assertNewsItem(item)
@@ -19,11 +20,13 @@ async function loadItems(sourceId: string): Promise<NewsItem[]> {
 async function main(): Promise<void> {
   const options = parsePendingCliArgs(process.argv.slice(2))
   const sourceIds = options.source ? [options.source] : [...SOURCE_IDS]
-  const [files, itemGroups] = await Promise.all([
+  const [files, itemGroups, manualDedupe] = await Promise.all([
     loadEnrichmentFiles(root, sourceIds),
     Promise.all(sourceIds.map(loadItems)),
+    loadManualDedupeFile(root),
   ])
-  const pending = listPendingItems(itemGroups.flat(), files).slice(0, options.limit)
+  const excludeIds = new Set(manualDedupe.drops.map((drop) => drop.id))
+  const pending = listPendingItems(itemGroups.flat(), files, { excludeIds }).slice(0, options.limit)
   const output = pending.map(
     ({ priority, reason, contentFingerprint: fingerprint, item, previous }) => ({
       priority: `P${priority}`,
@@ -45,6 +48,9 @@ async function main(): Promise<void> {
   if (options.json) {
     console.log(JSON.stringify(output, null, 2))
     return
+  }
+  if (excludeIds.size > 0) {
+    console.log(`[info] excluded manual dedupe drops=${excludeIds.size}`)
   }
   if (output.length === 0) {
     console.log('[info] no pending enrichments')

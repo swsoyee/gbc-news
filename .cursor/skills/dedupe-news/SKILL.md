@@ -51,6 +51,8 @@ description: 人工判定 gbc-news 跨源重复资讯，把确认的重复写入
    ```
    `build-feeds` 会按 `drops` 剔除条目；若某 `id` 未命中任何条目会打印
    `manual dedupe drop id 未命中任何条目（可能已过期）` 警告，需核对后清理。
+   `keptId` 写了但快照中找不到时，`enrich:validate` 会报错退出。
+   同一活动若 collabo 有多条近似 slug，需**分别**写入 drops。
 
 ## 边界
 
@@ -58,3 +60,4 @@ description: 人工判定 gbc-news 跨源重复资讯，把确认的重复写入
 - 不在流水线里加回自动去重；只有 `data/dedupe/manual.json` 里的条目会被剔除。
 - 不手改 `public/data/news.json`、`public/feeds/`，统一由 `build:feeds` 生成。
 - 拿不准是否同一件事时**宁可不剔除**（漏去重优于误删有效资讯）。
+- 已 drop 的条目不会再出现在 `enrich:list-pending`；无需为其继续汉化。

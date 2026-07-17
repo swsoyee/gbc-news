@@ -47,9 +47,12 @@ function pendingPriority(
 export function listPendingItems(
   items: NewsItem[],
   files: ReadonlyMap<string, EnrichmentFile>,
+  options?: { excludeIds?: ReadonlySet<string> },
 ): PendingItem[] {
+  const excludeIds = options?.excludeIds
   const pending: PendingItem[] = []
   for (const item of items) {
+    if (excludeIds?.has(item.id)) continue
     const record = files.get(item.sourceId)?.items[item.id]
     const fingerprint = contentFingerprint(item)
     const classification = pendingPriority(item, record, fingerprint)

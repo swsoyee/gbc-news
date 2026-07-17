@@ -1,3 +1,5 @@
+import { readFile } from 'node:fs/promises'
+import { join } from 'node:path'
 import type { PublicNewsItem } from '../models/enrichment.js'
 
 export interface ManualDrop {
@@ -19,6 +21,13 @@ export interface ManualDedupeResult<T> {
   dropped: ManualDrop[]
   warnings: string[]
 }
+
+export interface ManualDedupeRefCheck {
+  errors: string[]
+  warnings: string[]
+}
+
+export const MANUAL_DEDUPE_REL_PATH = 'data/dedupe/manual.json'
 
 function isIsoTimestamp(value: string): boolean {
   return !Number.isNaN(Date.parse(value)) && new Date(value).toISOString() === value
@@ -61,14 +70,54 @@ export function assertManualDedupeFile(value: unknown): asserts value is ManualD
   }
 }
 
+export function emptyManualDedupeFile(updatedAt = new Date().toISOString()): ManualDedupeFile {
+  return { updatedAt, drops: [] }
+}
+
+/** 读取人工去重名单；文件不存在时返回空名单。 */
+export async function loadManualDedupeFile(root: string): Promise<ManualDedupeFile> {
+  try {
+    const parsed: unknown = JSON.parse(await readFile(join(root, MANUAL_DEDUPE_REL_PATH), 'utf8'))
+    assertManualDedupeFile(parsed)
+    return parsed
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === 'ENOENT') {
+      return emptyManualDedupeFile()
+    }
+    throw error
+  }
+}
+
+/**
+ * 校验名单引用：drop id 未命中 → warning；keptId 已写但未命中 → error。
+ */
+export function validateManualDedupeReferences(
+  file: ManualDedupeFile,
+  items: readonly Pick<PublicNewsItem, 'id'>[],
+): ManualDedupeRefCheck {
+  const ids = new Set(items.map((item) => item.id))
+  const errors: string[] = []
+  const warnings: string[] = []
+  for (const drop of file.drops) {
+    if (!ids.has(drop.id)) {
+      warnings.push(`manual dedupe drop id 未命中任何条目（可能已过期）: ${drop.id}`)
+    }
+    if (drop.keptId && !ids.has(drop.keptId)) {
+      errors.push(`manual dedupe keptId 未命中任何条目: ${drop.keptId} (drop=${drop.id})`)
+    }
+  }
+  return { errors, warnings }
+}
+
 /**
  * 按人工去重名单剔除条目。
- * 名单中未命中任何条目的 id 记为警告（提示名单过期）。
+ * 名单中未命中任何条目的 id、以及 keptId 未命中，记为警告（提示名单过期/写错）。
  */
 export function applyManualDrops<T extends Pick<PublicNewsItem, 'id'>>(
   items: T[],
   file: ManualDedupeFile,
 ): ManualDedupeResult<T> {
+  const itemIds = new Set(items.map((item) => item.id))
   const dropById = new Map(file.drops.map((drop) => [drop.id, drop]))
   const kept: T[] = []
   const dropped: ManualDrop[] = []
@@ -86,6 +135,11 @@ export function applyManualDrops<T extends Pick<PublicNewsItem, 'id'>>(
   const warnings = [...dropById.keys()].map(
     (id) => `manual dedupe drop id 未命中任何条目（可能已过期）: ${id}`,
   )
+  for (const drop of dropped) {
+    if (drop.keptId && !itemIds.has(drop.keptId)) {
+      warnings.push(`manual dedupe keptId 未命中任何条目: ${drop.keptId} (drop=${drop.id})`)
+    }
+  }
 
   return { items: kept, dropped, warnings }
 }

@@ -2,11 +2,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { buildIcal, buildRss } from '../src/feeds/build.js'
-import {
-  applyManualDrops,
-  assertManualDedupeFile,
-  type ManualDedupeFile,
-} from '../src/feeds/manual-dedupe.js'
+import { applyManualDrops, loadManualDedupeFile } from '../src/feeds/manual-dedupe.js'
 import {
   mergeNewsSnapshots,
   requireExpandableEntries,
@@ -20,34 +16,16 @@ import { expandEventDates } from '../src/feeds/expand.js'
 import { loadEnrichmentFiles } from '../src/enrichments/files.js'
 import { applyEnrichments } from '../src/models/enrichment.js'
 import { EVENT_DATE_TITLE_PREFIX_ZH } from '../src/models/event-date.js'
+import { SOURCE_IDS, sourceLatestRelPath } from '../src/models/source.js'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
-const sourcePaths = [
-  join(root, 'data/gbc-news/latest.json'),
-  join(root, 'data/gbc-firstriff/latest.json'),
-  join(root, 'data/collabo-cafe/latest.json'),
-  join(root, 'data/gamepedia/latest.json'),
-]
-const manualDedupePath = join(root, 'data/dedupe/manual.json')
 const publicDataPath = join(root, 'public/data/news.json')
 const feedsDir = join(root, 'public/feeds')
 
-async function loadManualDedupe(): Promise<ManualDedupeFile> {
-  try {
-    const parsed: unknown = JSON.parse(await readFile(manualDedupePath, 'utf8'))
-    assertManualDedupeFile(parsed)
-    return parsed
-  } catch (error) {
-    if ((error as NodeJS.ErrnoException).code === 'ENOENT') {
-      return { updatedAt: new Date().toISOString(), drops: [] }
-    }
-    throw error
-  }
-}
-
 async function main(): Promise<void> {
   const inputs = await Promise.all(
-    sourcePaths.map(async (dataPath) => {
+    SOURCE_IDS.map(async (sourceId) => {
+      const dataPath = join(root, sourceLatestRelPath(sourceId))
       try {
         const rawText = await readFile(dataPath, 'utf8')
         return { label: dataPath, snapshot: JSON.parse(rawText) as SnapshotLike }
@@ -63,7 +41,7 @@ async function main(): Promise<void> {
   requireNonEmptyMergedItems(merged)
   const enrichmentFiles = await loadEnrichmentFiles(root)
   const enriched = applyEnrichments(merged, enrichmentFiles)
-  const manualDedupe = await loadManualDedupe()
+  const manualDedupe = await loadManualDedupeFile(root)
   const {
     items: publicItems,
     dropped,

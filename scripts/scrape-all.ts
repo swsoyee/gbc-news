@@ -1,16 +1,10 @@
 import { spawn } from 'node:child_process'
+import { SOURCE_IDS, SOURCE_SCRAPE_SCRIPTS } from '../src/models/source.js'
 import {
   exitCodeForSummary,
   summarizeSourceResults,
   type SourceRunResult,
 } from './lib/scrape-orchestrate.js'
-
-const SOURCES = [
-  { sourceId: 'gbc-news', script: 'scripts/scrape-gbc.ts' },
-  { sourceId: 'gbc-firstriff', script: 'scripts/scrape-firstriff.ts' },
-  { sourceId: 'collabo-cafe', script: 'scripts/scrape-collabo-cafe.ts' },
-  { sourceId: 'gamepedia', script: 'scripts/scrape-gamepedia.ts' },
-] as const
 
 function runSource(sourceId: string, script: string): Promise<SourceRunResult> {
   return new Promise((resolve) => {
@@ -43,8 +37,8 @@ function runSource(sourceId: string, script: string): Promise<SourceRunResult> {
 
 async function main(): Promise<void> {
   const results: SourceRunResult[] = []
-  for (const source of SOURCES) {
-    results.push(await runSource(source.sourceId, source.script))
+  for (const sourceId of SOURCE_IDS) {
+    results.push(await runSource(sourceId, SOURCE_SCRAPE_SCRIPTS[sourceId]))
   }
 
   const summary = summarizeSourceResults(results)

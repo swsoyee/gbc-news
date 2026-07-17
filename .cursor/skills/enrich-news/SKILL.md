@@ -22,6 +22,7 @@ description: 批量核对、汉化并补录 gbc-news 抓取资讯的活动日期
    npm run enrich:list-pending -- --limit 10 --source gbc-news --json
    ```
    `--source` 可用 `gbc-news`、`gbc-firstriff`、`collabo-cafe`、`gamepedia`；需要跨源时省略。
+   **已写入 `data/dedupe/manual.json` 的 drop id 会自动排除**，不必再增强（公开 feeds 已剔除）。
 2. 逐条核对输出中的 `title`、`bodyText`、`eventDates` 与 `url`：
    - 按 [glossary.md](glossary.md) 翻译简体中文 `titleZh`、`summaryZh`，忠于原文，不扩写未证实信息。
    - `summaryZh` 只写面向用户的事实摘要；**不要**写「无具体日不补录」等内部说明（那些放 `reviewNotes`）。
@@ -52,3 +53,4 @@ description: 批量核对、汉化并补录 gbc-news 抓取资讯的活动日期
 - 不修改 GitHub Actions 定时或加入 AI API 调用。
 - 原文发生变化、fingerprint 失效时，旧增强不得继续发布；重新核对后更新记录。
 - 不手改 `public/data/news.json`、`public/feeds/` 或 `public/subscribe-core.js`，统一由构建生成。
+- 已在人工去重名单中的条目无需继续维护 enrichment；`enrich:validate` 会提示「enrichment 同时在 drops」计数。

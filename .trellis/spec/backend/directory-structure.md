@@ -11,6 +11,7 @@ src/
       fixtures/      # HTML/JSON 夹具
   models/
     item.ts          # 统一资讯模型（含 groups / eventDates）
+    source.ts        # SOURCE_IDS / SOURCE_SCRAPE_SCRIPTS / 优先级
     groups.ts        # GroupId
     event-date.ts    # EventDate / kind / 标题前缀
     categories.ts    # CategoryId
@@ -22,7 +23,7 @@ src/
     expand.ts        # eventDates → FeedEntry（无日期跳过）
     build.ts         # RSS / iCal 字符串生成（只吃 FeedEntry）
     merge-snapshots.ts # 多源合并 + 空订阅防护
-    manual-dedupe.ts # 人工去重名单（data/dedupe/manual.json）加载与剔除
+    manual-dedupe.ts # 人工去重名单加载/校验/剔除（data/dedupe/manual.json）
     dedupe-candidates.ts # 跨源重复候选（仅建议，不自动剔除）
     dynamic-feed.ts  # /api/feed 可测响应逻辑
   web/
@@ -32,8 +33,8 @@ src/
     html.ts          # strip/decode 共享工具
 scripts/
   scrape-<source>.ts # 单源入口：抓取并写 data/
-  scrape-all.ts      # 多源编排（失败隔离）
-  build-feeds.ts     # 多源合并 → public/data/news.json + feeds
+  scrape-all.ts      # 多源编排（由 SOURCE_IDS + SOURCE_SCRAPE_SCRIPTS 派生）
+  build-feeds.ts     # 多源合并（由 SOURCE_IDS 派生路径）→ public/data/news.json + feeds
   bundle-function.mjs
   bundle-web.mjs
 data/
@@ -51,14 +52,16 @@ netlify/functions/
 ## 约定
 
 1. **一个源一个目录**：`src/scrapers/<source-id>/`，禁止把多个官网的选择器堆在同一文件。
-2. **解析与 IO 分离**：`parse*.ts` 只吃字符串/DOM，不发网络请求；网络在 `scrape()` 或 `utils/http.ts`。
-3. **统一模型出站**：scraper 产出 `NewsItem[]`（含 `groups`、可选 `eventDates`），feed 层只依赖模型与 `expandEventDates`，不在 scraper 里拼 RSS/iCal。
-4. **条目时间**：RSS `pubDate` / iCal `DTSTART` 使用展开后的活动日（`occurredOn`），不用 `publishedAt`；无 `eventDates` 的稿不进 feeds，可留在 `news.json`。
-5. **生成物不手改**：`data/`、`public/feeds/`、`public/data/news.json` 由脚本写出；手工编辑视为错误。
-6. **空订阅防护**：全量展开结果为 0 时 `build-feeds` 必须失败退出，禁止覆盖上次成功的 `all` 订阅。
+2. **源注册单一事实来源**：新增源时扩展 `SOURCE_IDS` 与 `SOURCE_SCRAPE_SCRIPTS`；`scrape-all` / `build-feeds` 禁止另维护源列表。
+3. **解析与 IO 分离**：`parse*.ts` 只吃字符串/DOM，不发网络请求；网络在 `scrape()` 或 `utils/http.ts`。
+4. **统一模型出站**：scraper 产出 `NewsItem[]`（含 `groups`、可选 `eventDates`），feed 层只依赖模型与 `expandEventDates`，不在 scraper 里拼 RSS/iCal。
+5. **条目时间**：RSS `pubDate` / iCal `DTSTART` 使用展开后的活动日（`occurredOn`），不用 `publishedAt`；无 `eventDates` 的稿不进 feeds，可留在 `news.json`。
+6. **生成物不手改**：`data/`、`public/feeds/`、`public/data/news.json` 由脚本写出；手工编辑视为错误。
+7. **空订阅防护**：全量展开结果为 0 时 `build-feeds` 必须失败退出，禁止覆盖上次成功的 `all` 订阅。
 
 ## 禁止
 
 - 在 Netlify Functions 里做重型全量抓取（定时抓取应在 Actions）
 - 把密钥硬编码进仓库
 - 为「以后可能用到」提前引入 ORM / Redis / 消息队列
+- 在 `scrape-all` / `build-feeds` 硬编码四源列表（必须读 `SOURCE_IDS`）

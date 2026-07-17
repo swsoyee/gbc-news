@@ -5,7 +5,11 @@ import {
   findDuplicateCandidates,
   titlesSimilar,
 } from '../src/feeds/dedupe-candidates.js'
-import { applyManualDrops, assertManualDedupeFile } from '../src/feeds/manual-dedupe.js'
+import {
+  applyManualDrops,
+  assertManualDedupeFile,
+  validateManualDedupeReferences,
+} from '../src/feeds/manual-dedupe.js'
 import type { NewsItem } from '../src/models/item.js'
 
 function item(
@@ -173,6 +177,44 @@ describe('applyManualDrops', () => {
       drops: [{ id: 'missing-1' }],
     })
     expect(warnings).toHaveLength(1)
+  })
+
+  it('keptId 未命中 → 警告', () => {
+    const items = [
+      item({
+        id: 'gamepedia-1',
+        sourceId: 'gamepedia',
+        title: 'A',
+        publishedAt: '2026-07-01T00:00:00.000Z',
+      }),
+    ].map(({ bodyText: _b, ...rest }) => rest)
+    const { warnings } = applyManualDrops(items, {
+      updatedAt: '2026-07-17T00:00:00.000Z',
+      drops: [{ id: 'gamepedia-1', keptId: 'missing-keep' }],
+    })
+    expect(warnings.some((w) => w.includes('keptId'))).toBe(true)
+  })
+})
+
+describe('validateManualDedupeReferences', () => {
+  it('keptId 缺失为 error，过期 drop 为 warning', () => {
+    const items = [
+      item({
+        id: 'gamepedia-1',
+        sourceId: 'gamepedia',
+        title: 'A',
+        publishedAt: '2026-07-01T00:00:00.000Z',
+      }),
+    ]
+    const result = validateManualDedupeReferences(
+      {
+        updatedAt: '2026-07-17T00:00:00.000Z',
+        drops: [{ id: 'gamepedia-1', keptId: 'gone' }, { id: 'stale-drop' }],
+      },
+      items,
+    )
+    expect(result.errors).toHaveLength(1)
+    expect(result.warnings).toHaveLength(1)
   })
 })
 

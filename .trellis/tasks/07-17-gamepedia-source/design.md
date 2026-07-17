@@ -7,15 +7,14 @@ scrape-gamepedia → data/gamepedia/latest.json
                          ↓
 scrape-all / build-feeds
   mergeNewsSnapshots(四源)
-  → dedupeBySourcePriority(...)   // 新增
   → applyEnrichments
+  → applyManualDrops(data/dedupe/manual.json)   // 人工名单，不自动去重
   → expandEventDates → public/feeds/*
 ```
 
 - Scraper 独立目录：`src/scrapers/gamepedia/`（不与其它源耦合）。
-- 去重放在 **合并之后、enrichment 之前**（对规则抽取与 enrichment 覆盖后的 `eventDates` 都生效的话：若 enrichment 在去重后，可能用人工日期再判；建议 **enrichment 之后再去重**，使人工日程也参与重叠判定）。
-
-**推荐顺序**：`merge` → `applyEnrichments` → `dedupeBySourcePriority` → expand/write。
+- **推荐顺序**：`merge` → `applyEnrichments` → `applyManualDrops` → expand/write。
+  enrichment 后再剔除，使人工日程已叠加到条目上（候选脚本同样先 enrich 再建议）。
 
 ## Scraper
 
@@ -49,14 +48,14 @@ scrape-all / build-feeds
 
 ## Registration touchpoints
 
-- `src/models/source.ts` 加入 `gamepedia`
-- `scripts/scrape-gamepedia.ts`、`scrape-all.ts`、`build-feeds.ts`、`package.json`
+- `src/models/source.ts`：`SOURCE_IDS` + `SOURCE_SCRAPE_SCRIPTS`（`scrape-all` / `build-feeds` 由此派生）
+- `scripts/scrape-gamepedia.ts`、`package.json`
 - README / architecture 简述（若现有文档列源则更新）
 
 ## Trade-offs
 
 | 选择 | 取舍 |
 |------|------|
-| enrichment 后再去重 | 人工日程更准；实现略多一步 |
+| enrichment 后再人工剔除 | 人工日程已叠加；候选与构建路径一致 |
 | 丢弃无日期 gamepedia | 订阅更干净；漏掉纯介绍文 |
-| 仅日期+发布时间去重 | 标题差异大的同事件可命中；同档期不同商品有误杀风险 |
+| 不自动按日期去重 | 避免同档期不同商品误杀；需人工维护名单 |

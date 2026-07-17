@@ -2,15 +2,11 @@ import { readFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { findDuplicateCandidates } from '../src/feeds/dedupe-candidates.js'
+import { applyManualDrops, loadManualDedupeFile } from '../src/feeds/manual-dedupe.js'
 import { loadEnrichmentFiles } from '../src/enrichments/files.js'
 import { applyEnrichments } from '../src/models/enrichment.js'
 import { assertNewsItem, type NewsItem } from '../src/models/item.js'
-import { SOURCE_IDS } from '../src/models/source.js'
-import {
-  applyManualDrops,
-  assertManualDedupeFile,
-  type ManualDedupeFile,
-} from '../src/feeds/manual-dedupe.js'
+import { SOURCE_IDS, sourceLatestRelPath } from '../src/models/source.js'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 
@@ -38,27 +34,12 @@ function parseArgs(args: string[]): CliOptions {
   return { json, onlyTitleSimilar, limit }
 }
 
-async function loadItems(sourceId: string): Promise<NewsItem[]> {
-  const path = join(root, 'data', sourceId, 'latest.json')
+async function loadItems(sourceId: (typeof SOURCE_IDS)[number]): Promise<NewsItem[]> {
+  const path = join(root, sourceLatestRelPath(sourceId))
   const parsed = JSON.parse(await readFile(path, 'utf8')) as { items?: unknown }
   if (!Array.isArray(parsed.items)) throw new Error(`${path} items must be an array`)
   for (const item of parsed.items) assertNewsItem(item)
   return parsed.items
-}
-
-async function loadManualDedupe(): Promise<ManualDedupeFile> {
-  try {
-    const parsed: unknown = JSON.parse(
-      await readFile(join(root, 'data/dedupe/manual.json'), 'utf8'),
-    )
-    assertManualDedupeFile(parsed)
-    return parsed
-  } catch (error) {
-    if ((error as NodeJS.ErrnoException).code === 'ENOENT') {
-      return { updatedAt: new Date().toISOString(), drops: [] }
-    }
-    throw error
-  }
 }
 
 async function main(): Promise<void> {
@@ -66,7 +47,7 @@ async function main(): Promise<void> {
   const [files, itemGroups, manualDedupe] = await Promise.all([
     loadEnrichmentFiles(root),
     Promise.all([...SOURCE_IDS].map(loadItems)),
-    loadManualDedupe(),
+    loadManualDedupeFile(root),
   ])
 
   const enriched = applyEnrichments(itemGroups.flat(), files)
