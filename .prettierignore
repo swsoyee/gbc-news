@@ -5,6 +5,7 @@ coverage
 .cursor
 package-lock.json
 netlify/functions/feed.js
+public/subscribe-core.js
 src/scrapers/**/fixtures/**
 data
 public/feeds

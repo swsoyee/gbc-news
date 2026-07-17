@@ -22,7 +22,8 @@
     "scrape": "tsx scripts/scrape-all.ts",
     "build:feeds": "tsx scripts/build-feeds.ts",
     "build:function": "node scripts/bundle-function.mjs",
-    "build": "npm run typecheck && npm run build:function && npm run build:feeds"
+    "build:web": "node scripts/bundle-web.mjs",
+    "build": "npm run typecheck && npm run build:function && npm run build:web && npm run build:feeds"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",

@@ -1,3 +1,24 @@
+import {
+  buildCalendarEvents as buildCalendarEventsCore,
+  buildFeedUrls as buildFeedUrlsCore,
+  buildMonthCells as buildMonthCellsCore,
+  buildWeekCells as buildWeekCellsCore,
+  buildWeekSegments,
+  chipLabel,
+  eventKindLabel,
+  formatDayLabel,
+  formatMonthLabel,
+  formatWeekLabel,
+  labelList,
+  shiftDay,
+  shiftMonth,
+  startOfDay,
+  startOfMonth,
+  startOfWeek,
+  toIsoDate,
+  toWebcal,
+} from './subscribe-core.js'
+
 const GROUPS = [
   { id: 'togenashi', label: 'トゲナシトゲアリ' },
   { id: 'f272', label: 'F-272' },
@@ -40,7 +61,6 @@ const calendarViewBtns = document.querySelectorAll('[data-calendar-view]')
 
 const CHIPS_PER_DAY = 3
 const CHIPS_PER_WEEK = Number.POSITIVE_INFINITY
-const WEEKDAY_LABELS = ['日', '一', '二', '三', '四', '五', '六']
 
 /** @type {'month' | 'week' | 'day'} */
 let calendarView = 'month'
@@ -76,13 +96,6 @@ function mountCheckboxes(container, items, name) {
 
 mountCheckboxes(groupsEl, GROUPS, 'group')
 mountCheckboxes(catsEl, CATEGORIES, 'category')
-
-function withFeedRev(url) {
-  if (!feedRev) return url
-  const parsed = new URL(url, window.location.origin)
-  parsed.searchParams.set('v', feedRev)
-  return parsed.toString()
-}
 
 function selectedValues(container) {
   return [...container.querySelectorAll('input:checked')].map((input) => input.value)
@@ -127,231 +140,31 @@ function countFiltered(groups, categories) {
   return { items, dated }
 }
 
-function filterNewsItems(groups, categories) {
-  const allGroups = groups.length === 0 || groups.length === GROUPS.length
-  const allCategories = categories.length === 0 || categories.length === CATEGORIES.length
-  const groupSet = new Set(groups)
-  const catSet = new Set(categories)
-
-  return newsItems.filter((item) => {
-    const groupOk = allGroups || (item.groups ?? []).some((g) => groupSet.has(g))
-    const catOk = allCategories || (item.categories ?? []).some((c) => catSet.has(c))
-    return groupOk && catOk
-  })
-}
-
 function buildFeedUrls(groups, categories) {
-  const origin = window.location.origin
-  // 未勾选 = 该维不过滤（等同全部）；与「全选」同义，避免空选得到空订阅
-  const allGroups = groups.length === 0 || groups.length === GROUPS.length
-  const allCategories = categories.length === 0 || categories.length === CATEGORIES.length
-
-  if (allGroups && allCategories) {
-    return {
-      mode: 'all',
-      rss: `${origin}/feeds/all.xml`,
-      ics: withFeedRev(`${origin}/feeds/all.ics`),
-    }
-  }
-
-  if (allGroups && categories.length === 1) {
-    const id = categories[0]
-    return {
-      mode: 'category',
-      rss: `${origin}/feeds/${id}.xml`,
-      ics: withFeedRev(`${origin}/feeds/${id}.ics`),
-    }
-  }
-
-  if (allCategories && groups.length === 1) {
-    const id = groups[0]
-    return {
-      mode: 'group',
-      rss: `${origin}/feeds/group-${id}.xml`,
-      ics: withFeedRev(`${origin}/feeds/group-${id}.ics`),
-    }
-  }
-
-  const rss = new URL('/api/feed', origin)
-  rss.searchParams.set('format', 'rss')
-  if (!allGroups) rss.searchParams.set('groups', groups.join(','))
-  if (!allCategories) rss.searchParams.set('categories', categories.join(','))
-
-  const ics = new URL('/api/feed', origin)
-  ics.searchParams.set('format', 'ics')
-  if (!allGroups) ics.searchParams.set('groups', groups.join(','))
-  if (!allCategories) ics.searchParams.set('categories', categories.join(','))
-  if (feedRev) ics.searchParams.set('v', feedRev)
-
-  return { mode: 'api', rss: rss.toString(), ics: ics.toString() }
-}
-
-function labelList(ids, catalog) {
-  if (ids.length === 0 || ids.length === catalog.length) return '全部'
-  const map = Object.fromEntries(catalog.map((item) => [item.id, item.label]))
-  return ids.map((id) => map[id] ?? id).join('、')
+  return buildFeedUrlsCore({
+    origin: window.location.origin,
+    groups,
+    categories,
+    groupCount: GROUPS.length,
+    categoryCount: CATEGORIES.length,
+    feedRev,
+  })
 }
 
 function localTodayIso() {
   return toIsoDate(new Date())
 }
 
-function toIsoDate(date) {
-  const year = date.getFullYear()
-  const month = String(date.getMonth() + 1).padStart(2, '0')
-  const day = String(date.getDate()).padStart(2, '0')
-  return `${year}-${month}-${day}`
-}
-
-function startOfDay(date) {
-  return new Date(date.getFullYear(), date.getMonth(), date.getDate())
-}
-
-function startOfMonth(date) {
-  return new Date(date.getFullYear(), date.getMonth(), 1)
-}
-
-function startOfWeek(date) {
-  const day = startOfDay(date)
-  return new Date(day.getFullYear(), day.getMonth(), day.getDate() - mondayBasedWeekday(day))
-}
-
-function shiftDay(date, delta) {
-  return new Date(date.getFullYear(), date.getMonth(), date.getDate() + delta)
-}
-
-function shiftMonth(date, delta) {
-  const next = new Date(date.getFullYear(), date.getMonth() + delta, 1)
-  const lastDay = new Date(next.getFullYear(), next.getMonth() + 1, 0).getDate()
-  return new Date(next.getFullYear(), next.getMonth(), Math.min(date.getDate(), lastDay))
-}
-
-function formatMonthLabel(date) {
-  return `${date.getFullYear()}年${date.getMonth() + 1}月`
-}
-
-function formatWeekLabel(date) {
-  const start = startOfWeek(date)
-  const end = shiftDay(start, 6)
-  const sameMonth = start.getMonth() === end.getMonth()
-  if (sameMonth) {
-    return `${start.getFullYear()}年${start.getMonth() + 1}月${start.getDate()}日–${end.getDate()}日`
-  }
-  return `${start.getMonth() + 1}月${start.getDate()}日–${end.getMonth() + 1}月${end.getDate()}日`
-}
-
-function formatDayLabel(date) {
-  return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日（周${WEEKDAY_LABELS[date.getDay()]}）`
-}
-
-function eventKindLabel(kind) {
-  return kind === 'sale' ? '発売' : '開催'
-}
-
-function mondayBasedWeekday(date) {
-  return (date.getDay() + 6) % 7
-}
-
-function buildDayMeta(day, inMonth) {
-  const date = toIsoDate(day)
-  return {
-    date,
-    dayNum: day.getDate(),
-    inMonth,
-    isRestDay: day.getDay() === 0 || day.getDay() === 6,
-    holidayName: holidayNames.get(date),
-  }
-}
-
 function buildMonthCells(cursor) {
-  const year = cursor.getFullYear()
-  const month = cursor.getMonth()
-  const first = new Date(year, month, 1)
-  const startOffset = mondayBasedWeekday(first)
-  const start = new Date(year, month, 1 - startOffset)
-  const cells = []
-  for (let i = 0; i < 42; i += 1) {
-    const day = new Date(start.getFullYear(), start.getMonth(), start.getDate() + i)
-    cells.push(buildDayMeta(day, day.getMonth() === month))
-  }
-  return cells
+  return buildMonthCellsCore(cursor, holidayNames)
 }
 
 function buildWeekCells(cursor) {
-  const start = startOfWeek(cursor)
-  const cells = []
-  for (let i = 0; i < 7; i += 1) {
-    const day = shiftDay(start, i)
-    cells.push(buildDayMeta(day, true))
-  }
-  return cells
+  return buildWeekCellsCore(cursor, holidayNames)
 }
 
 function buildCalendarEvents(groups, categories) {
-  const events = []
-  for (const item of filterNewsItems(groups, categories)) {
-    for (const eventDate of item.eventDates ?? []) {
-      if (!eventDate.date) continue
-      events.push({
-        item,
-        date: eventDate.date,
-        endDate:
-          eventDate.endDate && eventDate.endDate > eventDate.date
-            ? eventDate.endDate
-            : eventDate.date,
-        kind: eventDate.kind,
-        startTime: eventDate.startTime,
-      })
-    }
-  }
-  return events.sort(
-    (a, b) =>
-      a.date.localeCompare(b.date) ||
-      (a.startTime ?? '').localeCompare(b.startTime ?? '') ||
-      a.item.title.localeCompare(b.item.title),
-  )
-}
-
-function buildWeekSegments(events, cells) {
-  const weekStart = cells[0].date
-  const weekEnd = cells[cells.length - 1].date
-  const segments = events
-    .filter((event) => event.date <= weekEnd && event.endDate >= weekStart)
-    .map((event) => {
-      const startDate = event.date < weekStart ? weekStart : event.date
-      const endDate = event.endDate > weekEnd ? weekEnd : event.endDate
-      return {
-        event,
-        startColumn: cells.findIndex((cell) => cell.date === startDate),
-        endColumn: cells.findIndex((cell) => cell.date === endDate),
-        continuesBefore: event.date < weekStart,
-        continuesAfter: event.endDate > weekEnd,
-      }
-    })
-    .sort(
-      (a, b) =>
-        a.startColumn - b.startColumn ||
-        b.endColumn - a.endColumn ||
-        a.event.item.title.localeCompare(b.event.item.title),
-    )
-
-  const laneEnds = []
-  for (const segment of segments) {
-    let lane = laneEnds.findIndex((endColumn) => endColumn < segment.startColumn)
-    if (lane === -1) lane = laneEnds.length
-    laneEnds[lane] = segment.endColumn
-    segment.lane = lane
-  }
-  return segments
-}
-
-function chipLabel(segment) {
-  const { event, continuesBefore, continuesAfter } = segment
-  const kind = eventKindLabel(event.kind)
-  const startMark = continuesBefore ? '… ' : ''
-  const endMark = continuesAfter ? ' …' : ''
-  const time = event.startTime && !continuesBefore ? `${event.startTime} ` : ''
-  return `${kind} ${startMark}${time}${event.item.title}${endMark}`
+  return buildCalendarEventsCore(newsItems, groups, categories, GROUPS.length, CATEGORIES.length)
 }
 
 let calendarTooltipEl
@@ -718,10 +531,6 @@ function buildLinkRow({ title, ics, rssPath, dimmed }) {
   codeWrap.append(field, actions)
   row.append(strong, codeWrap)
   return row
-}
-
-function toWebcal(url) {
-  return url.replace(/^https:/, 'webcal:').replace(/^http:/, 'webcal:')
 }
 
 function refresh() {

@@ -1,0 +1,114 @@
+import { describe, expect, it } from 'vitest'
+import {
+  buildCalendarEvents,
+  buildFeedUrls,
+  buildMonthCells,
+  buildWeekSegments,
+  chipLabel,
+  formatMonthLabel,
+  shiftMonth,
+  startOfWeek,
+  toIsoDate,
+  toWebcal,
+} from '../src/web/subscribe-core.js'
+
+describe('buildFeedUrls', () => {
+  const base = {
+    origin: 'https://example.com',
+    groupCount: 4,
+    categoryCount: 7,
+  }
+
+  it('全选时走静态 all feeds', () => {
+    expect(
+      buildFeedUrls({
+        ...base,
+        groups: ['togenashi', 'f272', 'canna-lily', 'other'],
+        categories: ['live', 'event', 'goods', 'music', 'cinema', 'media', 'other'],
+      }),
+    ).toEqual({
+      mode: 'all',
+      rss: 'https://example.com/feeds/all.xml',
+      ics: 'https://example.com/feeds/all.ics',
+    })
+  })
+
+  it('单分类走静态分类 feed，并附 ICS 版本参数', () => {
+    const result = buildFeedUrls({
+      ...base,
+      groups: ['togenashi', 'f272', 'canna-lily', 'other'],
+      categories: ['live'],
+      feedRev: '2026-07-01',
+    })
+    expect(result.mode).toBe('category')
+    expect(result.rss).toBe('https://example.com/feeds/live.xml')
+    expect(result.ics).toContain('/feeds/live.ics')
+    expect(result.ics).toContain('v=2026-07-01')
+  })
+
+  it('组合过滤走动态 API', () => {
+    const result = buildFeedUrls({
+      ...base,
+      groups: ['togenashi', 'f272'],
+      categories: ['live', 'goods'],
+    })
+    expect(result.mode).toBe('api')
+    expect(result.rss).toContain('/api/feed?')
+    expect(result.rss).toContain('groups=togenashi%2Cf272')
+    expect(result.rss).toContain('categories=live%2Cgoods')
+    expect(result.ics).toContain('format=ics')
+  })
+})
+
+describe('calendar helpers', () => {
+  it('toIsoDate / startOfWeek / shiftMonth 按本地日计算', () => {
+    const day = new Date(2026, 6, 15) // Jul 15 2026 Wed
+    expect(toIsoDate(day)).toBe('2026-07-15')
+    expect(toIsoDate(startOfWeek(day))).toBe('2026-07-13') // Monday
+    expect(toIsoDate(shiftMonth(day, 1))).toBe('2026-08-15')
+    expect(formatMonthLabel(day)).toBe('2026年7月')
+  })
+
+  it('buildMonthCells 生成 42 格且周一开头', () => {
+    const cells = buildMonthCells(new Date(2026, 6, 1))
+    expect(cells).toHaveLength(42)
+    expect(cells[0]?.date).toBe('2026-06-29')
+    expect(cells.filter((cell) => cell.inMonth)).toHaveLength(31)
+  })
+
+  it('跨日事件在周视图切成连续 segment', () => {
+    const item = {
+      title: 'Tour',
+      url: 'https://example.com/1',
+      groups: ['togenashi'],
+      categories: ['live'],
+      eventDates: [{ date: '2026-07-14', endDate: '2026-07-16', kind: 'hold' as const }],
+    }
+    const events = buildCalendarEvents([item], ['togenashi'], ['live'], 4, 7)
+    expect(events).toHaveLength(1)
+
+    const weekCells = [
+      { date: '2026-07-13', dayNum: 13, inMonth: true, isRestDay: false },
+      { date: '2026-07-14', dayNum: 14, inMonth: true, isRestDay: false },
+      { date: '2026-07-15', dayNum: 15, inMonth: true, isRestDay: false },
+      { date: '2026-07-16', dayNum: 16, inMonth: true, isRestDay: false },
+      { date: '2026-07-17', dayNum: 17, inMonth: true, isRestDay: false },
+      { date: '2026-07-18', dayNum: 18, inMonth: true, isRestDay: true },
+      { date: '2026-07-19', dayNum: 19, inMonth: true, isRestDay: true },
+    ]
+    const segments = buildWeekSegments(events, weekCells)
+    expect(segments).toHaveLength(1)
+    expect(segments[0]).toMatchObject({
+      startColumn: 1,
+      endColumn: 3,
+      continuesBefore: false,
+      continuesAfter: false,
+      lane: 0,
+    })
+    expect(chipLabel(segments[0]!)).toBe('開催 Tour')
+  })
+
+  it('toWebcal 转换协议', () => {
+    expect(toWebcal('https://example.com/a.ics')).toBe('webcal://example.com/a.ics')
+  })
+})
