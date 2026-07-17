@@ -1,6 +1,6 @@
 {
   "sourceId": "collabo-cafe",
-  "updatedAt": "2026-07-17T14:40:00.000Z",
+  "updatedAt": "2026-07-17T15:20:00.000Z",
   "items": {
     "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026": {
       "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
@@ -563,6 +563,54 @@
           "kind": "hold"
         }
       ]
+    },
+    "collabo-girls-band-cry-artist-photos-ver-newly-drawn-cospa-anime-store-goods2024": {
+      "id": "collabo-girls-band-cry-artist-photos-ver-newly-drawn-cospa-anime-store-goods2024",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "b0172a2e0bcf37a345619000b3ad7ecf45aa0455c85bfb70c3e1827ed99d3324",
+      "reviewedAt": "2026-07-17T15:20:00.000Z",
+      "titleZh": "Girls Band Cry 档案照风格！全新绘制周边 2 月一般发售",
+      "summaryZh": "手岛 nari「档案照 Ver.」全新绘制周边（徽章、大立牌、挂毯等 4 种）预定 2025 年 2 月一般发售；Anime Store.JP 预约至 2024 年 11 月 22 日。",
+      "eventDates": [
+        {
+          "date": "2024-11-22",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "2 月无具体日；去掉 23:59"
+    },
+    "collabo-girls-band-cry-gothic-costume-ver-medicos-anime-store-goods2024": {
+      "id": "collabo-girls-band-cry-gothic-costume-ver-medicos-anime-store-goods2024",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "440142a0ced640035abf23d285cb4ad0d2d0bbba89586d743466cc62dc537948",
+      "reviewedAt": "2026-07-17T15:20:00.000Z",
+      "titleZh": "Girls Band Cry 全新绘制哥特服装 Ver. 周边 2 月一般发售！",
+      "summaryZh": "无刺有刺 5 人哥特服装全新绘制周边由 MEDICOS 预定 2025 年 2 月一般发售；Anime Store.JP 预约至 2024 年 12 月 1 日。",
+      "eventDates": [
+        {
+          "date": "2024-12-01",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "2 月无具体日；去掉 23:59"
+    },
+    "collabo-girls-band-cry-official-illust-armabianca-anime-store-goods2024": {
+      "id": "collabo-girls-band-cry-official-illust-armabianca-anime-store-goods2024",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "931192459859c4c2a7c22d0de48a8baf608f3dfdcf8d3bd154c463208c429327",
+      "reviewedAt": "2026-07-17T15:20:00.000Z",
+      "titleZh": "Girls Band Cry 刺刺＆Diamond Dust 热力点缀新作周边 2 月发售",
+      "summaryZh": "无刺有刺与 Diamond Dust 版權插图周边由 armabianca 预定 2025 年 2 月中旬发售；Anime Store.JP 预约至 2024 年 12 月 7 日。",
+      "eventDates": [
+        {
+          "date": "2024-12-07",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "2 月中旬无具体日；去掉 23:59"
     }
   }
 }

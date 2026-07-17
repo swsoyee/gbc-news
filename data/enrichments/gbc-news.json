@@ -1,6 +1,6 @@
 {
   "sourceId": "gbc-news",
-  "updatedAt": "2026-07-17T15:10:00.000Z",
+  "updatedAt": "2026-07-17T15:20:00.000Z",
   "items": {
     "post-483": {
       "id": "post-483",
@@ -2977,6 +2977,115 @@
         }
       ],
       "reviewNotes": "12 月中旬无具体日"
+    },
+    "post-271": {
+      "id": "post-271",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "54ec6e754516839db60f9ab78e74e3f5f091c990a6b5ee1dbc512acbf0505dbb",
+      "reviewedAt": "2026-07-17T15:20:00.000Z",
+      "titleZh": "无刺有刺 5th ONE-MAN LIVE“鳴動の刻” 周边事前通贩通知",
+      "summaryZh": "5th 个人演唱会「鳴動の刻」当日周边事前通贩于东映动画官方商店进行：2024 年 11 月 15 日 13:00–11 月 24 日 23:59。",
+      "eventDates": [
+        {
+          "date": "2024-11-15",
+          "endDate": "2024-11-24",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "跨日去时刻"
+    },
+    "post-269": {
+      "id": "post-269",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "c729a29c5ed7d32121d5ff73684ada794eed2bba28c0b2483a6bc06473296b40",
+      "reviewedAt": "2026-07-17T15:20:00.000Z",
+      "titleZh": "Girls Band Cry POP UP SHOP ～rugged style～ 12 月 3 日（二）起举办！",
+      "summaryZh": "rugged style 弹出商店于 HMV 川崎・涩谷・心斋桥・博多四店举办：2024 年 12 月 3 日–31 日，销售手岛 nari 全新绘制周边，并先行发售部分新作。",
+      "eventDates": [
+        {
+          "date": "2024-12-03",
+          "endDate": "2024-12-31",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-270": {
+      "id": "post-270",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "248cd5fc1d6f4097f4c047c0bc17cf2d2084a7756c1f1aa7a7052b3660eb841d",
+      "reviewedAt": "2026-07-17T15:20:00.000Z",
+      "titleZh": "11/15（五）起 AniBirth 发售 Girls Band Cry 新商品！",
+      "summaryZh": "AniBirth 自 11/15 起发售第 11 话插曲《空白とカタルシス》场面亚克力立牌，以及刺刺成员主题硅胶表带手表等新商品。",
+      "eventDates": [
+        {
+          "date": "2024-11-15",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-267": {
+      "id": "post-267",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "4081b9cd614a3cc7129de1516eec1ef0c0979339661d5d4795c316f6105d5040",
+      "reviewedAt": "2026-07-17T15:20:00.000Z",
+      "titleZh": "无刺有刺决定出演「MEGA VEGAS 2025」！",
+      "summaryZh": "无刺有刺将出演 Fear, and Loathing in Las Vegas 主办音乐节「MEGA VEGAS 2025」：2025 年 3 月 22 日于神户世界纪念馆。",
+      "eventDates": [
+        {
+          "date": "2025-03-22",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-268": {
+      "id": "post-268",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "30ac9f1f9d9726775c5ea62ea837a11d684788012b5b75a569737a29393f8896",
+      "reviewedAt": "2026-07-17T15:20:00.000Z",
+      "titleZh": "无刺有刺 3rd ONE-MAN LIVE “咆哮の奏” 周边事后通贩通知",
+      "summaryZh": "3rd 个人演唱会「咆哮の奏」周边自 11 月 29 日 13:00 起在东映动画官方商店事后通贩，数量有限售完即止。",
+      "eventDates": [
+        {
+          "date": "2024-11-29",
+          "kind": "sale",
+          "startTime": "13:00"
+        }
+      ]
+    },
+    "post-266": {
+      "id": "post-266",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "dc57bdeb21391b430ba4c37fd822686482889df344cbbbcfc46f0aeb200eacf9",
+      "reviewedAt": "2026-07-17T15:20:00.000Z",
+      "titleZh": "无刺有刺决定出演「rockin'on presents COUNTDOWN JAPAN 24/25」！",
+      "summaryZh": "无刺有刺将出演 rockin'on presents COUNTDOWN JAPAN 24/25：2024 年 12 月 29 日。",
+      "eventDates": [
+        {
+          "date": "2024-12-29",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-261": {
+      "id": "post-261",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "d3458db5157a30596911c2f95055cef6fcce4ec30d48ded8c3e29efa9c253163",
+      "reviewedAt": "2026-07-17T15:20:00.000Z",
+      "titleZh": "「通宵全话上映」举办决定！",
+      "summaryZh": "2024 年 12 月 7 日于立川 Cinema City 举办《Girls Band Cry》通宵全话上映。",
+      "eventDates": [
+        {
+          "date": "2024-12-07",
+          "kind": "hold"
+        }
+      ]
     }
   }
 }

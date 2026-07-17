@@ -1918,19 +1918,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-220.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-271-2024-11-15_2024-11-24-sale-1300@gbc-news
-DTSTAMP:20241115T040000Z
-DTSTART:20241115T040000Z
-DTEND:20241124T145900Z
-TRANSP:OPAQUE
+UID:post-271-2024-11-15_2024-11-24-sale@gbc-news
+DTSTAMP:20241115T000000Z
+DTSTART;VALUE=DATE:20241115
+DTEND;VALUE=DATE:20241125
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 5th ONE-MAN LIVE“鳴動の刻
- ” グッズ事前通販のご案内
-DESCRIPTION:LIVE当日に販売されるオリジナルグッズの事前
- 通販が決定いたしました！\n■販売場所： 東映アニメ
- ーションオフィシャルストア ■グッズ事前通販スケジ
- ュール：2024年11月15日(金)13:00〜2024年11月24日(日)23:59 詳
- しくは こちら\n\nhttps://girls-band-cry.com/news/post-271.html
+SUMMARY:[发售] 无刺有刺 5th ONE-MAN LIVE“鳴動の刻” 周边事
+ 前通贩通知
+DESCRIPTION:5th 个人演唱会「鳴動の刻」当日周边事前通贩
+ 于东映动画官方商店进行：2024 年 11 月 15 日 13:00–11 月 
+ 24 日 23:59。\n\nhttps://girls-band-cry.com/news/post-271.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-271.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
@@ -2016,15 +2014,11 @@ DTSTART:20241129T040000Z
 DTEND:20241129T050000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 3rd ONE-MAN LIVE “咆哮の奏
- ”グッズ事後通販のご案内
-DESCRIPTION:「トゲナシトゲアリ 3rd ONE-MAN LIVE “咆哮の奏”
- 」にご来場いただいた皆様、誠にありがとうございま
- した たくさんのお客様にご来場いただき、心より御礼
- 申し上げます LIVEグッズ関して、11月29日（金）より事
- 後通販を行います！\n ■販売場所： 東映アニメーショ
- ンオフィシャルストア ■販売期間：11月29日（金）13：0
- 0～ 購入方法、\n\nhttps://girls-band-cry.com/news/post-268.html
+SUMMARY:[发售] 无刺有刺 3rd ONE-MAN LIVE “咆哮の奏” 周边事
+ 后通贩通知
+DESCRIPTION:3rd 个人演唱会「咆哮の奏」周边自 11 月 29 日 13
+ :00 起在东映动画官方商店事后通贩，数量有限售完即止
+ 。\n\nhttps://girls-band-cry.com/news/post-268.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-268.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
@@ -2212,11 +2206,10 @@ DTSTART;VALUE=DATE:20241229
 DTEND;VALUE=DATE:20241230
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ、「rockin'on presents COUNTDOWN
-  JAPAN 24/25」出演決定！
-DESCRIPTION:トゲナシトゲアリの「rockin'on presents COUNTDOWN JAPA
- N 24/25」への出演が決定しました！\n出演日は12月29日(日
- )となります。\n詳しくは こちら\n\n
+SUMMARY:[举办] 无刺有刺决定出演「rockin'on presents COUNTDOWN JA
+ PAN 24/25」！
+DESCRIPTION:无刺有刺将出演 rockin'on presents COUNTDOWN JAPAN 24/25
+ ：2024 年 12 月 29 日。\n\n
  https://girls-band-cry.com/news/post-266.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-266.html
 CATEGORIES:togenashi,live
@@ -2645,13 +2638,10 @@ DTSTART;VALUE=DATE:20250322
 DTEND;VALUE=DATE:20250323
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ、「MEGA VEGAS 2025」への出
- 演決定！
-DESCRIPTION:トゲナシトゲアリが神戸ワールド記念ホールで
- 開催される Fear\, and Loathing in Las Vegas主催フェス「MEGA VEG
- AS 2025」への出演が決定しました！\n出演日は、2025年3月
- 22日 (土）になります。\n詳細は こちら をチェック！\n\
- nhttps://girls-band-cry.com/news/post-267.html
+SUMMARY:[举办] 无刺有刺决定出演「MEGA VEGAS 2025」！
+DESCRIPTION:无刺有刺将出演 Fear\, and Loathing in Las Vegas 主办
+ 音乐节「MEGA VEGAS 2025」：2025 年 3 月 22 日于神户世界纪
+ 念馆。\n\nhttps://girls-band-cry.com/news/post-267.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-267.html
 CATEGORIES:togenashi,live,event
 END:VEVENT

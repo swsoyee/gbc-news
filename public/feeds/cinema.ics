@@ -1027,10 +1027,10 @@ DTSTART;VALUE=DATE:20241207
 DTEND;VALUE=DATE:20241208
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「オールナイト全話上映」の開催が決定！
-DESCRIPTION:12/7(土)立川シネマシティにて、「オールナイト
- 全話上映」の開催が決定しました！\n 詳しくは こちら\
- n\nhttps://girls-band-cry.com/news/post-261.html
+SUMMARY:[举办] 「通宵全话上映」举办决定！
+DESCRIPTION:2024 年 12 月 7 日于立川 Cinema City 举办《Girls Band 
+ Cry》通宵全话上映。\n\n
+ https://girls-band-cry.com/news/post-261.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-261.html
 CATEGORIES:togenashi,event,cinema
 END:VEVENT

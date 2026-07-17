@@ -3873,30 +3873,26 @@ DTSTART;VALUE=DATE:20241115
 DTEND;VALUE=DATE:20241116
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 11/15(金)よりAniBirthにてガールズバンドクラ
- イ新商品発売決定！
-DESCRIPTION:アニメ「ガールズバンドクライ」第11話挿入歌
- 『空白とカタルシス』の場面写アクリルスタンドや、 
- トゲトゲメンバーをイメージしたシリコンバンド腕時
- 計がAniBirthに新登場！\n\n\n
- https://girls-band-cry.com/news/post-270.html
+SUMMARY:[发售] 11/15（五）起 AniBirth 发售 Girls Band Cry 新商品
+ ！
+DESCRIPTION:AniBirth 自 11/15 起发售第 11 话插曲《空白とカタ
+ ルシス》场面亚克力立牌，以及刺刺成员主题硅胶表带
+ 手表等新商品。\n\nhttps://girls-band-cry.com/news/post-270.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-270.html
 CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT
-UID:post-271-2024-11-15_2024-11-24-sale-1300@gbc-news
-DTSTAMP:20241115T040000Z
-DTSTART:20241115T040000Z
-DTEND:20241124T145900Z
-TRANSP:OPAQUE
+UID:post-271-2024-11-15_2024-11-24-sale@gbc-news
+DTSTAMP:20241115T000000Z
+DTSTART;VALUE=DATE:20241115
+DTEND;VALUE=DATE:20241125
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 5th ONE-MAN LIVE“鳴動の刻
- ” グッズ事前通販のご案内
-DESCRIPTION:LIVE当日に販売されるオリジナルグッズの事前
- 通販が決定いたしました！\n■販売場所： 東映アニメ
- ーションオフィシャルストア ■グッズ事前通販スケジ
- ュール：2024年11月15日(金)13:00〜2024年11月24日(日)23:59 詳
- しくは こちら\n\nhttps://girls-band-cry.com/news/post-271.html
+SUMMARY:[发售] 无刺有刺 5th ONE-MAN LIVE“鳴動の刻” 周边事
+ 前通贩通知
+DESCRIPTION:5th 个人演唱会「鳴動の刻」当日周边事前通贩
+ 于东映动画官方商店进行：2024 年 11 月 15 日 13:00–11 月 
+ 24 日 23:59。\n\nhttps://girls-band-cry.com/news/post-271.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-271.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
@@ -3966,20 +3962,17 @@ CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:collabo-girls-band-cry-artist-photos-ver-newly-drawn-cospa-anime-store-
- goods2024-2024-11-22-sale-2359@gbc-news
-DTSTAMP:20241122T145900Z
-DTSTART:20241122T145900Z
-DTEND:20241122T155900Z
-TRANSP:OPAQUE
+ goods2024-2024-11-22-sale@gbc-news
+DTSTAMP:20241122T000000Z
+DTSTART;VALUE=DATE:20241122
+DTEND;VALUE=DATE:20241123
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ アー写をイメージ! 
- 描き下ろしグッズ 2月一般発売
-DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
- 「ガールズバンドクライ (ガルクラ)」から、描き下ろ
- し「アー写 Ver.」の新作グッズが2025年2月に一般発売さ
- れる。\nアトレ秋葉原/ジーストア対象店舗にて開催のPO
- P UP SHOP先行販売グッズで、桃香ら「トゲナシトゲアリ
- 」メンバー5名のアクリルスタンなどが登場！\n\n
+SUMMARY:[发售] Girls Band Cry 档案照风格！全新绘制周边 2 月
+ 一般发售
+DESCRIPTION:手岛 nari「档案照 Ver.」全新绘制周边（徽章、
+ 大立牌、挂毯等 4 种）预定 2025 年 2 月一般发售；Anime St
+ ore.JP 预约至 2024 年 11 月 22 日。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-artist-photos-ver-n
  ewly-drawn-cospa-anime-store-goods2024/
 URL;VALUE=URI:
@@ -4029,34 +4022,27 @@ DTSTART:20241129T040000Z
 DTEND:20241129T050000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 3rd ONE-MAN LIVE “咆哮の奏
- ”グッズ事後通販のご案内
-DESCRIPTION:「トゲナシトゲアリ 3rd ONE-MAN LIVE “咆哮の奏”
- 」にご来場いただいた皆様、誠にありがとうございま
- した たくさんのお客様にご来場いただき、心より御礼
- 申し上げます LIVEグッズ関して、11月29日（金）より事
- 後通販を行います！\n ■販売場所： 東映アニメーショ
- ンオフィシャルストア ■販売期間：11月29日（金）13：0
- 0～ 購入方法、\n\nhttps://girls-band-cry.com/news/post-268.html
+SUMMARY:[发售] 无刺有刺 3rd ONE-MAN LIVE “咆哮の奏” 周边事
+ 后通贩通知
+DESCRIPTION:3rd 个人演唱会「咆哮の奏」周边自 11 月 29 日 13
+ :00 起在东映动画官方商店事后通贩，数量有限售完即止
+ 。\n\nhttps://girls-band-cry.com/news/post-268.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-268.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
 BEGIN:VEVENT
 UID:collabo-girls-band-cry-gothic-costume-ver-medicos-anime-store-goods2024
- -2024-12-01-sale-2359@gbc-news
-DTSTAMP:20241201T145900Z
-DTSTART:20241201T145900Z
-DTEND:20241201T155900Z
-TRANSP:OPAQUE
+ -2024-12-01-sale@gbc-news
+DTSTAMP:20241201T000000Z
+DTSTART;VALUE=DATE:20241201
+DTEND;VALUE=DATE:20241202
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ 描き下ろし ゴシッ
- ク衣装 Ver.グッズ 2月一般発売!
-DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
- 「ガールズバンドクライ (ガルクラ)」から、新規描き
- 下ろしグッズが、2025年2月に一般発売される。\nグッズ
- はMEDICOS SHOP渋谷にて先行販売されたもので、主人公・
- 井芹仁菜らトゲナシトゲアリ (トゲトゲ)のメンバー5人
- がゴシック衣装を身にまとった姿で登場！\n\n
+SUMMARY:[发售] Girls Band Cry 全新绘制哥特服装 Ver. 周边 2 月
+ 一般发售！
+DESCRIPTION:无刺有刺 5 人哥特服装全新绘制周边由 MEDICOS 预
+ 定 2025 年 2 月一般发售；Anime Store.JP 预约至 2024 年 12 月 
+ 1 日。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-gothic-costume-ver-
  medicos-anime-store-goods2024/
 URL;VALUE=URI:
@@ -4071,13 +4057,11 @@ DTSTART;VALUE=DATE:20241203
 DTEND;VALUE=DATE:20250101
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライ POP UP SHOP ～rugged style
- ～が12月3日(火)より開催決定！
-DESCRIPTION:『ガールズバンドクライ POP UP SHOP ～rugged style
- ～』が12月3日(火)より開催決定！\nPOP UP SHOPは、HMV・HMV&B
- OOKS 4店舗で実施！\n・HMVラゾーナ川崎店 ・HMV＆BOOKS SHIBU
- YA店 ・HMV&BOOKS SHINSAIBASHI店 ・HMV＆BOOKS HAKATA店 キャラク
- ターデザイン担当・\n\n
+SUMMARY:[举办] Girls Band Cry POP UP SHOP ～rugged style～ 12 月 3 日
+ （二）起举办！
+DESCRIPTION:rugged style 弹出商店于 HMV 川崎・涩谷・心斋桥・
+ 博多四店举办：2024 年 12 月 3 日–31 日，销售手岛 nari 
+ 全新绘制周边，并先行发售部分新作。\n\n
  https://girls-band-cry.com/news/post-269.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-269.html
 CATEGORIES:togenashi,goods,event
@@ -4114,42 +4098,38 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-274.html
 CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT
-UID:post-261-2024-12-07-hold@gbc-news
+UID:collabo-girls-band-cry-official-illust-armabianca-anime-store-goods2024
+ -2024-12-07-sale@gbc-news
 DTSTAMP:20241207T000000Z
 DTSTART;VALUE=DATE:20241207
 DTEND;VALUE=DATE:20241208
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「オールナイト全話上映」の開催が決定！
-DESCRIPTION:12/7(土)立川シネマシティにて、「オールナイト
- 全話上映」の開催が決定しました！\n 詳しくは こちら\
- n\nhttps://girls-band-cry.com/news/post-261.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-261.html
-CATEGORIES:togenashi,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:collabo-girls-band-cry-official-illust-armabianca-anime-store-goods2024
- -2024-12-07-sale-2359@gbc-news
-DTSTAMP:20241207T145900Z
-DTSTART:20241207T145900Z
-DTEND:20241207T155900Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ トゲトゲ&ダイタス
- が熱く彩る新作グッズ 2月発売
-DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
- 「ガールズバンドクライ (ガルクラ)」から、新作グッ
- ズが2025年2月中旬にアルマビアンカより発売される。\n
- 版権イラストを使用した「トレーディングブロマイド
- 」や「アクリルパネル」、「ポスター」、モチーフア
- イコンをデザインした「ステッカー」や「フェイスタ
- オル」などが登場！\n\n
+SUMMARY:[发售] Girls Band Cry 刺刺＆Diamond Dust 热力点缀新作周
+ 边 2 月发售
+DESCRIPTION:无刺有刺与 Diamond Dust 版權插图周边由 armabianca 
+ 预定 2025 年 2 月中旬发售；Anime Store.JP 预约至 2024 年 12 
+ 月 7 日。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-official-illust-arm
  abianca-anime-store-goods2024/
 URL;VALUE=URI:
  https://collabo-cafe.com/events/collabo/girls-band-cry-official-illust-arm
  abianca-anime-store-goods2024/
 CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
+UID:post-261-2024-12-07-hold@gbc-news
+DTSTAMP:20241207T000000Z
+DTSTART;VALUE=DATE:20241207
+DTEND;VALUE=DATE:20241208
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 「通宵全话上映」举办决定！
+DESCRIPTION:2024 年 12 月 7 日于立川 Cinema City 举办《Girls Band 
+ Cry》通宵全话上映。\n\n
+ https://girls-band-cry.com/news/post-261.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-261.html
+CATEGORIES:togenashi,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-277-2024-12-11-sale-1200@gbc-news
@@ -4386,11 +4366,10 @@ DTSTART;VALUE=DATE:20241229
 DTEND;VALUE=DATE:20241230
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ、「rockin'on presents COUNTDOWN
-  JAPAN 24/25」出演決定！
-DESCRIPTION:トゲナシトゲアリの「rockin'on presents COUNTDOWN JAPA
- N 24/25」への出演が決定しました！\n出演日は12月29日(日
- )となります。\n詳しくは こちら\n\n
+SUMMARY:[举办] 无刺有刺决定出演「rockin'on presents COUNTDOWN JA
+ PAN 24/25」！
+DESCRIPTION:无刺有刺将出演 rockin'on presents COUNTDOWN JAPAN 24/25
+ ：2024 年 12 月 29 日。\n\n
  https://girls-band-cry.com/news/post-266.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-266.html
 CATEGORIES:togenashi,live
@@ -5015,13 +4994,10 @@ DTSTART;VALUE=DATE:20250322
 DTEND;VALUE=DATE:20250323
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ、「MEGA VEGAS 2025」への出
- 演決定！
-DESCRIPTION:トゲナシトゲアリが神戸ワールド記念ホールで
- 開催される Fear\, and Loathing in Las Vegas主催フェス「MEGA VEG
- AS 2025」への出演が決定しました！\n出演日は、2025年3月
- 22日 (土）になります。\n詳細は こちら をチェック！\n\
- nhttps://girls-band-cry.com/news/post-267.html
+SUMMARY:[举办] 无刺有刺决定出演「MEGA VEGAS 2025」！
+DESCRIPTION:无刺有刺将出演 Fear\, and Loathing in Las Vegas 主办
+ 音乐节「MEGA VEGAS 2025」：2025 年 3 月 22 日于神户世界纪
+ 念馆。\n\nhttps://girls-band-cry.com/news/post-267.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-267.html
 CATEGORIES:togenashi,live,event
 END:VEVENT

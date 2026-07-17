@@ -311,13 +311,11 @@ DTSTART;VALUE=DATE:20241115
 DTEND;VALUE=DATE:20241116
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 11/15(金)よりAniBirthにてガールズバンドクラ
- イ新商品発売決定！
-DESCRIPTION:アニメ「ガールズバンドクライ」第11話挿入歌
- 『空白とカタルシス』の場面写アクリルスタンドや、 
- トゲトゲメンバーをイメージしたシリコンバンド腕時
- 計がAniBirthに新登場！\n\n\n
- https://girls-band-cry.com/news/post-270.html
+SUMMARY:[发售] 11/15（五）起 AniBirth 发售 Girls Band Cry 新商品
+ ！
+DESCRIPTION:AniBirth 自 11/15 起发售第 11 话插曲《空白とカタ
+ ルシス》场面亚克力立牌，以及刺刺成员主题硅胶表带
+ 手表等新商品。\n\nhttps://girls-band-cry.com/news/post-270.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-270.html
 CATEGORIES:togenashi,other
 END:VEVENT

@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-17T12:29:29.916Z",
+  "scrapedAt": "2026-07-17T12:30:01.024Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
@@ -6187,12 +6187,13 @@
       "eventDates": [
         {
           "date": "2024-11-22",
-          "kind": "sale",
-          "startTime": "23:59"
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが贈るオリジナルTVアニメ「ガールズバンドクライ (ガルクラ)」から、描き下ろし「アー写 Ver.」の新作グッズが2025年2月に一般発売される。アトレ秋葉原/ジーストア対象店舗にて開催のPOP UP SHOP先行販売グッズで、桃香ら「トゲナシトゲアリ」メンバー5名のアクリルスタンなどが登場！",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/7b8982fb78a0b7f7d834a2fa4e241c99-698.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/7b8982fb78a0b7f7d834a2fa4e241c99-698.jpg",
+      "titleZh": "Girls Band Cry 档案照风格！全新绘制周边 2 月一般发售",
+      "summaryZh": "手岛 nari「档案照 Ver.」全新绘制周边（徽章、大立牌、挂毯等 4 种）预定 2025 年 2 月一般发售；Anime Store.JP 预约至 2024 年 11 月 22 日。"
     },
     {
       "id": "post-271",
@@ -6210,14 +6211,14 @@
       "eventDates": [
         {
           "date": "2024-11-15",
-          "kind": "sale",
           "endDate": "2024-11-24",
-          "startTime": "13:00",
-          "endTime": "23:59"
+          "kind": "sale"
         }
       ],
       "summary": "LIVE当日に販売されるオリジナルグッズの事前通販が決定いたしました！ ■販売場所： 東映アニメーションオフィシャルストア ■グッズ事前通販スケジュール：2024年11月15日(金)13:00〜2024年11月24日(日)23:59 詳しくは こちら",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "无刺有刺 5th ONE-MAN LIVE“鳴動の刻” 周边事前通贩通知",
+      "summaryZh": "5th 个人演唱会「鳴動の刻」当日周边事前通贩于东映动画官方商店进行：2024 年 11 月 15 日 13:00–11 月 24 日 23:59。"
     },
     {
       "id": "collabo-girls-band-cry-gothic-costume-ver-medicos-anime-store-goods2024",
@@ -6234,12 +6235,13 @@
       "eventDates": [
         {
           "date": "2024-12-01",
-          "kind": "sale",
-          "startTime": "23:59"
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが贈るオリジナルTVアニメ「ガールズバンドクライ (ガルクラ)」から、新規描き下ろしグッズが、2025年2月に一般発売される。グッズはMEDICOS SHOP渋谷にて先行販売されたもので、主人公・井芹仁菜らトゲナシトゲアリ (トゲトゲ)のメンバー5人がゴシック衣装を身にまとった姿で登場！",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/0e8147054b86578688b6a6b3c27f78a8-8.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/0e8147054b86578688b6a6b3c27f78a8-8.jpg",
+      "titleZh": "Girls Band Cry 全新绘制哥特服装 Ver. 周边 2 月一般发售！",
+      "summaryZh": "无刺有刺 5 人哥特服装全新绘制周边由 MEDICOS 预定 2025 年 2 月一般发售；Anime Store.JP 预约至 2024 年 12 月 1 日。"
     },
     {
       "id": "post-270",
@@ -6260,7 +6262,9 @@
         }
       ],
       "summary": "アニメ「ガールズバンドクライ」第11話挿入歌『空白とカタルシス』の場面写アクリルスタンドや、 トゲトゲメンバーをイメージしたシリコンバンド腕時計がAniBirthに新登場！🎉",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "11/15（五）起 AniBirth 发售 Girls Band Cry 新商品！",
+      "summaryZh": "AniBirth 自 11/15 起发售第 11 话插曲《空白とカタルシス》场面亚克力立牌，以及刺刺成员主题硅胶表带手表等新商品。"
     },
     {
       "id": "post-269",
@@ -6278,12 +6282,14 @@
       "eventDates": [
         {
           "date": "2024-12-03",
-          "kind": "hold",
-          "endDate": "2024-12-31"
+          "endDate": "2024-12-31",
+          "kind": "hold"
         }
       ],
       "summary": "『ガールズバンドクライ POP UP SHOP ～rugged style～』が12月3日(火)より開催決定！ POP UP SHOPは、HMV・HMV&BOOKS 4店舗で実施！ ・HMVラゾーナ川崎店 ・HMV＆BOOKS SHIBUYA店 ・HMV&BOOKS SHINSAIBASHI店 ・HMV＆BOOKS HAKATA店 キャラクターデザイン担当・",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "Girls Band Cry POP UP SHOP ～rugged style～ 12 月 3 日（二）起举办！",
+      "summaryZh": "rugged style 弹出商店于 HMV 川崎・涩谷・心斋桥・博多四店举办：2024 年 12 月 3 日–31 日，销售手岛 nari 全新绘制周边，并先行发售部分新作。"
     },
     {
       "id": "collabo-girls-band-cry-togenashitogeari-momoka-rupa-figure-kotobukiya-anime-store-goods2024",
@@ -6315,12 +6321,13 @@
       "eventDates": [
         {
           "date": "2024-12-07",
-          "kind": "sale",
-          "startTime": "23:59"
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが贈るオリジナルTVアニメ「ガールズバンドクライ (ガルクラ)」から、新作グッズが2025年2月中旬にアルマビアンカより発売される。版権イラストを使用した「トレーディングブロマイド」や「アクリルパネル」、「ポスター」、モチーフアイコンをデザインした「ステッカー」や「フェイスタオル」などが登場！",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/4dffd6776e8c42f7d550beaccde1b678-854.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/4dffd6776e8c42f7d550beaccde1b678-854.jpg",
+      "titleZh": "Girls Band Cry 刺刺＆Diamond Dust 热力点缀新作周边 2 月发售",
+      "summaryZh": "无刺有刺与 Diamond Dust 版權插图周边由 armabianca 预定 2025 年 2 月中旬发售；Anime Store.JP 预约至 2024 年 12 月 7 日。"
     },
     {
       "id": "post-268",
@@ -6343,7 +6350,9 @@
         }
       ],
       "summary": "「トゲナシトゲアリ 3rd ONE-MAN LIVE “咆哮の奏”」にご来場いただいた皆様、誠にありがとうございました✨ たくさんのお客様にご来場いただき、心より御礼申し上げます🙏 LIVEグッズ関して、11月29日（金）より事後通販を行います！🎁 ■販売場所： 東映アニメーションオフィシャルストア ■販売期間：11月29日（金）13：00～ 購入方法、",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "无刺有刺 3rd ONE-MAN LIVE “咆哮の奏” 周边事后通贩通知",
+      "summaryZh": "3rd 个人演唱会「咆哮の奏」周边自 11 月 29 日 13:00 起在东映动画官方商店事后通贩，数量有限售完即止。"
     },
     {
       "id": "post-267",
@@ -6365,7 +6374,9 @@
         }
       ],
       "summary": "トゲナシトゲアリが神戸ワールド記念ホールで開催される Fear, and Loathing in Las Vegas主催フェス「MEGA VEGAS 2025」への出演が決定しました！ 出演日は、2025年3月22日 (土）になります。 詳細は こちら をチェック！",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "无刺有刺决定出演「MEGA VEGAS 2025」！",
+      "summaryZh": "无刺有刺将出演 Fear, and Loathing in Las Vegas 主办音乐节「MEGA VEGAS 2025」：2025 年 3 月 22 日于神户世界纪念馆。"
     },
     {
       "id": "post-266",
@@ -6386,7 +6397,9 @@
         }
       ],
       "summary": "トゲナシトゲアリの「rockin'on presents COUNTDOWN JAPAN 24/25」への出演が決定しました！ 出演日は12月29日(日)となります。 詳しくは こちら",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "无刺有刺决定出演「rockin'on presents COUNTDOWN JAPAN 24/25」！",
+      "summaryZh": "无刺有刺将出演 rockin'on presents COUNTDOWN JAPAN 24/25：2024 年 12 月 29 日。"
     },
     {
       "id": "post-265",
@@ -6500,7 +6513,9 @@
         }
       ],
       "summary": "12/7(土)立川シネマシティにて、「オールナイト全話上映」の開催が決定しました！🎉 詳しくは こちら",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "「通宵全话上映」举办决定！",
+      "summaryZh": "2024 年 12 月 7 日于立川 Cinema City 举办《Girls Band Cry》通宵全话上映。"
     },
     {
       "id": "collabo-girls-band-cry-band-members-illust-sync-innovation-anime-store-goods2024",

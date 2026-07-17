@@ -2003,13 +2003,11 @@ DTSTART;VALUE=DATE:20241203
 DTEND;VALUE=DATE:20250101
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライ POP UP SHOP ～rugged style
- ～が12月3日(火)より開催決定！
-DESCRIPTION:『ガールズバンドクライ POP UP SHOP ～rugged style
- ～』が12月3日(火)より開催決定！\nPOP UP SHOPは、HMV・HMV&B
- OOKS 4店舗で実施！\n・HMVラゾーナ川崎店 ・HMV＆BOOKS SHIBU
- YA店 ・HMV&BOOKS SHINSAIBASHI店 ・HMV＆BOOKS HAKATA店 キャラク
- ターデザイン担当・\n\n
+SUMMARY:[举办] Girls Band Cry POP UP SHOP ～rugged style～ 12 月 3 日
+ （二）起举办！
+DESCRIPTION:rugged style 弹出商店于 HMV 川崎・涩谷・心斋桥・
+ 博多四店举办：2024 年 12 月 3 日–31 日，销售手岛 nari 
+ 全新绘制周边，并先行发售部分新作。\n\n
  https://girls-band-cry.com/news/post-269.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-269.html
 CATEGORIES:togenashi,goods,event
@@ -2021,10 +2019,10 @@ DTSTART;VALUE=DATE:20241207
 DTEND;VALUE=DATE:20241208
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「オールナイト全話上映」の開催が決定！
-DESCRIPTION:12/7(土)立川シネマシティにて、「オールナイト
- 全話上映」の開催が決定しました！\n 詳しくは こちら\
- n\nhttps://girls-band-cry.com/news/post-261.html
+SUMMARY:[举办] 「通宵全话上映」举办决定！
+DESCRIPTION:2024 年 12 月 7 日于立川 Cinema City 举办《Girls Band 
+ Cry》通宵全话上映。\n\n
+ https://girls-band-cry.com/news/post-261.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-261.html
 CATEGORIES:togenashi,event,cinema
 END:VEVENT
@@ -2476,13 +2474,10 @@ DTSTART;VALUE=DATE:20250322
 DTEND;VALUE=DATE:20250323
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ、「MEGA VEGAS 2025」への出
- 演決定！
-DESCRIPTION:トゲナシトゲアリが神戸ワールド記念ホールで
- 開催される Fear\, and Loathing in Las Vegas主催フェス「MEGA VEG
- AS 2025」への出演が決定しました！\n出演日は、2025年3月
- 22日 (土）になります。\n詳細は こちら をチェック！\n\
- nhttps://girls-band-cry.com/news/post-267.html
+SUMMARY:[举办] 无刺有刺决定出演「MEGA VEGAS 2025」！
+DESCRIPTION:无刺有刺将出演 Fear\, and Loathing in Las Vegas 主办
+ 音乐节「MEGA VEGAS 2025」：2025 年 3 月 22 日于神户世界纪
+ 念馆。\n\nhttps://girls-band-cry.com/news/post-267.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-267.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
