@@ -2,12 +2,12 @@
 <rss version="2.0">
   <channel>
     <title>gbc-news · 媒体</title>
-    <link>https://gbc-news.netlify.app/</link>
+    <link>https://gbc-news.example.com/</link>
     <description>ガールズバンドクライ 公式ニュース（媒体）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 05:47:00 GMT</lastBuildDate>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.netlify.app/feeds/media.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Jul 2026 10:59:29 GMT</lastBuildDate>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/media.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>[開催] 生配信番組「トゲナシトゲアリ修行中」7月29日（土）17:00スタート</title>
+      <title>[举办] 生配信番組「トゲナシトゲアリ修行中」7月29日（土）17:00スタート</title>
       <link>https://girls-band-cry.com/news/post-11.html</link>
       <guid isPermaLink="false">post-11-2023-07-29-hold-1700@gbc-news</guid>
       <pubDate>Sat, 29 Jul 2023 08:00:00 GMT</pubDate>
@@ -19,7 +19,7 @@
       <description>トゲナシトゲアリ 1stシングル『名もなき何もかも』のリリースを記念して、初の生配信番組「トゲナシトゲアリ修行中」を明後日29日(土)17:00よりガールズバンドクライのYouTubeチャンネルにて配信します！ ▼トゲナシトゲアリ修行中 2023.07.29(土)配信 https://youtube.com/live/UF_8DR9-9cY?feature=</description>
     </item>
     <item>
-      <title>[開催] トゲナシトゲアリ［fromガールズバンドクライ］ 1st Single『名もなき何もかも』発売記念 オンライントーク配信＆サイン会 開催のご案内</title>
+      <title>[举办] トゲナシトゲアリ［fromガールズバンドクライ］ 1st Single『名もなき何もかも』発売記念 オンライントーク配信＆サイン会 開催のご案内</title>
       <link>https://girls-band-cry.com/news/post-3.html</link>
       <guid isPermaLink="false">post-3-2023-07-29-hold-1700@gbc-news</guid>
       <pubDate>Sat, 29 Jul 2023 08:00:00 GMT</pubDate>
@@ -32,7 +32,7 @@
       <description>東映アニメーションが製作するオリジナルアニメ「ガールズバンドクライ」の主題歌を歌う5人編成のガールズバンド ‘’トゲナシトゲアリ‘’ リリースイベントとして、オンライントーク配信＆サイン会の開催が決定！ ガールズバンドクライのキャラクター絵柄の後ろで、トゲナシトゲアリメンバーの生声トークを楽しむことができます。 また、リミスタにて対象商品をご購入いただいたお</description>
     </item>
     <item>
-      <title>[開催] トゲナシトゲアリ［fromガールズバンドクライ］ 1st Single『名もなき何もかも』発売記念 オンライントーク配信＆サイン会 開催のご案内</title>
+      <title>[举办] トゲナシトゲアリ［fromガールズバンドクライ］ 1st Single『名もなき何もかも』発売記念 オンライントーク配信＆サイン会 開催のご案内</title>
       <link>https://girls-band-cry.com/news/post-3.html</link>
       <guid isPermaLink="false">post-3-2023-07-29-hold-1800@gbc-news</guid>
       <pubDate>Sat, 29 Jul 2023 09:00:00 GMT</pubDate>
@@ -45,7 +45,7 @@
       <description>東映アニメーションが製作するオリジナルアニメ「ガールズバンドクライ」の主題歌を歌う5人編成のガールズバンド ‘’トゲナシトゲアリ‘’ リリースイベントとして、オンライントーク配信＆サイン会の開催が決定！ ガールズバンドクライのキャラクター絵柄の後ろで、トゲナシトゲアリメンバーの生声トークを楽しむことができます。 また、リミスタにて対象商品をご購入いただいたお</description>
     </item>
     <item>
-      <title>[開催] トゲナシトゲアリ修行中！公開練習ライブ敢行記念 アフタートーク＆バックステージパス風カードサイン会のご案内</title>
+      <title>[举办] トゲナシトゲアリ修行中！公開練習ライブ敢行記念 アフタートーク＆バックステージパス風カードサイン会のご案内</title>
       <link>https://girls-band-cry.com/news/post-25.html</link>
       <guid isPermaLink="false">post-25-2023-09-30-hold-1700@gbc-news</guid>
       <pubDate>Sat, 30 Sep 2023 08:00:00 GMT</pubDate>
@@ -58,7 +58,7 @@
       <description>東映アニメーションが製作するオリジナルアニメ「ガールズバンドクライ」の主題歌を歌う5人編成のガールズバンド “トゲナシトゲアリ” 9 月14日(土)代官山SPACE ODDにて、「トゲナシトゲアリ修行中！公開練習ライブ」を敢行しました。ご来場いただいた皆様、ありがとうございます。 今回の放送では、初ライブ終了後のメンバーよるアフタートークをオンラインにて放送</description>
     </item>
     <item>
-      <title>[開催] 「黎明を穿つ」MVがカラオケDAMにて配信開始！</title>
+      <title>[举办] 「黎明を穿つ」MVがカラオケDAMにて配信開始！</title>
       <link>https://girls-band-cry.com/news/post-37.html</link>
       <guid isPermaLink="false">post-37-2023-10-17_2023-11-20-hold@gbc-news</guid>
       <pubDate>Tue, 17 Oct 2023 00:00:00 GMT</pubDate>
@@ -68,7 +68,7 @@
       <description>本日10/17からカラオケDAMにて 「黎明を穿つ」MV配信開始！🎊 また、カラオケDAMで絶賛放映中の曲間番組「DAM CHANNEL」にて、 トゲナシトゲアリ 3rd Single『爆ぜて咲く』15秒CMの放送も開始いたしました✨ （放映期間：10/17～11/20） カラオケDAMをご利用の際はぜひチェックしてください！！ そして、たくさん歌ってくだ</description>
     </item>
     <item>
-      <title>[開催] TVアニメ放送決定記念キャンペーンがスタート！</title>
+      <title>[举办] TVアニメ放送決定記念キャンペーンがスタート！</title>
       <link>https://girls-band-cry.com/news/post-63.html</link>
       <guid isPermaLink="false">post-63-2023-12-21_2024-01-03-hold-1700@gbc-news</guid>
       <pubDate>Thu, 21 Dec 2023 08:00:00 GMT</pubDate>
@@ -78,7 +78,7 @@
       <description>TVアニメ放送決定を記念して、 アニメ「ガールズバンドクライ」公式X（旧Twitter）にてフォロー＆リポストキャンペーンを開催いたします✨ 【開催期間】 12月21日（木）17:00 ～ 1月3日（水） 23:59 【参加方法】 ①X（旧Twitter）の＠girlsbandcryをフォロー Tweets by girlsbandcry ②キャンペーン告知</description>
     </item>
     <item>
-      <title>[開催] かわさきFMにてトゲナシトゲアリ特番放送決定!!</title>
+      <title>[举办] かわさきFMにてトゲナシトゲアリ特番放送決定!!</title>
       <link>https://girls-band-cry.com/news/post-62.html</link>
       <guid isPermaLink="false">post-62-2023-12-22-hold-1015@gbc-news</guid>
       <pubDate>Fri, 22 Dec 2023 01:15:00 GMT</pubDate>
@@ -88,7 +88,7 @@
       <description>「ガールズバンドクライ」のテレビアニメ化を記念して、アニメの舞台となる川崎の放送局かわさきFM(@kawasakifm)でトゲナシトゲアリの特番放送が急遽決定しました！🎸 明日22日(金)10:15〜10:45オンエア、理名(Vo)と夕莉(Gt)が出演します！ 是非お聴きください！📻 放送局： かわさきFM 番組コーナー名： 『トゲナシトゲアリのトゲラジ</description>
     </item>
     <item>
-      <title>[開催] かわさきFMにてトゲナシトゲアリ特番放送決定!!</title>
+      <title>[举办] かわさきFMにてトゲナシトゲアリ特番放送決定!!</title>
       <link>https://girls-band-cry.com/news/post-62.html</link>
       <guid isPermaLink="false">post-62-2023-12-22-hold-1015@gbc-news</guid>
       <pubDate>Fri, 22 Dec 2023 01:15:00 GMT</pubDate>
@@ -98,7 +98,7 @@
       <description>「ガールズバンドクライ」のテレビアニメ化を記念して、アニメの舞台となる川崎の放送局かわさきFM(@kawasakifm)でトゲナシトゲアリの特番放送が急遽決定しました！🎸 明日22日(金)10:15〜10:45オンエア、理名(Vo)と夕莉(Gt)が出演します！ 是非お聴きください！📻 放送局： かわさきFM 番組コーナー名： 『トゲナシトゲアリのトゲラジ</description>
     </item>
     <item>
-      <title>[開催] 川崎駅でPV配信スタート！</title>
+      <title>[举办] 川崎駅でPV配信スタート！</title>
       <link>https://girls-band-cry.com/news/post-64.html</link>
       <guid isPermaLink="false">post-64-2023-12-25_2023-12-31-hold@gbc-news</guid>
       <pubDate>Mon, 25 Dec 2023 00:00:00 GMT</pubDate>
@@ -107,7 +107,7 @@
       <description>『ガールズバンドクライ』TV放送決定を記念して、JR川崎駅でショートPV配信スタートしました！✨ ぜひ見てくださいね♬ 【配信場所】 JR川崎駅東西自由通路内「アゼリアビジョン」 【期間】 2023年12月25日（月）～12月31日（日） 👇YouTubeでも配信中👇</description>
     </item>
     <item>
-      <title>[開催] 第10弾MV「サヨナラサヨナラサヨナラ」公開！公開記念キャンペーンがスタート</title>
+      <title>[举办] 第10弾MV「サヨナラサヨナラサヨナラ」公開！公開記念キャンペーンがスタート</title>
       <link>https://girls-band-cry.com/news/post-72.html</link>
       <guid isPermaLink="false">post-72-2024-02-04-hold@gbc-news</guid>
       <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
@@ -118,7 +118,7 @@
       <description>劇中バンド「トゲナシトゲアリ」のメンバーが歌う MV第10弾「サヨナラサヨナラサヨナラ」 を公開いたしました🎊 MV公開を記念して、 アニメ「ガールズバンドクライ」公式X（旧Twitter）にてフォロー＆リポストキャンペーンを開催いたします✨ 【開催期間】 12月18日（月）21:00 ～ 12月24日（日） 23:59 【参加方法】 ①X（旧Twitte</description>
     </item>
     <item>
-      <title>[開催] アニメ第1弾予告公開記念 オンライントーク配信＆サイン会 開催のご案内</title>
+      <title>[举办] アニメ第1弾予告公開記念 オンライントーク配信＆サイン会 開催のご案内</title>
       <link>https://girls-band-cry.com/news/post-81.html</link>
       <guid isPermaLink="false">post-81-2024-03-04-hold-1900@gbc-news</guid>
       <pubDate>Mon, 04 Mar 2024 10:00:00 GMT</pubDate>
@@ -130,7 +130,7 @@
       <description>東映アニメーションが製作するオリジナルアニメ「ガールズバンドクライ」の主題歌を歌う5人編成のガールズバンド “トゲナシトゲアリ” 今回はいよいよ4月から放送がスタートするオリジナルTVアニメ「ガールズバンドクライ」の本予告第1弾公開を記念して、リミスタでのオフィシャルグッズ販売を行います。 リミスタにて対象商品をご購入いただいたお客様に、ミニ色紙へメンバー全</description>
     </item>
     <item>
-      <title>[開催] アニメ第1弾予告公開記念 オンライントーク配信＆サイン会 開催のご案内</title>
+      <title>[举办] アニメ第1弾予告公開記念 オンライントーク配信＆サイン会 開催のご案内</title>
       <link>https://girls-band-cry.com/news/post-81.html</link>
       <guid isPermaLink="false">post-81-2024-03-04-hold-2000@gbc-news</guid>
       <pubDate>Mon, 04 Mar 2024 11:00:00 GMT</pubDate>
@@ -142,7 +142,7 @@
       <description>東映アニメーションが製作するオリジナルアニメ「ガールズバンドクライ」の主題歌を歌う5人編成のガールズバンド “トゲナシトゲアリ” 今回はいよいよ4月から放送がスタートするオリジナルTVアニメ「ガールズバンドクライ」の本予告第1弾公開を記念して、リミスタでのオフィシャルグッズ販売を行います。 リミスタにて対象商品をご購入いただいたお客様に、ミニ色紙へメンバー全</description>
     </item>
     <item>
-      <title>[開催] トゲナシトゲアリ 1st ONE-MAN LIVE &quot;薄明の序奏”開催決定！</title>
+      <title>[举办] トゲナシトゲアリ 1st ONE-MAN LIVE &quot;薄明の序奏”開催決定！</title>
       <link>https://girls-band-cry.com/news/post-59.html</link>
       <guid isPermaLink="false">post-59-2024-03-16-hold-1800@gbc-news</guid>
       <pubDate>Sat, 16 Mar 2024 09:00:00 GMT</pubDate>
@@ -153,7 +153,7 @@
       <description>3月16日(土)に横浜・1000CLUBにて開催します。 ライブタイトルは「薄明の序奏」。 テレビアニメの放送を直前に控える中、ファンに直接音楽と想いを届けます。 ここから本格始動するバンド活動の”序奏”となるステージをぜひ会場でご覧ください。 トゲナシトゲアリ1st ONE-MAN LIVE 「薄明の序奏」 ■開催日時：2024年3月16日(土) ■開場／</description>
     </item>
     <item>
-      <title>[開催] リアルサウンドでガールズバンドクライ特集ページ公開中！</title>
+      <title>[举办] リアルサウンドでガールズバンドクライ特集ページ公開中！</title>
       <link>https://girls-band-cry.com/news/post-101.html</link>
       <guid isPermaLink="false">post-101-2024-04-05-hold@gbc-news</guid>
       <pubDate>Fri, 05 Apr 2024 00:00:00 GMT</pubDate>
@@ -163,7 +163,7 @@
       <description>いよいよ今週4/5(金)よりテレビアニメ放送スタート！📺 これまで 「トゲナシトゲアリ」 のメンバーインタビューや 音楽プロデューサーを務める玉井健二さんのインタビュー、 そしてこれまでのライブのレポートを実施いただいてきた リアルサウンドさんにて 「ガールズバンドクライ」特集ページを組んでいただきました！㊗ 特集ページは こちら</description>
     </item>
     <item>
-      <title>[発売] オリジナルアルバム「棘アリ」本日発売！</title>
+      <title>[发售] オリジナルアルバム「棘アリ」本日発売！</title>
       <link>https://girls-band-cry.com/news/post-121.html</link>
       <guid isPermaLink="false">post-121-2024-04-24-sale@gbc-news</guid>
       <pubDate>Wed, 24 Apr 2024 00:00:00 GMT</pubDate>
@@ -174,7 +174,7 @@
       <description>トゲナシトゲアリ オリジナルアルバム「棘アリ」本日発売です㊗ ・アニメ放送前=バンドのインディーズ時代を集約！ ・放送前にリリースした10曲を全て収録！ ぜひゲットしてくださいね♬ 💿ご購入は こちら 🎧配信は こちら 【店舗別特典】 【第8話同時視聴会】 詳細は こちら 【アーティスト】 トゲナシトゲアリ Vo.井芹 仁菜（CV:理名） Gt.河原木 </description>
     </item>
     <item>
-      <title>[開催] 第4話「感謝（驚）」WEB予告＆あらすじ公開</title>
+      <title>[举办] 第4話「感謝（驚）」WEB予告＆あらすじ公開</title>
       <link>https://girls-band-cry.com/news/post-120.html</link>
       <guid isPermaLink="false">post-120-2024-04-26-hold@gbc-news</guid>
       <pubDate>Fri, 26 Apr 2024 00:00:00 GMT</pubDate>
@@ -183,7 +183,7 @@
       <description>第4話「感謝（驚）」は 4/26(金)24:30～放送です。 放送・配信情報は こちら 第4話あらすじ すばるの祖⺟が突如上京してくる。⾃分のやりたいことは⼥優じゃない。バンドなんだ⾳楽なんだ。ここまできたら私、はっきり⾔う。みんなに啖呵を切るすばるだが、いざ会うと借りてきた猫のように微笑を浮かべてお嬢様を演じるばかりだった。 第4話WEB予告も公開中🎬 </description>
     </item>
     <item>
-      <title>[開催] 第8話放送直前 第7話同時視聴スペース配信決定！</title>
+      <title>[举办] 第8話放送直前 第7話同時視聴スペース配信決定！</title>
       <link>https://girls-band-cry.com/news/post-144.html</link>
       <guid isPermaLink="false">post-144-2024-05-24-hold-2345@gbc-news</guid>
       <pubDate>Fri, 24 May 2024 14:45:00 GMT</pubDate>
@@ -192,7 +192,7 @@
       <description>📅5/24(金)23:45~ 第7話同時視聴復習トーク 第8話放送前に第7話をいっしょに復習しましょう♪ 河原木桃香役の夕莉 ルパ役の朱李 が第7話を観ながらスペース（オンライントーク）配信を行います🎤 ※アニメ「#ガールズバンドクライ」を配信中の各サービスで第7話を観ながらお聴きください🎧 📺配信情報は こちら リアタイ限定配信なのでお見逃しなく�</description>
     </item>
     <item>
-      <title>[開催] 第10話放送直前 第9話同時視聴スペース配信決定！</title>
+      <title>[举办] 第10話放送直前 第9話同時視聴スペース配信決定！</title>
       <link>https://girls-band-cry.com/news/post-158.html</link>
       <guid isPermaLink="false">post-158-2024-06-07-hold-2345@gbc-news</guid>
       <pubDate>Fri, 07 Jun 2024 14:45:00 GMT</pubDate>
@@ -201,7 +201,7 @@
       <description>📅6/7(金)23:45~ 第9話同時視聴復習トーク 第10話放送前に第7話をいっしょに復習しましょう♪ 海老塚智役の凪都 ルパ役の朱李 が第9話を観ながら「ガールズバンドクライ」公式Xにてスペース（オンライントーク）配信を行います🎤 ※アニメ「ガールズバンドクライ」を配信中の各サービスで第9話を観ながらお聴きください🎧 📺配信情報は こちら リアタ</description>
     </item>
     <item>
-      <title>[開催] TVアニメ『ガールズバンドクライ』無料配信＆一挙配信決定！</title>
+      <title>[举办] TVアニメ『ガールズバンドクライ』無料配信＆一挙配信決定！</title>
       <link>https://girls-band-cry.com/news/post-157.html</link>
       <guid isPermaLink="false">post-157-2024-06-14_2024-06-16-hold@gbc-news</guid>
       <pubDate>Fri, 14 Jun 2024 00:00:00 GMT</pubDate>
@@ -210,7 +210,7 @@
       <description>◆6/14～6/16の3日間限定 ◆1話～最新話 ▼ご視聴ページ ＜ ABEMA ＞ ＜ ニコニコ動画 ＞ 更に無料一挙放送も決定🔥 ＜ニコニコ生放送＞ 第1-10話：6/14㈮15:00~19:30 ご視聴ページは こちら ＜ABEMA＞ 第1-10話：6/14㈮19:45~ ご視聴ページは こちら 第1-11話：6/15㈯14:00~ ご視聴ページは </description>
     </item>
     <item>
-      <title>[開催] TVアニメ「ガールズバンドクライ」ダイジェストPV（第1話~第10話＋第11話先行カット）公開！</title>
+      <title>[举办] TVアニメ「ガールズバンドクライ」ダイジェストPV（第1話~第10話＋第11話先行カット）公開！</title>
       <link>https://girls-band-cry.com/news/post-164.html</link>
       <guid isPermaLink="false">post-164-2024-06-14-hold@gbc-news</guid>
       <pubDate>Fri, 14 Jun 2024 00:00:00 GMT</pubDate>
@@ -219,7 +219,7 @@
       <description>ダイジェストPV（第1話~第10話＋第11話先行カット）を公開しました✨ 第1話～第10話までのダイジェストと、第11話の先行カットをまとめたPVです🎬 第11話に向けて、気持ちを高めましょう！🔥 第11話放送日の6/14(金)19:45からは 第1～10話無料一挙配信＆生オーディオコメンタリー🎧 ＜ABEMA一挙配信＞ 第1-10話：6/14㈮19:</description>
     </item>
     <item>
-      <title>[開催] ニコニコ「 アニメ『ガールズバンドクライ』 1～10話振り返り上映会 」および無料配信中止のお知らせ</title>
+      <title>[举办] ニコニコ「 アニメ『ガールズバンドクライ』 1～10話振り返り上映会 」および無料配信中止のお知らせ</title>
       <link>https://girls-band-cry.com/news/post-165.html</link>
       <guid isPermaLink="false">post-165-2024-06-14-hold@gbc-news</guid>
       <pubDate>Fri, 14 Jun 2024 00:00:00 GMT</pubDate>
@@ -229,7 +229,7 @@
       <description>現在ニコニコ各種サービス（ニコニコ動画・ニコニコ生放送・ニコニコチャンネルを含む全般）で障害が発生しております。 6月14日予定しておりました「 アニメ『ガールズバンドクライ』 1～10話振り返り上映会 」および無料配信については中止とさせていただきます。 【 ニコニコからのおしらせ 】 配信を楽しみにしていただいてた中 このような判断となり誠に申し訳ござい</description>
     </item>
     <item>
-      <title>[開催] 第11話「世界のまん中」WEB予告＆あらすじを公開！</title>
+      <title>[举办] 第11話「世界のまん中」WEB予告＆あらすじを公開！</title>
       <link>https://girls-band-cry.com/news/post-166.html</link>
       <guid isPermaLink="false">post-166-2024-06-14-hold@gbc-news</guid>
       <pubDate>Fri, 14 Jun 2024 00:00:00 GMT</pubDate>
@@ -239,7 +239,7 @@
       <description>第11話「世界のまん中」 6/14(金)24:30～放送 放送・配信情報は こちら ＜あらすじ＞ フェスに向けて練習を重ねる仁菜達。バンドとしてまとまりがでてきた。フェス会場の広い観客席、⼤きいステージを見て気合いが⼊る。すばるは自分が本当にやりたいことに向き合う意思を固めていた。</description>
     </item>
     <item>
-      <title>[開催] TVアニメ「ガールズバンドクライ」ダイジェストPV（第1話~第10話＋第11話先行カット）公開！</title>
+      <title>[举办] TVアニメ「ガールズバンドクライ」ダイジェストPV（第1話~第10話＋第11話先行カット）公開！</title>
       <link>https://girls-band-cry.com/news/post-164.html</link>
       <guid isPermaLink="false">post-164-2024-06-15-hold@gbc-news</guid>
       <pubDate>Sat, 15 Jun 2024 00:00:00 GMT</pubDate>
@@ -248,7 +248,7 @@
       <description>ダイジェストPV（第1話~第10話＋第11話先行カット）を公開しました✨ 第1話～第10話までのダイジェストと、第11話の先行カットをまとめたPVです🎬 第11話に向けて、気持ちを高めましょう！🔥 第11話放送日の6/14(金)19:45からは 第1～10話無料一挙配信＆生オーディオコメンタリー🎧 ＜ABEMA一挙配信＞ 第1-10話：6/14㈮19:</description>
     </item>
     <item>
-      <title>[開催] 第12話「空がまた暗くなる」WEB予告＆あらすじを公開！</title>
+      <title>[举办] 第12話「空がまた暗くなる」WEB予告＆あらすじを公開！</title>
       <link>https://girls-band-cry.com/news/post-175.html</link>
       <guid isPermaLink="false">post-175-2024-06-21-hold@gbc-news</guid>
       <pubDate>Fri, 21 Jun 2024 00:00:00 GMT</pubDate>
@@ -258,7 +258,7 @@
       <description>第12話「空がまた暗くなる」 6/21(金)24:30～放送 📺放送・配信情報は こちら ＜あらすじ＞ 野外フェスで爪痕を残すことに成功し、事務所と正式に契約した仁菜達。アルバイトを辞め、5人のプロとしての本格的な曲作りが始まる。プロとして生き残っていくためにそれぞれの思いが交錯する。</description>
     </item>
     <item>
-      <title>[開催] 第12話放送直前 第11話同時視聴スペース配信決定！</title>
+      <title>[举办] 第12話放送直前 第11話同時視聴スペース配信決定！</title>
       <link>https://girls-band-cry.com/news/post-177.html</link>
       <guid isPermaLink="false">post-177-2024-06-21-hold-2345@gbc-news</guid>
       <pubDate>Fri, 21 Jun 2024 14:45:00 GMT</pubDate>
@@ -267,7 +267,7 @@
       <description>📅6/21(金)23:45~ 第11話同時視聴復習トーク 第12話放送前に第11話をいっしょに復習しましょう♪ 河原木桃香役の夕莉 ルパ役の朱李 が第11話を観ながら 「ガールズバンドクライ」公式X にてスペース（オンライントーク）配信を行います🎤 ※アニメ「ガールズバンドクライ」を配信中の各サービスで第9話を観ながらお聴きください🎧 📺配信情報は </description>
     </item>
     <item>
-      <title>[開催] 第13話「ロックンロールは鳴り止まないっ」WEB予告＆あらすじを公開！</title>
+      <title>[举办] 第13話「ロックンロールは鳴り止まないっ」WEB予告＆あらすじを公開！</title>
       <link>https://girls-band-cry.com/news/post-183.html</link>
       <guid isPermaLink="false">post-183-2024-06-28-hold@gbc-news</guid>
       <pubDate>Fri, 28 Jun 2024 00:00:00 GMT</pubDate>
@@ -277,7 +277,7 @@
       <description>第13話「ロックンロールは鳴り止まないっ」 6/28(金)24:30～放送 📺放送・配信情報は こちら ＜あらすじ＞ ダイヤモンドダストとの対バンライブ、仁菜達のチケットの売り上げは想定の半分にも満たなかった。一方、ダイヤモンドダストのチケットはSOLD OUT。突き付けられる厳しい現実。それでも仁菜たちは自分の意思を貫き通す。</description>
     </item>
     <item>
-      <title>[開催] トゲナシトゲアリ ２nd Album「棘ナシ」 / TVアニメ『ガールズバンドクライ』オリジナルサウンドトラック発売記念オンライントーク配信開催！</title>
+      <title>[举办] トゲナシトゲアリ ２nd Album「棘ナシ」 / TVアニメ『ガールズバンドクライ』オリジナルサウンドトラック発売記念オンライントーク配信開催！</title>
       <link>https://girls-band-cry.com/news/post-199.html</link>
       <guid isPermaLink="false">post-199-2024-08-09-hold-1900@gbc-news</guid>
       <pubDate>Fri, 09 Aug 2024 10:00:00 GMT</pubDate>
@@ -290,7 +290,7 @@
       <description>TVアニメ『ガールズバンドクライ』放送終了後も精力的な活動を続けるガールズバンド「トゲナシトゲアリ」早くも２nd Albumが2024年8月28日（水）に発売決定！ そして2024年9月11日(水)にはオリジナルサウンドトラックも発売！ 詳細は こちら こちら2作品の発売を記念して、恒例のリミスタでのオンライントーク配信を行います✨ リミスタにて対象商品をご</description>
     </item>
     <item>
-      <title>[開催] トゲナシトゲアリ ２nd Album「棘ナシ」 / TVアニメ『ガールズバンドクライ』オリジナルサウンドトラック発売記念オンライントーク配信開催！</title>
+      <title>[举办] トゲナシトゲアリ ２nd Album「棘ナシ」 / TVアニメ『ガールズバンドクライ』オリジナルサウンドトラック発売記念オンライントーク配信開催！</title>
       <link>https://girls-band-cry.com/news/post-199.html</link>
       <guid isPermaLink="false">post-199-2024-08-09-hold-2000@gbc-news</guid>
       <pubDate>Fri, 09 Aug 2024 11:00:00 GMT</pubDate>
@@ -303,7 +303,7 @@
       <description>TVアニメ『ガールズバンドクライ』放送終了後も精力的な活動を続けるガールズバンド「トゲナシトゲアリ」早くも２nd Albumが2024年8月28日（水）に発売決定！ そして2024年9月11日(水)にはオリジナルサウンドトラックも発売！ 詳細は こちら こちら2作品の発売を記念して、恒例のリミスタでのオンライントーク配信を行います✨ リミスタにて対象商品をご</description>
     </item>
     <item>
-      <title>[開催] 第10弾MV「サヨナラサヨナラサヨナラ」公開！公開記念キャンペーンがスタート</title>
+      <title>[举办] 第10弾MV「サヨナラサヨナラサヨナラ」公開！公開記念キャンペーンがスタート</title>
       <link>https://girls-band-cry.com/news/post-72.html</link>
       <guid isPermaLink="false">post-72-2024-12-18_2024-12-24-hold-2100@gbc-news</guid>
       <pubDate>Wed, 18 Dec 2024 12:00:00 GMT</pubDate>
@@ -314,7 +314,7 @@
       <description>劇中バンド「トゲナシトゲアリ」のメンバーが歌う MV第10弾「サヨナラサヨナラサヨナラ」 を公開いたしました🎊 MV公開を記念して、 アニメ「ガールズバンドクライ」公式X（旧Twitter）にてフォロー＆リポストキャンペーンを開催いたします✨ 【開催期間】 12月18日（月）21:00 ～ 12月24日（日） 23:59 【参加方法】 ①X（旧Twitte</description>
     </item>
     <item>
-      <title>[開催] トゲナシトゲアリ4th ONE-MAN LIVE “協奏の響”オンライン配信チケット販売開始！</title>
+      <title>[举办] トゲナシトゲアリ4th ONE-MAN LIVE “協奏の響”オンライン配信チケット販売開始！</title>
       <link>https://girls-band-cry.com/news/post-284.html</link>
       <guid isPermaLink="false">post-284-2024-12-19_2025-02-11-hold-1800@gbc-news</guid>
       <pubDate>Thu, 19 Dec 2024 09:00:00 GMT</pubDate>
@@ -325,7 +325,7 @@
       <description>2nd、3rd ONE-MAN LIVEに引き続き本公演でも配信チケット、そして今回は配信限定のグッズ付きチケットの販売が決定！ また、今回のライブ映像プレミア配信ではトゲナシトゲアリへのお便りを募集！応援メッセージやメンバーに聞いてみたいことなど、何でもお送りください！ 【チケット販売期間】 2024年12月19日(木)18:00～2025年2月11日(火</description>
     </item>
     <item>
-      <title>[開催] 「ガールズバンドクライ～ラジオにも全部ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先行抽選がスタート！</title>
+      <title>[举办] 「ガールズバンドクライ～ラジオにも全部ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先行抽選がスタート！</title>
       <link>https://girls-band-cry.com/news/post-299.html</link>
       <guid isPermaLink="false">post-299-2025-01-30-hold@gbc-news</guid>
       <pubDate>Thu, 30 Jan 2025 00:00:00 GMT</pubDate>
@@ -336,7 +336,7 @@
       <description>インターネットラジオステーション＜音泉＞にて配信中の “TVアニメ『ガールズバンドクライ』WEBラジオ「ガールズバンドクライ～ラジオにも全部ぶち込め。～」”の公開イベントを実施します。昼夜2部制でラジオの出張版的なトークイベントをお届けします。 出演者 夕莉、理名、朱李 開催日時 2025年2月24日（月・祝） 1部 開場：13:00 開演：13:30 2部</description>
     </item>
     <item>
-      <title>[開催] トゲナシトゲアリ4th ONE-MAN LIVE “協奏の響”オンライン配信チケット販売開始！</title>
+      <title>[举办] トゲナシトゲアリ4th ONE-MAN LIVE “協奏の響”オンライン配信チケット販売開始！</title>
       <link>https://girls-band-cry.com/news/post-284.html</link>
       <guid isPermaLink="false">post-284-2025-02-02_2025-02-11-hold-1200@gbc-news</guid>
       <pubDate>Sun, 02 Feb 2025 03:00:00 GMT</pubDate>
@@ -347,7 +347,7 @@
       <description>2nd、3rd ONE-MAN LIVEに引き続き本公演でも配信チケット、そして今回は配信限定のグッズ付きチケットの販売が決定！ また、今回のライブ映像プレミア配信ではトゲナシトゲアリへのお便りを募集！応援メッセージやメンバーに聞いてみたいことなど、何でもお送りください！ 【チケット販売期間】 2024年12月19日(木)18:00～2025年2月11日(火</description>
     </item>
     <item>
-      <title>[開催] 「ガールズバンドクライ～ラジオにも全部ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先行抽選がスタート！</title>
+      <title>[举办] 「ガールズバンドクライ～ラジオにも全部ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先行抽選がスタート！</title>
       <link>https://girls-band-cry.com/news/post-299.html</link>
       <guid isPermaLink="false">post-299-2025-02-06-hold@gbc-news</guid>
       <pubDate>Thu, 06 Feb 2025 00:00:00 GMT</pubDate>
@@ -358,7 +358,7 @@
       <description>インターネットラジオステーション＜音泉＞にて配信中の “TVアニメ『ガールズバンドクライ』WEBラジオ「ガールズバンドクライ～ラジオにも全部ぶち込め。～」”の公開イベントを実施します。昼夜2部制でラジオの出張版的なトークイベントをお届けします。 出演者 夕莉、理名、朱李 開催日時 2025年2月24日（月・祝） 1部 開場：13:00 開演：13:30 2部</description>
     </item>
     <item>
-      <title>[開催] トゲナシトゲアリ5th ONE-MAN LIVE “鳴動の刻”オンライン配信チケット販売開始！</title>
+      <title>[举办] トゲナシトゲアリ5th ONE-MAN LIVE “鳴動の刻”オンライン配信チケット販売開始！</title>
       <link>https://girls-band-cry.com/news/post-305.html</link>
       <guid isPermaLink="false">post-305-2025-02-06_2025-03-16-hold-1800@gbc-news</guid>
       <pubDate>Thu, 06 Feb 2025 09:00:00 GMT</pubDate>
@@ -369,7 +369,7 @@
       <description>4thワンマンライブに引き続き配信チケット、配信限定グッズ付きチケットの販売が決定！ 【チケット販売期間】 2025年2月6日(木)18:00～3月16日(日)21:59 ※ローチケ LIVE STREAMING：2月7日18:00～販売開始 ※U-NEXT・ニコニコ生放送の販売開始日は追って更新予定 【視聴期間】 2025年3月8日(土)12:00～3月1</description>
     </item>
     <item>
-      <title>[発売] ＴＶアニメ『ガールズバンドクライ』 公式ファンブック発売決定！</title>
+      <title>[发售] ＴＶアニメ『ガールズバンドクライ』 公式ファンブック発売決定！</title>
       <link>https://girls-band-cry.com/news/post-276.html</link>
       <guid isPermaLink="false">post-276-2025-02-07-sale@gbc-news</guid>
       <pubDate>Fri, 07 Feb 2025 00:00:00 GMT</pubDate>
@@ -378,7 +378,7 @@
       <description>ＴＶアニメ『ガールズバンドクライ』 公式ファンブック2025年2月7日に発売決定！🎉 アニメ放送までの軌跡や設定資料、キャスト陣のインタビュー等盛りだくさんの内容です✨ 🔗詳細は こちら</description>
     </item>
     <item>
-      <title>[開催] 「ガールズバンドクライ～ラジオにも全部ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先行抽選がスタート！</title>
+      <title>[举办] 「ガールズバンドクライ～ラジオにも全部ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先行抽選がスタート！</title>
       <link>https://girls-band-cry.com/news/post-299.html</link>
       <guid isPermaLink="false">post-299-2025-02-11-hold@gbc-news</guid>
       <pubDate>Tue, 11 Feb 2025 00:00:00 GMT</pubDate>
@@ -389,7 +389,7 @@
       <description>インターネットラジオステーション＜音泉＞にて配信中の “TVアニメ『ガールズバンドクライ』WEBラジオ「ガールズバンドクライ～ラジオにも全部ぶち込め。～」”の公開イベントを実施します。昼夜2部制でラジオの出張版的なトークイベントをお届けします。 出演者 夕莉、理名、朱李 開催日時 2025年2月24日（月・祝） 1部 開場：13:00 開演：13:30 2部</description>
     </item>
     <item>
-      <title>[開催] 「ガールズバンドクライ～ラジオにも全部ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先行抽選がスタート！</title>
+      <title>[举办] 「ガールズバンドクライ～ラジオにも全部ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先行抽選がスタート！</title>
       <link>https://girls-band-cry.com/news/post-299.html</link>
       <guid isPermaLink="false">post-299-2025-02-13-hold@gbc-news</guid>
       <pubDate>Thu, 13 Feb 2025 00:00:00 GMT</pubDate>
@@ -400,7 +400,7 @@
       <description>インターネットラジオステーション＜音泉＞にて配信中の “TVアニメ『ガールズバンドクライ』WEBラジオ「ガールズバンドクライ～ラジオにも全部ぶち込め。～」”の公開イベントを実施します。昼夜2部制でラジオの出張版的なトークイベントをお届けします。 出演者 夕莉、理名、朱李 開催日時 2025年2月24日（月・祝） 1部 開場：13:00 開演：13:30 2部</description>
     </item>
     <item>
-      <title>[開催] 「ガールズバンドクライ～ラジオにも全部ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先行抽選がスタート！</title>
+      <title>[举办] 「ガールズバンドクライ～ラジオにも全部ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先行抽選がスタート！</title>
       <link>https://girls-band-cry.com/news/post-299.html</link>
       <guid isPermaLink="false">post-299-2025-02-15-hold@gbc-news</guid>
       <pubDate>Sat, 15 Feb 2025 00:00:00 GMT</pubDate>
@@ -411,7 +411,7 @@
       <description>インターネットラジオステーション＜音泉＞にて配信中の “TVアニメ『ガールズバンドクライ』WEBラジオ「ガールズバンドクライ～ラジオにも全部ぶち込め。～」”の公開イベントを実施します。昼夜2部制でラジオの出張版的なトークイベントをお届けします。 出演者 夕莉、理名、朱李 開催日時 2025年2月24日（月・祝） 1部 開場：13:00 開演：13:30 2部</description>
     </item>
     <item>
-      <title>[開催] 「ガールズバンドクライ～ラジオにも全部ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先行抽選がスタート！</title>
+      <title>[举办] 「ガールズバンドクライ～ラジオにも全部ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先行抽選がスタート！</title>
       <link>https://girls-band-cry.com/news/post-299.html</link>
       <guid isPermaLink="false">post-299-2025-02-24-hold@gbc-news</guid>
       <pubDate>Mon, 24 Feb 2025 00:00:00 GMT</pubDate>
@@ -422,7 +422,7 @@
       <description>インターネットラジオステーション＜音泉＞にて配信中の “TVアニメ『ガールズバンドクライ』WEBラジオ「ガールズバンドクライ～ラジオにも全部ぶち込め。～」”の公開イベントを実施します。昼夜2部制でラジオの出張版的なトークイベントをお届けします。 出演者 夕莉、理名、朱李 開催日時 2025年2月24日（月・祝） 1部 開場：13:00 開演：13:30 2部</description>
     </item>
     <item>
-      <title>[開催] トゲナシトゲアリ5th ONE-MAN LIVE “鳴動の刻”オンライン配信チケット販売開始！</title>
+      <title>[举办] トゲナシトゲアリ5th ONE-MAN LIVE “鳴動の刻”オンライン配信チケット販売開始！</title>
       <link>https://girls-band-cry.com/news/post-305.html</link>
       <guid isPermaLink="false">post-305-2025-03-08_2025-03-16-hold-1200@gbc-news</guid>
       <pubDate>Sat, 08 Mar 2025 03:00:00 GMT</pubDate>
@@ -433,7 +433,7 @@
       <description>4thワンマンライブに引き続き配信チケット、配信限定グッズ付きチケットの販売が決定！ 【チケット販売期間】 2025年2月6日(木)18:00～3月16日(日)21:59 ※ローチケ LIVE STREAMING：2月7日18:00～販売開始 ※U-NEXT・ニコニコ生放送の販売開始日は追って更新予定 【視聴期間】 2025年3月8日(土)12:00～3月1</description>
     </item>
     <item>
-      <title>[開催] 4月3日(木)より『ガールズバンドクライ×夜のクラゲは泳げないコラボレーション POPUP SHOP』開催決定！</title>
+      <title>[举办] 4月3日(木)より『ガールズバンドクライ×夜のクラゲは泳げないコラボレーション POPUP SHOP』開催決定！</title>
       <link>https://girls-band-cry.com/news/post-321.html</link>
       <guid isPermaLink="false">post-321-2025-04-03_2025-04-30-hold@gbc-news</guid>
       <pubDate>Thu, 03 Apr 2025 00:00:00 GMT</pubDate>
@@ -444,7 +444,7 @@
       <description>同時期に放送されたオリジナルTVアニメ 「ガールズバンドクライ」と「夜のクラゲは泳げない」のコラボレーションPOPUP SHOP開催決定！ 相互にインスパイアした衣装の“トゲナシトゲアリ”・“JELEE”を 手島nariとpopman3580がそれぞれ描き下ろし！ POPUP SHOPでは、描き下ろしイラストを使ったコラボレーショングッズの販売や 等身大スタ</description>
     </item>
     <item>
-      <title>[開催] 「ガールズバンドクライ展大特集SP」がYouTubeでも公開！</title>
+      <title>[举办] 「ガールズバンドクライ展大特集SP」がYouTubeでも公開！</title>
       <link>https://girls-band-cry.com/news/post-334.html</link>
       <guid isPermaLink="false">post-334-2025-04-15-hold@gbc-news</guid>
       <pubDate>Tue, 15 Apr 2025 00:00:00 GMT</pubDate>
@@ -455,7 +455,7 @@
       <description>4/15(火)25:00～25:05にTOKYO MXで放送した「ガールズバンドクライ展 大特集SP」がYouTubeでも公開！ ▼視聴はこちら トゲナシトゲアリの理名さん、夕莉さん、朱李さんが 東京会場をリポート！ ぜひご覧ください！ そして…「ガールズバンドクライ展」東京会場は いよいよ今週末4/20(日)まで開催！ そしてそのあとは名古屋会場、福岡会場</description>
     </item>
     <item>
-      <title>[開催] 「ガールズバンドクライ展大特集SP」がYouTubeでも公開！</title>
+      <title>[举办] 「ガールズバンドクライ展大特集SP」がYouTubeでも公開！</title>
       <link>https://girls-band-cry.com/news/post-334.html</link>
       <guid isPermaLink="false">post-334-2025-04-19-hold@gbc-news</guid>
       <pubDate>Sat, 19 Apr 2025 00:00:00 GMT</pubDate>
@@ -466,7 +466,7 @@
       <description>4/15(火)25:00～25:05にTOKYO MXで放送した「ガールズバンドクライ展 大特集SP」がYouTubeでも公開！ ▼視聴はこちら トゲナシトゲアリの理名さん、夕莉さん、朱李さんが 東京会場をリポート！ ぜひご覧ください！ そして…「ガールズバンドクライ展」東京会場は いよいよ今週末4/20(日)まで開催！ そしてそのあとは名古屋会場、福岡会場</description>
     </item>
     <item>
-      <title>[開催] 「ガールズバンドクライ展大特集SP」がYouTubeでも公開！</title>
+      <title>[举办] 「ガールズバンドクライ展大特集SP」がYouTubeでも公開！</title>
       <link>https://girls-band-cry.com/news/post-334.html</link>
       <guid isPermaLink="false">post-334-2025-04-20-hold@gbc-news</guid>
       <pubDate>Sun, 20 Apr 2025 00:00:00 GMT</pubDate>
@@ -477,7 +477,7 @@
       <description>4/15(火)25:00～25:05にTOKYO MXで放送した「ガールズバンドクライ展 大特集SP」がYouTubeでも公開！ ▼視聴はこちら トゲナシトゲアリの理名さん、夕莉さん、朱李さんが 東京会場をリポート！ ぜひご覧ください！ そして…「ガールズバンドクライ展」東京会場は いよいよ今週末4/20(日)まで開催！ そしてそのあとは名古屋会場、福岡会場</description>
     </item>
     <item>
-      <title>[開催] 2nd Anniversary LIVEオンライン配信チケット販売開始！</title>
+      <title>[举办] 2nd Anniversary LIVEオンライン配信チケット販売開始！</title>
       <link>https://girls-band-cry.com/news/post-338.html</link>
       <guid isPermaLink="false">post-338-2025-04-25_2025-06-22-hold-1200@gbc-news</guid>
       <pubDate>Fri, 25 Apr 2025 03:00:00 GMT</pubDate>
@@ -489,7 +489,7 @@
       <description>4月27日(日)にKanadevia Hallで開催される『ガールズバンドクライ』2nd Anniversary LIVEのアーカイブ配信チケット、配信限定グッズ付きチケットの販売が決定！ 【チケット販売期間】 2025年4月25日(金)12:00～6月22日(日)21:59 【視聴期間】 2025年6月6日(金)19:00～6月22日(日)23:59 ※2</description>
     </item>
     <item>
-      <title>[開催] ガルクラ展名古屋会場・福岡会場の開催が決定！イラストレーターコラボも！</title>
+      <title>[举办] ガルクラ展名古屋会場・福岡会場の開催が決定！イラストレーターコラボも！</title>
       <link>https://girls-band-cry.com/news/post-311.html</link>
       <guid isPermaLink="false">post-311-2025-04-26_2025-05-25-hold-1100@gbc-news</guid>
       <pubDate>Sat, 26 Apr 2025 02:00:00 GMT</pubDate>
@@ -502,7 +502,7 @@
       <description>「ガールズバンドクライ展」名古屋会場・福岡会場の開催が決定しました！ 2025年4月26日（土）～5月25日（日）の期間に、名古屋会場はテレピアホールにて開催。 また、2025年6月～7月、福岡で開催！詳細は後日解禁予定です。 そして、イラストレーター・まごとのコラボビジュアルが解禁！ 「ガールズバンドクライ展」のためにトゲナシトゲアリのミニキャライラストを</description>
     </item>
     <item>
-      <title>[開催] 2nd Anniversary LIVEオンライン配信チケット販売開始！</title>
+      <title>[举办] 2nd Anniversary LIVEオンライン配信チケット販売開始！</title>
       <link>https://girls-band-cry.com/news/post-338.html</link>
       <guid isPermaLink="false">post-338-2025-06-06_2025-06-22-hold-1900@gbc-news</guid>
       <pubDate>Fri, 06 Jun 2025 10:00:00 GMT</pubDate>
@@ -514,7 +514,7 @@
       <description>4月27日(日)にKanadevia Hallで開催される『ガールズバンドクライ』2nd Anniversary LIVEのアーカイブ配信チケット、配信限定グッズ付きチケットの販売が決定！ 【チケット販売期間】 2025年4月25日(金)12:00～6月22日(日)21:59 【視聴期間】 2025年6月6日(金)19:00～6月22日(日)23:59 ※2</description>
     </item>
     <item>
-      <title>[開催] She is Legend×トゲナシトゲアリ 「SOUL &amp;#038; CRY」LIVEオンライン配信チケット販売開始！</title>
+      <title>[举办] She is Legend×トゲナシトゲアリ 「SOUL &amp;#038; CRY」LIVEオンライン配信チケット販売開始！</title>
       <link>https://girls-band-cry.com/news/post-364.html</link>
       <guid isPermaLink="false">post-364-2025-08-16_2025-08-31-hold-1200@gbc-news</guid>
       <pubDate>Sat, 16 Aug 2025 03:00:00 GMT</pubDate>
@@ -526,7 +526,7 @@
       <description>５月15日(木)に東京ガーデンシアターで開催されたShe is Legend×トゲナシトゲアリ 「SOUL &amp; CRY」LIVEのアーカイブ配信チケット、配信限定グッズ付きチケットの販売が決定！ 今回はライブ本編に加えて、特別な舞台裏映像をライブと一緒に視聴可能です！ 【チケット販売期間】 2025年8月３日(日)21:30～8月31日(日)21:59 【視</description>
     </item>
     <item>
-      <title>[開催] 8月21日（木）より「ガールズバンドクライ×カラオケの鉄人 COLLABORATION」開催決定！</title>
+      <title>[举办] 8月21日（木）より「ガールズバンドクライ×カラオケの鉄人 COLLABORATION」開催決定！</title>
       <link>https://girls-band-cry.com/news/post-362.html</link>
       <guid isPermaLink="false">post-362-2025-08-21_2025-09-28-hold@gbc-news</guid>
       <pubDate>Thu, 21 Aug 2025 00:00:00 GMT</pubDate>
@@ -537,7 +537,7 @@
       <description>2025年8月21日（木）より、ガールズバンドクライとカラオケの鉄人のコラボイベント 「ガールズバンドクライ×カラオケの鉄人 COLLABORATION」が開催！ 「私服」をテーマにした室田雄平さん描き下ろしの新規イラストを使用した コラボグッズの先行販売の他に、コラボドリンクやコンセプトルームなど さまざまな企画がお楽しみいただけます。 コラボ対象店舗にて</description>
     </item>
     <item>
-      <title>[開催] 9月20日（土）より「ガールズバンドクライ×丸福珈琲店」コラボ開催決定！</title>
+      <title>[举办] 9月20日（土）より「ガールズバンドクライ×丸福珈琲店」コラボ開催決定！</title>
       <link>https://girls-band-cry.com/news/post-369.html</link>
       <guid isPermaLink="false">post-369-2025-09-20-hold@gbc-news</guid>
       <pubDate>Sat, 20 Sep 2025 00:00:00 GMT</pubDate>
@@ -548,7 +548,7 @@
       <description>2025年9月20日（土）より、ガールズバンドクライと丸福珈琲店のコラボイベント 「ガールズバンドクライ×丸福珈琲店 コラボレーション」が開催！ ■丸福珈琲店 看板メニューとのコラボは全3種展開！ メンバーのパーソナルカラーをベースにした爽やかなクリームソーダ、外はサクッと中はふんわりとした⾷感が特徴の看板メニュー・ホットケーキ、様々な味が楽しめるフルーツカ</description>
     </item>
     <item>
-      <title>[発売] 『劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲』 初日＆公開記念舞台挨拶 実施決定！</title>
+      <title>[发售] 『劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲』 初日＆公開記念舞台挨拶 実施決定！</title>
       <link>https://girls-band-cry.com/news/post-375.html</link>
       <guid isPermaLink="false">post-375-2025-10-03-sale@gbc-news</guid>
       <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
@@ -560,7 +560,7 @@
       <description>『劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲』 初日舞台挨拶、公開記念舞台挨拶開催決定！ ◇実施日時 【初日舞台挨拶】 ■10月3日（金） ＜舞台挨拶登壇者＞ 理名、夕莉、朱李 ※登壇者は予告なく変更する場合がございますこと、予めご了承ください。 ＜劇場＞ 新宿バルト９ ＜時間＞ ・15：00の回（上映終了後） ※マスコミあり ・18：20の回</description>
     </item>
     <item>
-      <title>[発売] 『劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲』 初日＆公開記念舞台挨拶 実施決定！</title>
+      <title>[发售] 『劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲』 初日＆公開記念舞台挨拶 実施決定！</title>
       <link>https://girls-band-cry.com/news/post-375.html</link>
       <guid isPermaLink="false">post-375-2025-10-04-sale@gbc-news</guid>
       <pubDate>Sat, 04 Oct 2025 00:00:00 GMT</pubDate>
@@ -572,7 +572,7 @@
       <description>『劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲』 初日舞台挨拶、公開記念舞台挨拶開催決定！ ◇実施日時 【初日舞台挨拶】 ■10月3日（金） ＜舞台挨拶登壇者＞ 理名、夕莉、朱李 ※登壇者は予告なく変更する場合がございますこと、予めご了承ください。 ＜劇場＞ 新宿バルト９ ＜時間＞ ・15：00の回（上映終了後） ※マスコミあり ・18：20の回</description>
     </item>
     <item>
-      <title>[開催] 10/24(金) 『劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲』＜応援上映＞（日本語字幕付き）開催決定！</title>
+      <title>[举办] 10/24(金) 『劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲』＜応援上映＞（日本語字幕付き）開催決定！</title>
       <link>https://girls-band-cry.com/news/post-413.html</link>
       <guid isPermaLink="false">post-413-2025-10-24-hold@gbc-news</guid>
       <pubDate>Fri, 24 Oct 2025 00:00:00 GMT</pubDate>
@@ -585,7 +585,7 @@
       <description>10/24(金)は井芹仁菜の誕生日です。この記念日に応援上映を実施することが決定いたしました！ 井芹仁菜の生誕を劇場で一緒にお祝いしましょう！ こちらの上映形式は声だしOKの応援上映となります。 歓声OK！応援OK！拍手OK！ うちわ、タオル、ぬいぐるみ、ペンライト、サイリウムなど応援グッズをご持参いただくのもOKです。 大音響のライブシーンなどで手拍子や歓</description>
     </item>
     <item>
-      <title>[開催] 11月7日(金)・11月8日(土)2日連続のスタッフトークイベント＠T・ジョイSEIBU大泉＆川崎チネチッタ 開催決定！</title>
+      <title>[举办] 11月7日(金)・11月8日(土)2日連続のスタッフトークイベント＠T・ジョイSEIBU大泉＆川崎チネチッタ 開催決定！</title>
       <link>https://girls-band-cry.com/news/post-416.html</link>
       <guid isPermaLink="false">post-416-2025-11-07-hold@gbc-news</guid>
       <pubDate>Fri, 07 Nov 2025 00:00:00 GMT</pubDate>
@@ -597,7 +597,7 @@
       <description>11月7日(金)にT・ジョイSEIBU大泉にて、11月8日(土)に川崎チネチッタにて、『劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲』のスタッフトークイベントの開催がそれぞれ決定いたしました！ さらに！スタッフトークにお越しの全てのお客様に「ガルクラミニ色紙 第1弾＆第2弾」を1枚ずつセットでプレゼントいたします！ ＜11月7日(金)に関して＞ </description>
     </item>
     <item>
-      <title>[開催] 11月7日(金)・11月8日(土)2日連続のスタッフトークイベント＠T・ジョイSEIBU大泉＆川崎チネチッタ 開催決定！</title>
+      <title>[举办] 11月7日(金)・11月8日(土)2日連続のスタッフトークイベント＠T・ジョイSEIBU大泉＆川崎チネチッタ 開催決定！</title>
       <link>https://girls-band-cry.com/news/post-416.html</link>
       <guid isPermaLink="false">post-416-2025-11-08-hold@gbc-news</guid>
       <pubDate>Sat, 08 Nov 2025 00:00:00 GMT</pubDate>
@@ -609,7 +609,7 @@
       <description>11月7日(金)にT・ジョイSEIBU大泉にて、11月8日(土)に川崎チネチッタにて、『劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲』のスタッフトークイベントの開催がそれぞれ決定いたしました！ さらに！スタッフトークにお越しの全てのお客様に「ガルクラミニ色紙 第1弾＆第2弾」を1枚ずつセットでプレゼントいたします！ ＜11月7日(金)に関して＞ </description>
     </item>
     <item>
-      <title>[発売] 公式メイキングブックが玄光社より発売決定！</title>
+      <title>[发售] 公式メイキングブックが玄光社より発売決定！</title>
       <link>https://girls-band-cry.com/news/post-384.html</link>
       <guid isPermaLink="false">post-384-2025-11-14-sale@gbc-news</guid>
       <pubDate>Fri, 14 Nov 2025 00:00:00 GMT</pubDate>
@@ -619,7 +619,7 @@
       <description>アニメーション作品『ガールズバンドクライ』初の公式メイキングブックが玄光社より発売決定！ 📅発売日 2025年11月14日(金) ▼タイトル ガールズバンドクライ公式 メイキングブック ▼発売日 2025年11月14日 ▼判型 B5変型判 ▼本体価格 2,500円＋税 ▼ページ数 160p 『ガールズバンドクライ』制作チームへの数十時間におよぶインタビュー</description>
     </item>
     <item>
-      <title>[開催] 11/14(金)より『ガールズバンドクライ×HUB』コラボが開催！グッズ・コラボメニューや店舗予約をチェック！</title>
+      <title>[举办] 11/14(金)より『ガールズバンドクライ×HUB』コラボが開催！グッズ・コラボメニューや店舗予約をチェック！</title>
       <link>https://girls-band-cry.com/news/post-423.html</link>
       <guid isPermaLink="false">post-423-2025-11-14_2025-11-30-hold@gbc-news</guid>
       <pubDate>Fri, 14 Nov 2025 00:00:00 GMT</pubDate>
@@ -630,7 +630,7 @@
       <description>アニメ「ガールズバンドクライ」と英国風パブ「 HUB」のコラボイベントが2025年11月14日(金)より開催！ 作品やキャラクターをイメージした様々な限定コラボメニューが登場します！ コラボメニューを1点ご注文ごとに「限定フォト風カード(全14種)」をランダムで1枚プレゼント！ 混雑の場合にはご入店いただけない場合もございますので、ぜひ下記よりご予約をお願い</description>
     </item>
     <item>
-      <title>[発売] 『劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未来。』 初日舞台挨拶＆舞台挨拶ツアー 実施決定！</title>
+      <title>[发售] 『劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未来。』 初日舞台挨拶＆舞台挨拶ツアー 実施決定！</title>
       <link>https://girls-band-cry.com/news/post-421.html</link>
       <guid isPermaLink="false">post-421-2025-11-14-sale-1500@gbc-news</guid>
       <pubDate>Fri, 14 Nov 2025 06:00:00 GMT</pubDate>
@@ -642,7 +642,7 @@
       <description>『劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未来。』初日舞台挨拶＆舞台挨拶ツアー、実施決定！ さらに、初日舞台挨拶＆舞台挨拶ツアー実施の全ての劇場にて、ご来場者の中から抽選で3名様にメンバー直筆サイン色紙のプレゼントも決定いたしました！ 【初日舞台挨拶に関して】 ＜劇場・時間＞ ・新宿バルト９ https://tjoy.jp/shinjuku_wa</description>
     </item>
     <item>
-      <title>[発売] 『劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未来。』 初日舞台挨拶＆舞台挨拶ツアー 実施決定！</title>
+      <title>[发售] 『劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未来。』 初日舞台挨拶＆舞台挨拶ツアー 実施決定！</title>
       <link>https://girls-band-cry.com/news/post-421.html</link>
       <guid isPermaLink="false">post-421-2025-11-14-sale-1815@gbc-news</guid>
       <pubDate>Fri, 14 Nov 2025 09:15:00 GMT</pubDate>
@@ -654,7 +654,7 @@
       <description>『劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未来。』初日舞台挨拶＆舞台挨拶ツアー、実施決定！ さらに、初日舞台挨拶＆舞台挨拶ツアー実施の全ての劇場にて、ご来場者の中から抽選で3名様にメンバー直筆サイン色紙のプレゼントも決定いたしました！ 【初日舞台挨拶に関して】 ＜劇場・時間＞ ・新宿バルト９ https://tjoy.jp/shinjuku_wa</description>
     </item>
     <item>
-      <title>[開催] 12/5(金) 『劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未来。』＜応援上映＞（日本語字幕付き）開催決定！</title>
+      <title>[举办] 12/5(金) 『劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未来。』＜応援上映＞（日本語字幕付き）開催決定！</title>
       <link>https://girls-band-cry.com/news/post-434.html</link>
       <guid isPermaLink="false">post-434-2025-12-05-hold@gbc-news</guid>
       <pubDate>Fri, 05 Dec 2025 00:00:00 GMT</pubDate>
@@ -667,7 +667,7 @@
       <description>河原木桃香の誕生日が12/9(火)なのを前に応援上映を実施することが決定いたしました！ 一足早い12/5(金)に河原木桃香の生誕を劇場で一緒にお祝いしましょう！ こちらの上映形式は声だしOKの応援上映となります。 歓声OK！応援OK！拍手OK！ うちわ、タオル、ぬいぐるみ、ペンライト、サイリウムなど応援グッズをご持参いただくのもOKです。 さらに！応援上映回</description>
     </item>
     <item>
-      <title>[開催] 12月12日(金)・12月14日(日)スタッフトークイベント＠T・ジョイSEIBU大泉＆川崎チネチッタ 開催決定！</title>
+      <title>[举办] 12月12日(金)・12月14日(日)スタッフトークイベント＠T・ジョイSEIBU大泉＆川崎チネチッタ 開催決定！</title>
       <link>https://girls-band-cry.com/news/post-439.html</link>
       <guid isPermaLink="false">post-439-2025-12-12-hold@gbc-news</guid>
       <pubDate>Fri, 12 Dec 2025 00:00:00 GMT</pubDate>
@@ -679,7 +679,7 @@
       <description>12月12日(金)・12月14日(日)スタッフトークイベント＠T・ジョイSEIBU大泉＆川崎チネチッタ 開催決定！ 12月12日(金)にT・ジョイSEIBU大泉にて、12月14日(日)に川崎チネチッタにて、『劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未来。』のスタッフトークイベントの開催がそれぞれ決定いたしました！ さらに！スタッフトークにお越しの</description>
     </item>
     <item>
-      <title>[開催] 12月12日(金)・12月14日(日)スタッフトークイベント＠T・ジョイSEIBU大泉＆川崎チネチッタ 開催決定！</title>
+      <title>[举办] 12月12日(金)・12月14日(日)スタッフトークイベント＠T・ジョイSEIBU大泉＆川崎チネチッタ 開催決定！</title>
       <link>https://girls-band-cry.com/news/post-439.html</link>
       <guid isPermaLink="false">post-439-2025-12-14-hold@gbc-news</guid>
       <pubDate>Sun, 14 Dec 2025 00:00:00 GMT</pubDate>
@@ -691,7 +691,7 @@
       <description>12月12日(金)・12月14日(日)スタッフトークイベント＠T・ジョイSEIBU大泉＆川崎チネチッタ 開催決定！ 12月12日(金)にT・ジョイSEIBU大泉にて、12月14日(日)に川崎チネチッタにて、『劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未来。』のスタッフトークイベントの開催がそれぞれ決定いたしました！ さらに！スタッフトークにお越しの</description>
     </item>
     <item>
-      <title>[開催] 『劇場版総集編ガールズバンドクライ』【配信決定＆TV放送２周年記念】メモリアルグッズ購入キャンペーン</title>
+      <title>[举办] 『劇場版総集編ガールズバンドクライ』【配信決定＆TV放送２周年記念】メモリアルグッズ購入キャンペーン</title>
       <link>https://girls-band-cry.com/news/post-457.html</link>
       <guid isPermaLink="false">post-457-2026-04-06-hold-1200@gbc-news</guid>
       <pubDate>Mon, 06 Apr 2026 03:00:00 GMT</pubDate>
@@ -703,7 +703,7 @@
       <description>『劇場版総集編ガールズバンドクライ』前編・後編の配信が決定！ 記念すべき、TVアニメ放送２周年記念日［4月6日(月)12:00（正午）］より、 Amazon／U-NEXTにて購入版・レンタル版が視聴できるようになります！ 配信決定＆TVアニメ２周年記念を記念して、 「劇場版総集編ガールズバンドクライ 青春狂走曲（前編）」、 「劇場版総集編ガールズバンドクライ</description>
     </item>
     <item>
-      <title>[開催] TVアニメ『ガールズバンドクライ』 放送２周年記念フォロー＆リポストキャンペーン開催！</title>
+      <title>[举办] TVアニメ『ガールズバンドクライ』 放送２周年記念フォロー＆リポストキャンペーン開催！</title>
       <link>https://girls-band-cry.com/news/post-468.html</link>
       <guid isPermaLink="false">post-468-2026-04-13-hold-2359@gbc-news</guid>
       <pubDate>Mon, 13 Apr 2026 14:59:00 GMT</pubDate>
@@ -713,7 +713,7 @@
       <description>TVアニメ『ガールズバンドクライ』 放送２周年を記念して 公式Xにてフォロー＆リポストキャンペーンを開催！ ご参加いただいた方の中から抽選で30名様にTVアニメ『ガールズバンドクライ』 キービジュアルポスターをプレゼント🎁 【開催期間】 2026年4月13日(月) 23:59まで 【参加方法】 ①X（旧Twitter）の ＠girlsbandcry をフォ</description>
     </item>
     <item>
-      <title>[開催] 『劇場版総集編 ガールズバンドクライ』「【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD] 2026年7月22日(水)発売決定！</title>
+      <title>[举办] 『劇場版総集編 ガールズバンドクライ』「【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD] 2026年7月22日(水)発売決定！</title>
       <link>https://girls-band-cry.com/news/post-464.html</link>
       <guid isPermaLink="false">post-464-2026-04-24-hold@gbc-news</guid>
       <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
@@ -727,7 +727,7 @@
       <description>2025年に公開された、 「劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲」 「劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未来。」 のパッケージ化が決定！ 発売日は共に7/22(水)、初回限定版はこちらも手島nariによる新規描きおろしジャケットが起用される。ブックレットには、劇場で入場者特典として配布された 手島nari描き下ろし漫画 </description>
     </item>
     <item>
-      <title>[発売] 『劇場版総集編 ガールズバンドクライ』「【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD] 2026年7月22日(水)発売決定！</title>
+      <title>[发售] 『劇場版総集編 ガールズバンドクライ』「【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD] 2026年7月22日(水)発売決定！</title>
       <link>https://girls-band-cry.com/news/post-464.html</link>
       <guid isPermaLink="false">post-464-2026-04-26-sale@gbc-news</guid>
       <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
@@ -741,7 +741,7 @@
       <description>2025年に公開された、 「劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲」 「劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未来。」 のパッケージ化が決定！ 発売日は共に7/22(水)、初回限定版はこちらも手島nariによる新規描きおろしジャケットが起用される。ブックレットには、劇場で入場者特典として配布された 手島nari描き下ろし漫画 </description>
     </item>
     <item>
-      <title>[開催] 『劇場版総集編 ガールズバンドクライ』「【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD] 2026年7月22日(水)発売決定！</title>
+      <title>[举办] 『劇場版総集編 ガールズバンドクライ』「【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD] 2026年7月22日(水)発売決定！</title>
       <link>https://girls-band-cry.com/news/post-464.html</link>
       <guid isPermaLink="false">post-464-2026-07-10-hold@gbc-news</guid>
       <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
@@ -755,7 +755,7 @@
       <description>2025年に公開された、 「劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲」 「劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未来。」 のパッケージ化が決定！ 発売日は共に7/22(水)、初回限定版はこちらも手島nariによる新規描きおろしジャケットが起用される。ブックレットには、劇場で入場者特典として配布された 手島nari描き下ろし漫画 </description>
     </item>
     <item>
-      <title>[開催] 『劇場版総集編 ガールズバンドクライ』「【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD] 2026年7月22日(水)発売決定！</title>
+      <title>[举办] 『劇場版総集編 ガールズバンドクライ』「【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD] 2026年7月22日(水)発売決定！</title>
       <link>https://girls-band-cry.com/news/post-464.html</link>
       <guid isPermaLink="false">post-464-2026-07-10-hold-1900@gbc-news</guid>
       <pubDate>Fri, 10 Jul 2026 10:00:00 GMT</pubDate>
@@ -769,7 +769,7 @@
       <description>2025年に公開された、 「劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲」 「劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未来。」 のパッケージ化が決定！ 発売日は共に7/22(水)、初回限定版はこちらも手島nariによる新規描きおろしジャケットが起用される。ブックレットには、劇場で入場者特典として配布された 手島nari描き下ろし漫画 </description>
     </item>
     <item>
-      <title>[開催] 『劇場版総集編 ガールズバンドクライ』「【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD] 2026年7月22日(水)発売決定！</title>
+      <title>[举办] 『劇場版総集編 ガールズバンドクライ』「【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD] 2026年7月22日(水)発売決定！</title>
       <link>https://girls-band-cry.com/news/post-464.html</link>
       <guid isPermaLink="false">post-464-2026-07-10-hold-2000@gbc-news</guid>
       <pubDate>Fri, 10 Jul 2026 11:00:00 GMT</pubDate>
@@ -783,7 +783,7 @@
       <description>2025年に公開された、 「劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲」 「劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未来。」 のパッケージ化が決定！ 発売日は共に7/22(水)、初回限定版はこちらも手島nariによる新規描きおろしジャケットが起用される。ブックレットには、劇場で入場者特典として配布された 手島nari描き下ろし漫画 </description>
     </item>
     <item>
-      <title>[発売] 『劇場版総集編 ガールズバンドクライ』「【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD] 2026年7月22日(水)発売決定！</title>
+      <title>[发售] 『劇場版総集編 ガールズバンドクライ』「【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu-ray][DVD] 2026年7月22日(水)発売決定！</title>
       <link>https://girls-band-cry.com/news/post-464.html</link>
       <guid isPermaLink="false">post-464-2026-07-22-sale@gbc-news</guid>
       <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
