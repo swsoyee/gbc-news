@@ -31,7 +31,9 @@ applyEnrichments(
   `contentFingerprint`。
 - `reviewed` 必含 ISO `reviewedAt`、非空 `titleZh`、非空 `summaryZh`；`skip` 必含
   `reviewedAt`。
-- `eventDates` 存在时完整覆盖规则结果；空数组表示人工确认移除全部日期。
+- `eventDates` 存在时完整覆盖规则结果；空数组表示人工确认移除全部日期
+  （取消/纠错），并应配合 `reviewNotes`。无活动且无需覆盖时**省略该字段**，
+  不要用 `[]` 表示「没有日期」。
 - fingerprint 为规范化后的 `title + "\n" + bodyText`；正文变化后旧增强必须失效。
 - **跨日时长 > 24 小时**的 `eventDates` 只保留 `date` / `endDate` / `kind`，不得带
   `startTime` / `endTime`。抽取器会自动剥时刻；enrichment 校验会拒绝违规记录。

@@ -1,5 +1,6 @@
 import { CATEGORY_IDS, isCategoryId, type CategoryId } from './categories.js'
-import { assertEventDate, type EventDate } from './event-date.js'
+import { assertEventDate, assertEventDateShape, normalizeEventDate } from './event-date.js'
+import type { EventDate } from './event-date.js'
 import { GROUP_IDS, isGroupId, type GroupId } from './groups.js'
 
 export interface NewsItem {
@@ -56,7 +57,13 @@ export function assertNewsItem(value: unknown): asserts value is NewsItem {
     if (!Array.isArray(item.eventDates)) {
       throw new Error('NewsItem.eventDates must be an array when set')
     }
-    for (const entry of item.eventDates) assertEventDate(entry)
+    // 旧快照可能仍含超 24h 带时刻日程；读取时规范化后再校验
+    item.eventDates = item.eventDates.map((entry) => {
+      assertEventDateShape(entry)
+      const normalized = normalizeEventDate(entry as EventDate)
+      assertEventDate(normalized)
+      return normalized
+    })
   }
 
   if (

@@ -27,6 +27,19 @@ function assertTime(label: string, value: unknown): asserts value is string {
 }
 
 export function assertEventDate(value: unknown): asserts value is EventDate {
+  assertEventDateShape(value)
+  if (
+    (value.startTime !== undefined || value.endTime !== undefined) &&
+    eventSpanExceeds24Hours(value)
+  ) {
+    throw new Error(
+      'EventDate spanning more than 24 hours must omit startTime/endTime (date/endDate only)',
+    )
+  }
+}
+
+/** 校验字段形状与基础约束，不检查跨日>24h 时刻规则（供规范化前使用）。 */
+export function assertEventDateShape(value: unknown): asserts value is EventDate {
   if (!value || typeof value !== 'object') {
     throw new Error('EventDate must be an object')
   }
@@ -49,15 +62,6 @@ export function assertEventDate(value: unknown): asserts value is EventDate {
     if (entry.endDate < entry.date) {
       throw new Error(`EventDate.endDate must be >= date (${entry.date}..${entry.endDate})`)
     }
-  }
-  const normalized = value as EventDate
-  if (
-    (normalized.startTime !== undefined || normalized.endTime !== undefined) &&
-    eventSpanExceeds24Hours(normalized)
-  ) {
-    throw new Error(
-      'EventDate spanning more than 24 hours must omit startTime/endTime (date/endDate only)',
-    )
   }
 }
 

@@ -32,7 +32,10 @@ description: 批量核对、汉化并补录 gbc-news 抓取资讯的活动日期
    - `contentFingerprint` 必须原样使用 pending 输出值。
    - `reviewed` 必填 `reviewedAt`、`titleZh`、`summaryZh`。
    - `skip` 必填 `reviewedAt`。
-   - `eventDates` 若存在则完整覆盖规则结果；空数组表示明确移除全部活动日期。
+   - **`eventDates` 写法**：
+     - 需要订正/补录日期 → 写非空数组（完整覆盖规则结果）。
+     - 活动取消或规则误抽、必须清空 → 写 `eventDates: []`，并在 `reviewNotes` 说明原因。
+     - **无活动、也无需覆盖规则结果** → **不要写 `eventDates` 字段**（只写中文即可）。不要用空数组表示「没有日期」。
    - 可用 `reviewNotes` 简述日期订正证据。
 4. 每批完成后验证：
    ```bash
