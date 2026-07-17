@@ -8,19 +8,32 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-WR-CALNAME:gbc-news · 媒体
 NAME:gbc-news · 媒体
 BEGIN:VEVENT
+UID:post-3-2023-07-26-sale@gbc-news
+DTSTAMP:20230726T000000Z
+DTSTART;VALUE=DATE:20230726
+DTEND;VALUE=DATE:20230727
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺［from Girls Band Cry］1st Single《名も
+ なき何もかも》发售纪念线上 talk 配信＆签名会举办通
+ 知
+DESCRIPTION:纪念出道单曲，7 月 29 日 17:00–18:00 于 Limista 举
+ 办线上 talk（仅声音出演）；购入获夹克签名。\n\n
+ https://girls-band-cry.com/news/post-3.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-3.html
+CATEGORIES:togenashi,live,music,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
 UID:post-11-2023-07-29-hold-1700@gbc-news
 DTSTAMP:20230729T080000Z
 DTSTART:20230729T080000Z
 DTEND:20230729T100000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 生配信番組「トゲナシトゲアリ修行中」7月
- 29日（土）17:00スタート
-DESCRIPTION:トゲナシトゲアリ 1stシングル『名もなき何も
- かも』のリリースを記念して、初の生配信番組「トゲ
- ナシトゲアリ修行中」を明後日29日(土)17:00よりガール
- ズバンドクライのYouTubeチャンネルにて配信します！\n
- ▼トゲナシトゲアリ修行中 2023.07.29(土)配信\n\n
+SUMMARY:[举办] 直播节目「无刺有刺修行中」7 月 29 日（六
+ ）17:00 开始
+DESCRIPTION:纪念 1st Single，7/29 17:00 起于官方 YouTube 直播「
+ 无刺有刺修行中」；Limista 购入可获夹克签名。\n\n
  https://girls-band-cry.com/news/post-11.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-11.html
 CATEGORIES:togenashi,live,music,event,media
@@ -32,17 +45,11 @@ DTSTART:20230729T080000Z
 DTEND:20230729T090000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ［fromガールズバンドクラ
- イ］ 1st Single『名もなき何もかも』発売記念 オンライ
- ントーク配信＆サイン会 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド ‘’トゲナシトゲアリ‘’ リリースイ
- ベントとして、オンライントーク配信＆サイン会の開
- 催が決定！\nガールズバンドクライのキャラクター絵柄
- の後ろで、トゲナシトゲアリメンバーの生声トークを
- 楽しむことができます。\nまた、リミスタにて対象商品
- をご購入いただいたお\n\n
+SUMMARY:[举办] 无刺有刺［from Girls Band Cry］1st Single《名も
+ なき何もかも》发售纪念线上 talk 配信＆签名会举办通
+ 知
+DESCRIPTION:纪念出道单曲，7 月 29 日 17:00–18:00 于 Limista 举
+ 办线上 talk（仅声音出演）；购入获夹克签名。\n\n
  https://girls-band-cry.com/news/post-3.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-3.html
 CATEGORIES:togenashi,live,music,event,cinema,media
@@ -54,17 +61,11 @@ DTSTART:20230930T080000Z
 DTEND:20230930T090000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ修行中！公開練習ライブ
- 敢行記念 アフタートーク＆バックステージパス風カー
- ドサイン会のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド “トゲナシトゲアリ” 9 月14日(土)代官
- 山SPACE ODDにて、「トゲナシトゲアリ修行中！\n公開練習
- ライブ」を敢行しました。\nご来場いただいた皆様、あ
- りがとうございます。\n今回の放送では、初ライブ終了
- 後のメンバーよるアフタートークをオンラインにて放
- 送\n\nhttps://girls-band-cry.com/news/post-25.html
+SUMMARY:[举办] 无刺有刺修行中！公开练习 LIVE 纪念 After Tal
+ k＆后台通行证风卡片签名会通知
+DESCRIPTION:9/30 17:00–18:00 举办公开练习 LIVE 后 After Talk；Lim
+ ista 购入可获后台通行证风卡片签名。\n\n
+ https://girls-band-cry.com/news/post-25.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-25.html
 CATEGORIES:togenashi,live,music,event,cinema,media
 END:VEVENT
@@ -75,14 +76,9 @@ DTSTART;VALUE=DATE:20231017
 DTEND;VALUE=DATE:20231121
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「黎明を穿つ」MVがカラオケDAMにて配信開
- 始！
-DESCRIPTION:本日10/17からカラオケDAMにて 「黎明を穿つ」MV
- 配信開始！\n また、カラオケDAMで絶賛放映中の曲間番
- 組「DAM CHANNEL」にて、 トゲナシトゲアリ 3rd Single『爆ぜ
- て咲く』15秒CMの放送も開始いたしました （放映期間：
- 10/17～11/20） カラオケDAMをご利用の際はぜひチェックし
- てください！！\nそして、たくさん歌ってくだ\n\n
+SUMMARY:[举办] 「黎明を穿つ」MV 于卡拉 OK DAM 开始配信！
+DESCRIPTION:自 10/17 起 DAM 配信「黎明を穿つ」MV；DAM CHANNEL 
+ 同步播放 3rd Single 15 秒 CM 至 11/20。\n\n
  https://girls-band-cry.com/news/post-37.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-37.html
 CATEGORIES:togenashi,music,media

@@ -5396,6 +5396,474 @@
         }
       ],
       "reviewNotes": "合并重复公演条目"
+    },
+    "post-39": {
+      "id": "post-39",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "dd20dffaccba50fa29d1f69c2b2533a09a559ff57beb272031db0e6fc84ec58e",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "第 7 弹 MV「極私的極彩色アンサー」公开！公开纪念活动开始",
+      "summaryZh": "公开第 7 弹 MV；官方 X 关注＆转发活动进行至 10/29，抽选 5 名获签名海报。",
+      "eventDates": [
+        {
+          "date": "2023-10-23",
+          "endDate": "2023-10-29",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "活动跨日去时刻"
+    },
+    "post-40": {
+      "id": "post-40",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "aae86f399e0136bade0865f4a55c96faba37dfe86a19846dd5c5aa7c53b6f5ac",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "4th Single《極私的極彩色アンサー》/无刺有刺 2023 年 12 月 20 日（三）发售！",
+      "summaryZh": "无刺有刺 4th Single《極私的極彩色アンサー》于 2023 年 12 月 20 日发售。",
+      "eventDates": [
+        {
+          "date": "2023-12-20",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-37": {
+      "id": "post-37",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "1101f718f81e2b15a3c7fefb37cbebca3e0dca3b181aa744b4ee8c65e2ecfa06",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "「黎明を穿つ」MV 于卡拉 OK DAM 开始配信！",
+      "summaryZh": "自 10/17 起 DAM 配信「黎明を穿つ」MV；DAM CHANNEL 同步播放 3rd Single 15 秒 CM 至 11/20。",
+      "eventDates": [
+        {
+          "date": "2023-10-17",
+          "endDate": "2023-11-20",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-35": {
+      "id": "post-35",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "bb0527fc20c73ecd1b0cf25404317432f5a87fb3321f26e6b5290bb2aaa02f75",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "无刺有刺 3rd Single《爆ぜて咲く》发售纪念线上 talk 配信＆签名会举办通知",
+      "summaryZh": "纪念 10/25 发售的 3rd Single，10 月 28 日 17:00–18:00 于 Limista 举办线上 talk；购入获夹克签名。",
+      "eventDates": [
+        {
+          "date": "2023-10-28",
+          "kind": "hold",
+          "startTime": "17:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2023-10-25",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-36": {
+      "id": "post-36",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "acd37d8b432fe896fcca19c827f5f650aa51412f7d1db77239590a40ded36557",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "无刺有刺 3rd Single《爆ぜて咲く》发售纪念活动举办通知",
+      "summaryZh": "10/25 19:00 于 HMV＆BOOKS SHIBUYA 6F 举办 talk＆特典会；当日购入可获夹克/海报签名。",
+      "eventDates": [
+        {
+          "date": "2023-10-25",
+          "kind": "hold",
+          "startTime": "19:00"
+        },
+        {
+          "date": "2023-10-25",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "去掉优先区入场重复时刻"
+    },
+    "post-34": {
+      "id": "post-34",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "6dd04c3b24a0b92aa11bab0aa5c5ff86d40ab9f8fc2c2ea5533d3d3b3b4bf1a8",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "11/10（五）「赤羽 ReNY alpha presents Night Escape vol.9」出演决定！",
+      "summaryZh": "无刺有刺于 11/10 18:45 在赤羽 ReNY alpha 出演；门票自 10/11 12:00 起发售。",
+      "eventDates": [
+        {
+          "date": "2023-11-10",
+          "kind": "hold",
+          "startTime": "18:45"
+        },
+        {
+          "date": "2023-10-11",
+          "kind": "sale",
+          "startTime": "12:00"
+        }
+      ],
+      "reviewNotes": "规则误把售票开始标成公演时刻"
+    },
+    "post-33": {
+      "id": "post-33",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "991bdf778e880c11d517bd8e3114004829c549a522250bfb8cf96c5915b97730",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "10/21（六）「高校生乐队王 vol.4 in かわさき」嘉宾出演决定！",
+      "summaryZh": "10/21 13:00–16:00 于川崎 Lufront 1F 免费举办；无刺有刺约 15 时起迷你 LIVE。",
+      "eventDates": [
+        {
+          "date": "2023-10-21",
+          "kind": "hold",
+          "startTime": "13:00",
+          "endTime": "16:00"
+        }
+      ],
+      "reviewNotes": "合并重复日程"
+    },
+    "post-32": {
+      "id": "post-32",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "9d2d65200f78f470a93d0813ea40e4d7c60f70aa14136037bd09c5d06e69c4cf",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "无刺有刺 3rd Single《爆ぜて咲く》各店特典图案决定通知",
+      "summaryZh": "10/25 发售的 3rd Single 各店先着特典图案已决定。",
+      "eventDates": [
+        {
+          "date": "2023-10-25",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-31": {
+      "id": "post-31",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "3b5451ef6919cb49abe672b5bb7795f73fde3d6e117663d1c53517be61ab1bd7",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "MV 第 7 弹公开・3rd 单曲发售相关活动通知",
+      "summaryZh": "10/23 公开 MV 第 7 弹；10/25 发售 3rd Single 并举办 HMV 发售活动；10/28 17:00 直播「无刺有刺修行中」。",
+      "eventDates": [
+        {
+          "date": "2023-10-23",
+          "kind": "hold"
+        },
+        {
+          "date": "2023-10-25",
+          "kind": "sale"
+        },
+        {
+          "date": "2023-10-25",
+          "kind": "hold",
+          "startTime": "19:00"
+        },
+        {
+          "date": "2023-10-28",
+          "kind": "hold",
+          "startTime": "17:00"
+        }
+      ],
+      "reviewNotes": "订正误标为 sale 的公开/活动/直播"
+    },
+    "post-30": {
+      "id": "post-30",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "d5ab9e1398e0e10153b545542e040d258e0dfa3043846f55ba05201852c673b7",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "MV 第 6 弹「黎明を穿つ」公开！纪念活动开始！",
+      "summaryZh": "公开第 6 弹 MV；官方 X 关注＆转发活动截止 10/1，抽选 5 名获签名海报。",
+      "eventDates": [
+        {
+          "date": "2023-09-25",
+          "endDate": "2023-10-01",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "文末误写 9/10；以推文截止 10/1 为准"
+    },
+    "post-29": {
+      "id": "post-29",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f3b4344d7f8c50a96bca5dfdca600edd003a7243bf5373c5879a97d631f7d4e9",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "「NAKAYOSHI FES.2023」出演取消通知",
+      "summaryZh": "因夕莉新冠感染，取消原定 9/23「NAKAYOSHI FES.2023」出演；门票不退。",
+      "eventDates": [],
+      "reviewNotes": "出演已取消，清空日程"
+    },
+    "post-25": {
+      "id": "post-25",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "e38e918299f146daff1f9894f3b71769d395d6b228d6f7bf5b340e51b5bad843",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "无刺有刺修行中！公开练习 LIVE 纪念 After Talk＆后台通行证风卡片签名会通知",
+      "summaryZh": "9/30 17:00–18:00 举办公开练习 LIVE 后 After Talk；Limista 购入可获后台通行证风卡片签名。",
+      "eventDates": [
+        {
+          "date": "2023-09-30",
+          "kind": "hold",
+          "startTime": "17:00",
+          "endTime": "18:00"
+        }
+      ]
+    },
+    "post-20": {
+      "id": "post-20",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "bae01ee483c297e305b4a53060afe4b07e672b19e6b4602e70cd4eec3da4dbba",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "9/14（四）举办无刺有刺公开练习 LIVE 决定！",
+      "summaryZh": "9/14 19:30 于代官山 SPACE ODD 举办公开练习 LIVE；应募截止 9/6，中签 9/9 邮件通知。",
+      "eventDates": [
+        {
+          "date": "2023-09-14",
+          "kind": "hold",
+          "startTime": "19:30"
+        },
+        {
+          "date": "2023-09-06",
+          "kind": "hold"
+        },
+        {
+          "date": "2023-09-09",
+          "kind": "hold",
+          "startTime": "15:00"
+        }
+      ]
+    },
+    "post-21": {
+      "id": "post-21",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "ee5a32142623e7496c03cf1574411a02bb338beae511dad5abd4aab18f018232",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "9 月 23 日（六）「NAKAYOSHI FES.2023」无刺有刺出演决定！",
+      "summaryZh": "无刺有刺作为 Opening Act 于 9/23 在涩谷 Spotify O-EAST 出演；门票自 9/2 起一般发售。",
+      "eventDates": [
+        {
+          "date": "2023-09-23",
+          "kind": "hold"
+        },
+        {
+          "date": "2023-09-02",
+          "kind": "sale",
+          "startTime": "10:00"
+        }
+      ],
+      "reviewNotes": "10:00 为售票开始非开演"
+    },
+    "post-18": {
+      "id": "post-18",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f1df4ede9b413c309b5c6217447c45cbe497cd3aeebee41a1ebe0ec7211b5093",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "无刺有刺 2nd Single《気鬱、白濁す》今日发售！",
+      "summaryZh": "无刺有刺 2nd Single《気鬱、白濁す》于 8/30 发售；含 CD 剧场与 MV 影像盘。",
+      "eventDates": [
+        {
+          "date": "2023-08-30",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-15": {
+      "id": "post-15",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "3f9135ccd5c8a714d364f14f2d1b4eebe0bdafc29d24834dc23803064080f10d",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "MV 第 5 弹「爆ぜて咲く」公开纪念活动举办决定！",
+      "summaryZh": "分四弹 X 投稿活动：8/28、9/4、9/11、9/18 起分别抽选透明文件夹、签名海报、徽章、贴纸。",
+      "eventDates": [
+        {
+          "date": "2023-08-28",
+          "kind": "hold",
+          "startTime": "20:00"
+        },
+        {
+          "date": "2023-09-04",
+          "kind": "hold",
+          "startTime": "12:00"
+        },
+        {
+          "date": "2023-09-11",
+          "kind": "hold",
+          "startTime": "12:00"
+        },
+        {
+          "date": "2023-09-18",
+          "kind": "hold",
+          "startTime": "12:00"
+        }
+      ]
+    },
+    "post-16": {
+      "id": "post-16",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "dabddb2e0c828ff8a0caa1fee2fca84701cd68ab729370809f8f8fa127806195",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "爆ぜて咲く/无刺有刺 2023 年 10 月 25 日（三）第三张单曲发售！",
+      "summaryZh": "无刺有刺 3rd Single《爆ぜて咲く》于 2023 年 10 月 25 日发售。",
+      "eventDates": [
+        {
+          "date": "2023-10-25",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-14": {
+      "id": "post-14",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "ecfe4c4b1c4a079d1268b4fd41b6c3af7c414ceff4992f14bcf3831d5e1fc151",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "无刺有刺「偽りの理」「気鬱、白濁す」「理想的パラドクスとは」于卡拉 OK DAM 开始配信 MV！！",
+      "summaryZh": "自 8/22 起于 DAM 陆续配信三首 MV，预定配信至 2024 年 6 月末。",
+      "eventDates": [
+        {
+          "date": "2023-08-22",
+          "endDate": "2024-06-30",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "「6月末」取月末日"
+    },
+    "post-10": {
+      "id": "post-10",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8411920aacc48d857e895ba5f64b12b95802b07b9b9f63d3a675d0328ff089cb",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "无刺有刺［from Girls Band Cry］2nd Single《気鬱、白濁す》发售纪念线上 talk 配信＆签名会举办通知",
+      "summaryZh": "纪念 2nd Single，9 月 2 日 17:00–18:00 于 Limista 举办线上 talk（露脸出演）；购入获夹克签名。",
+      "eventDates": [
+        {
+          "date": "2023-09-02",
+          "kind": "hold",
+          "startTime": "17:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2023-08-30",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-12": {
+      "id": "post-12",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "c2345c2d26633be9cf813db97ab4dd2bf29dfbd27773dbe7d2fb7a092af1926c",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "无刺有刺 2nd Single《気鬱、白濁す》各店特典图案决定通知",
+      "summaryZh": "8/30 发售的 2nd Single 各店先着特典图案已决定。",
+      "eventDates": [
+        {
+          "date": "2023-08-30",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-11": {
+      "id": "post-11",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "5141e20419f95ce4e92a8008f0310825a4203bbb992b19a073459d036296b31b",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "直播节目「无刺有刺修行中」7 月 29 日（六）17:00 开始",
+      "summaryZh": "纪念 1st Single，7/29 17:00 起于官方 YouTube 直播「无刺有刺修行中」；Limista 购入可获夹克签名。",
+      "eventDates": [
+        {
+          "date": "2023-07-29",
+          "kind": "hold",
+          "startTime": "17:00"
+        }
+      ]
+    },
+    "post-4": {
+      "id": "post-4",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "250eec0a552b1d33ffbc9aef87dd4ea8ba30881fdacf62e4fef17e0e6f2cc0d1",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "気鬱、白濁す/无刺有刺 2023 年 8 月 30 日（三）第二张单曲发售！",
+      "summaryZh": "无刺有刺 2nd Single《気鬱、白濁す》于 2023 年 8 月 30 日发售。",
+      "eventDates": [
+        {
+          "date": "2023-08-30",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-5": {
+      "id": "post-5",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8a6dc7c27e18dc01b0b797243c037ecfd62f483a6961d58eabbb1a3f0cc410f9",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "无刺有刺 2nd Single《気鬱、白濁す》发售纪念活动 Talk＆CD 夹克签名会＠HMV＆BOOKS SHIBUYA 决定通知",
+      "summaryZh": "8/29 19:00 于 HMV＆BOOKS SHIBUYA 5F 举办首次面对面 talk＆夹克签名会。",
+      "eventDates": [
+        {
+          "date": "2023-08-29",
+          "kind": "hold",
+          "startTime": "19:00"
+        },
+        {
+          "date": "2023-08-30",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "去掉发号开始重复时刻"
+    },
+    "post-3": {
+      "id": "post-3",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "ce8f283943b1f7cc772908b5c65a62a6daffe7e32f66a220dc07d6fca5d1fe1e",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "无刺有刺［from Girls Band Cry］1st Single《名もなき何もかも》发售纪念线上 talk 配信＆签名会举办通知",
+      "summaryZh": "纪念出道单曲，7 月 29 日 17:00–18:00 于 Limista 举办线上 talk（仅声音出演）；购入获夹克签名。",
+      "eventDates": [
+        {
+          "date": "2023-07-29",
+          "kind": "hold",
+          "startTime": "17:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2023-07-26",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-2": {
+      "id": "post-2",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "98dcee6d4462cf43cd535b67bcd4032e4bc3a8e77d91af90ce1f9eaa6e30ced1",
+      "reviewedAt": "2026-07-17T19:00:00.000Z",
+      "titleZh": "名もなき何もかも／无刺有刺 2023 年 7 月 26 日（三）CD 发售！",
+      "summaryZh": "无刺有刺出道单曲《名もなき何もかも》于 2023 年 7 月 26 日发售；含 CD 剧场与 MV 影像盘。",
+      "eventDates": [
+        {
+          "date": "2023-07-26",
+          "kind": "sale"
+        }
+      ]
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-17T12:37:29.105Z",
+  "scrapedAt": "2026-07-17T12:38:23.764Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
@@ -11587,7 +11587,9 @@
         }
       ],
       "summary": "【アーティスト】 トゲナシトゲアリ Vo.井芹 仁菜（CV:理名） Gt.河原木 桃香（CV:夕莉） Dr.安和 すばる（CV: 美怜） Key.海老塚 智（CV: 凪都） Ba.ルパ （CV: 朱李） 【発売日】 2023年12月20日（水） 【形態・価格・品番】 CD+Blu-ray : ¥3,960(Tax in)UMCK-5739 CD+DVD : ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/post40.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/post40.jpg",
+      "titleZh": "4th Single《極私的極彩色アンサー》/无刺有刺 2023 年 12 月 20 日（三）发售！",
+      "summaryZh": "无刺有刺 4th Single《極私的極彩色アンサー》于 2023 年 12 月 20 日发售。"
     },
     {
       "id": "post-39",
@@ -11605,14 +11607,14 @@
       "eventDates": [
         {
           "date": "2023-10-23",
-          "kind": "hold",
           "endDate": "2023-10-29",
-          "startTime": "20:00",
-          "endTime": "23:59"
+          "kind": "hold"
         }
       ],
       "summary": "劇中バンド「トゲナシトゲアリ」のメンバーが歌う MV第7弾「極私的極彩色アンサー（ゴクシテキゴクサイショクアンサー）」 を公開いたしました🎊 MV公開を記念して、 アニメ「ガールズバンドクライ」公式X（旧Twitter）にてフォロー＆リポストキャンペーンを開催いたします✨ 【開催期間】 10月23日（月）20:00 ～ 10月29日（日） 23:59 【参",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/GBC_MV07_%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E5%91%8A%E7%9F%A5HP-1024x512.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/GBC_MV07_%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E5%91%8A%E7%9F%A5HP-1024x512.png",
+      "titleZh": "第 7 弹 MV「極私的極彩色アンサー」公开！公开纪念活动开始",
+      "summaryZh": "公开第 7 弹 MV；官方 X 关注＆转发活动进行至 10/29，抽选 5 名获签名海报。"
     },
     {
       "id": "post-38",
@@ -11645,12 +11647,14 @@
       "eventDates": [
         {
           "date": "2023-10-17",
-          "kind": "hold",
-          "endDate": "2023-11-20"
+          "endDate": "2023-11-20",
+          "kind": "hold"
         }
       ],
       "summary": "本日10/17からカラオケDAMにて 「黎明を穿つ」MV配信開始！🎊 また、カラオケDAMで絶賛放映中の曲間番組「DAM CHANNEL」にて、 トゲナシトゲアリ 3rd Single『爆ぜて咲く』15秒CMの放送も開始いたしました✨ （放映期間：10/17～11/20） カラオケDAMをご利用の際はぜひチェックしてください！！ そして、たくさん歌ってくだ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/gbc_mv06_sm_hp.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/gbc_mv06_sm_hp.png",
+      "titleZh": "「黎明を穿つ」MV 于卡拉 OK DAM 开始配信！",
+      "summaryZh": "自 10/17 起 DAM 配信「黎明を穿つ」MV；DAM CHANNEL 同步播放 3rd Single 15 秒 CM 至 11/20。"
     },
     {
       "id": "post-36",
@@ -11671,16 +11675,17 @@
         {
           "date": "2023-10-25",
           "kind": "hold",
-          "startTime": "18:40"
+          "startTime": "19:00"
         },
         {
           "date": "2023-10-25",
-          "kind": "hold",
-          "startTime": "19:00"
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが製作するオリジナルアニメーション「ガールズバンドクライ」から飛び出した ガールズバンド“トゲナシトゲアリ”の3rd Single『爆ぜて咲く』の発売を記念して、 HMV＆BOOKS SHIBUYA ６Fにてトークイベント【第2回目】の開催が決定！ 【開催日時】 2023年10月25日(水) 19:00 【優先エリア入場開始時間】 2023",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/post36.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/post36.jpg",
+      "titleZh": "无刺有刺 3rd Single《爆ぜて咲く》发售纪念活动举办通知",
+      "summaryZh": "10/25 19:00 于 HMV＆BOOKS SHIBUYA 6F 举办 talk＆特典会；当日购入可获夹克/海报签名。"
     },
     {
       "id": "post-35",
@@ -11703,10 +11708,16 @@
           "kind": "hold",
           "startTime": "17:00",
           "endTime": "18:00"
+        },
+        {
+          "date": "2023-10-25",
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが製作するオリジナルアニメ「ガールズバンドクライ」の主題歌を歌う5人編成のガールズバンド “トゲナシトゲアリ” 3rd Single 『爆ぜて咲く』の発売を記念して大好評のオンライントーク配信＆サイン会【4回目】の開催が決定！ リミスタにて対象商品をご購入いただいたお客様に、３rd Single『爆ぜて咲く』ジャケットへメンバー全員がサイン",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/GBC_231028_limista.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/GBC_231028_limista.jpg",
+      "titleZh": "无刺有刺 3rd Single《爆ぜて咲く》发售纪念线上 talk 配信＆签名会举办通知",
+      "summaryZh": "纪念 10/25 发售的 3rd Single，10 月 28 日 17:00–18:00 于 Limista 举办线上 talk；购入获夹克签名。"
     },
     {
       "id": "post-34",
@@ -11724,11 +11735,18 @@
         {
           "date": "2023-11-10",
           "kind": "hold",
+          "startTime": "18:45"
+        },
+        {
+          "date": "2023-10-11",
+          "kind": "sale",
           "startTime": "12:00"
         }
       ],
       "summary": "11/10 (金)＠赤羽ReNY alpha 「赤羽ReNY alpha presents Night Escape vol.9」に トゲナシトゲアリの出演が決定しました！ ［OPEN/START］ 18:15 / 18:45 ［ADV/DOOR］ 一般 ￥3,000 / ￥3,500 (D代別途要) U-20 ¥2,000 (D代込) ［TICKET］ e",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/post41.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/post41.png",
+      "titleZh": "11/10（五）「赤羽 ReNY alpha presents Night Escape vol.9」出演决定！",
+      "summaryZh": "无刺有刺于 11/10 18:45 在赤羽 ReNY alpha 出演；门票自 10/11 12:00 起发售。"
     },
     {
       "id": "post-33",
@@ -11746,17 +11764,15 @@
       "eventDates": [
         {
           "date": "2023-10-21",
-          "kind": "hold"
-        },
-        {
-          "date": "2023-10-21",
           "kind": "hold",
           "startTime": "13:00",
           "endTime": "16:00"
         }
       ],
       "summary": "10/21 （土） 「高校生バンド王 vol.4 in かわさき」 にゲスト出演が決定しました🎉 トゲナシトゲアリ は15時からミニライブを行う予定です🎸 【開催日】2023年10月21日（土）13:00～16:00（予定） 【場所】川崎ルフロン1F （川崎駅前） 入場無料 イベントHPは こちら ぜひ観に来てくださいね♬",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/post33.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/post33.jpg",
+      "titleZh": "10/21（六）「高校生乐队王 vol.4 in かわさき」嘉宾出演决定！",
+      "summaryZh": "10/21 13:00–16:00 于川崎 Lufront 1F 免费举办；无刺有刺约 15 时起迷你 LIVE。"
     },
     {
       "id": "post-32",
@@ -11777,7 +11793,9 @@
         }
       ],
       "summary": "10月25日（水）発売のトゲナシトゲアリ 3rd Single「爆ぜて咲く」店舗別特典絵柄が決定しました🎉 先着特典となりますので、この機会にぜひGETしてください！ ▶CDのご予約は こちら",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/post32.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/post32.jpg",
+      "titleZh": "无刺有刺 3rd Single《爆ぜて咲く》各店特典图案决定通知",
+      "summaryZh": "10/25 发售的 3rd Single 各店先着特典图案已决定。"
     },
     {
       "id": "post-31",
@@ -11795,19 +11813,27 @@
       "eventDates": [
         {
           "date": "2023-10-23",
-          "kind": "sale"
+          "kind": "hold"
         },
         {
           "date": "2023-10-25",
           "kind": "sale"
         },
         {
+          "date": "2023-10-25",
+          "kind": "hold",
+          "startTime": "19:00"
+        },
+        {
           "date": "2023-10-28",
-          "kind": "sale"
+          "kind": "hold",
+          "startTime": "17:00"
         }
       ],
       "summary": "MV第7弾公開、3rdシングル発売、それに付随したイベントを下記の日程で実施予定です。 詳細は後日あらためてお知らせいたします。 ①10/23（月）MV第7弾を10/23（月）YouTube公開 ②10/25（水）3rdシングル「爆ぜて咲く」発売 ③10/25（水）リリースイベントをHMV&BOOKS渋谷にて開催 ④10/28（土）17時から「トゲナシトゲア",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/post36.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/post36.jpg",
+      "titleZh": "MV 第 7 弹公开・3rd 单曲发售相关活动通知",
+      "summaryZh": "10/23 公开 MV 第 7 弹；10/25 发售 3rd Single 并举办 HMV 发售活动；10/28 17:00 直播「无刺有刺修行中」。"
     },
     {
       "id": "post-30",
@@ -11824,12 +11850,15 @@
       ],
       "eventDates": [
         {
-          "date": "2023-10-01",
+          "date": "2023-09-25",
+          "endDate": "2023-10-01",
           "kind": "hold"
         }
       ],
       "summary": "MV第6弾「黎明を穿つ」を本日公開しました！🎊 公開を記念して、X（旧Twitter）にてキャンペーンを開催します！ ご参加いただいた方から抽選で5名様にキャストサイン入りキービジュアルポスターをプレゼント！ 【参加方法】 ①X（旧Twitter）の@girlsbandcryをフォロー Tweets by girlsbandcry ②キャンペーン告知投稿を",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/09/%E9%BB%8E%E6%98%8E%E3%82%92%E7%A9%BF%E3%81%A4RT%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3_HP%E3%83%90%E3%83%8A%E3%83%BC.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/09/%E9%BB%8E%E6%98%8E%E3%82%92%E7%A9%BF%E3%81%A4RT%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3_HP%E3%83%90%E3%83%8A%E3%83%BC.png",
+      "titleZh": "MV 第 6 弹「黎明を穿つ」公开！纪念活动开始！",
+      "summaryZh": "公开第 6 弹 MV；官方 X 关注＆转发活动截止 10/1，抽选 5 名获签名海报。"
     },
     {
       "id": "post-29",
@@ -11844,14 +11873,11 @@
       "groups": [
         "togenashi"
       ],
-      "eventDates": [
-        {
-          "date": "2023-09-23",
-          "kind": "hold"
-        }
-      ],
+      "eventDates": [],
       "summary": "いつも「ガールズバンドクライ」トゲナシトゲアリを応援いただき誠にありがとうございます。 この度、Gt.夕莉に発熱の症状があり、検査の結果新型コロナウイルス感染が判明したため、 予定していた下記イベントへの出演をキャンセルさせていただく運びとなりました。 【出演キャンセル】 2023年9月23日(土) NAKAYOSHI FES.2023 なお、出演キャンセル",
-      "imageUrl": "https://girls-band-cry.com/wp-content/themes/gbc_v1/assets/images/common/img_thumb.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/themes/gbc_v1/assets/images/common/img_thumb.png",
+      "titleZh": "「NAKAYOSHI FES.2023」出演取消通知",
+      "summaryZh": "因夕莉新冠感染，取消原定 9/23「NAKAYOSHI FES.2023」出演；门票不退。"
     },
     {
       "id": "post-28",
@@ -11923,7 +11949,9 @@
         }
       ],
       "summary": "東映アニメーションが製作するオリジナルアニメ「ガールズバンドクライ」の主題歌を歌う5人編成のガールズバンド “トゲナシトゲアリ” 9 月14日(土)代官山SPACE ODDにて、「トゲナシトゲアリ修行中！公開練習ライブ」を敢行しました。ご来場いただいた皆様、ありがとうございます。 今回の放送では、初ライブ終了後のメンバーよるアフタートークをオンラインにて放送",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/09/post25.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/09/post25.jpg",
+      "titleZh": "无刺有刺修行中！公开练习 LIVE 纪念 After Talk＆后台通行证风卡片签名会通知",
+      "summaryZh": "9/30 17:00–18:00 举办公开练习 LIVE 后 After Talk；Limista 购入可获后台通行证风卡片签名。"
     },
     {
       "id": "post-22",
@@ -11956,12 +11984,18 @@
       "eventDates": [
         {
           "date": "2023-09-23",
-          "kind": "hold",
+          "kind": "hold"
+        },
+        {
+          "date": "2023-09-02",
+          "kind": "sale",
           "startTime": "10:00"
         }
       ],
       "summary": "9月23日(土)開催の「NAKAYOSHI FES.2023」にはトゲナシトゲアリがオープニングアクトとして出演決定！ トゲナシトゲアリが出演する会場は渋谷Spotify O-EASTで、オープニングアクトとしてライブを披露します。バンド活動の第一歩を、みなさんもぜひ会場でご覧ください。 ■「NAKAYOSHI FES. 2023」 【日時】9月23日(土)",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/09/post21.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/09/post21.jpg",
+      "titleZh": "9 月 23 日（六）「NAKAYOSHI FES.2023」无刺有刺出演决定！",
+      "summaryZh": "无刺有刺作为 Opening Act 于 9/23 在涩谷 Spotify O-EAST 出演；门票自 9/2 起一般发售。"
     },
     {
       "id": "post-20",
@@ -11978,20 +12012,24 @@
       ],
       "eventDates": [
         {
+          "date": "2023-09-14",
+          "kind": "hold",
+          "startTime": "19:30"
+        },
+        {
           "date": "2023-09-06",
           "kind": "hold"
         },
         {
           "date": "2023-09-09",
-          "kind": "hold"
-        },
-        {
-          "date": "2023-09-14",
-          "kind": "hold"
+          "kind": "hold",
+          "startTime": "15:00"
         }
       ],
       "summary": "トゲナシトゲアリの今後のライブ活動に向けた修行の一環として… 9月14日(木)「トゲナシトゲアリ修行中 公開練習ライブ」開催が決定しました。 トゲナシトゲアリのライブをいち早く堪能できる絶好の機会となっています。 ■開催概要 【日時】9月14日(木)開場 19:00 開演 19:30 【会場】代官山SPACE ODD 【注意事項】未就学児入場不可、撮影禁止 ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/09/%E5%85%AC%E9%96%8B%E7%B7%B4%E7%BF%92%E3%83%A9%E3%82%A4%E3%83%96%E5%91%8A%E7%9F%A5_HP%E7%94%A8.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/09/%E5%85%AC%E9%96%8B%E7%B7%B4%E7%BF%92%E3%83%A9%E3%82%A4%E3%83%96%E5%91%8A%E7%9F%A5_HP%E7%94%A8.jpg",
+      "titleZh": "9/14（四）举办无刺有刺公开练习 LIVE 决定！",
+      "summaryZh": "9/14 19:30 于代官山 SPACE ODD 举办公开练习 LIVE；应募截止 9/6，中签 9/9 邮件通知。"
     },
     {
       "id": "post-19",
@@ -12031,7 +12069,9 @@
         }
       ],
       "summary": "【タイトル】 セカンドシングル「気鬱、白濁す」 【アーティスト】 トゲナシトゲアリ Vo.井芹仁菜 (CV:理名) Gt.河原木桃香 (CV:夕莉) Dr.安和すばる (CV:美怜) Key.海老塚智 (CV:凪都) Ba.ルパ (CV:朱李) 【発売日】 2023年8月30日（水） 【形態・価格・品番】 CD+Blu-ray : ¥3,960(Tax in",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/06/news20230626-2nd.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/06/news20230626-2nd.png",
+      "titleZh": "无刺有刺 2nd Single《気鬱、白濁す》今日发售！",
+      "summaryZh": "无刺有刺 2nd Single《気鬱、白濁す》于 8/30 发售；含 CD 剧场与 MV 影像盘。"
     },
     {
       "id": "post-17",
@@ -12068,7 +12108,9 @@
         }
       ],
       "summary": "【タイトル】 サードシングル「爆ぜて咲く」 【アーティスト】 トゲナシトゲアリ Vo.井芹仁菜 (CV:理名) Gt.河原木桃香 (CV:夕莉) Dr.安和すばる (CV:美怜) Key.海老塚智 (CV:凪都) Ba.ルパ (CV:朱李) 【発売日】 2023年10月25日（水） 【形態・価格・品番】 CD+Blu-ray : ¥3,960(Tax in)",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/post36.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/post36.jpg",
+      "titleZh": "爆ぜて咲く/无刺有刺 2023 年 10 月 25 日（三）第三张单曲发售！",
+      "summaryZh": "无刺有刺 3rd Single《爆ぜて咲く》于 2023 年 10 月 25 日发售。"
     },
     {
       "id": "post-15",
@@ -12087,23 +12129,29 @@
       "eventDates": [
         {
           "date": "2023-08-28",
-          "kind": "hold"
+          "kind": "hold",
+          "startTime": "20:00"
         },
         {
           "date": "2023-09-04",
-          "kind": "hold"
+          "kind": "hold",
+          "startTime": "12:00"
         },
         {
           "date": "2023-09-11",
-          "kind": "hold"
+          "kind": "hold",
+          "startTime": "12:00"
         },
         {
           "date": "2023-09-18",
-          "kind": "hold"
+          "kind": "hold",
+          "startTime": "12:00"
         }
       ],
       "summary": "MV第5弾「爆ぜて咲く」の公開を記念して、限定グッズが抽選で当たる✨公開記念キャンペーン✨を開催いたします🎉 キャンペーン第1弾は本日スタート！ ▼参加方法 ①「爆ぜて咲く」のお気に入りシーンのスクリーンショット ②ハッシュタグ「#爆ぜて咲く」 をつけて、「爆ぜて咲く」の感想をX（Twitter）にポスト 📅日程 第1弾👉 8/28 20:00~ 賞品",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/08/GBC_230829%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E5%91%8A%E7%9F%A5HP%E3%83%90%E3%83%8A%E3%83%BC%E7%94%A8.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/08/GBC_230829%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E5%91%8A%E7%9F%A5HP%E3%83%90%E3%83%8A%E3%83%BC%E7%94%A8.png",
+      "titleZh": "MV 第 5 弹「爆ぜて咲く」公开纪念活动举办决定！",
+      "summaryZh": "分四弹 X 投稿活动：8/28、9/4、9/11、9/18 起分别抽选透明文件夹、签名海报、徽章、贴纸。"
     },
     {
       "id": "post-14",
@@ -12121,11 +12169,14 @@
       "eventDates": [
         {
           "date": "2023-08-22",
+          "endDate": "2024-06-30",
           "kind": "hold"
         }
       ],
       "summary": "「トゲナシトゲアリ」のミュージックビデオが カラオケDAMにて配信開始となりました。 カラオケDAMをご利用の際は、ぜひ歌ってください！ ■ミュージックビデオ配信楽曲 ・「偽りの理」 リクエストNo： 3357-33 ・「気鬱、白濁す」 リクエストNo： 3361-19 ・「理想的パラドクスとは」 リクエストNo： 3361-31 ■配信日 8/22～順次配",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/08/gbc_mv02_sm_hp.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/08/gbc_mv02_sm_hp.jpg",
+      "titleZh": "无刺有刺「偽りの理」「気鬱、白濁す」「理想的パラドクスとは」于卡拉 OK DAM 开始配信 MV！！",
+      "summaryZh": "自 8/22 起于 DAM 陆续配信三首 MV，预定配信至 2024 年 6 月末。"
     },
     {
       "id": "post-13",
@@ -12163,10 +12214,16 @@
           "kind": "hold",
           "startTime": "17:00",
           "endTime": "18:00"
+        },
+        {
+          "date": "2023-08-30",
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが製作するオリジナルアニメ「ガールズバンドクライ」の主題歌を歌う5人編成のガールズバンド ‘’トゲナシトゲアリ‘’ 2nd Single『気鬱、白濁す』のリリースを記念して 、オンライントーク配信＆サイン会【2回目】の開催が決定！ 今回は、トゲナシトゲアシのメンバーが顔を出して出演します。 また、リミスタにて対象商品をご購入いただいたお客様",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/09/post25.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/09/post25.jpg",
+      "titleZh": "无刺有刺［from Girls Band Cry］2nd Single《気鬱、白濁す》发售纪念线上 talk 配信＆签名会举办通知",
+      "summaryZh": "纪念 2nd Single，9 月 2 日 17:00–18:00 于 Limista 举办线上 talk（露脸出演）；购入获夹克签名。"
     },
     {
       "id": "post-12",
@@ -12187,7 +12244,9 @@
         }
       ],
       "summary": "8月30日発売 トゲナシトゲアリ 2nd Single「気鬱、白濁す」店舗別特典絵柄が決定しました。先着特典となりますので、この機会にぜひGETしてください！ ▼CDのご予約はこちら https://togenashitogeari.lnk.to/white_drizzle_in_gloom_cd_po",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/07/post12.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/07/post12.jpg",
+      "titleZh": "无刺有刺 2nd Single《気鬱、白濁す》各店特典图案决定通知",
+      "summaryZh": "8/30 发售的 2nd Single 各店先着特典图案已决定。"
     },
     {
       "id": "post-11",
@@ -12212,7 +12271,9 @@
         }
       ],
       "summary": "トゲナシトゲアリ 1stシングル『名もなき何もかも』のリリースを記念して、初の生配信番組「トゲナシトゲアリ修行中」を明後日29日(土)17:00よりガールズバンドクライのYouTubeチャンネルにて配信します！ ▼トゲナシトゲアリ修行中 2023.07.29(土)配信 https://youtube.com/live/UF_8DR9-9cY?feature=",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/07/gbc_rimisuta_230729.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/07/gbc_rimisuta_230729.jpg",
+      "titleZh": "直播节目「无刺有刺修行中」7 月 29 日（六）17:00 开始",
+      "summaryZh": "纪念 1st Single，7/29 17:00 起于官方 YouTube 直播「无刺有刺修行中」；Limista 购入可获夹克签名。"
     },
     {
       "id": "post-9",
@@ -12267,7 +12328,9 @@
         }
       ],
       "summary": "【タイトル】 セカンドシングル「気鬱、白濁す」 【アーティスト】 トゲナシトゲアリ Vo.井芹仁菜 (CV:理名) Gt.河原木桃香 (CV:夕莉) Dr.安和すばる (CV:美怜) Key.海老塚智 (CV:凪都) Ba.ルパ (CV:朱李) 【発売日】 2023年8月30日（水） 【形態・価格・品番】 CD+Blu-ray : ¥3,960(Tax in",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/06/news20230626-2nd.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/06/news20230626-2nd.png",
+      "titleZh": "気鬱、白濁す/无刺有刺 2023 年 8 月 30 日（三）第二张单曲发售！",
+      "summaryZh": "无刺有刺 2nd Single《気鬱、白濁す》于 2023 年 8 月 30 日发售。"
     },
     {
       "id": "post-5",
@@ -12288,16 +12351,17 @@
         {
           "date": "2023-08-29",
           "kind": "hold",
-          "startTime": "17:00"
+          "startTime": "19:00"
         },
         {
-          "date": "2023-08-29",
-          "kind": "hold",
-          "startTime": "19:00"
+          "date": "2023-08-30",
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが製作するオリジナルアニメ「ガールズバンドクライ」から飛び出したガールズバンド “トゲナシトゲアリ”2ndシングル「気鬱、白濁す」の発売を記念して、HMV＆BOOKS SHIBUYAにてトーク&CDジャケットサイン会の開催が決定しました。 こちら、“トゲナシトゲアリ”として、はじめてお客様と直接に対面するイベントとなります！！ 1stシング",
-      "imageUrl": "https://girls-band-cry.com/wp-content/themes/gbc_v1/assets/images/common/img_thumb.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/themes/gbc_v1/assets/images/common/img_thumb.png",
+      "titleZh": "无刺有刺 2nd Single《気鬱、白濁す》发售纪念活动 Talk＆CD 夹克签名会＠HMV＆BOOKS SHIBUYA 决定通知",
+      "summaryZh": "8/29 19:00 于 HMV＆BOOKS SHIBUYA 5F 举办首次面对面 talk＆夹克签名会。"
     },
     {
       "id": "post-3",
@@ -12321,10 +12385,16 @@
           "kind": "hold",
           "startTime": "17:00",
           "endTime": "18:00"
+        },
+        {
+          "date": "2023-07-26",
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが製作するオリジナルアニメ「ガールズバンドクライ」の主題歌を歌う5人編成のガールズバンド ‘’トゲナシトゲアリ‘’ リリースイベントとして、オンライントーク配信＆サイン会の開催が決定！ ガールズバンドクライのキャラクター絵柄の後ろで、トゲナシトゲアリメンバーの生声トークを楽しむことができます。 また、リミスタにて対象商品をご購入いただいたお",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/06/post3.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/06/post3.jpg",
+      "titleZh": "无刺有刺［from Girls Band Cry］1st Single《名もなき何もかも》发售纪念线上 talk 配信＆签名会举办通知",
+      "summaryZh": "纪念出道单曲，7 月 29 日 17:00–18:00 于 Limista 举办线上 talk（仅声音出演）；购入获夹克签名。"
     },
     {
       "id": "post-2",
@@ -12346,7 +12416,9 @@
         }
       ],
       "summary": "【タイトル】 デビューシングル「名もなき何もかも」 【アーティスト】 トゲナシトゲアリ Vo.井芹 仁菜（CV:理名） Gt.河原木 桃香（CV:夕莉） Dr.安和 すばる（CV: 美怜） Key.海老塚 智（CV: 凪都） Ba.ルパ （CV: 朱李） 【発売日】 2023年7月26日(水) 【価格・品番】 CD+Blu-ray : ¥3,960(Tax ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/05/news-cd_230529.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/05/news-cd_230529.jpg",
+      "titleZh": "名もなき何もかも／无刺有刺 2023 年 7 月 26 日（三）CD 发售！",
+      "summaryZh": "无刺有刺出道单曲《名もなき何もかも》于 2023 年 7 月 26 日发售；含 CD 剧场与 MV 影像盘。"
     },
     {
       "id": "post-1",
