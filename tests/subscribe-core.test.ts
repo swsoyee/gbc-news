@@ -231,4 +231,28 @@ describe('timed event helpers', () => {
     expect(style.width).toBe('50%')
     expect(formatTimeRangeLabel('19:00', '21:00')).toBe('19:00–21:00')
   })
+
+  it('仅有 23:59 时缺省时长不跨日拆成两块', () => {
+    const events = buildCalendarEvents(
+      [
+        {
+          ...baseItem,
+          categories: ['goods'],
+          eventDates: [{ date: '2026-07-18', kind: 'sale', startTime: '23:59' }],
+        },
+      ],
+      ['togenashi'],
+      ['goods'],
+      4,
+      7,
+    )
+    expect(resolveEventWallRange(events[0]!)).toEqual({
+      startDate: '2026-07-18',
+      startTime: '23:59',
+      endDate: '2026-07-18',
+      endTime: '24:00',
+    })
+    expect(buildDayTimedBlocks(events, '2026-07-18')).toHaveLength(1)
+    expect(buildDayTimedBlocks(events, '2026-07-19')).toHaveLength(0)
+  })
 })

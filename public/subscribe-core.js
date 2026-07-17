@@ -174,10 +174,12 @@ function isAllDayEvent(event) {
   return !event.startTime;
 }
 function parseHhmm(time) {
+  if (time === "24:00") return DAY_MINUTES;
   const [hh, mm] = time.split(":").map(Number);
   return hh * 60 + mm;
 }
 function formatHhmm(totalMinutes) {
+  if (totalMinutes >= DAY_MINUTES) return "24:00";
   const wrapped = (totalMinutes % DAY_MINUTES + DAY_MINUTES) % DAY_MINUTES;
   const hh = Math.floor(wrapped / 60);
   const mm = wrapped % 60;
@@ -196,21 +198,21 @@ function resolveEventWallRange(event) {
   const startTime = event.startTime;
   const spanEndDate = event.endDate;
   if (event.endTime) {
-    let endDate2 = spanEndDate;
+    let endDate = spanEndDate;
     if (spanEndDate === startDate && event.endTime <= startTime) {
-      endDate2 = addCalendarDays(startDate, 1);
+      endDate = addCalendarDays(startDate, 1);
     }
-    return { startDate, startTime, endDate: endDate2, endTime: event.endTime };
+    return { startDate, startTime, endDate, endTime: event.endTime };
   }
   if (spanEndDate > startDate) {
     return { startDate, startTime, endDate: spanEndDate, endTime: "23:59" };
   }
   const duration = defaultDurationMinutes(event.kind);
   const endTotal = parseHhmm(startTime) + duration;
-  const dayDelta = Math.floor(endTotal / DAY_MINUTES);
-  const endTime = formatHhmm(endTotal);
-  const endDate = dayDelta > 0 ? addCalendarDays(startDate, dayDelta) : startDate;
-  return { startDate, startTime, endDate, endTime };
+  if (endTotal >= DAY_MINUTES) {
+    return { startDate, startTime, endDate: startDate, endTime: "24:00" };
+  }
+  return { startDate, startTime, endDate: startDate, endTime: formatHhmm(endTotal) };
 }
 function formatTimeRangeLabel(startTime, endTime) {
   return `${startTime}\u2013${endTime}`;

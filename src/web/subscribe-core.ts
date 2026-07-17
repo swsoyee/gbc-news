@@ -303,11 +303,13 @@ export function isAllDayEvent(event: CalendarEvent): boolean {
 }
 
 function parseHhmm(time: string): number {
+  if (time === '24:00') return DAY_MINUTES
   const [hh, mm] = time.split(':').map(Number) as [number, number]
   return hh * 60 + mm
 }
 
 function formatHhmm(totalMinutes: number): string {
+  if (totalMinutes >= DAY_MINUTES) return '24:00'
   const wrapped = ((totalMinutes % DAY_MINUTES) + DAY_MINUTES) % DAY_MINUTES
   const hh = Math.floor(wrapped / 60)
   const mm = wrapped % 60
@@ -344,10 +346,11 @@ export function resolveEventWallRange(event: CalendarEvent): EventWallRange | nu
 
   const duration = defaultDurationMinutes(event.kind)
   const endTotal = parseHhmm(startTime) + duration
-  const dayDelta = Math.floor(endTotal / DAY_MINUTES)
-  const endTime = formatHhmm(endTotal)
-  const endDate = dayDelta > 0 ? addCalendarDays(startDate, dayDelta) : startDate
-  return { startDate, startTime, endDate, endTime }
+  // 缺省补时长若跨午夜：只画到当日 24:00，避免「截止 23:59」被拆成两天色块
+  if (endTotal >= DAY_MINUTES) {
+    return { startDate, startTime, endDate: startDate, endTime: '24:00' }
+  }
+  return { startDate, startTime, endDate: startDate, endTime: formatHhmm(endTotal) }
 }
 
 export function formatTimeRangeLabel(startTime: string, endTime: string): string {
