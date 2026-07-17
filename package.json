@@ -25,6 +25,7 @@
     "build:feeds": "tsx scripts/build-feeds.ts",
     "build:function": "node scripts/bundle-function.mjs",
     "build:web": "node scripts/bundle-web.mjs",
+    "generate:favicon": "node scripts/generate-favicon.mjs",
     "build": "npm run typecheck && npm run build:function && npm run build:web && npm run build:feeds"
   },
   "devDependencies": {
