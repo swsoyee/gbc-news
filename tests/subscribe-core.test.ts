@@ -6,13 +6,17 @@ import {
   buildMonthCells,
   buildWeekSegments,
   chipLabel,
+  EARLY_HOURS,
+  earlyHoursFrameVars,
   formatMonthLabel,
   formatTimeRangeLabel,
+  isAllDayEvent,
   layoutTimedLanes,
   resolveEventWallRange,
   shiftMonth,
   startOfWeek,
   timedBlockStyle,
+  timedBlockStyleWithEarlyToggle,
   toIsoDate,
   toWebcal,
 } from '../src/web/subscribe-core.js'
@@ -256,5 +260,95 @@ describe('timed event helpers', () => {
     expect(blocks).toHaveLength(1)
     expect(blocks[0]).toMatchObject({ startMin: 23 * 60, endMin: 23 * 60 + 59 })
     expect(buildDayTimedBlocks(events, '2026-07-19')).toHaveLength(0)
+  })
+
+  it('缺省时长跨午夜时只画到当日 24:00，不拆成次日色块', () => {
+    const events = buildCalendarEvents(
+      [
+        {
+          ...baseItem,
+          eventDates: [{ date: '2026-07-14', kind: 'hold', startTime: '23:00' }],
+        },
+      ],
+      ['togenashi'],
+      ['live'],
+      4,
+      7,
+    )
+    expect(resolveEventWallRange(events[0]!)).toEqual({
+      startDate: '2026-07-14',
+      startTime: '23:00',
+      endDate: '2026-07-14',
+      endTime: '24:00',
+    })
+    expect(buildDayTimedBlocks(events, '2026-07-14')[0]).toMatchObject({
+      startMin: 23 * 60,
+      endMin: 1440,
+    })
+    expect(buildDayTimedBlocks(events, '2026-07-15')).toHaveLength(0)
+  })
+
+  it('无 startTime 视为全天事件', () => {
+    const events = buildCalendarEvents(
+      [
+        {
+          ...baseItem,
+          eventDates: [{ date: '2026-07-14', kind: 'hold' }],
+        },
+      ],
+      ['togenashi'],
+      ['live'],
+      4,
+      7,
+    )
+    expect(isAllDayEvent(events[0]!)).toBe(true)
+    expect(resolveEventWallRange(events[0]!)).toBeNull()
+  })
+
+  it('凌晨折叠：CSS 变量与跨越 8:00 边界的色块补偿一致', () => {
+    expect(EARLY_HOURS).toBe(8)
+    expect(earlyHoursFrameVars(false)).toEqual({
+      earlyHours: '8',
+      earlyOffset: '8',
+      visibleHours: '16',
+    })
+    expect(earlyHoursFrameVars(true)).toEqual({
+      earlyHours: '8',
+      earlyOffset: '0',
+      visibleHours: '24',
+    })
+
+    const events = buildCalendarEvents(
+      [
+        {
+          ...baseItem,
+          title: 'Before',
+          eventDates: [{ date: '2026-07-14', kind: 'hold', startTime: '06:00', endTime: '07:00' }],
+        },
+        {
+          ...baseItem,
+          title: 'Span',
+          eventDates: [{ date: '2026-07-14', kind: 'hold', startTime: '07:30', endTime: '09:00' }],
+        },
+        {
+          ...baseItem,
+          title: 'After',
+          eventDates: [{ date: '2026-07-14', kind: 'hold', startTime: '10:00', endTime: '11:00' }],
+        },
+      ],
+      ['togenashi'],
+      ['live'],
+      4,
+      7,
+    )
+    const blocks = layoutTimedLanes(buildDayTimedBlocks(events, '2026-07-14'))
+    const before = blocks.find((b) => b.event.item.title === 'Before')!
+    const span = blocks.find((b) => b.event.item.title === 'Span')!
+    const after = blocks.find((b) => b.event.item.title === 'After')!
+
+    expect(timedBlockStyleWithEarlyToggle(before, 1).top).toContain('+ 0px')
+    expect(timedBlockStyleWithEarlyToggle(before, 1).height).toContain('+ 0px')
+    expect(timedBlockStyleWithEarlyToggle(span, 1).height).toContain('var(--toggle-row-height)')
+    expect(timedBlockStyleWithEarlyToggle(after, 1).top).toContain('var(--toggle-row-height)')
   })
 })

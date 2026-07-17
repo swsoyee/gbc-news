@@ -50,6 +50,8 @@ export interface TimedBlock {
 /** 渲染时最短色块高度（分钟） */
 export const MIN_TIMED_BLOCK_MINUTES = 30
 export const DAY_MINUTES = 1440
+/** 周/日视图默认折叠的凌晨小时数（0:00–7:59） */
+export const EARLY_HOURS = 8
 
 export interface DayCell {
   date: string
@@ -443,6 +445,48 @@ export function timedBlockStyle(
     height: `${height}%`,
     left: `calc(${left}% + 1px)`,
     width: `calc(${width}% - 2px)`,
+  }
+}
+
+/** 周/日时间轴折叠态的 CSS 变量（与 --early-hours / --toggle-row-height 对齐）。 */
+export function earlyHoursFrameVars(
+  expanded: boolean,
+  earlyHours: number = EARLY_HOURS,
+): { earlyHours: string; earlyOffset: string; visibleHours: string } {
+  return {
+    earlyHours: String(earlyHours),
+    earlyOffset: String(expanded ? 0 : earlyHours),
+    visibleHours: String(expanded ? 24 : 24 - earlyHours),
+  }
+}
+
+/**
+ * 带凌晨折叠 toggle 行的色块定位。
+ * top/height 按小时行高度计算；跨越 earlyHours 边界时补偿 --toggle-row-height。
+ */
+export function timedBlockStyleWithEarlyToggle(
+  block: TimedBlock,
+  laneCount: number,
+  earlyHours: number = EARLY_HOURS,
+): {
+  top: string
+  height: string
+  left: string
+  width: string
+} {
+  const { left, width } = timedBlockStyle(block, laneCount)
+  const span = Math.max(block.endMin - block.startMin, MIN_TIMED_BLOCK_MINUTES)
+  const boundaryMin = earlyHours * 60
+  const topExtra = block.startMin >= boundaryMin ? 'var(--toggle-row-height)' : '0px'
+  const heightExtra =
+    block.startMin < boundaryMin && block.startMin + span > boundaryMin
+      ? 'var(--toggle-row-height)'
+      : '0px'
+  return {
+    top: `calc(${block.startMin} / ${DAY_MINUTES} * 24 * var(--hour-row-height) + ${topExtra})`,
+    height: `calc(${span} / ${DAY_MINUTES} * 24 * var(--hour-row-height) + ${heightExtra})`,
+    left,
+    width,
   }
 }
 

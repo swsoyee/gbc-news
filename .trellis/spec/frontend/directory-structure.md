@@ -10,7 +10,7 @@ public/
   feeds/                # 静态 RSS / iCal（build-feeds 生成）
   data/news.json        # 合并快照（日历与统计读取）
 src/web/
-  subscribe-core.ts     # URL 构建、日历格子/跨日 segment 等可测逻辑
+  subscribe-core.ts     # URL 构建、日历格子/跨日 segment、时段色块与凌晨折叠等可测逻辑
 scripts/
   bundle-web.mjs        # esbuild → public/subscribe-core.js
 ```

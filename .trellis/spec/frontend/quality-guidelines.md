@@ -5,7 +5,7 @@
 - 订阅链接可复制、可在常见阅读器/日历中验证
 - 页面文案使用简体中文（专有名词可保留日文/英文）
 - 基础无障碍：合理标题层级、对比度可读、链接有明确文本
-- 筛选 URL、日历视图/跨日 segment 等关键逻辑有单元测试（`tests/subscribe-core.test.ts`）
+- 筛选 URL、日历视图/跨日 segment/时段色块与凌晨折叠补偿等关键逻辑有单元测试（`tests/subscribe-core.test.ts`）
 - 改动 `src/web/` 后运行 `npm run build:web`，提交更新后的 `public/subscribe-core.js`
 
 ## 禁止

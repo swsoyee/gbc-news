@@ -6,6 +6,7 @@ function defaultDurationMinutes(kind) {
 // src/web/subscribe-core.ts
 var MIN_TIMED_BLOCK_MINUTES = 30;
 var DAY_MINUTES = 1440;
+var EARLY_HOURS = 8;
 var WEEKDAY_LABELS = ["\u65E5", "\u4E00", "\u4E8C", "\u4E09", "\u56DB", "\u4E94", "\u516D"];
 function toIsoDate(date) {
   const year = date.getFullYear();
@@ -281,6 +282,26 @@ function timedBlockStyle(block, laneCount) {
     width: `calc(${width}% - 2px)`
   };
 }
+function earlyHoursFrameVars(expanded, earlyHours = EARLY_HOURS) {
+  return {
+    earlyHours: String(earlyHours),
+    earlyOffset: String(expanded ? 0 : earlyHours),
+    visibleHours: String(expanded ? 24 : 24 - earlyHours)
+  };
+}
+function timedBlockStyleWithEarlyToggle(block, laneCount, earlyHours = EARLY_HOURS) {
+  const { left, width } = timedBlockStyle(block, laneCount);
+  const span = Math.max(block.endMin - block.startMin, MIN_TIMED_BLOCK_MINUTES);
+  const boundaryMin = earlyHours * 60;
+  const topExtra = block.startMin >= boundaryMin ? "var(--toggle-row-height)" : "0px";
+  const heightExtra = block.startMin < boundaryMin && block.startMin + span > boundaryMin ? "var(--toggle-row-height)" : "0px";
+  return {
+    top: `calc(${block.startMin} / ${DAY_MINUTES} * 24 * var(--hour-row-height) + ${topExtra})`,
+    height: `calc(${span} / ${DAY_MINUTES} * 24 * var(--hour-row-height) + ${heightExtra})`,
+    left,
+    width
+  };
+}
 function buildWeekSegments(events, cells) {
   const weekStart = cells[0].date;
   const weekEnd = cells[cells.length - 1].date;
@@ -317,6 +338,7 @@ function chipLabel(segment) {
 }
 export {
   DAY_MINUTES,
+  EARLY_HOURS,
   MIN_TIMED_BLOCK_MINUTES,
   WEEKDAY_LABELS,
   buildCalendarEvents,
@@ -327,6 +349,7 @@ export {
   buildWeekCells,
   buildWeekSegments,
   chipLabel,
+  earlyHoursFrameVars,
   eventKindLabel,
   filterNewsItems,
   formatDayLabel,
@@ -344,6 +367,7 @@ export {
   startOfMonth,
   startOfWeek,
   timedBlockStyle,
+  timedBlockStyleWithEarlyToggle,
   toIsoDate,
   toWebcal,
   withFeedRev

@@ -553,13 +553,6 @@
         opacity: 0;
         visibility: hidden;
       }
-      .calendar-day-agenda {
-        position: relative;
-        z-index: 1;
-        display: grid;
-        gap: 0.45rem;
-        padding: 0.85rem;
-      }
       .calendar-time-grid {
         position: relative;
         z-index: 1;
@@ -799,34 +792,6 @@
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 3;
-      }
-      a.calendar-agenda-item {
-        display: grid;
-        gap: 0.2rem;
-        padding: 0.7rem 0.8rem;
-        border-left: 3px solid var(--accent);
-        background: rgba(232, 93, 76, 0.12);
-        color: var(--ink);
-        text-decoration: none;
-        transition: background 140ms ease-out;
-      }
-      a.calendar-agenda-item.is-sale {
-        border-left-color: #5a8cb4;
-        background: rgba(90, 140, 180, 0.16);
-      }
-      a.calendar-agenda-item:hover {
-        background: rgba(232, 93, 76, 0.22);
-      }
-      a.calendar-agenda-item.is-sale:hover {
-        background: rgba(90, 140, 180, 0.28);
-      }
-      .calendar-agenda-meta {
-        color: var(--muted);
-        font-size: 0.78rem;
-      }
-      .calendar-agenda-title {
-        font-size: 0.95rem;
-        line-height: 1.45;
       }
       @media (prefers-reduced-motion: reduce) {
         .calendar-week,

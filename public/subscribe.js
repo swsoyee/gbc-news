@@ -6,6 +6,8 @@ import {
   buildWeekCells as buildWeekCellsCore,
   buildWeekSegments,
   chipLabel,
+  EARLY_HOURS,
+  earlyHoursFrameVars,
   eventKindLabel,
   formatDayLabel,
   formatMonthLabel,
@@ -14,15 +16,12 @@ import {
   isAllDayEvent,
   labelList,
   layoutTimedLanes,
-  MIN_TIMED_BLOCK_MINUTES,
-  DAY_MINUTES,
   resolveEventWallRange,
   shiftDay,
   shiftMonth,
   startOfDay,
   startOfMonth,
-  startOfWeek,
-  timedBlockStyle,
+  timedBlockStyleWithEarlyToggle,
   toIsoDate,
   toWebcal,
   withFeedRev,
@@ -69,9 +68,6 @@ const calendarTodayBtn = document.getElementById('calendar-today')
 const calendarViewBtns = document.querySelectorAll('[data-calendar-view]')
 
 const CHIPS_PER_DAY = 3
-const CHIPS_PER_WEEK = Number.POSITIVE_INFINITY
-/** 周/日视图默认折叠的凌晨小时数（0:00–7:59） */
-const EARLY_HOURS = 8
 
 /** @type {'month' | 'week' | 'day'} */
 let calendarView = 'month'
@@ -328,23 +324,6 @@ function renderWeekRow(events, weekCells, today, chipLimit) {
   }
 }
 
-function timedBlockStyleWithEarlyToggle(block, laneCount) {
-  const { left, width } = timedBlockStyle(block, laneCount)
-  const span = Math.max(block.endMin - block.startMin, MIN_TIMED_BLOCK_MINUTES)
-  const boundaryMin = EARLY_HOURS * 60
-  const topExtra = block.startMin >= boundaryMin ? 'var(--toggle-row-height)' : '0px'
-  const heightExtra =
-    block.startMin < boundaryMin && block.startMin + span > boundaryMin
-      ? 'var(--toggle-row-height)'
-      : '0px'
-  return {
-    top: `calc(${block.startMin} / ${DAY_MINUTES} * 24 * var(--hour-row-height) + ${topExtra})`,
-    height: `calc(${span} / ${DAY_MINUTES} * 24 * var(--hour-row-height) + ${heightExtra})`,
-    left,
-    width,
-  }
-}
-
 function appendTimedBlocks(layerEl, events, isoDate) {
   const blocks = layoutTimedLanes(buildDayTimedBlocks(events, isoDate))
   const laneCount = blocks.reduce((max, block) => Math.max(max, block.lane + 1), 0)
@@ -420,6 +399,13 @@ function buildEarlyHoursToggle() {
   return button
 }
 
+function applyEarlyHoursFrameVars(frame, expanded) {
+  const vars = earlyHoursFrameVars(expanded, EARLY_HOURS)
+  frame.style.setProperty('--early-hours', vars.earlyHours)
+  frame.style.setProperty('--early-offset', vars.earlyOffset)
+  frame.style.setProperty('--visible-hours', vars.visibleHours)
+}
+
 function setEarlyHoursExpanded(expanded) {
   earlyHoursExpanded = expanded
   const frame = calendarGridEl?.querySelector('.calendar-time-frame')
@@ -427,9 +413,7 @@ function setEarlyHoursExpanded(expanded) {
     refreshCalendarOnly()
     return
   }
-  frame.classList.toggle('is-early-collapsed', !expanded)
-  frame.style.setProperty('--early-offset', String(expanded ? 0 : EARLY_HOURS))
-  frame.style.setProperty('--visible-hours', String(expanded ? 24 : 24 - EARLY_HOURS))
+  applyEarlyHoursFrameVars(frame, expanded)
   const button = frame.querySelector('.calendar-early-toggle')
   if (button instanceof HTMLButtonElement) {
     button.textContent = expanded ? '−' : '+'
@@ -501,10 +485,7 @@ function renderTimeGridFrame(events, cells, today) {
   header.style.setProperty('--allday-lanes', String(Math.max(laneCount, 1)))
   frame.appendChild(header)
 
-  if (!earlyHoursExpanded) frame.classList.add('is-early-collapsed')
-  frame.style.setProperty('--early-hours', String(EARLY_HOURS))
-  frame.style.setProperty('--early-offset', String(earlyHoursExpanded ? 0 : EARLY_HOURS))
-  frame.style.setProperty('--visible-hours', String(earlyHoursExpanded ? 24 : 24 - EARLY_HOURS))
+  applyEarlyHoursFrameVars(frame, earlyHoursExpanded)
 
   const viewport = document.createElement('div')
   viewport.className = 'calendar-timed-viewport'
