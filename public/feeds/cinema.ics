@@ -2545,43 +2545,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-455-2026-03-11-sale@gbc-news
-DTSTAMP:20260311T000000Z
-DTSTART;VALUE=DATE:20260311
-DTEND;VALUE=DATE:20260312
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 『5th ONE-MAN LIVE “鳴動の
- 刻”』[Blu-ray][DVD] 2026年3月11日(水)発売決定！
-DESCRIPTION:2025年2月7日(金)にパシフィコ横浜 国立大ホール
- にて開催された、トゲナシトゲアリ 5th ONE-MAN LIVE "鳴動
- の刻" が映像商品化されることが決定！\n2026年3月11日(
- 水) Release →2026年3月25日(水) Release ▼発売日延期につき
- まして\n\nhttps://girls-band-cry.com/news/post-455.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-455.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-460-2026-03-11-sale@gbc-news
-DTSTAMP:20260311T000000Z
-DTSTART;VALUE=DATE:20260311
-DTEND;VALUE=DATE:20260312
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 「5th ONE-MAN LIVE “鳴動の
- 刻”」映像商品 発売延期のお知らせ
-DESCRIPTION:平素より格別のご愛顧を賜り、誠にありがとう
- ございます。\n2026年3月11日（水）発売を予定しており
- ました トゲナシトゲアリ 「5th ONE-MAN LIVE “鳴動の刻”
- 」映像商品につきまして、制作上の都合により、発売
- 日を延期させていただくこととなりました。\n本商品を
- 楽しみにお待ちいただいております皆様には、多大な
- るご迷惑をおかけいたしますこと、心よりお\n\n
- https://girls-band-cry.com/news/post-460.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-460.html
-CATEGORIES:togenashi,live,cinema
-END:VEVENT
-BEGIN:VEVENT
 UID:post-388-2026-03-13-hold@gbc-news
 DTSTAMP:20260313T000000Z
 DTSTART;VALUE=DATE:20260313
@@ -2616,24 +2579,52 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-388.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-455-2026-03-25-sale@gbc-news
+DTSTAMP:20260325T000000Z
+DTSTART;VALUE=DATE:20260325
+DTEND;VALUE=DATE:20260326
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺『5th ONE-MAN LIVE “鳴動の刻”』[Blu-
+ ray][DVD] 发售决定！
+DESCRIPTION:2025年2月7日在太平洋横滨国立大厅举办的无刺有
+ 刺 5th ONE-MAN LIVE “鳴動の刻” 确定映像商品化。\n正文
+ 已更新发售日为2026年3月25日（由原定3月11日延期）。\n\n
+ https://girls-band-cry.com/news/post-455.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-455.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-460-2026-03-25-sale@gbc-news
 DTSTAMP:20260325T000000Z
 DTSTART;VALUE=DATE:20260325
 DTEND;VALUE=DATE:20260326
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 「5th ONE-MAN LIVE “鳴動の
- 刻”」映像商品 発売延期のお知らせ
-DESCRIPTION:平素より格別のご愛顧を賜り、誠にありがとう
- ございます。\n2026年3月11日（水）発売を予定しており
- ました トゲナシトゲアリ 「5th ONE-MAN LIVE “鳴動の刻”
- 」映像商品につきまして、制作上の都合により、発売
- 日を延期させていただくこととなりました。\n本商品を
- 楽しみにお待ちいただいております皆様には、多大な
- るご迷惑をおかけいたしますこと、心よりお\n\n
- https://girls-band-cry.com/news/post-460.html
+SUMMARY:[发售] 无刺有刺「5th ONE-MAN LIVE “鳴動の刻”」映
+ 像商品发售延期通知
+DESCRIPTION:原定2026年3月11日发售的无刺有刺「5th ONE-MAN LIVE 
+ “鳴動の刻”」Blu-ray/DVD，因制作原因延期至2026年3月25
+ 日发售。\n\nhttps://girls-band-cry.com/news/post-460.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-460.html
 CATEGORIES:togenashi,live,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-466-2026-03-25_2026-04-06-sale@gbc-news
+DTSTAMP:20260325T000000Z
+DTSTART;VALUE=DATE:20260325
+DTEND;VALUE=DATE:20260407
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺 TOUR 2026 FINAL “拍動の未来 -ENCORE-
+ ” 决定举办！
+DESCRIPTION:无刺有刺 TOUR 2026 FINAL “拍動の未来 -ENCORE-” 将
+ 于2026年5月1日在东京花园剧场举办，开演19:00。\n最快先
+ 行抽选受理为2026年3月25日–4月6日，申请券封入3月25日
+ 发售的 Live Blu-ray & DVD「5th ONE-MAN LIVE “鳴動の刻”」。\n
+ \nhttps://girls-band-cry.com/news/post-466.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-466.html
+CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-457-2026-04-06-hold-1200@gbc-news
@@ -2788,14 +2779,13 @@ DTSTART:20260501T100000Z
 DTEND:20260501T120000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ TOUR 2026 FINAL “拍動の未
- 来 -ENCORE-” 開催決定！
-DESCRIPTION:トゲナシトゲアリ TOUR 2026 FINAL “拍動の未来 -EN
- CORE-”の開催が決定しました！\n■開催日時・会場 2026
- 年5月1日（金） OPEN 18:00 / START 19:00 東京ガーデンシアタ
- ー ■チケット金額 グッズ付き指定席 15\,400円（税込） 
- 指定席 11\,000円（税込） ※グッズは「トゲナシトゲア
- リ TOUR 2026\n\nhttps://girls-band-cry.com/news/post-466.html
+SUMMARY:[举办] 无刺有刺 TOUR 2026 FINAL “拍動の未来 -ENCORE-
+ ” 决定举办！
+DESCRIPTION:无刺有刺 TOUR 2026 FINAL “拍動の未来 -ENCORE-” 将
+ 于2026年5月1日在东京花园剧场举办，开演19:00。\n最快先
+ 行抽选受理为2026年3月25日–4月6日，申请券封入3月25日
+ 发售的 Live Blu-ray & DVD「5th ONE-MAN LIVE “鳴動の刻”」。\n
+ \nhttps://girls-band-cry.com/news/post-466.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-466.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT

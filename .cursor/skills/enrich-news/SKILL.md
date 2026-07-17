@@ -27,6 +27,7 @@ description: 批量核对、汉化并补录 gbc-news 抓取资讯的活动日期
    - `summaryZh` 只写面向用户的事实摘要；**不要**写「无具体日不补录」等内部说明（那些放 `reviewNotes`）。
    - 有明确日期证据时订正或补录 `eventDates`；证据不足时不得猜测日期。
    - **跨日时长 > 24 小时**：只保留 `date` / `endDate`（及 `kind`），**去掉** `startTime` / `endTime`。例如先行抽选 `3/22 21:00–4/1 23:59` → `{ date: "2026-03-22", endDate: "2026-04-01", kind: "sale" }`。单日或跨日但总时长 ≤ 24 小时的仍可保留时刻。
+   - **线上 talk / 配信「19时开始（20时结束预定）」**：合并为一条 `{ startTime: "19:00", endTime: "20:00" }`，禁止拆成 19:00 与 20:00 两条导致日历重复。
    - 明确无需发布增强的条目可标记 `skip`。
 3. 编辑 `data/enrichments/<sourceId>.json` 的 `items[id]`：
    - `contentFingerprint` 必须原样使用 pending 输出值。

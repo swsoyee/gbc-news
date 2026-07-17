@@ -8856,16 +8856,12 @@ DTSTART:20260218T110000Z
 DTEND:20260218T120000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ”愛知公演 機材席解放につき2階指定席の追加販売が決
- 定！
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来” 2
- 026年2月23日(月・祝)愛知公演 機材席開放につき2階指定
- 席の追加販売が決定しました！\n若干枚数の販売の為、
- 予定枚数に達し次第、販売終了となりますのでご了承
- ください。\n■販売開始日時：2026年2月18日(水)20:00〜 ※
- 先着順のため、予定枚数に達し次第終了になります。\n
- ■受付URL：\n\nhttps://girls-band-cry.com/news/post-454.html
+SUMMARY:[发售] 无刺有刺 Zepp Tour 2026 “拍動の未来” 爱知
+ 公演追加发售二楼指定席！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来” 2026年2月23
+ 日爱知公演因機材席开放，追加发售二楼指定席。\n销售
+ 自2026年2月18日20:00起先着，售完即止。\n\n
+ https://girls-band-cry.com/news/post-454.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-454.html
 CATEGORIES:togenashi,live
 END:VEVENT
@@ -8906,6 +8902,22 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-446.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
+UID:post-454-2026-02-23-hold@gbc-news
+DTSTAMP:20260223T000000Z
+DTSTART;VALUE=DATE:20260223
+DTEND;VALUE=DATE:20260224
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 爱知
+ 公演追加发售二楼指定席！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来” 2026年2月23
+ 日爱知公演因機材席开放，追加发售二楼指定席。\n销售
+ 自2026年2月18日20:00起先着，售完即止。\n\n
+ https://girls-band-cry.com/news/post-454.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-454.html
+CATEGORIES:togenashi,live
+END:VEVENT
+BEGIN:VEVENT
 UID:collabo-girls-band-cry-japanese-clothing-denim-treevillage2026-2026-02-
  27_2026-03-16-hold@gbc-news
 DTSTAMP:20260227T000000Z
@@ -8936,15 +8948,12 @@ DTSTART;VALUE=DATE:20260227
 DTEND;VALUE=DATE:20260330
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライ × サンリオ ストア i
- n 全国8店舗 2月28日より開催!
-DESCRIPTION:東映アニメーションが贈るオリジナルアニメ「
- ガールズバンドクライ」×「サンリオキャラクターズ」
- のポップアップストアが、イトーヨーカドー全国8店舗
- にて2026年2月27日〜3月29日まで開催される。\nガルクラ
- のキャラクターとサンリオキャラクターズのコラボレ
- ーションイラストを使用した新作グッズが多数ライン
- ナップ!\n\n
+SUMMARY:[举办] Girls Band Cry（GBC）× 三丽鸥弹出商店 in 全国8
+ 店 2月28日起举办！
+DESCRIPTION:《Girls Band Cry（GBC）》× 三丽鸥角色弹出商店于
+ 伊藤洋华堂全国8店举办，会期2026年2月27日–3月29日；售
+ 卖联动插图新周边，满2200日元（含税）随机赠送明信片
+ 。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-sanrio-yokado-2026/
 URL;VALUE=URI:
  https://collabo-cafe.com/events/collabo/girls-band-cry-sanrio-yokado-2026/
@@ -9035,15 +9044,11 @@ DTSTART:20260307T090000Z
 DTEND:20260307T100000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ” 3月14日（土）Zepp DiverCity（TOKYO） 東京公演 ツアーフ
- ァイナ…
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来” 2
- 026年3月14日(土)Zepp DiverCity（TOKYO） 東京公演 ツアーファ
- イナル 機材席開放につき１階スタンディングの追加販
- 売が決定しました！\n予定枚数に達し次第、販売終了と
- なりますのでご了承ください。\n■販売開始日時：2026
- 年3月7日(土)18:00〜 ※先着順のため、予定枚\n\n
+SUMMARY:[发售] 无刺有刺 Zepp Tour 2026 “拍動の未来” 3月14
+ 日 Zepp DiverCity（TOKYO）东京公演追加发售一楼站席！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来” 东京公演
+ （2026年3月14日 Zepp DiverCity）因機材席开放，追加发售一
+ 楼站席。\n销售自2026年3月7日18:00起先着，售完即止。\n\n
  https://girls-band-cry.com/news/post-462.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-462.html
 CATEGORIES:togenashi,live
@@ -9083,43 +9088,6 @@ DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来”
  https://girls-band-cry.com/news/post-446.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-446.html
 CATEGORIES:togenashi,live
-END:VEVENT
-BEGIN:VEVENT
-UID:post-455-2026-03-11-sale@gbc-news
-DTSTAMP:20260311T000000Z
-DTSTART;VALUE=DATE:20260311
-DTEND;VALUE=DATE:20260312
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 『5th ONE-MAN LIVE “鳴動の
- 刻”』[Blu-ray][DVD] 2026年3月11日(水)発売決定！
-DESCRIPTION:2025年2月7日(金)にパシフィコ横浜 国立大ホール
- にて開催された、トゲナシトゲアリ 5th ONE-MAN LIVE "鳴動
- の刻" が映像商品化されることが決定！\n2026年3月11日(
- 水) Release →2026年3月25日(水) Release ▼発売日延期につき
- まして\n\nhttps://girls-band-cry.com/news/post-455.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-455.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-460-2026-03-11-sale@gbc-news
-DTSTAMP:20260311T000000Z
-DTSTART;VALUE=DATE:20260311
-DTEND;VALUE=DATE:20260312
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 「5th ONE-MAN LIVE “鳴動の
- 刻”」映像商品 発売延期のお知らせ
-DESCRIPTION:平素より格別のご愛顧を賜り、誠にありがとう
- ございます。\n2026年3月11日（水）発売を予定しており
- ました トゲナシトゲアリ 「5th ONE-MAN LIVE “鳴動の刻”
- 」映像商品につきまして、制作上の都合により、発売
- 日を延期させていただくこととなりました。\n本商品を
- 楽しみにお待ちいただいております皆様には、多大な
- るご迷惑をおかけいたしますこと、心よりお\n\n
- https://girls-band-cry.com/news/post-460.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-460.html
-CATEGORIES:togenashi,live,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-388-2026-03-13-hold@gbc-news
@@ -9162,15 +9130,11 @@ DTSTART;VALUE=DATE:20260314
 DTEND;VALUE=DATE:20260315
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ Zepp Tour 2026 “拍動の未来
- ” 3月14日（土）Zepp DiverCity（TOKYO） 東京公演 ツアーフ
- ァイナ…
-DESCRIPTION:トゲナシトゲアリ Zepp Tour 2026 “拍動の未来” 2
- 026年3月14日(土)Zepp DiverCity（TOKYO） 東京公演 ツアーファ
- イナル 機材席開放につき１階スタンディングの追加販
- 売が決定しました！\n予定枚数に達し次第、販売終了と
- なりますのでご了承ください。\n■販売開始日時：2026
- 年3月7日(土)18:00〜 ※先着順のため、予定枚\n\n
+SUMMARY:[举办] 无刺有刺 Zepp Tour 2026 “拍動の未来” 3月14
+ 日 Zepp DiverCity（TOKYO）东京公演追加发售一楼站席！
+DESCRIPTION:无刺有刺 Zepp Tour 2026 “拍動の未来” 东京公演
+ （2026年3月14日 Zepp DiverCity）因機材席开放，追加发售一
+ 楼站席。\n销售自2026年3月7日18:00起先着，售完即止。\n\n
  https://girls-band-cry.com/news/post-462.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-462.html
 CATEGORIES:togenashi,live
@@ -9204,14 +9168,11 @@ DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 『ガールズバンドクライ』ヴィレッジヴァ
- ンガード限定グッズが発売決定！！
-DESCRIPTION:3月19日(木)よりヴィレッジヴァンガード対象店
- 舗にて、 東映アニメーション新規描き下ろし「ホワイ
- トフォーカス」シリーズの キラめく装飾が散りばめら
- れたトゲナシトゲアリのグッズが登場！\nこの機会にぜ
- ひお立ち寄りください！\nヴィレッジヴァンガードオン
- ラインストアにて 先行受注販売中\n\n
+SUMMARY:[发售] 《Girls Band Cry（GBC）》Village Vanguard 限定周边
+ 决定发售！！
+DESCRIPTION:自2026年3月19日起，Village Vanguard 对象店铺发售东
+ 映动画新绘「White Focus」系列无刺有刺周边；Village Vanguar
+ d 线上商店亦在先行受理预约。\n\n
  https://girls-band-cry.com/news/post-461.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-461.html
 CATEGORIES:togenashi,goods
@@ -9239,59 +9200,65 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-455-2026-03-25-sale@gbc-news
+DTSTAMP:20260325T000000Z
+DTSTART;VALUE=DATE:20260325
+DTEND;VALUE=DATE:20260326
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺『5th ONE-MAN LIVE “鳴動の刻”』[Blu-
+ ray][DVD] 发售决定！
+DESCRIPTION:2025年2月7日在太平洋横滨国立大厅举办的无刺有
+ 刺 5th ONE-MAN LIVE “鳴動の刻” 确定映像商品化。\n正文
+ 已更新发售日为2026年3月25日（由原定3月11日延期）。\n\n
+ https://girls-band-cry.com/news/post-455.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-455.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-460-2026-03-25-sale@gbc-news
 DTSTAMP:20260325T000000Z
 DTSTART;VALUE=DATE:20260325
 DTEND;VALUE=DATE:20260326
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 「5th ONE-MAN LIVE “鳴動の
- 刻”」映像商品 発売延期のお知らせ
-DESCRIPTION:平素より格別のご愛顧を賜り、誠にありがとう
- ございます。\n2026年3月11日（水）発売を予定しており
- ました トゲナシトゲアリ 「5th ONE-MAN LIVE “鳴動の刻”
- 」映像商品につきまして、制作上の都合により、発売
- 日を延期させていただくこととなりました。\n本商品を
- 楽しみにお待ちいただいております皆様には、多大な
- るご迷惑をおかけいたしますこと、心よりお\n\n
- https://girls-band-cry.com/news/post-460.html
+SUMMARY:[发售] 无刺有刺「5th ONE-MAN LIVE “鳴動の刻”」映
+ 像商品发售延期通知
+DESCRIPTION:原定2026年3月11日发售的无刺有刺「5th ONE-MAN LIVE 
+ “鳴動の刻”」Blu-ray/DVD，因制作原因延期至2026年3月25
+ 日发售。\n\nhttps://girls-band-cry.com/news/post-460.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-460.html
 CATEGORIES:togenashi,live,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-466-2026-03-25_2026-04-06-sale@gbc-news
+DTSTAMP:20260325T000000Z
+DTSTART;VALUE=DATE:20260325
+DTEND;VALUE=DATE:20260407
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺 TOUR 2026 FINAL “拍動の未来 -ENCORE-
+ ” 决定举办！
+DESCRIPTION:无刺有刺 TOUR 2026 FINAL “拍動の未来 -ENCORE-” 将
+ 于2026年5月1日在东京花园剧场举办，开演19:00。\n最快先
+ 行抽选受理为2026年3月25日–4月6日，申请券封入3月25日
+ 发售的 Live Blu-ray & DVD「5th ONE-MAN LIVE “鳴動の刻”」。\n
+ \nhttps://girls-band-cry.com/news/post-466.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-466.html
+CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-456-2026-03-27-hold-1900@gbc-news
 DTSTAMP:20260327T100000Z
 DTSTART:20260327T100000Z
-DTEND:20260327T120000Z
+DTEND:20260327T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ 『5th ONE-MAN LIVE "鳴動の刻
- "』発売記念オンライントーク配信開催決定！
-DESCRIPTION:トゲナシトゲアリ『5th ONE-MAN LIVE "鳴動の刻"』
- の発売を記念して、オンライントーク配信＆サイン会
- の開催が決定！\nリミスタにて対象商品 3月11 日発売ト
- ゲナシトゲアリ『5th ONE-MAN LIVE "鳴動の刻"』をご購入い
- ただいたお客様に『5th ONE-MAN LIVE "鳴動の刻"』のジャケ
- ット絵柄を使用したカードを商品と同梱でお届\n\n
- https://girls-band-cry.com/news/post-456.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-456.html
-CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-456-2026-03-27-hold-2000@gbc-news
-DTSTAMP:20260327T110000Z
-DTSTART:20260327T110000Z
-DTEND:20260327T130000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ 『5th ONE-MAN LIVE "鳴動の刻
- "』発売記念オンライントーク配信開催決定！
-DESCRIPTION:トゲナシトゲアリ『5th ONE-MAN LIVE "鳴動の刻"』
- の発売を記念して、オンライントーク配信＆サイン会
- の開催が決定！\nリミスタにて対象商品 3月11 日発売ト
- ゲナシトゲアリ『5th ONE-MAN LIVE "鳴動の刻"』をご購入い
- ただいたお客様に『5th ONE-MAN LIVE "鳴動の刻"』のジャケ
- ット絵柄を使用したカードを商品と同梱でお届\n\n
+SUMMARY:[举办] 无刺有刺『5th ONE-MAN LIVE “鳴動の刻”』发
+ 售纪念线上 talk 配信决定举办！
+DESCRIPTION:无刺有刺『5th ONE-MAN LIVE “鳴動の刻”』发售纪
+ 念线上 talk 配信＆签名会决定举办，时间为2026年3月27日1
+ 9:00–20:00（预定）。\n理名、夕莉、朱李预定出演。\n\n
  https://girls-band-cry.com/news/post-456.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-456.html
 CATEGORIES:togenashi,live,event
@@ -9313,22 +9280,18 @@ URL;VALUE=URI:https://gbc-firstriff.com/news/post-1.html
 CATEGORIES:togenashi,canna-lily,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-459-2026-03-28-hold@gbc-news
+UID:post-459-2026-03-28_2026-03-29-sale@gbc-news
 DTSTAMP:20260328T000000Z
 DTSTART;VALUE=DATE:20260328
-DTEND;VALUE=DATE:20260329
+DTEND;VALUE=DATE:20260330
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 二次元コスパより「描き下ろし フルカラー
- Tシャツ 爆ぜて咲くVer.」など新グッズが登場!!イベント
- での先行販売も決定
-DESCRIPTION:二次元コスパより、作画監督 酒井香澄描き下
- ろしイラストを使用した仁菜たちの「フルカラーTシャ
- ツ 爆ぜて咲くVer.」や、トゲナシトゲアリやダイヤモン
- ドダスト、「不登校」「脱退」「嘘つき」「ツンデレ
- 」「酒豪」などそれぞれの「65mm缶バッジ」をはじめ、
- 多数の新グッズが登場です。\nこれらは、3月28日(土) 29
- 日(日)東京ビッグサイトで開催の《AnimeJap\n\n
+SUMMARY:[发售] 二次元 COSPA 推出「新绘全彩 T 恤 爆ぜて咲
+ く Ver.」等新周边!! 活动先行发售也已决定
+DESCRIPTION:二次元 COSPA 推出酒井香澄新绘「全彩 T 恤 爆ぜ
+ て咲く Ver.」及徽章、报纸袋、环保袋等周边；将于2026
+ 年3月28日–3月29日东京 Big Sight《AnimeJapan 2026》COSPA 展位
+ 先行发售，一般销售预定2026年6月中旬。\n\n
  https://girls-band-cry.com/news/post-459.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-459.html
 CATEGORIES:togenashi,goods,event
@@ -9356,17 +9319,16 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-458-2026-04-04_2026-04-05-hold@gbc-news
+UID:post-458-2026-04-04-hold@gbc-news
 DTSTAMP:20260404T000000Z
 DTSTART;VALUE=DATE:20260404
-DTEND;VALUE=DATE:20260406
+DTEND;VALUE=DATE:20260405
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「CON-CON HONG KONG 2026」出演決定！
-DESCRIPTION:香港で開催されるイベント 「CON-CON HONG KONG 2026
- 」 Music Festival Day 1に #トゲナシトゲアリ 出演決定 2026年
- 4月4日-5日 AsiaWorld-Expo 詳細\n\n
- https://girls-band-cry.com/news/post-458.html
+SUMMARY:[举办] 「CON-CON HONG KONG 2026」出演决定！
+DESCRIPTION:无刺有刺确定出演香港「CON-CON HONG KONG 2026」Music
+  Festival Day 1。\n活动整体日程为2026年4月4日–4月5日，会
+ 场为 AsiaWorld-Expo。\n\nhttps://girls-band-cry.com/news/post-458.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-458.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
@@ -9661,14 +9623,13 @@ DTSTART:20260501T100000Z
 DTEND:20260501T120000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ TOUR 2026 FINAL “拍動の未
- 来 -ENCORE-” 開催決定！
-DESCRIPTION:トゲナシトゲアリ TOUR 2026 FINAL “拍動の未来 -EN
- CORE-”の開催が決定しました！\n■開催日時・会場 2026
- 年5月1日（金） OPEN 18:00 / START 19:00 東京ガーデンシアタ
- ー ■チケット金額 グッズ付き指定席 15\,400円（税込） 
- 指定席 11\,000円（税込） ※グッズは「トゲナシトゲア
- リ TOUR 2026\n\nhttps://girls-band-cry.com/news/post-466.html
+SUMMARY:[举办] 无刺有刺 TOUR 2026 FINAL “拍動の未来 -ENCORE-
+ ” 决定举办！
+DESCRIPTION:无刺有刺 TOUR 2026 FINAL “拍動の未来 -ENCORE-” 将
+ 于2026年5月1日在东京花园剧场举办，开演19:00。\n最快先
+ 行抽选受理为2026年3月25日–4月6日，申请券封入3月25日
+ 发售的 Live Blu-ray & DVD「5th ONE-MAN LIVE “鳴動の刻”」。\n
+ \nhttps://girls-band-cry.com/news/post-466.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-466.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT

@@ -2826,35 +2826,45 @@ DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 『ガールズバンドクライ』ヴィレッジヴァ
- ンガード限定グッズが発売決定！！
-DESCRIPTION:3月19日(木)よりヴィレッジヴァンガード対象店
- 舗にて、 東映アニメーション新規描き下ろし「ホワイ
- トフォーカス」シリーズの キラめく装飾が散りばめら
- れたトゲナシトゲアリのグッズが登場！\nこの機会にぜ
- ひお立ち寄りください！\nヴィレッジヴァンガードオン
- ラインストアにて 先行受注販売中\n\n
+SUMMARY:[发售] 《Girls Band Cry（GBC）》Village Vanguard 限定周边
+ 决定发售！！
+DESCRIPTION:自2026年3月19日起，Village Vanguard 对象店铺发售东
+ 映动画新绘「White Focus」系列无刺有刺周边；Village Vanguar
+ d 线上商店亦在先行受理预约。\n\n
  https://girls-band-cry.com/news/post-461.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-461.html
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-459-2026-03-28-hold@gbc-news
-DTSTAMP:20260328T000000Z
-DTSTART;VALUE=DATE:20260328
-DTEND;VALUE=DATE:20260329
+UID:post-466-2026-03-25_2026-04-06-sale@gbc-news
+DTSTAMP:20260325T000000Z
+DTSTART;VALUE=DATE:20260325
+DTEND;VALUE=DATE:20260407
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 二次元コスパより「描き下ろし フルカラー
- Tシャツ 爆ぜて咲くVer.」など新グッズが登場!!イベント
- での先行販売も決定
-DESCRIPTION:二次元コスパより、作画監督 酒井香澄描き下
- ろしイラストを使用した仁菜たちの「フルカラーTシャ
- ツ 爆ぜて咲くVer.」や、トゲナシトゲアリやダイヤモン
- ドダスト、「不登校」「脱退」「嘘つき」「ツンデレ
- 」「酒豪」などそれぞれの「65mm缶バッジ」をはじめ、
- 多数の新グッズが登場です。\nこれらは、3月28日(土) 29
- 日(日)東京ビッグサイトで開催の《AnimeJap\n\n
+SUMMARY:[发售] 无刺有刺 TOUR 2026 FINAL “拍動の未来 -ENCORE-
+ ” 决定举办！
+DESCRIPTION:无刺有刺 TOUR 2026 FINAL “拍動の未来 -ENCORE-” 将
+ 于2026年5月1日在东京花园剧场举办，开演19:00。\n最快先
+ 行抽选受理为2026年3月25日–4月6日，申请券封入3月25日
+ 发售的 Live Blu-ray & DVD「5th ONE-MAN LIVE “鳴動の刻”」。\n
+ \nhttps://girls-band-cry.com/news/post-466.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-466.html
+CATEGORIES:togenashi,live,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-459-2026-03-28_2026-03-29-sale@gbc-news
+DTSTAMP:20260328T000000Z
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260330
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 二次元 COSPA 推出「新绘全彩 T 恤 爆ぜて咲
+ く Ver.」等新周边!! 活动先行发售也已决定
+DESCRIPTION:二次元 COSPA 推出酒井香澄新绘「全彩 T 恤 爆ぜ
+ て咲く Ver.」及徽章、报纸袋、环保袋等周边；将于2026
+ 年3月28日–3月29日东京 Big Sight《AnimeJapan 2026》COSPA 展位
+ 先行发售，一般销售预定2026年6月中旬。\n\n
  https://girls-band-cry.com/news/post-459.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-459.html
 CATEGORIES:togenashi,goods,event
@@ -3008,14 +3018,13 @@ DTSTART:20260501T100000Z
 DTEND:20260501T120000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ TOUR 2026 FINAL “拍動の未
- 来 -ENCORE-” 開催決定！
-DESCRIPTION:トゲナシトゲアリ TOUR 2026 FINAL “拍動の未来 -EN
- CORE-”の開催が決定しました！\n■開催日時・会場 2026
- 年5月1日（金） OPEN 18:00 / START 19:00 東京ガーデンシアタ
- ー ■チケット金額 グッズ付き指定席 15\,400円（税込） 
- 指定席 11\,000円（税込） ※グッズは「トゲナシトゲア
- リ TOUR 2026\n\nhttps://girls-band-cry.com/news/post-466.html
+SUMMARY:[举办] 无刺有刺 TOUR 2026 FINAL “拍動の未来 -ENCORE-
+ ” 决定举办！
+DESCRIPTION:无刺有刺 TOUR 2026 FINAL “拍動の未来 -ENCORE-” 将
+ 于2026年5月1日在东京花园剧场举办，开演19:00。\n最快先
+ 行抽选受理为2026年3月25日–4月6日，申请券封入3月25日
+ 发售的 Live Blu-ray & DVD「5th ONE-MAN LIVE “鳴動の刻”」。\n
+ \nhttps://girls-band-cry.com/news/post-466.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-466.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT

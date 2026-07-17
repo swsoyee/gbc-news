@@ -1,6 +1,6 @@
 {
   "sourceId": "collabo-cafe",
-  "updatedAt": "2026-07-17T12:05:00.000Z",
+  "updatedAt": "2026-07-17T12:15:00.000Z",
   "items": {
     "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026": {
       "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
@@ -189,6 +189,23 @@
         }
       ],
       "reviewNotes": "四地会期与正文一致；保留四段期间。"
+    },
+    "collabo-girls-band-cry-sanrio-yokado-2026": {
+      "id": "collabo-girls-band-cry-sanrio-yokado-2026",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "10f70492b9445dc9554e3ec4b986af28c57b361b7d22a082de14b1d8b96d633f",
+      "reviewedAt": "2026-07-17T12:15:00.000Z",
+      "titleZh": "Girls Band Cry（GBC）× 三丽鸥弹出商店 in 全国8店 2月28日起举办！",
+      "summaryZh": "《Girls Band Cry（GBC）》× 三丽鸥角色弹出商店于伊藤洋华堂全国8店举办，会期2026年2月27日–3月29日；售卖联动插图新周边，满2200日元（含税）随机赠送明信片。",
+      "eventDates": [
+        {
+          "date": "2026-02-27",
+          "kind": "hold",
+          "endDate": "2026-03-29"
+        }
+      ],
+      "reviewNotes": "标题写 2/28，正文会期自 2/27；采用正文期间。"
     }
   }
 }

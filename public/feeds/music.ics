@@ -2169,19 +2169,18 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-449.html
 CATEGORIES:togenashi,music
 END:VEVENT
 BEGIN:VEVENT
-UID:post-455-2026-03-11-sale@gbc-news
-DTSTAMP:20260311T000000Z
-DTSTART;VALUE=DATE:20260311
-DTEND;VALUE=DATE:20260312
+UID:post-455-2026-03-25-sale@gbc-news
+DTSTAMP:20260325T000000Z
+DTSTART;VALUE=DATE:20260325
+DTEND;VALUE=DATE:20260326
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 『5th ONE-MAN LIVE “鳴動の
- 刻”』[Blu-ray][DVD] 2026年3月11日(水)発売決定！
-DESCRIPTION:2025年2月7日(金)にパシフィコ横浜 国立大ホール
- にて開催された、トゲナシトゲアリ 5th ONE-MAN LIVE "鳴動
- の刻" が映像商品化されることが決定！\n2026年3月11日(
- 水) Release →2026年3月25日(水) Release ▼発売日延期につき
- まして\n\nhttps://girls-band-cry.com/news/post-455.html
+SUMMARY:[发售] 无刺有刺『5th ONE-MAN LIVE “鳴動の刻”』[Blu-
+ ray][DVD] 发售决定！
+DESCRIPTION:2025年2月7日在太平洋横滨国立大厅举办的无刺有
+ 刺 5th ONE-MAN LIVE “鳴動の刻” 确定映像商品化。\n正文
+ 已更新发售日为2026年3月25日（由原定3月11日延期）。\n\n
+ https://girls-band-cry.com/news/post-455.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-455.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
