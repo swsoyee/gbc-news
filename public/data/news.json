@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-17T12:30:01.024Z",
+  "scrapedAt": "2026-07-17T12:30:45.572Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
@@ -6452,7 +6452,9 @@
         }
       ],
       "summary": "トゲナシトゲアリのワンマンライブが2025年に開催することが決定しました！ 12月25日(水)発売 『ガールズバンドクライ』Blu-ray＆DVD第7巻 に このライブの最速先行抽選申込券が封入！ 開催日時・会場等の詳細は後日発表します。 続報をお楽しみに！",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "2025 年无刺有刺个人演唱会举办决定！",
+      "summaryZh": "无刺有刺 2025 年个人演唱会决定举办；最速先行抽选申请券封入 12 月 25 日发售的《Girls Band Cry》Blu-ray＆DVD 第 7 卷，日期会场另行公布。"
     },
     {
       "id": "post-263",
@@ -6491,7 +6493,9 @@
         }
       ],
       "summary": "トゲナシトゲアリ初の海外ワンマンライブが上海で開催することが決定しました！ ■日時：2024年12月14日（土） ■時間：OPEN：17:30 START：18:30 ■会場：バンダイナムコ上海文化センター 夢想劇場（上海） ■チケット金額：VIPチケット 880元（優先入場&お見送り会） 一般チケット 480元",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "无刺有刺首次海外个人演唱会决定在上海举办！",
+      "summaryZh": "无刺有刺首次海外个人演唱会于 2024 年 12 月 14 日在万代南梦宫上海文化中心・梦想剧场举办，开演 18:30。"
     },
     {
       "id": "post-261",
@@ -6532,12 +6536,13 @@
       "eventDates": [
         {
           "date": "2024-11-15",
-          "kind": "sale",
-          "startTime": "23:59"
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが贈るオリジナルTVアニメ「ガールズバンドクライ (ガルクラ)」より、新作グッズが2025年2月に発売される。井芹仁菜・河原木桃香・安和すばる・海老塚智・ルパの『トゲナシトゲアリ (トゲトゲ)』と、ヒナ・ナナ・リン・アイの「ダイヤモンドダスト (ダイタス)」、2つのガールズバンドが大集合！",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/c478b1a6dedb96603a486610161ab963-28.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/c478b1a6dedb96603a486610161ab963-28.jpg",
+      "titleZh": "Girls Band Cry 仁菜与ヒナ等 9 人新作周边 2025 年 2 月发售！",
+      "summaryZh": "无刺有刺与 Diamond Dust 共 9 人主题新周边由 Sync Innovation 预定 2025 年 2 月发售；Anime Store.JP 预约至 2024 年 11 月 15 日。"
     },
     {
       "id": "post-260",
@@ -6554,12 +6559,14 @@
       "eventDates": [
         {
           "date": "2024-11-01",
-          "kind": "hold",
+          "kind": "sale",
           "startTime": "18:00"
         }
       ],
       "summary": "3rd ONE-MAN LIVE “咆哮の奏” 配信チケットの販売が本日11月1日(金)18:00より開始しました！ 国内向けの配信に加えて、カラオケ・ビューイングとグローバル配信を実施します。 さらに今回は、配信チケット購入者限定のスペシャルコメント映像付き！ 🔗販売・配信期間の詳細は こちら！",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "3rd ONE-MAN LIVE “咆哮の奏” 配信信息解禁＆票务开始发售！",
+      "summaryZh": "3rd 个人演唱会「咆哮の奏」配信票自 2024 年 11 月 1 日 18:00 起发售；国内配信外亦有卡拉 OK 观影与全球配信，购票附限定特别留言影像。"
     },
     {
       "id": "post-258",
@@ -6596,7 +6603,9 @@
         }
       ],
       "summary": "ご来場の皆様へお願い 皆様が、楽しく安全にライブをお楽しみいただけるよう、以下のルールのご理解・ご協力をお願いいたします。 11月2日 トゲナシトゲアリ 3rd ONE-MAN LIVE\"咆哮の奏\" 公演を 安全・快適にお楽しみいただくために来場される皆様に手荷物検査のご協力をお願いします。 入場前にスタッフがお荷物を拝見し、持ち込み禁止物がないかを確認",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "3rd ONE-MAN LIVE 致到场观众须知",
+      "summaryZh": "2024 年 11 月 2 日无刺有刺 3rd 个人演唱会「咆哮の奏」将实施行李检查与身份证件确认；禁止携带荧光棒、团扇及录音录像设备等。"
     },
     {
       "id": "post-256",
@@ -6644,16 +6653,19 @@
       ],
       "eventDates": [
         {
-          "date": "2024-10-30",
+          "date": "2024-11-02",
           "kind": "hold"
         },
         {
-          "date": "2024-11-02",
-          "kind": "hold"
+          "date": "2024-10-30",
+          "kind": "sale",
+          "startTime": "21:00"
         }
       ],
       "summary": "11/2(土)TOKYO DOME CITY HALLにて開催の トゲナシトゲアリ 3rd ONE-MAN LIVE\"咆哮の奏\" 、 機材席解放のため追加チケット販売が決定いたしました！ 10月30日(水)21:00より先着販売となります。 詳しくは こちら をご確認ください！",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "3rd ONE-MAN LIVE 因开放设备席决定追加售票！",
+      "summaryZh": "因开放设备席，11/2 于 TOKYO DOME CITY HALL 举办的 3rd 个人演唱会「咆哮の奏」追加门票自 10 月 30 日 21:00 起先到先得发售。"
     },
     {
       "id": "post-254",
@@ -6686,12 +6698,13 @@
       "eventDates": [
         {
           "date": "2024-11-01",
-          "kind": "hold",
-          "startTime": "23:59"
+          "kind": "hold"
         }
       ],
       "summary": "トゲナシトゲアリ3rd ONE-MAN LIVE「咆哮の奏 」開催を記念して 「ガールズバンドクライ」公式Xにてフォロー＆リポストキャンペーンを開催！ ご参加いただいた方の中から抽選で30名様に3rd ONE-MAN LIVEキービジュアルポスターをプレゼント🎁 【開催期間】 2024年11月1日(金) 23:59まで 【参加方法】 ①X（旧Twitter",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/10/3rd%E3%83%AF%E3%83%B3%E3%83%9E%E3%83%B3%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E5%91%8A%E7%9F%A5%E7%94%A8_HP%E3%83%90%E3%83%8A%E3%83%BC.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/10/3rd%E3%83%AF%E3%83%B3%E3%83%9E%E3%83%B3%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E5%91%8A%E7%9F%A5%E7%94%A8_HP%E3%83%90%E3%83%8A%E3%83%BC.png",
+      "titleZh": "无刺有刺 3rd ONE-MAN LIVE 纪念 X 活动开始！",
+      "summaryZh": "纪念 3rd 个人演唱会「咆哮の奏」，Girls Band Cry 官方 X 举办关注＆转发抽奖，截止 2024 年 11 月 1 日 23:59，抽选 30 名赠送主视觉海报。"
     },
     {
       "id": "post-252",
@@ -6717,7 +6730,9 @@
         }
       ],
       "summary": "東映アニメーションが製作するオリジナルアニメ『ガールズバンドクライ』待望の映像商品、TVアニメ『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/DVD＋CD］のVol.7の発売を記念して、リミスタでのオンライントーク配信の開催が決定！ リミスタにて対象商品をご購入いただいたお客様に、TVアニメ『ガールズバンドクライ』豪華限定版Vol.7のジャケッ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/01/%E9%85%8D%E4%BF%A1%E6%83%85%E5%A0%B1_tb.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/01/%E9%85%8D%E4%BF%A1%E6%83%85%E5%A0%B1_tb.png",
+      "titleZh": "TV 动画《Girls Band Cry》Vol.7〈豪华限定版〉发售纪念线上 talk 配信举办通知",
+      "summaryZh": "纪念 Vol.7 豪华限定版发售，12 月 22 日 15:00–16:00 于 Limista 举办线上 talk 配信；预约抽选获签名卡。"
     },
     {
       "id": "post-251",
@@ -6743,7 +6758,9 @@
         }
       ],
       "summary": "東映アニメーションが製作するオリジナルアニメ『ガールズバンドクライ』待望の映像商品、TVアニメ『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/DVD＋CD］のVol.6の発売を記念して、リミスタでのオンライントーク配信の開催が決定！ リミスタにて対象商品をご購入いただいたお客様に、TVアニメ『ガールズバンドクライ』豪華限定版Vol.6のジャケッ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/01/%E9%85%8D%E4%BF%A1%E6%83%85%E5%A0%B1_tb.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/01/%E9%85%8D%E4%BF%A1%E6%83%85%E5%A0%B1_tb.png",
+      "titleZh": "TV 动画《Girls Band Cry》Vol.6〈豪华限定版〉发售纪念线上 talk 配信举办通知",
+      "summaryZh": "纪念 Vol.6 豪华限定版发售，11 月 21 日 19:00–20:00 于 Limista 举办线上 talk 配信；预约抽选获签名卡。"
     },
     {
       "id": "post-250",
@@ -6781,7 +6798,9 @@
         }
       ],
       "summary": "『空白とカタルシス』のライブ衣装テーマグッズグッズが発売決定！ 仁菜の来ていた羽織＆Tシャツセットや『空白とカタルシス』ライブ衣装のマフラータオル、ぷっくりとした質感がかわいいアクリルキーホルダーなどをラインナップ！ 発売当日の入店制限等につきましては、アニバース公式X・公式HPをご確認ください。 【AniBirthショップ詳細】 ◇渋谷 〒150-8377",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "11/1（五）起 AniBirth 发售 Girls Band Cry 新商品！",
+      "summaryZh": "《空白とカタルシス》Live 服装主题周边（羽织＆T 恤套装、围巾毛巾、亚克力钥匙扣等）自 11/1 起在 AniBirth 涩谷・心斋桥店发售。"
     },
     {
       "id": "post-248",

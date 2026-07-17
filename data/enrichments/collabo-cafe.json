@@ -1,6 +1,6 @@
 {
   "sourceId": "collabo-cafe",
-  "updatedAt": "2026-07-17T15:20:00.000Z",
+  "updatedAt": "2026-07-17T15:30:00.000Z",
   "items": {
     "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026": {
       "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
@@ -611,6 +611,22 @@
         }
       ],
       "reviewNotes": "2 月中旬无具体日；去掉 23:59"
+    },
+    "collabo-girls-band-cry-band-members-illust-sync-innovation-anime-store-goods2024": {
+      "id": "collabo-girls-band-cry-band-members-illust-sync-innovation-anime-store-goods2024",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "e8b6760a86edfdc866619dc9fc32611cf4857291e441f1ccbb914b2673a2f973",
+      "reviewedAt": "2026-07-17T15:30:00.000Z",
+      "titleZh": "Girls Band Cry 仁菜与ヒナ等 9 人新作周边 2025 年 2 月发售！",
+      "summaryZh": "无刺有刺与 Diamond Dust 共 9 人主题新周边由 Sync Innovation 预定 2025 年 2 月发售；Anime Store.JP 预约至 2024 年 11 月 15 日。",
+      "eventDates": [
+        {
+          "date": "2024-11-15",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "2 月无具体日；去掉 23:59"
     }
   }
 }

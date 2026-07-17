@@ -1,6 +1,6 @@
 {
   "sourceId": "gbc-news",
-  "updatedAt": "2026-07-17T15:20:00.000Z",
+  "updatedAt": "2026-07-17T15:30:00.000Z",
   "items": {
     "post-483": {
       "id": "post-483",
@@ -3084,6 +3084,157 @@
         {
           "date": "2024-12-07",
           "kind": "hold"
+        }
+      ]
+    },
+    "post-262": {
+      "id": "post-262",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "28b32b9f021ecfe0a067ed68fe08f68ff739373c8fdeb0a4cd88bf709f2fefed",
+      "reviewedAt": "2026-07-17T15:30:00.000Z",
+      "titleZh": "无刺有刺首次海外个人演唱会决定在上海举办！",
+      "summaryZh": "无刺有刺首次海外个人演唱会于 2024 年 12 月 14 日在万代南梦宫上海文化中心・梦想剧场举办，开演 18:30。",
+      "eventDates": [
+        {
+          "date": "2024-12-14",
+          "kind": "hold",
+          "startTime": "18:30"
+        }
+      ]
+    },
+    "post-264": {
+      "id": "post-264",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "377239776d5ddcc61b804fbd6029b6a9a08a695cee8a8131991240c2630a5f2d",
+      "reviewedAt": "2026-07-17T15:30:00.000Z",
+      "titleZh": "2025 年无刺有刺个人演唱会举办决定！",
+      "summaryZh": "无刺有刺 2025 年个人演唱会决定举办；最速先行抽选申请券封入 12 月 25 日发售的《Girls Band Cry》Blu-ray＆DVD 第 7 卷，日期会场另行公布。",
+      "eventDates": [
+        {
+          "date": "2024-12-25",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "公演日未公布，仅保留 BD 发售日"
+    },
+    "post-260": {
+      "id": "post-260",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "6ba1f120b099c29b4343907b9ea6efe800a9c8de70a8909833042f28eb6d5d08",
+      "reviewedAt": "2026-07-17T15:30:00.000Z",
+      "titleZh": "3rd ONE-MAN LIVE “咆哮の奏” 配信信息解禁＆票务开始发售！",
+      "summaryZh": "3rd 个人演唱会「咆哮の奏」配信票自 2024 年 11 月 1 日 18:00 起发售；国内配信外亦有卡拉 OK 观影与全球配信，购票附限定特别留言影像。",
+      "eventDates": [
+        {
+          "date": "2024-11-01",
+          "kind": "sale",
+          "startTime": "18:00"
+        }
+      ],
+      "reviewNotes": "开售为 sale"
+    },
+    "post-259": {
+      "id": "post-259",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "b29aed8896001ddb624f97d3bd19fe2817d818bb092e28dce0e770aa59f0d609",
+      "reviewedAt": "2026-07-17T15:30:00.000Z",
+      "titleZh": "3rd ONE-MAN LIVE 致到场观众须知",
+      "summaryZh": "2024 年 11 月 2 日无刺有刺 3rd 个人演唱会「咆哮の奏」将实施行李检查与身份证件确认；禁止携带荧光棒、团扇及录音录像设备等。",
+      "eventDates": [
+        {
+          "date": "2024-11-02",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-255": {
+      "id": "post-255",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "98d36fdf79d1cf60ee96932264c072b6ba23c2e7557bfb53a5121b4362d2a488",
+      "reviewedAt": "2026-07-17T15:30:00.000Z",
+      "titleZh": "3rd ONE-MAN LIVE 因开放设备席决定追加售票！",
+      "summaryZh": "因开放设备席，11/2 于 TOKYO DOME CITY HALL 举办的 3rd 个人演唱会「咆哮の奏」追加门票自 10 月 30 日 21:00 起先到先得发售。",
+      "eventDates": [
+        {
+          "date": "2024-11-02",
+          "kind": "hold"
+        },
+        {
+          "date": "2024-10-30",
+          "kind": "sale",
+          "startTime": "21:00"
+        }
+      ],
+      "reviewNotes": "追加售票为 sale"
+    },
+    "post-253": {
+      "id": "post-253",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f77cd040ee4bb64e5fc9994fc28e4bebaae4b5e50c0e1ec2e9412837f5b9a5a4",
+      "reviewedAt": "2026-07-17T15:30:00.000Z",
+      "titleZh": "无刺有刺 3rd ONE-MAN LIVE 纪念 X 活动开始！",
+      "summaryZh": "纪念 3rd 个人演唱会「咆哮の奏」，Girls Band Cry 官方 X 举办关注＆转发抽奖，截止 2024 年 11 月 1 日 23:59，抽选 30 名赠送主视觉海报。",
+      "eventDates": [
+        {
+          "date": "2024-11-01",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "截止日；去掉误抽 23:59"
+    },
+    "post-249": {
+      "id": "post-249",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8455cd79de98d4eb1c44985715516b5cbefb7e614cae7c0631cf6a4e685339d9",
+      "reviewedAt": "2026-07-17T15:30:00.000Z",
+      "titleZh": "11/1（五）起 AniBirth 发售 Girls Band Cry 新商品！",
+      "summaryZh": "《空白とカタルシス》Live 服装主题周边（羽织＆T 恤套装、围巾毛巾、亚克力钥匙扣等）自 11/1 起在 AniBirth 涩谷・心斋桥店发售。",
+      "eventDates": [
+        {
+          "date": "2024-11-01",
+          "kind": "sale",
+          "startTime": "10:00"
+        }
+      ]
+    },
+    "post-251": {
+      "id": "post-251",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "316470c301cca47d12e71a038df1c999496c8caed812a47d9a73ffd2d085745e",
+      "reviewedAt": "2026-07-17T15:30:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》Vol.6〈豪华限定版〉发售纪念线上 talk 配信举办通知",
+      "summaryZh": "纪念 Vol.6 豪华限定版发售，11 月 21 日 19:00–20:00 于 Limista 举办线上 talk 配信；预约抽选获签名卡。",
+      "eventDates": [
+        {
+          "date": "2024-11-21",
+          "kind": "hold",
+          "startTime": "19:00",
+          "endTime": "20:00"
+        }
+      ]
+    },
+    "post-252": {
+      "id": "post-252",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "a4f5cdd7242fd6eda494218c0bada4ee65672b027b228c8a3203d5f955322acd",
+      "reviewedAt": "2026-07-17T15:30:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》Vol.7〈豪华限定版〉发售纪念线上 talk 配信举办通知",
+      "summaryZh": "纪念 Vol.7 豪华限定版发售，12 月 22 日 15:00–16:00 于 Limista 举办线上 talk 配信；预约抽选获签名卡。",
+      "eventDates": [
+        {
+          "date": "2024-12-22",
+          "kind": "hold",
+          "startTime": "15:00",
+          "endTime": "16:00"
         }
       ]
     }

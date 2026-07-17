@@ -1864,37 +1864,30 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-239.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-255-2024-10-30-hold@gbc-news
-DTSTAMP:20241030T000000Z
-DTSTART;VALUE=DATE:20241030
-DTEND;VALUE=DATE:20241031
-TRANSP:TRANSPARENT
+UID:post-255-2024-10-30-sale-2100@gbc-news
+DTSTAMP:20241030T120000Z
+DTSTART:20241030T120000Z
+DTEND:20241030T130000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 3rd ONE-MAN LIVE、機材席開放のためチケット販
- 売決定！
-DESCRIPTION:11/2(土)TOKYO DOME CITY HALLにて開催の トゲナシト
- ゲアリ 3rd ONE-MAN LIVE"咆哮の奏" 、 機材席解放のため
- 追加チケット販売が決定いたしました！\n10月30日(水)21:
- 00より先着販売となります。\n詳しくは こちら をご確
- 認ください！\n\nhttps://girls-band-cry.com/news/post-255.html
+SUMMARY:[发售] 3rd ONE-MAN LIVE 因开放设备席决定追加售票！
+DESCRIPTION:因开放设备席，11/2 于 TOKYO DOME CITY HALL 举办的 3r
+ d 个人演唱会「咆哮の奏」追加门票自 10 月 30 日 21:00 起
+ 先到先得发售。\n\nhttps://girls-band-cry.com/news/post-255.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-255.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-253-2024-11-01-hold-2359@gbc-news
-DTSTAMP:20241101T145900Z
-DTSTART:20241101T145900Z
-DTEND:20241101T165900Z
-TRANSP:OPAQUE
+UID:post-253-2024-11-01-hold@gbc-news
+DTSTAMP:20241101T000000Z
+DTSTART;VALUE=DATE:20241101
+DTEND;VALUE=DATE:20241102
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ3rd ONE-MAN LIVE 記念 Xキャン
- ペーンスタート！
-DESCRIPTION:トゲナシトゲアリ3rd ONE-MAN LIVE「咆哮の奏 」開
- 催を記念して 「ガールズバンドクライ」公式Xにてフォ
- ロー＆リポストキャンペーンを開催！\nご参加いただい
- た方の中から抽選で30名様に3rd ONE-MAN LIVEキービジュア
- ルポスターをプレゼント 【開催期間】 2024年11月1日(金)
-  23:59まで 【参加方法】 ①X（旧Twitter\n\n
+SUMMARY:[举办] 无刺有刺 3rd ONE-MAN LIVE 纪念 X 活动开始！
+DESCRIPTION:纪念 3rd 个人演唱会「咆哮の奏」，Girls Band Cry 
+ 官方 X 举办关注＆转发抽奖，截止 2024 年 11 月 1 日 23:59
+ ，抽选 30 名赠送主视觉海报。\n\n
  https://girls-band-cry.com/news/post-253.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-253.html
 CATEGORIES:togenashi,live,event
@@ -1906,13 +1899,10 @@ DTSTART;VALUE=DATE:20241102
 DTEND;VALUE=DATE:20241103
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 3rd ONE-MAN LIVE、機材席開放のためチケット販
- 売決定！
-DESCRIPTION:11/2(土)TOKYO DOME CITY HALLにて開催の トゲナシト
- ゲアリ 3rd ONE-MAN LIVE"咆哮の奏" 、 機材席解放のため
- 追加チケット販売が決定いたしました！\n10月30日(水)21:
- 00より先着販売となります。\n詳しくは こちら をご確
- 認ください！\n\nhttps://girls-band-cry.com/news/post-255.html
+SUMMARY:[举办] 3rd ONE-MAN LIVE 因开放设备席决定追加售票！
+DESCRIPTION:因开放设备席，11/2 于 TOKYO DOME CITY HALL 举办的 3r
+ d 个人演唱会「咆哮の奏」追加门票自 10 月 30 日 21:00 起
+ 先到先得发售。\n\nhttps://girls-band-cry.com/news/post-255.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-255.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
@@ -1962,16 +1952,10 @@ DTSTART:20241121T100000Z
 DTEND:20241121T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.6〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.6の発売を記念して、リミスタでのオンラ
- イントーク配信の開催が決定！\nリミスタにて対象商品
- をご購入いただいたお客様に、TVアニメ『ガールズバン
- ドクライ』豪華限定版Vol.6のジャケッ\n\n
+SUMMARY:[举办] TV 动画《Girls Band Cry》Vol.6〈豪华限定版〉发
+ 售纪念线上 talk 配信举办通知
+DESCRIPTION:纪念 Vol.6 豪华限定版发售，11 月 21 日 19:00–20:0
+ 0 于 Limista 举办线上 talk 配信；预约抽选获签名卡。\n\n
  https://girls-band-cry.com/news/post-251.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-251.html
 CATEGORIES:togenashi,live,music,event,cinema
@@ -2047,14 +2031,11 @@ DTSTART:20241214T093000Z
 DTEND:20241214T113000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ初の海外ワンマンライブ
- が上海で開催決定！
-DESCRIPTION:トゲナシトゲアリ初の海外ワンマンライブが上
- 海で開催することが決定しました！\n■日時：2024年12月
- 14日（土） ■時間：OPEN：17:30 START：18:30 ■会場：バン
- ダイナムコ上海文化センター 夢想劇場（上海） ■チケ
- ット金額：VIPチケット 880元（優先入場&お見送り会） 
- 一般チケット 480元\n\nhttps://girls-band-cry.com/news/post-262.html
+SUMMARY:[举办] 无刺有刺首次海外个人演唱会决定在上海举
+ 办！
+DESCRIPTION:无刺有刺首次海外个人演唱会于 2024 年 12 月 14 
+ 日在万代南梦宫上海文化中心・梦想剧场举办，开演 18:3
+ 0。\n\nhttps://girls-band-cry.com/news/post-262.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-262.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
@@ -2099,16 +2080,10 @@ DTSTART:20241222T060000Z
 DTEND:20241222T070000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.7〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.7の発売を記念して、リミスタでのオンラ
- イントーク配信の開催が決定！\nリミスタにて対象商品
- をご購入いただいたお客様に、TVアニメ『ガールズバン
- ドクライ』豪華限定版Vol.7のジャケッ\n\n
+SUMMARY:[举办] TV 动画《Girls Band Cry》Vol.7〈豪华限定版〉发
+ 售纪念线上 talk 配信举办通知
+DESCRIPTION:纪念 Vol.7 豪华限定版发售，12 月 22 日 15:00–16:0
+ 0 于 Limista 举办线上 talk 配信；预约抽选获签名卡。\n\n
  https://girls-band-cry.com/news/post-252.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-252.html
 CATEGORIES:togenashi,live,music,event,cinema
@@ -2120,13 +2095,10 @@ DTSTART;VALUE=DATE:20241225
 DTEND;VALUE=DATE:20241226
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 2025年、トゲナシトゲアリのワンマンライブ
- 開催が決定！
-DESCRIPTION:トゲナシトゲアリのワンマンライブが2025年に
- 開催することが決定しました！\n12月25日(水)発売 『ガ
- ールズバンドクライ』Blu-ray＆DVD第7巻 に このライブの
- 最速先行抽選申込券が封入！\n開催日時・会場等の詳細
- は後日発表します。\n続報をお楽しみに！\n\n
+SUMMARY:[发售] 2025 年无刺有刺个人演唱会举办决定！
+DESCRIPTION:无刺有刺 2025 年个人演唱会决定举办；最速先行
+ 抽选申请券封入 12 月 25 日发售的《Girls Band Cry》Blu-ray＆
+ DVD 第 7 卷，日期会场另行公布。\n\n
  https://girls-band-cry.com/news/post-264.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-264.html
 CATEGORIES:togenashi,live,event,cinema
