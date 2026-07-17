@@ -4,7 +4,7 @@
     <title>gbc-news · 剧场/映像</title>
     <link>https://gbc-news.example.com/</link>
     <description>ガールズバンドクライ 公式ニュース（剧场/映像）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 12:20:01 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 12:20:53 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/cinema.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[发售] 名もなき何もかも／トゲナシトゲアリ 2023年7月26日(水)CD発売！</title>
@@ -831,13 +831,13 @@
       <description>開催日時：2025年6月20日(金)18:00スタート (19:00終了予定) トゲナシトゲアリ、2nd ONE-MAN LIVE “凛音の理” 、3rd ONE-MAN LIVE “咆哮の奏”[Blu-ray]［DVD］2作品同時発売を記念して、オンライントーク配信の開催が決定！ リミスタにて対象商品をご予約の方に、 各対象商品のライブキービジュアル絵柄を</description>
     </item>
     <item>
-      <title>[发售] 劇場版総集編【前編】青春狂走曲 本予告を公開＆ムビチケ前売券第3弾も発売決定！</title>
+      <title>[发售] 剧场版总集篇【前篇】青春狂走曲 正式预告公开 &amp; Movi-Ticket 预售第 3 弹发售！</title>
       <link>https://girls-band-cry.com/news/post-357.html</link>
       <guid isPermaLink="false">post-357-2025-07-18-sale@gbc-news</guid>
       <pubDate>Fri, 18 Jul 2025 00:00:00 GMT</pubDate>
       <category>cinema</category>
       <category domain="group">togenashi</category>
-      <description>「劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲」 本予告映像＆キービジュアルを公開しました！ 「劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲」 2025年10月3日(金)公開 ▶上映劇場情報は こちら 【キャスト】 井芹 仁菜：理名 河原木 桃香：夕莉 安和 すばる：美怜 海老塚 智：凪都 ルパ：朱李 【スタッフ】 原作・企画・製作：</description>
+      <description>《【前篇】青春狂走曲》正式预告与主视觉公开，2025 年 10 月 3 日上映；Movi-Ticket 预售卡第 3 弹于 7 月 18 日发售（附亚克力立牌特典，限量）。</description>
     </item>
     <item>
       <title>[举办] トゲナシトゲアリ『2nd ONE-MAN LIVE “凛音の理” 』『3rd ONE-MAN LIVE “咆哮の奏”』[Blu-ray][DVD]7月23日(水)に2タイトル同時リリース！</title>
@@ -974,6 +974,15 @@
       <description>谜游戏《桃香（を）ワッショイ》于 9/29 在 Steam 发售（定价 500 日元，10/12 前特价 350 日元），并将于 9/25–28 在幕张 Messe 东京电玩展 2025 出展。</description>
     </item>
     <item>
+      <title>[举办] 剧场版总集篇【前篇】青春狂走曲 正式预告公开 &amp; Movi-Ticket 预售第 3 弹发售！</title>
+      <link>https://girls-band-cry.com/news/post-357.html</link>
+      <guid isPermaLink="false">post-357-2025-10-03-hold@gbc-news</guid>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
+      <category>cinema</category>
+      <category domain="group">togenashi</category>
+      <description>《【前篇】青春狂走曲》正式预告与主视觉公开，2025 年 10 月 3 日上映；Movi-Ticket 预售卡第 3 弹于 7 月 18 日发售（附亚克力立牌特典，限量）。</description>
+    </item>
+    <item>
       <title>[举办] 《【前篇】青春狂走曲》首日 &amp; 公开纪念舞台问候举办决定！</title>
       <link>https://girls-band-cry.com/news/post-375.html</link>
       <guid isPermaLink="false">post-375-2025-10-03-hold@gbc-news</guid>
@@ -1025,7 +1034,7 @@
       <description>《【后篇】なぁ、未来。》Movi-Ticket 线上预售券于 10/3 18:00 起发售，购买特典为后篇主视觉手机壁纸。</description>
     </item>
     <item>
-      <title>[举办] 全国アニメイトにてフェア開催決定！</title>
+      <title>[举办] 全国 animate 举办展会决定！</title>
       <link>https://girls-band-cry.com/news/post-359.html</link>
       <guid isPermaLink="false">post-359-2025-10-04_2025-10-26-hold@gbc-news</guid>
       <pubDate>Sat, 04 Oct 2025 00:00:00 GMT</pubDate>
@@ -1034,7 +1043,7 @@
       <category>event</category>
       <category>cinema</category>
       <category domain="group">togenashi</category>
-      <description>アニメイトにて、 『ガールズバンドクライ』ブレイク・ドレスコードフェアを開催いたします！ ■開催期間 2025 年10 月4 日～10 月26 日 ■開催場所 全国アニメイト(通販を含む) ■フェア内容 期間中『ガールズバンドクライ』関連のグッズをご購入・ご予約内金1,100円(税込)毎、書籍・CD・DVD・BD をご購入・ご予約(内金1,100円(税込)以</description>
+      <description>animate 举办《Girls Band Cry》Break Dress Code 展会：2025 年 10 月 4 日–26 日于全国 animate（含通贩），购满/预约满 1100 日元赠明信片 1 张（全 5 种）。</description>
     </item>
     <item>
       <title>[举办] 《【前篇】青春狂走曲》首日 &amp; 公开纪念舞台问候举办决定！</title>

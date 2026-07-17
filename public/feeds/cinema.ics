@@ -1425,15 +1425,11 @@ DTSTART;VALUE=DATE:20250718
 DTEND;VALUE=DATE:20250719
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 劇場版総集編【前編】青春狂走曲 本予告を
- 公開＆ムビチケ前売券第3弾も発売決定！
-DESCRIPTION:「劇場版総集編 ガールズバンドクライ 【前編
- 】 青春狂走曲」 本予告映像＆キービジュアルを公開し
- ました！\n「劇場版総集編 ガールズバンドクライ 【前
- 編】 青春狂走曲」 2025年10月3日(金)公開 ▶上映劇場情
- 報は こちら 【キャスト】 井芹 仁菜：理名 河原木 桃
- 香：夕莉 安和 すばる：美怜 海老塚 智：凪都 ルパ：朱
- 李 【スタッフ】 原作・企画・製作：\n\n
+SUMMARY:[发售] 剧场版总集篇【前篇】青春狂走曲 正式预告
+ 公开 & Movi-Ticket 预售第 3 弹发售！
+DESCRIPTION:《【前篇】青春狂走曲》正式预告与主视觉公开
+ ，2025 年 10 月 3 日上映；Movi-Ticket 预售卡第 3 弹于 7 月 1
+ 8 日发售（附亚克力立牌特典，限量）。\n\n
  https://girls-band-cry.com/news/post-357.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-357.html
 CATEGORIES:togenashi,cinema
@@ -1639,6 +1635,22 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-377.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-357-2025-10-03-hold@gbc-news
+DTSTAMP:20251003T000000Z
+DTSTART;VALUE=DATE:20251003
+DTEND;VALUE=DATE:20251004
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 剧场版总集篇【前篇】青春狂走曲 正式预告
+ 公开 & Movi-Ticket 预售第 3 弹发售！
+DESCRIPTION:《【前篇】青春狂走曲》正式预告与主视觉公开
+ ，2025 年 10 月 3 日上映；Movi-Ticket 预售卡第 3 弹于 7 月 1
+ 8 日发售（附亚克力立牌特典，限量）。\n\n
+ https://girls-band-cry.com/news/post-357.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-357.html
+CATEGORIES:togenashi,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-375-2025-10-03-hold@gbc-news
 DTSTAMP:20251003T000000Z
 DTSTART;VALUE=DATE:20251003
@@ -1723,14 +1735,11 @@ DTSTART;VALUE=DATE:20251004
 DTEND;VALUE=DATE:20251027
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 全国アニメイトにてフェア開催決定！
-DESCRIPTION:アニメイトにて、 『ガールズバンドクライ』
- ブレイク・ドレスコードフェアを開催いたします！\n■
- 開催期間 2025 年10 月4 日～10 月26 日 ■開催場所 全国ア
- ニメイト(通販を含む) ■フェア内容 期間中『ガールズ
- バンドクライ』関連のグッズをご購入・ご予約内金1\,10
- 0円(税込)毎、書籍・CD・DVD・BD をご購入・ご予約(内金1\
- ,100円(税込)以\n\nhttps://girls-band-cry.com/news/post-359.html
+SUMMARY:[举办] 全国 animate 举办展会决定！
+DESCRIPTION:animate 举办《Girls Band Cry》Break Dress Code 展会：202
+ 5 年 10 月 4 日–26 日于全国 animate（含通贩），购满/预
+ 约满 1100 日元赠明信片 1 张（全 5 种）。\n\n
+ https://girls-band-cry.com/news/post-359.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-359.html
 CATEGORIES:togenashi,music,goods,event,cinema
 END:VEVENT

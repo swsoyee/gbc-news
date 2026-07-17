@@ -1,6 +1,6 @@
 {
   "sourceId": "collabo-cafe",
-  "updatedAt": "2026-07-17T13:45:00.000Z",
+  "updatedAt": "2026-07-17T13:55:00.000Z",
   "items": {
     "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026": {
       "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
@@ -418,6 +418,38 @@
         }
       ],
       "reviewNotes": "10 月中旬无具体日"
+    },
+    "collabo-girls-band-cry-sanrio-pop-up-store-tokyo-osaka-hukuoka-2025": {
+      "id": "collabo-girls-band-cry-sanrio-pop-up-store-tokyo-osaka-hukuoka-2025",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "35a3d421a376e51e7b1468db0116efbe4c520449efb61bc411918d824ee59804",
+      "reviewedAt": "2026-07-17T13:55:00.000Z",
+      "titleZh": "Girls Band Cry × 三丽鸥 限定店 in 全国 3 店 7 月 11 日起举办！",
+      "summaryZh": "《Girls Band Cry》× 三丽鸥弹出商店于东京/大阪/福冈举办：2025 年 7 月 11 日–21 日，销售联名全新绘制周边；满 2200 日元随机赠明信片 1 张（全 18 种）。",
+      "eventDates": [
+        {
+          "date": "2025-07-11",
+          "endDate": "2025-07-21",
+          "kind": "hold"
+        }
+      ]
+    },
+    "collabo-girls-band-cry-ceremonial-dress-ver-y-line-anime-store-goods2025": {
+      "id": "collabo-girls-band-cry-ceremonial-dress-ver-y-line-anime-store-goods2025",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "1521af7d22cf742bbb9079d399f947820563cbe6042d23c4b6173773f8d64022",
+      "reviewedAt": "2026-07-17T13:55:00.000Z",
+      "titleZh": "Girls Band Cry 晴れ着 Ver. 全新绘制周边因好评 8 月再贩！",
+      "summaryZh": "《Girls Band Cry（GBC）》晴れ着 Ver. 周边（立牌、鼠标垫、托特包、挂毯、全印花 T 恤等 5 种）因好评于 2025 年 8 月再贩；Anime Store.JP 预约至 6 月 13 日。",
+      "eventDates": [
+        {
+          "date": "2025-06-13",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "8 月再贩无具体日"
     }
   }
 }

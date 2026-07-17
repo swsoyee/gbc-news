@@ -1808,14 +1808,11 @@ DTSTART;VALUE=DATE:20251004
 DTEND;VALUE=DATE:20251027
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 全国アニメイトにてフェア開催決定！
-DESCRIPTION:アニメイトにて、 『ガールズバンドクライ』
- ブレイク・ドレスコードフェアを開催いたします！\n■
- 開催期間 2025 年10 月4 日～10 月26 日 ■開催場所 全国ア
- ニメイト(通販を含む) ■フェア内容 期間中『ガールズ
- バンドクライ』関連のグッズをご購入・ご予約内金1\,10
- 0円(税込)毎、書籍・CD・DVD・BD をご購入・ご予約(内金1\
- ,100円(税込)以\n\nhttps://girls-band-cry.com/news/post-359.html
+SUMMARY:[举办] 全国 animate 举办展会决定！
+DESCRIPTION:animate 举办《Girls Band Cry》Break Dress Code 展会：202
+ 5 年 10 月 4 日–26 日于全国 animate（含通贩），购满/预
+ 约满 1100 日元赠明信片 1 张（全 5 种）。\n\n
+ https://girls-band-cry.com/news/post-359.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-359.html
 CATEGORIES:togenashi,music,goods,event,cinema
 END:VEVENT

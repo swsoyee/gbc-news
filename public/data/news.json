@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-17T12:20:01.001Z",
+  "scrapedAt": "2026-07-17T12:20:52.944Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
@@ -3772,13 +3772,23 @@
       "eventDates": [
         {
           "date": "2025-09-17",
-          "kind": "hold",
-          "startTime": "10:00",
-          "endTime": "19:00"
+          "endDate": "2025-09-30",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-07-25",
+          "endDate": "2025-08-03",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-08-16",
+          "kind": "sale"
         }
       ],
       "summary": "大阪会場の入場者プレゼント、券売スケジュールが解禁されました！ 【入場者プレゼント】 ※プレゼントは入場時に、お1人様、有料入場チケット1枚につき1点を受付にてお渡しいたします。いかなる場合も入場時以外でのお渡しはできかねます。 ※数量限定・先着順でお渡しするため、なくなり次第配布終了いたします。予めご了承ください。 ※絵柄はお選びいただけません。 ※内容は",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "GBC 展大阪会场 9 月 17 日（三）起开幕！票务日程等公开！",
+      "summaryZh": "GBC 展大阪会场于大丸博物馆梅田举办：2025 年 9 月 17 日–30 日（10:00–19:00）。先行抽选 7/25–8/3，一般预售 8/16 起；入场赠大阪版舞台通行证风缎面贴纸（随机 5 种）。"
     },
     {
       "id": "post-359",
@@ -3798,12 +3808,14 @@
       "eventDates": [
         {
           "date": "2025-10-04",
-          "kind": "hold",
-          "endDate": "2025-10-26"
+          "endDate": "2025-10-26",
+          "kind": "hold"
         }
       ],
       "summary": "アニメイトにて、 『ガールズバンドクライ』ブレイク・ドレスコードフェアを開催いたします！ ■開催期間 2025 年10 月4 日～10 月26 日 ■開催場所 全国アニメイト(通販を含む) ■フェア内容 期間中『ガールズバンドクライ』関連のグッズをご購入・ご予約内金1,100円(税込)毎、書籍・CD・DVD・BD をご購入・ご予約(内金1,100円(税込)以",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png",
+      "titleZh": "全国 animate 举办展会决定！",
+      "summaryZh": "animate 举办《Girls Band Cry》Break Dress Code 展会：2025 年 10 月 4 日–26 日于全国 animate（含通贩），购满/预约满 1100 日元赠明信片 1 张（全 5 种）。"
     },
     {
       "id": "collabo-girls-band-cry-sanrio-pop-up-store-tokyo-osaka-hukuoka-2025",
@@ -3820,12 +3832,14 @@
       "eventDates": [
         {
           "date": "2025-07-11",
-          "kind": "hold",
-          "endDate": "2025-07-21"
+          "endDate": "2025-07-21",
+          "kind": "hold"
         }
       ],
       "summary": "東映アニメーションが贈るオリジナルTVアニメ「ガールズバンドクライ」× サンリオのポップアップストアが、東京/大阪/福岡にて2025年7月11日〜7月21日まで開催される。「ガールズバンドクライ × サンリオ」ストアでは、ガールズバンドクライとサンリオのコラボレーションイラストを使用した新作グッズが多数登場!",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/a9a219202afc9c435818b833a5a11101.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/a9a219202afc9c435818b833a5a11101.jpg",
+      "titleZh": "Girls Band Cry × 三丽鸥 限定店 in 全国 3 店 7 月 11 日起举办！",
+      "summaryZh": "《Girls Band Cry》× 三丽鸥弹出商店于东京/大阪/福冈举办：2025 年 7 月 11 日–21 日，销售联名全新绘制周边；满 2200 日元随机赠明信片 1 张（全 18 种）。"
     },
     {
       "id": "post-357",
@@ -3841,12 +3855,18 @@
       ],
       "eventDates": [
         {
+          "date": "2025-10-03",
+          "kind": "hold"
+        },
+        {
           "date": "2025-07-18",
           "kind": "sale"
         }
       ],
       "summary": "「劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲」 本予告映像＆キービジュアルを公開しました！ 「劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲」 2025年10月3日(金)公開 ▶上映劇場情報は こちら 【キャスト】 井芹 仁菜：理名 河原木 桃香：夕莉 安和 すばる：美怜 海老塚 智：凪都 ルパ：朱李 【スタッフ】 原作・企画・製作：",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/08/GBC%E7%B7%8F%E9%9B%86%E7%B7%A8_%E3%83%A0%E3%83%93%E3%83%81%E3%82%B1%E7%AC%AC3%E5%BC%BE_KV_%E6%A8%AA_%E5%85%AC%E9%96%8B%E6%97%A5%E3%83%8A%E3%82%B7-1024x576.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/08/GBC%E7%B7%8F%E9%9B%86%E7%B7%A8_%E3%83%A0%E3%83%93%E3%83%81%E3%82%B1%E7%AC%AC3%E5%BC%BE_KV_%E6%A8%AA_%E5%85%AC%E9%96%8B%E6%97%A5%E3%83%8A%E3%82%B7-1024x576.jpg",
+      "titleZh": "剧场版总集篇【前篇】青春狂走曲 正式预告公开 & Movi-Ticket 预售第 3 弹发售！",
+      "summaryZh": "《【前篇】青春狂走曲》正式预告与主视觉公开，2025 年 10 月 3 日上映；Movi-Ticket 预售卡第 3 弹于 7 月 18 日发售（附亚克力立牌特典，限量）。"
     },
     {
       "id": "post-360",
@@ -3879,17 +3899,13 @@
       "eventDates": [
         {
           "date": "2025-07-05",
-          "kind": "hold",
           "endDate": "2025-07-14",
-          "startTime": "12:00",
-          "endTime": "23:59"
+          "kind": "sale"
         },
         {
           "date": "2025-07-18",
-          "kind": "hold",
           "endDate": "2025-07-21",
-          "startTime": "18:00",
-          "endTime": "23:59"
+          "kind": "sale"
         },
         {
           "date": "2025-09-23",
@@ -3897,7 +3913,9 @@
         }
       ],
       "summary": "9月23日（火・祝）トゲナシトゲアリ LIVE in 日本武道館 “奏檄の叫” 【３次先行販売】が決定しました！ 【3次先行】 受付期間：7月5日(土)12:00〜7月14日(月)23:59 当落発表：7月18日(金)18:00～ 入金期間：7月18日(金)18:00～7月21日(月)23:59 グッズ付ステージサイドバック席 17,500円（税込） ステー",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/02/0207%E6%97%A5%E6%9C%AC%E6%AD%A6%E9%81%93%E9%A4%A8%E5%91%8A%E7%9F%A5%E7%94%BB%E5%83%8F-1024x576.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/02/0207%E6%97%A5%E6%9C%AC%E6%AD%A6%E9%81%93%E9%A4%A8%E5%91%8A%E7%9F%A5%E7%94%BB%E5%83%8F-1024x576.jpg",
+      "titleZh": "无刺有刺 LIVE in 日本武道馆 “奏檄之叫”【第三次先行发售】开始通知",
+      "summaryZh": "无刺有刺武道馆 LIVE “奏檄之叫”（9/23）第三次先行：申请 7/5 12:00–7/14 23:59，结果 7/18 18:00 起，入金至 7/21 23:59。"
     },
     {
       "id": "post-356",
@@ -3918,7 +3936,9 @@
         }
       ],
       "summary": "2025年7月23日発売 トゲナシトゲアリ 「2nd ONE-MAN LIVE \"凛音の理\"」 「3rd ONE-MAN LIVE \"咆哮の奏\"」 店舗別特典絵柄が決定しました。 先着特典となりますので、この機会にぜひGETしてください！",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "「2nd ONE-MAN LIVE \"凛音の理\"」「3rd ONE-MAN LIVE \"咆哮の奏\"」各店特典图样决定",
+      "summaryZh": "无刺有刺 2nd/3rd 个人演唱会 Blu-ray/DVD（7/23 发售）各店先到特典图样公开，数量有限。"
     },
     {
       "id": "post-354",
@@ -3970,7 +3990,9 @@
         }
       ],
       "summary": "ガールズバンドクライ展 福岡会場はいよいよ6/27(金)から開催！！ 新規展示情報と、キャストサイン入り入場者プレゼントキャンペーン情報が解禁されました！ 【新規展示】 福岡会場から新規展示決定！ 下記話数の絵コンテを一部展示いたします! ・「ガールズバンドクライ」9 話(絵コンテ:平池 綾子) ・「ガールズバンドクライ」10 話(絵コンテ:酒井 和男) ・",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "GBC 展福冈会场 6/27（五）起举办！新展示与声优签名入场赠品活动公开！",
+      "summaryZh": "GBC 展福冈会场自 6/27 起举办，新增第 9・10・12 话分镜等展示；入场可抽选获赠理名・夕莉・朱李签名的福冈版舞台通行证风缎面贴纸（15 名）。"
     },
     {
       "id": "post-352",
@@ -3992,7 +4014,9 @@
         }
       ],
       "summary": "2025年12月7日(日) 京王アリーナ TOKYOにて、メディアミックスプロジェクト『バンドリ！』に登場するバンド「RAISE A SUILEN」と、「トゲナシトゲアリ」の対バンライブ“RAISE A SUILEN×トゲナシトゲアリ「RAISE MY CATHARSIS」”の開催が決定しました。 RAISE A SUILEN ×トゲナシトゲアリ 「RAIS",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/06/ras_banner.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/06/ras_banner.jpg",
+      "titleZh": "RAISE A SUILEN × 无刺有刺 对邦 LIVE 举办决定！",
+      "summaryZh": "RAISE A SUILEN × 无刺有刺对邦 LIVE「RAISE MY CATHARSIS」于 2025 年 12 月 7 日在京王 Arena TOKYO 举办。"
     },
     {
       "id": "post-351",
@@ -4013,7 +4037,9 @@
         }
       ],
       "summary": "BILIBILI MACRO LINK 2025 ■日時：2025年7月11日(金) ■会場：上海国家会展中心・虹館EH ▶詳細は こちら",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "无刺有刺决定出演 BILIBILI MACRO LINK 2025！",
+      "summaryZh": "无刺有刺将出演 BILIBILI MACRO LINK 2025：2025 年 7 月 11 日于上海国家会展中心・虹馆 EH。"
     },
     {
       "id": "post-350",
@@ -4046,12 +4072,13 @@
       "eventDates": [
         {
           "date": "2025-06-13",
-          "kind": "sale",
-          "startTime": "23:59"
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが贈るオリジナルTVアニメ「ガールズバンドクライ (ガルクラ)」から、描き下ろしイラスト「晴れ着Ver.」グッズが好評につき2025年8月再販決定！仁菜・桃香・すばる・智・ルパら可愛い振袖姿のトゲトゲ & ダイダスの人気メンバーたちを描いた「アクリルスタンド」「B2半裁タペストリー」が再登場。",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/GeZ93L-aUAAxF4d.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/GeZ93L-aUAAxF4d.jpg",
+      "titleZh": "Girls Band Cry 晴れ着 Ver. 全新绘制周边因好评 8 月再贩！",
+      "summaryZh": "《Girls Band Cry（GBC）》晴れ着 Ver. 周边（立牌、鼠标垫、托特包、挂毯、全印花 T 恤等 5 种）因好评于 2025 年 8 月再贩；Anime Store.JP 预约至 6 月 13 日。"
     },
     {
       "id": "post-349",

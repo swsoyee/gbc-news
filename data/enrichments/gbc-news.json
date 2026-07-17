@@ -1,6 +1,6 @@
 {
   "sourceId": "gbc-news",
-  "updatedAt": "2026-07-17T13:45:00.000Z",
+  "updatedAt": "2026-07-17T13:55:00.000Z",
   "items": {
     "post-483": {
       "id": "post-483",
@@ -1659,6 +1659,155 @@
         {
           "date": "2025-08-21",
           "endDate": "2025-09-28",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-361": {
+      "id": "post-361",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "32b1a9c30d336b9fd0c9727a4ad2fc38831de051eb1bd10fcdd3c988d2cde642",
+      "reviewedAt": "2026-07-17T13:55:00.000Z",
+      "titleZh": "GBC 展大阪会场 9 月 17 日（三）起开幕！票务日程等公开！",
+      "summaryZh": "GBC 展大阪会场于大丸博物馆梅田举办：2025 年 9 月 17 日–30 日（10:00–19:00）。先行抽选 7/25–8/3，一般预售 8/16 起；入场赠大阪版舞台通行证风缎面贴纸（随机 5 种）。",
+      "eventDates": [
+        {
+          "date": "2025-09-17",
+          "endDate": "2025-09-30",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-07-25",
+          "endDate": "2025-08-03",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-08-16",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "会期跨日去每日时刻；补录票务"
+    },
+    "post-359": {
+      "id": "post-359",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "5db4e940c66a3864030c16b721ec842023d0176dbc0e9b6b4b9cdb03c3ad8a6a",
+      "reviewedAt": "2026-07-17T13:55:00.000Z",
+      "titleZh": "全国 animate 举办展会决定！",
+      "summaryZh": "animate 举办《Girls Band Cry》Break Dress Code 展会：2025 年 10 月 4 日–26 日于全国 animate（含通贩），购满/预约满 1100 日元赠明信片 1 张（全 5 种）。",
+      "eventDates": [
+        {
+          "date": "2025-10-04",
+          "endDate": "2025-10-26",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-357": {
+      "id": "post-357",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "36b75fe3a6bbb7cc9b04426c76600f47a1b0f3eae1393fa76f43f240536ec4a4",
+      "reviewedAt": "2026-07-17T13:55:00.000Z",
+      "titleZh": "剧场版总集篇【前篇】青春狂走曲 正式预告公开 & Movi-Ticket 预售第 3 弹发售！",
+      "summaryZh": "《【前篇】青春狂走曲》正式预告与主视觉公开，2025 年 10 月 3 日上映；Movi-Ticket 预售卡第 3 弹于 7 月 18 日发售（附亚克力立牌特典，限量）。",
+      "eventDates": [
+        {
+          "date": "2025-10-03",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-07-18",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "补录上映日"
+    },
+    "post-358": {
+      "id": "post-358",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "3c8e3acb00ba6636587c7e89ea0f70ac721bd66c98b244f18a629cf87249ae3a",
+      "reviewedAt": "2026-07-17T13:55:00.000Z",
+      "titleZh": "无刺有刺 LIVE in 日本武道馆 “奏檄之叫”【第三次先行发售】开始通知",
+      "summaryZh": "无刺有刺武道馆 LIVE “奏檄之叫”（9/23）第三次先行：申请 7/5 12:00–7/14 23:59，结果 7/18 18:00 起，入金至 7/21 23:59。",
+      "eventDates": [
+        {
+          "date": "2025-07-05",
+          "endDate": "2025-07-14",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-07-18",
+          "endDate": "2025-07-21",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-09-23",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "跨日去时刻"
+    },
+    "post-356": {
+      "id": "post-356",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "4164ed7b76e97873c46a4b3517043fbb5395509eb649e655239203a5ed1f5184",
+      "reviewedAt": "2026-07-17T13:55:00.000Z",
+      "titleZh": "「2nd ONE-MAN LIVE \"凛音の理\"」「3rd ONE-MAN LIVE \"咆哮の奏\"」各店特典图样决定",
+      "summaryZh": "无刺有刺 2nd/3rd 个人演唱会 Blu-ray/DVD（7/23 发售）各店先到特典图样公开，数量有限。",
+      "eventDates": [
+        {
+          "date": "2025-07-23",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-355": {
+      "id": "post-355",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "759310fe96081f3bac4505c3bbe5ce413752aef7bee98c1c73f938e7bd7d8e5f",
+      "reviewedAt": "2026-07-17T13:55:00.000Z",
+      "titleZh": "GBC 展福冈会场 6/27（五）起举办！新展示与声优签名入场赠品活动公开！",
+      "summaryZh": "GBC 展福冈会场自 6/27 起举办，新增第 9・10・12 话分镜等展示；入场可抽选获赠理名・夕莉・朱李签名的福冈版舞台通行证风缎面贴纸（15 名）。",
+      "eventDates": [
+        {
+          "date": "2025-06-27",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "本篇未写结束日"
+    },
+    "post-352": {
+      "id": "post-352",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8f1653e5baf639c74698e35a5e667d7bf89a54209b29f1489443c31928436cf4",
+      "reviewedAt": "2026-07-17T13:55:00.000Z",
+      "titleZh": "RAISE A SUILEN × 无刺有刺 对邦 LIVE 举办决定！",
+      "summaryZh": "RAISE A SUILEN × 无刺有刺对邦 LIVE「RAISE MY CATHARSIS」于 2025 年 12 月 7 日在京王 Arena TOKYO 举办。",
+      "eventDates": [
+        {
+          "date": "2025-12-07",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-351": {
+      "id": "post-351",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "340910fe89760708b804570266cda2635943a5a202f7eec61d1d20ea79892284",
+      "reviewedAt": "2026-07-17T13:55:00.000Z",
+      "titleZh": "无刺有刺决定出演 BILIBILI MACRO LINK 2025！",
+      "summaryZh": "无刺有刺将出演 BILIBILI MACRO LINK 2025：2025 年 7 月 11 日于上海国家会展中心・虹馆 EH。",
+      "eventDates": [
+        {
+          "date": "2025-07-11",
           "kind": "hold"
         }
       ]

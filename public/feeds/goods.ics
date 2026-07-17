@@ -1866,21 +1866,17 @@ CATEGORIES:togenashi,live,goods,event,media
 END:VEVENT
 BEGIN:VEVENT
 UID:collabo-girls-band-cry-ceremonial-dress-ver-y-line-anime-store-goods202
- 5-2025-06-13-sale-2359@gbc-news
-DTSTAMP:20250613T145900Z
-DTSTART:20250613T145900Z
-DTEND:20250613T155900Z
-TRANSP:OPAQUE
+ 5-2025-06-13-sale@gbc-news
+DTSTAMP:20250613T000000Z
+DTSTART;VALUE=DATE:20250613
+DTEND;VALUE=DATE:20250614
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ 晴れ着 Ver. 描き下ろ
- しグッズ 好評につき8月再販!
-DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
- 「ガールズバンドクライ (ガルクラ)」から、描き下ろ
- しイラスト「晴れ着Ver.」グッズが好評につき2025年8月
- 再販決定！\n仁菜・桃香・すばる・智・ルパら可愛い振
- 袖姿のトゲトゲ & ダイダスの人気メンバーたちを描い
- た「アクリルスタンド」「B2半裁タペストリー」が再登
- 場。\n\n
+SUMMARY:[发售] Girls Band Cry 晴れ着 Ver. 全新绘制周边因好评 
+ 8 月再贩！
+DESCRIPTION:《Girls Band Cry（GBC）》晴れ着 Ver. 周边（立牌、
+ 鼠标垫、托特包、挂毯、全印花 T 恤等 5 种）因好评于 2
+ 025 年 8 月再贩；Anime Store.JP 预约至 6 月 13 日。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-ceremonial-dress-ve
  r-y-line-anime-store-goods2025/
 URL;VALUE=URI:
@@ -1889,40 +1885,32 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-358-2025-07-05_2025-07-14-hold-1200@gbc-news
-DTSTAMP:20250705T030000Z
-DTSTART:20250705T030000Z
-DTEND:20250714T145900Z
-TRANSP:OPAQUE
+UID:post-358-2025-07-05_2025-07-14-sale@gbc-news
+DTSTAMP:20250705T000000Z
+DTSTART;VALUE=DATE:20250705
+DTEND;VALUE=DATE:20250715
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ LIVE in 日本武道館 “奏檄
- の叫” 【３次先行販売】開始のお知らせ
-DESCRIPTION:9月23日（火・祝）トゲナシトゲアリ LIVE in 日本
- 武道館 “奏檄の叫” 【３次先行販売】が決定しました
- ！\n【3次先行】 受付期間：7月5日(土)12:00〜7月14日(月)23
- :59 当落発表：7月18日(金)18:00～ 入金期間：7月18日(金)18:
- 00～7月21日(月)23:59 グッズ付ステージサイドバック席 17\
- ,500円（税込） ステー\n\n
- https://girls-band-cry.com/news/post-358.html
+SUMMARY:[发售] 无刺有刺 LIVE in 日本武道馆 “奏檄之叫”【
+ 第三次先行发售】开始通知
+DESCRIPTION:无刺有刺武道馆 LIVE “奏檄之叫”（9/23）第三
+ 次先行：申请 7/5 12:00–7/14 23:59，结果 7/18 18:00 起，入金
+ 至 7/21 23:59。\n\nhttps://girls-band-cry.com/news/post-358.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-358.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-358-2025-07-18_2025-07-21-hold-1800@gbc-news
-DTSTAMP:20250718T090000Z
-DTSTART:20250718T090000Z
-DTEND:20250721T145900Z
-TRANSP:OPAQUE
+UID:post-358-2025-07-18_2025-07-21-sale@gbc-news
+DTSTAMP:20250718T000000Z
+DTSTART;VALUE=DATE:20250718
+DTEND;VALUE=DATE:20250722
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ LIVE in 日本武道館 “奏檄
- の叫” 【３次先行販売】開始のお知らせ
-DESCRIPTION:9月23日（火・祝）トゲナシトゲアリ LIVE in 日本
- 武道館 “奏檄の叫” 【３次先行販売】が決定しました
- ！\n【3次先行】 受付期間：7月5日(土)12:00〜7月14日(月)23
- :59 当落発表：7月18日(金)18:00～ 入金期間：7月18日(金)18:
- 00～7月21日(月)23:59 グッズ付ステージサイドバック席 17\
- ,500円（税込） ステー\n\n
- https://girls-band-cry.com/news/post-358.html
+SUMMARY:[发售] 无刺有刺 LIVE in 日本武道馆 “奏檄之叫”【
+ 第三次先行发售】开始通知
+DESCRIPTION:无刺有刺武道馆 LIVE “奏檄之叫”（9/23）第三
+ 次先行：申请 7/5 12:00–7/14 23:59，结果 7/18 18:00 起，入金
+ 至 7/21 23:59。\n\nhttps://girls-band-cry.com/news/post-358.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-358.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
@@ -2102,15 +2090,11 @@ DTSTART;VALUE=DATE:20250923
 DTEND;VALUE=DATE:20250924
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ LIVE in 日本武道館 “奏檄
- の叫” 【３次先行販売】開始のお知らせ
-DESCRIPTION:9月23日（火・祝）トゲナシトゲアリ LIVE in 日本
- 武道館 “奏檄の叫” 【３次先行販売】が決定しました
- ！\n【3次先行】 受付期間：7月5日(土)12:00〜7月14日(月)23
- :59 当落発表：7月18日(金)18:00～ 入金期間：7月18日(金)18:
- 00～7月21日(月)23:59 グッズ付ステージサイドバック席 17\
- ,500円（税込） ステー\n\n
- https://girls-band-cry.com/news/post-358.html
+SUMMARY:[举办] 无刺有刺 LIVE in 日本武道馆 “奏檄之叫”【
+ 第三次先行发售】开始通知
+DESCRIPTION:无刺有刺武道馆 LIVE “奏檄之叫”（9/23）第三
+ 次先行：申请 7/5 12:00–7/14 23:59，结果 7/18 18:00 起，入金
+ 至 7/21 23:59。\n\nhttps://girls-band-cry.com/news/post-358.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-358.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
@@ -2183,14 +2167,11 @@ DTSTART;VALUE=DATE:20251004
 DTEND;VALUE=DATE:20251027
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 全国アニメイトにてフェア開催決定！
-DESCRIPTION:アニメイトにて、 『ガールズバンドクライ』
- ブレイク・ドレスコードフェアを開催いたします！\n■
- 開催期間 2025 年10 月4 日～10 月26 日 ■開催場所 全国ア
- ニメイト(通販を含む) ■フェア内容 期間中『ガールズ
- バンドクライ』関連のグッズをご購入・ご予約内金1\,10
- 0円(税込)毎、書籍・CD・DVD・BD をご購入・ご予約(内金1\
- ,100円(税込)以\n\nhttps://girls-band-cry.com/news/post-359.html
+SUMMARY:[举办] 全国 animate 举办展会决定！
+DESCRIPTION:animate 举办《Girls Band Cry》Break Dress Code 展会：202
+ 5 年 10 月 4 日–26 日于全国 animate（含通贩），购满/预
+ 约满 1100 日元赠明信片 1 张（全 5 种）。\n\n
+ https://girls-band-cry.com/news/post-359.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-359.html
 CATEGORIES:togenashi,music,goods,event,cinema
 END:VEVENT
