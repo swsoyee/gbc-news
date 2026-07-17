@@ -225,15 +225,9 @@ DTSTART;VALUE=DATE:20240405
 DTEND;VALUE=DATE:20240406
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] リアルサウンドでガールズバンドクライ特
- 集ページ公開中！
-DESCRIPTION:いよいよ今週4/5(金)よりテレビアニメ放送スタ
- ート！\n これまで 「トゲナシトゲアリ」 のメンバーイ
- ンタビューや 音楽プロデューサーを務める玉井健二さ
- んのインタビュー、 そしてこれまでのライブのレポー
- トを実施いただいてきた リアルサウンドさんにて 「ガ
- ールズバンドクライ」特集ページを組んでいただきま
- した！\n㊗ 特集ページは こちら\n\n
+SUMMARY:[举办] real Sound 刊登 Girls Band Cry 特集页面！
+DESCRIPTION:动画自 4/5 起开播；real Sound 公开成员访谈、玉
+ 井健二访谈与 LIVE 报道等特集。\n\n
  https://girls-band-cry.com/news/post-101.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-101.html
 CATEGORIES:togenashi,live,media
@@ -245,14 +239,9 @@ DTSTART;VALUE=DATE:20240424
 DTEND;VALUE=DATE:20240425
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] オリジナルアルバム「棘アリ」本日発売！
-DESCRIPTION:トゲナシトゲアリ オリジナルアルバム「棘ア
- リ」本日発売です㊗ ・アニメ放送前=バンドのインディ
- ーズ時代を集約！\n・放送前にリリースした10曲を全て
- 収録！\nぜひゲットしてくださいね ご購入は こちら 配
- 信は こちら 【店舗別特典】 【第8話同時視聴会】 詳細
- は こちら 【アーティスト】 トゲナシトゲアリ Vo.井芹 
- 仁菜（CV:理名） Gt.河原木\n\n
+SUMMARY:[发售] 原创专辑《棘アリ》今日发售！
+DESCRIPTION:无刺有刺原创专辑《棘アリ》于 4/24 发售，收录
+ 动画播出前 10 首单曲；初回盘含 MV Blu-ray。\n\n
  https://girls-band-cry.com/news/post-121.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-121.html
 CATEGORIES:togenashi,music,cinema,media
@@ -264,15 +253,11 @@ DTSTART;VALUE=DATE:20240426
 DTEND;VALUE=DATE:20240427
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 第4話「感謝（驚）」WEB予告＆あらすじ公開
-DESCRIPTION:第4話「感謝（驚）」は 4/26(金)24:30～放送です
- 。\n放送・配信情報は こちら 第4話あらすじ すばるの
- 祖⺟が突如上京してくる。\n⾃分のやりたいことは⼥優
- じゃない。\nバンドなんだ⾳楽なんだ。\nここまできた
- ら私、はっきり⾔う。\nみんなに啖呵を切るすばるだが
- 、いざ会うと借りてきた猫のように微笑を浮かべてお
- 嬢様を演じるばかりだった。\n第4話WEB予告も公開中\n\n
- https://girls-band-cry.com/news/post-120.html
+SUMMARY:[举办] 第 4 话「感謝（驚）」WEB 预告＆剧情概要公
+ 开
+DESCRIPTION:第 4 话「感謝（驚）」于 4/26（五）24:30 起播出
+ ；昴的祖母突然上京，昴想说清自己真正想做的是乐队
+ 。\n\nhttps://girls-band-cry.com/news/post-120.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-120.html
 CATEGORIES:togenashi,media
 END:VEVENT

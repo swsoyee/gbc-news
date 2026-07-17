@@ -252,44 +252,32 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-96.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-123-2024-04-26-sale@gbc-news
+UID:post-123-2024-04-26_2024-06-30-sale@gbc-news
 DTSTAMP:20240426T000000Z
 DTSTART;VALUE=DATE:20240426
-DTEND;VALUE=DATE:20240427
+DTEND;VALUE=DATE:20240701
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 仁菜のフィギュアが登場！本日4/26（金）よ
- り東映アニメーションオフィシャルストアにて受注開
- 始！
-DESCRIPTION:アニメ『ガールズバンドクライ』より主人公の
- 井芹仁菜がフィギュアになって登場！\n4/26（金） より
- 東映アニメーションオフィシャルストアにて受注販売
- がスタート！\n6/30（日）23：59までの受付となります。\
- nご購入は こちら 力強い表情でたたずむその姿から仁
- 菜の強い意志を感じられるようなフィギュアになって
- います。\n細かく表現された衣装やギターにも注目！\n
- ファ\n\nhttps://girls-band-cry.com/news/post-123.html
+SUMMARY:[发售] 仁菜手办登场！自今日 4/26（五）起东映动
+ 画官方商店开始受理！
+DESCRIPTION:井芹仁菜手办自 4/26 起于东映动画官方商店受理
+ 至 6/30；样本自 4/27 起在 AniBirth 涉谷 PARCO 店展示。\n\n
+ https://girls-band-cry.com/news/post-123.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-123.html
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-123-2024-04-27-sale@gbc-news
+UID:post-123-2024-04-27-hold@gbc-news
 DTSTAMP:20240427T000000Z
 DTSTART;VALUE=DATE:20240427
 DTEND;VALUE=DATE:20240428
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 仁菜のフィギュアが登場！本日4/26（金）よ
- り東映アニメーションオフィシャルストアにて受注開
- 始！
-DESCRIPTION:アニメ『ガールズバンドクライ』より主人公の
- 井芹仁菜がフィギュアになって登場！\n4/26（金） より
- 東映アニメーションオフィシャルストアにて受注販売
- がスタート！\n6/30（日）23：59までの受付となります。\
- nご購入は こちら 力強い表情でたたずむその姿から仁
- 菜の強い意志を感じられるようなフィギュアになって
- います。\n細かく表現された衣装やギターにも注目！\n
- ファ\n\nhttps://girls-band-cry.com/news/post-123.html
+SUMMARY:[举办] 仁菜手办登场！自今日 4/26（五）起东映动
+ 画官方商店开始受理！
+DESCRIPTION:井芹仁菜手办自 4/26 起于东映动画官方商店受理
+ 至 6/30；样本自 4/27 起在 AniBirth 涉谷 PARCO 店展示。\n\n
+ https://girls-band-cry.com/news/post-123.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-123.html
 CATEGORIES:togenashi,goods
 END:VEVENT
@@ -321,27 +309,6 @@ DESCRIPTION:AniBirth 自 6/21 起发售 ED 插图主题钥匙扣、透明
  文件夹、毛巾、T 恤等周边。\n\n
  https://girls-band-cry.com/news/post-176.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-176.html
-CATEGORIES:togenashi,goods
-END:VEVENT
-BEGIN:VEVENT
-UID:post-123-2024-06-30-sale@gbc-news
-DTSTAMP:20240630T000000Z
-DTSTART;VALUE=DATE:20240630
-DTEND;VALUE=DATE:20240701
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] 仁菜のフィギュアが登場！本日4/26（金）よ
- り東映アニメーションオフィシャルストアにて受注開
- 始！
-DESCRIPTION:アニメ『ガールズバンドクライ』より主人公の
- 井芹仁菜がフィギュアになって登場！\n4/26（金） より
- 東映アニメーションオフィシャルストアにて受注販売
- がスタート！\n6/30（日）23：59までの受付となります。\
- nご購入は こちら 力強い表情でたたずむその姿から仁
- 菜の強い意志を感じられるようなフィギュアになって
- います。\n細かく表現された衣装やギターにも注目！\n
- ファ\n\nhttps://girls-band-cry.com/news/post-123.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-123.html
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT

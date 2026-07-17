@@ -861,35 +861,24 @@ DTSTART;VALUE=DATE:20240405
 DTEND;VALUE=DATE:20240406
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] リアルサウンドでガールズバンドクライ特
- 集ページ公開中！
-DESCRIPTION:いよいよ今週4/5(金)よりテレビアニメ放送スタ
- ート！\n これまで 「トゲナシトゲアリ」 のメンバーイ
- ンタビューや 音楽プロデューサーを務める玉井健二さ
- んのインタビュー、 そしてこれまでのライブのレポー
- トを実施いただいてきた リアルサウンドさんにて 「ガ
- ールズバンドクライ」特集ページを組んでいただきま
- した！\n㊗ 特集ページは こちら\n\n
+SUMMARY:[举办] real Sound 刊登 Girls Band Cry 特集页面！
+DESCRIPTION:动画自 4/5 起开播；real Sound 公开成员访谈、玉
+ 井健二访谈与 LIVE 报道等特集。\n\n
  https://girls-band-cry.com/news/post-101.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-101.html
 CATEGORIES:togenashi,live,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-108-2024-04-19-sale@gbc-news
-DTSTAMP:20240419T000000Z
-DTSTART;VALUE=DATE:20240419
-DTEND;VALUE=DATE:20240420
-TRANSP:TRANSPARENT
+UID:post-108-2024-04-20-hold-0100@gbc-news
+DTSTAMP:20240419T160000Z
+DTSTART:20240419T160000Z
+DTEND:20240419T180000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] TVアニメ『ガールズバンドクライ』【豪華
- 限定版BD/DVD】全7巻発売決定！
-DESCRIPTION:／／ TVアニメ『ガールズバンドクライ』 【豪
- 華限定版BD/DVD】全7巻発売決定！\n ＼＼ TVアニメ『ガー
- ルズバンドクライ』の映像商品化が決定！\n再来月の6/2
- 6(水)を皮切りに12月まで毎月発売！\n第1巻豪華限定版は
- 特典満載！\n・トゲナシトゲアリ 2ndワンマンライブチ
- ケット最速先行抽選申し込み券 ・デジジャケット仕様 
- ・三方背スリーブケース ・オー\n\n
+SUMMARY:[举办] TV 动画《Girls Band Cry》【豪华限定版 BD/DVD】
+ 全 7 卷发售决定！
+DESCRIPTION:豪华限定版 BD/DVD 全 7 卷自 6/26 起每月发售；详
+ 细信息于 4/19 25 时发表。\n\n
  https://girls-band-cry.com/news/post-108.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-108.html
 CATEGORIES:togenashi,live,music,cinema
@@ -1000,17 +989,11 @@ DTSTART:20240528T100000Z
 DTEND:20240528T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ8th Single『視界の隅 朽ち
- る音』発売記念 オンライントーク配信＆サイン会 開催
- のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド "トゲナシトゲアリ" 2024年6月19日(水)の8
- th Single『視界の隅 朽ちる音』発売を記念して、 リミス
- タでのオンライントーク配信＆サイン会 の開催が決定
- ！\n リミスタにて対象商品をご購入いただいたお客様
- に、アニメ「ガールズバンドクライ」\n\n
- https://girls-band-cry.com/news/post-128.html
+SUMMARY:[举办] 无刺有刺 8th Single《視界の隅 朽ちる音》发
+ 售纪念线上 talk 配信＆签名会举办通知
+DESCRIPTION:纪念 6/19 发售的 8th Single，5 月 28 日 19:00–20:00 
+ 于 Limista 举办线上 talk＆签名会；购入获签名视觉卡。\n\
+ nhttps://girls-band-cry.com/news/post-128.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-128.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
@@ -1028,6 +1011,21 @@ DESCRIPTION:第 11 话「世界のまん中」于 6/14（五）24:30 起播
  \nhttps://girls-band-cry.com/news/post-166.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-166.html
 CATEGORIES:togenashi,live,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-128-2024-06-19-sale@gbc-news
+DTSTAMP:20240619T000000Z
+DTSTART;VALUE=DATE:20240619
+DTEND;VALUE=DATE:20240620
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺 8th Single《視界の隅 朽ちる音》发
+ 售纪念线上 talk 配信＆签名会举办通知
+DESCRIPTION:纪念 6/19 发售的 8th Single，5 月 28 日 19:00–20:00 
+ 于 Limista 举办线上 talk＆签名会；购入获签名视觉卡。\n\
+ nhttps://girls-band-cry.com/news/post-128.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-128.html
+CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-175-2024-06-21-hold@gbc-news
@@ -1066,12 +1064,9 @@ DTSTART;VALUE=DATE:20240626
 DTEND;VALUE=DATE:20240627
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 2nd ONE-MAN LIVE 2024年秋 開催決定！
-DESCRIPTION:2024年秋にトゲナシトゲアリ2nd ONE-MAN LIVE の開催
- が決定しました！\nチケット先行抽選券は6月26日発売の
- 「ガールズバンドクライ」Blu-ray１巻についていますの
- で、お見逃しなく。\n＜Blu-rayの詳細は こちら ＞ LIVE情
- 報は後日解禁予定！\nお楽しみに！\n\n
+SUMMARY:[发售] 2nd ONE-MAN LIVE 2024 年秋举办决定！
+DESCRIPTION:无刺有刺 2nd 个人演唱会定于 2024 年秋举办；票
+ 务先行抽选券封入 6/26 发售的 Blu-ray 第 1 卷。\n\n
  https://girls-band-cry.com/news/post-105.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-105.html
 CATEGORIES:togenashi,live,event,cinema
@@ -1083,15 +1078,10 @@ DTSTART;VALUE=DATE:20240626
 DTEND;VALUE=DATE:20240627
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] TVアニメ『ガールズバンドクライ』【豪華
- 限定版BD/DVD】全7巻発売決定！
-DESCRIPTION:／／ TVアニメ『ガールズバンドクライ』 【豪
- 華限定版BD/DVD】全7巻発売決定！\n ＼＼ TVアニメ『ガー
- ルズバンドクライ』の映像商品化が決定！\n再来月の6/2
- 6(水)を皮切りに12月まで毎月発売！\n第1巻豪華限定版は
- 特典満載！\n・トゲナシトゲアリ 2ndワンマンライブチ
- ケット最速先行抽選申し込み券 ・デジジャケット仕様 
- ・三方背スリーブケース ・オー\n\n
+SUMMARY:[发售] TV 动画《Girls Band Cry》【豪华限定版 BD/DVD】
+ 全 7 卷发售决定！
+DESCRIPTION:豪华限定版 BD/DVD 全 7 卷自 6/26 起每月发售；详
+ 细信息于 4/19 25 时发表。\n\n
  https://girls-band-cry.com/news/post-108.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-108.html
 CATEGORIES:togenashi,live,music,cinema
@@ -1103,16 +1093,10 @@ DTSTART;VALUE=DATE:20240626
 DTEND;VALUE=DATE:20240627
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] TVアニメ『ガールズバンドクライ』待望の
- 映像商品発売決定！
-DESCRIPTION:TVアニメ『ガールズバンドクライ』待望の映像
- 商品発売決定！\n全13話の映像を収録した全7巻です TVア
- ニメの映像以外にも、各巻トゲナシトゲアリの新曲や
- 、豪華封入特典も付属した特別仕様となります TVアニ
- メ『ガールズバンドクライ』Blu-ray & DVD 各ストアでのご
- 予約は こちら から 【TVアニメ『ガールズバンドクライ
- 』映像商品情報】 ＝＝＝\n\n
- https://girls-band-cry.com/news/post-116.html
+SUMMARY:[发售] TV 动画《Girls Band Cry》影像商品发售决定！
+DESCRIPTION:全 13 话分 7 卷 Blu-ray＆DVD 豪华限定版发售；Vol.1
+  于 6/26 发售，含新曲 CD 与 2nd 个人演唱会票务最速先行
+ 券等。\n\nhttps://girls-band-cry.com/news/post-116.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-116.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT

@@ -475,21 +475,16 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-84.html
 CATEGORIES:togenashi,music,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-108-2024-04-19-sale@gbc-news
-DTSTAMP:20240419T000000Z
-DTSTART;VALUE=DATE:20240419
-DTEND;VALUE=DATE:20240420
-TRANSP:TRANSPARENT
+UID:post-108-2024-04-20-hold-0100@gbc-news
+DTSTAMP:20240419T160000Z
+DTSTART:20240419T160000Z
+DTEND:20240419T180000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] TVアニメ『ガールズバンドクライ』【豪華
- 限定版BD/DVD】全7巻発売決定！
-DESCRIPTION:／／ TVアニメ『ガールズバンドクライ』 【豪
- 華限定版BD/DVD】全7巻発売決定！\n ＼＼ TVアニメ『ガー
- ルズバンドクライ』の映像商品化が決定！\n再来月の6/2
- 6(水)を皮切りに12月まで毎月発売！\n第1巻豪華限定版は
- 特典満載！\n・トゲナシトゲアリ 2ndワンマンライブチ
- ケット最速先行抽選申し込み券 ・デジジャケット仕様 
- ・三方背スリーブケース ・オー\n\n
+SUMMARY:[举办] TV 动画《Girls Band Cry》【豪华限定版 BD/DVD】
+ 全 7 卷发售决定！
+DESCRIPTION:豪华限定版 BD/DVD 全 7 卷自 6/26 起每月发售；详
+ 细信息于 4/19 25 时发表。\n\n
  https://girls-band-cry.com/news/post-108.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-108.html
 CATEGORIES:togenashi,live,music,cinema
@@ -501,14 +496,9 @@ DTSTART;VALUE=DATE:20240424
 DTEND;VALUE=DATE:20240425
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] オリジナルアルバム「棘アリ」本日発売！
-DESCRIPTION:トゲナシトゲアリ オリジナルアルバム「棘ア
- リ」本日発売です㊗ ・アニメ放送前=バンドのインディ
- ーズ時代を集約！\n・放送前にリリースした10曲を全て
- 収録！\nぜひゲットしてくださいね ご購入は こちら 配
- 信は こちら 【店舗別特典】 【第8話同時視聴会】 詳細
- は こちら 【アーティスト】 トゲナシトゲアリ Vo.井芹 
- 仁菜（CV:理名） Gt.河原木\n\n
+SUMMARY:[发售] 原创专辑《棘アリ》今日发售！
+DESCRIPTION:无刺有刺原创专辑《棘アリ》于 4/24 发售，收录
+ 动画播出前 10 首单曲；初回盘含 MV Blu-ray。\n\n
  https://girls-band-cry.com/news/post-121.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-121.html
 CATEGORIES:togenashi,music,cinema,media
@@ -572,42 +562,19 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-90.html
 CATEGORIES:togenashi,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-107-2024-05-22-hold@gbc-news
+UID:post-107-2024-05-22-sale@gbc-news
 DTSTAMP:20240522T000000Z
 DTSTART;VALUE=DATE:20240522
 DTEND;VALUE=DATE:20240523
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 6th SINGLE『雑踏、僕らの街』 5/22(水) CDリリ
- ース決定！リリースイベントも開催！
-DESCRIPTION:／／ トゲナシトゲアリ 6th SINGLE『雑踏、僕らの
- 街』 5/22(水) CDリリース決定！\n ＼＼ (収録曲) ・オープ
- ニング主題歌「雑踏、僕らの街」 ・第1話挿入歌「空の
- 箱(井芹仁菜、河原木桃香)」 ・「空の箱（Vo.河原木桃
- 香） / ダイヤモンドダスト」 and more... <ご予約は こち
- ら > さらに 6th SINGLE リリースイベ\n\n
- https://girls-band-cry.com/news/post-107.html
+SUMMARY:[发售] 6th Single《雑踏、僕らの街》5/22（三）CD 发
+ 售决定！发售活动亦将举办！
+DESCRIPTION:收录 OP 主题曲的 6th Single 于 5/22 发售；6/22 于 an
+ imate 池袋本店举办第 12 话回顾上映会（14:00 / 17:00 两部
+ ）。\n\nhttps://girls-band-cry.com/news/post-107.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-107.html
 CATEGORIES:togenashi,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-109-2024-05-25-hold@gbc-news
-DTSTAMP:20240525T000000Z
-DTSTART;VALUE=DATE:20240525
-DTEND;VALUE=DATE:20240526
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ AL『棘アリ』購入者対象 
- TVアニメ【第8話】振り返り上映会 応募シリアル配布中
- ！！
-DESCRIPTION:／／ トゲナシトゲアリ AL『棘アリ』購入者対
- 象 TVアニメ【第8話】振り返り上映会 応募シリアル配布
- 中！！\n＼＼ (場所) アニメイトシアター(アニメイト池
- 袋本店B2F) (日程) 2024年5月25日(土) 【第1部】14:00スター
- ト 【第2部】17:00スタート ＜詳細は こちら ＞\n\n
- https://girls-band-cry.com/news/post-109.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-109.html
-CATEGORIES:togenashi,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-90-2024-05-25-sale@gbc-news
@@ -630,6 +597,36 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-90.html
 CATEGORIES:togenashi,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-109-2024-05-25-hold-1400@gbc-news
+DTSTAMP:20240525T050000Z
+DTSTART:20240525T050000Z
+DTEND:20240525T070000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺专辑《棘アリ》购入者对象 TV 动画
+ 【第 8 话】回顾上映会应募序号发放中！！
+DESCRIPTION:专辑购入者可应募 5/25 于 animate 池袋本店举办的
+ 第 8 话回顾上映会（14:00 / 17:00 两部）。\n\n
+ https://girls-band-cry.com/news/post-109.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-109.html
+CATEGORIES:togenashi,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-109-2024-05-25-hold-1700@gbc-news
+DTSTAMP:20240525T080000Z
+DTSTART:20240525T080000Z
+DTEND:20240525T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺专辑《棘アリ》购入者对象 TV 动画
+ 【第 8 话】回顾上映会应募序号发放中！！
+DESCRIPTION:专辑购入者可应募 5/25 于 animate 池袋本店举办的
+ 第 8 话回顾上映会（14:00 / 17:00 两部）。\n\n
+ https://girls-band-cry.com/news/post-109.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-109.html
+CATEGORIES:togenashi,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-151-2024-06-21-hold-1900@gbc-news
 DTSTAMP:20240621T100000Z
 DTSTART:20240621T100000Z
@@ -645,18 +642,45 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-151.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-107-2024-06-22-hold-1400@gbc-news
+DTSTAMP:20240622T050000Z
+DTSTART:20240622T050000Z
+DTEND:20240622T070000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 6th Single《雑踏、僕らの街》5/22（三）CD 发
+ 售决定！发售活动亦将举办！
+DESCRIPTION:收录 OP 主题曲的 6th Single 于 5/22 发售；6/22 于 an
+ imate 池袋本店举办第 12 话回顾上映会（14:00 / 17:00 两部
+ ）。\n\nhttps://girls-band-cry.com/news/post-107.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-107.html
+CATEGORIES:togenashi,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-107-2024-06-22-hold-1700@gbc-news
+DTSTAMP:20240622T080000Z
+DTSTART:20240622T080000Z
+DTEND:20240622T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 6th Single《雑踏、僕らの街》5/22（三）CD 发
+ 售决定！发售活动亦将举办！
+DESCRIPTION:收录 OP 主题曲的 6th Single 于 5/22 发售；6/22 于 an
+ imate 池袋本店举办第 12 话回顾上映会（14:00 / 17:00 两部
+ ）。\n\nhttps://girls-band-cry.com/news/post-107.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-107.html
+CATEGORIES:togenashi,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-105-2024-06-26-sale@gbc-news
 DTSTAMP:20240626T000000Z
 DTSTART;VALUE=DATE:20240626
 DTEND;VALUE=DATE:20240627
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 2nd ONE-MAN LIVE 2024年秋 開催決定！
-DESCRIPTION:2024年秋にトゲナシトゲアリ2nd ONE-MAN LIVE の開催
- が決定しました！\nチケット先行抽選券は6月26日発売の
- 「ガールズバンドクライ」Blu-ray１巻についていますの
- で、お見逃しなく。\n＜Blu-rayの詳細は こちら ＞ LIVE情
- 報は後日解禁予定！\nお楽しみに！\n\n
+SUMMARY:[发售] 2nd ONE-MAN LIVE 2024 年秋举办决定！
+DESCRIPTION:无刺有刺 2nd 个人演唱会定于 2024 年秋举办；票
+ 务先行抽选券封入 6/26 发售的 Blu-ray 第 1 卷。\n\n
  https://girls-band-cry.com/news/post-105.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-105.html
 CATEGORIES:togenashi,live,event,cinema
@@ -668,15 +692,10 @@ DTSTART;VALUE=DATE:20240626
 DTEND;VALUE=DATE:20240627
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] TVアニメ『ガールズバンドクライ』【豪華
- 限定版BD/DVD】全7巻発売決定！
-DESCRIPTION:／／ TVアニメ『ガールズバンドクライ』 【豪
- 華限定版BD/DVD】全7巻発売決定！\n ＼＼ TVアニメ『ガー
- ルズバンドクライ』の映像商品化が決定！\n再来月の6/2
- 6(水)を皮切りに12月まで毎月発売！\n第1巻豪華限定版は
- 特典満載！\n・トゲナシトゲアリ 2ndワンマンライブチ
- ケット最速先行抽選申し込み券 ・デジジャケット仕様 
- ・三方背スリーブケース ・オー\n\n
+SUMMARY:[发售] TV 动画《Girls Band Cry》【豪华限定版 BD/DVD】
+ 全 7 卷发售决定！
+DESCRIPTION:豪华限定版 BD/DVD 全 7 卷自 6/26 起每月发售；详
+ 细信息于 4/19 25 时发表。\n\n
  https://girls-band-cry.com/news/post-108.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-108.html
 CATEGORIES:togenashi,live,music,cinema
@@ -688,16 +707,10 @@ DTSTART;VALUE=DATE:20240626
 DTEND;VALUE=DATE:20240627
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] TVアニメ『ガールズバンドクライ』待望の
- 映像商品発売決定！
-DESCRIPTION:TVアニメ『ガールズバンドクライ』待望の映像
- 商品発売決定！\n全13話の映像を収録した全7巻です TVア
- ニメの映像以外にも、各巻トゲナシトゲアリの新曲や
- 、豪華封入特典も付属した特別仕様となります TVアニ
- メ『ガールズバンドクライ』Blu-ray & DVD 各ストアでのご
- 予約は こちら から 【TVアニメ『ガールズバンドクライ
- 』映像商品情報】 ＝＝＝\n\n
- https://girls-band-cry.com/news/post-116.html
+SUMMARY:[发售] TV 动画《Girls Band Cry》影像商品发售决定！
+DESCRIPTION:全 13 话分 7 卷 Blu-ray＆DVD 豪华限定版发售；Vol.1
+  于 6/26 发售，含新曲 CD 与 2nd 个人演唱会票务最速先行
+ 券等。\n\nhttps://girls-band-cry.com/news/post-116.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-116.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
