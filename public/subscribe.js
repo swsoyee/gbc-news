@@ -381,7 +381,7 @@ function applyDayState(el, cell, today) {
   if (cell.date === today) el.classList.add('is-today')
 }
 
-/** 统一 gutter + N 列，保证日期头 / 全天 / 时段列对齐 */
+/** 统一 gutter + N 列；全天 chip 悬浮在表头日期 cell 内（数字下方） */
 function renderTimeGridFrame(events, cells, today) {
   const colCount = cells.length
   const root = document.createElement('div')
@@ -407,13 +407,6 @@ function renderTimeGridFrame(events, cells, today) {
     frame.appendChild(head)
   }
 
-  const allDayLabel = document.createElement('div')
-  allDayLabel.className = 'calendar-allday-label'
-  allDayLabel.textContent = '全天'
-  frame.appendChild(allDayLabel)
-
-  const allDayTrack = document.createElement('div')
-  allDayTrack.className = 'calendar-allday-track'
   const allDayEvents = events.filter(isAllDayEvent)
   const segments = buildWeekSegments(allDayEvents, cells)
   for (const segment of segments) {
@@ -421,7 +414,9 @@ function renderTimeGridFrame(events, cells, today) {
     chip.className =
       segment.event.kind === 'sale' ? 'calendar-chip is-sale is-allday' : 'calendar-chip is-allday'
     if (segment.event.endDate > segment.event.date) chip.classList.add('is-span')
-    chip.style.gridColumn = `${segment.startColumn + 1} / ${segment.endColumn + 2}`
+    // frame 第 1 列为 gutter，日期列从 2 起
+    chip.style.gridColumn = `${segment.startColumn + 2} / ${segment.endColumn + 3}`
+    chip.style.gridRow = '1'
     chip.style.setProperty('--calendar-lane', String(segment.lane))
     chip.href = segment.event.item.url
     chip.target = '_blank'
@@ -429,11 +424,10 @@ function renderTimeGridFrame(events, cells, today) {
     const tooltipText = `${eventKindLabel(segment.event.kind)} ${segment.event.item.title}`
     bindEventTooltip(chip, tooltipText)
     chip.textContent = chipLabel(segment)
-    allDayTrack.appendChild(chip)
+    frame.appendChild(chip)
   }
   const laneCount = segments.reduce((max, segment) => Math.max(max, segment.lane + 1), 0)
-  allDayTrack.style.setProperty('--allday-lanes', String(Math.max(laneCount, 1)))
-  frame.appendChild(allDayTrack)
+  frame.style.setProperty('--allday-lanes', String(Math.max(laneCount, 1)))
 
   const hourRail = buildHourRail()
   frame.appendChild(hourRail)
