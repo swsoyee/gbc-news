@@ -2,10 +2,16 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { buildIcal, buildRss } from '../src/feeds/build.js'
-import { expandEventDates } from '../src/feeds/expand.js'
+import {
+  mergeNewsSnapshots,
+  requireExpandableEntries,
+  requireNonEmptyMergedItems,
+  type SnapshotLike,
+} from '../src/feeds/merge-snapshots.js'
 import { CATEGORY_IDS, CATEGORY_LABELS, type CategoryId } from '../src/models/categories.js'
 import { GROUP_IDS, GROUP_LABELS } from '../src/models/groups.js'
-import { assertNewsItem, filterItems, type NewsItem } from '../src/models/item.js'
+import { filterItems } from '../src/models/item.js'
+import { expandEventDates } from '../src/feeds/expand.js'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const sourcePaths = [
@@ -16,43 +22,22 @@ const sourcePaths = [
 const publicDataPath = join(root, 'public/data/news.json')
 const feedsDir = join(root, 'public/feeds')
 
-interface Snapshot {
-  items: NewsItem[]
-  scrapedAt?: string
-  count?: number
-  sourceId?: string
-  maxPages?: number
-}
-
 async function main(): Promise<void> {
-  const merged: NewsItem[] = []
-  const sources: string[] = []
+  const inputs = await Promise.all(
+    sourcePaths.map(async (dataPath) => {
+      try {
+        const rawText = await readFile(dataPath, 'utf8')
+        return { label: dataPath, snapshot: JSON.parse(rawText) as SnapshotLike }
+      } catch {
+        return { label: dataPath, snapshot: null }
+      }
+    }),
+  )
 
-  for (const dataPath of sourcePaths) {
-    let rawText: string
-    try {
-      rawText = await readFile(dataPath, 'utf8')
-    } catch {
-      console.warn(`[warn] ${dataPath} 不存在，跳过该源`)
-      continue
-    }
+  const { merged, sources, warnings } = mergeNewsSnapshots(inputs)
+  for (const warning of warnings) console.warn(`[warn] ${warning}`)
 
-    const raw = JSON.parse(rawText) as Snapshot
-    if (!Array.isArray(raw.items) || raw.items.length === 0) {
-      console.warn(`[warn] ${dataPath} 无有效 items，跳过`)
-      continue
-    }
-
-    for (const item of raw.items) assertNewsItem(item)
-    merged.push(...raw.items)
-    sources.push(raw.sourceId ?? dataPath)
-  }
-
-  if (merged.length === 0) {
-    throw new Error('无可用资讯快照，拒绝生成空订阅（请先 scrape）')
-  }
-
-  merged.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+  requireNonEmptyMergedItems(merged)
 
   const siteUrl = process.env.SITE_URL ?? 'https://gbc-news.example.com'
   await mkdir(dirname(publicDataPath), { recursive: true })
@@ -66,10 +51,7 @@ async function main(): Promise<void> {
   }
   await writeFile(publicDataPath, `${JSON.stringify(snapshot, null, 2)}\n`, 'utf8')
 
-  const allEntries = expandEventDates(merged)
-  if (allEntries.length === 0) {
-    throw new Error('展开后无活动日期条目，拒绝写出空 RSS/iCal')
-  }
+  const allEntries = requireExpandableEntries(merged)
 
   await writeRss('all', allEntries, siteUrl)
   await writeIcs('all', allEntries, siteUrl)
