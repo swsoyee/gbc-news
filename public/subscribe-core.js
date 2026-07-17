@@ -1,4 +1,11 @@
+// src/models/event-date.ts
+function defaultDurationMinutes(kind) {
+  return kind === "sale" ? 60 : 120;
+}
+
 // src/web/subscribe-core.ts
+var MIN_TIMED_BLOCK_MINUTES = 30;
+var DAY_MINUTES = 1440;
 var WEEKDAY_LABELS = ["\u65E5", "\u4E00", "\u4E8C", "\u4E09", "\u56DB", "\u4E94", "\u516D"];
 function toIsoDate(date) {
   const year = date.getFullYear();
@@ -145,18 +152,129 @@ function buildCalendarEvents(items, groups, categories, groupCount, categoryCoun
   for (const item of filterNewsItems(items, groups, categories, groupCount, categoryCount)) {
     for (const eventDate of item.eventDates ?? []) {
       if (!eventDate.date) continue;
+      let endDate = eventDate.endDate && eventDate.endDate > eventDate.date ? eventDate.endDate : eventDate.date;
+      if (eventDate.startTime && eventDate.endTime && endDate === eventDate.date && eventDate.endTime <= eventDate.startTime) {
+        endDate = addCalendarDays(eventDate.date, 1);
+      }
       events.push({
         item,
         date: eventDate.date,
-        endDate: eventDate.endDate && eventDate.endDate > eventDate.date ? eventDate.endDate : eventDate.date,
+        endDate,
         kind: eventDate.kind,
-        ...eventDate.startTime ? { startTime: eventDate.startTime } : {}
+        ...eventDate.startTime ? { startTime: eventDate.startTime } : {},
+        ...eventDate.endTime ? { endTime: eventDate.endTime } : {}
       });
     }
   }
   return events.sort(
     (a, b) => a.date.localeCompare(b.date) || (a.startTime ?? "").localeCompare(b.startTime ?? "") || a.item.title.localeCompare(b.item.title)
   );
+}
+function isAllDayEvent(event) {
+  return !event.startTime;
+}
+function parseHhmm(time) {
+  const [hh, mm] = time.split(":").map(Number);
+  return hh * 60 + mm;
+}
+function formatHhmm(totalMinutes) {
+  const wrapped = (totalMinutes % DAY_MINUTES + DAY_MINUTES) % DAY_MINUTES;
+  const hh = Math.floor(wrapped / 60);
+  const mm = wrapped % 60;
+  return `${String(hh).padStart(2, "0")}:${String(mm).padStart(2, "0")}`;
+}
+function addCalendarDays(date, days) {
+  const [y, m, d] = date.split("-").map(Number);
+  const dt = new Date(Date.UTC(y, m - 1, d + days));
+  const month = String(dt.getUTCMonth() + 1).padStart(2, "0");
+  const day = String(dt.getUTCDate()).padStart(2, "0");
+  return `${dt.getUTCFullYear()}-${month}-${day}`;
+}
+function resolveEventWallRange(event) {
+  if (!event.startTime) return null;
+  const startDate = event.date;
+  const startTime = event.startTime;
+  const spanEndDate = event.endDate;
+  if (event.endTime) {
+    let endDate2 = spanEndDate;
+    if (spanEndDate === startDate && event.endTime <= startTime) {
+      endDate2 = addCalendarDays(startDate, 1);
+    }
+    return { startDate, startTime, endDate: endDate2, endTime: event.endTime };
+  }
+  if (spanEndDate > startDate) {
+    return { startDate, startTime, endDate: spanEndDate, endTime: "23:59" };
+  }
+  const duration = defaultDurationMinutes(event.kind);
+  const endTotal = parseHhmm(startTime) + duration;
+  const dayDelta = Math.floor(endTotal / DAY_MINUTES);
+  const endTime = formatHhmm(endTotal);
+  const endDate = dayDelta > 0 ? addCalendarDays(startDate, dayDelta) : startDate;
+  return { startDate, startTime, endDate, endTime };
+}
+function formatTimeRangeLabel(startTime, endTime) {
+  return `${startTime}\u2013${endTime}`;
+}
+function buildDayTimedBlocks(events, isoDate) {
+  const blocks = [];
+  for (const event of events) {
+    const range = resolveEventWallRange(event);
+    if (!range) continue;
+    if (isoDate < range.startDate || isoDate > range.endDate) continue;
+    let startMin = 0;
+    let endMin = DAY_MINUTES;
+    let continuesBefore = false;
+    let continuesAfter = false;
+    if (isoDate === range.startDate) {
+      startMin = parseHhmm(range.startTime);
+    } else {
+      continuesBefore = true;
+    }
+    if (isoDate === range.endDate) {
+      endMin = parseHhmm(range.endTime);
+      if (endMin === 0 && isoDate === range.endDate && range.endDate > range.startDate) {
+        continue;
+      }
+    } else {
+      continuesAfter = true;
+    }
+    if (endMin <= startMin) continue;
+    blocks.push({
+      event,
+      startMin,
+      endMin,
+      continuesBefore,
+      continuesAfter,
+      lane: 0
+    });
+  }
+  return blocks.sort(
+    (a, b) => a.startMin - b.startMin || b.endMin - a.endMin || a.event.item.title.localeCompare(b.event.item.title)
+  );
+}
+function layoutTimedLanes(blocks) {
+  const laneEnds = [];
+  for (const block of blocks) {
+    let lane = laneEnds.findIndex((endMin) => endMin <= block.startMin);
+    if (lane === -1) lane = laneEnds.length;
+    laneEnds[lane] = block.endMin;
+    block.lane = lane;
+  }
+  return blocks;
+}
+function timedBlockStyle(block, laneCount) {
+  const span = Math.max(block.endMin - block.startMin, MIN_TIMED_BLOCK_MINUTES);
+  const top = block.startMin / DAY_MINUTES * 100;
+  const height = span / DAY_MINUTES * 100;
+  const lanes = Math.max(laneCount, 1);
+  const width = 100 / lanes;
+  const left = block.lane / lanes * 100;
+  return {
+    top: `${top}%`,
+    height: `${height}%`,
+    left: `${left}%`,
+    width: `${width}%`
+  };
 }
 function buildWeekSegments(events, cells) {
   const weekStart = cells[0].date;
@@ -193,9 +311,12 @@ function chipLabel(segment) {
   return `${kind} ${startMark}${time}${event.item.title}${endMark}`;
 }
 export {
+  DAY_MINUTES,
+  MIN_TIMED_BLOCK_MINUTES,
   WEEKDAY_LABELS,
   buildCalendarEvents,
   buildDayMeta,
+  buildDayTimedBlocks,
   buildFeedUrls,
   buildMonthCells,
   buildWeekCells,
@@ -205,14 +326,19 @@ export {
   filterNewsItems,
   formatDayLabel,
   formatMonthLabel,
+  formatTimeRangeLabel,
   formatWeekLabel,
+  isAllDayEvent,
   labelList,
+  layoutTimedLanes,
   mondayBasedWeekday,
+  resolveEventWallRange,
   shiftDay,
   shiftMonth,
   startOfDay,
   startOfMonth,
   startOfWeek,
+  timedBlockStyle,
   toIsoDate,
   toWebcal,
   withFeedRev

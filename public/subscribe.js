@@ -1,5 +1,6 @@
 import {
   buildCalendarEvents as buildCalendarEventsCore,
+  buildDayTimedBlocks,
   buildFeedUrls as buildFeedUrlsCore,
   buildMonthCells as buildMonthCellsCore,
   buildWeekCells as buildWeekCellsCore,
@@ -8,13 +9,18 @@ import {
   eventKindLabel,
   formatDayLabel,
   formatMonthLabel,
+  formatTimeRangeLabel,
   formatWeekLabel,
+  isAllDayEvent,
   labelList,
+  layoutTimedLanes,
+  resolveEventWallRange,
   shiftDay,
   shiftMonth,
   startOfDay,
   startOfMonth,
   startOfWeek,
+  timedBlockStyle,
   toIsoDate,
   toWebcal,
   withFeedRev,
@@ -69,7 +75,7 @@ let calendarView = 'month'
 /** 当前看板日期：本地时区的某一天 */
 let calendarCursor = startOfDay(new Date())
 
-/** @type {{ title: string, url: string, groups?: string[], categories?: string[], eventDates?: { date: string, endDate?: string, kind: 'hold' | 'sale', startTime?: string }[] }[]} */
+/** @type {{ title: string, url: string, groups?: string[], categories?: string[], eventDates?: { date: string, endDate?: string, kind: 'hold' | 'sale', startTime?: string, endTime?: string }[] }[]} */
 let newsItems = []
 
 /** 来自 news.json scrapedAt，用于 ICS URL ?v= */
@@ -231,6 +237,14 @@ function syncCalendarNav() {
   }
 }
 
+function bindEventTooltip(el, text) {
+  el.setAttribute('aria-label', text)
+  el.addEventListener('mouseenter', () => showCalendarTooltip(el, text))
+  el.addEventListener('mouseleave', hideCalendarTooltip)
+  el.addEventListener('focus', () => showCalendarTooltip(el, text))
+  el.addEventListener('blur', hideCalendarTooltip)
+}
+
 function appendDayCell(weekEl, cell, dayIndex, today) {
   const cellEl = document.createElement('div')
   cellEl.className = 'calendar-day-cell'
@@ -272,11 +286,7 @@ function renderWeekRow(events, weekCells, today, chipLimit) {
     chip.target = '_blank'
     chip.rel = 'noopener'
     const tooltipText = `${eventKindLabel(event.kind)} ${event.item.title}`
-    chip.setAttribute('aria-label', tooltipText)
-    chip.addEventListener('mouseenter', () => showCalendarTooltip(chip, tooltipText))
-    chip.addEventListener('mouseleave', hideCalendarTooltip)
-    chip.addEventListener('focus', () => showCalendarTooltip(chip, tooltipText))
-    chip.addEventListener('blur', hideCalendarTooltip)
+    bindEventTooltip(chip, tooltipText)
     chip.textContent = chipLabel(segment)
     weekEl.appendChild(chip)
   }
@@ -311,41 +321,183 @@ function renderWeekRow(events, weekCells, today, chipLimit) {
   }
 }
 
-function renderDayAgenda(events, isoDate) {
-  const agenda = document.createElement('div')
-  agenda.className = 'calendar-day-agenda'
-  const dayEvents = events.filter((event) => event.date <= isoDate && isoDate <= event.endDate)
+function appendTimedBlocks(layerEl, events, isoDate) {
+  const blocks = layoutTimedLanes(buildDayTimedBlocks(events, isoDate))
+  const laneCount = blocks.reduce((max, block) => Math.max(max, block.lane + 1), 0)
+  for (const block of blocks) {
+    const style = timedBlockStyle(block, laneCount)
+    const el = document.createElement('a')
+    el.className =
+      block.event.kind === 'sale' ? 'calendar-timed-block is-sale' : 'calendar-timed-block'
+    el.href = block.event.item.url
+    el.target = '_blank'
+    el.rel = 'noopener'
+    el.style.top = style.top
+    el.style.height = style.height
+    el.style.left = style.left
+    el.style.width = style.width
 
-  if (dayEvents.length === 0) {
+    const range = resolveEventWallRange(block.event)
+    const timeText = range
+      ? formatTimeRangeLabel(
+          block.continuesBefore ? '00:00' : range.startTime,
+          block.continuesAfter ? '24:00' : range.endTime,
+        )
+      : ''
+    const timeEl = document.createElement('div')
+    timeEl.className = 'calendar-timed-time'
+    timeEl.textContent = timeText
+    const titleEl = document.createElement('div')
+    titleEl.className = 'calendar-timed-title'
+    titleEl.textContent = block.event.item.title
+    el.append(timeEl, titleEl)
+
+    const tooltipText = `${eventKindLabel(block.event.kind)} ${timeText} ${block.event.item.title}`
+    bindEventTooltip(el, tooltipText)
+    layerEl.appendChild(el)
+  }
+  return blocks.length
+}
+
+function buildHourRail() {
+  const rail = document.createElement('div')
+  rail.className = 'calendar-hour-rail'
+  rail.setAttribute('aria-hidden', 'true')
+  for (let hour = 0; hour < 24; hour += 1) {
+    const mark = document.createElement('div')
+    mark.className = 'calendar-hour-mark'
+    mark.textContent = `${String(hour).padStart(2, '0')}:00`
+    rail.appendChild(mark)
+  }
+  return rail
+}
+
+function buildTimedBody() {
+  const body = document.createElement('div')
+  body.className = 'calendar-timed-body'
+  body.appendChild(buildHourRail())
+  const columns = document.createElement('div')
+  columns.className = 'calendar-timed-columns'
+  body.appendChild(columns)
+  return { body, columns }
+}
+
+function renderAllDayStrip(events, cells, today) {
+  const strip = document.createElement('div')
+  strip.className = 'calendar-allday'
+  const allDayEvents = events.filter(isAllDayEvent)
+  const segments = buildWeekSegments(allDayEvents, cells)
+
+  for (const [dayIndex, cell] of cells.entries()) {
+    const cellEl = document.createElement('div')
+    cellEl.className = 'calendar-allday-cell'
+    if (cell.isRestDay) cellEl.classList.add('is-rest-day')
+    if (cell.holidayName) cellEl.classList.add('is-holiday')
+    if (cell.date === today) cellEl.classList.add('is-today')
+    const num = document.createElement('div')
+    num.className = 'calendar-day-num'
+    num.textContent = String(cell.dayNum)
+    cellEl.appendChild(num)
+    cellEl.style.gridColumn = String(dayIndex + 1)
+    strip.appendChild(cellEl)
+  }
+
+  for (const segment of segments) {
+    const chip = document.createElement('a')
+    chip.className =
+      segment.event.kind === 'sale' ? 'calendar-chip is-sale is-allday' : 'calendar-chip is-allday'
+    if (segment.event.endDate > segment.event.date) chip.classList.add('is-span')
+    chip.style.gridColumn = `${segment.startColumn + 1} / ${segment.endColumn + 2}`
+    chip.style.setProperty('--calendar-lane', String(segment.lane))
+    chip.href = segment.event.item.url
+    chip.target = '_blank'
+    chip.rel = 'noopener'
+    const tooltipText = `${eventKindLabel(segment.event.kind)} ${segment.event.item.title}`
+    bindEventTooltip(chip, tooltipText)
+    chip.textContent = chipLabel(segment)
+    strip.appendChild(chip)
+  }
+
+  const laneCount = segments.reduce((max, segment) => Math.max(max, segment.lane + 1), 0)
+  strip.style.setProperty('--allday-lanes', String(Math.max(laneCount, 1)))
+  return strip
+}
+
+function renderWeekTimeGrid(events, weekCells, today) {
+  const root = document.createElement('div')
+  root.className = 'calendar-time-grid is-week'
+
+  root.appendChild(renderAllDayStrip(events, weekCells, today))
+
+  const { body, columns } = buildTimedBody()
+  columns.style.gridTemplateColumns = `repeat(${weekCells.length}, minmax(5.5rem, 1fr))`
+
+  for (const cell of weekCells) {
+    const col = document.createElement('div')
+    col.className = 'calendar-time-col'
+    if (cell.isRestDay) col.classList.add('is-rest-day')
+    if (cell.holidayName) col.classList.add('is-holiday')
+    if (cell.date === today) col.classList.add('is-today')
+
+    const layer = document.createElement('div')
+    layer.className = 'calendar-timed-layer'
+    appendTimedBlocks(layer, events, cell.date)
+    col.appendChild(layer)
+    columns.appendChild(col)
+  }
+
+  root.appendChild(body)
+  calendarGridEl.appendChild(root)
+}
+
+function renderDayTimeGrid(events, isoDate, today) {
+  const root = document.createElement('div')
+  root.className = 'calendar-time-grid is-day'
+
+  const dayCell = {
+    date: isoDate,
+    dayNum: Number(isoDate.slice(8, 10)),
+    inMonth: true,
+    isRestDay: false,
+    holidayName: holidayNames.get(isoDate),
+  }
+  const cursorDate = new Date(
+    Number(isoDate.slice(0, 4)),
+    Number(isoDate.slice(5, 7)) - 1,
+    Number(isoDate.slice(8, 10)),
+  )
+  dayCell.isRestDay = cursorDate.getDay() === 0 || cursorDate.getDay() === 6
+  dayCell.dayNum = cursorDate.getDate()
+
+  root.appendChild(renderAllDayStrip(events, [dayCell], today))
+
+  const { body, columns } = buildTimedBody()
+  columns.style.gridTemplateColumns = '1fr'
+
+  const col = document.createElement('div')
+  col.className = 'calendar-time-col'
+  if (dayCell.isRestDay) col.classList.add('is-rest-day')
+  if (dayCell.holidayName) col.classList.add('is-holiday')
+  if (isoDate === today) col.classList.add('is-today')
+
+  const layer = document.createElement('div')
+  layer.className = 'calendar-timed-layer'
+  const timedCount = appendTimedBlocks(layer, events, isoDate)
+  col.appendChild(layer)
+  columns.appendChild(col)
+  root.appendChild(body)
+
+  const allDayCount = events.filter(
+    (event) => isAllDayEvent(event) && event.date <= isoDate && isoDate <= event.endDate,
+  ).length
+  if (timedCount === 0 && allDayCount === 0) {
     const empty = document.createElement('div')
     empty.className = 'calendar-day-empty'
     empty.textContent = '当天当前筛选下没有活动'
-    agenda.appendChild(empty)
-    calendarGridEl.appendChild(agenda)
-    return
+    root.appendChild(empty)
   }
 
-  for (const event of dayEvents) {
-    const item = document.createElement('a')
-    item.className = event.kind === 'sale' ? 'calendar-agenda-item is-sale' : 'calendar-agenda-item'
-    item.href = event.item.url
-    item.target = '_blank'
-    item.rel = 'noopener'
-
-    const meta = document.createElement('div')
-    meta.className = 'calendar-agenda-meta'
-    const range = event.endDate > event.date ? `${event.date}～${event.endDate}` : event.date
-    const time = event.startTime && event.date === isoDate ? ` · ${event.startTime}` : ''
-    meta.textContent = `${eventKindLabel(event.kind)} · ${range}${time}`
-
-    const title = document.createElement('div')
-    title.className = 'calendar-agenda-title'
-    title.textContent = event.item.title
-
-    item.append(meta, title)
-    agenda.appendChild(item)
-  }
-  calendarGridEl.appendChild(agenda)
+  calendarGridEl.appendChild(root)
 }
 
 function renderCalendar(groups, categories) {
@@ -376,7 +528,7 @@ function renderCalendar(groups, categories) {
       calendarNoteEl.textContent =
         count > 0 ? `当天 ${count} 件（受当前筛选影响）` : '当天当前筛选下没有活动'
     }
-    renderDayAgenda(events, isoDate)
+    renderDayTimeGrid(events, isoDate, today)
     return
   }
 
@@ -393,7 +545,7 @@ function renderCalendar(groups, categories) {
       calendarNoteEl.textContent =
         count > 0 ? `本周 ${count} 件（受当前筛选影响）` : '本周当前筛选下没有活动'
     }
-    renderWeekRow(events, weekCells, today, CHIPS_PER_WEEK)
+    renderWeekTimeGrid(events, weekCells, today)
     return
   }
 

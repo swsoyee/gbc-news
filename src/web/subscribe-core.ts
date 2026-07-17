@@ -1,3 +1,5 @@
+import { defaultDurationMinutes } from '../models/event-date.js'
+
 export type CalendarView = 'month' | 'week' | 'day'
 
 export interface CatalogItem {
@@ -15,6 +17,7 @@ export interface NewsItemLike {
     endDate?: string
     kind: 'hold' | 'sale'
     startTime?: string
+    endTime?: string
   }[]
 }
 
@@ -24,7 +27,29 @@ export interface CalendarEvent {
   endDate: string
   kind: 'hold' | 'sale'
   startTime?: string
+  endTime?: string
 }
+
+export interface EventWallRange {
+  startDate: string
+  startTime: string
+  endDate: string
+  endTime: string
+}
+
+/** 某日时间轴上的可视片段（分钟 0–1440） */
+export interface TimedBlock {
+  event: CalendarEvent
+  startMin: number
+  endMin: number
+  continuesBefore: boolean
+  continuesAfter: boolean
+  lane: number
+}
+
+/** 渲染时最短色块高度（分钟） */
+export const MIN_TIMED_BLOCK_MINUTES = 30
+export const DAY_MINUTES = 1440
 
 export interface DayCell {
   date: string
@@ -245,15 +270,23 @@ export function buildCalendarEvents(
   for (const item of filterNewsItems(items, groups, categories, groupCount, categoryCount)) {
     for (const eventDate of item.eventDates ?? []) {
       if (!eventDate.date) continue
+      let endDate =
+        eventDate.endDate && eventDate.endDate > eventDate.date ? eventDate.endDate : eventDate.date
+      if (
+        eventDate.startTime &&
+        eventDate.endTime &&
+        endDate === eventDate.date &&
+        eventDate.endTime <= eventDate.startTime
+      ) {
+        endDate = addCalendarDays(eventDate.date, 1)
+      }
       events.push({
         item,
         date: eventDate.date,
-        endDate:
-          eventDate.endDate && eventDate.endDate > eventDate.date
-            ? eventDate.endDate
-            : eventDate.date,
+        endDate,
         kind: eventDate.kind,
         ...(eventDate.startTime ? { startTime: eventDate.startTime } : {}),
+        ...(eventDate.endTime ? { endTime: eventDate.endTime } : {}),
       })
     }
   }
@@ -263,6 +296,146 @@ export function buildCalendarEvents(
       (a.startTime ?? '').localeCompare(b.startTime ?? '') ||
       a.item.title.localeCompare(b.item.title),
   )
+}
+
+export function isAllDayEvent(event: CalendarEvent): boolean {
+  return !event.startTime
+}
+
+function parseHhmm(time: string): number {
+  const [hh, mm] = time.split(':').map(Number) as [number, number]
+  return hh * 60 + mm
+}
+
+function formatHhmm(totalMinutes: number): string {
+  const wrapped = ((totalMinutes % DAY_MINUTES) + DAY_MINUTES) % DAY_MINUTES
+  const hh = Math.floor(wrapped / 60)
+  const mm = wrapped % 60
+  return `${String(hh).padStart(2, '0')}:${String(mm).padStart(2, '0')}`
+}
+
+function addCalendarDays(date: string, days: number): string {
+  const [y, m, d] = date.split('-').map(Number) as [number, number, number]
+  const dt = new Date(Date.UTC(y, m - 1, d + days))
+  const month = String(dt.getUTCMonth() + 1).padStart(2, '0')
+  const day = String(dt.getUTCDate()).padStart(2, '0')
+  return `${dt.getUTCFullYear()}-${month}-${day}`
+}
+
+/** 有 startTime 时解析墙钟起止（缺 endTime 时补默认时长）。 */
+export function resolveEventWallRange(event: CalendarEvent): EventWallRange | null {
+  if (!event.startTime) return null
+
+  const startDate = event.date
+  const startTime = event.startTime
+  const spanEndDate = event.endDate
+
+  if (event.endTime) {
+    let endDate = spanEndDate
+    if (spanEndDate === startDate && event.endTime <= startTime) {
+      endDate = addCalendarDays(startDate, 1)
+    }
+    return { startDate, startTime, endDate, endTime: event.endTime }
+  }
+
+  if (spanEndDate > startDate) {
+    return { startDate, startTime, endDate: spanEndDate, endTime: '23:59' }
+  }
+
+  const duration = defaultDurationMinutes(event.kind)
+  const endTotal = parseHhmm(startTime) + duration
+  const dayDelta = Math.floor(endTotal / DAY_MINUTES)
+  const endTime = formatHhmm(endTotal)
+  const endDate = dayDelta > 0 ? addCalendarDays(startDate, dayDelta) : startDate
+  return { startDate, startTime, endDate, endTime }
+}
+
+export function formatTimeRangeLabel(startTime: string, endTime: string): string {
+  return `${startTime}–${endTime}`
+}
+
+/** 将有时刻事件裁剪到某一天的时间轴片段。 */
+export function buildDayTimedBlocks(events: CalendarEvent[], isoDate: string): TimedBlock[] {
+  const blocks: TimedBlock[] = []
+  for (const event of events) {
+    const range = resolveEventWallRange(event)
+    if (!range) continue
+    if (isoDate < range.startDate || isoDate > range.endDate) continue
+
+    let startMin = 0
+    let endMin = DAY_MINUTES
+    let continuesBefore = false
+    let continuesAfter = false
+
+    if (isoDate === range.startDate) {
+      startMin = parseHhmm(range.startTime)
+    } else {
+      continuesBefore = true
+    }
+
+    if (isoDate === range.endDate) {
+      endMin = parseHhmm(range.endTime)
+      // 结束恰为 00:00 表示落在当日起点，无可视时长
+      if (endMin === 0 && isoDate === range.endDate && range.endDate > range.startDate) {
+        continue
+      }
+    } else {
+      continuesAfter = true
+    }
+
+    if (endMin <= startMin) continue
+
+    blocks.push({
+      event,
+      startMin,
+      endMin,
+      continuesBefore,
+      continuesAfter,
+      lane: 0,
+    })
+  }
+
+  return blocks.sort(
+    (a, b) =>
+      a.startMin - b.startMin ||
+      b.endMin - a.endMin ||
+      a.event.item.title.localeCompare(b.event.item.title),
+  )
+}
+
+/** 重叠时段分 lane，供列内并排。 */
+export function layoutTimedLanes(blocks: TimedBlock[]): TimedBlock[] {
+  const laneEnds: number[] = []
+  for (const block of blocks) {
+    let lane = laneEnds.findIndex((endMin) => endMin <= block.startMin)
+    if (lane === -1) lane = laneEnds.length
+    laneEnds[lane] = block.endMin
+    block.lane = lane
+  }
+  return blocks
+}
+
+export function timedBlockStyle(
+  block: TimedBlock,
+  laneCount: number,
+): {
+  top: string
+  height: string
+  left: string
+  width: string
+} {
+  const span = Math.max(block.endMin - block.startMin, MIN_TIMED_BLOCK_MINUTES)
+  const top = (block.startMin / DAY_MINUTES) * 100
+  const height = (span / DAY_MINUTES) * 100
+  const lanes = Math.max(laneCount, 1)
+  const width = 100 / lanes
+  const left = (block.lane / lanes) * 100
+  return {
+    top: `${top}%`,
+    height: `${height}%`,
+    left: `${left}%`,
+    width: `${width}%`,
+  }
 }
 
 export function buildWeekSegments(events: CalendarEvent[], cells: DayCell[]): WeekSegment[] {

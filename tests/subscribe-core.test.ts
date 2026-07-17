@@ -1,13 +1,18 @@
 import { describe, expect, it } from 'vitest'
 import {
   buildCalendarEvents,
+  buildDayTimedBlocks,
   buildFeedUrls,
   buildMonthCells,
   buildWeekSegments,
   chipLabel,
   formatMonthLabel,
+  formatTimeRangeLabel,
+  layoutTimedLanes,
+  resolveEventWallRange,
   shiftMonth,
   startOfWeek,
+  timedBlockStyle,
   toIsoDate,
   toWebcal,
 } from '../src/web/subscribe-core.js'
@@ -110,5 +115,120 @@ describe('calendar helpers', () => {
 
   it('toWebcal 转换协议', () => {
     expect(toWebcal('https://example.com/a.ics')).toBe('webcal://example.com/a.ics')
+  })
+})
+
+describe('timed event helpers', () => {
+  const baseItem = {
+    title: 'Live',
+    url: 'https://example.com/1',
+    groups: ['togenashi'],
+    categories: ['live'],
+  }
+
+  it('透传 endTime，缺省时 hold 补 +2h', () => {
+    const withEnd = buildCalendarEvents(
+      [
+        {
+          ...baseItem,
+          eventDates: [{ date: '2026-07-14', kind: 'hold', startTime: '19:00', endTime: '21:30' }],
+        },
+      ],
+      ['togenashi'],
+      ['live'],
+      4,
+      7,
+    )
+    expect(withEnd[0]).toMatchObject({ startTime: '19:00', endTime: '21:30' })
+    expect(resolveEventWallRange(withEnd[0]!)).toEqual({
+      startDate: '2026-07-14',
+      startTime: '19:00',
+      endDate: '2026-07-14',
+      endTime: '21:30',
+    })
+
+    const openOnly = buildCalendarEvents(
+      [
+        {
+          ...baseItem,
+          eventDates: [{ date: '2026-07-14', kind: 'hold', startTime: '19:00' }],
+        },
+      ],
+      ['togenashi'],
+      ['live'],
+      4,
+      7,
+    )
+    expect(resolveEventWallRange(openOnly[0]!)).toEqual({
+      startDate: '2026-07-14',
+      startTime: '19:00',
+      endDate: '2026-07-14',
+      endTime: '21:00',
+    })
+  })
+
+  it('跨日裁剪到当天分钟区间', () => {
+    const events = buildCalendarEvents(
+      [
+        {
+          ...baseItem,
+          eventDates: [
+            {
+              date: '2026-07-14',
+              endDate: '2026-07-15',
+              kind: 'hold',
+              startTime: '22:00',
+              endTime: '02:00',
+            },
+          ],
+        },
+      ],
+      ['togenashi'],
+      ['live'],
+      4,
+      7,
+    )
+    const day1 = buildDayTimedBlocks(events, '2026-07-14')
+    expect(day1).toHaveLength(1)
+    expect(day1[0]).toMatchObject({
+      startMin: 22 * 60,
+      endMin: 1440,
+      continuesBefore: false,
+      continuesAfter: true,
+    })
+    const day2 = buildDayTimedBlocks(events, '2026-07-15')
+    expect(day2[0]).toMatchObject({
+      startMin: 0,
+      endMin: 2 * 60,
+      continuesBefore: true,
+      continuesAfter: false,
+    })
+  })
+
+  it('重叠事件分 lane，并生成定位样式', () => {
+    const events = buildCalendarEvents(
+      [
+        {
+          ...baseItem,
+          title: 'A',
+          eventDates: [{ date: '2026-07-14', kind: 'hold', startTime: '18:00', endTime: '20:00' }],
+        },
+        {
+          ...baseItem,
+          title: 'B',
+          eventDates: [{ date: '2026-07-14', kind: 'hold', startTime: '19:00', endTime: '21:00' }],
+        },
+      ],
+      ['togenashi'],
+      ['live'],
+      4,
+      7,
+    )
+    const laid = layoutTimedLanes(buildDayTimedBlocks(events, '2026-07-14'))
+    expect(laid.map((b) => b.lane)).toEqual([0, 1])
+    const style = timedBlockStyle(laid[1]!, 2)
+    expect(style.left).toBe('50%')
+    expect(style.width).toBe('50%')
+    expect(formatTimeRangeLabel('19:00', '21:00')).toBe('19:00–21:00')
   })
 })
