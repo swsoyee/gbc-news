@@ -1,0 +1,17 @@
+---
+description: 每次 git commit 前必须先跑通 lint/format，失败不得提交
+alwaysApply: true
+---
+
+# Commit 前必须过 lint
+
+在执行任何 `git commit` 之前：
+
+1. 先运行 `npm run precommit`（等价于 `npm run lint && npm run format:check`）
+2. 未通过则**禁止 commit**：先修复问题，再重新检查
+3. 不要用 `--no-verify` / `-n` 跳过 hook，除非用户明确要求
+
+仓库已配置：
+
+- Git hook：`.githooks/pre-commit`
+- Cursor hook：拦截未过检的 `git commit`

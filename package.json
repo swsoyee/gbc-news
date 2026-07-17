@@ -15,6 +15,8 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
+    "precommit": "npm run lint && npm run format:check",
+    "prepare": "git config core.hooksPath .githooks",
     "ci": "npm run lint && npm run format:check && npm run typecheck && npm test",
     "scrape:gbc": "tsx scripts/scrape-gbc.ts",
     "scrape:firstriff": "tsx scripts/scrape-firstriff.ts",

@@ -18,6 +18,12 @@
       {
         "command": "python3 .cursor/hooks/inject-shell-session-context.py",
         "timeout": 5
+      },
+      {
+        "command": "python3 .cursor/hooks/require-lint-before-commit.py",
+        "matcher": "git\\s+commit",
+        "failClosed": true,
+        "timeout": 120
       }
     ]
   }
