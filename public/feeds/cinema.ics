@@ -866,20 +866,16 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-201.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-217-2024-09-07_2024-09-14-hold-1430@gbc-news
+UID:post-217-2024-09-07-hold-1430@gbc-news
 DTSTAMP:20240907T053000Z
 DTSTART:20240907T053000Z
-DTEND:20240914T053000Z
+DTEND:20240907T073000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] アニメ全話一挙上映会開催決定！
-DESCRIPTION:トゲナシトゲアリ 2nd ONE-MAN LIVE “凛音の理”開
- 催記念 『ガールズバンドクライ』アニメ全話一挙【LIVE
-  ZOUND】上映会 『ガールズバンドクライ』のアニメ全13
- 話を、 最新鋭のハイエンド音響装置が作り出すCINECITTA
- ’独自のシネマサウンドシステム 【LIVE ZOUND】で一挙に
- 見られる特別上映会を開催いたします。\n■日時：202\n\
- nhttps://girls-band-cry.com/news/post-217.html
+SUMMARY:[举办] 动画全话一举上映会举办决定！
+DESCRIPTION:纪念 2nd 个人演唱会，全 13 话 LIVE ZOUND 应援上映
+ 于川崎 Cinecitta：9/7、9/14 各 14:30；票价 4000 日元，赠限
+ 定缎面贴纸。\n\nhttps://girls-band-cry.com/news/post-217.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-217.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
@@ -903,22 +899,30 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-200.html
 CATEGORIES:togenashi,live,music,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-217-2024-09-14-hold-1430@gbc-news
+DTSTAMP:20240914T053000Z
+DTSTART:20240914T053000Z
+DTEND:20240914T073000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 动画全话一举上映会举办决定！
+DESCRIPTION:纪念 2nd 个人演唱会，全 13 话 LIVE ZOUND 应援上映
+ 于川崎 Cinecitta：9/7、9/14 各 14:30；票价 4000 日元，赠限
+ 定缎面贴纸。\n\nhttps://girls-band-cry.com/news/post-217.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-217.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-236-2024-09-20-hold-1900@gbc-news
 DTSTAMP:20240920T100000Z
 DTSTART:20240920T100000Z
 DTEND:20240920T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.4〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.4の発売を記念して、リミスタでのオンラ
- イントーク配信の開催が決定！\nリミスタにて対象商品
- をご購入いただいたお客様に、TVアニメ『ガールズバン
- ドクライ』豪華限定版Vol.4のジャケッ\n\n
+SUMMARY:[举办] TV 动画《Girls Band Cry》Vol.4〈豪华限定版〉发
+ 售纪念线上 talk 配信
+DESCRIPTION:纪念 Vol.4 豪华限定版发售，9 月 20 日 19:00–20:00
+  于 Limista 举办线上 talk 配信；预约抽选获签名卡。\n\n
  https://girls-band-cry.com/news/post-236.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-236.html
 CATEGORIES:togenashi,live,music,event,cinema
@@ -941,20 +945,33 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-195.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-234-2024-09-25_2024-11-10-sale-1000@gbc-news
-DTSTAMP:20240925T010000Z
-DTSTART:20240925T010000Z
-DTEND:20241110T145900Z
+UID:post-234-2024-09-25_2024-11-10-sale@gbc-news
+DTSTAMP:20240925T000000Z
+DTSTART;VALUE=DATE:20240925
+DTEND;VALUE=DATE:20241111
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] MyGO!!!!! × 无刺有刺 Space 配信「トゲマイト
+ ーク」举办决定！
+DESCRIPTION:MyGO!!!!!\n× 无刺有刺「トゲマイトーク」于 10/4 2
+ 0:00 在 GBC 官方 X Space 配信；对邦「Avoid Note」1/12 开演 18:
+ 00，最速先行自 9/25 起。\n\n
+ https://girls-band-cry.com/news/post-234.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-234.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-234-2024-10-04-hold-2000@gbc-news
+DTSTAMP:20241004T110000Z
+DTSTART:20241004T110000Z
+DTEND:20241004T130000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] MyGO!!!!!×トゲナシトゲアリのスペース配信
- 「トゲマイトーク」開催決定！
-DESCRIPTION:フリーダムトークにMyGO!!!!!\nメンバーが参戦⁉ 
- 10月4日(金)20:00～ MyGO!!!!!\n×トゲナシトゲアリ 『トゲマ
- イトーク』を「ガールズバンドクライ」公式Xにてスペ
- ース配信 「Avoid Note」 での対バンが決まっている MyGO!!!
- !!\nより 千早愛音役 / 立石 凛さん 要 楽奈役 / 青木陽菜
- さん をお招きします️ トゲナ\n\n
+SUMMARY:[举办] MyGO!!!!! × 无刺有刺 Space 配信「トゲマイト
+ ーク」举办决定！
+DESCRIPTION:MyGO!!!!!\n× 无刺有刺「トゲマイトーク」于 10/4 2
+ 0:00 在 GBC 官方 X Space 配信；对邦「Avoid Note」1/12 开演 18:
+ 00，最速先行自 9/25 起。\n\n
  https://girls-band-cry.com/news/post-234.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-234.html
 CATEGORIES:togenashi,live,event,cinema
@@ -985,16 +1002,10 @@ DTSTART:20241024T100000Z
 DTEND:20241024T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.5〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.5の発売を記念して、リミスタでのオンラ
- イントーク配信の開催が決定！\nリミスタにて対象商品
- をご購入いただいたお客様に、TVアニメ『ガールズバン
- ドクライ』豪華限定版Vol.5のジャケッ\n\n
+SUMMARY:[举办] TV 动画《Girls Band Cry》Vol.5〈豪华限定版〉发
+ 售纪念线上 talk 配信举办通知
+DESCRIPTION:纪念 Vol.5 豪华限定版发售，10 月 24 日 19:00–20:0
+ 0 于 Limista 举办线上 talk 配信；预约抽选获签名卡。\n\n
  https://girls-band-cry.com/news/post-239.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-239.html
 CATEGORIES:togenashi,live,music,event,cinema
@@ -1076,20 +1087,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-195.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-234-2025-01-12-sale@gbc-news
-DTSTAMP:20250112T000000Z
-DTSTART;VALUE=DATE:20250112
-DTEND;VALUE=DATE:20250113
-TRANSP:TRANSPARENT
+UID:post-234-2025-01-12-hold-1800@gbc-news
+DTSTAMP:20250112T090000Z
+DTSTART:20250112T090000Z
+DTEND:20250112T110000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] MyGO!!!!!×トゲナシトゲアリのスペース配信
- 「トゲマイトーク」開催決定！
-DESCRIPTION:フリーダムトークにMyGO!!!!!\nメンバーが参戦⁉ 
- 10月4日(金)20:00～ MyGO!!!!!\n×トゲナシトゲアリ 『トゲマ
- イトーク』を「ガールズバンドクライ」公式Xにてスペ
- ース配信 「Avoid Note」 での対バンが決まっている MyGO!!!
- !!\nより 千早愛音役 / 立石 凛さん 要 楽奈役 / 青木陽菜
- さん をお招きします️ トゲナ\n\n
+SUMMARY:[举办] MyGO!!!!! × 无刺有刺 Space 配信「トゲマイト
+ ーク」举办决定！
+DESCRIPTION:MyGO!!!!!\n× 无刺有刺「トゲマイトーク」于 10/4 2
+ 0:00 在 GBC 官方 X Space 配信；对邦「Avoid Note」1/12 开演 18:
+ 00，最速先行自 9/25 起。\n\n
  https://girls-band-cry.com/news/post-234.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-234.html
 CATEGORIES:togenashi,live,event,cinema

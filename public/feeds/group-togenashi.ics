@@ -3046,21 +3046,16 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-209.html
 CATEGORIES:togenashi,live,music
 END:VEVENT
 BEGIN:VEVENT
-UID:post-213-2024-08-17-hold-1900@gbc-news
+UID:post-213-2024-08-17-sale-1900@gbc-news
 DTSTAMP:20240817T100000Z
 DTSTART:20240817T100000Z
-DTEND:20240817T120000Z
+DTEND:20240817T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 2nd ONE-MAN LIVE “凛音の理”ライブ配信チケ
- ット販売開始！
-DESCRIPTION:2nd ONE-MAN LIVE “凛音の理” ライブ配信チケット
- の販売が本日8月17日(土)19:00より開始しました！\n国内
- 向けのライブ配信に加えて、お近くのカラオケ店舗で
- ライブを楽しめる カラオケ・ビューイングと全世界に
- 向けてのグローバル配信を実施します。\nみるハコ（カ
- ラオケ店舗での視聴）チケット購入者向けに Amazonギフ
- ト券プレゼントキャンペーン\n\n
+SUMMARY:[发售] 2nd ONE-MAN LIVE “凛音の理” 直播票开始发售
+ ！
+DESCRIPTION:2nd 个人演唱会「凛音の理」直播票自 8 月 17 日 
+ 19:00 起发售；含线上直播、卡拉 OK 观影与全球配信。\n\n
  https://girls-band-cry.com/news/post-213.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-213.html
 CATEGORIES:togenashi,live,event
@@ -3163,18 +3158,15 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-212.html
 CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT
-UID:post-222-2024-08-31-hold@gbc-news
+UID:post-222-2024-08-31_2024-09-06-hold@gbc-news
 DTSTAMP:20240831T000000Z
 DTSTART;VALUE=DATE:20240831
-DTEND;VALUE=DATE:20240901
+DTEND;VALUE=DATE:20240907
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ全13話YouTubeで期間限定無料公開
-DESCRIPTION:8月31日に実施した TVアニメ「ガールズバンドク
- ライ」一挙配信の動画を 2024年9月6日(金)23:59まで期間限
- 定公開 この機会にぜひTVアニメ「ガールズバンドクラ
- イ」をお楽しみください まだ本作を見たことがない方
- にもぜひおすすめしてください！\n\n
+SUMMARY:[举办] TV 动画全 13 话 YouTube 期间限定免费公开
+DESCRIPTION:8/31 一举配信的全 13 话影像于 YouTube 期间限定公
+ 开至 2024 年 9 月 6 日 23:59。\n\n
  https://girls-band-cry.com/news/post-222.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-222.html
 CATEGORIES:togenashi,other
@@ -3186,57 +3178,13 @@ DTSTART:20240831T070000Z
 DTEND:20240831T130000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ「ガールズバンドクライ」一挙配
- 信実況＆感想投稿キャンペーン
-DESCRIPTION:8月31日(土)16:00～22:00 TVアニメ「ガールズバンド
- クライ」一挙配信 実況＆感想投稿キャンペーン開催決
- 定 一挙配信を盛り上げてくださった皆様の中から、抽
- 選で１名様にチケットを特別販売いたします ＜参加方
- 法＞ ①「ガールズバンドクライ」公式Xをフォロー Tweet
- s by girlsbandcry ②【#ガルクラ一挙配信】 をつけてアニ\n\
+SUMMARY:[举办] TV 动画《Girls Band Cry》一举配信实况＆感想
+ 投稿活动
+DESCRIPTION:8/31 16:00–22:00 一举配信期间投稿实况/感想，抽
+ 选 1 名可特别购买 2nd 个人演唱会「凛音の理」门票。\n\
  nhttps://girls-band-cry.com/news/post-218.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-218.html
 CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-220-2024-09-01-hold@gbc-news
-DTSTAMP:20240901T000000Z
-DTSTART;VALUE=DATE:20240901
-DTEND;VALUE=DATE:20240902
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] アニメ『ガールズバンドクライ』POP UP SHOP
- 全国5カ所で開催！9/6(金)～19(木)アトレ秋葉原から巡回
- 開始！
-DESCRIPTION:アニメ『ガールズバンドクライ』POP UP SHOPが全
- 国5カ所で開催決定！\n9月6日(金)～9月19日(木)アトレ秋
- 葉原での開催を皮切りに、 ・9月28日(土)～10月14日(月・
- 祝)／ジーストア名古屋 ・10月19日(土)～11月4日(月・祝)
- ／ジーストア大阪 ・11月9日(土)～11月17日(日)／ジース
- トア小倉 ・11月23日(土)～12月1日(日)\n\n
- https://girls-band-cry.com/news/post-220.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-220.html
-CATEGORIES:togenashi,live,goods,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-220-2024-09-02-hold@gbc-news
-DTSTAMP:20240902T000000Z
-DTSTART;VALUE=DATE:20240902
-DTEND;VALUE=DATE:20240903
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] アニメ『ガールズバンドクライ』POP UP SHOP
- 全国5カ所で開催！9/6(金)～19(木)アトレ秋葉原から巡回
- 開始！
-DESCRIPTION:アニメ『ガールズバンドクライ』POP UP SHOPが全
- 国5カ所で開催決定！\n9月6日(金)～9月19日(木)アトレ秋
- 葉原での開催を皮切りに、 ・9月28日(土)～10月14日(月・
- 祝)／ジーストア名古屋 ・10月19日(土)～11月4日(月・祝)
- ／ジーストア大阪 ・11月9日(土)～11月17日(日)／ジース
- トア小倉 ・11月23日(土)～12月1日(日)\n\n
- https://girls-band-cry.com/news/post-220.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-220.html
-CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-220-2024-09-06_2024-09-19-hold@gbc-news
@@ -3245,51 +3193,25 @@ DTSTART;VALUE=DATE:20240906
 DTEND;VALUE=DATE:20240920
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] アニメ『ガールズバンドクライ』POP UP SHOP
- 全国5カ所で開催！9/6(金)～19(木)アトレ秋葉原から巡回
- 開始！
-DESCRIPTION:アニメ『ガールズバンドクライ』POP UP SHOPが全
- 国5カ所で開催決定！\n9月6日(金)～9月19日(木)アトレ秋
- 葉原での開催を皮切りに、 ・9月28日(土)～10月14日(月・
- 祝)／ジーストア名古屋 ・10月19日(土)～11月4日(月・祝)
- ／ジーストア大阪 ・11月9日(土)～11月17日(日)／ジース
- トア小倉 ・11月23日(土)～12月1日(日)\n\n
- https://girls-band-cry.com/news/post-220.html
+SUMMARY:[举办] 动画《Girls Band Cry》POP UP SHOP 全国 5 地举办
+ ！9/6（五）起从 Atre 秋叶原开始巡回！
+DESCRIPTION:手岛 nari 全新绘制弹出商店巡回：秋叶原 9/6–19
+ 、名古屋 9/28–10/14、大阪 10/19–11/4、小仓 11/9–17、仙
+ 台 11/23–12/1。\n\nhttps://girls-band-cry.com/news/post-220.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-220.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-222-2024-09-06-hold@gbc-news
-DTSTAMP:20240906T000000Z
-DTSTART;VALUE=DATE:20240906
-DTEND;VALUE=DATE:20240907
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ全13話YouTubeで期間限定無料公開
-DESCRIPTION:8月31日に実施した TVアニメ「ガールズバンドク
- ライ」一挙配信の動画を 2024年9月6日(金)23:59まで期間限
- 定公開 この機会にぜひTVアニメ「ガールズバンドクラ
- イ」をお楽しみください まだ本作を見たことがない方
- にもぜひおすすめしてください！\n\n
- https://girls-band-cry.com/news/post-222.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-222.html
-CATEGORIES:togenashi,other
-END:VEVENT
-BEGIN:VEVENT
-UID:post-217-2024-09-07_2024-09-14-hold-1430@gbc-news
+UID:post-217-2024-09-07-hold-1430@gbc-news
 DTSTAMP:20240907T053000Z
 DTSTART:20240907T053000Z
-DTEND:20240914T053000Z
+DTEND:20240907T073000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] アニメ全話一挙上映会開催決定！
-DESCRIPTION:トゲナシトゲアリ 2nd ONE-MAN LIVE “凛音の理”開
- 催記念 『ガールズバンドクライ』アニメ全話一挙【LIVE
-  ZOUND】上映会 『ガールズバンドクライ』のアニメ全13
- 話を、 最新鋭のハイエンド音響装置が作り出すCINECITTA
- ’独自のシネマサウンドシステム 【LIVE ZOUND】で一挙に
- 見られる特別上映会を開催いたします。\n■日時：202\n\
- nhttps://girls-band-cry.com/news/post-217.html
+SUMMARY:[举办] 动画全话一举上映会举办决定！
+DESCRIPTION:纪念 2nd 个人演唱会，全 13 话 LIVE ZOUND 应援上映
+ 于川崎 Cinecitta：9/7、9/14 各 14:30；票价 4000 日元，赠限
+ 定缎面贴纸。\n\nhttps://girls-band-cry.com/news/post-217.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-217.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
@@ -3319,21 +3241,16 @@ CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
 UID:collabo-girls-band-cry-rubber-mat-ensky-anime-store-goods2024-2024-09-0
- 8-sale-2359@gbc-news
-DTSTAMP:20240908T145900Z
-DTSTART:20240908T145900Z
-DTEND:20240908T155900Z
-TRANSP:OPAQUE
+ 8-sale@gbc-news
+DTSTAMP:20240908T000000Z
+DTSTART;VALUE=DATE:20240908
+DTEND;VALUE=DATE:20240909
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ トゲトゲらのキャラ
- クターラバーマット 12月発売!
-DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
- 「ガールズバンドクライ (ガルクラ)」から、新作グッ
- ズ「キャラクターラバーマット」が2024年12月下旬に発
- 売される。\nラバーマットには、井芹仁菜らによる劇中
- に登場するロックバンド「トゲナシトゲアリ (トゲトゲ
- )」とライバル「ダイヤモンドダスト (ダイダス)」が登
- 場！\n\n
+SUMMARY:[发售] Girls Band Cry 刺刺等人角色橡胶垫 12 月发售！
+DESCRIPTION:无刺有刺与 Diamond Dust 角色橡胶垫（各 3850 日元
+ ）由 Ensky 预定 2024 年 12 月下旬发售；Anime Store.JP 预约至
+  9 月 8 日。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-rubber-mat-ensky-an
  ime-store-goods2024/
 URL;VALUE=URI:
@@ -3361,19 +3278,30 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-200.html
 CATEGORIES:togenashi,live,music,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-230-2024-09-12-hold@gbc-news
+UID:post-226-2024-09-12-hold@gbc-news
 DTSTAMP:20240912T000000Z
 DTSTART;VALUE=DATE:20240912
 DTEND;VALUE=DATE:20240913
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 9月12日より、ガールズバンドクライのLINEス
- タンプを配信開始！
-DESCRIPTION:TVアニメ『ガールズバンドクライ』のLINEスタン
- プが配信開始しました！\nアニメに登場したキャラクタ
- ーの名シーンや、つい使いたくなる名セリフ、全40種を
- ラインナップしました‼︎ ぜひチェックしてみてくだ
- さい！\nLINEストアでのスタンプ購入は こちら\n\n
+SUMMARY:[举办] 无刺有刺 2nd ONE-MAN LIVE 纪念 X 活动开始！
+DESCRIPTION:纪念 2nd 个人演唱会「凛音の理」，Girls Band Cry 
+ 官方 X 举办关注＆转发抽奖，截止 2024 年 9 月 12 日 23:59
+ ，抽选 30 名赠送主视觉海报。\n\n
+ https://girls-band-cry.com/news/post-226.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-226.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-230-2024-09-12-sale@gbc-news
+DTSTAMP:20240912T000000Z
+DTSTART;VALUE=DATE:20240912
+DTEND;VALUE=DATE:20240913
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 9 月 12 日起 Girls Band Cry LINE 贴纸开始配信！
+DESCRIPTION:TV 动画《Girls Band Cry》LINE 贴纸自 2024 年 9 月 12 
+ 日起配信，共 40 种名场面与台词贴纸。\n\n
  https://girls-band-cry.com/news/post-230.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-230.html
 CATEGORIES:togenashi,music
@@ -3385,16 +3313,11 @@ DTSTART:20240912T010000Z
 DTEND:20240912T020000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] 9/12(木)よりAniBirthにてガールズバンドクラ
- イ新商品発売決定！
-DESCRIPTION:AniBirthにて、ガールズバンドクライ新商品の発
- 売が決定いたしました！\n トゲナシトゲアリ、ダイヤ
- モンドダストのアクリルスタンドが登場！\n そしてト
- ゲナシトゲアリのバンド名の由来となったTシャツや、 
- バックプリントの入ったダイヤモンドダストのTシャツ
- も登場します。\n ぜひチェックしてみてください！\n 
- 発売当日の入店制限等につきましては、 アニバー\n\n
- https://girls-band-cry.com/news/post-227.html
+SUMMARY:[发售] 9/12（四）起 AniBirth 发售 Girls Band Cry 新商品
+ ！
+DESCRIPTION:AniBirth 自 9/12 起发售无刺有刺・Diamond Dust 亚克
+ 力立牌，以及乐队名由来 T 恤、Diamond Dust 背面印花 T 恤
+ 等。\n\nhttps://girls-band-cry.com/news/post-227.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-227.html
 CATEGORIES:togenashi,other
 END:VEVENT
@@ -3405,57 +3328,55 @@ DTSTART:20240912T010000Z
 DTEND:20240912T020000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] 9/12(木)よりAniBirthにてガールズバンドクラ
- イ新商品発売決定！
-DESCRIPTION:AniBirthにて、ガールズバンドクライ新商品の発
- 売が決定いたしました！\nトゲナシトゲアリ、ダイヤモ
- ンドダストのアクリルスタンドが登場！\nそしてトゲナ
- シトゲアリのバンド名の由来となったTシャツや、 バッ
- クプリントの入ったダイヤモンドダストのTシャツも登
- 場します。\nぜひチェックしてみてください！\n発売当
- 日の入店制限等につきましては、アニバース公式Xをご
- 確認く\n\nhttps://girls-band-cry.com/news/post-229.html
+SUMMARY:[发售] 9/12（四）起 AniBirth 发售 Girls Band Cry 新商品
+ ！
+DESCRIPTION:AniBirth 自 9/12 起发售无刺有刺・Diamond Dust 亚克
+ 力立牌，以及乐队名由来 T 恤、Diamond Dust 背面印花 T 恤
+ 等。\n\nhttps://girls-band-cry.com/news/post-229.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-229.html
 CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT
-UID:post-226-2024-09-12-hold-2359@gbc-news
-DTSTAMP:20240912T145900Z
-DTSTART:20240912T145900Z
-DTEND:20240912T165900Z
-TRANSP:OPAQUE
+UID:post-228-2024-09-13-sale@gbc-news
+DTSTAMP:20240913T000000Z
+DTSTART;VALUE=DATE:20240913
+DTEND;VALUE=DATE:20240914
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ2nd ONE-MAN LIVE 記念 Xキャン
- ペーンスタート！
-DESCRIPTION:トゲナシトゲアリ 2nd ONE-MAN LIVE「凛音の理」 開
- 催を記念して 「ガールズバンドクライ」公式Xにてフォ
- ロー＆リポストキャンペーンを開催！\nご参加いただい
- た方の中から抽選で30名様に2nd ONE-MAN LIVEキービジュア
- ルポスターをプレゼント 【開催期間】 2024年9月12日(木)
-  23:59まで 【参加方法】 ①X（旧Twitte\n\n
- https://girls-band-cry.com/news/post-226.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-226.html
-CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-228-2024-09-13-sale-1800@gbc-news
-DTSTAMP:20240913T090000Z
-DTSTART:20240913T090000Z
-DTEND:20240913T100000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[发售] 買うなら今！2nd ONE-MAN LIVEライブ配信チケッ
- ト発売中！！
-DESCRIPTION:トゲナシトゲアリ 2nd ONE-MAN LIVE “凛音の理” 
- ライブ配信チケット好評発売中！\nオンラインでのライ
- ブ配信のみならず、お近くのカラオケ店舗でライブを
- 楽しめるカラオケ・ビューイングと全世界に向けての
- グローバル配信も実施します。\nチケットが買えるのは
- 9月13日(金)18:00まで。\nライブ開始後はチケットの購入
- が出来なくなるのでご注意ください！\n\n
+SUMMARY:[发售] 现在就买！2nd ONE-MAN LIVE 直播票发售中！！
+DESCRIPTION:2nd 个人演唱会「凛音の理」直播票发售至 9 月 1
+ 3 日 18:00；含线上直播、卡拉 OK 观影与全球配信。\n\n
  https://girls-band-cry.com/news/post-228.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-228.html
 CATEGORIES:togenashi,live,music
+END:VEVENT
+BEGIN:VEVENT
+UID:post-228-2024-09-13-hold-1800@gbc-news
+DTSTAMP:20240913T090000Z
+DTSTART:20240913T090000Z
+DTEND:20240913T110000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 现在就买！2nd ONE-MAN LIVE 直播票发售中！！
+DESCRIPTION:2nd 个人演唱会「凛音の理」直播票发售至 9 月 1
+ 3 日 18:00；含线上直播、卡拉 OK 观影与全球配信。\n\n
+ https://girls-band-cry.com/news/post-228.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-228.html
+CATEGORIES:togenashi,live,music
+END:VEVENT
+BEGIN:VEVENT
+UID:post-217-2024-09-14-hold-1430@gbc-news
+DTSTAMP:20240914T053000Z
+DTSTART:20240914T053000Z
+DTEND:20240914T073000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 动画全话一举上映会举办决定！
+DESCRIPTION:纪念 2nd 个人演唱会，全 13 话 LIVE ZOUND 应援上映
+ 于川崎 Cinecitta：9/7、9/14 各 14:30；票价 4000 日元，赠限
+ 定缎面贴纸。\n\nhttps://girls-band-cry.com/news/post-217.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-217.html
+CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-236-2024-09-20-hold-1900@gbc-news
@@ -3464,16 +3385,10 @@ DTSTART:20240920T100000Z
 DTEND:20240920T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.4〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.4の発売を記念して、リミスタでのオンラ
- イントーク配信の開催が決定！\nリミスタにて対象商品
- をご購入いただいたお客様に、TVアニメ『ガールズバン
- ドクライ』豪華限定版Vol.4のジャケッ\n\n
+SUMMARY:[举办] TV 动画《Girls Band Cry》Vol.4〈豪华限定版〉发
+ 售纪念线上 talk 配信
+DESCRIPTION:纪念 Vol.4 豪华限定版发售，9 月 20 日 19:00–20:00
+  于 Limista 举办线上 talk 配信；预约抽选获签名卡。\n\n
  https://girls-band-cry.com/news/post-236.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-236.html
 CATEGORIES:togenashi,live,music,event,cinema
@@ -3496,20 +3411,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-195.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-234-2024-09-25_2024-11-10-sale-1000@gbc-news
-DTSTAMP:20240925T010000Z
-DTSTART:20240925T010000Z
-DTEND:20241110T145900Z
-TRANSP:OPAQUE
+UID:post-234-2024-09-25_2024-11-10-sale@gbc-news
+DTSTAMP:20240925T000000Z
+DTSTART;VALUE=DATE:20240925
+DTEND;VALUE=DATE:20241111
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] MyGO!!!!!×トゲナシトゲアリのスペース配信
- 「トゲマイトーク」開催決定！
-DESCRIPTION:フリーダムトークにMyGO!!!!!\nメンバーが参戦⁉ 
- 10月4日(金)20:00～ MyGO!!!!!\n×トゲナシトゲアリ 『トゲマ
- イトーク』を「ガールズバンドクライ」公式Xにてスペ
- ース配信 「Avoid Note」 での対バンが決まっている MyGO!!!
- !!\nより 千早愛音役 / 立石 凛さん 要 楽奈役 / 青木陽菜
- さん をお招きします️ トゲナ\n\n
+SUMMARY:[发售] MyGO!!!!! × 无刺有刺 Space 配信「トゲマイト
+ ーク」举办决定！
+DESCRIPTION:MyGO!!!!!\n× 无刺有刺「トゲマイトーク」于 10/4 2
+ 0:00 在 GBC 官方 X Space 配信；对邦「Avoid Note」1/12 开演 18:
+ 00，最速先行自 9/25 起。\n\n
  https://girls-band-cry.com/news/post-234.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-234.html
 CATEGORIES:togenashi,live,event,cinema
@@ -3521,54 +3433,59 @@ DTSTART;VALUE=DATE:20240928
 DTEND;VALUE=DATE:20241015
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] アニメ『ガールズバンドクライ』POP UP SHOP
- 全国5カ所で開催！9/6(金)～19(木)アトレ秋葉原から巡回
- 開始！
-DESCRIPTION:アニメ『ガールズバンドクライ』POP UP SHOPが全
- 国5カ所で開催決定！\n9月6日(金)～9月19日(木)アトレ秋
- 葉原での開催を皮切りに、 ・9月28日(土)～10月14日(月・
- 祝)／ジーストア名古屋 ・10月19日(土)～11月4日(月・祝)
- ／ジーストア大阪 ・11月9日(土)～11月17日(日)／ジース
- トア小倉 ・11月23日(土)～12月1日(日)\n\n
- https://girls-band-cry.com/news/post-220.html
+SUMMARY:[举办] 动画《Girls Band Cry》POP UP SHOP 全国 5 地举办
+ ！9/6（五）起从 Atre 秋叶原开始巡回！
+DESCRIPTION:手岛 nari 全新绘制弹出商店巡回：秋叶原 9/6–19
+ 、名古屋 9/28–10/14、大阪 10/19–11/4、小仓 11/9–17、仙
+ 台 11/23–12/1。\n\nhttps://girls-band-cry.com/news/post-220.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-220.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-237-2024-10-01-sale-1000@gbc-news
-DTSTAMP:20241001T010000Z
-DTSTART:20241001T010000Z
-DTEND:20241001T020000Z
-TRANSP:OPAQUE
+UID:post-237-2024-10-01_2024-10-31-sale@gbc-news
+DTSTAMP:20241001T000000Z
+DTSTART;VALUE=DATE:20241001
+DTEND;VALUE=DATE:20241101
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 10/1(火)より「東映アニメーション オンライ
- ンくじ」にて 「ガルクジ」が発売決定！
-DESCRIPTION:東映アニメーション オンラインくじ がついに
- 登場！\n第一弾は「ガルクジ」！！！\n手島nari氏の描き
- 下ろしイラストのレア商品が盛りだくさん！！\nイラス
- トの仁菜たちとおそろいのTシャツも登場！\n期間 10月1
- 日(火) 10:00~10月31日(木) 23:59 価格 1回660円(税込) 東映ア
- ニメーション オンラインくじ\n\n
+SUMMARY:[发售] 10/1（二）起「东映动画线上抽奖」发售「ガ
+ ルクジ」！
+DESCRIPTION:东映动画线上抽奖第一弹「ガルクジ」于 2024 年
+  10 月 1 日–31 日发售（每次 660 日元），含手岛 nari 全
+ 新绘制周边与同款 T 恤。\n\n
  https://girls-band-cry.com/news/post-237.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-237.html
 CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT
-UID:collabo-girls-band-cry-bleeding-hearts-newly-drawn-pop-up-shop-i-rights
- -anime-store-goods2024-2024-10-06-sale-2359@gbc-news
-DTSTAMP:20241006T145900Z
-DTSTART:20241006T145900Z
-DTEND:20241006T155900Z
+UID:post-234-2024-10-04-hold-2000@gbc-news
+DTSTAMP:20241004T110000Z
+DTSTART:20241004T110000Z
+DTEND:20241004T130000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ「爆ぜて咲く」衣装
- の描き下ろしグッズ 11月発売!
-DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
- 「ガールズバンドクライ (ガルクラ)」より、「トゲナ
- シトゲアリ (トゲトゲ)」の3rdシングル「爆ぜて咲く」
- の衣装を描き下ろしした新作グッズが2024年11月に一般
- 発売される。\nJOL原宿にて開催”POP-UP SHOP”先行販売グ
- ッズで、桃香たちのアクスタ等が新登場！\n\n
+SUMMARY:[举办] MyGO!!!!! × 无刺有刺 Space 配信「トゲマイト
+ ーク」举办决定！
+DESCRIPTION:MyGO!!!!!\n× 无刺有刺「トゲマイトーク」于 10/4 2
+ 0:00 在 GBC 官方 X Space 配信；对邦「Avoid Note」1/12 开演 18:
+ 00，最速先行自 9/25 起。\n\n
+ https://girls-band-cry.com/news/post-234.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-234.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:collabo-girls-band-cry-bleeding-hearts-newly-drawn-pop-up-shop-i-rights
+ -anime-store-goods2024-2024-10-06-sale@gbc-news
+DTSTAMP:20241006T000000Z
+DTSTART;VALUE=DATE:20241006
+DTEND;VALUE=DATE:20241007
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] Girls Band Cry「爆ぜて咲く」服装全新绘制周
+ 边 11 月发售！
+DESCRIPTION:无刺有刺「爆ぜて咲く」服装全新绘制周边（立
+ 牌、文件夹、托特包、T 恤等 11 种）预定 2024 年 11 月一
+ 般发售；Anime Store.JP 预约至 10 月 6 日。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-bleeding-hearts-new
  ly-drawn-pop-up-shop-i-rights-anime-store-goods2024/
 URL;VALUE=URI:
@@ -3607,14 +3524,11 @@ DTSTART;VALUE=DATE:20241011
 DTEND;VALUE=DATE:20241028
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライ POP UP SHOP in OIOIが10月
- 11日(金)より開催決定！
-DESCRIPTION:ガールズバンドクライ POP UP SHOP in OIOIが10月11日
- (金)より開催決定！\nトゲナシトゲアリの5人が【Rock Quee
- n】をテーマにした衣装を身にまとった東映アニメーシ
- ョン描き下ろしイラストを使用したPOPUP SHOPが開催決定
- ！\n『ガールズバンドクライ POP UP SHOP in OIOI』では東映
- アニメーション描き下ろしイラスト\n\n
+SUMMARY:[举办] Girls Band Cry POP UP SHOP in OIOI 10 月 11 日（五）
+ 起举办！
+DESCRIPTION:Rock Queen 主题弹出商店于 OIOI 举办：2024 年 10 月 
+ 11 日–27 日及 11 月 16 日–24 日；满 2200 日元赠视觉卡，
+ 10/24 有仁菜生日限定企划。\n\n
  https://girls-band-cry.com/news/post-235.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-235.html
 CATEGORIES:togenashi,live,goods,event
@@ -3645,16 +3559,11 @@ DTSTART;VALUE=DATE:20241019
 DTEND;VALUE=DATE:20241105
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] アニメ『ガールズバンドクライ』POP UP SHOP
- 全国5カ所で開催！9/6(金)～19(木)アトレ秋葉原から巡回
- 開始！
-DESCRIPTION:アニメ『ガールズバンドクライ』POP UP SHOPが全
- 国5カ所で開催決定！\n9月6日(金)～9月19日(木)アトレ秋
- 葉原での開催を皮切りに、 ・9月28日(土)～10月14日(月・
- 祝)／ジーストア名古屋 ・10月19日(土)～11月4日(月・祝)
- ／ジーストア大阪 ・11月9日(土)～11月17日(日)／ジース
- トア小倉 ・11月23日(土)～12月1日(日)\n\n
- https://girls-band-cry.com/news/post-220.html
+SUMMARY:[举办] 动画《Girls Band Cry》POP UP SHOP 全国 5 地举办
+ ！9/6（五）起从 Atre 秋叶原开始巡回！
+DESCRIPTION:手岛 nari 全新绘制弹出商店巡回：秋叶原 9/6–19
+ 、名古屋 9/28–10/14、大阪 10/19–11/4、小仓 11/9–17、仙
+ 台 11/23–12/1。\n\nhttps://girls-band-cry.com/news/post-220.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-220.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
@@ -3665,12 +3574,10 @@ DTSTART:20241023T110000Z
 DTEND:20241023T130000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] GITADORA ゲーム実況生配信決定！
-DESCRIPTION:10/23(水)20:00～＠ 公式YouTubeチャンネル TVアニメ
- 「ガールズバンドクライ」 OP主題歌「雑踏、僕らの街
- 」が収録されている リズムゲーム「GITADORA」を トゲナ
- シトゲアリ メンバーが実況プレイ ぜひチェックしてく
- ださい\n\nhttps://girls-band-cry.com/news/post-246.html
+SUMMARY:[举办] GITADORA 游戏实况直播决定！
+DESCRIPTION:无刺有刺成员将于 10/23 20:00 起在官方 YouTube 实
+ 况节奏游戏 GITADORA（收录 OP《雑踏、僕らの街》）。\n\n
+ https://girls-band-cry.com/news/post-246.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-246.html
 CATEGORIES:togenashi,other
 END:VEVENT
@@ -3681,16 +3588,11 @@ DTSTART:20241024T010000Z
 DTEND:20241024T020000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] 10/24(木)よりAniBirthにてガールズバンドクラ
- イ新商品発売決定！
-DESCRIPTION:10/24（木）仁菜の誕生日を記念して「井芹仁菜
- 」グッズが発売決定！\n仁菜の趣味「御朱印帳集め」に
- もぴったりなライブ衣装をモチーフにした御朱印帳や
- 仁菜オンリーの名場面クリアカード、カードを飾れる
- コレクションローダーなど仁菜づくしの新商品です！\n
- 発売当日の入店制限等につきましては、アニバース公
- 式X・公式HPをご確認ください。\n【AniBirthショップ詳細
- 】\n\nhttps://girls-band-cry.com/news/post-247.html
+SUMMARY:[发售] 10/24（四）起 AniBirth 发售 Girls Band Cry 新商品
+ ！
+DESCRIPTION:纪念仁菜生日（10/24），AniBirth 发售御朱印账、
+ 仁菜名场面透明卡、收藏夹等仁菜主题周边。\n\n
+ https://girls-band-cry.com/news/post-247.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-247.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
@@ -3701,16 +3603,10 @@ DTSTART:20241024T100000Z
 DTEND:20241024T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.5〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.5の発売を記念して、リミスタでのオンラ
- イントーク配信の開催が決定！\nリミスタにて対象商品
- をご購入いただいたお客様に、TVアニメ『ガールズバン
- ドクライ』豪華限定版Vol.5のジャケッ\n\n
+SUMMARY:[举办] TV 动画《Girls Band Cry》Vol.5〈豪华限定版〉发
+ 售纪念线上 talk 配信举办通知
+DESCRIPTION:纪念 Vol.5 豪华限定版发售，10 月 24 日 19:00–20:0
+ 0 于 Limista 举办线上 talk 配信；预约抽选获签名卡。\n\n
  https://girls-band-cry.com/news/post-239.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-239.html
 CATEGORIES:togenashi,live,music,event,cinema
@@ -3722,16 +3618,11 @@ DTSTART:20241025T040000Z
 DTEND:20241025T050000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 2nd ONE-MAN LIVE “凛音の理
- ”グッズ事後通販のご案内
-DESCRIPTION:「トゲナシトゲアリ 2nd ONE-MAN LIVE “凛音の理”
- 」にご来場いただいた皆様、誠にありがとうございま
- した たくさんのお客様にご来場いただき、ならびに配
- 信でご視聴いただき、心より御礼申し上げます LIVEグッ
- ズ関して、10月25日（金）より事後通販を行います！\n 
- ■販売場所： 東映アニメーションオフィシャルストア 
- ■販売開始日：10月25\n\n
- https://girls-band-cry.com/news/post-248.html
+SUMMARY:[发售] 无刺有刺 2nd ONE-MAN LIVE “凛音の理” 周边事
+ 后通贩通知
+DESCRIPTION:2nd 个人演唱会「凛音の理」周边自 10 月 25 日 13
+ :00 起在东映动画官方商店事后通贩，数量有限售完即止
+ 。\n\nhttps://girls-band-cry.com/news/post-248.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-248.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
@@ -3832,16 +3723,11 @@ DTSTART;VALUE=DATE:20241109
 DTEND;VALUE=DATE:20241118
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] アニメ『ガールズバンドクライ』POP UP SHOP
- 全国5カ所で開催！9/6(金)～19(木)アトレ秋葉原から巡回
- 開始！
-DESCRIPTION:アニメ『ガールズバンドクライ』POP UP SHOPが全
- 国5カ所で開催決定！\n9月6日(金)～9月19日(木)アトレ秋
- 葉原での開催を皮切りに、 ・9月28日(土)～10月14日(月・
- 祝)／ジーストア名古屋 ・10月19日(土)～11月4日(月・祝)
- ／ジーストア大阪 ・11月9日(土)～11月17日(日)／ジース
- トア小倉 ・11月23日(土)～12月1日(日)\n\n
- https://girls-band-cry.com/news/post-220.html
+SUMMARY:[举办] 动画《Girls Band Cry》POP UP SHOP 全国 5 地举办
+ ！9/6（五）起从 Atre 秋叶原开始巡回！
+DESCRIPTION:手岛 nari 全新绘制弹出商店巡回：秋叶原 9/6–19
+ 、名古屋 9/28–10/14、大阪 10/19–11/4、小仓 11/9–17、仙
+ 台 11/23–12/1。\n\nhttps://girls-band-cry.com/news/post-220.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-220.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
@@ -3902,14 +3788,11 @@ DTSTART;VALUE=DATE:20241116
 DTEND;VALUE=DATE:20241125
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライ POP UP SHOP in OIOIが10月
- 11日(金)より開催決定！
-DESCRIPTION:ガールズバンドクライ POP UP SHOP in OIOIが10月11日
- (金)より開催決定！\nトゲナシトゲアリの5人が【Rock Quee
- n】をテーマにした衣装を身にまとった東映アニメーシ
- ョン描き下ろしイラストを使用したPOPUP SHOPが開催決定
- ！\n『ガールズバンドクライ POP UP SHOP in OIOI』では東映
- アニメーション描き下ろしイラスト\n\n
+SUMMARY:[举办] Girls Band Cry POP UP SHOP in OIOI 10 月 11 日（五）
+ 起举办！
+DESCRIPTION:Rock Queen 主题弹出商店于 OIOI 举办：2024 年 10 月 
+ 11 日–27 日及 11 月 16 日–24 日；满 2200 日元赠视觉卡，
+ 10/24 有仁菜生日限定企划。\n\n
  https://girls-band-cry.com/news/post-235.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-235.html
 CATEGORIES:togenashi,live,goods,event
@@ -3956,16 +3839,11 @@ DTSTART;VALUE=DATE:20241123
 DTEND;VALUE=DATE:20241202
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] アニメ『ガールズバンドクライ』POP UP SHOP
- 全国5カ所で開催！9/6(金)～19(木)アトレ秋葉原から巡回
- 開始！
-DESCRIPTION:アニメ『ガールズバンドクライ』POP UP SHOPが全
- 国5カ所で開催決定！\n9月6日(金)～9月19日(木)アトレ秋
- 葉原での開催を皮切りに、 ・9月28日(土)～10月14日(月・
- 祝)／ジーストア名古屋 ・10月19日(土)～11月4日(月・祝)
- ／ジーストア大阪 ・11月9日(土)～11月17日(日)／ジース
- トア小倉 ・11月23日(土)～12月1日(日)\n\n
- https://girls-band-cry.com/news/post-220.html
+SUMMARY:[举办] 动画《Girls Band Cry》POP UP SHOP 全国 5 地举办
+ ！9/6（五）起从 Atre 秋叶原开始巡回！
+DESCRIPTION:手岛 nari 全新绘制弹出商店巡回：秋叶原 9/6–19
+ 、名古屋 9/28–10/14、大阪 10/19–11/4、小仓 11/9–17、仙
+ 台 11/23–12/1。\n\nhttps://girls-band-cry.com/news/post-220.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-220.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
@@ -4349,25 +4227,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-195.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-234-2025-01-12-sale@gbc-news
-DTSTAMP:20250112T000000Z
-DTSTART;VALUE=DATE:20250112
-DTEND;VALUE=DATE:20250113
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] MyGO!!!!!×トゲナシトゲアリのスペース配信
- 「トゲマイトーク」開催決定！
-DESCRIPTION:フリーダムトークにMyGO!!!!!\nメンバーが参戦⁉ 
- 10月4日(金)20:00～ MyGO!!!!!\n×トゲナシトゲアリ 『トゲマ
- イトーク』を「ガールズバンドクライ」公式Xにてスペ
- ース配信 「Avoid Note」 での対バンが決まっている MyGO!!!
- !!\nより 千早愛音役 / 立石 凛さん 要 楽奈役 / 青木陽菜
- さん をお招きします️ トゲナ\n\n
- https://girls-band-cry.com/news/post-234.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-234.html
-CATEGORIES:togenashi,live,event,cinema
-END:VEVENT
-BEGIN:VEVENT
 UID:post-275-2025-01-12-hold@gbc-news
 DTSTAMP:20250112T000000Z
 DTSTART;VALUE=DATE:20250112
@@ -4394,6 +4253,22 @@ DESCRIPTION:因 12/7 一般发售链接故障，「Avoid Note」（2025/1/1
  手机）。\n\nhttps://girls-band-cry.com/news/post-278.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-278.html
 CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-234-2025-01-12-hold-1800@gbc-news
+DTSTAMP:20250112T090000Z
+DTSTART:20250112T090000Z
+DTEND:20250112T110000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] MyGO!!!!! × 无刺有刺 Space 配信「トゲマイト
+ ーク」举办决定！
+DESCRIPTION:MyGO!!!!!\n× 无刺有刺「トゲマイトーク」于 10/4 2
+ 0:00 在 GBC 官方 X Space 配信；对邦「Avoid Note」1/12 开演 18:
+ 00，最速先行自 9/25 起。\n\n
+ https://girls-band-cry.com/news/post-234.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-234.html
+CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-290-2025-01-17-hold-1900@gbc-news

@@ -1358,39 +1358,43 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-200.html
 CATEGORIES:togenashi,live,music,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-230-2024-09-12-hold@gbc-news
+UID:post-230-2024-09-12-sale@gbc-news
 DTSTAMP:20240912T000000Z
 DTSTART;VALUE=DATE:20240912
 DTEND;VALUE=DATE:20240913
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 9月12日より、ガールズバンドクライのLINEス
- タンプを配信開始！
-DESCRIPTION:TVアニメ『ガールズバンドクライ』のLINEスタン
- プが配信開始しました！\nアニメに登場したキャラクタ
- ーの名シーンや、つい使いたくなる名セリフ、全40種を
- ラインナップしました‼︎ ぜひチェックしてみてくだ
- さい！\nLINEストアでのスタンプ購入は こちら\n\n
+SUMMARY:[发售] 9 月 12 日起 Girls Band Cry LINE 贴纸开始配信！
+DESCRIPTION:TV 动画《Girls Band Cry》LINE 贴纸自 2024 年 9 月 12 
+ 日起配信，共 40 种名场面与台词贴纸。\n\n
  https://girls-band-cry.com/news/post-230.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-230.html
 CATEGORIES:togenashi,music
 END:VEVENT
 BEGIN:VEVENT
-UID:post-228-2024-09-13-sale-1800@gbc-news
+UID:post-228-2024-09-13-sale@gbc-news
+DTSTAMP:20240913T000000Z
+DTSTART;VALUE=DATE:20240913
+DTEND;VALUE=DATE:20240914
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 现在就买！2nd ONE-MAN LIVE 直播票发售中！！
+DESCRIPTION:2nd 个人演唱会「凛音の理」直播票发售至 9 月 1
+ 3 日 18:00；含线上直播、卡拉 OK 观影与全球配信。\n\n
+ https://girls-band-cry.com/news/post-228.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-228.html
+CATEGORIES:togenashi,live,music
+END:VEVENT
+BEGIN:VEVENT
+UID:post-228-2024-09-13-hold-1800@gbc-news
 DTSTAMP:20240913T090000Z
 DTSTART:20240913T090000Z
-DTEND:20240913T100000Z
+DTEND:20240913T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] 買うなら今！2nd ONE-MAN LIVEライブ配信チケッ
- ト発売中！！
-DESCRIPTION:トゲナシトゲアリ 2nd ONE-MAN LIVE “凛音の理” 
- ライブ配信チケット好評発売中！\nオンラインでのライ
- ブ配信のみならず、お近くのカラオケ店舗でライブを
- 楽しめるカラオケ・ビューイングと全世界に向けての
- グローバル配信も実施します。\nチケットが買えるのは
- 9月13日(金)18:00まで。\nライブ開始後はチケットの購入
- が出来なくなるのでご注意ください！\n\n
+SUMMARY:[举办] 现在就买！2nd ONE-MAN LIVE 直播票发售中！！
+DESCRIPTION:2nd 个人演唱会「凛音の理」直播票发售至 9 月 1
+ 3 日 18:00；含线上直播、卡拉 OK 观影与全球配信。\n\n
  https://girls-band-cry.com/news/post-228.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-228.html
 CATEGORIES:togenashi,live,music
@@ -1402,16 +1406,10 @@ DTSTART:20240920T100000Z
 DTEND:20240920T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.4〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.4の発売を記念して、リミスタでのオンラ
- イントーク配信の開催が決定！\nリミスタにて対象商品
- をご購入いただいたお客様に、TVアニメ『ガールズバン
- ドクライ』豪華限定版Vol.4のジャケッ\n\n
+SUMMARY:[举办] TV 动画《Girls Band Cry》Vol.4〈豪华限定版〉发
+ 售纪念线上 talk 配信
+DESCRIPTION:纪念 Vol.4 豪华限定版发售，9 月 20 日 19:00–20:00
+  于 Limista 举办线上 talk 配信；预约抽选获签名卡。\n\n
  https://girls-band-cry.com/news/post-236.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-236.html
 CATEGORIES:togenashi,live,music,event,cinema
@@ -1442,16 +1440,10 @@ DTSTART:20241024T100000Z
 DTEND:20241024T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.5〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.5の発売を記念して、リミスタでのオンラ
- イントーク配信の開催が決定！\nリミスタにて対象商品
- をご購入いただいたお客様に、TVアニメ『ガールズバン
- ドクライ』豪華限定版Vol.5のジャケッ\n\n
+SUMMARY:[举办] TV 动画《Girls Band Cry》Vol.5〈豪华限定版〉发
+ 售纪念线上 talk 配信举办通知
+DESCRIPTION:纪念 Vol.5 豪华限定版发售，10 月 24 日 19:00–20:0
+ 0 于 Limista 举办线上 talk 配信；预约抽选获签名卡。\n\n
  https://girls-band-cry.com/news/post-239.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-239.html
 CATEGORIES:togenashi,live,music,event,cinema

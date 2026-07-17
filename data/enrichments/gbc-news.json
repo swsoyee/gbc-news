@@ -1,6 +1,6 @@
 {
   "sourceId": "gbc-news",
-  "updatedAt": "2026-07-17T15:30:00.000Z",
+  "updatedAt": "2026-07-17T15:40:00.000Z",
   "items": {
     "post-483": {
       "id": "post-483",
@@ -3237,6 +3237,349 @@
           "endTime": "16:00"
         }
       ]
+    },
+    "post-248": {
+      "id": "post-248",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "d5537ed970a4d35d6afae3c470731c73486660b4f8d54f3b5f8848b847da06b3",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "无刺有刺 2nd ONE-MAN LIVE “凛音の理” 周边事后通贩通知",
+      "summaryZh": "2nd 个人演唱会「凛音の理」周边自 10 月 25 日 13:00 起在东映动画官方商店事后通贩，数量有限售完即止。",
+      "eventDates": [
+        {
+          "date": "2024-10-25",
+          "kind": "sale",
+          "startTime": "13:00"
+        }
+      ]
+    },
+    "post-247": {
+      "id": "post-247",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f724e907dae3fd79a0eeca9d4464f82df01fb5d920b577dce2cf656f1d292b88",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "10/24（四）起 AniBirth 发售 Girls Band Cry 新商品！",
+      "summaryZh": "纪念仁菜生日（10/24），AniBirth 发售御朱印账、仁菜名场面透明卡、收藏夹等仁菜主题周边。",
+      "eventDates": [
+        {
+          "date": "2024-10-24",
+          "kind": "sale",
+          "startTime": "10:00"
+        }
+      ]
+    },
+    "post-246": {
+      "id": "post-246",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "0bb2657977502db3fad164b33b12d730b7bdbdff37916d45dded160f799f50ff",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "GITADORA 游戏实况直播决定！",
+      "summaryZh": "无刺有刺成员将于 10/23 20:00 起在官方 YouTube 实况节奏游戏 GITADORA（收录 OP《雑踏、僕らの街》）。",
+      "eventDates": [
+        {
+          "date": "2024-10-23",
+          "kind": "hold",
+          "startTime": "20:00"
+        }
+      ]
+    },
+    "post-237": {
+      "id": "post-237",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "0fdac16f199e63695f1cb56ae16f7f8327c7655ed653436f9c7d93a67da72c3c",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "10/1（二）起「东映动画线上抽奖」发售「ガルクジ」！",
+      "summaryZh": "东映动画线上抽奖第一弹「ガルクジ」于 2024 年 10 月 1 日–31 日发售（每次 660 日元），含手岛 nari 全新绘制周边与同款 T 恤。",
+      "eventDates": [
+        {
+          "date": "2024-10-01",
+          "endDate": "2024-10-31",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "销售跨日去时刻"
+    },
+    "post-235": {
+      "id": "post-235",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "185e747d8920801b1d7aae81ec01c6bfc6b55d01cf6d1a7c5c439410ae215b0d",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "Girls Band Cry POP UP SHOP in OIOI 10 月 11 日（五）起举办！",
+      "summaryZh": "Rock Queen 主题弹出商店于 OIOI 举办：2024 年 10 月 11 日–27 日及 11 月 16 日–24 日；满 2200 日元赠视觉卡，10/24 有仁菜生日限定企划。",
+      "eventDates": [
+        {
+          "date": "2024-10-11",
+          "endDate": "2024-10-27",
+          "kind": "hold"
+        },
+        {
+          "date": "2024-11-16",
+          "endDate": "2024-11-24",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-239": {
+      "id": "post-239",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "a38927b39a6adcdf94c605089807d0d40d24ce9c11e680ada54c68c796e17944",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》Vol.5〈豪华限定版〉发售纪念线上 talk 配信举办通知",
+      "summaryZh": "纪念 Vol.5 豪华限定版发售，10 月 24 日 19:00–20:00 于 Limista 举办线上 talk 配信；预约抽选获签名卡。",
+      "eventDates": [
+        {
+          "date": "2024-10-24",
+          "kind": "hold",
+          "startTime": "19:00",
+          "endTime": "20:00"
+        }
+      ]
+    },
+    "post-234": {
+      "id": "post-234",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "6528a99a15db4dd8f24ebf39a0fe9d52800c7b4c9ba8cc29e345bfb7d1d94c8d",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "MyGO!!!!! × 无刺有刺 Space 配信「トゲマイトーク」举办决定！",
+      "summaryZh": "MyGO!!!!! × 无刺有刺「トゲマイトーク」于 10/4 20:00 在 GBC 官方 X Space 配信；对邦「Avoid Note」1/12 开演 18:00，最速先行自 9/25 起。",
+      "eventDates": [
+        {
+          "date": "2024-10-04",
+          "kind": "hold",
+          "startTime": "20:00"
+        },
+        {
+          "date": "2025-01-12",
+          "kind": "hold",
+          "startTime": "18:00"
+        },
+        {
+          "date": "2024-09-25",
+          "endDate": "2024-11-10",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "补录 Space；票务跨日去时刻"
+    },
+    "post-230": {
+      "id": "post-230",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "d1c3b7e4308a92d5dfe2e7843f4db1b0bf1948e5abfd7fa4d7cbff6043ca3943",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "9 月 12 日起 Girls Band Cry LINE 贴纸开始配信！",
+      "summaryZh": "TV 动画《Girls Band Cry》LINE 贴纸自 2024 年 9 月 12 日起配信，共 40 种名场面与台词贴纸。",
+      "eventDates": [
+        {
+          "date": "2024-09-12",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "配信发售为 sale"
+    },
+    "post-228": {
+      "id": "post-228",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "45122b9cbac33d18e99119b272ccdd135e61c74c6118c997468963b0ba11cd5f",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "现在就买！2nd ONE-MAN LIVE 直播票发售中！！",
+      "summaryZh": "2nd 个人演唱会「凛音の理」直播票发售至 9 月 13 日 18:00；含线上直播、卡拉 OK 观影与全球配信。",
+      "eventDates": [
+        {
+          "date": "2024-09-13",
+          "kind": "sale"
+        },
+        {
+          "date": "2024-09-13",
+          "kind": "hold",
+          "startTime": "18:00"
+        }
+      ],
+      "reviewNotes": "售票截止与公演同日；开演 18:00（与票务截止同刻）"
+    },
+    "post-229": {
+      "id": "post-229",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "b779d2e769b83bf7d319ce2dd0682614abc21c61c70822c3397024c7b2b3c6b6",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "9/12（四）起 AniBirth 发售 Girls Band Cry 新商品！",
+      "summaryZh": "AniBirth 自 9/12 起发售无刺有刺・Diamond Dust 亚克力立牌，以及乐队名由来 T 恤、Diamond Dust 背面印花 T 恤等。",
+      "eventDates": [
+        {
+          "date": "2024-09-12",
+          "kind": "sale",
+          "startTime": "10:00"
+        }
+      ]
+    },
+    "post-227": {
+      "id": "post-227",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "3319fba6d10ac2e0879bdbcb2ebc49f4449bb21d9bba850e323d35e15e015194",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "9/12（四）起 AniBirth 发售 Girls Band Cry 新商品！",
+      "summaryZh": "AniBirth 自 9/12 起发售无刺有刺・Diamond Dust 亚克力立牌，以及乐队名由来 T 恤、Diamond Dust 背面印花 T 恤等。",
+      "eventDates": [
+        {
+          "date": "2024-09-12",
+          "kind": "sale",
+          "startTime": "10:00"
+        }
+      ],
+      "reviewNotes": "与 post-229 内容相近的另一稿"
+    },
+    "post-226": {
+      "id": "post-226",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "762a4060371e5c77bd8d94bbacfd05f914f97f5ae95ca72d72f79f935ad082d3",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "无刺有刺 2nd ONE-MAN LIVE 纪念 X 活动开始！",
+      "summaryZh": "纪念 2nd 个人演唱会「凛音の理」，Girls Band Cry 官方 X 举办关注＆转发抽奖，截止 2024 年 9 月 12 日 23:59，抽选 30 名赠送主视觉海报。",
+      "eventDates": [
+        {
+          "date": "2024-09-12",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "截止日；去掉误抽 23:59"
+    },
+    "post-222": {
+      "id": "post-222",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f7f931bd1cfb126025e32dbbe7a1ac7ecca9e29929e249712e4c100af261654e",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "TV 动画全 13 话 YouTube 期间限定免费公开",
+      "summaryZh": "8/31 一举配信的全 13 话影像于 YouTube 期间限定公开至 2024 年 9 月 6 日 23:59。",
+      "eventDates": [
+        {
+          "date": "2024-08-31",
+          "endDate": "2024-09-06",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "公开期间合并"
+    },
+    "post-220": {
+      "id": "post-220",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "bf2bbec5eb0fcecf67af592461e682c97d06c1d23a78f88a6c084814d697c1a6",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "动画《Girls Band Cry》POP UP SHOP 全国 5 地举办！9/6（五）起从 Atre 秋叶原开始巡回！",
+      "summaryZh": "手岛 nari 全新绘制弹出商店巡回：秋叶原 9/6–19、名古屋 9/28–10/14、大阪 10/19–11/4、小仓 11/9–17、仙台 11/23–12/1。",
+      "eventDates": [
+        {
+          "date": "2024-09-06",
+          "endDate": "2024-09-19",
+          "kind": "hold"
+        },
+        {
+          "date": "2024-09-28",
+          "endDate": "2024-10-14",
+          "kind": "hold"
+        },
+        {
+          "date": "2024-10-19",
+          "endDate": "2024-11-04",
+          "kind": "hold"
+        },
+        {
+          "date": "2024-11-09",
+          "endDate": "2024-11-17",
+          "kind": "hold"
+        },
+        {
+          "date": "2024-11-23",
+          "endDate": "2024-12-01",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "去掉误抽 9/1–2"
+    },
+    "post-217": {
+      "id": "post-217",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "a80ccbeae1812178eacb1e2938341142f9cfb44f6e28cb73ecabddce850b31c7",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "动画全话一举上映会举办决定！",
+      "summaryZh": "纪念 2nd 个人演唱会，全 13 话 LIVE ZOUND 应援上映于川崎 Cinecitta：9/7、9/14 各 14:30；票价 4000 日元，赠限定缎面贴纸。",
+      "eventDates": [
+        {
+          "date": "2024-09-07",
+          "kind": "hold",
+          "startTime": "14:30"
+        },
+        {
+          "date": "2024-09-14",
+          "kind": "hold",
+          "startTime": "14:30"
+        }
+      ],
+      "reviewNotes": "两场单日；去掉错误跨日"
+    },
+    "post-218": {
+      "id": "post-218",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "6f69ea1a85e7215aef6243fa5d412006c592966effbe70e1e02287292b9ec9e6",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》一举配信实况＆感想投稿活动",
+      "summaryZh": "8/31 16:00–22:00 一举配信期间投稿实况/感想，抽选 1 名可特别购买 2nd 个人演唱会「凛音の理」门票。",
+      "eventDates": [
+        {
+          "date": "2024-08-31",
+          "kind": "hold",
+          "startTime": "16:00",
+          "endTime": "22:00"
+        }
+      ]
+    },
+    "post-236": {
+      "id": "post-236",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "e267eee19b1218a2fac70eb20a751b7afae603ea5c2c1ba6ea78133b45eb4c86",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》Vol.4〈豪华限定版〉发售纪念线上 talk 配信",
+      "summaryZh": "纪念 Vol.4 豪华限定版发售，9 月 20 日 19:00–20:00 于 Limista 举办线上 talk 配信；预约抽选获签名卡。",
+      "eventDates": [
+        {
+          "date": "2024-09-20",
+          "kind": "hold",
+          "startTime": "19:00",
+          "endTime": "20:00"
+        }
+      ]
+    },
+    "post-213": {
+      "id": "post-213",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "aed3df818585d7889c899444419bb66edabeaf5e976271d09d11658796f2322e",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "2nd ONE-MAN LIVE “凛音の理” 直播票开始发售！",
+      "summaryZh": "2nd 个人演唱会「凛音の理」直播票自 8 月 17 日 19:00 起发售；含线上直播、卡拉 OK 观影与全球配信。",
+      "eventDates": [
+        {
+          "date": "2024-08-17",
+          "kind": "sale",
+          "startTime": "19:00"
+        }
+      ],
+      "reviewNotes": "开售为 sale"
     }
   }
 }

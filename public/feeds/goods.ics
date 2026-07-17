@@ -605,62 +605,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-211.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-220-2024-09-01-hold@gbc-news
-DTSTAMP:20240901T000000Z
-DTSTART;VALUE=DATE:20240901
-DTEND;VALUE=DATE:20240902
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] アニメ『ガールズバンドクライ』POP UP SHOP
- 全国5カ所で開催！9/6(金)～19(木)アトレ秋葉原から巡回
- 開始！
-DESCRIPTION:アニメ『ガールズバンドクライ』POP UP SHOPが全
- 国5カ所で開催決定！\n9月6日(金)～9月19日(木)アトレ秋
- 葉原での開催を皮切りに、 ・9月28日(土)～10月14日(月・
- 祝)／ジーストア名古屋 ・10月19日(土)～11月4日(月・祝)
- ／ジーストア大阪 ・11月9日(土)～11月17日(日)／ジース
- トア小倉 ・11月23日(土)～12月1日(日)\n\n
- https://girls-band-cry.com/news/post-220.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-220.html
-CATEGORIES:togenashi,live,goods,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-220-2024-09-02-hold@gbc-news
-DTSTAMP:20240902T000000Z
-DTSTART;VALUE=DATE:20240902
-DTEND;VALUE=DATE:20240903
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] アニメ『ガールズバンドクライ』POP UP SHOP
- 全国5カ所で開催！9/6(金)～19(木)アトレ秋葉原から巡回
- 開始！
-DESCRIPTION:アニメ『ガールズバンドクライ』POP UP SHOPが全
- 国5カ所で開催決定！\n9月6日(金)～9月19日(木)アトレ秋
- 葉原での開催を皮切りに、 ・9月28日(土)～10月14日(月・
- 祝)／ジーストア名古屋 ・10月19日(土)～11月4日(月・祝)
- ／ジーストア大阪 ・11月9日(土)～11月17日(日)／ジース
- トア小倉 ・11月23日(土)～12月1日(日)\n\n
- https://girls-band-cry.com/news/post-220.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-220.html
-CATEGORIES:togenashi,live,goods,event
-END:VEVENT
-BEGIN:VEVENT
 UID:post-220-2024-09-06_2024-09-19-hold@gbc-news
 DTSTAMP:20240906T000000Z
 DTSTART;VALUE=DATE:20240906
 DTEND;VALUE=DATE:20240920
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] アニメ『ガールズバンドクライ』POP UP SHOP
- 全国5カ所で開催！9/6(金)～19(木)アトレ秋葉原から巡回
- 開始！
-DESCRIPTION:アニメ『ガールズバンドクライ』POP UP SHOPが全
- 国5カ所で開催決定！\n9月6日(金)～9月19日(木)アトレ秋
- 葉原での開催を皮切りに、 ・9月28日(土)～10月14日(月・
- 祝)／ジーストア名古屋 ・10月19日(土)～11月4日(月・祝)
- ／ジーストア大阪 ・11月9日(土)～11月17日(日)／ジース
- トア小倉 ・11月23日(土)～12月1日(日)\n\n
- https://girls-band-cry.com/news/post-220.html
+SUMMARY:[举办] 动画《Girls Band Cry》POP UP SHOP 全国 5 地举办
+ ！9/6（五）起从 Atre 秋叶原开始巡回！
+DESCRIPTION:手岛 nari 全新绘制弹出商店巡回：秋叶原 9/6–19
+ 、名古屋 9/28–10/14、大阪 10/19–11/4、小仓 11/9–17、仙
+ 台 11/23–12/1。\n\nhttps://girls-band-cry.com/news/post-220.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-220.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
@@ -690,21 +645,16 @@ CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
 UID:collabo-girls-band-cry-rubber-mat-ensky-anime-store-goods2024-2024-09-0
- 8-sale-2359@gbc-news
-DTSTAMP:20240908T145900Z
-DTSTART:20240908T145900Z
-DTEND:20240908T155900Z
-TRANSP:OPAQUE
+ 8-sale@gbc-news
+DTSTAMP:20240908T000000Z
+DTSTART;VALUE=DATE:20240908
+DTEND;VALUE=DATE:20240909
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ トゲトゲらのキャラ
- クターラバーマット 12月発売!
-DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
- 「ガールズバンドクライ (ガルクラ)」から、新作グッ
- ズ「キャラクターラバーマット」が2024年12月下旬に発
- 売される。\nラバーマットには、井芹仁菜らによる劇中
- に登場するロックバンド「トゲナシトゲアリ (トゲトゲ
- )」とライバル「ダイヤモンドダスト (ダイダス)」が登
- 場！\n\n
+SUMMARY:[发售] Girls Band Cry 刺刺等人角色橡胶垫 12 月发售！
+DESCRIPTION:无刺有刺与 Diamond Dust 角色橡胶垫（各 3850 日元
+ ）由 Ensky 预定 2024 年 12 月下旬发售；Anime Store.JP 预约至
+  9 月 8 日。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-rubber-mat-ensky-an
  ime-store-goods2024/
 URL;VALUE=URI:
@@ -719,35 +669,27 @@ DTSTART;VALUE=DATE:20240928
 DTEND;VALUE=DATE:20241015
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] アニメ『ガールズバンドクライ』POP UP SHOP
- 全国5カ所で開催！9/6(金)～19(木)アトレ秋葉原から巡回
- 開始！
-DESCRIPTION:アニメ『ガールズバンドクライ』POP UP SHOPが全
- 国5カ所で開催決定！\n9月6日(金)～9月19日(木)アトレ秋
- 葉原での開催を皮切りに、 ・9月28日(土)～10月14日(月・
- 祝)／ジーストア名古屋 ・10月19日(土)～11月4日(月・祝)
- ／ジーストア大阪 ・11月9日(土)～11月17日(日)／ジース
- トア小倉 ・11月23日(土)～12月1日(日)\n\n
- https://girls-band-cry.com/news/post-220.html
+SUMMARY:[举办] 动画《Girls Band Cry》POP UP SHOP 全国 5 地举办
+ ！9/6（五）起从 Atre 秋叶原开始巡回！
+DESCRIPTION:手岛 nari 全新绘制弹出商店巡回：秋叶原 9/6–19
+ 、名古屋 9/28–10/14、大阪 10/19–11/4、小仓 11/9–17、仙
+ 台 11/23–12/1。\n\nhttps://girls-band-cry.com/news/post-220.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-220.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
 UID:collabo-girls-band-cry-bleeding-hearts-newly-drawn-pop-up-shop-i-rights
- -anime-store-goods2024-2024-10-06-sale-2359@gbc-news
-DTSTAMP:20241006T145900Z
-DTSTART:20241006T145900Z
-DTEND:20241006T155900Z
-TRANSP:OPAQUE
+ -anime-store-goods2024-2024-10-06-sale@gbc-news
+DTSTAMP:20241006T000000Z
+DTSTART;VALUE=DATE:20241006
+DTEND;VALUE=DATE:20241007
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ「爆ぜて咲く」衣装
- の描き下ろしグッズ 11月発売!
-DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
- 「ガールズバンドクライ (ガルクラ)」より、「トゲナ
- シトゲアリ (トゲトゲ)」の3rdシングル「爆ぜて咲く」
- の衣装を描き下ろしした新作グッズが2024年11月に一般
- 発売される。\nJOL原宿にて開催”POP-UP SHOP”先行販売グ
- ッズで、桃香たちのアクスタ等が新登場！\n\n
+SUMMARY:[发售] Girls Band Cry「爆ぜて咲く」服装全新绘制周
+ 边 11 月发售！
+DESCRIPTION:无刺有刺「爆ぜて咲く」服装全新绘制周边（立
+ 牌、文件夹、托特包、T 恤等 11 种）预定 2024 年 11 月一
+ 般发售；Anime Store.JP 预约至 10 月 6 日。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-bleeding-hearts-new
  ly-drawn-pop-up-shop-i-rights-anime-store-goods2024/
 URL;VALUE=URI:
@@ -786,14 +728,11 @@ DTSTART;VALUE=DATE:20241011
 DTEND;VALUE=DATE:20241028
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライ POP UP SHOP in OIOIが10月
- 11日(金)より開催決定！
-DESCRIPTION:ガールズバンドクライ POP UP SHOP in OIOIが10月11日
- (金)より開催決定！\nトゲナシトゲアリの5人が【Rock Quee
- n】をテーマにした衣装を身にまとった東映アニメーシ
- ョン描き下ろしイラストを使用したPOPUP SHOPが開催決定
- ！\n『ガールズバンドクライ POP UP SHOP in OIOI』では東映
- アニメーション描き下ろしイラスト\n\n
+SUMMARY:[举办] Girls Band Cry POP UP SHOP in OIOI 10 月 11 日（五）
+ 起举办！
+DESCRIPTION:Rock Queen 主题弹出商店于 OIOI 举办：2024 年 10 月 
+ 11 日–27 日及 11 月 16 日–24 日；满 2200 日元赠视觉卡，
+ 10/24 有仁菜生日限定企划。\n\n
  https://girls-band-cry.com/news/post-235.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-235.html
 CATEGORIES:togenashi,live,goods,event
@@ -805,16 +744,11 @@ DTSTART;VALUE=DATE:20241019
 DTEND;VALUE=DATE:20241105
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] アニメ『ガールズバンドクライ』POP UP SHOP
- 全国5カ所で開催！9/6(金)～19(木)アトレ秋葉原から巡回
- 開始！
-DESCRIPTION:アニメ『ガールズバンドクライ』POP UP SHOPが全
- 国5カ所で開催決定！\n9月6日(金)～9月19日(木)アトレ秋
- 葉原での開催を皮切りに、 ・9月28日(土)～10月14日(月・
- 祝)／ジーストア名古屋 ・10月19日(土)～11月4日(月・祝)
- ／ジーストア大阪 ・11月9日(土)～11月17日(日)／ジース
- トア小倉 ・11月23日(土)～12月1日(日)\n\n
- https://girls-band-cry.com/news/post-220.html
+SUMMARY:[举办] 动画《Girls Band Cry》POP UP SHOP 全国 5 地举办
+ ！9/6（五）起从 Atre 秋叶原开始巡回！
+DESCRIPTION:手岛 nari 全新绘制弹出商店巡回：秋叶原 9/6–19
+ 、名古屋 9/28–10/14、大阪 10/19–11/4、小仓 11/9–17、仙
+ 台 11/23–12/1。\n\nhttps://girls-band-cry.com/news/post-220.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-220.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
@@ -825,16 +759,11 @@ DTSTART:20241024T010000Z
 DTEND:20241024T020000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] 10/24(木)よりAniBirthにてガールズバンドクラ
- イ新商品発売決定！
-DESCRIPTION:10/24（木）仁菜の誕生日を記念して「井芹仁菜
- 」グッズが発売決定！\n仁菜の趣味「御朱印帳集め」に
- もぴったりなライブ衣装をモチーフにした御朱印帳や
- 仁菜オンリーの名場面クリアカード、カードを飾れる
- コレクションローダーなど仁菜づくしの新商品です！\n
- 発売当日の入店制限等につきましては、アニバース公
- 式X・公式HPをご確認ください。\n【AniBirthショップ詳細
- 】\n\nhttps://girls-band-cry.com/news/post-247.html
+SUMMARY:[发售] 10/24（四）起 AniBirth 发售 Girls Band Cry 新商品
+ ！
+DESCRIPTION:纪念仁菜生日（10/24），AniBirth 发售御朱印账、
+ 仁菜名场面透明卡、收藏夹等仁菜主题周边。\n\n
+ https://girls-band-cry.com/news/post-247.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-247.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
@@ -845,16 +774,11 @@ DTSTART:20241025T040000Z
 DTEND:20241025T050000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 2nd ONE-MAN LIVE “凛音の理
- ”グッズ事後通販のご案内
-DESCRIPTION:「トゲナシトゲアリ 2nd ONE-MAN LIVE “凛音の理”
- 」にご来場いただいた皆様、誠にありがとうございま
- した たくさんのお客様にご来場いただき、ならびに配
- 信でご視聴いただき、心より御礼申し上げます LIVEグッ
- ズ関して、10月25日（金）より事後通販を行います！\n 
- ■販売場所： 東映アニメーションオフィシャルストア 
- ■販売開始日：10月25\n\n
- https://girls-band-cry.com/news/post-248.html
+SUMMARY:[发售] 无刺有刺 2nd ONE-MAN LIVE “凛音の理” 周边事
+ 后通贩通知
+DESCRIPTION:2nd 个人演唱会「凛音の理」周边自 10 月 25 日 13
+ :00 起在东映动画官方商店事后通贩，数量有限售完即止
+ 。\n\nhttps://girls-band-cry.com/news/post-248.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-248.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
@@ -896,16 +820,11 @@ DTSTART;VALUE=DATE:20241109
 DTEND;VALUE=DATE:20241118
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] アニメ『ガールズバンドクライ』POP UP SHOP
- 全国5カ所で開催！9/6(金)～19(木)アトレ秋葉原から巡回
- 開始！
-DESCRIPTION:アニメ『ガールズバンドクライ』POP UP SHOPが全
- 国5カ所で開催決定！\n9月6日(金)～9月19日(木)アトレ秋
- 葉原での開催を皮切りに、 ・9月28日(土)～10月14日(月・
- 祝)／ジーストア名古屋 ・10月19日(土)～11月4日(月・祝)
- ／ジーストア大阪 ・11月9日(土)～11月17日(日)／ジース
- トア小倉 ・11月23日(土)～12月1日(日)\n\n
- https://girls-band-cry.com/news/post-220.html
+SUMMARY:[举办] 动画《Girls Band Cry》POP UP SHOP 全国 5 地举办
+ ！9/6（五）起从 Atre 秋叶原开始巡回！
+DESCRIPTION:手岛 nari 全新绘制弹出商店巡回：秋叶原 9/6–19
+ 、名古屋 9/28–10/14、大阪 10/19–11/4、小仓 11/9–17、仙
+ 台 11/23–12/1。\n\nhttps://girls-band-cry.com/news/post-220.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-220.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
@@ -951,14 +870,11 @@ DTSTART;VALUE=DATE:20241116
 DTEND;VALUE=DATE:20241125
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライ POP UP SHOP in OIOIが10月
- 11日(金)より開催決定！
-DESCRIPTION:ガールズバンドクライ POP UP SHOP in OIOIが10月11日
- (金)より開催決定！\nトゲナシトゲアリの5人が【Rock Quee
- n】をテーマにした衣装を身にまとった東映アニメーシ
- ョン描き下ろしイラストを使用したPOPUP SHOPが開催決定
- ！\n『ガールズバンドクライ POP UP SHOP in OIOI』では東映
- アニメーション描き下ろしイラスト\n\n
+SUMMARY:[举办] Girls Band Cry POP UP SHOP in OIOI 10 月 11 日（五）
+ 起举办！
+DESCRIPTION:Rock Queen 主题弹出商店于 OIOI 举办：2024 年 10 月 
+ 11 日–27 日及 11 月 16 日–24 日；满 2200 日元赠视觉卡，
+ 10/24 有仁菜生日限定企划。\n\n
  https://girls-band-cry.com/news/post-235.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-235.html
 CATEGORIES:togenashi,live,goods,event
@@ -990,16 +906,11 @@ DTSTART;VALUE=DATE:20241123
 DTEND;VALUE=DATE:20241202
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] アニメ『ガールズバンドクライ』POP UP SHOP
- 全国5カ所で開催！9/6(金)～19(木)アトレ秋葉原から巡回
- 開始！
-DESCRIPTION:アニメ『ガールズバンドクライ』POP UP SHOPが全
- 国5カ所で開催決定！\n9月6日(金)～9月19日(木)アトレ秋
- 葉原での開催を皮切りに、 ・9月28日(土)～10月14日(月・
- 祝)／ジーストア名古屋 ・10月19日(土)～11月4日(月・祝)
- ／ジーストア大阪 ・11月9日(土)～11月17日(日)／ジース
- トア小倉 ・11月23日(土)～12月1日(日)\n\n
- https://girls-band-cry.com/news/post-220.html
+SUMMARY:[举办] 动画《Girls Band Cry》POP UP SHOP 全国 5 地举办
+ ！9/6（五）起从 Atre 秋叶原开始巡回！
+DESCRIPTION:手岛 nari 全新绘制弹出商店巡回：秋叶原 9/6–19
+ 、名古屋 9/28–10/14、大阪 10/19–11/4、小仓 11/9–17、仙
+ 台 11/23–12/1。\n\nhttps://girls-band-cry.com/news/post-220.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-220.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT

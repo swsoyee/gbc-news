@@ -1,6 +1,6 @@
 {
   "sourceId": "collabo-cafe",
-  "updatedAt": "2026-07-17T15:30:00.000Z",
+  "updatedAt": "2026-07-17T15:40:00.000Z",
   "items": {
     "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026": {
       "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
@@ -627,6 +627,38 @@
         }
       ],
       "reviewNotes": "2 月无具体日；去掉 23:59"
+    },
+    "collabo-girls-band-cry-bleeding-hearts-newly-drawn-pop-up-shop-i-rights-anime-store-goods2024": {
+      "id": "collabo-girls-band-cry-bleeding-hearts-newly-drawn-pop-up-shop-i-rights-anime-store-goods2024",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "6fb71a45eefecd20c552267c0246d4447e64a10d4f31b1df013f671f7fe64e22",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "Girls Band Cry「爆ぜて咲く」服装全新绘制周边 11 月发售！",
+      "summaryZh": "无刺有刺「爆ぜて咲く」服装全新绘制周边（立牌、文件夹、托特包、T 恤等 11 种）预定 2024 年 11 月一般发售；Anime Store.JP 预约至 10 月 6 日。",
+      "eventDates": [
+        {
+          "date": "2024-10-06",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "11 月无具体日；去掉 23:59"
+    },
+    "collabo-girls-band-cry-rubber-mat-ensky-anime-store-goods2024": {
+      "id": "collabo-girls-band-cry-rubber-mat-ensky-anime-store-goods2024",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "483b6bd2acf8b0869ec90e19c5ec48a1d02af0a33a8f3aaa31ec0d78e697cae5",
+      "reviewedAt": "2026-07-17T15:40:00.000Z",
+      "titleZh": "Girls Band Cry 刺刺等人角色橡胶垫 12 月发售！",
+      "summaryZh": "无刺有刺与 Diamond Dust 角色橡胶垫（各 3850 日元）由 Ensky 预定 2024 年 12 月下旬发售；Anime Store.JP 预约至 9 月 8 日。",
+      "eventDates": [
+        {
+          "date": "2024-09-08",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "12 月下旬无具体日；去掉 23:59"
     }
   }
 }

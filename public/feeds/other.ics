@@ -196,35 +196,15 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-212.html
 CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT
-UID:post-222-2024-08-31-hold@gbc-news
+UID:post-222-2024-08-31_2024-09-06-hold@gbc-news
 DTSTAMP:20240831T000000Z
 DTSTART;VALUE=DATE:20240831
-DTEND;VALUE=DATE:20240901
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ全13話YouTubeで期間限定無料公開
-DESCRIPTION:8月31日に実施した TVアニメ「ガールズバンドク
- ライ」一挙配信の動画を 2024年9月6日(金)23:59まで期間限
- 定公開 この機会にぜひTVアニメ「ガールズバンドクラ
- イ」をお楽しみください まだ本作を見たことがない方
- にもぜひおすすめしてください！\n\n
- https://girls-band-cry.com/news/post-222.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-222.html
-CATEGORIES:togenashi,other
-END:VEVENT
-BEGIN:VEVENT
-UID:post-222-2024-09-06-hold@gbc-news
-DTSTAMP:20240906T000000Z
-DTSTART;VALUE=DATE:20240906
 DTEND;VALUE=DATE:20240907
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ全13話YouTubeで期間限定無料公開
-DESCRIPTION:8月31日に実施した TVアニメ「ガールズバンドク
- ライ」一挙配信の動画を 2024年9月6日(金)23:59まで期間限
- 定公開 この機会にぜひTVアニメ「ガールズバンドクラ
- イ」をお楽しみください まだ本作を見たことがない方
- にもぜひおすすめしてください！\n\n
+SUMMARY:[举办] TV 动画全 13 话 YouTube 期间限定免费公开
+DESCRIPTION:8/31 一举配信的全 13 话影像于 YouTube 期间限定公
+ 开至 2024 年 9 月 6 日 23:59。\n\n
  https://girls-band-cry.com/news/post-222.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-222.html
 CATEGORIES:togenashi,other
@@ -236,16 +216,11 @@ DTSTART:20240912T010000Z
 DTEND:20240912T020000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] 9/12(木)よりAniBirthにてガールズバンドクラ
- イ新商品発売決定！
-DESCRIPTION:AniBirthにて、ガールズバンドクライ新商品の発
- 売が決定いたしました！\n トゲナシトゲアリ、ダイヤ
- モンドダストのアクリルスタンドが登場！\n そしてト
- ゲナシトゲアリのバンド名の由来となったTシャツや、 
- バックプリントの入ったダイヤモンドダストのTシャツ
- も登場します。\n ぜひチェックしてみてください！\n 
- 発売当日の入店制限等につきましては、 アニバー\n\n
- https://girls-band-cry.com/news/post-227.html
+SUMMARY:[发售] 9/12（四）起 AniBirth 发售 Girls Band Cry 新商品
+ ！
+DESCRIPTION:AniBirth 自 9/12 起发售无刺有刺・Diamond Dust 亚克
+ 力立牌，以及乐队名由来 T 恤、Diamond Dust 背面印花 T 恤
+ 等。\n\nhttps://girls-band-cry.com/news/post-227.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-227.html
 CATEGORIES:togenashi,other
 END:VEVENT
@@ -256,34 +231,26 @@ DTSTART:20240912T010000Z
 DTEND:20240912T020000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] 9/12(木)よりAniBirthにてガールズバンドクラ
- イ新商品発売決定！
-DESCRIPTION:AniBirthにて、ガールズバンドクライ新商品の発
- 売が決定いたしました！\nトゲナシトゲアリ、ダイヤモ
- ンドダストのアクリルスタンドが登場！\nそしてトゲナ
- シトゲアリのバンド名の由来となったTシャツや、 バッ
- クプリントの入ったダイヤモンドダストのTシャツも登
- 場します。\nぜひチェックしてみてください！\n発売当
- 日の入店制限等につきましては、アニバース公式Xをご
- 確認く\n\nhttps://girls-band-cry.com/news/post-229.html
+SUMMARY:[发售] 9/12（四）起 AniBirth 发售 Girls Band Cry 新商品
+ ！
+DESCRIPTION:AniBirth 自 9/12 起发售无刺有刺・Diamond Dust 亚克
+ 力立牌，以及乐队名由来 T 恤、Diamond Dust 背面印花 T 恤
+ 等。\n\nhttps://girls-band-cry.com/news/post-229.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-229.html
 CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT
-UID:post-237-2024-10-01-sale-1000@gbc-news
-DTSTAMP:20241001T010000Z
-DTSTART:20241001T010000Z
-DTEND:20241001T020000Z
-TRANSP:OPAQUE
+UID:post-237-2024-10-01_2024-10-31-sale@gbc-news
+DTSTAMP:20241001T000000Z
+DTSTART;VALUE=DATE:20241001
+DTEND;VALUE=DATE:20241101
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 10/1(火)より「東映アニメーション オンライ
- ンくじ」にて 「ガルクジ」が発売決定！
-DESCRIPTION:東映アニメーション オンラインくじ がついに
- 登場！\n第一弾は「ガルクジ」！！！\n手島nari氏の描き
- 下ろしイラストのレア商品が盛りだくさん！！\nイラス
- トの仁菜たちとおそろいのTシャツも登場！\n期間 10月1
- 日(火) 10:00~10月31日(木) 23:59 価格 1回660円(税込) 東映ア
- ニメーション オンラインくじ\n\n
+SUMMARY:[发售] 10/1（二）起「东映动画线上抽奖」发售「ガ
+ ルクジ」！
+DESCRIPTION:东映动画线上抽奖第一弹「ガルクジ」于 2024 年
+  10 月 1 日–31 日发售（每次 660 日元），含手岛 nari 全
+ 新绘制周边与同款 T 恤。\n\n
  https://girls-band-cry.com/news/post-237.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-237.html
 CATEGORIES:togenashi,other
@@ -295,12 +262,10 @@ DTSTART:20241023T110000Z
 DTEND:20241023T130000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] GITADORA ゲーム実況生配信決定！
-DESCRIPTION:10/23(水)20:00～＠ 公式YouTubeチャンネル TVアニメ
- 「ガールズバンドクライ」 OP主題歌「雑踏、僕らの街
- 」が収録されている リズムゲーム「GITADORA」を トゲナ
- シトゲアリ メンバーが実況プレイ ぜひチェックしてく
- ださい\n\nhttps://girls-band-cry.com/news/post-246.html
+SUMMARY:[举办] GITADORA 游戏实况直播决定！
+DESCRIPTION:无刺有刺成员将于 10/23 20:00 起在官方 YouTube 实
+ 况节奏游戏 GITADORA（收录 OP《雑踏、僕らの街》）。\n\n
+ https://girls-band-cry.com/news/post-246.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-246.html
 CATEGORIES:togenashi,other
 END:VEVENT

@@ -4,7 +4,7 @@
     <title>gbc-news · 曲目</title>
     <link>https://gbc-news.example.com/</link>
     <description>ガールズバンドクライ 公式ニュース（曲目）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 12:30:45 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 12:31:42 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/music.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[发售] 名もなき何もかも／トゲナシトゲアリ 2023年7月26日(水)CD発売！</title>
@@ -779,26 +779,36 @@
       <description>TVアニメ『ガールズバンドクライ』劇中バンド「トゲナシトゲアリ」から 2nd Album「棘ナシ」が2024年8月28日(水)に発売決定！ 初回限定盤にはオフィシャルキャラクター設定資料(32P)も付属🎁 そして2024年9月11日(水)にはオリジナルサウンドトラックも発売！ ＜ トゲナシトゲアリ 2nd Album 「棘ナシ」＞ 2024/8/28(水)</description>
     </item>
     <item>
-      <title>[举办] 9月12日より、ガールズバンドクライのLINEスタンプを配信開始！</title>
+      <title>[发售] 9 月 12 日起 Girls Band Cry LINE 贴纸开始配信！</title>
       <link>https://girls-band-cry.com/news/post-230.html</link>
-      <guid isPermaLink="false">post-230-2024-09-12-hold@gbc-news</guid>
+      <guid isPermaLink="false">post-230-2024-09-12-sale@gbc-news</guid>
       <pubDate>Thu, 12 Sep 2024 00:00:00 GMT</pubDate>
       <category>music</category>
       <category domain="group">togenashi</category>
-      <description>TVアニメ『ガールズバンドクライ』のLINEスタンプが配信開始しました！ アニメに登場したキャラクターの名シーンや、つい使いたくなる名セリフ、全40種をラインナップしました‼︎ ぜひチェックしてみてください！ LINEストアでのスタンプ購入は こちら</description>
+      <description>TV 动画《Girls Band Cry》LINE 贴纸自 2024 年 9 月 12 日起配信，共 40 种名场面与台词贴纸。</description>
     </item>
     <item>
-      <title>[发售] 買うなら今！2nd ONE-MAN LIVEライブ配信チケット発売中！！</title>
+      <title>[发售] 现在就买！2nd ONE-MAN LIVE 直播票发售中！！</title>
       <link>https://girls-band-cry.com/news/post-228.html</link>
-      <guid isPermaLink="false">post-228-2024-09-13-sale-1800@gbc-news</guid>
+      <guid isPermaLink="false">post-228-2024-09-13-sale@gbc-news</guid>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>music</category>
+      <category domain="group">togenashi</category>
+      <description>2nd 个人演唱会「凛音の理」直播票发售至 9 月 13 日 18:00；含线上直播、卡拉 OK 观影与全球配信。</description>
+    </item>
+    <item>
+      <title>[举办] 现在就买！2nd ONE-MAN LIVE 直播票发售中！！</title>
+      <link>https://girls-band-cry.com/news/post-228.html</link>
+      <guid isPermaLink="false">post-228-2024-09-13-hold-1800@gbc-news</guid>
       <pubDate>Fri, 13 Sep 2024 09:00:00 GMT</pubDate>
       <category>live</category>
       <category>music</category>
       <category domain="group">togenashi</category>
-      <description>トゲナシトゲアリ 2nd ONE-MAN LIVE “凛音の理” ライブ配信チケット好評発売中！ オンラインでのライブ配信のみならず、お近くのカラオケ店舗でライブを楽しめるカラオケ・ビューイングと全世界に向けてのグローバル配信も実施します。 チケットが買えるのは9月13日(金)18:00まで。 ライブ開始後はチケットの購入が出来なくなるのでご注意ください！ </description>
+      <description>2nd 个人演唱会「凛音の理」直播票发售至 9 月 13 日 18:00；含线上直播、卡拉 OK 观影与全球配信。</description>
     </item>
     <item>
-      <title>[举办] TVアニメ『ガールズバンドクライ』 Vol.4〈豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライントーク配信</title>
+      <title>[举办] TV 动画《Girls Band Cry》Vol.4〈豪华限定版〉发售纪念线上 talk 配信</title>
       <link>https://girls-band-cry.com/news/post-236.html</link>
       <guid isPermaLink="false">post-236-2024-09-20-hold-1900@gbc-news</guid>
       <pubDate>Fri, 20 Sep 2024 10:00:00 GMT</pubDate>
@@ -807,7 +817,7 @@
       <category>event</category>
       <category>cinema</category>
       <category domain="group">togenashi</category>
-      <description>東映アニメーションが製作するオリジナルアニメ『ガールズバンドクライ』待望の映像商品、TVアニメ『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/DVD＋CD］のVol.4の発売を記念して、リミスタでのオンライントーク配信の開催が決定！ リミスタにて対象商品をご購入いただいたお客様に、TVアニメ『ガールズバンドクライ』豪華限定版Vol.4のジャケッ</description>
+      <description>纪念 Vol.4 豪华限定版发售，9 月 20 日 19:00–20:00 于 Limista 举办线上 talk 配信；预约抽选获签名卡。</description>
     </item>
     <item>
       <title>[发售] トゲナシトゲアリ 2nd Album「棘ナシ」発売記念生アフレコイベント 開催のご案内</title>
@@ -822,7 +832,7 @@
       <description>2024年8月28日発売 トゲナシトゲアリ 2nd Album「棘ナシ」の発売を記念して、アニメイト池袋本店9F animate hall BLACKでの〈生アフレコイベント〉の開催が決定しました。 大好評のうちに全13話のOAが終了したTVアニメ『ガールズバンドクライ』のいくつかのシーンの生アフレコをメンバーが披露するイベントとなります。 ご応募をお待ちし</description>
     </item>
     <item>
-      <title>[举办] TVアニメ『ガールズバンドクライ』 Vol.5〈豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライントーク配信 開催のご案内</title>
+      <title>[举办] TV 动画《Girls Band Cry》Vol.5〈豪华限定版〉发售纪念线上 talk 配信举办通知</title>
       <link>https://girls-band-cry.com/news/post-239.html</link>
       <guid isPermaLink="false">post-239-2024-10-24-hold-1900@gbc-news</guid>
       <pubDate>Thu, 24 Oct 2024 10:00:00 GMT</pubDate>
@@ -831,7 +841,7 @@
       <category>event</category>
       <category>cinema</category>
       <category domain="group">togenashi</category>
-      <description>東映アニメーションが製作するオリジナルアニメ『ガールズバンドクライ』待望の映像商品、TVアニメ『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/DVD＋CD］のVol.5の発売を記念して、リミスタでのオンライントーク配信の開催が決定！ リミスタにて対象商品をご購入いただいたお客様に、TVアニメ『ガールズバンドクライ』豪華限定版Vol.5のジャケッ</description>
+      <description>纪念 Vol.5 豪华限定版发售，10 月 24 日 19:00–20:00 于 Limista 举办线上 talk 配信；预约抽选获签名卡。</description>
     </item>
     <item>
       <title>[举办] TV 动画《Girls Band Cry》Vol.6〈豪华限定版〉发售纪念线上 talk 配信举办通知</title>
