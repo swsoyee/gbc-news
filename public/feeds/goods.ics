@@ -2866,16 +2866,12 @@ DTSTART;VALUE=DATE:20260404
 DTEND;VALUE=DATE:20260418
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 4/4(土)よりコラボカフェ『ガールズバンド
- クライ SCREAM CAFE in Tree Village』がツリービレッジにて開
- 催！
-DESCRIPTION:『ガールズバンドクライ SCREAM CAFE in Tree Village
- 』が東京・横浜・大阪・博多にて開催決定！！\n作画監
- 督の酒井香澄による、拡声器を手に叫ぶロックなトゲ
- ナシトゲアリの描き下ろしイラスト「SCREAM」が登場！\n
- 迫力のあるビジュアルを使用したグッズや各キャラク
- ターの好物を取り入れたカフェメニューにも注目 ■開
- 催期間 東京：2026年4\n\n
+SUMMARY:[举办] 4/4 起联动咖啡厅《Girls Band Cry（GBC）SCREAM CAF
+ E in Tree Village》在 Tree Village 举…
+DESCRIPTION:《Girls Band Cry（GBC）SCREAM CAFE in Tree Village》于东
+ 京、横滨、大阪、博多举办。\n会期：东京4/4–4/17，横
+ 滨4/24–5/15，大阪・博多6/6–6/18；使用酒井香澄绘制的
+ 「SCREAM」插图推出联动菜单和限定周边。\n\n
  https://girls-band-cry.com/news/post-463.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-463.html
 CATEGORIES:togenashi,goods,event
@@ -2908,59 +2904,49 @@ DTSTART;VALUE=DATE:20260424
 DTEND;VALUE=DATE:20260516
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 4/4(土)よりコラボカフェ『ガールズバンド
- クライ SCREAM CAFE in Tree Village』がツリービレッジにて開
- 催！
-DESCRIPTION:『ガールズバンドクライ SCREAM CAFE in Tree Village
- 』が東京・横浜・大阪・博多にて開催決定！！\n作画監
- 督の酒井香澄による、拡声器を手に叫ぶロックなトゲ
- ナシトゲアリの描き下ろしイラスト「SCREAM」が登場！\n
- 迫力のあるビジュアルを使用したグッズや各キャラク
- ターの好物を取り入れたカフェメニューにも注目 ■開
- 催期間 東京：2026年4\n\n
+SUMMARY:[举办] 4/4 起联动咖啡厅《Girls Band Cry（GBC）SCREAM CAF
+ E in Tree Village》在 Tree Village 举…
+DESCRIPTION:《Girls Band Cry（GBC）SCREAM CAFE in Tree Village》于东
+ 京、横滨、大阪、博多举办。\n会期：东京4/4–4/17，横
+ 滨4/24–5/15，大阪・博多6/6–6/18；使用酒井香澄绘制的
+ 「SCREAM」插图推出联动菜单和限定周边。\n\n
  https://girls-band-cry.com/news/post-463.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-463.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-464-2026-04-24-hold@gbc-news
-DTSTAMP:20260424T000000Z
-DTSTART;VALUE=DATE:20260424
-DTEND;VALUE=DATE:20260425
-TRANSP:TRANSPARENT
+UID:post-464-2026-04-24-hold-1900@gbc-news
+DTSTAMP:20260424T100000Z
+DTSTART:20260424T100000Z
+DTEND:20260424T110000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 『劇場版総集編 ガールズバンドクライ』「
- 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
- -ray][DVD] 2026年7月22日(水)…
-DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
- バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
- ガールズバンドクライ 【後編】 なぁ、未来。\n」 のパ
- ッケージ化が決定！\n発売日は共に7/22(水)、初回限定版
- はこちらも手島nariによる新規描きおろしジャケットが
- 起用される。\nブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画\n\n
- https://girls-band-cry.com/news/post-464.html
+SUMMARY:[举办] 《剧场版总集篇 Girls Band Cry（GBC）》【前篇
+ 】青春狂走曲 / 【后篇】なぁ、未来。Blu-ray/DVD 将于2026
+ 年7月22日…
+DESCRIPTION:2025年公开的《剧场版总集篇 Girls Band Cry（GBC）
+ 》前篇与后篇确定发行 Blu-ray/DVD，发售日为2026年7月22日
+ 。\n完全受注限定毛绒玩偶套装预约截止4月26日23:59；发
+ 售纪念线上 talk 配信为前篇4月24日19:00、后篇7月10日19:00
+ 。\n\nhttps://girls-band-cry.com/news/post-464.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-464-2026-04-26-sale@gbc-news
-DTSTAMP:20260426T000000Z
-DTSTART;VALUE=DATE:20260426
-DTEND;VALUE=DATE:20260427
-TRANSP:TRANSPARENT
+UID:post-464-2026-04-26-sale-2359@gbc-news
+DTSTAMP:20260426T145900Z
+DTSTART:20260426T145900Z
+DTEND:20260426T155900Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] 『劇場版総集編 ガールズバンドクライ』「
- 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
- -ray][DVD] 2026年7月22日(水)…
-DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
- バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
- ガールズバンドクライ 【後編】 なぁ、未来。\n」 のパ
- ッケージ化が決定！\n発売日は共に7/22(水)、初回限定版
- はこちらも手島nariによる新規描きおろしジャケットが
- 起用される。\nブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画\n\n
- https://girls-band-cry.com/news/post-464.html
+SUMMARY:[发售] 《剧场版总集篇 Girls Band Cry（GBC）》【前篇
+ 】青春狂走曲 / 【后篇】なぁ、未来。Blu-ray/DVD 将于2026
+ 年7月22日…
+DESCRIPTION:2025年公开的《剧场版总集篇 Girls Band Cry（GBC）
+ 》前篇与后篇确定发行 Blu-ray/DVD，发售日为2026年7月22日
+ 。\n完全受注限定毛绒玩偶套装预约截止4月26日23:59；发
+ 售纪念线上 talk 配信为前篇4月24日19:00、后篇7月10日19:00
+ 。\n\nhttps://girls-band-cry.com/news/post-464.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
@@ -3071,16 +3057,12 @@ DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20260619
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 4/4(土)よりコラボカフェ『ガールズバンド
- クライ SCREAM CAFE in Tree Village』がツリービレッジにて開
- 催！
-DESCRIPTION:『ガールズバンドクライ SCREAM CAFE in Tree Village
- 』が東京・横浜・大阪・博多にて開催決定！！\n作画監
- 督の酒井香澄による、拡声器を手に叫ぶロックなトゲ
- ナシトゲアリの描き下ろしイラスト「SCREAM」が登場！\n
- 迫力のあるビジュアルを使用したグッズや各キャラク
- ターの好物を取り入れたカフェメニューにも注目 ■開
- 催期間 東京：2026年4\n\n
+SUMMARY:[举办] 4/4 起联动咖啡厅《Girls Band Cry（GBC）SCREAM CAF
+ E in Tree Village》在 Tree Village 举…
+DESCRIPTION:《Girls Band Cry（GBC）SCREAM CAFE in Tree Village》于东
+ 京、横滨、大阪、博多举办。\n会期：东京4/4–4/17，横
+ 滨4/24–5/15，大阪・博多6/6–6/18；使用酒井香澄绘制的
+ 「SCREAM」插图推出联动菜单和限定周边。\n\n
  https://girls-band-cry.com/news/post-463.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-463.html
 CATEGORIES:togenashi,goods,event
@@ -3153,65 +3135,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-482.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-464-2026-07-10-hold@gbc-news
-DTSTAMP:20260710T000000Z
-DTSTART;VALUE=DATE:20260710
-DTEND;VALUE=DATE:20260711
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 『劇場版総集編 ガールズバンドクライ』「
- 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
- -ray][DVD] 2026年7月22日(水)…
-DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
- バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
- ガールズバンドクライ 【後編】 なぁ、未来。\n」 のパ
- ッケージ化が決定！\n発売日は共に7/22(水)、初回限定版
- はこちらも手島nariによる新規描きおろしジャケットが
- 起用される。\nブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画\n\n
- https://girls-band-cry.com/news/post-464.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
-CATEGORIES:togenashi,live,music,goods,event,cinema,media
-END:VEVENT
-BEGIN:VEVENT
 UID:post-464-2026-07-10-hold-1900@gbc-news
 DTSTAMP:20260710T100000Z
 DTSTART:20260710T100000Z
-DTEND:20260710T120000Z
+DTEND:20260710T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 『劇場版総集編 ガールズバンドクライ』「
- 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
- -ray][DVD] 2026年7月22日(水)…
-DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
- バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
- ガールズバンドクライ 【後編】 なぁ、未来。\n」 のパ
- ッケージ化が決定！\n発売日は共に7/22(水)、初回限定版
- はこちらも手島nariによる新規描きおろしジャケットが
- 起用される。\nブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画\n\n
- https://girls-band-cry.com/news/post-464.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
-CATEGORIES:togenashi,live,music,goods,event,cinema,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-464-2026-07-10-hold-2000@gbc-news
-DTSTAMP:20260710T110000Z
-DTSTART:20260710T110000Z
-DTEND:20260710T130000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] 『劇場版総集編 ガールズバンドクライ』「
- 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
- -ray][DVD] 2026年7月22日(水)…
-DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
- バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
- ガールズバンドクライ 【後編】 なぁ、未来。\n」 のパ
- ッケージ化が決定！\n発売日は共に7/22(水)、初回限定版
- はこちらも手島nariによる新規描きおろしジャケットが
- 起用される。\nブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画\n\n
- https://girls-band-cry.com/news/post-464.html
+SUMMARY:[举办] 《剧场版总集篇 Girls Band Cry（GBC）》【前篇
+ 】青春狂走曲 / 【后篇】なぁ、未来。Blu-ray/DVD 将于2026
+ 年7月22日…
+DESCRIPTION:2025年公开的《剧场版总集篇 Girls Band Cry（GBC）
+ 》前篇与后篇确定发行 Blu-ray/DVD，发售日为2026年7月22日
+ 。\n完全受注限定毛绒玩偶套装预约截止4月26日23:59；发
+ 售纪念线上 talk 配信为前篇4月24日19:00、后篇7月10日19:00
+ 。\n\nhttps://girls-band-cry.com/news/post-464.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
@@ -3242,17 +3179,14 @@ DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 『劇場版総集編 ガールズバンドクライ』「
- 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
- -ray][DVD] 2026年7月22日(水)…
-DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
- バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
- ガールズバンドクライ 【後編】 なぁ、未来。\n」 のパ
- ッケージ化が決定！\n発売日は共に7/22(水)、初回限定版
- はこちらも手島nariによる新規描きおろしジャケットが
- 起用される。\nブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画\n\n
- https://girls-band-cry.com/news/post-464.html
+SUMMARY:[发售] 《剧场版总集篇 Girls Band Cry（GBC）》【前篇
+ 】青春狂走曲 / 【后篇】なぁ、未来。Blu-ray/DVD 将于2026
+ 年7月22日…
+DESCRIPTION:2025年公开的《剧场版总集篇 Girls Band Cry（GBC）
+ 》前篇与后篇确定发行 Blu-ray/DVD，发售日为2026年7月22日
+ 。\n完全受注限定毛绒玩偶套装预约截止4月26日23:59；发
+ 售纪念线上 talk 配信为前篇4月24日19:00、后篇7月10日19:00
+ 。\n\nhttps://girls-band-cry.com/news/post-464.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT

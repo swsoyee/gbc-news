@@ -1,6 +1,6 @@
 {
   "sourceId": "gbc-news",
-  "updatedAt": "2026-07-17T12:00:00.000Z",
+  "updatedAt": "2026-07-17T12:05:00.000Z",
   "items": {
     "post-483": {
       "id": "post-483",
@@ -235,6 +235,130 @@
         }
       ],
       "reviewNotes": "规则只保留 7/22 且带 10:00（客服营业时间误判）；订正为发售日全天，并补录预约截止。"
+    },
+    "post-467": {
+      "id": "post-467",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "cbfdc41f1a5d4898b58648e99c5e79d2a6b7d25b9e301a7e4ae75066a8a4107d",
+      "reviewedAt": "2026-07-17T12:05:00.000Z",
+      "titleZh": "4月22日、23日 GBC 项目启动3周年纪念《剧场版总集篇 Girls Band Cry（GBC）》前后篇连续两晚上映决定！",
+      "summaryZh": "为纪念 GBC 项目启动3周年，《剧场版总集篇 Girls Band Cry（GBC）【前篇】青春狂走曲》与【后篇】なぁ、未来。将在新宿 Wald 9、立川 Cinema City、川崎 Cinecitta、T・Joy 梅田连续两晚上映：前篇4月22日、后篇4月23日。各影院上映时间不同，并附第4周入场特典与 GBC 观影礼仪讲座一举上映。",
+      "eventDates": [
+        {
+          "date": "2026-04-22",
+          "kind": "hold"
+        },
+        {
+          "date": "2026-04-23",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "正文给出各影院不同上映时刻（19:00/19:10/19:30），无法用单一时刻表达；保留两天全天事件。"
+    },
+    "post-468": {
+      "id": "post-468",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "935f0c3c8f6810da90b159b96da4eb006ef2b6d97269f9761a4540802d45b332",
+      "reviewedAt": "2026-07-17T12:05:00.000Z",
+      "titleZh": "TV动画《Girls Band Cry（GBC）》播出2周年关注＆转发活动举办！",
+      "summaryZh": "为纪念 TV动画《Girls Band Cry（GBC）》播出2周年，官方 X 举办关注＆转发抽奖活动；参与者中抽选30名赠送 TV动画主视觉海报。活动截止时间为2026年4月13日23:59。",
+      "eventDates": [
+        {
+          "date": "2026-04-13",
+          "kind": "hold",
+          "startTime": "23:59"
+        }
+      ],
+      "reviewNotes": "该条为抽奖活动截止时间，保留规则抽取的 4/13 23:59。"
+    },
+    "post-463": {
+      "id": "post-463",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "9801b52cba9b5bcca340e691aecb49e30985dc0e300f4efcf4a86892b73fd4c1",
+      "reviewedAt": "2026-07-17T12:05:00.000Z",
+      "titleZh": "4/4 起联动咖啡厅《Girls Band Cry（GBC）SCREAM CAFE in Tree Village》在 Tree Village 举办！",
+      "summaryZh": "《Girls Band Cry（GBC）SCREAM CAFE in Tree Village》于东京、横滨、大阪、博多举办。会期：东京4/4–4/17，横滨4/24–5/15，大阪・博多6/6–6/18；使用酒井香澄绘制的「SCREAM」插图推出联动菜单和限定周边。",
+      "eventDates": [
+        {
+          "date": "2026-04-04",
+          "kind": "hold",
+          "endDate": "2026-04-17"
+        },
+        {
+          "date": "2026-04-24",
+          "kind": "hold",
+          "endDate": "2026-05-15"
+        },
+        {
+          "date": "2026-06-06",
+          "kind": "hold",
+          "endDate": "2026-06-18"
+        }
+      ],
+      "reviewNotes": "三地会期与正文一致；保留三段期间。"
+    },
+    "post-464": {
+      "id": "post-464",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "5805e04948fa3dbab232616ffae3169f54f99b79d05289b42e022a3dbc1c841d",
+      "reviewedAt": "2026-07-17T12:05:00.000Z",
+      "titleZh": "《剧场版总集篇 Girls Band Cry（GBC）》【前篇】青春狂走曲 / 【后篇】なぁ、未来。Blu-ray/DVD 将于2026年7月22日发售！",
+      "summaryZh": "2025年公开的《剧场版总集篇 Girls Band Cry（GBC）》前篇与后篇确定发行 Blu-ray/DVD，发售日为2026年7月22日。完全受注限定毛绒玩偶套装预约截止4月26日23:59；发售纪念线上 talk 配信为前篇4月24日19:00、后篇7月10日19:00。",
+      "eventDates": [
+        {
+          "date": "2026-04-24",
+          "kind": "hold",
+          "startTime": "19:00",
+          "endTime": "20:00"
+        },
+        {
+          "date": "2026-04-26",
+          "kind": "sale",
+          "startTime": "23:59"
+        },
+        {
+          "date": "2026-07-10",
+          "kind": "hold",
+          "startTime": "19:00",
+          "endTime": "20:00"
+        },
+        {
+          "date": "2026-07-22",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "规则误生成 4/24/7/10 全天与 20:00 单独条；订正为 19:00-20:00 配信，保留预约截止与发售日。"
+    },
+    "post-465": {
+      "id": "post-465",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "05e67266088ee342e2aeb01ce4053b20608562d0eb419ba08b242356942f8dcf",
+      "reviewedAt": "2026-07-17T12:05:00.000Z",
+      "titleZh": "无刺有刺专辑《棘アリ》《棘ナシ》完全生产限定黑胶唱片将于2026年8月19日发售！",
+      "summaryZh": "2024年发行的无刺有刺两张专辑《棘アリ》《棘ナシ》确定同步推出完全生产限定黑胶唱片，发售日为2026年8月19日。确保购买需在5月24日前预约；发售纪念线上 talk 配信为2026年5月29日19:00。",
+      "eventDates": [
+        {
+          "date": "2026-05-24",
+          "kind": "sale",
+          "startTime": "23:59"
+        },
+        {
+          "date": "2026-05-29",
+          "kind": "hold",
+          "startTime": "19:00",
+          "endTime": "20:00"
+        },
+        {
+          "date": "2026-08-19",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "规则误拆 5/29 19:00 与 20:00 两条；订正为 19:00-20:00 配信，并补录预约截止 5/24。"
     }
   }
 }

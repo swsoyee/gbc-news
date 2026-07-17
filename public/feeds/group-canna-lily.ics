@@ -8,20 +8,34 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-WR-CALNAME:gbc-news · Canna Lily
 NAME:gbc-news · Canna Lily
 BEGIN:VEVENT
+UID:firstriff-post-2-2026-03-22_2026-04-01-sale-2100@gbc-news
+DTSTAMP:20260322T120000Z
+DTSTART:20260322T120000Z
+DTEND:20260401T145900Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] Canna Lily 第1场个人演唱会「未明に咲く花」
+ 决定举办！
+DESCRIPTION:Canna Lily 第1场个人演唱会「未明に咲く花」于202
+ 6年6月26日在代官山 UNIT 举办，开演19:00。\n先行抽选受理
+ 为2026年3月22日21:00–4月1日23:59。\n\n
+ https://gbc-firstriff.com/news/post-2.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-2.html
+CATEGORIES:canna-lily,live,event
+END:VEVENT
+BEGIN:VEVENT
 UID:firstriff-post-1-2026-03-28_2026-03-29-hold-0900@gbc-news
 DTSTAMP:20260328T000000Z
 DTSTART:20260328T000000Z
 DTEND:20260329T080000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] AnimeJapan 2026出展情報
-DESCRIPTION:AnimeJapan 2026 東映アニメーションブースに、 「
- ガールズバンドクライ」「ガールズバンドクライ First R
- iff」が出展します。\n「トゲナシトゲアリ」と「Canna Lil
- y」のキャラクターパネルの展示や、オリジナルノベル
- ティのプレゼントも予定しています。\n皆様のご来場を
- お待ちしております。\n■開催日程 2026年3月28日(土)～29
- 日(\n\nhttps://gbc-firstriff.com/news/post-1.html
+SUMMARY:[举办] AnimeJapan 2026 出展信息
+DESCRIPTION:Girls Band Cry（GBC）与 Girls Band Cry（GBC）First Riff 
+ 将出展 AnimeJapan 2026 东映动画展位，展示无刺有刺与 Canna
+  Lily 角色立牌，并计划赠送原创特典。\n活动日程为2026
+ 年3月28日–3月29日 9:00–17:00。\n\n
+ https://gbc-firstriff.com/news/post-1.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-1.html
 CATEGORIES:togenashi,canna-lily,live,event
 END:VEVENT
@@ -32,13 +46,12 @@ DTSTART:20260626T100000Z
 DTEND:20260626T120000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] Canna Lily 1st ONE-MAN LIVE「未明に咲く花」開催
- 決定！
-DESCRIPTION:Canna Lily 1st ONE-MAN LIVE「未明に咲く花」の開催が
- 決定。\n■開催日時 2026年6月26日(金) 開場 18:00/開演 19:00
-  ■会場 代官山UNIT(東京都渋谷区) ■チケット情報 先行
- 抽選販売を実施します。\n受付期間:2026年3月22日(日)21:00
- ～4月1日(水)23:59\n\nhttps://gbc-firstriff.com/news/post-2.html
+SUMMARY:[举办] Canna Lily 第1场个人演唱会「未明に咲く花」
+ 决定举办！
+DESCRIPTION:Canna Lily 第1场个人演唱会「未明に咲く花」于202
+ 6年6月26日在代官山 UNIT 举办，开演19:00。\n先行抽选受理
+ 为2026年3月22日21:00–4月1日23:59。\n\n
+ https://gbc-firstriff.com/news/post-2.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-2.html
 CATEGORIES:canna-lily,live,event
 END:VEVENT

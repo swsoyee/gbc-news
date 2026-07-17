@@ -2663,15 +2663,15 @@ DTSTART;VALUE=DATE:20260422
 DTEND;VALUE=DATE:20260423
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 4月22日(水)・4月23日(木) ガルクラプロジェ
- クト始動3周年記念『劇場版総集編ガールズバンドクラ
- イ』前後編二夜連続上映 実施決定！
-DESCRIPTION:2026年4月24日(金)は、「ガルクラプロジェクト始
- 動3周年」の記念日です。\nこの記念すべき日を前に『
- 劇場版総集編 ガールズバンドクライ 【前編】 青春狂
- 走曲』『劇場版総集編 ガールズバンドクライ 【後編】
-  なぁ、未来。\n』の二夜連続上映の実施が決定しまし
- た！\n＜上映作品\n\nhttps://girls-band-cry.com/news/post-467.html
+SUMMARY:[举办] 4月22日、23日 GBC 项目启动3周年纪念《剧场
+ 版总集篇 Girls Band Cry（GBC）》前后篇连续两晚上映决定
+ ！
+DESCRIPTION:为纪念 GBC 项目启动3周年，《剧场版总集篇 Girls
+  Band Cry（GBC）【前篇】青春狂走曲》与【后篇】なぁ、
+ 未来。\n将在新宿 Wald 9、立川 Cinema City、川崎 Cinecitta、T
+ ・Joy 梅田连续两晚上映：前篇4月22日、后篇4月23日。\n
+ 各影院上映时间不同，并附第4周入场特典与 GBC 观影礼
+ 仪讲座一举上映。\n\nhttps://girls-band-cry.com/news/post-467.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-467.html
 CATEGORIES:togenashi,live,cinema
 END:VEVENT
@@ -2682,57 +2682,51 @@ DTSTART;VALUE=DATE:20260423
 DTEND;VALUE=DATE:20260424
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 4月22日(水)・4月23日(木) ガルクラプロジェ
- クト始動3周年記念『劇場版総集編ガールズバンドクラ
- イ』前後編二夜連続上映 実施決定！
-DESCRIPTION:2026年4月24日(金)は、「ガルクラプロジェクト始
- 動3周年」の記念日です。\nこの記念すべき日を前に『
- 劇場版総集編 ガールズバンドクライ 【前編】 青春狂
- 走曲』『劇場版総集編 ガールズバンドクライ 【後編】
-  なぁ、未来。\n』の二夜連続上映の実施が決定しまし
- た！\n＜上映作品\n\nhttps://girls-band-cry.com/news/post-467.html
+SUMMARY:[举办] 4月22日、23日 GBC 项目启动3周年纪念《剧场
+ 版总集篇 Girls Band Cry（GBC）》前后篇连续两晚上映决定
+ ！
+DESCRIPTION:为纪念 GBC 项目启动3周年，《剧场版总集篇 Girls
+  Band Cry（GBC）【前篇】青春狂走曲》与【后篇】なぁ、
+ 未来。\n将在新宿 Wald 9、立川 Cinema City、川崎 Cinecitta、T
+ ・Joy 梅田连续两晚上映：前篇4月22日、后篇4月23日。\n
+ 各影院上映时间不同，并附第4周入场特典与 GBC 观影礼
+ 仪讲座一举上映。\n\nhttps://girls-band-cry.com/news/post-467.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-467.html
 CATEGORIES:togenashi,live,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-464-2026-04-24-hold@gbc-news
-DTSTAMP:20260424T000000Z
-DTSTART;VALUE=DATE:20260424
-DTEND;VALUE=DATE:20260425
-TRANSP:TRANSPARENT
+UID:post-464-2026-04-24-hold-1900@gbc-news
+DTSTAMP:20260424T100000Z
+DTSTART:20260424T100000Z
+DTEND:20260424T110000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 『劇場版総集編 ガールズバンドクライ』「
- 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
- -ray][DVD] 2026年7月22日(水)…
-DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
- バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
- ガールズバンドクライ 【後編】 なぁ、未来。\n」 のパ
- ッケージ化が決定！\n発売日は共に7/22(水)、初回限定版
- はこちらも手島nariによる新規描きおろしジャケットが
- 起用される。\nブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画\n\n
- https://girls-band-cry.com/news/post-464.html
+SUMMARY:[举办] 《剧场版总集篇 Girls Band Cry（GBC）》【前篇
+ 】青春狂走曲 / 【后篇】なぁ、未来。Blu-ray/DVD 将于2026
+ 年7月22日…
+DESCRIPTION:2025年公开的《剧场版总集篇 Girls Band Cry（GBC）
+ 》前篇与后篇确定发行 Blu-ray/DVD，发售日为2026年7月22日
+ 。\n完全受注限定毛绒玩偶套装预约截止4月26日23:59；发
+ 售纪念线上 talk 配信为前篇4月24日19:00、后篇7月10日19:00
+ 。\n\nhttps://girls-band-cry.com/news/post-464.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-464-2026-04-26-sale@gbc-news
-DTSTAMP:20260426T000000Z
-DTSTART;VALUE=DATE:20260426
-DTEND;VALUE=DATE:20260427
-TRANSP:TRANSPARENT
+UID:post-464-2026-04-26-sale-2359@gbc-news
+DTSTAMP:20260426T145900Z
+DTSTART:20260426T145900Z
+DTEND:20260426T155900Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] 『劇場版総集編 ガールズバンドクライ』「
- 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
- -ray][DVD] 2026年7月22日(水)…
-DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
- バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
- ガールズバンドクライ 【後編】 なぁ、未来。\n」 のパ
- ッケージ化が決定！\n発売日は共に7/22(水)、初回限定版
- はこちらも手島nariによる新規描きおろしジャケットが
- 起用される。\nブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画\n\n
- https://girls-band-cry.com/news/post-464.html
+SUMMARY:[发售] 《剧场版总集篇 Girls Band Cry（GBC）》【前篇
+ 】青春狂走曲 / 【后篇】なぁ、未来。Blu-ray/DVD 将于2026
+ 年7月22日…
+DESCRIPTION:2025年公开的《剧场版总集篇 Girls Band Cry（GBC）
+ 》前篇与后篇确定发行 Blu-ray/DVD，发售日为2026年7月22日
+ 。\n完全受注限定毛绒玩偶套装预约截止4月26日23:59；发
+ 售纪念线上 talk 配信为前篇4月24日19:00、后篇7月10日19:00
+ 。\n\nhttps://girls-band-cry.com/news/post-464.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
@@ -2806,65 +2800,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-466.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-464-2026-07-10-hold@gbc-news
-DTSTAMP:20260710T000000Z
-DTSTART;VALUE=DATE:20260710
-DTEND;VALUE=DATE:20260711
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 『劇場版総集編 ガールズバンドクライ』「
- 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
- -ray][DVD] 2026年7月22日(水)…
-DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
- バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
- ガールズバンドクライ 【後編】 なぁ、未来。\n」 のパ
- ッケージ化が決定！\n発売日は共に7/22(水)、初回限定版
- はこちらも手島nariによる新規描きおろしジャケットが
- 起用される。\nブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画\n\n
- https://girls-band-cry.com/news/post-464.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
-CATEGORIES:togenashi,live,music,goods,event,cinema,media
-END:VEVENT
-BEGIN:VEVENT
 UID:post-464-2026-07-10-hold-1900@gbc-news
 DTSTAMP:20260710T100000Z
 DTSTART:20260710T100000Z
-DTEND:20260710T120000Z
+DTEND:20260710T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 『劇場版総集編 ガールズバンドクライ』「
- 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
- -ray][DVD] 2026年7月22日(水)…
-DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
- バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
- ガールズバンドクライ 【後編】 なぁ、未来。\n」 のパ
- ッケージ化が決定！\n発売日は共に7/22(水)、初回限定版
- はこちらも手島nariによる新規描きおろしジャケットが
- 起用される。\nブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画\n\n
- https://girls-band-cry.com/news/post-464.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
-CATEGORIES:togenashi,live,music,goods,event,cinema,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-464-2026-07-10-hold-2000@gbc-news
-DTSTAMP:20260710T110000Z
-DTSTART:20260710T110000Z
-DTEND:20260710T130000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] 『劇場版総集編 ガールズバンドクライ』「
- 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
- -ray][DVD] 2026年7月22日(水)…
-DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
- バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
- ガールズバンドクライ 【後編】 なぁ、未来。\n」 のパ
- ッケージ化が決定！\n発売日は共に7/22(水)、初回限定版
- はこちらも手島nariによる新規描きおろしジャケットが
- 起用される。\nブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画\n\n
- https://girls-band-cry.com/news/post-464.html
+SUMMARY:[举办] 《剧场版总集篇 Girls Band Cry（GBC）》【前篇
+ 】青春狂走曲 / 【后篇】なぁ、未来。Blu-ray/DVD 将于2026
+ 年7月22日…
+DESCRIPTION:2025年公开的《剧场版总集篇 Girls Band Cry（GBC）
+ 》前篇与后篇确定发行 Blu-ray/DVD，发售日为2026年7月22日
+ 。\n完全受注限定毛绒玩偶套装预约截止4月26日23:59；发
+ 售纪念线上 talk 配信为前篇4月24日19:00、后篇7月10日19:00
+ 。\n\nhttps://girls-band-cry.com/news/post-464.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
@@ -2875,17 +2824,14 @@ DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 『劇場版総集編 ガールズバンドクライ』「
- 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
- -ray][DVD] 2026年7月22日(水)…
-DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
- バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
- ガールズバンドクライ 【後編】 なぁ、未来。\n」 のパ
- ッケージ化が決定！\n発売日は共に7/22(水)、初回限定版
- はこちらも手島nariによる新規描きおろしジャケットが
- 起用される。\nブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画\n\n
- https://girls-band-cry.com/news/post-464.html
+SUMMARY:[发售] 《剧场版总集篇 Girls Band Cry（GBC）》【前篇
+ 】青春狂走曲 / 【后篇】なぁ、未来。Blu-ray/DVD 将于2026
+ 年7月22日…
+DESCRIPTION:2025年公开的《剧场版总集篇 Girls Band Cry（GBC）
+ 》前篇与后篇确定发行 Blu-ray/DVD，发售日为2026年7月22日
+ 。\n完全受注限定毛绒玩偶套装预约截止4月26日23:59；发
+ 售纪念线上 talk 配信为前篇4月24日19:00、后篇7月10日19:00
+ 。\n\nhttps://girls-band-cry.com/news/post-464.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT

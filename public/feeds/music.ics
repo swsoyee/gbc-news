@@ -2186,149 +2186,90 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-455.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-464-2026-04-24-hold@gbc-news
-DTSTAMP:20260424T000000Z
-DTSTART;VALUE=DATE:20260424
-DTEND;VALUE=DATE:20260425
-TRANSP:TRANSPARENT
+UID:post-464-2026-04-24-hold-1900@gbc-news
+DTSTAMP:20260424T100000Z
+DTSTART:20260424T100000Z
+DTEND:20260424T110000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 『劇場版総集編 ガールズバンドクライ』「
- 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
- -ray][DVD] 2026年7月22日(水)…
-DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
- バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
- ガールズバンドクライ 【後編】 なぁ、未来。\n」 のパ
- ッケージ化が決定！\n発売日は共に7/22(水)、初回限定版
- はこちらも手島nariによる新規描きおろしジャケットが
- 起用される。\nブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画\n\n
- https://girls-band-cry.com/news/post-464.html
+SUMMARY:[举办] 《剧场版总集篇 Girls Band Cry（GBC）》【前篇
+ 】青春狂走曲 / 【后篇】なぁ、未来。Blu-ray/DVD 将于2026
+ 年7月22日…
+DESCRIPTION:2025年公开的《剧场版总集篇 Girls Band Cry（GBC）
+ 》前篇与后篇确定发行 Blu-ray/DVD，发售日为2026年7月22日
+ 。\n完全受注限定毛绒玩偶套装预约截止4月26日23:59；发
+ 售纪念线上 talk 配信为前篇4月24日19:00、后篇7月10日19:00
+ 。\n\nhttps://girls-band-cry.com/news/post-464.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-464-2026-04-26-sale@gbc-news
-DTSTAMP:20260426T000000Z
-DTSTART;VALUE=DATE:20260426
-DTEND;VALUE=DATE:20260427
-TRANSP:TRANSPARENT
+UID:post-464-2026-04-26-sale-2359@gbc-news
+DTSTAMP:20260426T145900Z
+DTSTART:20260426T145900Z
+DTEND:20260426T155900Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] 『劇場版総集編 ガールズバンドクライ』「
- 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
- -ray][DVD] 2026年7月22日(水)…
-DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
- バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
- ガールズバンドクライ 【後編】 なぁ、未来。\n」 のパ
- ッケージ化が決定！\n発売日は共に7/22(水)、初回限定版
- はこちらも手島nariによる新規描きおろしジャケットが
- 起用される。\nブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画\n\n
- https://girls-band-cry.com/news/post-464.html
+SUMMARY:[发售] 《剧场版总集篇 Girls Band Cry（GBC）》【前篇
+ 】青春狂走曲 / 【后篇】なぁ、未来。Blu-ray/DVD 将于2026
+ 年7月22日…
+DESCRIPTION:2025年公开的《剧场版总集篇 Girls Band Cry（GBC）
+ 》前篇与后篇确定发行 Blu-ray/DVD，发售日为2026年7月22日
+ 。\n完全受注限定毛绒玩偶套装预约截止4月26日23:59；发
+ 售纪念线上 talk 配信为前篇4月24日19:00、后篇7月10日19:00
+ 。\n\nhttps://girls-band-cry.com/news/post-464.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-465-2026-05-24-sale-2359@gbc-news
+DTSTAMP:20260524T145900Z
+DTSTART:20260524T145900Z
+DTEND:20260524T155900Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺专辑《棘アリ》《棘ナシ》完全生
+ 产限定黑胶唱片将于2026年8月19日发售！
+DESCRIPTION:2024年发行的无刺有刺两张专辑《棘アリ》《棘
+ ナシ》确定同步推出完全生产限定黑胶唱片，发售日为20
+ 26年8月19日。\n确保购买需在5月24日前预约；发售纪念线
+ 上 talk 配信为2026年5月29日19:00。\n\n
+ https://girls-band-cry.com/news/post-465.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-465.html
+CATEGORIES:togenashi,live,music,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-465-2026-05-29-hold-1900@gbc-news
 DTSTAMP:20260529T100000Z
 DTSTART:20260529T100000Z
-DTEND:20260529T120000Z
+DTEND:20260529T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ アルバム「棘アリ」「棘
- ナシ」 完全生産限定アナログレコード盤 2026年8月19日(
- 水)発売決定！
-DESCRIPTION:2024年にリリースされた2枚のアルバム「棘アリ
- 」と「棘ナシ」がアナログレコード盤として同時リリ
- ースが決定！\n各ジャケット写真は手島nariの新規描き
- おろしによりCDから一新。\nパッケージには先着特典と
- してこの各ジャケット写真を用いたステッカーも封入
- します！\n2枚ともに完全生産限定のため、確実に手に
- 入れたい場合は5月24日(日)までのご予約を忘れずに。\n
- ▶「棘\n\nhttps://girls-band-cry.com/news/post-465.html
+SUMMARY:[举办] 无刺有刺专辑《棘アリ》《棘ナシ》完全生
+ 产限定黑胶唱片将于2026年8月19日发售！
+DESCRIPTION:2024年发行的无刺有刺两张专辑《棘アリ》《棘
+ ナシ》确定同步推出完全生产限定黑胶唱片，发售日为20
+ 26年8月19日。\n确保购买需在5月24日前预约；发售纪念线
+ 上 talk 配信为2026年5月29日19:00。\n\n
+ https://girls-band-cry.com/news/post-465.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-465.html
 CATEGORIES:togenashi,live,music,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-465-2026-05-29-hold-2000@gbc-news
-DTSTAMP:20260529T110000Z
-DTSTART:20260529T110000Z
-DTEND:20260529T130000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ アルバム「棘アリ」「棘
- ナシ」 完全生産限定アナログレコード盤 2026年8月19日(
- 水)発売決定！
-DESCRIPTION:2024年にリリースされた2枚のアルバム「棘アリ
- 」と「棘ナシ」がアナログレコード盤として同時リリ
- ースが決定！\n各ジャケット写真は手島nariの新規描き
- おろしによりCDから一新。\nパッケージには先着特典と
- してこの各ジャケット写真を用いたステッカーも封入
- します！\n2枚ともに完全生産限定のため、確実に手に
- 入れたい場合は5月24日(日)までのご予約を忘れずに。\n
- ▶「棘\n\nhttps://girls-band-cry.com/news/post-465.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-465.html
-CATEGORIES:togenashi,live,music,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-464-2026-07-10-hold@gbc-news
-DTSTAMP:20260710T000000Z
-DTSTART;VALUE=DATE:20260710
-DTEND;VALUE=DATE:20260711
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 『劇場版総集編 ガールズバンドクライ』「
- 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
- -ray][DVD] 2026年7月22日(水)…
-DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
- バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
- ガールズバンドクライ 【後編】 なぁ、未来。\n」 のパ
- ッケージ化が決定！\n発売日は共に7/22(水)、初回限定版
- はこちらも手島nariによる新規描きおろしジャケットが
- 起用される。\nブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画\n\n
- https://girls-band-cry.com/news/post-464.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
-CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-464-2026-07-10-hold-1900@gbc-news
 DTSTAMP:20260710T100000Z
 DTSTART:20260710T100000Z
-DTEND:20260710T120000Z
+DTEND:20260710T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 『劇場版総集編 ガールズバンドクライ』「
- 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
- -ray][DVD] 2026年7月22日(水)…
-DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
- バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
- ガールズバンドクライ 【後編】 なぁ、未来。\n」 のパ
- ッケージ化が決定！\n発売日は共に7/22(水)、初回限定版
- はこちらも手島nariによる新規描きおろしジャケットが
- 起用される。\nブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画\n\n
- https://girls-band-cry.com/news/post-464.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
-CATEGORIES:togenashi,live,music,goods,event,cinema,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-464-2026-07-10-hold-2000@gbc-news
-DTSTAMP:20260710T110000Z
-DTSTART:20260710T110000Z
-DTEND:20260710T130000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] 『劇場版総集編 ガールズバンドクライ』「
- 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
- -ray][DVD] 2026年7月22日(水)…
-DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
- バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
- ガールズバンドクライ 【後編】 なぁ、未来。\n」 のパ
- ッケージ化が決定！\n発売日は共に7/22(水)、初回限定版
- はこちらも手島nariによる新規描きおろしジャケットが
- 起用される。\nブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画\n\n
- https://girls-band-cry.com/news/post-464.html
+SUMMARY:[举办] 《剧场版总集篇 Girls Band Cry（GBC）》【前篇
+ 】青春狂走曲 / 【后篇】なぁ、未来。Blu-ray/DVD 将于2026
+ 年7月22日…
+DESCRIPTION:2025年公开的《剧场版总集篇 Girls Band Cry（GBC）
+ 》前篇与后篇确定发行 Blu-ray/DVD，发售日为2026年7月22日
+ 。\n完全受注限定毛绒玩偶套装预约截止4月26日23:59；发
+ 售纪念线上 talk 配信为前篇4月24日19:00、后篇7月10日19:00
+ 。\n\nhttps://girls-band-cry.com/news/post-464.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
@@ -2339,17 +2280,14 @@ DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 『劇場版総集編 ガールズバンドクライ』「
- 【前編】青春狂走曲」 / 「【後編】なぁ、未来。」 [Blu
- -ray][DVD] 2026年7月22日(水)…
-DESCRIPTION:2025年に公開された、 「劇場版総集編 ガールズ
- バンドクライ 【前編】 青春狂走曲」 「劇場版総集編 
- ガールズバンドクライ 【後編】 なぁ、未来。\n」 のパ
- ッケージ化が決定！\n発売日は共に7/22(水)、初回限定版
- はこちらも手島nariによる新規描きおろしジャケットが
- 起用される。\nブックレットには、劇場で入場者特典と
- して配布された 手島nari描き下ろし漫画\n\n
- https://girls-band-cry.com/news/post-464.html
+SUMMARY:[发售] 《剧场版总集篇 Girls Band Cry（GBC）》【前篇
+ 】青春狂走曲 / 【后篇】なぁ、未来。Blu-ray/DVD 将于2026
+ 年7月22日…
+DESCRIPTION:2025年公开的《剧场版总集篇 Girls Band Cry（GBC）
+ 》前篇与后篇确定发行 Blu-ray/DVD，发售日为2026年7月22日
+ 。\n完全受注限定毛绒玩偶套装预约截止4月26日23:59；发
+ 售纪念线上 talk 配信为前篇4月24日19:00、后篇7月10日19:00
+ 。\n\nhttps://girls-band-cry.com/news/post-464.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
@@ -2360,17 +2298,13 @@ DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20260820
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ アルバム「棘アリ」「棘
- ナシ」 完全生産限定アナログレコード盤 2026年8月19日(
- 水)発売決定！
-DESCRIPTION:2024年にリリースされた2枚のアルバム「棘アリ
- 」と「棘ナシ」がアナログレコード盤として同時リリ
- ースが決定！\n各ジャケット写真は手島nariの新規描き
- おろしによりCDから一新。\nパッケージには先着特典と
- してこの各ジャケット写真を用いたステッカーも封入
- します！\n2枚ともに完全生産限定のため、確実に手に
- 入れたい場合は5月24日(日)までのご予約を忘れずに。\n
- ▶「棘\n\nhttps://girls-band-cry.com/news/post-465.html
+SUMMARY:[发售] 无刺有刺专辑《棘アリ》《棘ナシ》完全生
+ 产限定黑胶唱片将于2026年8月19日发售！
+DESCRIPTION:2024年发行的无刺有刺两张专辑《棘アリ》《棘
+ ナシ》确定同步推出完全生产限定黑胶唱片，发售日为20
+ 26年8月19日。\n确保购买需在5月24日前预约；发售纪念线
+ 上 talk 配信为2026年5月29日19:00。\n\n
+ https://girls-band-cry.com/news/post-465.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-465.html
 CATEGORIES:togenashi,live,music,event
 END:VEVENT

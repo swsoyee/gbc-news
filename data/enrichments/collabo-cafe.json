@@ -1,6 +1,6 @@
 {
   "sourceId": "collabo-cafe",
-  "updatedAt": "2026-07-17T12:00:00.000Z",
+  "updatedAt": "2026-07-17T12:05:00.000Z",
   "items": {
     "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026": {
       "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
@@ -113,6 +113,82 @@
         }
       ],
       "reviewNotes": "保留预约截止为 sale；10月中旬发售无明确日期，不补录。"
+    },
+    "collabo-girls-band-cry-in-the-rain-pop-up-store-shibuya2026": {
+      "id": "collabo-girls-band-cry-in-the-rain-pop-up-store-shibuya2026",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "eeb9b9669c3e4a0fea2b508f7f1010303ac63fa5bea86db43f88405e80c3ed20",
+      "reviewedAt": "2026-07-17T12:05:00.000Z",
+      "titleZh": "GBC In the rain ver. 弹出商店 in 涩谷 MODI 4月7日起举办！",
+      "summaryZh": "《Girls Band Cry（GBC）》× AMNIBUS 弹出商店于涩谷 MODI 举办，会期2026年4月7日–4月14日；售卖以「In the rain ver.」为主题的井芹仁菜、河原木桃香、安和昴、海老塚智、RUPA 新绘周边，满2000日元（含税）随机赠送明信片。",
+      "eventDates": [
+        {
+          "date": "2026-04-07",
+          "kind": "hold",
+          "endDate": "2026-04-14"
+        }
+      ],
+      "reviewNotes": "会期与正文一致；保留 hold 期间。"
+    },
+    "collabo-girls-band-cry-scream-cafe-treevillage-2026": {
+      "id": "collabo-girls-band-cry-scream-cafe-treevillage-2026",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "1cc809912bb6978219279ce0899e77aafb908dbe8ad8d12cde6ab327fc4c115f",
+      "reviewedAt": "2026-07-17T12:05:00.000Z",
+      "titleZh": "GBC SCREAM CAFE in Tree Village 四店 4月4日起开始！",
+      "summaryZh": "《Girls Band Cry（GBC）》× Tree Village 四店（东京、横滨、大阪、博多）自2026年4月4日起顺次举办联动咖啡厅。会期：东京4/4–4/17，横滨4/24–5/15，大阪・博多6/6–6/18；提供联动菜单、随机杯垫与「SCREAM」限定周边。",
+      "eventDates": [
+        {
+          "date": "2026-04-04",
+          "kind": "hold",
+          "endDate": "2026-04-17"
+        },
+        {
+          "date": "2026-04-24",
+          "kind": "hold",
+          "endDate": "2026-05-15"
+        },
+        {
+          "date": "2026-06-06",
+          "kind": "hold",
+          "endDate": "2026-06-18"
+        }
+      ],
+      "reviewNotes": "三段会期与正文一致；与官网 post-463 同活动。"
+    },
+    "collabo-girls-band-cry-white-focus-popup-store-village-v2026": {
+      "id": "collabo-girls-band-cry-white-focus-popup-store-village-v2026",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "763614c65986bffe8af2d5ccfd161de8ce8228943d5289eff2a3c4d28f77d190",
+      "reviewedAt": "2026-07-17T12:05:00.000Z",
+      "titleZh": "GBC White Focus 弹出商店 in Village Vanguard 3月19日起举办！",
+      "summaryZh": "《Girls Band Cry（GBC）》White Focus 弹出商店于 Village Vanguard 各店举办，使用井芹仁菜、RUPA、安和昴、河原木桃香、海老塚智白色服装新绘插图周边。会期：川崎3/19–4/5、阿倍野3/20–4/5、福冈天神4/10–4/26、名古屋4/29–5/6。",
+      "eventDates": [
+        {
+          "date": "2026-03-19",
+          "kind": "hold",
+          "endDate": "2026-04-05"
+        },
+        {
+          "date": "2026-03-20",
+          "kind": "hold",
+          "endDate": "2026-04-05"
+        },
+        {
+          "date": "2026-04-10",
+          "kind": "hold",
+          "endDate": "2026-04-26"
+        },
+        {
+          "date": "2026-04-29",
+          "kind": "hold",
+          "endDate": "2026-05-06"
+        }
+      ],
+      "reviewNotes": "四地会期与正文一致；保留四段期间。"
     }
   }
 }
