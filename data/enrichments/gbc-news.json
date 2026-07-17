@@ -1,6 +1,6 @@
 {
   "sourceId": "gbc-news",
-  "updatedAt": "2026-07-17T14:40:00.000Z",
+  "updatedAt": "2026-07-17T14:50:00.000Z",
   "items": {
     "post-483": {
       "id": "post-483",
@@ -2430,6 +2430,199 @@
         }
       ],
       "reviewNotes": "补录前后篇上映日"
+    },
+    "post-305": {
+      "id": "post-305",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "78b3f3cea4385fa091f5d97ca96ededdba75169a09b2d5cff51f48cd9e74dbe1",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "无刺有刺 5th ONE-MAN LIVE “鳴動の刻” 线上配信票开始发售！",
+      "summaryZh": "5th 个人演唱会「鳴動の刻」回放票务销售期 2/6–3/16；观看期 3/8–3/16（3/8 12:00 首播）。提供普通票与周边限定票。",
+      "eventDates": [
+        {
+          "date": "2025-02-06",
+          "endDate": "2025-03-16",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-03-08",
+          "endDate": "2025-03-16",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "跨日去时刻"
+    },
+    "post-306": {
+      "id": "post-306",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f6e55744b70e3be5cabda74080b5a9a31dfa449284ccd9d83eea621e2b9ba3b9",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "「1st ONE-MAN LIVE “薄明の序奏”」Blu-ray&DVD 先到购买特典图样公开！",
+      "summaryZh": "无刺有刺 1st 个人演唱会「薄明の序奏」Blu-ray&DVD 于 2025 年 3 月 19 日发售；公开各店先到购买特典图样，收录全 13 曲本篇与幕后影像。",
+      "eventDates": [
+        {
+          "date": "2025-03-19",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-304": {
+      "id": "post-304",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "e42c4a5c1219d73b93bc8dfb999214abf4d6b85c48a67226b43005392e3004e2",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "5th ONE-MAN LIVE“鳴動の刻” 致到场观众须知",
+      "summaryZh": "2025 年 2 月 7 日无刺有刺 5th 个人演唱会「鳴動の刻」将实施行李检查与身份证件确认；禁止携带荧光棒、团扇及录音录像设备等。",
+      "eventDates": [
+        {
+          "date": "2025-02-07",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-301": {
+      "id": "post-301",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "de84a0d17da3ea2dd7bd071e211cd354aaacbdb4f70e53ef6047ff03a8da91fa",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "She is Legend × 无刺有刺 对邦 LIVE 举办决定！",
+      "summaryZh": "She is Legend × 无刺有刺对邦 LIVE 于 2025 年 5 月 15 日在东京花园剧场举办；票务先行自 3 月 16 日 12:00 起受理（价格与截止日另行公布）。",
+      "eventDates": [
+        {
+          "date": "2025-05-15",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-03-16",
+          "kind": "sale",
+          "startTime": "12:00"
+        }
+      ],
+      "reviewNotes": "先行开售为 sale"
+    },
+    "post-299": {
+      "id": "post-299",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "516ac54d227d11abf0936ac6368496ccaf23331e5d6f0443329047c6b758027e",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "「Girls Band Cry～广播也全部砸进去。～」2/24（一・祝）公开活动举办！一般先行抽选开始！",
+      "summaryZh": "WEB 广播公开活动于 2/24 在西荻地区民中心举办（13:30 / 16:30 两部，夕莉・理名・朱李）；先行抽选 1/30–2/6，一般发售 2/15 10:00 起。",
+      "eventDates": [
+        {
+          "date": "2025-02-24",
+          "kind": "hold",
+          "startTime": "13:30"
+        },
+        {
+          "date": "2025-02-24",
+          "kind": "hold",
+          "startTime": "16:30"
+        },
+        {
+          "date": "2025-01-30",
+          "endDate": "2025-02-06",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-02-15",
+          "kind": "sale",
+          "startTime": "10:00"
+        }
+      ],
+      "reviewNotes": "两部开演；跨日抽选去时刻"
+    },
+    "post-300": {
+      "id": "post-300",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "163a48ca1b788f5fcb4905140575d793a50afd0c875dbb750fa92c87e4891c08",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "1 月 31 日起 Girls Band Cry LINE 贴纸第 2 弹开始配信！",
+      "summaryZh": "TV 动画《Girls Band Cry》LINE 贴纸第 2 弹自 2025 年 1 月 31 日起配信，共 40 种名场面与台词贴纸。",
+      "eventDates": [
+        {
+          "date": "2025-01-31",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "配信发售为 sale"
+    },
+    "post-302": {
+      "id": "post-302",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "e12c7339abb1c16c85c194086d63f3f9437c363256949a0e49ca01f17ca8b0d5",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "无刺有刺 5th ONE-MAN LIVE 纪念 X 活动开始！",
+      "summaryZh": "纪念 5th 个人演唱会「鳴動の刻」，Girls Band Cry 官方 X 举办关注＆转发抽奖，截止 2025 年 2 月 6 日 23:59，抽选 30 名赠送主视觉海报。",
+      "eventDates": [
+        {
+          "date": "2025-02-06",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "截止日；去掉误抽 23:59"
+    },
+    "post-296": {
+      "id": "post-296",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "9cd9fa34da7f0add1b282b7802a086bce5bb81159de4ab99582bd01a8de85893",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "2/1（六）起《Girls Band Cry》线上抽奖开始发售！",
+      "summaryZh": "《Girls Band Cry》FAM 抽奖自 2025 年 2 月 1 日 15:00 至 2 月 28 日发售（每次 880 日元），使用东映动画全新绘制机车装插图周边，S 赏可选法被或教练夹克。",
+      "eventDates": [
+        {
+          "date": "2025-02-01",
+          "endDate": "2025-02-28",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "销售跨日去时刻；保留开售日"
+    },
+    "post-298": {
+      "id": "post-298",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f10918ec6b60a80b4593b4d0cd154be2032823edf6bdde849c857291fb523099",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "5th ONE-MAN LIVE“鳴動の刻” 注释指定席门票追加发售决定！",
+      "summaryZh": "因舞台方案确定，无刺有刺 5th 个人演唱会「鳴動の刻」注释指定席自 1 月 31 日 20:00 起追加先到先得发售。",
+      "eventDates": [
+        {
+          "date": "2025-01-31",
+          "kind": "sale",
+          "startTime": "20:00"
+        }
+      ],
+      "reviewNotes": "追加售票为 sale"
+    },
+    "post-297": {
+      "id": "post-297",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "907d9836120f151fb8a94b7fbff84090daddd472f4004f40f868eb55dbd58366",
+      "reviewedAt": "2026-07-17T14:50:00.000Z",
+      "titleZh": "「GBC 展」第 2 弹视觉解禁！1/29（三）起抽选票申请开始！",
+      "summaryZh": "GBC 展第 2 弹视觉（手岛 nari 绘制）公开；东京会场 2025 年 4 月 9 日–20 日于池袋 Sunshine City 举办，抽选票自 1/29 10:00 起申请。",
+      "eventDates": [
+        {
+          "date": "2025-04-09",
+          "endDate": "2025-04-20",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-01-29",
+          "kind": "sale",
+          "startTime": "10:00"
+        }
+      ],
+      "reviewNotes": "会期与抽选开售；去掉营业时刻误抽"
     }
   }
 }

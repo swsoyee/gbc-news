@@ -1536,20 +1536,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-252.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-300-2025-01-31-hold@gbc-news
+UID:post-300-2025-01-31-sale@gbc-news
 DTSTAMP:20250131T000000Z
 DTSTART;VALUE=DATE:20250131
 DTEND;VALUE=DATE:20250201
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 1月 31日より、ガールズバンドクライのLINE
- スタンプ第2弾を配信開始！
-DESCRIPTION:TVアニメ『ガールズバンドクライ』のLINEスタン
- プ第2弾が配信開始しました！\nアニメに登場したキャ
- ラクターの名シーンや、つい使いたくなる名セリフ、
- 全40種をラインナップしました‼︎ ぜひチェックして
- みてください！\nLINEストアでのスタンプ購入は こちら\
- n\nhttps://girls-band-cry.com/news/post-300.html
+SUMMARY:[发售] 1 月 31 日起 Girls Band Cry LINE 贴纸第 2 弹开始
+ 配信！
+DESCRIPTION:TV 动画《Girls Band Cry》LINE 贴纸第 2 弹自 2025 年 1
+  月 31 日起配信，共 40 种名场面与台词贴纸。\n\n
+ https://girls-band-cry.com/news/post-300.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-300.html
 CATEGORIES:togenashi,music
 END:VEVENT
@@ -1593,14 +1590,11 @@ DTSTART;VALUE=DATE:20250319
 DTEND;VALUE=DATE:20250320
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 「1st ONE-MAN LIVE “薄明の序奏”」Blu-ray&#038\;
- DVD先着購入特典絵柄公開！
-DESCRIPTION:トゲナシトゲアリ 「1st ONE-MAN LIVE “薄明の序奏
- ”」Blu-ray&DVDの先着購入特典絵柄を公開しました！\n※
- 先着特典となります。\n詳細は各SHOP/ECサイトにお問い
- 合わせください。\n※イメージとなり、実物とは異なる
- 場合がございます。\nトゲナシトゲアリ 「1st ONE-MAN LIVE 
- “薄明の序奏”」Blu-ray&DVD 202\n\n
+SUMMARY:[发售] 「1st ONE-MAN LIVE “薄明の序奏”」Blu-ray&DVD 
+ 先到购买特典图样公开！
+DESCRIPTION:无刺有刺 1st 个人演唱会「薄明の序奏」Blu-ray&DV
+ D 于 2025 年 3 月 19 日发售；公开各店先到购买特典图样
+ ，收录全 13 曲本篇与幕后影像。\n\n
  https://girls-band-cry.com/news/post-306.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-306.html
 CATEGORIES:togenashi,live,music,cinema

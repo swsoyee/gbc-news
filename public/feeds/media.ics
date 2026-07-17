@@ -530,22 +530,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-284.html
 CATEGORIES:togenashi,live,goods,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-299-2025-01-30-hold@gbc-news
+UID:post-299-2025-01-30_2025-02-06-sale@gbc-news
 DTSTAMP:20250130T000000Z
 DTSTART;VALUE=DATE:20250130
-DTEND;VALUE=DATE:20250131
+DTEND;VALUE=DATE:20250207
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ～ラジオにも全部
- ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先
- 行抽選がスタート！
-DESCRIPTION:インターネットラジオステーション＜音泉＞に
- て配信中の “TVアニメ『ガールズバンドクライ』WEBラ
- ジオ「ガールズバンドクライ～ラジオにも全部ぶち込
- め。\n～」”の公開イベントを実施します。\n昼夜2部制
- でラジオの出張版的なトークイベントをお届けします
- 。\n出演者 夕莉、理名、朱李 開催日時 2025年2月24日（
- 月・祝） 1部 開場：13:00 開演：13:30 2部\n\n
+SUMMARY:[发售] 「Girls Band Cry～广播也全部砸进去。～」2/24
+ （一・祝）公开活动举办！一般先行抽选开始！
+DESCRIPTION:WEB 广播公开活动于 2/24 在西荻地区民中心举办
+ （13:30 / 16:30 两部，夕莉・理名・朱李）；先行抽选 1/30
+ –2/6，一般发售 2/15 10:00 起。\n\n
  https://girls-band-cry.com/news/post-299.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
 CATEGORIES:togenashi,live,event,media
@@ -571,42 +566,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-284.html
 CATEGORIES:togenashi,live,goods,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-299-2025-02-06-hold@gbc-news
+UID:post-305-2025-02-06_2025-03-16-sale@gbc-news
 DTSTAMP:20250206T000000Z
 DTSTART;VALUE=DATE:20250206
-DTEND;VALUE=DATE:20250207
+DTEND;VALUE=DATE:20250317
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ～ラジオにも全部
- ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先
- 行抽選がスタート！
-DESCRIPTION:インターネットラジオステーション＜音泉＞に
- て配信中の “TVアニメ『ガールズバンドクライ』WEBラ
- ジオ「ガールズバンドクライ～ラジオにも全部ぶち込
- め。\n～」”の公開イベントを実施します。\n昼夜2部制
- でラジオの出張版的なトークイベントをお届けします
- 。\n出演者 夕莉、理名、朱李 開催日時 2025年2月24日（
- 月・祝） 1部 開場：13:00 開演：13:30 2部\n\n
- https://girls-band-cry.com/news/post-299.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
-CATEGORIES:togenashi,live,event,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-305-2025-02-06_2025-03-16-hold-1800@gbc-news
-DTSTAMP:20250206T090000Z
-DTSTART:20250206T090000Z
-DTEND:20250316T125900Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ5th ONE-MAN LIVE “鳴動の刻
- ”オンライン配信チケット販売開始！
-DESCRIPTION:4thワンマンライブに引き続き配信チケット、配
- 信限定グッズ付きチケットの販売が決定！\n【チケット
- 販売期間】 2025年2月6日(木)18:00～3月16日(日)21:59 ※ロー
- チケ LIVE STREAMING：2月7日18:00～販売開始 ※U-NEXT・ニコニ
- コ生放送の販売開始日は追って更新予定 【視聴期間】 
- 2025年3月8日(土)12:00～3月1\n\n
- https://girls-band-cry.com/news/post-305.html
+SUMMARY:[发售] 无刺有刺 5th ONE-MAN LIVE “鳴動の刻” 线上配
+ 信票开始发售！
+DESCRIPTION:5th 个人演唱会「鳴動の刻」回放票务销售期 2/6
+ –3/16；观看期 3/8–3/16（3/8 12:00 首播）。\n提供普通票
+ 与周边限定票。\n\nhttps://girls-band-cry.com/news/post-305.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-305.html
 CATEGORIES:togenashi,live,goods,media
 END:VEVENT
@@ -628,105 +598,65 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-276.html
 CATEGORIES:togenashi,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-299-2025-02-11-hold@gbc-news
-DTSTAMP:20250211T000000Z
-DTSTART;VALUE=DATE:20250211
-DTEND;VALUE=DATE:20250212
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ～ラジオにも全部
- ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先
- 行抽選がスタート！
-DESCRIPTION:インターネットラジオステーション＜音泉＞に
- て配信中の “TVアニメ『ガールズバンドクライ』WEBラ
- ジオ「ガールズバンドクライ～ラジオにも全部ぶち込
- め。\n～」”の公開イベントを実施します。\n昼夜2部制
- でラジオの出張版的なトークイベントをお届けします
- 。\n出演者 夕莉、理名、朱李 開催日時 2025年2月24日（
- 月・祝） 1部 開場：13:00 開演：13:30 2部\n\n
- https://girls-band-cry.com/news/post-299.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
-CATEGORIES:togenashi,live,event,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-299-2025-02-13-hold@gbc-news
-DTSTAMP:20250213T000000Z
-DTSTART;VALUE=DATE:20250213
-DTEND;VALUE=DATE:20250214
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ～ラジオにも全部
- ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先
- 行抽選がスタート！
-DESCRIPTION:インターネットラジオステーション＜音泉＞に
- て配信中の “TVアニメ『ガールズバンドクライ』WEBラ
- ジオ「ガールズバンドクライ～ラジオにも全部ぶち込
- め。\n～」”の公開イベントを実施します。\n昼夜2部制
- でラジオの出張版的なトークイベントをお届けします
- 。\n出演者 夕莉、理名、朱李 開催日時 2025年2月24日（
- 月・祝） 1部 開場：13:00 開演：13:30 2部\n\n
- https://girls-band-cry.com/news/post-299.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
-CATEGORIES:togenashi,live,event,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-299-2025-02-15-hold@gbc-news
-DTSTAMP:20250215T000000Z
-DTSTART;VALUE=DATE:20250215
-DTEND;VALUE=DATE:20250216
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ～ラジオにも全部
- ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先
- 行抽選がスタート！
-DESCRIPTION:インターネットラジオステーション＜音泉＞に
- て配信中の “TVアニメ『ガールズバンドクライ』WEBラ
- ジオ「ガールズバンドクライ～ラジオにも全部ぶち込
- め。\n～」”の公開イベントを実施します。\n昼夜2部制
- でラジオの出張版的なトークイベントをお届けします
- 。\n出演者 夕莉、理名、朱李 開催日時 2025年2月24日（
- 月・祝） 1部 開場：13:00 開演：13:30 2部\n\n
- https://girls-band-cry.com/news/post-299.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
-CATEGORIES:togenashi,live,event,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-299-2025-02-24-hold@gbc-news
-DTSTAMP:20250224T000000Z
-DTSTART;VALUE=DATE:20250224
-DTEND;VALUE=DATE:20250225
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ～ラジオにも全部
- ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先
- 行抽選がスタート！
-DESCRIPTION:インターネットラジオステーション＜音泉＞に
- て配信中の “TVアニメ『ガールズバンドクライ』WEBラ
- ジオ「ガールズバンドクライ～ラジオにも全部ぶち込
- め。\n～」”の公開イベントを実施します。\n昼夜2部制
- でラジオの出張版的なトークイベントをお届けします
- 。\n出演者 夕莉、理名、朱李 開催日時 2025年2月24日（
- 月・祝） 1部 開場：13:00 開演：13:30 2部\n\n
- https://girls-band-cry.com/news/post-299.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
-CATEGORIES:togenashi,live,event,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-305-2025-03-08_2025-03-16-hold-1200@gbc-news
-DTSTAMP:20250308T030000Z
-DTSTART:20250308T030000Z
-DTEND:20250316T145900Z
+UID:post-299-2025-02-15-sale-1000@gbc-news
+DTSTAMP:20250215T010000Z
+DTSTART:20250215T010000Z
+DTEND:20250215T020000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ5th ONE-MAN LIVE “鳴動の刻
- ”オンライン配信チケット販売開始！
-DESCRIPTION:4thワンマンライブに引き続き配信チケット、配
- 信限定グッズ付きチケットの販売が決定！\n【チケット
- 販売期間】 2025年2月6日(木)18:00～3月16日(日)21:59 ※ロー
- チケ LIVE STREAMING：2月7日18:00～販売開始 ※U-NEXT・ニコニ
- コ生放送の販売開始日は追って更新予定 【視聴期間】 
- 2025年3月8日(土)12:00～3月1\n\n
- https://girls-band-cry.com/news/post-305.html
+SUMMARY:[发售] 「Girls Band Cry～广播也全部砸进去。～」2/24
+ （一・祝）公开活动举办！一般先行抽选开始！
+DESCRIPTION:WEB 广播公开活动于 2/24 在西荻地区民中心举办
+ （13:30 / 16:30 两部，夕莉・理名・朱李）；先行抽选 1/30
+ –2/6，一般发售 2/15 10:00 起。\n\n
+ https://girls-band-cry.com/news/post-299.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
+CATEGORIES:togenashi,live,event,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-299-2025-02-24-hold-1330@gbc-news
+DTSTAMP:20250224T043000Z
+DTSTART:20250224T043000Z
+DTEND:20250224T063000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 「Girls Band Cry～广播也全部砸进去。～」2/24
+ （一・祝）公开活动举办！一般先行抽选开始！
+DESCRIPTION:WEB 广播公开活动于 2/24 在西荻地区民中心举办
+ （13:30 / 16:30 两部，夕莉・理名・朱李）；先行抽选 1/30
+ –2/6，一般发售 2/15 10:00 起。\n\n
+ https://girls-band-cry.com/news/post-299.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
+CATEGORIES:togenashi,live,event,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-299-2025-02-24-hold-1630@gbc-news
+DTSTAMP:20250224T073000Z
+DTSTART:20250224T073000Z
+DTEND:20250224T093000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 「Girls Band Cry～广播也全部砸进去。～」2/24
+ （一・祝）公开活动举办！一般先行抽选开始！
+DESCRIPTION:WEB 广播公开活动于 2/24 在西荻地区民中心举办
+ （13:30 / 16:30 两部，夕莉・理名・朱李）；先行抽选 1/30
+ –2/6，一般发售 2/15 10:00 起。\n\n
+ https://girls-band-cry.com/news/post-299.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
+CATEGORIES:togenashi,live,event,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-305-2025-03-08_2025-03-16-hold@gbc-news
+DTSTAMP:20250308T000000Z
+DTSTART;VALUE=DATE:20250308
+DTEND;VALUE=DATE:20250317
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺 5th ONE-MAN LIVE “鳴動の刻” 线上配
+ 信票开始发售！
+DESCRIPTION:5th 个人演唱会「鳴動の刻」回放票务销售期 2/6
+ –3/16；观看期 3/8–3/16（3/8 12:00 首播）。\n提供普通票
+ 与周边限定票。\n\nhttps://girls-band-cry.com/news/post-305.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-305.html
 CATEGORIES:togenashi,live,goods,media
 END:VEVENT

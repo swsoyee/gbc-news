@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-17T12:27:52.858Z",
+  "scrapedAt": "2026-07-17T12:28:27.507Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
@@ -5325,7 +5325,9 @@
         }
       ],
       "summary": "トゲナシトゲアリ 「1st ONE-MAN LIVE “薄明の序奏”」Blu-ray&DVDの先着購入特典絵柄を公開しました！ ※先着特典となります。詳細は各SHOP/ECサイトにお問い合わせください。 ※イメージとなり、実物とは異なる場合がございます。 トゲナシトゲアリ 「1st ONE-MAN LIVE “薄明の序奏”」Blu-ray&DVD 📅202",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "「1st ONE-MAN LIVE “薄明の序奏”」Blu-ray&DVD 先到购买特典图样公开！",
+      "summaryZh": "无刺有刺 1st 个人演唱会「薄明の序奏」Blu-ray&DVD 于 2025 年 3 月 19 日发售；公开各店先到购买特典图样，收录全 13 曲本篇与幕后影像。"
     },
     {
       "id": "post-305",
@@ -5344,21 +5346,19 @@
       "eventDates": [
         {
           "date": "2025-02-06",
-          "kind": "hold",
           "endDate": "2025-03-16",
-          "startTime": "18:00",
-          "endTime": "21:59"
+          "kind": "sale"
         },
         {
           "date": "2025-03-08",
-          "kind": "hold",
           "endDate": "2025-03-16",
-          "startTime": "12:00",
-          "endTime": "23:59"
+          "kind": "hold"
         }
       ],
       "summary": "4thワンマンライブに引き続き配信チケット、配信限定グッズ付きチケットの販売が決定！ 【チケット販売期間】 2025年2月6日(木)18:00～3月16日(日)21:59 ※ローチケ LIVE STREAMING：2月7日18:00～販売開始 ※U-NEXT・ニコニコ生放送の販売開始日は追って更新予定 【視聴期間】 2025年3月8日(土)12:00～3月1",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "无刺有刺 5th ONE-MAN LIVE “鳴動の刻” 线上配信票开始发售！",
+      "summaryZh": "5th 个人演唱会「鳴動の刻」回放票务销售期 2/6–3/16；观看期 3/8–3/16（3/8 12:00 首播）。提供普通票与周边限定票。"
     },
     {
       "id": "post-304",
@@ -5380,7 +5380,9 @@
         }
       ],
       "summary": "ご来場の皆様へお願い 皆様が、楽しく安全にライブをお楽しみいただけるよう、以下のルールのご理解・ご協力をお願いいたします。 2月7日(金) トゲナシトゲアリ5th ONE-MAN LIVE“鳴動の刻”公演を 安全・快適にお楽しみいただくために来場される皆様に手荷物検査のご協力をお願いします。 入場前にスタッフがお荷物を拝見し、持ち込み禁止物がないかを確認させ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "5th ONE-MAN LIVE“鳴動の刻” 致到场观众须知",
+      "summaryZh": "2025 年 2 月 7 日无刺有刺 5th 个人演唱会「鳴動の刻」将实施行李检查与身份证件确认；禁止携带荧光棒、团扇及录音录像设备等。"
     },
     {
       "id": "post-301",
@@ -5397,16 +5399,19 @@
       ],
       "eventDates": [
         {
-          "date": "2025-03-16",
+          "date": "2025-05-15",
           "kind": "hold"
         },
         {
-          "date": "2025-05-15",
-          "kind": "hold"
+          "date": "2025-03-16",
+          "kind": "sale",
+          "startTime": "12:00"
         }
       ],
       "summary": "2025年5月15日(木)東京ガーデンシアターにて、「トゲナシトゲアリ」と、ドラマチックRPG「ヘブンバーンズレッド」において誕生した、XAIと鈴木このみによるラウドロックユニット「She is Legend」との対バンライブの開催が決定しました！ ◆公演名：She is Legend×トゲナシトゲアリ「タイトル未定」 ◆日程 ：2025年5月15日(木) ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/01/SILtogetoge_%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89-1024x576.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/01/SILtogetoge_%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89-1024x576.png",
+      "titleZh": "She is Legend × 无刺有刺 对邦 LIVE 举办决定！",
+      "summaryZh": "She is Legend × 无刺有刺对邦 LIVE 于 2025 年 5 月 15 日在东京花园剧场举办；票务先行自 3 月 16 日 12:00 起受理（价格与截止日另行公布）。"
     },
     {
       "id": "post-303",
@@ -5439,12 +5444,13 @@
       "eventDates": [
         {
           "date": "2025-02-06",
-          "kind": "hold",
-          "startTime": "23:59"
+          "kind": "hold"
         }
       ],
       "summary": "トゲナシトゲアリ5th ONE-MAN LIVE「鳴動の刻」開催を記念して 「ガールズバンドクライ」公式Xにてフォロー＆リポストキャンペーンを開催！ ご参加いただいた方の中から抽選で30名様5th ONE-MAN LIVEキービジュアルポスターをプレゼント🎁 【開催期間】 2025年2月6日(木) 23:59まで 【参加方法】 ①X（旧Twitter）の＠",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/01/5th%E3%83%AF%E3%83%B3%E3%83%9E%E3%83%B3%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E5%91%8A%E7%9F%A5%E7%94%A8_HP%E3%83%90%E3%83%8A%E3%83%BC.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/01/5th%E3%83%AF%E3%83%B3%E3%83%9E%E3%83%B3%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E5%91%8A%E7%9F%A5%E7%94%A8_HP%E3%83%90%E3%83%8A%E3%83%BC.png",
+      "titleZh": "无刺有刺 5th ONE-MAN LIVE 纪念 X 活动开始！",
+      "summaryZh": "纪念 5th 个人演唱会「鳴動の刻」，Girls Band Cry 官方 X 举办关注＆转发抽奖，截止 2025 年 2 月 6 日 23:59，抽选 30 名赠送主视觉海报。"
     },
     {
       "id": "post-300",
@@ -5461,11 +5467,13 @@
       "eventDates": [
         {
           "date": "2025-01-31",
-          "kind": "hold"
+          "kind": "sale"
         }
       ],
       "summary": "TVアニメ『ガールズバンドクライ』のLINEスタンプ第2弾が配信開始しました！ アニメに登場したキャラクターの名シーンや、つい使いたくなる名セリフ、全40種をラインナップしました‼︎ ぜひチェックしてみてください！ LINEストアでのスタンプ購入は こちら",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "1 月 31 日起 Girls Band Cry LINE 贴纸第 2 弹开始配信！",
+      "summaryZh": "TV 动画《Girls Band Cry》LINE 贴纸第 2 弹自 2025 年 1 月 31 日起配信，共 40 种名场面与台词贴纸。"
     },
     {
       "id": "post-299",
@@ -5483,32 +5491,30 @@
       ],
       "eventDates": [
         {
-          "date": "2025-01-30",
-          "kind": "hold"
-        },
-        {
-          "date": "2025-02-06",
-          "kind": "hold"
-        },
-        {
-          "date": "2025-02-11",
-          "kind": "hold"
-        },
-        {
-          "date": "2025-02-13",
-          "kind": "hold"
-        },
-        {
-          "date": "2025-02-15",
-          "kind": "hold"
+          "date": "2025-02-24",
+          "kind": "hold",
+          "startTime": "13:30"
         },
         {
           "date": "2025-02-24",
-          "kind": "hold"
+          "kind": "hold",
+          "startTime": "16:30"
+        },
+        {
+          "date": "2025-01-30",
+          "endDate": "2025-02-06",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-02-15",
+          "kind": "sale",
+          "startTime": "10:00"
         }
       ],
       "summary": "インターネットラジオステーション＜音泉＞にて配信中の “TVアニメ『ガールズバンドクライ』WEBラジオ「ガールズバンドクライ～ラジオにも全部ぶち込め。～」”の公開イベントを実施します。昼夜2部制でラジオの出張版的なトークイベントをお届けします。 出演者 夕莉、理名、朱李 開催日時 2025年2月24日（月・祝） 1部 開場：13:00 開演：13:30 2部",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "「Girls Band Cry～广播也全部砸进去。～」2/24（一・祝）公开活动举办！一般先行抽选开始！",
+      "summaryZh": "WEB 广播公开活动于 2/24 在西荻地区民中心举办（13:30 / 16:30 两部，夕莉・理名・朱李）；先行抽选 1/30–2/6，一般发售 2/15 10:00 起。"
     },
     {
       "id": "post-298",
@@ -5525,12 +5531,14 @@
       "eventDates": [
         {
           "date": "2025-01-31",
-          "kind": "hold",
+          "kind": "sale",
           "startTime": "20:00"
         }
       ],
       "summary": "トゲナシトゲアリ 5th ONE-MAN LIVE”鳴動の刻”公演 ステージプラン決定につき、注釈付き指定席チケットの追加販売が決定しました！ 1月31日（金）20：00より受付開始となります。 先着順のため、予定枚数に達し次第受付終了となります。 ご購入は こちら 詳しくは こちら",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "5th ONE-MAN LIVE“鳴動の刻” 注释指定席门票追加发售决定！",
+      "summaryZh": "因舞台方案确定，无刺有刺 5th 个人演唱会「鳴動の刻」注释指定席自 1 月 31 日 20:00 起追加先到先得发售。"
     },
     {
       "id": "post-296",
@@ -5547,12 +5555,14 @@
       "eventDates": [
         {
           "date": "2025-02-01",
-          "kind": "sale",
-          "startTime": "15:00"
+          "endDate": "2025-02-28",
+          "kind": "sale"
         }
       ],
       "summary": "＜『ガールズバンドクライ』FAMくじ＞を2025年2月1日（土）15:00より販売開始いたします。 本くじでは、東映アニメーションが描き下ろしたロックなライダース姿のイラストを使用した『ガールズバンドクライ』オリジナルグッズを多数ご用意しています。S賞には、オリジナル法被（全1種）またはコーチジャケット（全5種）からお好きな商品を選べる豪華ラインナップをお届",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "2/1（六）起《Girls Band Cry》线上抽奖开始发售！",
+      "summaryZh": "《Girls Band Cry》FAM 抽奖自 2025 年 2 月 1 日 15:00 至 2 月 28 日发售（每次 880 日元），使用东映动画全新绘制机车装插图周边，S 赏可选法被或教练夹克。"
     },
     {
       "id": "post-297",
@@ -5569,14 +5579,20 @@
       ],
       "eventDates": [
         {
+          "date": "2025-04-09",
+          "endDate": "2025-04-20",
+          "kind": "hold"
+        },
+        {
           "date": "2025-01-29",
-          "kind": "hold",
-          "startTime": "11:00",
-          "endTime": "19:00"
+          "kind": "sale",
+          "startTime": "10:00"
         }
       ],
       "summary": "「ガールズバンドクライ展」第2弾ビジュアルが解禁されました！ （キャラクターデザイン・手島nari描き下ろし） そして「ガルクラ展」公式HPにて キャストコメントやイメージパース画像、ガルクラ展オリジナルステンレスボードデザインが解禁！ 明日1/29(水)10:00からは抽選チケットの申し込みスタートがします。 お見逃しなく！ 【開催概要】 ■イベント名：ガ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "「GBC 展」第 2 弹视觉解禁！1/29（三）起抽选票申请开始！",
+      "summaryZh": "GBC 展第 2 弹视觉（手岛 nari 绘制）公开；东京会场 2025 年 4 月 9 日–20 日于池袋 Sunshine City 举办，抽选票自 1/29 10:00 起申请。"
     },
     {
       "id": "post-295",

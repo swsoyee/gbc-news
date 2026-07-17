@@ -2311,82 +2311,48 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-290.html
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-297-2025-01-29-hold-1100@gbc-news
-DTSTAMP:20250129T020000Z
-DTSTART:20250129T020000Z
-DTEND:20250129T100000Z
+UID:post-297-2025-01-29-sale-1000@gbc-news
+DTSTAMP:20250129T010000Z
+DTSTART:20250129T010000Z
+DTEND:20250129T020000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 「ガルクラ展」第2弾ビジュアル解禁！1/29(
- 水)から抽選チケット申し込み受付スタート！
-DESCRIPTION:「ガールズバンドクライ展」第2弾ビジュアル
- が解禁されました！\n（キャラクターデザイン・手島nar
- i描き下ろし） そして「ガルクラ展」公式HPにて キャス
- トコメントやイメージパース画像、ガルクラ展オリジ
- ナルステンレスボードデザインが解禁！\n明日1/29(水)10:
- 00からは抽選チケットの申し込みスタートがします。\n
- お見逃しなく！\n【開催概要】 ■イベント名：ガ\n\n
+SUMMARY:[发售] 「GBC 展」第 2 弹视觉解禁！1/29（三）起抽
+ 选票申请开始！
+DESCRIPTION:GBC 展第 2 弹视觉（手岛 nari 绘制）公开；东京
+ 会场 2025 年 4 月 9 日–20 日于池袋 Sunshine City 举办，抽
+ 选票自 1/29 10:00 起申请。\n\n
  https://girls-band-cry.com/news/post-297.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-297.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-299-2025-01-30-hold@gbc-news
+UID:post-299-2025-01-30_2025-02-06-sale@gbc-news
 DTSTAMP:20250130T000000Z
 DTSTART;VALUE=DATE:20250130
-DTEND;VALUE=DATE:20250131
+DTEND;VALUE=DATE:20250207
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ～ラジオにも全部
- ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先
- 行抽選がスタート！
-DESCRIPTION:インターネットラジオステーション＜音泉＞に
- て配信中の “TVアニメ『ガールズバンドクライ』WEBラ
- ジオ「ガールズバンドクライ～ラジオにも全部ぶち込
- め。\n～」”の公開イベントを実施します。\n昼夜2部制
- でラジオの出張版的なトークイベントをお届けします
- 。\n出演者 夕莉、理名、朱李 開催日時 2025年2月24日（
- 月・祝） 1部 開場：13:00 開演：13:30 2部\n\n
+SUMMARY:[发售] 「Girls Band Cry～广播也全部砸进去。～」2/24
+ （一・祝）公开活动举办！一般先行抽选开始！
+DESCRIPTION:WEB 广播公开活动于 2/24 在西荻地区民中心举办
+ （13:30 / 16:30 两部，夕莉・理名・朱李）；先行抽选 1/30
+ –2/6，一般发售 2/15 10:00 起。\n\n
  https://girls-band-cry.com/news/post-299.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
 CATEGORIES:togenashi,live,event,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-299-2025-02-06-hold@gbc-news
+UID:post-302-2025-02-06-hold@gbc-news
 DTSTAMP:20250206T000000Z
 DTSTART;VALUE=DATE:20250206
 DTEND;VALUE=DATE:20250207
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ～ラジオにも全部
- ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先
- 行抽選がスタート！
-DESCRIPTION:インターネットラジオステーション＜音泉＞に
- て配信中の “TVアニメ『ガールズバンドクライ』WEBラ
- ジオ「ガールズバンドクライ～ラジオにも全部ぶち込
- め。\n～」”の公開イベントを実施します。\n昼夜2部制
- でラジオの出張版的なトークイベントをお届けします
- 。\n出演者 夕莉、理名、朱李 開催日時 2025年2月24日（
- 月・祝） 1部 開場：13:00 開演：13:30 2部\n\n
- https://girls-band-cry.com/news/post-299.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
-CATEGORIES:togenashi,live,event,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-302-2025-02-06-hold-2359@gbc-news
-DTSTAMP:20250206T145900Z
-DTSTART:20250206T145900Z
-DTEND:20250206T165900Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ5th ONE-MAN LIVE 記念 Xキャン
- ペーンスタート！
-DESCRIPTION:トゲナシトゲアリ5th ONE-MAN LIVE「鳴動の刻」開
- 催を記念して 「ガールズバンドクライ」公式Xにてフォ
- ロー＆リポストキャンペーンを開催！\nご参加いただい
- た方の中から抽選で30名様5th ONE-MAN LIVEキービジュアル
- ポスターをプレゼント 【開催期間】 2025年2月6日(木) 23:
- 59まで 【参加方法】 ①X（旧Twitter）の＠\n\n
+SUMMARY:[举办] 无刺有刺 5th ONE-MAN LIVE 纪念 X 活动开始！
+DESCRIPTION:纪念 5th 个人演唱会「鳴動の刻」，Girls Band Cry 
+ 官方 X 举办关注＆转发抽奖，截止 2025 年 2 月 6 日 23:59
+ ，抽选 30 名赠送主视觉海报。\n\n
  https://girls-band-cry.com/news/post-302.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-302.html
 CATEGORIES:togenashi,live,event
@@ -2405,48 +2371,6 @@ DESCRIPTION:无刺有刺 LIVE in 日本武道馆于 2025 年 9 月 23 日
  -ray&DVD 第 7 卷。\n\nhttps://girls-band-cry.com/news/post-309.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-309.html
 CATEGORIES:togenashi,live,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-299-2025-02-11-hold@gbc-news
-DTSTAMP:20250211T000000Z
-DTSTART;VALUE=DATE:20250211
-DTEND;VALUE=DATE:20250212
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ～ラジオにも全部
- ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先
- 行抽選がスタート！
-DESCRIPTION:インターネットラジオステーション＜音泉＞に
- て配信中の “TVアニメ『ガールズバンドクライ』WEBラ
- ジオ「ガールズバンドクライ～ラジオにも全部ぶち込
- め。\n～」”の公開イベントを実施します。\n昼夜2部制
- でラジオの出張版的なトークイベントをお届けします
- 。\n出演者 夕莉、理名、朱李 開催日時 2025年2月24日（
- 月・祝） 1部 開場：13:00 開演：13:30 2部\n\n
- https://girls-band-cry.com/news/post-299.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
-CATEGORIES:togenashi,live,event,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-299-2025-02-13-hold@gbc-news
-DTSTAMP:20250213T000000Z
-DTSTART;VALUE=DATE:20250213
-DTEND;VALUE=DATE:20250214
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ～ラジオにも全部
- ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先
- 行抽選がスタート！
-DESCRIPTION:インターネットラジオステーション＜音泉＞に
- て配信中の “TVアニメ『ガールズバンドクライ』WEBラ
- ジオ「ガールズバンドクライ～ラジオにも全部ぶち込
- め。\n～」”の公開イベントを実施します。\n昼夜2部制
- でラジオの出張版的なトークイベントをお届けします
- 。\n出演者 夕莉、理名、朱李 開催日時 2025年2月24日（
- 月・祝） 1部 開場：13:00 開演：13:30 2部\n\n
- https://girls-band-cry.com/news/post-299.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
-CATEGORIES:togenashi,live,event,media
 END:VEVENT
 BEGIN:VEVENT
 UID:collabo-girls-band-cry-cafe-curemaid-akihabara2025-2025-02-14_2025-03-1
@@ -2469,22 +2393,17 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-299-2025-02-15-hold@gbc-news
-DTSTAMP:20250215T000000Z
-DTSTART;VALUE=DATE:20250215
-DTEND;VALUE=DATE:20250216
-TRANSP:TRANSPARENT
+UID:post-299-2025-02-15-sale-1000@gbc-news
+DTSTAMP:20250215T010000Z
+DTSTART:20250215T010000Z
+DTEND:20250215T020000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ～ラジオにも全部
- ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先
- 行抽選がスタート！
-DESCRIPTION:インターネットラジオステーション＜音泉＞に
- て配信中の “TVアニメ『ガールズバンドクライ』WEBラ
- ジオ「ガールズバンドクライ～ラジオにも全部ぶち込
- め。\n～」”の公開イベントを実施します。\n昼夜2部制
- でラジオの出張版的なトークイベントをお届けします
- 。\n出演者 夕莉、理名、朱李 開催日時 2025年2月24日（
- 月・祝） 1部 開場：13:00 開演：13:30 2部\n\n
+SUMMARY:[发售] 「Girls Band Cry～广播也全部砸进去。～」2/24
+ （一・祝）公开活动举办！一般先行抽选开始！
+DESCRIPTION:WEB 广播公开活动于 2/24 在西荻地区民中心举办
+ （13:30 / 16:30 两部，夕莉・理名・朱李）；先行抽选 1/30
+ –2/6，一般发售 2/15 10:00 起。\n\n
  https://girls-band-cry.com/news/post-299.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
 CATEGORIES:togenashi,live,event,media
@@ -2510,22 +2429,33 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-299-2025-02-24-hold@gbc-news
-DTSTAMP:20250224T000000Z
-DTSTART;VALUE=DATE:20250224
-DTEND;VALUE=DATE:20250225
-TRANSP:TRANSPARENT
+UID:post-299-2025-02-24-hold-1330@gbc-news
+DTSTAMP:20250224T043000Z
+DTSTART:20250224T043000Z
+DTEND:20250224T063000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ～ラジオにも全部
- ぶち込め。～」 2/24(月・祝)公開イベント開催！ 一般先
- 行抽選がスタート！
-DESCRIPTION:インターネットラジオステーション＜音泉＞に
- て配信中の “TVアニメ『ガールズバンドクライ』WEBラ
- ジオ「ガールズバンドクライ～ラジオにも全部ぶち込
- め。\n～」”の公開イベントを実施します。\n昼夜2部制
- でラジオの出張版的なトークイベントをお届けします
- 。\n出演者 夕莉、理名、朱李 開催日時 2025年2月24日（
- 月・祝） 1部 開場：13:00 開演：13:30 2部\n\n
+SUMMARY:[举办] 「Girls Band Cry～广播也全部砸进去。～」2/24
+ （一・祝）公开活动举办！一般先行抽选开始！
+DESCRIPTION:WEB 广播公开活动于 2/24 在西荻地区民中心举办
+ （13:30 / 16:30 两部，夕莉・理名・朱李）；先行抽选 1/30
+ –2/6，一般发售 2/15 10:00 起。\n\n
+ https://girls-band-cry.com/news/post-299.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
+CATEGORIES:togenashi,live,event,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-299-2025-02-24-hold-1630@gbc-news
+DTSTAMP:20250224T073000Z
+DTSTART:20250224T073000Z
+DTEND:20250224T093000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 「Girls Band Cry～广播也全部砸进去。～」2/24
+ （一・祝）公开活动举办！一般先行抽选开始！
+DESCRIPTION:WEB 广播公开活动于 2/24 在西荻地区民中心举办
+ （13:30 / 16:30 两部，夕莉・理名・朱李）；先行抽选 1/30
+ –2/6，一般发售 2/15 10:00 起。\n\n
  https://girls-band-cry.com/news/post-299.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
 CATEGORIES:togenashi,live,event,media
@@ -2617,21 +2547,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-312.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-301-2025-03-16-hold@gbc-news
-DTSTAMP:20250316T000000Z
-DTSTART;VALUE=DATE:20250316
-DTEND;VALUE=DATE:20250317
-TRANSP:TRANSPARENT
+UID:post-301-2025-03-16-sale-1200@gbc-news
+DTSTAMP:20250316T030000Z
+DTSTART:20250316T030000Z
+DTEND:20250316T040000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] She is Legend×トゲナシトゲアリ 対バンライブ
- の開催が決定！
-DESCRIPTION:2025年5月15日(木)東京ガーデンシアターにて、「
- トゲナシトゲアリ」と、ドラマチックRPG「ヘブンバー
- ンズレッド」において誕生した、XAIと鈴木このみによ
- るラウドロックユニット「She is Legend」との対バンライ
- ブの開催が決定しました！\n◆公演名：She is Legend×トゲ
- ナシトゲアリ「タイトル未定」 ◆日程 ：2025年5月15日(
- 木)\n\nhttps://girls-band-cry.com/news/post-301.html
+SUMMARY:[发售] She is Legend × 无刺有刺 对邦 LIVE 举办决定！
+DESCRIPTION:She is Legend × 无刺有刺对邦 LIVE 于 2025 年 5 月 15 
+ 日在东京花园剧场举办；票务先行自 3 月 16 日 12:00 起受
+ 理（价格与截止日另行公布）。\n\n
+ https://girls-band-cry.com/news/post-301.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-301.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
@@ -2747,6 +2673,22 @@ DESCRIPTION:AniBirth 池袋 PARCO（4/4 开业）与 GBC 展联动：店内
  https://girls-band-cry.com/news/post-328.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-328.html
 CATEGORIES:togenashi,live,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-297-2025-04-09_2025-04-20-hold@gbc-news
+DTSTAMP:20250409T000000Z
+DTSTART;VALUE=DATE:20250409
+DTEND;VALUE=DATE:20250421
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 「GBC 展」第 2 弹视觉解禁！1/29（三）起抽
+ 选票申请开始！
+DESCRIPTION:GBC 展第 2 弹视觉（手岛 nari 绘制）公开；东京
+ 会场 2025 年 4 月 9 日–20 日于池袋 Sunshine City 举办，抽
+ 选票自 1/29 10:00 起申请。\n\n
+ https://girls-band-cry.com/news/post-297.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-297.html
+CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-327-2025-04-09-sale@gbc-news
@@ -3055,15 +2997,11 @@ DTSTART;VALUE=DATE:20250515
 DTEND;VALUE=DATE:20250516
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] She is Legend×トゲナシトゲアリ 対バンライブ
- の開催が決定！
-DESCRIPTION:2025年5月15日(木)東京ガーデンシアターにて、「
- トゲナシトゲアリ」と、ドラマチックRPG「ヘブンバー
- ンズレッド」において誕生した、XAIと鈴木このみによ
- るラウドロックユニット「She is Legend」との対バンライ
- ブの開催が決定しました！\n◆公演名：She is Legend×トゲ
- ナシトゲアリ「タイトル未定」 ◆日程 ：2025年5月15日(
- 木)\n\nhttps://girls-band-cry.com/news/post-301.html
+SUMMARY:[举办] She is Legend × 无刺有刺 对邦 LIVE 举办决定！
+DESCRIPTION:She is Legend × 无刺有刺对邦 LIVE 于 2025 年 5 月 15 
+ 日在东京花园剧场举办；票务先行自 3 月 16 日 12:00 起受
+ 理（价格与截止日另行公布）。\n\n
+ https://girls-band-cry.com/news/post-301.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-301.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
