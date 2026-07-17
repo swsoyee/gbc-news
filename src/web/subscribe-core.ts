@@ -535,11 +535,31 @@ export function chipLabel(segment: {
   continuesAfter: boolean
 }): string {
   const { event, continuesBefore, continuesAfter } = segment
-  const kind = eventKindLabel(event.kind)
   const startMark = continuesBefore ? '… ' : ''
   const endMark = continuesAfter ? ' …' : ''
   const time = event.startTime && !continuesBefore ? `${event.startTime} ` : ''
-  return `${kind} ${startMark}${time}${displayNewsTitle(event.item)}${endMark}`
+  return `${startMark}${time}${displayNewsTitle(event.item)}${endMark}`
+}
+
+/** 日历悬浮层：加粗日期行（含可选时间）+ 换行标题；不含開催/発売。 */
+export function formatCalendarEventTooltip(event: CalendarEvent): {
+  dateLine: string
+  title: string
+  ariaLabel: string
+} {
+  const title = displayNewsTitle(event.item)
+  const datePart =
+    event.endDate && event.endDate !== event.date ? `${event.date} – ${event.endDate}` : event.date
+  let dateLine = datePart
+  if (event.startTime) {
+    const timePart = event.endTime ? `${event.startTime}–${event.endTime}` : event.startTime
+    dateLine = `${datePart} ${timePart}`
+  }
+  return {
+    dateLine,
+    title,
+    ariaLabel: `${dateLine}. ${title}`,
+  }
 }
 
 export const THEME_STORAGE_KEY = 'gbc-news-theme'

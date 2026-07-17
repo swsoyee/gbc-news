@@ -6,6 +6,7 @@ import {
   buildMonthCells,
   buildWeekSegments,
   chipLabel,
+  formatCalendarEventTooltip,
   displayNewsTitle,
   EARLY_HOURS,
   earlyHoursFrameVars,
@@ -128,7 +129,7 @@ describe('calendar helpers', () => {
       continuesAfter: false,
       lane: 0,
     })
-    expect(chipLabel(segments[0]!)).toBe('開催 Tour')
+    expect(chipLabel(segments[0]!)).toBe('Tour')
   })
 
   it('日历标题优先使用中文增强字段', () => {
@@ -140,7 +141,55 @@ describe('calendar helpers', () => {
     }
     const event = buildCalendarEvents([item], [], [], 4, 7)[0]!
     expect(displayNewsTitle(event.item)).toBe('演出')
-    expect(chipLabel({ event, continuesBefore: false, continuesAfter: false })).toBe('開催 演出')
+    expect(chipLabel({ event, continuesBefore: false, continuesAfter: false })).toBe('演出')
+  })
+
+  it('日历悬浮提示为加粗日期行与换行标题，不含開催/発売', () => {
+    const allDay = buildCalendarEvents(
+      [
+        {
+          title: 'Tour',
+          url: 'https://example.com/1',
+          eventDates: [{ date: '2026-07-14', endDate: '2026-07-16', kind: 'hold' as const }],
+        },
+      ],
+      [],
+      [],
+      4,
+      7,
+    )[0]!
+    expect(formatCalendarEventTooltip(allDay)).toEqual({
+      dateLine: '2026-07-14 – 2026-07-16',
+      title: 'Tour',
+      ariaLabel: '2026-07-14 – 2026-07-16. Tour',
+    })
+
+    const timed = buildCalendarEvents(
+      [
+        {
+          title: 'Talk',
+          titleZh: '线上 talk',
+          url: 'https://example.com/2',
+          eventDates: [
+            {
+              date: '2026-07-14',
+              kind: 'sale' as const,
+              startTime: '19:00',
+              endTime: '20:00',
+            },
+          ],
+        },
+      ],
+      [],
+      [],
+      4,
+      7,
+    )[0]!
+    expect(formatCalendarEventTooltip(timed)).toEqual({
+      dateLine: '2026-07-14 19:00–20:00',
+      title: '线上 talk',
+      ariaLabel: '2026-07-14 19:00–20:00. 线上 talk',
+    })
   })
 
   it('toWebcal 转换协议', () => {

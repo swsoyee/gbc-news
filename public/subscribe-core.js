@@ -354,11 +354,27 @@ function buildWeekSegments(events, cells) {
 }
 function chipLabel(segment) {
   const { event, continuesBefore, continuesAfter } = segment
-  const kind = eventKindLabel(event.kind)
   const startMark = continuesBefore ? '\u2026 ' : ''
   const endMark = continuesAfter ? ' \u2026' : ''
   const time = event.startTime && !continuesBefore ? `${event.startTime} ` : ''
-  return `${kind} ${startMark}${time}${displayNewsTitle(event.item)}${endMark}`
+  return `${startMark}${time}${displayNewsTitle(event.item)}${endMark}`
+}
+function formatCalendarEventTooltip(event) {
+  const title = displayNewsTitle(event.item)
+  const datePart =
+    event.endDate && event.endDate !== event.date
+      ? `${event.date} \u2013 ${event.endDate}`
+      : event.date
+  let dateLine = datePart
+  if (event.startTime) {
+    const timePart = event.endTime ? `${event.startTime}\u2013${event.endTime}` : event.startTime
+    dateLine = `${datePart} ${timePart}`
+  }
+  return {
+    dateLine,
+    title,
+    ariaLabel: `${dateLine}. ${title}`,
+  }
 }
 var THEME_STORAGE_KEY = 'gbc-news-theme'
 var THEMES = ['dark', 'light']
@@ -388,6 +404,7 @@ export {
   earlyHoursFrameVars,
   eventKindLabel,
   filterNewsItems,
+  formatCalendarEventTooltip,
   formatDayLabel,
   formatMonthLabel,
   formatTimeRangeLabel,

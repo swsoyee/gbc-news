@@ -9,7 +9,7 @@ import {
   EARLY_HOURS,
   earlyHoursFrameVars,
   displayNewsTitle,
-  eventKindLabel,
+  formatCalendarEventTooltip,
   formatDayLabel,
   formatMonthLabel,
   formatTimeRangeLabel,
@@ -252,12 +252,18 @@ function getCalendarTooltip() {
   return calendarTooltipEl
 }
 
-function showCalendarTooltip(anchor, text) {
+function showCalendarTooltip(anchor, parts) {
   if (calendarTooltipTimer) window.clearTimeout(calendarTooltipTimer)
   const tooltip = getCalendarTooltip()
   const rect = anchor.getBoundingClientRect()
   const showBelow = rect.top < 80
-  tooltip.textContent = text
+  const dateEl = document.createElement('div')
+  dateEl.className = 'calendar-event-tooltip-date'
+  dateEl.textContent = parts.dateLine
+  const titleEl = document.createElement('div')
+  titleEl.className = 'calendar-event-tooltip-title'
+  titleEl.textContent = parts.title
+  tooltip.replaceChildren(dateEl, titleEl)
   tooltip.style.left = `${Math.min(window.innerWidth - 16, Math.max(16, rect.left + rect.width / 2))}px`
   tooltip.style.top = `${showBelow ? rect.bottom + 8 : rect.top - 8}px`
   tooltip.classList.toggle('is-below', showBelow)
@@ -270,7 +276,7 @@ function hideCalendarTooltip() {
   if (!calendarTooltipEl) return
   calendarTooltipEl.classList.remove('is-visible')
   calendarTooltipTimer = window.setTimeout(() => {
-    if (calendarTooltipEl) calendarTooltipEl.textContent = ''
+    if (calendarTooltipEl) calendarTooltipEl.replaceChildren()
   }, 180)
 }
 
@@ -303,11 +309,12 @@ function syncCalendarNav() {
   }
 }
 
-function bindEventTooltip(el, text) {
-  el.setAttribute('aria-label', text)
-  el.addEventListener('mouseenter', () => showCalendarTooltip(el, text))
+function bindEventTooltip(el, event) {
+  const parts = formatCalendarEventTooltip(event)
+  el.setAttribute('aria-label', parts.ariaLabel)
+  el.addEventListener('mouseenter', () => showCalendarTooltip(el, parts))
   el.addEventListener('mouseleave', hideCalendarTooltip)
-  el.addEventListener('focus', () => showCalendarTooltip(el, text))
+  el.addEventListener('focus', () => showCalendarTooltip(el, parts))
   el.addEventListener('blur', hideCalendarTooltip)
 }
 
@@ -351,8 +358,7 @@ function renderWeekRow(events, weekCells, today, chipLimit) {
     chip.href = event.item.url
     chip.target = '_blank'
     chip.rel = 'noopener'
-    const tooltipText = `${eventKindLabel(event.kind)} ${displayNewsTitle(event.item)}`
-    bindEventTooltip(chip, tooltipText)
+    bindEventTooltip(chip, event)
     chip.textContent = chipLabel(segment)
     weekEl.appendChild(chip)
   }
@@ -418,8 +424,7 @@ function appendTimedBlocks(layerEl, events, isoDate) {
     titleEl.textContent = displayNewsTitle(block.event.item)
     el.append(timeEl, titleEl)
 
-    const tooltipText = `${eventKindLabel(block.event.kind)} ${timeText} ${displayNewsTitle(block.event.item)}`
-    bindEventTooltip(el, tooltipText)
+    bindEventTooltip(el, block.event)
     layerEl.appendChild(el)
   }
   return blocks.length
@@ -539,8 +544,7 @@ function renderTimeGridFrame(events, cells, today) {
     chip.href = segment.event.item.url
     chip.target = '_blank'
     chip.rel = 'noopener'
-    const tooltipText = `${eventKindLabel(segment.event.kind)} ${displayNewsTitle(segment.event.item)}`
-    bindEventTooltip(chip, tooltipText)
+    bindEventTooltip(chip, segment.event)
     chip.textContent = chipLabel(segment)
     header.appendChild(chip)
   }
