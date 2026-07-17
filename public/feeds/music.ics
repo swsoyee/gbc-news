@@ -827,24 +827,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-84.html
 CATEGORIES:togenashi,music,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-289-2024-03-16-sale@gbc-news
-DTSTAMP:20240316T000000Z
-DTSTART;VALUE=DATE:20240316
-DTEND;VALUE=DATE:20240317
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 「1st ONE-MAN LIVE “薄明の
- 序奏”」パッケージ化決定！
-DESCRIPTION:2024年3月16日(土)に横浜・1000CLUBで開催した初の
- ワンマンライブ 「“1st ONE-MAN LIVE”『薄明の序奏』”」
- のパッケージ化決定！\n 2025年3月19日(水)Release ご購入は
-  こちら 【Blu-ray】 UMXK-1124 ￥7\,700円（税込） 【DVD】 UMBK
- -1336 ￥6\,600円（税込） 仕様：三方背ケ\n\n
- https://girls-band-cry.com/news/post-289.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-289.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
 UID:post-89-2024-03-16-sale@gbc-news
 DTSTAMP:20240316T000000Z
 DTSTART;VALUE=DATE:20240316
@@ -1572,14 +1554,11 @@ DTSTART;VALUE=DATE:20250319
 DTEND;VALUE=DATE:20250320
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 「1st ONE-MAN LIVE “薄明の
- 序奏”」パッケージ化決定！
-DESCRIPTION:2024年3月16日(土)に横浜・1000CLUBで開催した初の
- ワンマンライブ 「“1st ONE-MAN LIVE”『薄明の序奏』”」
- のパッケージ化決定！\n 2025年3月19日(水)Release ご購入は
-  こちら 【Blu-ray】 UMXK-1124 ￥7\,700円（税込） 【DVD】 UMBK
- -1336 ￥6\,600円（税込） 仕様：三方背ケ\n\n
- https://girls-band-cry.com/news/post-289.html
+SUMMARY:[发售] 无刺有刺「1st ONE-MAN LIVE “薄明の序奏”」
+ 决定影像化！
+DESCRIPTION:2024 年 3 月 16 日于横滨 1000 CLUB 举办的 1st 个人
+ 演唱会「薄明の序奏」决定推出 Blu-ray/DVD，2025 年 3 月 19
+  日发售。\n\nhttps://girls-band-cry.com/news/post-289.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-289.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT

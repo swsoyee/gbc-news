@@ -1142,22 +1142,17 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-284-2024-12-19_2025-02-11-hold-1800@gbc-news
-DTSTAMP:20241219T090000Z
-DTSTART:20241219T090000Z
-DTEND:20250211T125900Z
-TRANSP:OPAQUE
+UID:post-284-2024-12-19_2025-02-11-sale@gbc-news
+DTSTAMP:20241219T000000Z
+DTSTART;VALUE=DATE:20241219
+DTEND;VALUE=DATE:20250212
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ4th ONE-MAN LIVE “協奏の響
- ”オンライン配信チケット販売開始！
-DESCRIPTION:2nd、3rd ONE-MAN LIVEに引き続き本公演でも配信チ
- ケット、そして今回は配信限定のグッズ付きチケット
- の販売が決定！\nまた、今回のライブ映像プレミア配信
- ではトゲナシトゲアリへのお便りを募集！\n応援メッセ
- ージやメンバーに聞いてみたいことなど、何でもお送
- りください！\n【チケット販売期間】 2024年12月19日(木)1
- 8:00～2025年2月11日(火\n\n
- https://girls-band-cry.com/news/post-284.html
+SUMMARY:[发售] 无刺有刺 4th ONE-MAN LIVE “協奏の響” 线上配
+ 信票开始发售！
+DESCRIPTION:4th 个人演唱会「協奏の響」回放票务销售期 2024
+ /12/19–2025/2/11；观看期 2/2–2/11（2/2 12:00 首播），并提
+ 供周边限定票。\n\nhttps://girls-band-cry.com/news/post-284.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-284.html
 CATEGORIES:togenashi,live,goods,media
 END:VEVENT
@@ -1201,40 +1196,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-277.html
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-286-2024-12-24-sale@gbc-news
-DTSTAMP:20241224T000000Z
-DTSTART;VALUE=DATE:20241224
-DTEND;VALUE=DATE:20241225
-TRANSP:TRANSPARENT
+UID:post-286-2024-12-24-sale-1300@gbc-news
+DTSTAMP:20241224T040000Z
+DTSTART:20241224T040000Z
+DTEND:20241224T050000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 4th ONE-MAN LIVE“協奏の響
- ” グッズ事後通販のご案内
-DESCRIPTION:「トゲナシトゲアリ 4th ONE-MAN LIVE“協奏の響”
- 」にご来場いただいた皆様、誠にありがとうございま
- した たくさんのお客様にご来場いただき、心より御礼
- 申し上げます LIVEグッズ関して、12月24日（火）より事
- 後通販を行います！\n ■販売場所： 東映アニメーショ
- ンオフィシャルストア ■販売期間：12月24日（火）13：0
- 0～ 購入方法、商\n\nhttps://girls-band-cry.com/news/post-286.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-286.html
-CATEGORIES:togenashi,live,goods
-END:VEVENT
-BEGIN:VEVENT
-UID:post-286-2025-01-07-sale@gbc-news
-DTSTAMP:20250107T000000Z
-DTSTART;VALUE=DATE:20250107
-DTEND;VALUE=DATE:20250108
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 4th ONE-MAN LIVE“協奏の響
- ” グッズ事後通販のご案内
-DESCRIPTION:「トゲナシトゲアリ 4th ONE-MAN LIVE“協奏の響”
- 」にご来場いただいた皆様、誠にありがとうございま
- した たくさんのお客様にご来場いただき、心より御礼
- 申し上げます LIVEグッズ関して、12月24日（火）より事
- 後通販を行います！\n ■販売場所： 東映アニメーショ
- ンオフィシャルストア ■販売期間：12月24日（火）13：0
- 0～ 購入方法、商\n\nhttps://girls-band-cry.com/news/post-286.html
+SUMMARY:[发售] 无刺有刺 4th ONE-MAN LIVE“協奏の響” 周边事
+ 后通贩通知
+DESCRIPTION:4th 个人演唱会「協奏の響」周边自 12 月 24 日 13
+ :00 起在东映动画官方商店事后通贩；预定 2025 年 1 月 7 
+ 日起陆续发货。\n\nhttps://girls-band-cry.com/news/post-286.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-286.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
@@ -1245,13 +1217,11 @@ DTSTART;VALUE=DATE:20250124
 DTEND;VALUE=DATE:20250125
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] アニメ『ガールズバンドクライ』ヴィレッ
- ジヴァンガード限定商品が発売決定！！
-DESCRIPTION:1月24日(金)よりヴィレッジヴァンガード対象店
- 舗にて、 手島nari描き下ろしイラスト「Cry Rose」シリー
- ズより 青い薔薇を持ったクールなトゲナシトゲアリ の
- グッズが登場！\nこの機会にぜひお買い求めください！
- \n▼特集は こちら\n\nhttps://girls-band-cry.com/news/post-293.html
+SUMMARY:[发售] 动画《Girls Band Cry》Village Vanguard 限定商品发
+ 售决定！！
+DESCRIPTION:手岛 nari 全新绘制「Cry Rose」系列蓝色玫瑰造型
+ 无刺有刺周边自 2025 年 1 月 24 日起在 Village Vanguard 指定
+ 店铺发售。\n\nhttps://girls-band-cry.com/news/post-293.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-293.html
 CATEGORIES:togenashi,goods
 END:VEVENT
@@ -1272,22 +1242,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-296.html
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-284-2025-02-02_2025-02-11-hold-1200@gbc-news
-DTSTAMP:20250202T030000Z
-DTSTART:20250202T030000Z
-DTEND:20250211T145900Z
-TRANSP:OPAQUE
+UID:post-284-2025-02-02_2025-02-11-hold@gbc-news
+DTSTAMP:20250202T000000Z
+DTSTART;VALUE=DATE:20250202
+DTEND;VALUE=DATE:20250212
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ4th ONE-MAN LIVE “協奏の響
- ”オンライン配信チケット販売開始！
-DESCRIPTION:2nd、3rd ONE-MAN LIVEに引き続き本公演でも配信チ
- ケット、そして今回は配信限定のグッズ付きチケット
- の販売が決定！\nまた、今回のライブ映像プレミア配信
- ではトゲナシトゲアリへのお便りを募集！\n応援メッセ
- ージやメンバーに聞いてみたいことなど、何でもお送
- りください！\n【チケット販売期間】 2024年12月19日(木)1
- 8:00～2025年2月11日(火\n\n
- https://girls-band-cry.com/news/post-284.html
+SUMMARY:[举办] 无刺有刺 4th ONE-MAN LIVE “協奏の響” 线上配
+ 信票开始发售！
+DESCRIPTION:4th 个人演唱会「協奏の響」回放票务销售期 2024
+ /12/19–2025/2/11；观看期 2/2–2/11（2/2 12:00 首播），并提
+ 供周边限定票。\n\nhttps://girls-band-cry.com/news/post-284.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-284.html
 CATEGORIES:togenashi,live,goods,media
 END:VEVENT

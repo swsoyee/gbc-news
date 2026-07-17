@@ -748,44 +748,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-92.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-289-2024-03-16-sale@gbc-news
-DTSTAMP:20240316T000000Z
-DTSTART;VALUE=DATE:20240316
-DTEND;VALUE=DATE:20240317
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 「1st ONE-MAN LIVE “薄明の
- 序奏”」パッケージ化決定！
-DESCRIPTION:2024年3月16日(土)に横浜・1000CLUBで開催した初の
- ワンマンライブ 「“1st ONE-MAN LIVE”『薄明の序奏』”」
- のパッケージ化決定！\n 2025年3月19日(水)Release ご購入は
-  こちら 【Blu-ray】 UMXK-1124 ￥7\,700円（税込） 【DVD】 UMBK
- -1336 ￥6\,600円（税込） 仕様：三方背ケ\n\n
- https://girls-band-cry.com/news/post-289.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-289.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-294-2024-03-16-hold@gbc-news
-DTSTAMP:20240316T000000Z
-DTSTART;VALUE=DATE:20240316
-DTEND;VALUE=DATE:20240317
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 【2/28】トゲナシトゲアリ1st ONE-MAN LIVE “薄
- 明の序奏” [Blu-ray]［DVD］発売記念オンライントーク配
- 信
-DESCRIPTION:開催日時：2025年2月28日(金)19:00スタート (20:00終
- 了予定) 2024年3月16日(土)横浜・1000 CLUBで開催されたトゲ
- ナシトゲアリの1st ONE-MAN LIVE“薄明の序奏”のパッケー
- ジ化を記念して、リミスタでのオンライントーク開催
- が決定！\nリミスタにて対象商品をご購入いただいたお
- 客様に、1st ONE-MAN LIVE「薄明\n\n
- https://girls-band-cry.com/news/post-294.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-294.html
-CATEGORIES:togenashi,live,event,cinema
-END:VEVENT
-BEGIN:VEVENT
 UID:post-86-2024-03-16-hold@gbc-news
 DTSTAMP:20240316T000000Z
 DTSTART;VALUE=DATE:20240316
@@ -2146,37 +2108,47 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-262.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-280-2024-12-19-hold@gbc-news
+UID:post-280-2024-12-19_2025-02-11-sale@gbc-news
 DTSTAMP:20241219T000000Z
 DTSTART;VALUE=DATE:20241219
-DTEND;VALUE=DATE:20241220
+DTEND;VALUE=DATE:20250212
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] TOGENASHITOGEARI 4th Solo LIVE “KYOUSOU NO HIBIKI” Str
- eaming Tickets Now O…
-DESCRIPTION:TOGENASHITOGEARI 4th Solo Live—Tickets On Sale Now!\nGet Your
-  Tickets Here ・Beyond LIVE： ・ZAIKO： 【Ticket Sales P\n\n
- https://girls-band-cry.com/news/post-280.html
+SUMMARY:[发售] 无刺有刺 4th 个人演唱会「協奏の響」线上
+ 配信票发售中
+DESCRIPTION:无刺有刺 4th 个人演唱会「協奏の響」回放票务
+ 销售期 2024/12/19–2025/2/11；观看期 2/2–2/11（Beyond LIVE / ZA
+ IKO）。\n\nhttps://girls-band-cry.com/news/post-280.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-280.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
-UID:post-284-2024-12-19_2025-02-11-hold-1800@gbc-news
-DTSTAMP:20241219T090000Z
-DTSTART:20241219T090000Z
-DTEND:20250211T125900Z
-TRANSP:OPAQUE
+UID:post-281-2024-12-19_2025-02-11-sale@gbc-news
+DTSTAMP:20241219T000000Z
+DTSTART;VALUE=DATE:20241219
+DTEND;VALUE=DATE:20250212
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ4th ONE-MAN LIVE “協奏の響
- ”オンライン配信チケット販売開始！
-DESCRIPTION:2nd、3rd ONE-MAN LIVEに引き続き本公演でも配信チ
- ケット、そして今回は配信限定のグッズ付きチケット
- の販売が決定！\nまた、今回のライブ映像プレミア配信
- ではトゲナシトゲアリへのお便りを募集！\n応援メッセ
- ージやメンバーに聞いてみたいことなど、何でもお送
- りください！\n【チケット販売期間】 2024年12月19日(木)1
- 8:00～2025年2月11日(火\n\n
- https://girls-band-cry.com/news/post-284.html
+SUMMARY:[发售] 无刺有刺 4th 个人演唱会「協奏の響」线上
+ 配信票发售中
+DESCRIPTION:无刺有刺 4th 个人演唱会「協奏の響」回放票务
+ 销售期 2024/12/19–2025/2/11；观看期自 2/2 起（平台日程略
+ 有差异）。\n\nhttps://girls-band-cry.com/news/post-281.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-281.html
+CATEGORIES:togenashi,live
+END:VEVENT
+BEGIN:VEVENT
+UID:post-284-2024-12-19_2025-02-11-sale@gbc-news
+DTSTAMP:20241219T000000Z
+DTSTART;VALUE=DATE:20241219
+DTEND;VALUE=DATE:20250212
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺 4th ONE-MAN LIVE “協奏の響” 线上配
+ 信票开始发售！
+DESCRIPTION:4th 个人演唱会「協奏の響」回放票务销售期 2024
+ /12/19–2025/2/11；观看期 2/2–2/11（2/2 12:00 首播），并提
+ 供周边限定票。\n\nhttps://girls-band-cry.com/news/post-284.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-284.html
 CATEGORIES:togenashi,live,goods,media
 END:VEVENT
@@ -2261,21 +2233,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-252.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-286-2024-12-24-sale@gbc-news
-DTSTAMP:20241224T000000Z
-DTSTART;VALUE=DATE:20241224
-DTEND;VALUE=DATE:20241225
-TRANSP:TRANSPARENT
+UID:post-286-2024-12-24-sale-1300@gbc-news
+DTSTAMP:20241224T040000Z
+DTSTART:20241224T040000Z
+DTEND:20241224T050000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 4th ONE-MAN LIVE“協奏の響
- ” グッズ事後通販のご案内
-DESCRIPTION:「トゲナシトゲアリ 4th ONE-MAN LIVE“協奏の響”
- 」にご来場いただいた皆様、誠にありがとうございま
- した たくさんのお客様にご来場いただき、心より御礼
- 申し上げます LIVEグッズ関して、12月24日（火）より事
- 後通販を行います！\n ■販売場所： 東映アニメーショ
- ンオフィシャルストア ■販売期間：12月24日（火）13：0
- 0～ 購入方法、商\n\nhttps://girls-band-cry.com/news/post-286.html
+SUMMARY:[发售] 无刺有刺 4th ONE-MAN LIVE“協奏の響” 周边事
+ 后通贩通知
+DESCRIPTION:4th 个人演唱会「協奏の響」周边自 12 月 24 日 13
+ :00 起在东映动画官方商店事后通贩；预定 2025 年 1 月 7 
+ 日起陆续发货。\n\nhttps://girls-band-cry.com/news/post-286.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-286.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
@@ -2312,25 +2280,6 @@ DESCRIPTION:トゲナシトゲアリの「rockin'on presents COUNTDOWN JAPA
  https://girls-band-cry.com/news/post-266.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-266.html
 CATEGORIES:togenashi,live
-END:VEVENT
-BEGIN:VEVENT
-UID:post-286-2025-01-07-sale@gbc-news
-DTSTAMP:20250107T000000Z
-DTSTART;VALUE=DATE:20250107
-DTEND;VALUE=DATE:20250108
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 4th ONE-MAN LIVE“協奏の響
- ” グッズ事後通販のご案内
-DESCRIPTION:「トゲナシトゲアリ 4th ONE-MAN LIVE“協奏の響”
- 」にご来場いただいた皆様、誠にありがとうございま
- した たくさんのお客様にご来場いただき、心より御礼
- 申し上げます LIVEグッズ関して、12月24日（火）より事
- 後通販を行います！\n ■販売場所： 東映アニメーショ
- ンオフィシャルストア ■販売期間：12月24日（火）13：0
- 0～ 購入方法、商\n\nhttps://girls-band-cry.com/news/post-286.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-286.html
-CATEGORIES:togenashi,live,goods
 END:VEVENT
 BEGIN:VEVENT
 UID:post-195-2025-01-12-sale@gbc-news
@@ -2408,6 +2357,21 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-278.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-295-2025-01-29-sale-1000@gbc-news
+DTSTAMP:20250129T010000Z
+DTSTART:20250129T010000Z
+DTEND:20250129T020000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] 4/9（三）–20（日）@ 池袋举办！「GBC 展」
+ 注意事项・Q&A 公开！
+DESCRIPTION:GBC 展东京会场注意事项与 Q&A 公开；会期 2025 年
+  4 月 9 日–20 日于池袋 Sunshine City，抽选票自 1/29 10:00 起
+ 申请。\n\nhttps://girls-band-cry.com/news/post-295.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-295.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-297-2025-01-29-sale-1000@gbc-news
 DTSTAMP:20250129T010000Z
 DTSTART:20250129T010000Z
@@ -2455,37 +2419,47 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-298.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
-UID:post-280-2025-02-02-hold@gbc-news
+UID:post-280-2025-02-02_2025-02-11-hold@gbc-news
 DTSTAMP:20250202T000000Z
 DTSTART;VALUE=DATE:20250202
-DTEND;VALUE=DATE:20250203
+DTEND;VALUE=DATE:20250212
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] TOGENASHITOGEARI 4th Solo LIVE “KYOUSOU NO HIBIKI” Str
- eaming Tickets Now O…
-DESCRIPTION:TOGENASHITOGEARI 4th Solo Live—Tickets On Sale Now!\nGet Your
-  Tickets Here ・Beyond LIVE： ・ZAIKO： 【Ticket Sales P\n\n
- https://girls-band-cry.com/news/post-280.html
+SUMMARY:[举办] 无刺有刺 4th 个人演唱会「協奏の響」线上
+ 配信票发售中
+DESCRIPTION:无刺有刺 4th 个人演唱会「協奏の響」回放票务
+ 销售期 2024/12/19–2025/2/11；观看期 2/2–2/11（Beyond LIVE / ZA
+ IKO）。\n\nhttps://girls-band-cry.com/news/post-280.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-280.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
-UID:post-284-2025-02-02_2025-02-11-hold-1200@gbc-news
-DTSTAMP:20250202T030000Z
-DTSTART:20250202T030000Z
-DTEND:20250211T145900Z
-TRANSP:OPAQUE
+UID:post-281-2025-02-02_2025-02-11-hold@gbc-news
+DTSTAMP:20250202T000000Z
+DTSTART;VALUE=DATE:20250202
+DTEND;VALUE=DATE:20250212
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ4th ONE-MAN LIVE “協奏の響
- ”オンライン配信チケット販売開始！
-DESCRIPTION:2nd、3rd ONE-MAN LIVEに引き続き本公演でも配信チ
- ケット、そして今回は配信限定のグッズ付きチケット
- の販売が決定！\nまた、今回のライブ映像プレミア配信
- ではトゲナシトゲアリへのお便りを募集！\n応援メッセ
- ージやメンバーに聞いてみたいことなど、何でもお送
- りください！\n【チケット販売期間】 2024年12月19日(木)1
- 8:00～2025年2月11日(火\n\n
- https://girls-band-cry.com/news/post-284.html
+SUMMARY:[举办] 无刺有刺 4th 个人演唱会「協奏の響」线上
+ 配信票发售中
+DESCRIPTION:无刺有刺 4th 个人演唱会「協奏の響」回放票务
+ 销售期 2024/12/19–2025/2/11；观看期自 2/2 起（平台日程略
+ 有差异）。\n\nhttps://girls-band-cry.com/news/post-281.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-281.html
+CATEGORIES:togenashi,live
+END:VEVENT
+BEGIN:VEVENT
+UID:post-284-2025-02-02_2025-02-11-hold@gbc-news
+DTSTAMP:20250202T000000Z
+DTSTART;VALUE=DATE:20250202
+DTEND;VALUE=DATE:20250212
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺 4th ONE-MAN LIVE “協奏の響” 线上配
+ 信票开始发售！
+DESCRIPTION:4th 个人演唱会「協奏の響」回放票务销售期 2024
+ /12/19–2025/2/11；观看期 2/2–2/11（2/2 12:00 首播），并提
+ 供周边限定票。\n\nhttps://girls-band-cry.com/news/post-284.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-284.html
 CATEGORIES:togenashi,live,goods,media
 END:VEVENT
@@ -2550,85 +2524,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-309.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-281-2025-02-08-hold-1200@gbc-news
-DTSTAMP:20250208T030000Z
-DTSTART:20250208T030000Z
-DTEND:20250208T050000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] TOGENASHITOGEARI 4th 단독 라이브 ‘KYOUSOU NO HIBIKI
- ’
-DESCRIPTION:TOGENASHITOGEARI 4th 단독 라이브—티켓 절찬 판매 
- 중!\n【티켓 구매】 Beyond LIVE: ZAIKO: 【티켓 판매 일정】 2
- 024년 12월 19일(목) 18:00 (JST) ～ 2\n\n
- https://girls-band-cry.com/news/post-281.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-281.html
-CATEGORIES:togenashi,live
-END:VEVENT
-BEGIN:VEVENT
-UID:post-281-2025-02-08-hold-1800@gbc-news
-DTSTAMP:20250208T090000Z
-DTSTART:20250208T090000Z
-DTEND:20250208T110000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] TOGENASHITOGEARI 4th 단독 라이브 ‘KYOUSOU NO HIBIKI
- ’
-DESCRIPTION:TOGENASHITOGEARI 4th 단독 라이브—티켓 절찬 판매 
- 중!\n【티켓 구매】 Beyond LIVE: ZAIKO: 【티켓 판매 일정】 2
- 024년 12월 19일(목) 18:00 (JST) ～ 2\n\n
- https://girls-band-cry.com/news/post-281.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-281.html
-CATEGORIES:togenashi,live
-END:VEVENT
-BEGIN:VEVENT
-UID:post-281-2025-02-08-hold-2159@gbc-news
-DTSTAMP:20250208T125900Z
-DTSTART:20250208T125900Z
-DTEND:20250208T145900Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] TOGENASHITOGEARI 4th 단독 라이브 ‘KYOUSOU NO HIBIKI
- ’
-DESCRIPTION:TOGENASHITOGEARI 4th 단독 라이브—티켓 절찬 판매 
- 중!\n【티켓 구매】 Beyond LIVE: ZAIKO: 【티켓 판매 일정】 2
- 024년 12월 19일(목) 18:00 (JST) ～ 2\n\n
- https://girls-band-cry.com/news/post-281.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-281.html
-CATEGORIES:togenashi,live
-END:VEVENT
-BEGIN:VEVENT
-UID:post-281-2025-02-08-hold-2359@gbc-news
-DTSTAMP:20250208T145900Z
-DTSTART:20250208T145900Z
-DTEND:20250208T165900Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] TOGENASHITOGEARI 4th 단독 라이브 ‘KYOUSOU NO HIBIKI
- ’
-DESCRIPTION:TOGENASHITOGEARI 4th 단독 라이브—티켓 절찬 판매 
- 중!\n【티켓 구매】 Beyond LIVE: ZAIKO: 【티켓 판매 일정】 2
- 024년 12월 19일(목) 18:00 (JST) ～ 2\n\n
- https://girls-band-cry.com/news/post-281.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-281.html
-CATEGORIES:togenashi,live
-END:VEVENT
-BEGIN:VEVENT
-UID:post-280-2025-02-11-hold@gbc-news
-DTSTAMP:20250211T000000Z
-DTSTART;VALUE=DATE:20250211
-DTEND;VALUE=DATE:20250212
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] TOGENASHITOGEARI 4th Solo LIVE “KYOUSOU NO HIBIKI” Str
- eaming Tickets Now O…
-DESCRIPTION:TOGENASHITOGEARI 4th Solo Live—Tickets On Sale Now!\nGet Your
-  Tickets Here ・Beyond LIVE： ・ZAIKO： 【Ticket Sales P\n\n
- https://girls-band-cry.com/news/post-280.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-280.html
-CATEGORIES:togenashi,live
-END:VEVENT
-BEGIN:VEVENT
 UID:post-299-2025-02-15-sale-1000@gbc-news
 DTSTAMP:20250215T010000Z
 DTSTART:20250215T010000Z
@@ -2677,41 +2572,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
 CATEGORIES:togenashi,live,event,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-294-2025-02-28-hold@gbc-news
-DTSTAMP:20250228T000000Z
-DTSTART;VALUE=DATE:20250228
-DTEND;VALUE=DATE:20250301
-TRANSP:TRANSPARENT
+UID:post-294-2025-02-28-hold-1900@gbc-news
+DTSTAMP:20250228T100000Z
+DTSTART:20250228T100000Z
+DTEND:20250228T110000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 【2/28】トゲナシトゲアリ1st ONE-MAN LIVE “薄
- 明の序奏” [Blu-ray]［DVD］発売記念オンライントーク配
- 信
-DESCRIPTION:開催日時：2025年2月28日(金)19:00スタート (20:00終
- 了予定) 2024年3月16日(土)横浜・1000 CLUBで開催されたトゲ
- ナシトゲアリの1st ONE-MAN LIVE“薄明の序奏”のパッケー
- ジ化を記念して、リミスタでのオンライントーク開催
- が決定！\nリミスタにて対象商品をご購入いただいたお
- 客様に、1st ONE-MAN LIVE「薄明\n\n
- https://girls-band-cry.com/news/post-294.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-294.html
-CATEGORIES:togenashi,live,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-294-2025-02-28-sale@gbc-news
-DTSTAMP:20250228T000000Z
-DTSTART;VALUE=DATE:20250228
-DTEND;VALUE=DATE:20250301
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] 【2/28】トゲナシトゲアリ1st ONE-MAN LIVE “薄
- 明の序奏” [Blu-ray]［DVD］発売記念オンライントーク配
- 信
-DESCRIPTION:開催日時：2025年2月28日(金)19:00スタート (20:00終
- 了予定) 2024年3月16日(土)横浜・1000 CLUBで開催されたトゲ
- ナシトゲアリの1st ONE-MAN LIVE“薄明の序奏”のパッケー
- ジ化を記念して、リミスタでのオンライントーク開催
- が決定！\nリミスタにて対象商品をご購入いただいたお
- 客様に、1st ONE-MAN LIVE「薄明\n\n
+SUMMARY:[举办] 【2/28】无刺有刺 1st ONE-MAN LIVE “薄明の序奏
+ ” [Blu-ray][DVD] 发售纪念线上 talk 配信
+DESCRIPTION:纪念 1st 个人演唱会「薄明の序奏」影像发售，2
+  月 28 日 19:00–20:00 于 Limista 举办线上 talk（理名・夕莉
+ ・朱李出演预定）。\n\n
  https://girls-band-cry.com/news/post-294.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-294.html
 CATEGORIES:togenashi,live,event,cinema
@@ -2799,14 +2670,11 @@ DTSTART;VALUE=DATE:20250319
 DTEND;VALUE=DATE:20250320
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 「1st ONE-MAN LIVE “薄明の
- 序奏”」パッケージ化決定！
-DESCRIPTION:2024年3月16日(土)に横浜・1000CLUBで開催した初の
- ワンマンライブ 「“1st ONE-MAN LIVE”『薄明の序奏』”」
- のパッケージ化決定！\n 2025年3月19日(水)Release ご購入は
-  こちら 【Blu-ray】 UMXK-1124 ￥7\,700円（税込） 【DVD】 UMBK
- -1336 ￥6\,600円（税込） 仕様：三方背ケ\n\n
- https://girls-band-cry.com/news/post-289.html
+SUMMARY:[发售] 无刺有刺「1st ONE-MAN LIVE “薄明の序奏”」
+ 决定影像化！
+DESCRIPTION:2024 年 3 月 16 日于横滨 1000 CLUB 举办的 1st 个人
+ 演唱会「薄明の序奏」决定推出 Blu-ray/DVD，2025 年 3 月 19
+  日发售。\n\nhttps://girls-band-cry.com/news/post-289.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-289.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
@@ -2875,6 +2743,36 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-328.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-292-2025-04-09_2025-04-20-hold@gbc-news
+DTSTAMP:20250409T000000Z
+DTSTART;VALUE=DATE:20250409
+DTEND;VALUE=DATE:20250421
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 「GBC 展」4/9（三）–20（日）于池袋 Sunshine 
+ City 展示厅 A 举办！票务信息亦公开！
+DESCRIPTION:GBC 展东京会场于池袋 Sunshine City 展示厅 A 举办
+ ：2025 年 4 月 9 日–20 日；票务与售票日程同步公开。\n\
+ nhttps://girls-band-cry.com/news/post-292.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-292.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-295-2025-04-09_2025-04-20-hold@gbc-news
+DTSTAMP:20250409T000000Z
+DTSTART;VALUE=DATE:20250409
+DTEND;VALUE=DATE:20250421
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 4/9（三）–20（日）@ 池袋举办！「GBC 展」
+ 注意事项・Q&A 公开！
+DESCRIPTION:GBC 展东京会场注意事项与 Q&A 公开；会期 2025 年
+  4 月 9 日–20 日于池袋 Sunshine City，抽选票自 1/29 10:00 起
+ 申请。\n\nhttps://girls-band-cry.com/news/post-295.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-295.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-297-2025-04-09_2025-04-20-hold@gbc-news
 DTSTAMP:20250409T000000Z
 DTSTART;VALUE=DATE:20250409
@@ -2919,45 +2817,6 @@ DESCRIPTION:GBC 展公开区域地图与展品详情（含无刺有刺使
  东京会场自 4/9 起于池袋 Sunshine City 举办。\n\n
  https://girls-band-cry.com/news/post-329.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-329.html
-CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-292-2025-04-09-hold-1100@gbc-news
-DTSTAMP:20250409T020000Z
-DTSTART:20250409T020000Z
-DTEND:20250409T100000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] 「ガルクラ展」は4/9(水)～20(日)池袋・サン
- シャインシティ展示ホールＡで開催！チケット情報も
- 解禁！
-DESCRIPTION:「ガールズバンドクライ展」東京会場の開催概
- 要が解禁！\n【開催概要】 ■イベント名：ガールズバ
- ンドクライ展 ■会期：2025年4月9日(水)〜20日(日) 合計12
- 日間 ※初日4月9日(水)、12(土)、13(日)、19(土)、20(日)は
- 日時指定制です。\n■営業時間：11:00~19:00（最終入場18:0
- 0） ※最終日 4月20日は17時閉場（最終入場16\n\n
- https://girls-band-cry.com/news/post-292.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-292.html
-CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-295-2025-04-09-hold-1100@gbc-news
-DTSTAMP:20250409T020000Z
-DTSTART:20250409T020000Z
-DTEND:20250409T100000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] 4/9(水)～20(日)＠池袋で開催！「ガルクラ展
- 」注意事項・Q&#038\;Aが公開！
-DESCRIPTION:「ガールズバンドクライ展」東京会場の注意事
- 項とQ&Aが公開されました！\nいよいよ来週1/29(水)10:00か
- らは抽選チケットの申し込みスタート！\n【開催概要】
-  ■イベント名：ガールズバンドクライ展 ■会期：2025
- 年4月9日(水)〜20日(日) 合計12日間 ※初日4月9日(水)、12(
- 土)、13(日)、19(土)、20(日)は日時指定制です。\n■営業
- 時間\n\nhttps://girls-band-cry.com/news/post-295.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-295.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT

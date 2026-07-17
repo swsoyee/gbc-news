@@ -1,6 +1,6 @@
 {
   "sourceId": "gbc-news",
-  "updatedAt": "2026-07-17T14:50:00.000Z",
+  "updatedAt": "2026-07-17T15:00:00.000Z",
   "items": {
     "post-483": {
       "id": "post-483",
@@ -2623,6 +2623,194 @@
         }
       ],
       "reviewNotes": "会期与抽选开售；去掉营业时刻误抽"
+    },
+    "post-295": {
+      "id": "post-295",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "0877f97ee1641e6a003a062037213dfeb78f80b4359492d04615527add93ead4",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "4/9（三）–20（日）@ 池袋举办！「GBC 展」注意事项・Q&A 公开！",
+      "summaryZh": "GBC 展东京会场注意事项与 Q&A 公开；会期 2025 年 4 月 9 日–20 日于池袋 Sunshine City，抽选票自 1/29 10:00 起申请。",
+      "eventDates": [
+        {
+          "date": "2025-04-09",
+          "endDate": "2025-04-20",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-01-29",
+          "kind": "sale",
+          "startTime": "10:00"
+        }
+      ],
+      "reviewNotes": "会期跨日去营业时刻"
+    },
+    "post-293": {
+      "id": "post-293",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "cec6be44e575711494f969e5da5baed4c3115c23de4bb943572754c5149c5ed3",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "动画《Girls Band Cry》Village Vanguard 限定商品发售决定！！",
+      "summaryZh": "手岛 nari 全新绘制「Cry Rose」系列蓝色玫瑰造型无刺有刺周边自 2025 年 1 月 24 日起在 Village Vanguard 指定店铺发售。",
+      "eventDates": [
+        {
+          "date": "2025-01-24",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-294": {
+      "id": "post-294",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "3334c4e6e1fdcd7bfa3cc6b3521b5fcd66504e7bf74fbb0c1645214fce054edd",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "【2/28】无刺有刺 1st ONE-MAN LIVE “薄明の序奏” [Blu-ray][DVD] 发售纪念线上 talk 配信",
+      "summaryZh": "纪念 1st 个人演唱会「薄明の序奏」影像发售，2 月 28 日 19:00–20:00 于 Limista 举办线上 talk（理名・夕莉・朱李出演预定）。",
+      "eventDates": [
+        {
+          "date": "2025-02-28",
+          "kind": "hold",
+          "startTime": "19:00",
+          "endTime": "20:00"
+        }
+      ],
+      "reviewNotes": "去掉误抽 2024 公演与 sale"
+    },
+    "post-292": {
+      "id": "post-292",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "7ffa7618bccbe0651da660db3c2e28f53125593605368c0d7c2e0e7888a96fd0",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "「GBC 展」4/9（三）–20（日）于池袋 Sunshine City 展示厅 A 举办！票务信息亦公开！",
+      "summaryZh": "GBC 展东京会场于池袋 Sunshine City 展示厅 A 举办：2025 年 4 月 9 日–20 日；票务与售票日程同步公开。",
+      "eventDates": [
+        {
+          "date": "2025-04-09",
+          "endDate": "2025-04-20",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "跨日去营业时刻"
+    },
+    "post-290": {
+      "id": "post-290",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "b404b86e9f33dd33c813f97961a118ae7881322e0ffc7b2a3af8244d71e32729",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》＆无刺有刺 新春线上 talk 配信举办通知",
+      "summaryZh": "新春线上 talk 于 2025 年 1 月 17 日 19:00–20:00 在 Limista 举办（夕莉・朱李出演预定）。",
+      "eventDates": [
+        {
+          "date": "2025-01-17",
+          "kind": "hold",
+          "startTime": "19:00",
+          "endTime": "20:00"
+        }
+      ]
+    },
+    "post-286": {
+      "id": "post-286",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "6c60076f066f8bceb44f72a599eb07f5e99c2c9e2c989a4f9589eb406bc67a66",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "无刺有刺 4th ONE-MAN LIVE“協奏の響” 周边事后通贩通知",
+      "summaryZh": "4th 个人演唱会「協奏の響」周边自 12 月 24 日 13:00 起在东映动画官方商店事后通贩；预定 2025 年 1 月 7 日起陆续发货。",
+      "eventDates": [
+        {
+          "date": "2024-12-24",
+          "kind": "sale",
+          "startTime": "13:00"
+        }
+      ],
+      "reviewNotes": "发货日非活动日不保留"
+    },
+    "post-289": {
+      "id": "post-289",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "1d4b3628151b4fe5eef875d35131b210135c3fed939ee7ff18847a5bf20c31e9",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "无刺有刺「1st ONE-MAN LIVE “薄明の序奏”」决定影像化！",
+      "summaryZh": "2024 年 3 月 16 日于横滨 1000 CLUB 举办的 1st 个人演唱会「薄明の序奏」决定推出 Blu-ray/DVD，2025 年 3 月 19 日发售。",
+      "eventDates": [
+        {
+          "date": "2025-03-19",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "去掉误标原公演为 sale"
+    },
+    "post-280": {
+      "id": "post-280",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "e59904177dcf6ca6f4b94ed41187db7c18afd85de7d9f9d4604b20f436c5b0d6",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "无刺有刺 4th 个人演唱会「協奏の響」线上配信票发售中",
+      "summaryZh": "无刺有刺 4th 个人演唱会「協奏の響」回放票务销售期 2024/12/19–2025/2/11；观看期 2/2–2/11（Beyond LIVE / ZAIKO）。",
+      "eventDates": [
+        {
+          "date": "2024-12-19",
+          "endDate": "2025-02-11",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-02-02",
+          "endDate": "2025-02-11",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "英文通稿；跨日去时刻"
+    },
+    "post-281": {
+      "id": "post-281",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "22964d339553a1d39f3ae1e3e33661a7d7a3f2e33c010de8dd6be0d05e8e0341",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "无刺有刺 4th 个人演唱会「協奏の響」线上配信票发售中",
+      "summaryZh": "无刺有刺 4th 个人演唱会「協奏の響」回放票务销售期 2024/12/19–2025/2/11；观看期自 2/2 起（平台日程略有差异）。",
+      "eventDates": [
+        {
+          "date": "2024-12-19",
+          "endDate": "2025-02-11",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-02-02",
+          "endDate": "2025-02-11",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "韩文通稿；修正误拆时刻"
+    },
+    "post-284": {
+      "id": "post-284",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "4ce7a49cdd01398100def6f99325d11638cb905f4d3cbee7f983fb9f82a32726",
+      "reviewedAt": "2026-07-17T15:00:00.000Z",
+      "titleZh": "无刺有刺 4th ONE-MAN LIVE “協奏の響” 线上配信票开始发售！",
+      "summaryZh": "4th 个人演唱会「協奏の響」回放票务销售期 2024/12/19–2025/2/11；观看期 2/2–2/11（2/2 12:00 首播），并提供周边限定票。",
+      "eventDates": [
+        {
+          "date": "2024-12-19",
+          "endDate": "2025-02-11",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-02-02",
+          "endDate": "2025-02-11",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "跨日去时刻"
     }
   }
 }

@@ -475,44 +475,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-84.html
 CATEGORIES:togenashi,music,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-289-2024-03-16-sale@gbc-news
-DTSTAMP:20240316T000000Z
-DTSTART;VALUE=DATE:20240316
-DTEND;VALUE=DATE:20240317
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 「1st ONE-MAN LIVE “薄明の
- 序奏”」パッケージ化決定！
-DESCRIPTION:2024年3月16日(土)に横浜・1000CLUBで開催した初の
- ワンマンライブ 「“1st ONE-MAN LIVE”『薄明の序奏』”」
- のパッケージ化決定！\n 2025年3月19日(水)Release ご購入は
-  こちら 【Blu-ray】 UMXK-1124 ￥7\,700円（税込） 【DVD】 UMBK
- -1336 ￥6\,600円（税込） 仕様：三方背ケ\n\n
- https://girls-band-cry.com/news/post-289.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-289.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-294-2024-03-16-hold@gbc-news
-DTSTAMP:20240316T000000Z
-DTSTART;VALUE=DATE:20240316
-DTEND;VALUE=DATE:20240317
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 【2/28】トゲナシトゲアリ1st ONE-MAN LIVE “薄
- 明の序奏” [Blu-ray]［DVD］発売記念オンライントーク配
- 信
-DESCRIPTION:開催日時：2025年2月28日(金)19:00スタート (20:00終
- 了予定) 2024年3月16日(土)横浜・1000 CLUBで開催されたトゲ
- ナシトゲアリの1st ONE-MAN LIVE“薄明の序奏”のパッケー
- ジ化を記念して、リミスタでのオンライントーク開催
- が決定！\nリミスタにて対象商品をご購入いただいたお
- 客様に、1st ONE-MAN LIVE「薄明\n\n
- https://girls-band-cry.com/news/post-294.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-294.html
-CATEGORIES:togenashi,live,event,cinema
-END:VEVENT
-BEGIN:VEVENT
 UID:post-108-2024-04-19-sale@gbc-news
 DTSTAMP:20240419T000000Z
 DTSTART;VALUE=DATE:20240419
@@ -1163,41 +1125,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-309.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-294-2025-02-28-hold@gbc-news
-DTSTAMP:20250228T000000Z
-DTSTART;VALUE=DATE:20250228
-DTEND;VALUE=DATE:20250301
-TRANSP:TRANSPARENT
+UID:post-294-2025-02-28-hold-1900@gbc-news
+DTSTAMP:20250228T100000Z
+DTSTART:20250228T100000Z
+DTEND:20250228T110000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 【2/28】トゲナシトゲアリ1st ONE-MAN LIVE “薄
- 明の序奏” [Blu-ray]［DVD］発売記念オンライントーク配
- 信
-DESCRIPTION:開催日時：2025年2月28日(金)19:00スタート (20:00終
- 了予定) 2024年3月16日(土)横浜・1000 CLUBで開催されたトゲ
- ナシトゲアリの1st ONE-MAN LIVE“薄明の序奏”のパッケー
- ジ化を記念して、リミスタでのオンライントーク開催
- が決定！\nリミスタにて対象商品をご購入いただいたお
- 客様に、1st ONE-MAN LIVE「薄明\n\n
- https://girls-band-cry.com/news/post-294.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-294.html
-CATEGORIES:togenashi,live,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-294-2025-02-28-sale@gbc-news
-DTSTAMP:20250228T000000Z
-DTSTART;VALUE=DATE:20250228
-DTEND;VALUE=DATE:20250301
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] 【2/28】トゲナシトゲアリ1st ONE-MAN LIVE “薄
- 明の序奏” [Blu-ray]［DVD］発売記念オンライントーク配
- 信
-DESCRIPTION:開催日時：2025年2月28日(金)19:00スタート (20:00終
- 了予定) 2024年3月16日(土)横浜・1000 CLUBで開催されたトゲ
- ナシトゲアリの1st ONE-MAN LIVE“薄明の序奏”のパッケー
- ジ化を記念して、リミスタでのオンライントーク開催
- が決定！\nリミスタにて対象商品をご購入いただいたお
- 客様に、1st ONE-MAN LIVE「薄明\n\n
+SUMMARY:[举办] 【2/28】无刺有刺 1st ONE-MAN LIVE “薄明の序奏
+ ” [Blu-ray][DVD] 发售纪念线上 talk 配信
+DESCRIPTION:纪念 1st 个人演唱会「薄明の序奏」影像发售，2
+  月 28 日 19:00–20:00 于 Limista 举办线上 talk（理名・夕莉
+ ・朱李出演预定）。\n\n
  https://girls-band-cry.com/news/post-294.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-294.html
 CATEGORIES:togenashi,live,event,cinema
@@ -1239,14 +1177,11 @@ DTSTART;VALUE=DATE:20250319
 DTEND;VALUE=DATE:20250320
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 「1st ONE-MAN LIVE “薄明の
- 序奏”」パッケージ化決定！
-DESCRIPTION:2024年3月16日(土)に横浜・1000CLUBで開催した初の
- ワンマンライブ 「“1st ONE-MAN LIVE”『薄明の序奏』”」
- のパッケージ化決定！\n 2025年3月19日(水)Release ご購入は
-  こちら 【Blu-ray】 UMXK-1124 ￥7\,700円（税込） 【DVD】 UMBK
- -1336 ￥6\,600円（税込） 仕様：三方背ケ\n\n
- https://girls-band-cry.com/news/post-289.html
+SUMMARY:[发售] 无刺有刺「1st ONE-MAN LIVE “薄明の序奏”」
+ 决定影像化！
+DESCRIPTION:2024 年 3 月 16 日于横滨 1000 CLUB 举办的 1st 个人
+ 演唱会「薄明の序奏」决定推出 Blu-ray/DVD，2025 年 3 月 19
+  日发售。\n\nhttps://girls-band-cry.com/news/post-289.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-289.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT

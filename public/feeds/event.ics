@@ -956,44 +956,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-92.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-289-2024-03-16-sale@gbc-news
-DTSTAMP:20240316T000000Z
-DTSTART;VALUE=DATE:20240316
-DTEND;VALUE=DATE:20240317
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 「1st ONE-MAN LIVE “薄明の
- 序奏”」パッケージ化決定！
-DESCRIPTION:2024年3月16日(土)に横浜・1000CLUBで開催した初の
- ワンマンライブ 「“1st ONE-MAN LIVE”『薄明の序奏』”」
- のパッケージ化決定！\n 2025年3月19日(水)Release ご購入は
-  こちら 【Blu-ray】 UMXK-1124 ￥7\,700円（税込） 【DVD】 UMBK
- -1336 ￥6\,600円（税込） 仕様：三方背ケ\n\n
- https://girls-band-cry.com/news/post-289.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-289.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-294-2024-03-16-hold@gbc-news
-DTSTAMP:20240316T000000Z
-DTSTART;VALUE=DATE:20240316
-DTEND;VALUE=DATE:20240317
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 【2/28】トゲナシトゲアリ1st ONE-MAN LIVE “薄
- 明の序奏” [Blu-ray]［DVD］発売記念オンライントーク配
- 信
-DESCRIPTION:開催日時：2025年2月28日(金)19:00スタート (20:00終
- 了予定) 2024年3月16日(土)横浜・1000 CLUBで開催されたトゲ
- ナシトゲアリの1st ONE-MAN LIVE“薄明の序奏”のパッケー
- ジ化を記念して、リミスタでのオンライントーク開催
- が決定！\nリミスタにて対象商品をご購入いただいたお
- 客様に、1st ONE-MAN LIVE「薄明\n\n
- https://girls-band-cry.com/news/post-294.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-294.html
-CATEGORIES:togenashi,live,event,cinema
-END:VEVENT
-BEGIN:VEVENT
 UID:post-89-2024-03-16-sale@gbc-news
 DTSTAMP:20240316T000000Z
 DTSTART;VALUE=DATE:20240316
@@ -2301,14 +2263,28 @@ DTSTART:20250117T100000Z
 DTEND:20250117T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』＆トゲ
- ナシトゲアリ 新春オンライントーク配信開催のご案内
-DESCRIPTION:開催日時：2025年1月17日(金) 19:00スタート（20:00
- 終了予定） 詳細 配信ページ ■参加メンバー(予定) ト
- ゲナシトゲアリ 夕莉 （河原木桃香 役） 朱李 （ルパ 
- 役）\n\nhttps://girls-band-cry.com/news/post-290.html
+SUMMARY:[举办] TV 动画《Girls Band Cry》＆无刺有刺 新春线上 
+ talk 配信举办通知
+DESCRIPTION:新春线上 talk 于 2025 年 1 月 17 日 19:00–20:00 在 L
+ imista 举办（夕莉・朱李出演预定）。\n\n
+ https://girls-band-cry.com/news/post-290.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-290.html
 CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-295-2025-01-29-sale-1000@gbc-news
+DTSTAMP:20250129T010000Z
+DTSTART:20250129T010000Z
+DTEND:20250129T020000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] 4/9（三）–20（日）@ 池袋举办！「GBC 展」
+ 注意事项・Q&A 公开！
+DESCRIPTION:GBC 展东京会场注意事项与 Q&A 公开；会期 2025 年
+  4 月 9 日–20 日于池袋 Sunshine City，抽选票自 1/29 10:00 起
+ 申请。\n\nhttps://girls-band-cry.com/news/post-295.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-295.html
+CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-297-2025-01-29-sale-1000@gbc-news
@@ -2461,41 +2437,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-299.html
 CATEGORIES:togenashi,live,event,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-294-2025-02-28-hold@gbc-news
-DTSTAMP:20250228T000000Z
-DTSTART;VALUE=DATE:20250228
-DTEND;VALUE=DATE:20250301
-TRANSP:TRANSPARENT
+UID:post-294-2025-02-28-hold-1900@gbc-news
+DTSTAMP:20250228T100000Z
+DTSTART:20250228T100000Z
+DTEND:20250228T110000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 【2/28】トゲナシトゲアリ1st ONE-MAN LIVE “薄
- 明の序奏” [Blu-ray]［DVD］発売記念オンライントーク配
- 信
-DESCRIPTION:開催日時：2025年2月28日(金)19:00スタート (20:00終
- 了予定) 2024年3月16日(土)横浜・1000 CLUBで開催されたトゲ
- ナシトゲアリの1st ONE-MAN LIVE“薄明の序奏”のパッケー
- ジ化を記念して、リミスタでのオンライントーク開催
- が決定！\nリミスタにて対象商品をご購入いただいたお
- 客様に、1st ONE-MAN LIVE「薄明\n\n
- https://girls-band-cry.com/news/post-294.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-294.html
-CATEGORIES:togenashi,live,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-294-2025-02-28-sale@gbc-news
-DTSTAMP:20250228T000000Z
-DTSTART;VALUE=DATE:20250228
-DTEND;VALUE=DATE:20250301
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] 【2/28】トゲナシトゲアリ1st ONE-MAN LIVE “薄
- 明の序奏” [Blu-ray]［DVD］発売記念オンライントーク配
- 信
-DESCRIPTION:開催日時：2025年2月28日(金)19:00スタート (20:00終
- 了予定) 2024年3月16日(土)横浜・1000 CLUBで開催されたトゲ
- ナシトゲアリの1st ONE-MAN LIVE“薄明の序奏”のパッケー
- ジ化を記念して、リミスタでのオンライントーク開催
- が決定！\nリミスタにて対象商品をご購入いただいたお
- 客様に、1st ONE-MAN LIVE「薄明\n\n
+SUMMARY:[举办] 【2/28】无刺有刺 1st ONE-MAN LIVE “薄明の序奏
+ ” [Blu-ray][DVD] 发售纪念线上 talk 配信
+DESCRIPTION:纪念 1st 个人演唱会「薄明の序奏」影像发售，2
+  月 28 日 19:00–20:00 于 Limista 举办线上 talk（理名・夕莉
+ ・朱李出演预定）。\n\n
  https://girls-band-cry.com/news/post-294.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-294.html
 CATEGORIES:togenashi,live,event,cinema
@@ -2568,14 +2520,11 @@ DTSTART;VALUE=DATE:20250319
 DTEND;VALUE=DATE:20250320
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 「1st ONE-MAN LIVE “薄明の
- 序奏”」パッケージ化決定！
-DESCRIPTION:2024年3月16日(土)に横浜・1000CLUBで開催した初の
- ワンマンライブ 「“1st ONE-MAN LIVE”『薄明の序奏』”」
- のパッケージ化決定！\n 2025年3月19日(水)Release ご購入は
-  こちら 【Blu-ray】 UMXK-1124 ￥7\,700円（税込） 【DVD】 UMBK
- -1336 ￥6\,600円（税込） 仕様：三方背ケ\n\n
- https://girls-band-cry.com/news/post-289.html
+SUMMARY:[发售] 无刺有刺「1st ONE-MAN LIVE “薄明の序奏”」
+ 决定影像化！
+DESCRIPTION:2024 年 3 月 16 日于横滨 1000 CLUB 举办的 1st 个人
+ 演唱会「薄明の序奏」决定推出 Blu-ray/DVD，2025 年 3 月 19
+  日发售。\n\nhttps://girls-band-cry.com/news/post-289.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-289.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
@@ -2675,6 +2624,36 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-328.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-292-2025-04-09_2025-04-20-hold@gbc-news
+DTSTAMP:20250409T000000Z
+DTSTART;VALUE=DATE:20250409
+DTEND;VALUE=DATE:20250421
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 「GBC 展」4/9（三）–20（日）于池袋 Sunshine 
+ City 展示厅 A 举办！票务信息亦公开！
+DESCRIPTION:GBC 展东京会场于池袋 Sunshine City 展示厅 A 举办
+ ：2025 年 4 月 9 日–20 日；票务与售票日程同步公开。\n\
+ nhttps://girls-band-cry.com/news/post-292.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-292.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-295-2025-04-09_2025-04-20-hold@gbc-news
+DTSTAMP:20250409T000000Z
+DTSTART;VALUE=DATE:20250409
+DTEND;VALUE=DATE:20250421
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 4/9（三）–20（日）@ 池袋举办！「GBC 展」
+ 注意事项・Q&A 公开！
+DESCRIPTION:GBC 展东京会场注意事项与 Q&A 公开；会期 2025 年
+  4 月 9 日–20 日于池袋 Sunshine City，抽选票自 1/29 10:00 起
+ 申请。\n\nhttps://girls-band-cry.com/news/post-295.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-295.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-297-2025-04-09_2025-04-20-hold@gbc-news
 DTSTAMP:20250409T000000Z
 DTSTART;VALUE=DATE:20250409
@@ -2735,45 +2714,6 @@ DESCRIPTION:GBC 展公开区域地图与展品详情（含无刺有刺使
  东京会场自 4/9 起于池袋 Sunshine City 举办。\n\n
  https://girls-band-cry.com/news/post-329.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-329.html
-CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-292-2025-04-09-hold-1100@gbc-news
-DTSTAMP:20250409T020000Z
-DTSTART:20250409T020000Z
-DTEND:20250409T100000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] 「ガルクラ展」は4/9(水)～20(日)池袋・サン
- シャインシティ展示ホールＡで開催！チケット情報も
- 解禁！
-DESCRIPTION:「ガールズバンドクライ展」東京会場の開催概
- 要が解禁！\n【開催概要】 ■イベント名：ガールズバ
- ンドクライ展 ■会期：2025年4月9日(水)〜20日(日) 合計12
- 日間 ※初日4月9日(水)、12(土)、13(日)、19(土)、20(日)は
- 日時指定制です。\n■営業時間：11:00~19:00（最終入場18:0
- 0） ※最終日 4月20日は17時閉場（最終入場16\n\n
- https://girls-band-cry.com/news/post-292.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-292.html
-CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-295-2025-04-09-hold-1100@gbc-news
-DTSTAMP:20250409T020000Z
-DTSTART:20250409T020000Z
-DTEND:20250409T100000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] 4/9(水)～20(日)＠池袋で開催！「ガルクラ展
- 」注意事項・Q&#038\;Aが公開！
-DESCRIPTION:「ガールズバンドクライ展」東京会場の注意事
- 項とQ&Aが公開されました！\nいよいよ来週1/29(水)10:00か
- らは抽選チケットの申し込みスタート！\n【開催概要】
-  ■イベント名：ガールズバンドクライ展 ■会期：2025
- 年4月9日(水)〜20日(日) 合計12日間 ※初日4月9日(水)、12(
- 土)、13(日)、19(土)、20(日)は日時指定制です。\n■営業
- 時間\n\nhttps://girls-band-cry.com/news/post-295.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-295.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
