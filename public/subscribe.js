@@ -381,7 +381,7 @@ function applyDayState(el, cell, today) {
   if (cell.date === today) el.classList.add('is-today')
 }
 
-/** 统一 gutter + N 列；全天 chip 悬浮在表头日期 cell 内（数字下方） */
+/** 统一 gutter + N 列；全天 chip 仅在表头子网格内悬浮，避免挤占主列 */
 function renderTimeGridFrame(events, cells, today) {
   const colCount = cells.length
   const root = document.createElement('div')
@@ -391,32 +391,36 @@ function renderTimeGridFrame(events, cells, today) {
   const frame = document.createElement('div')
   frame.className = 'calendar-time-frame'
 
+  const header = document.createElement('div')
+  header.className = 'calendar-time-header'
+
   const corner = document.createElement('div')
   corner.className = 'calendar-time-corner'
-  frame.appendChild(corner)
+  header.appendChild(corner)
 
   for (const [index, cell] of cells.entries()) {
     const head = document.createElement('div')
     head.className = 'calendar-day-head'
+    head.style.gridColumn = String(index + 2)
     if (index === cells.length - 1) head.classList.add('is-last-col')
     applyDayState(head, cell, today)
     const num = document.createElement('div')
     num.className = 'calendar-day-num'
     num.textContent = String(cell.dayNum)
     head.appendChild(num)
-    frame.appendChild(head)
+    header.appendChild(head)
   }
 
   const allDayEvents = events.filter(isAllDayEvent)
   const segments = buildWeekSegments(allDayEvents, cells)
   for (const segment of segments) {
+    if (segment.startColumn < 0 || segment.endColumn < 0) continue
     const chip = document.createElement('a')
     chip.className =
       segment.event.kind === 'sale' ? 'calendar-chip is-sale is-allday' : 'calendar-chip is-allday'
     if (segment.event.endDate > segment.event.date) chip.classList.add('is-span')
-    // frame 第 1 列为 gutter，日期列从 2 起
+    // header 第 1 列为 gutter，日期列从 2 起
     chip.style.gridColumn = `${segment.startColumn + 2} / ${segment.endColumn + 3}`
-    chip.style.gridRow = '1'
     chip.style.setProperty('--calendar-lane', String(segment.lane))
     chip.href = segment.event.item.url
     chip.target = '_blank'
@@ -424,10 +428,11 @@ function renderTimeGridFrame(events, cells, today) {
     const tooltipText = `${eventKindLabel(segment.event.kind)} ${segment.event.item.title}`
     bindEventTooltip(chip, tooltipText)
     chip.textContent = chipLabel(segment)
-    frame.appendChild(chip)
+    header.appendChild(chip)
   }
   const laneCount = segments.reduce((max, segment) => Math.max(max, segment.lane + 1), 0)
-  frame.style.setProperty('--allday-lanes', String(Math.max(laneCount, 1)))
+  header.style.setProperty('--allday-lanes', String(Math.max(laneCount, 1)))
+  frame.appendChild(header)
 
   const hourRail = buildHourRail()
   frame.appendChild(hourRail)

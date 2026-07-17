@@ -581,13 +581,24 @@
       .calendar-time-grid.is-day .calendar-time-frame {
         min-width: 0;
       }
+      .calendar-time-header {
+        grid-column: 1 / -1;
+        grid-row: 1;
+        display: grid;
+        grid-template-columns: var(--cal-gutter) repeat(
+            var(--cal-cols, 7),
+            minmax(var(--cal-col-min), 1fr)
+          );
+        position: relative;
+        border-bottom: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.03);
+        min-height: calc(2.15rem + var(--allday-lanes, 1) * 1.25rem);
+      }
       .calendar-time-corner {
         grid-column: 1;
         grid-row: 1;
-        border-bottom: 1px solid var(--line);
         border-right: 1px solid var(--line);
-        background: rgba(255, 255, 255, 0.03);
-        min-height: calc(2.15rem + var(--allday-lanes, 1) * 1.25rem);
+        min-height: inherit;
       }
       .calendar-day-head {
         grid-row: 1;
@@ -595,9 +606,7 @@
         z-index: 0;
         padding: 0.35rem;
         border-right: 1px solid var(--line);
-        border-bottom: 1px solid var(--line);
-        background: rgba(255, 255, 255, 0.03);
-        min-height: calc(2.15rem + var(--allday-lanes, 1) * 1.25rem);
+        min-height: inherit;
       }
       .calendar-day-head.is-last-col {
         border-right: none;
@@ -615,9 +624,10 @@
         background: var(--accent);
         color: #1a0f0d;
       }
-      .calendar-time-frame > a.calendar-chip.is-allday {
+      .calendar-time-header > a.calendar-chip.is-allday {
         position: relative;
         z-index: 1;
+        grid-row: 1;
         margin: calc(2.15rem + var(--calendar-lane) * 1.25rem) 0.16rem 0.2rem;
       }
       .calendar-hour-rail {
