@@ -139,6 +139,22 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-198.html
 CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT
+UID:post-210-2024-08-01_2024-09-08-hold@gbc-news
+DTSTAMP:20240801T000000Z
+DTSTART;VALUE=DATE:20240801
+DTEND;VALUE=DATE:20240909
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 8/14（三）起 AniBirth 发售 Girls Band Cry 新商品
+ ！
+DESCRIPTION:AniBirth 自 8/14 起发售 ED 插图亚克力钥匙扣第 2 
+ 弹、新川崎（仮）T 恤及无刺有刺 5 人おてだま；名古屋
+  PARCO 出差店至 9/8。\n\n
+ https://girls-band-cry.com/news/post-210.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-210.html
+CATEGORIES:togenashi,other
+END:VEVENT
+BEGIN:VEVENT
 UID:post-198-2024-08-07-sale@gbc-news
 DTSTAMP:20240807T000000Z
 DTSTART;VALUE=DATE:20240807
@@ -164,15 +180,11 @@ DTSTART:20240814T010000Z
 DTEND:20240814T020000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] 8/14(水)よりAniBirthにてガールズバンドクラ
- イ新商品発売決定！
-DESCRIPTION:AniBirthにて、ガールズバンドクライ新商品の発
- 売が決定いたしました！\n 大人気のEDイラストアクリル
- キーホルダーから、第二弾が登場！\n全8種のランダム
- 商品となっております。\n待望の新川崎（仮）Tシャツ
- は、LとXLの2サイズ展開です。\nトゲナシトゲアリ５人
- の可愛いおてだまも新登場！\n発売当日の入店制限等に
- つきましては、アニバース公式Xをご確認ください。\n\n
+SUMMARY:[发售] 8/14（三）起 AniBirth 发售 Girls Band Cry 新商品
+ ！
+DESCRIPTION:AniBirth 自 8/14 起发售 ED 插图亚克力钥匙扣第 2 
+ 弹、新川崎（仮）T 恤及无刺有刺 5 人おてだま；名古屋
+  PARCO 出差店至 9/8。\n\n
  https://girls-band-cry.com/news/post-210.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-210.html
 CATEGORIES:togenashi,other
@@ -184,14 +196,11 @@ DTSTART;VALUE=DATE:20240831
 DTEND;VALUE=DATE:20240901
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ「ガールズバンドクライ」全13話一
- 挙＆アフタートーク配信決定
-DESCRIPTION:あの熱狂をもう一度️ 8/31(土) ガルクラ一挙配
- 信決定 ・TVアニメ第1話〜第13話 ・アフタートーク&お知
- らせコーナーを 「ガールズバンドクライ」 公式YouTube
- チャンネル にて一挙配信 まだ本作を知らない方にもぜ
- ひおすすめしてください 詳細は後日お知らせいたしま
- す\n\nhttps://girls-band-cry.com/news/post-212.html
+SUMMARY:[举办] TV 动画《Girls Band Cry》全 13 话一举＆After Talk
+  配信决定
+DESCRIPTION:8/31 于 Girls Band Cry 官方 YouTube 一举配信全 13 话
+ 及 After Talk・通知环节，详情另行公布。\n\n
+ https://girls-band-cry.com/news/post-212.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-212.html
 CATEGORIES:togenashi,other
 END:VEVENT

@@ -1,6 +1,6 @@
 {
   "sourceId": "collabo-cafe",
-  "updatedAt": "2026-07-17T15:40:00.000Z",
+  "updatedAt": "2026-07-17T15:50:00.000Z",
   "items": {
     "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026": {
       "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
@@ -659,6 +659,54 @@
         }
       ],
       "reviewNotes": "12 月下旬无具体日；去掉 23:59"
+    },
+    "collabo-girls-band-cry-nina-sweatshirts-armabianca-anime-store-goods2024": {
+      "id": "collabo-girls-band-cry-nina-sweatshirts-armabianca-anime-store-goods2024",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "78f2b74d80bc960e9074ff84d4209d12cc6af1902cf4a6500e790010ca341338",
+      "reviewedAt": "2026-07-17T15:50:00.000Z",
+      "titleZh": "Girls Band Cry 仁菜穿着卫衣等新作周边 25 年 1 月发售！",
+      "summaryZh": "仁菜剧中卫衣、无刺有刺/Diamond Dust 零件大立牌与交易徽章由 armabianca 预定 2025 年 1 月发售；Anime Store.JP 预约至 2024 年 9 月 7 日。",
+      "eventDates": [
+        {
+          "date": "2024-09-07",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "1 月无具体日；去掉 23:59"
+    },
+    "collabo-girls-band-cry-reproductions-replica-tshirts-cospa-anime-store-goods2024": {
+      "id": "collabo-girls-band-cry-reproductions-replica-tshirts-cospa-anime-store-goods2024",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "9c6ffccccda12e7d67de16f55a2b44ebca19fbc70dd27a3db3588f57fda7740f",
+      "reviewedAt": "2026-07-17T15:50:00.000Z",
+      "titleZh": "Girls Band Cry 因好评再贩仁菜・桃香・昴 T 恤！",
+      "summaryZh": "第 5 话 Live 服装再现 T 恤（不登校・脱退・嘘つき）因好评由二次元 COSPA 预定 2024 年 10 月中旬再贩；Anime Store.JP 预约至 8 月 2 日。",
+      "eventDates": [
+        {
+          "date": "2024-08-02",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "10 月中旬无具体日"
+    },
+    "collabo-girls-band-cry-2nd-album-togenashi-universal-music-anime-store-goods2024": {
+      "id": "collabo-girls-band-cry-2nd-album-togenashi-universal-music-anime-store-goods2024",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "6476f6efeabe14742dcb77b4d53280e541cef2c0e561777a71e2c4f0fe663ff6",
+      "reviewedAt": "2026-07-17T15:50:00.000Z",
+      "titleZh": "Girls Band Cry 含 2 首新曲的 2nd 专辑《棘ナシ》8 月发售！",
+      "summaryZh": "无刺有刺 2nd Album《棘ナシ》（含新曲 2 首共 12 曲）由环球音乐预定 2024 年 8 月下旬发售；Anime Store.JP 预约至 7 月 22 日。",
+      "eventDates": [
+        {
+          "date": "2024-07-22",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "8 月下旬无具体日；与 post-200 具体日互补"
     }
   }
 }

@@ -4,7 +4,7 @@
     <title>gbc-news · 媒体</title>
     <link>https://gbc-news.example.com/</link>
     <description>ガールズバンドクライ 公式ニュース（媒体）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 12:31:42 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 12:32:20 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/media.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[举办] 生配信番組「トゲナシトゲアリ修行中」7月29日（土）17:00スタート</title>
@@ -252,7 +252,7 @@
       <description>第13話「ロックンロールは鳴り止まないっ」 6/28(金)24:30～放送 📺放送・配信情報は こちら ＜あらすじ＞ ダイヤモンドダストとの対バンライブ、仁菜達のチケットの売り上げは想定の半分にも満たなかった。一方、ダイヤモンドダストのチケットはSOLD OUT。突き付けられる厳しい現実。それでも仁菜たちは自分の意思を貫き通す。</description>
     </item>
     <item>
-      <title>[举办] トゲナシトゲアリ ２nd Album「棘ナシ」 / TVアニメ『ガールズバンドクライ』オリジナルサウンドトラック発売記念オンライントーク配信開催！</title>
+      <title>[举办] 无刺有刺 2nd Album《棘ナシ》/ TV 动画原声带发售纪念线上 talk 配信举办！</title>
       <link>https://girls-band-cry.com/news/post-199.html</link>
       <guid isPermaLink="false">post-199-2024-08-09-hold-1900@gbc-news</guid>
       <pubDate>Fri, 09 Aug 2024 10:00:00 GMT</pubDate>
@@ -262,7 +262,33 @@
       <category>cinema</category>
       <category>media</category>
       <category domain="group">togenashi</category>
-      <description>TVアニメ『ガールズバンドクライ』放送終了後も精力的な活動を続けるガールズバンド「トゲナシトゲアリ」早くも２nd Albumが2024年8月28日（水）に発売決定！ そして2024年9月11日(水)にはオリジナルサウンドトラックも発売！ 詳細は こちら こちら2作品の発売を記念して、恒例のリミスタでのオンライントーク配信を行います✨ リミスタにて対象商品をご</description>
+      <description>纪念 2nd Album《棘ナシ》（8/28）与原声带（9/11）发售，8 月 9 日 19:00–20:00 于 Limista 举办线上 talk；两作预约合计抽选 200 名获签名卡。</description>
+    </item>
+    <item>
+      <title>[发售] 无刺有刺 2nd Album《棘ナシ》/ TV 动画原声带发售纪念线上 talk 配信举办！</title>
+      <link>https://girls-band-cry.com/news/post-199.html</link>
+      <guid isPermaLink="false">post-199-2024-08-28-sale@gbc-news</guid>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>music</category>
+      <category>event</category>
+      <category>cinema</category>
+      <category>media</category>
+      <category domain="group">togenashi</category>
+      <description>纪念 2nd Album《棘ナシ》（8/28）与原声带（9/11）发售，8 月 9 日 19:00–20:00 于 Limista 举办线上 talk；两作预约合计抽选 200 名获签名卡。</description>
+    </item>
+    <item>
+      <title>[发售] 无刺有刺 2nd Album《棘ナシ》/ TV 动画原声带发售纪念线上 talk 配信举办！</title>
+      <link>https://girls-band-cry.com/news/post-199.html</link>
+      <guid isPermaLink="false">post-199-2024-09-11-sale@gbc-news</guid>
+      <pubDate>Wed, 11 Sep 2024 00:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>music</category>
+      <category>event</category>
+      <category>cinema</category>
+      <category>media</category>
+      <category domain="group">togenashi</category>
+      <description>纪念 2nd Album《棘ナシ》（8/28）与原声带（9/11）发售，8 月 9 日 19:00–20:00 于 Limista 举办线上 talk；两作预约合计抽选 200 名获签名卡。</description>
     </item>
     <item>
       <title>[举办] 第10弾MV「サヨナラサヨナラサヨナラ」公開！公開記念キャンペーンがスタート</title>

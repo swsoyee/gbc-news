@@ -1284,55 +1284,42 @@ DTSTART:20240809T100000Z
 DTEND:20240809T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ ２nd Album「棘ナシ」 / TV
- アニメ『ガールズバンドクライ』オリジナルサウンド
- トラック発売記念オンライントーク配信開催！
-DESCRIPTION:TVアニメ『ガールズバンドクライ』放送終了後
- も精力的な活動を続けるガールズバンド「トゲナシト
- ゲアリ」早くも２nd Albumが2024年8月28日（水）に発売決
- 定！\nそして2024年9月11日(水)にはオリジナルサウンドト
- ラックも発売！\n詳細は こちら こちら2作品の発売を記
- 念して、恒例のリミスタでのオンライントーク配信を
- 行います リミスタにて対象商品をご\n\n
+SUMMARY:[举办] 无刺有刺 2nd Album《棘ナシ》/ TV 动画原声带
+ 发售纪念线上 talk 配信举办！
+DESCRIPTION:纪念 2nd Album《棘ナシ》（8/28）与原声带（9/11）
+ 发售，8 月 9 日 19:00–20:00 于 Limista 举办线上 talk；两作
+ 预约合计抽选 200 名获签名卡。\n\n
  https://girls-band-cry.com/news/post-199.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-199.html
 CATEGORIES:togenashi,live,music,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-211-2024-08-13-sale@gbc-news
-DTSTAMP:20240813T000000Z
-DTSTART;VALUE=DATE:20240813
-DTEND;VALUE=DATE:20240814
-TRANSP:TRANSPARENT
+UID:post-211-2024-08-13-sale-1200@gbc-news
+DTSTAMP:20240813T030000Z
+DTSTART:20240813T030000Z
+DTEND:20240813T040000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] アニメ『ガールズバンドクライ』東映 ONLINE
-  STOREにてオリジナルグッズの受注販売が決定！！
-DESCRIPTION:8月13日(火)12時より東映 ONLINE STOREにて、 アニメ
- 『ガールズバンドクライ』のオリジナルグッズが登場
- ！\n劇中シーンを使用したトレーディングアイテムに加
- え、普段使いからLIVEまで様々なシチュエーションで活
- 躍する雑貨がラインナップ！\nこの機会にぜひお買い求
- めください！\n 受注締切：8月29日（木）23：59 お届け時
- 期：10月下旬より順次発送\n\n
- https://girls-band-cry.com/news/post-211.html
+SUMMARY:[发售] 动画《Girls Band Cry》东映 ONLINE STORE 决定受理
+ 原创周边！！
+DESCRIPTION:东映 ONLINE STORE 自 8/13 12:00 起受理《Girls Band Cry
+ 》原创周边，预约截止 8/29 23:59，预定 10 月下旬起发货
+ 。\n\nhttps://girls-band-cry.com/news/post-211.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-211.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-209-2024-08-17_2024-09-13-hold-1900@gbc-news
-DTSTAMP:20240817T100000Z
-DTSTART:20240817T100000Z
-DTEND:20240913T090000Z
-TRANSP:OPAQUE
+UID:post-209-2024-08-17_2024-09-13-sale@gbc-news
+DTSTAMP:20240817T000000Z
+DTSTART;VALUE=DATE:20240817
+DTEND;VALUE=DATE:20240914
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 2nd ONE-MAN LIVEのライブ配信情報を公開！
-DESCRIPTION:2nd ONE-MAN LIVE “凛音の理” 会場チケット申し込
- み多数につきライブ配信チケットの販売が決定しまし
- た！\nオンラインでのライブ配信のみならず、 お近く
- のカラオケ店舗でライブを楽しめるカラオケ・ビュー
- イングと 全世界に向けてのグローバル配信も実施しま
- す。\n【チケット販売期間】 2024年8月17日(土)19:00～9月13
- 日(金)18:00 【配\n\nhttps://girls-band-cry.com/news/post-209.html
+SUMMARY:[发售] 2nd ONE-MAN LIVE 直播信息公开！
+DESCRIPTION:2nd 个人演唱会「凛音の理」因会场票申请过多
+ 决定发售直播票：销售期 8/17 19:00–9/13 18:00，9/13 18:00 开
+ 播（仅直播、无回放）。\n\n
+ https://girls-band-cry.com/news/post-209.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-209.html
 CATEGORIES:togenashi,live,music
 END:VEVENT
@@ -1358,19 +1345,29 @@ DTSTART:20240823T100000Z
 DTEND:20240823T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.3〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.3の発売を記念して、リミスタでのオンラ
- イントーク配信 の開催が決定！\nリミスタにて対象商
- 品をご購入いただいたお客様に、TVアニメ『ガールズバ
- ンドクライ』豪華限定版Vol.3のジャケ\n\n
+SUMMARY:[举办] TV 动画《Girls Band Cry》Vol.3〈豪华限定版〉发
+ 售纪念线上 talk 配信举办通知
+DESCRIPTION:纪念 Vol.3 豪华限定版发售，8 月 23 日 19:00–20:00
+  于 Limista 举办线上 talk 配信；预约抽选获签名卡。\n\n
  https://girls-band-cry.com/news/post-206.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-206.html
 CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-199-2024-08-28-sale@gbc-news
+DTSTAMP:20240828T000000Z
+DTSTART;VALUE=DATE:20240828
+DTEND;VALUE=DATE:20240829
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺 2nd Album《棘ナシ》/ TV 动画原声带
+ 发售纪念线上 talk 配信举办！
+DESCRIPTION:纪念 2nd Album《棘ナシ》（8/28）与原声带（9/11）
+ 发售，8 月 9 日 19:00–20:00 于 Limista 举办线上 talk；两作
+ 预约合计抽选 200 名获签名卡。\n\n
+ https://girls-band-cry.com/news/post-199.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-199.html
+CATEGORIES:togenashi,live,music,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-200-2024-08-28-sale@gbc-news
@@ -1379,14 +1376,11 @@ DTSTART;VALUE=DATE:20240828
 DTEND;VALUE=DATE:20240829
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ２nd Album「棘ナシ」＆オ
- リジナルサウンドトラック発売決定！
-DESCRIPTION:TVアニメ『ガールズバンドクライ』劇中バンド
- 「トゲナシトゲアリ」から 2nd Album「棘ナシ」が2024年8
- 月28日(水)に発売決定！\n初回限定盤にはオフィシャル
- キャラクター設定資料(32P)も付属 そして2024年9月11日(水
- )にはオリジナルサウンドトラックも発売！\n＜ トゲナ
- シトゲアリ 2nd Album 「棘ナシ」＞ 2024/8/28(水)\n\n
+SUMMARY:[发售] 无刺有刺 2nd Album《棘ナシ》＆原声带发售决
+ 定！
+DESCRIPTION:无刺有刺 2nd Album《棘ナシ》于 2024 年 8 月 28 日
+ 发售；TV 动画原声带于 9 月 11 日发售。\n初回限定盘附
+ 设定资料与随机剧中写真卡。\n\n
  https://girls-band-cry.com/news/post-200.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-200.html
 CATEGORIES:togenashi,live,music,cinema
@@ -1417,16 +1411,11 @@ DTSTART;VALUE=DATE:20240829
 DTEND;VALUE=DATE:20240830
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] アニメ『ガールズバンドクライ』東映 ONLINE
-  STOREにてオリジナルグッズの受注販売が決定！！
-DESCRIPTION:8月13日(火)12時より東映 ONLINE STOREにて、 アニメ
- 『ガールズバンドクライ』のオリジナルグッズが登場
- ！\n劇中シーンを使用したトレーディングアイテムに加
- え、普段使いからLIVEまで様々なシチュエーションで活
- 躍する雑貨がラインナップ！\nこの機会にぜひお買い求
- めください！\n 受注締切：8月29日（木）23：59 お届け時
- 期：10月下旬より順次発送\n\n
- https://girls-band-cry.com/news/post-211.html
+SUMMARY:[发售] 动画《Girls Band Cry》东映 ONLINE STORE 决定受理
+ 原创周边！！
+DESCRIPTION:东映 ONLINE STORE 自 8/13 12:00 起受理《Girls Band Cry
+ 》原创周边，预约截止 8/29 23:59，预定 10 月下旬起发货
+ 。\n\nhttps://girls-band-cry.com/news/post-211.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-211.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
@@ -1475,20 +1464,33 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-217.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-199-2024-09-11-sale@gbc-news
+DTSTAMP:20240911T000000Z
+DTSTART;VALUE=DATE:20240911
+DTEND;VALUE=DATE:20240912
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺 2nd Album《棘ナシ》/ TV 动画原声带
+ 发售纪念线上 talk 配信举办！
+DESCRIPTION:纪念 2nd Album《棘ナシ》（8/28）与原声带（9/11）
+ 发售，8 月 9 日 19:00–20:00 于 Limista 举办线上 talk；两作
+ 预约合计抽选 200 名获签名卡。\n\n
+ https://girls-band-cry.com/news/post-199.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-199.html
+CATEGORIES:togenashi,live,music,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
 UID:post-200-2024-09-11-sale@gbc-news
 DTSTAMP:20240911T000000Z
 DTSTART;VALUE=DATE:20240911
 DTEND;VALUE=DATE:20240912
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ２nd Album「棘ナシ」＆オ
- リジナルサウンドトラック発売決定！
-DESCRIPTION:TVアニメ『ガールズバンドクライ』劇中バンド
- 「トゲナシトゲアリ」から 2nd Album「棘ナシ」が2024年8
- 月28日(水)に発売決定！\n初回限定盤にはオフィシャル
- キャラクター設定資料(32P)も付属 そして2024年9月11日(水
- )にはオリジナルサウンドトラックも発売！\n＜ トゲナ
- シトゲアリ 2nd Album 「棘ナシ」＞ 2024/8/28(水)\n\n
+SUMMARY:[发售] 无刺有刺 2nd Album《棘ナシ》＆原声带发售决
+ 定！
+DESCRIPTION:无刺有刺 2nd Album《棘ナシ》于 2024 年 8 月 28 日
+ 发售；TV 动画原声带于 9 月 11 日发售。\n初回限定盘附
+ 设定资料与随机剧中写真卡。\n\n
  https://girls-band-cry.com/news/post-200.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-200.html
 CATEGORIES:togenashi,live,music,cinema
@@ -1520,6 +1522,21 @@ DESCRIPTION:2nd 个人演唱会「凛音の理」直播票发售至 9 月 1
  3 日 18:00；含线上直播、卡拉 OK 观影与全球配信。\n\n
  https://girls-band-cry.com/news/post-228.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-228.html
+CATEGORIES:togenashi,live,music
+END:VEVENT
+BEGIN:VEVENT
+UID:post-209-2024-09-13-hold-1800@gbc-news
+DTSTAMP:20240913T090000Z
+DTSTART:20240913T090000Z
+DTEND:20240913T110000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 2nd ONE-MAN LIVE 直播信息公开！
+DESCRIPTION:2nd 个人演唱会「凛音の理」因会场票申请过多
+ 决定发售直播票：销售期 8/17 19:00–9/13 18:00，9/13 18:00 开
+ 播（仅直播、无回放）。\n\n
+ https://girls-band-cry.com/news/post-209.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-209.html
 CATEGORIES:togenashi,live,music
 END:VEVENT
 BEGIN:VEVENT

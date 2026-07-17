@@ -1,6 +1,6 @@
 {
   "sourceId": "gbc-news",
-  "updatedAt": "2026-07-17T15:40:00.000Z",
+  "updatedAt": "2026-07-17T15:50:00.000Z",
   "items": {
     "post-483": {
       "id": "post-483",
@@ -3580,6 +3580,147 @@
         }
       ],
       "reviewNotes": "开售为 sale"
+    },
+    "post-209": {
+      "id": "post-209",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f1f41b13625ce0a8c23edf88489dbc7528243c55f176acac65ba9e991149a86e",
+      "reviewedAt": "2026-07-17T15:50:00.000Z",
+      "titleZh": "2nd ONE-MAN LIVE 直播信息公开！",
+      "summaryZh": "2nd 个人演唱会「凛音の理」因会场票申请过多决定发售直播票：销售期 8/17 19:00–9/13 18:00，9/13 18:00 开播（仅直播、无回放）。",
+      "eventDates": [
+        {
+          "date": "2024-08-17",
+          "endDate": "2024-09-13",
+          "kind": "sale"
+        },
+        {
+          "date": "2024-09-13",
+          "kind": "hold",
+          "startTime": "18:00"
+        }
+      ],
+      "reviewNotes": "跨日去时刻；修正误抽 endTime"
+    },
+    "post-210": {
+      "id": "post-210",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "95e791c584e636cb6f85f4f47ad3d83e6a2d50a93c0157a9d78e16ccfe5777d7",
+      "reviewedAt": "2026-07-17T15:50:00.000Z",
+      "titleZh": "8/14（三）起 AniBirth 发售 Girls Band Cry 新商品！",
+      "summaryZh": "AniBirth 自 8/14 起发售 ED 插图亚克力钥匙扣第 2 弹、新川崎（仮）T 恤及无刺有刺 5 人おてだま；名古屋 PARCO 出差店至 9/8。",
+      "eventDates": [
+        {
+          "date": "2024-08-14",
+          "kind": "sale",
+          "startTime": "10:00"
+        },
+        {
+          "date": "2024-08-01",
+          "endDate": "2024-09-08",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "补录名古屋出差店会期"
+    },
+    "post-211": {
+      "id": "post-211",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "bc2fec7a6392608c7c25980ddbf410862bcd110f79e0868dd296b3e340f714e0",
+      "reviewedAt": "2026-07-17T15:50:00.000Z",
+      "titleZh": "动画《Girls Band Cry》东映 ONLINE STORE 决定受理原创周边！！",
+      "summaryZh": "东映 ONLINE STORE 自 8/13 12:00 起受理《Girls Band Cry》原创周边，预约截止 8/29 23:59，预定 10 月下旬起发货。",
+      "eventDates": [
+        {
+          "date": "2024-08-13",
+          "kind": "sale",
+          "startTime": "12:00"
+        },
+        {
+          "date": "2024-08-29",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-212": {
+      "id": "post-212",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "0ac5441ab026955ba6c17bea64d2fe66f958318e7c1b06d10f031f336d01744a",
+      "reviewedAt": "2026-07-17T15:50:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》全 13 话一举＆After Talk 配信决定",
+      "summaryZh": "8/31 于 Girls Band Cry 官方 YouTube 一举配信全 13 话及 After Talk・通知环节，详情另行公布。",
+      "eventDates": [
+        {
+          "date": "2024-08-31",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-206": {
+      "id": "post-206",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "b8cb6fb7e816ab706925fe290b03fbaefdf34935680d10b756204140f3033abd",
+      "reviewedAt": "2026-07-17T15:50:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》Vol.3〈豪华限定版〉发售纪念线上 talk 配信举办通知",
+      "summaryZh": "纪念 Vol.3 豪华限定版发售，8 月 23 日 19:00–20:00 于 Limista 举办线上 talk 配信；预约抽选获签名卡。",
+      "eventDates": [
+        {
+          "date": "2024-08-23",
+          "kind": "hold",
+          "startTime": "19:00",
+          "endTime": "20:00"
+        }
+      ]
+    },
+    "post-199": {
+      "id": "post-199",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "583a168c5489a3b014fb6d5b1dd8bac1802eada9401388c24746f9336be9d83f",
+      "reviewedAt": "2026-07-17T15:50:00.000Z",
+      "titleZh": "无刺有刺 2nd Album《棘ナシ》/ TV 动画原声带发售纪念线上 talk 配信举办！",
+      "summaryZh": "纪念 2nd Album《棘ナシ》（8/28）与原声带（9/11）发售，8 月 9 日 19:00–20:00 于 Limista 举办线上 talk；两作预约合计抽选 200 名获签名卡。",
+      "eventDates": [
+        {
+          "date": "2024-08-09",
+          "kind": "hold",
+          "startTime": "19:00",
+          "endTime": "20:00"
+        },
+        {
+          "date": "2024-08-28",
+          "kind": "sale"
+        },
+        {
+          "date": "2024-09-11",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "补录两作发售日"
+    },
+    "post-200": {
+      "id": "post-200",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "30d85b4d55952807e67d7ea9d3f0491459ecebf7007b738616343b130fc41e5e",
+      "reviewedAt": "2026-07-17T15:50:00.000Z",
+      "titleZh": "无刺有刺 2nd Album《棘ナシ》＆原声带发售决定！",
+      "summaryZh": "无刺有刺 2nd Album《棘ナシ》于 2024 年 8 月 28 日发售；TV 动画原声带于 9 月 11 日发售。初回限定盘附设定资料与随机剧中写真卡。",
+      "eventDates": [
+        {
+          "date": "2024-08-28",
+          "kind": "sale"
+        },
+        {
+          "date": "2024-09-11",
+          "kind": "sale"
+        }
+      ]
     }
   }
 }
