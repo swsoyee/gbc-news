@@ -15,6 +15,8 @@ const CATEGORIES = [
   { id: 'other', label: '其他' },
 ]
 
+const HOLIDAY_API_URL = 'https://holidays-jp.github.io/api/v1/date.json'
+
 const groupsEl = document.getElementById('groups')
 const catsEl = document.getElementById('cats')
 const catLinksEl = document.getElementById('cat-links')
@@ -42,6 +44,9 @@ let newsItems = []
 
 /** 来自 news.json scrapedAt，用于 ICS URL ?v= */
 let feedRev = ''
+
+/** @type {Map<string, string>} 日本公共节假日：ISO 日期 → 名称 */
+let holidayNames = new Map()
 
 function mountCheckboxes(container, items, name) {
   container.replaceChildren()
@@ -203,10 +208,13 @@ function buildMonthCells(cursor) {
   const cells = []
   for (let i = 0; i < 42; i += 1) {
     const day = new Date(start.getFullYear(), start.getMonth(), start.getDate() + i)
+    const date = toIsoDate(day)
     cells.push({
-      date: toIsoDate(day),
+      date,
       dayNum: day.getDate(),
       inMonth: day.getMonth() === month,
+      isRestDay: day.getDay() === 0 || day.getDay() === 6,
+      holidayName: holidayNames.get(date),
     })
   }
   return cells
@@ -313,6 +321,11 @@ function renderCalendar(groups, categories) {
       cellEl.style.gridColumn = String(dayIndex + 1)
       cellEl.style.gridRow = '1'
       if (!cell.inMonth) cellEl.classList.add('is-outside')
+      if (cell.isRestDay) cellEl.classList.add('is-rest-day')
+      if (cell.holidayName) {
+        cellEl.classList.add('is-holiday')
+        cellEl.title = `日本公共节假日：${cell.holidayName}`
+      }
       if (cell.date === today) cellEl.classList.add('is-today')
 
       const num = document.createElement('div')
@@ -603,5 +616,22 @@ async function loadStats() {
   }
 }
 
+async function loadHolidays() {
+  try {
+    const response = await fetch(HOLIDAY_API_URL, { cache: 'force-cache' })
+    if (!response.ok) throw new Error(`HTTP ${response.status}`)
+    const data = await response.json()
+    holidayNames = new Map(
+      Object.entries(data).filter(
+        ([date, name]) => /^\d{4}-\d{2}-\d{2}$/.test(date) && typeof name === 'string',
+      ),
+    )
+    refreshCalendarOnly()
+  } catch (error) {
+    console.warn('日本公共节假日加载失败', error)
+  }
+}
+
 refresh()
-loadStats()
+void loadStats()
+void loadHolidays()
