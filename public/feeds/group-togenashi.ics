@@ -10122,6 +10122,26 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-483.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-omatsuri-popup-store-tower-records2026-2026-08-0
+ 7_2026-08-16-hold@gbc-news
+DTSTAMP:20260807T000000Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260817
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガルクラ お祭り ストア in タワーレコード 
+ 8月7日より開催!
+DESCRIPTION:「ガールズバンドクライ (ガルクラ)」のポップ
+ アップストアが、タワーレコードにて2026年8月7日〜9月2
+ 1日まで開催される。\n\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-omatsuri-popup-stor
+ e-tower-records2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-omatsuri-popup-stor
+ e-tower-records2026/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-480-2026-08-14-hold-1930@gbc-news
 DTSTAMP:20260814T103000Z
 DTSTART:20260814T103000Z
@@ -10194,6 +10214,26 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-omatsuri-popup-store-tower-records2026-2026-09-0
+ 4_2026-09-13-hold@gbc-news
+DTSTAMP:20260904T000000Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260914
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガルクラ お祭り ストア in タワーレコード 
+ 8月7日より開催!
+DESCRIPTION:「ガールズバンドクライ (ガルクラ)」のポップ
+ アップストアが、タワーレコードにて2026年8月7日〜9月2
+ 1日まで開催される。\n\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-omatsuri-popup-stor
+ e-tower-records2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-omatsuri-popup-stor
+ e-tower-records2026/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-476-2026-09-05_2026-09-06-hold@gbc-news
 DTSTAMP:20260905T000000Z
 DTSTART;VALUE=DATE:20260905
@@ -10210,6 +10250,26 @@ DESCRIPTION:仙台の副都心 あすと長町にて開催 明日が色づ
  https://girls-band-cry.com/news/post-476.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-476.html
 CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:collabo-girls-band-cry-omatsuri-popup-store-tower-records2026-2026-09-1
+ 1_2026-09-21-hold@gbc-news
+DTSTAMP:20260911T000000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260922
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[開催] ガルクラ お祭り ストア in タワーレコード 
+ 8月7日より開催!
+DESCRIPTION:「ガールズバンドクライ (ガルクラ)」のポップ
+ アップストアが、タワーレコードにて2026年8月7日〜9月2
+ 1日まで開催される。\n\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-omatsuri-popup-stor
+ e-tower-records2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-omatsuri-popup-stor
+ e-tower-records2026/
+CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-475-2026-09-12_2026-09-13-hold@gbc-news

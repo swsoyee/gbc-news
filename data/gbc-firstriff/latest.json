@@ -1,7 +1,8 @@
 {
   "sourceId": "gbc-firstriff",
-  "scrapedAt": "2026-07-16T14:05:00.277Z",
-  "maxPages": 1,
+  "scrapedAt": "2026-07-17T05:46:49.883Z",
+  "mode": "incremental",
+  "maxPages": 3,
   "count": 6,
   "items": [
     {

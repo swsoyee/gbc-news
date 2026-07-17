@@ -1,12 +1,44 @@
 {
-  "scrapedAt": "2026-07-16T15:57:51.910Z",
+  "scrapedAt": "2026-07-17T05:46:59.957Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe"
   ],
-  "count": 533,
+  "count": 534,
   "items": [
+    {
+      "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
+      "title": "ガルクラ お祭り ストア in タワーレコード 8月7日より開催!",
+      "url": "https://collabo-cafe.com/events/collabo/girls-band-cry-omatsuri-popup-store-tower-records2026/",
+      "publishedAt": "2026-07-17T04:30:02.000Z",
+      "sourceId": "collabo-cafe",
+      "categories": [
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-08-07",
+          "kind": "hold",
+          "endDate": "2026-08-16"
+        },
+        {
+          "date": "2026-09-04",
+          "kind": "hold",
+          "endDate": "2026-09-13"
+        },
+        {
+          "date": "2026-09-11",
+          "kind": "hold",
+          "endDate": "2026-09-21"
+        }
+      ],
+      "summary": "「ガールズバンドクライ (ガルクラ)」のポップアップストアが、タワーレコードにて2026年8月7日〜9月21日まで開催される。",
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/309d1dd94db895a64af11f019d2cca09.jpg"
+    },
     {
       "id": "post-487",
       "title": "劇場版総集編「ガールズバンドクライ」【前編】青春狂走曲（初回限定版）/【後編】なぁ、未来。（初回限定版）特典CD楽曲の試聴動画を公開！",

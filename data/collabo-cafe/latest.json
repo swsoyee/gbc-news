@@ -1,10 +1,42 @@
 {
   "sourceId": "collabo-cafe",
-  "scrapedAt": "2026-07-16T15:34:34.046Z",
-  "mode": "full",
-  "maxPages": null,
-  "count": 47,
+  "scrapedAt": "2026-07-17T05:46:59.507Z",
+  "mode": "incremental",
+  "maxPages": 3,
+  "count": 48,
   "items": [
+    {
+      "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
+      "title": "ガルクラ お祭り ストア in タワーレコード 8月7日より開催!",
+      "url": "https://collabo-cafe.com/events/collabo/girls-band-cry-omatsuri-popup-store-tower-records2026/",
+      "publishedAt": "2026-07-17T04:30:02.000Z",
+      "sourceId": "collabo-cafe",
+      "categories": [
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-08-07",
+          "kind": "hold",
+          "endDate": "2026-08-16"
+        },
+        {
+          "date": "2026-09-04",
+          "kind": "hold",
+          "endDate": "2026-09-13"
+        },
+        {
+          "date": "2026-09-11",
+          "kind": "hold",
+          "endDate": "2026-09-21"
+        }
+      ],
+      "summary": "「ガールズバンドクライ (ガルクラ)」のポップアップストアが、タワーレコードにて2026年8月7日〜9月21日まで開催される。",
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/309d1dd94db895a64af11f019d2cca09.jpg"
+    },
     {
       "id": "collabo-girls-band-cry-goodsmile-moment-anime-store-goods2026",
       "title": "ガルクラ 新作グッズにエフェクター風バッグやパーカーなど登場!",
