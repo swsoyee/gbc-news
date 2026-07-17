@@ -33,6 +33,11 @@ applyEnrichments(
   `reviewedAt`。
 - `eventDates` 存在时完整覆盖规则结果；空数组表示人工确认移除全部日期。
 - fingerprint 为规范化后的 `title + "\n" + bodyText`；正文变化后旧增强必须失效。
+- **跨日时长 > 24 小时**的 `eventDates` 只保留 `date` / `endDate` / `kind`，不得带
+  `startTime` / `endTime`。抽取器会自动剥时刻；enrichment 校验会拒绝违规记录。
+- **展示约定**：RSS / iCal 标题保留中文 kind 前缀（`[举办]` / `[发售]`）；网页日历
+  chip / 时段块**不显示**開催・発売／举办・发售文案，仅用颜色区分 kind；悬浮提示为
+  加粗日期（含可选时间）换行后标题。
 
 ## 4. Validation & Error Matrix
 
@@ -60,6 +65,8 @@ applyEnrichments(
 - 叠加：有效 reviewed 生效；stale/pending/skip 回退；正文不进入公开类型。
 - pending：P0 stale → P1 已有日期 → P2 疑似活动 → P3 其余，并验证稳定排序。
 - feed：静态与动态 RSS/iCal 都使用中文前缀和增强字段。
+- 抽取/模型：跨日 >24h 的带时刻日程被剥时刻或校验拒绝；≤24h 跨夜可保留时刻。
+- 日历 UI：chip 文案不含 kind 标签；悬浮为日期行 + 标题。
 - backfill：参数校验、跳过已有正文、空正文拒绝、单条失败隔离、原子写入路径。
 
 ## 7. Wrong vs Correct

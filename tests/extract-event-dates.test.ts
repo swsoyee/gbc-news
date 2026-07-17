@@ -94,7 +94,7 @@ describe('extractEventDates', () => {
     ).toEqual([{ date: '2026-04-04', endDate: '2026-04-05', kind: 'hold' }])
   })
 
-  it('带起止时刻的キャンペーン期间', () => {
+  it('带起止时刻的キャンペーン期间：跨日>24h 去掉时刻', () => {
     expect(
       extractEventDates(
         'フォロー＆リポストキャンペーン',
@@ -106,8 +106,24 @@ describe('extractEventDates', () => {
         date: '2023-10-23',
         endDate: '2023-10-29',
         kind: 'hold',
-        startTime: '20:00',
-        endTime: '23:59',
+      },
+    ])
+  })
+
+  it('跨日但总时长≤24h 仍保留时刻', () => {
+    expect(
+      extractEventDates(
+        '实况活动',
+        '■開催日時 2024年6月14日(金) 23:00 ～ 2024年6月15日(土) 08:59',
+        '2024-06-10T00:00:00.000Z',
+      ),
+    ).toEqual([
+      {
+        date: '2024-06-14',
+        endDate: '2024-06-15',
+        kind: 'hold',
+        startTime: '23:00',
+        endTime: '08:59',
       },
     ])
   })

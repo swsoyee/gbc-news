@@ -53,9 +53,6 @@ function formatWeekLabel(date) {
 function formatDayLabel(date) {
   return `${date.getFullYear()}\u5E74${date.getMonth() + 1}\u6708${date.getDate()}\u65E5\uFF08\u5468${WEEKDAY_LABELS[date.getDay()]}\uFF09`
 }
-function eventKindLabel(kind) {
-  return kind === 'sale' ? '\u767A\u58F2' : '\u958B\u50AC'
-}
 function labelList(ids, catalog) {
   if (ids.length === 0 || ids.length === catalog.length) return '\u5168\u90E8'
   const map = Object.fromEntries(catalog.map((item) => [item.id, item.label]))
@@ -402,7 +399,6 @@ export {
   chipLabel,
   displayNewsTitle,
   earlyHoursFrameVars,
-  eventKindLabel,
   filterNewsItems,
   formatCalendarEventTooltip,
   formatDayLabel,

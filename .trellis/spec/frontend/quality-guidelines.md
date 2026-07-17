@@ -7,6 +7,9 @@
 - 基础无障碍：合理标题层级、对比度可读、链接有明确文本
 - 筛选 URL、日历视图/跨日 segment/时段色块与凌晨折叠补偿等关键逻辑有单元测试（`tests/subscribe-core.test.ts`）
 - 改动 `src/web/` 后运行 `npm run build:web`，提交更新后的 `public/subscribe-core.js`
+- 日历事件：**不**在 chip / 时段块文案中显示「開催」「発売」或中文「举办」「发售」；
+  kind 仅用样式区分（如 `is-sale`）。悬浮提示为加粗日期行（可含时间）+ 换行标题。
+  RSS/iCal 的 `[举办]`/`[发售]` 前缀属于 feed 层，与日历文案无关。
 
 ## 禁止
 

@@ -129,10 +129,6 @@ export function formatDayLabel(date: Date): string {
   return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日（周${WEEKDAY_LABELS[date.getDay()]}）`
 }
 
-export function eventKindLabel(kind: 'hold' | 'sale'): string {
-  return kind === 'sale' ? '発売' : '開催'
-}
-
 export function labelList(ids: string[], catalog: CatalogItem[]): string {
   if (ids.length === 0 || ids.length === catalog.length) return '全部'
   const map = Object.fromEntries(catalog.map((item) => [item.id, item.label]))

@@ -50,6 +50,48 @@ export function assertEventDate(value: unknown): asserts value is EventDate {
       throw new Error(`EventDate.endDate must be >= date (${entry.date}..${entry.endDate})`)
     }
   }
+  const normalized = value as EventDate
+  if (
+    (normalized.startTime !== undefined || normalized.endTime !== undefined) &&
+    eventSpanExceeds24Hours(normalized)
+  ) {
+    throw new Error(
+      'EventDate spanning more than 24 hours must omit startTime/endTime (date/endDate only)',
+    )
+  }
+}
+
+/** 带时刻的墙钟跨度是否超过 24 小时。无时刻则返回 false。 */
+export function eventSpanExceeds24Hours(entry: EventDate): boolean {
+  if (!entry.startTime) return false
+
+  let endDate = entry.endDate ?? entry.date
+  let endTime = entry.endTime
+  if (!endTime) {
+    if (endDate > entry.date) {
+      endTime = '23:59'
+    } else {
+      // 单日仅有开始时刻：发布层默认时长 ≤2h，不视为超 24h
+      return false
+    }
+  } else if (!entry.endDate && endTime <= entry.startTime) {
+    endDate = addDays(entry.date, 1)
+  }
+
+  const startAt = Date.parse(tokyoWallToUtcIso(entry.date, entry.startTime))
+  const endAt = Date.parse(tokyoWallToUtcIso(endDate, endTime))
+  return endAt - startAt > 24 * 60 * 60 * 1000
+}
+
+/**
+ * 跨日时长 > 24 小时时只保留 date/endDate/kind，去掉时刻。
+ * 抽取器与发布前规范化共用。
+ */
+export function normalizeEventDate(entry: EventDate): EventDate {
+  if (!entry.startTime && !entry.endTime) return entry
+  if (!eventSpanExceeds24Hours(entry)) return entry
+  const { startTime: _startTime, endTime: _endTime, ...rest } = entry
+  return rest
 }
 
 export const EVENT_DATE_TITLE_PREFIX: Record<EventDateKind, string> = {

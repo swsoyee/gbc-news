@@ -1,4 +1,5 @@
 import type { EventDate, EventDateKind } from '../models/event-date.js'
+import { normalizeEventDate } from '../models/event-date.js'
 
 interface LabelRule {
   kind: EventDateKind
@@ -107,13 +108,15 @@ export function extractEventDates(title: string, body = '', publishedAt?: string
 
   enrichTimesFromText(found, text)
 
-  return collapseContainedSingles(found).sort(
-    (a, b) =>
-      a.date.localeCompare(b.date) ||
-      (a.endDate ?? '').localeCompare(b.endDate ?? '') ||
-      a.kind.localeCompare(b.kind) ||
-      (a.startTime ?? '').localeCompare(b.startTime ?? ''),
-  )
+  return collapseContainedSingles(found)
+    .map(normalizeEventDate)
+    .sort(
+      (a, b) =>
+        a.date.localeCompare(b.date) ||
+        (a.endDate ?? '').localeCompare(b.endDate ?? '') ||
+        a.kind.localeCompare(b.kind) ||
+        (a.startTime ?? '').localeCompare(b.startTime ?? ''),
+    )
 }
 
 /** 同 kind 下，落在已有期间内的无时刻单日视为重复，去掉。 */
