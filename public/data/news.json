@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-17T12:26:03.563Z",
+  "scrapedAt": "2026-07-17T12:26:43.890Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
@@ -4406,21 +4406,23 @@
       "eventDates": [
         {
           "date": "2025-04-25",
-          "kind": "hold",
           "endDate": "2025-06-22",
-          "startTime": "12:00",
-          "endTime": "21:59"
+          "kind": "sale"
         },
         {
           "date": "2025-06-06",
-          "kind": "hold",
           "endDate": "2025-06-22",
-          "startTime": "19:00",
-          "endTime": "23:59"
+          "kind": "hold"
+        },
+        {
+          "date": "2025-04-27",
+          "kind": "hold"
         }
       ],
       "summary": "4月27日(日)にKanadevia Hallで開催される『ガールズバンドクライ』2nd Anniversary LIVEのアーカイブ配信チケット、配信限定グッズ付きチケットの販売が決定！ 【チケット販売期間】 2025年4月25日(金)12:00～6月22日(日)21:59 【視聴期間】 2025年6月6日(金)19:00～6月22日(日)23:59 ※2",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "2nd Anniversary LIVE 线上配信票开始发售！",
+      "summaryZh": "4 月 27 日于 Kanadevia Hall 举办的《Girls Band Cry》2nd Anniversary LIVE 回放票务销售期 4/25–6/22；观看期 6/6–6/22（6/6 19:00 首播）。"
     },
     {
       "id": "post-337",
@@ -4442,7 +4444,9 @@
         }
       ],
       "summary": "ご来場の皆様へお願い 皆様が、楽しく安全にライブをお楽しみいただけるよう、以下のルールのご理解・ご協力をお願いいたします。 4月27日(日) 『ガールズバンドクライ』2nd Anniversary LIVE公演を安全・快適にお楽しみいただくために来場される皆様に手荷物検査のご協力をお願いします。 入場前にスタッフがお荷物を拝見し、持ち込み禁止物がないかを確認",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "致 2nd Anniversary LIVE 到场观众须知",
+      "summaryZh": "2025 年 4 月 27 日《Girls Band Cry》2nd Anniversary LIVE 将实施行李检查与身份证件确认；禁止携带团扇、自制应援物及改造荧光棒等。"
     },
     {
       "id": "post-336",
@@ -4460,12 +4464,13 @@
       "eventDates": [
         {
           "date": "2025-04-26",
-          "kind": "hold",
-          "startTime": "23:59"
+          "kind": "hold"
         }
       ],
       "summary": "トゲナシトゲアリ2nd Anniversary LIVE 開催を記念して 「ガールズバンドクライ」公式Xにてフォロー＆リポストキャンペーンを開催！ ご参加いただいた方の中から抽選で30名様に2nd Anniversary LIVEキービジュアルポスターをプレゼント🎁 【開催期間】 2025年4月26日(土) 23:59まで 【参加方法】 ①X（旧Twitt",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/04/%E3%82%B5%E3%83%A0%E3%83%8D%E3%82%A4%E3%83%AB-1024x576.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/04/%E3%82%B5%E3%83%A0%E3%83%8D%E3%82%A4%E3%83%AB-1024x576.png",
+      "titleZh": "无刺有刺 2nd Anniversary LIVE 纪念 X 活动开始！",
+      "summaryZh": "纪念 2nd Anniversary LIVE，Girls Band Cry 官方 X 举办关注＆转发抽奖，截止 2025 年 4 月 26 日 23:59，抽选 30 名赠送主视觉海报。"
     },
     {
       "id": "post-335",
@@ -4482,21 +4487,20 @@
       ],
       "eventDates": [
         {
-          "date": "2025-04-19",
+          "date": "2025-06-27",
+          "endDate": "2025-07-06",
           "kind": "hold"
         },
         {
           "date": "2025-04-20",
-          "kind": "hold"
-        },
-        {
-          "date": "2025-06-27",
-          "kind": "hold",
-          "endDate": "2025-07-06"
+          "kind": "sale",
+          "startTime": "10:00"
         }
       ],
       "summary": "福岡会場の券売スケジュールが解禁されました！ ▼詳しくは こちら 「ガルクラ展オリジナルステンレスボード付きチケット」「3Dステッカー付きチケット」は4/20(日)10:00より先着先行販売スタート！ お見逃しなく！ 【福岡会場 開催概要】 ■会期：2025年6月27日(金)～7月6日(日) ※会期中無休 ■営業時間：12:00～18:00 ※最終入場は閉場",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "「Girls Band Cry 展」福冈会场票务日程公开！",
+      "summaryZh": "GBC 展福冈会场于西铁 Hall 举办：2025 年 6 月 27 日–7 月 6 日；附不锈钢板/3D 贴纸门票自 4/20 10:00 起先行发售。"
     },
     {
       "id": "post-334",
@@ -4519,15 +4523,19 @@
         },
         {
           "date": "2025-04-19",
+          "endDate": "2025-04-20",
           "kind": "hold"
         },
         {
-          "date": "2025-04-20",
+          "date": "2025-04-26",
+          "endDate": "2025-05-25",
           "kind": "hold"
         }
       ],
       "summary": "4/15(火)25:00～25:05にTOKYO MXで放送した「ガールズバンドクライ展 大特集SP」がYouTubeでも公開！ ▼視聴はこちら トゲナシトゲアリの理名さん、夕莉さん、朱李さんが 東京会場をリポート！ ぜひご覧ください！ そして…「ガールズバンドクライ展」東京会場は いよいよ今週末4/20(日)まで開催！ そしてそのあとは名古屋会場、福岡会場",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "「Girls Band Cry 展大特集 SP」也在 YouTube 公开！",
+      "summaryZh": "4/15 于 TOKYO MX 播出的「GBC 展大特集 SP」已在 YouTube 公开；东京会场至 4/20，随后巡回名古屋・福冈・大阪。"
     },
     {
       "id": "post-333",
@@ -4543,12 +4551,22 @@
       ],
       "eventDates": [
         {
+          "date": "2025-10-03",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-11-14",
+          "kind": "hold"
+        },
+        {
           "date": "2025-05-30",
           "kind": "sale"
         }
       ],
       "summary": "『劇場版総集編 ガールズバンドクライ』 キービジュアル＆特報映像を公開しました！ 「劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲」 2025年10月3日(金)公開 ▶上映劇場情報は こちら 「劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未来。」 2025年11月14日(金)公開 ▶上映劇場情報は こちら ※上映劇場情報は順次追加予定です。",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/02/HP%E6%98%A0%E7%94%BB%E6%83%85%E5%A0%B1.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/02/HP%E6%98%A0%E7%94%BB%E6%83%85%E5%A0%B1.png",
+      "titleZh": "剧场版总集篇主视觉 & 特报影像首次公开！Movi-Ticket 预售第 2 弹亦决定发售！",
+      "summaryZh": "剧场版总集篇【前篇】10/3、【后篇】11/14 上映；主视觉与特报公开。Movi-Ticket 预售卡第 2 弹于 5/30 发售（附透明卡特典）。"
     },
     {
       "id": "post-331",
@@ -4566,12 +4584,14 @@
       "eventDates": [
         {
           "date": "2025-05-01",
-          "kind": "hold",
-          "endDate": "2025-06-01"
+          "endDate": "2025-06-01",
+          "kind": "hold"
         }
       ],
       "summary": "「ガールズバンドクライ」のポップアップストアが、2025年5月1日より、北京朝阳合生汇で開催予定です！ 没入型体験ゾーンだけでなく、限定グッズも多数登場。 ぬいぐるみ、バッジ、アクリルスタンドなどの期間限定オリジナルグッズを多数取り揃えています。 ぜひ北京朝阳合生汇で、ガールズバンドの魅力を一緒に体感しましょう！ 開催期間：2025年5月1日～6月1日 開催",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "《Girls Band Cry》弹出商店 2025 年首次于中国华北举办！",
+      "summaryZh": "《Girls Band Cry》弹出商店于北京朝阳合生汇 L1 中庭举办：2025 年 5 月 1 日–6 月 1 日，设沉浸式体验区并销售毛绒、徽章、亚克力立牌等限定周边。"
     },
     {
       "id": "post-330",
@@ -4591,11 +4611,16 @@
       "eventDates": [
         {
           "date": "2025-05-28",
-          "kind": "hold"
+          "kind": "sale"
         },
         {
-          "date": "2025-05-28",
-          "kind": "sale"
+          "date": "2025-04-28",
+          "kind": "hold",
+          "startTime": "20:00"
+        },
+        {
+          "date": "2025-04-13",
+          "kind": "hold"
         },
         {
           "date": "2025-07-25",
@@ -4603,7 +4628,9 @@
         }
       ],
       "summary": "5月28日(水)に10th Single「ダレモ」のCDリリースが決定しました！ カップリングには新曲「飛べない蝶は夢を見る」を収録。 こちらの楽曲のMusic Videoは4月28日(月) 20時に『ガールズバンドクライ』公式YouTubeチャンネルで初公開され、同時に楽曲の先行配信もスタートします。 さらに、メンバー5人が出演するオリジナルドラマパートも",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "无刺有刺第 10 张 Single《ダレモ》5 月 28 日（三）发售！收录曲《飛べない蝶は夢を見る》MV 亦将公开！",
+      "summaryZh": "第 10 张 Single《ダレモ》5/28 发售；《飛べない蝶は夢を見る》MV 于 4/28 20:00 公开并先行配信。4/13 Limista 线上 talk、7/25 animate 发售纪念 talk 亦将举办。"
     },
     {
       "id": "post-332",
@@ -4635,12 +4662,13 @@
       "eventDates": [
         {
           "date": "2025-04-22",
-          "kind": "sale",
-          "startTime": "23:59"
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが贈るオリジナルTVアニメ「ガールズバンドクライ (ガルクラ)」から、描き下ろし「Color Glass Ver.」グッズが2025年7月に一般発売される。カラーグラスをテーマとし、「トゲナシトゲアリ」&「ダイヤモンドダスト」メンバーたちのサングラス姿を描いたデカアクリルスタンドなどが新登場！",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/7b8982fb78a0b7f7d834a2fa4e241c99-830.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/7b8982fb78a0b7f7d834a2fa4e241c99-830.jpg",
+      "titleZh": "Girls Band Cry Color Glass 墨镜造型全新绘制周边发售！",
+      "summaryZh": "《Girls Band Cry（GBC）》Color Glass Ver. 周边（大立牌、迷你亚克力、托特包、桌垫等 8 种）预定 2025 年 7 月一般发售；Anime Store.JP 预约至 4 月 22 日。"
     },
     {
       "id": "post-327",
@@ -4666,7 +4694,9 @@
         }
       ],
       "summary": "二次元コスパより、アニメ『ガールズバンドクライ』新グッズ 井芹仁菜、河原木桃香、安和すばる、海老塚智、ルパ 5人それぞれの「全部ぶちこめ。」 Tシャツが登場です！ これらは、4/9(水)～池袋を皮切りに開催される《ガールズバンドクライ展》にて先行販売が決定！ いち早く手に入れるこの機会をどうぞお見逃しなく。 また、これらは通常よりも大きい【XXL/3XL】も",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "二次元 COSPA 推出新周边「全部ぶちこめ。」T 恤（5 种）！GBC 展亦决定先行发售！",
+      "summaryZh": "无刺有刺 5 人「全部ぶちこめ。」T 恤由二次元 COSPA 推出；4/9 起于 GBC 展先行发售，一般预约自 4/17 起受理（含 XXL/3XL）。"
     },
     {
       "id": "post-329",

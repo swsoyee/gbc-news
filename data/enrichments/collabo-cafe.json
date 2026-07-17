@@ -1,6 +1,6 @@
 {
   "sourceId": "collabo-cafe",
-  "updatedAt": "2026-07-17T14:10:00.000Z",
+  "updatedAt": "2026-07-17T14:20:00.000Z",
   "items": {
     "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026": {
       "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
@@ -483,6 +483,22 @@
         }
       ],
       "reviewNotes": "8 月无具体日；去掉 23:59"
+    },
+    "collabo-girls-band-cry-color-glass-ver-contents-seed-anime-store-goods2025": {
+      "id": "collabo-girls-band-cry-color-glass-ver-contents-seed-anime-store-goods2025",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "8008722387325c1de2232d5c18dec28b2433603ac6046d9459172417503e95b8",
+      "reviewedAt": "2026-07-17T14:20:00.000Z",
+      "titleZh": "Girls Band Cry Color Glass 墨镜造型全新绘制周边发售！",
+      "summaryZh": "《Girls Band Cry（GBC）》Color Glass Ver. 周边（大立牌、迷你亚克力、托特包、桌垫等 8 种）预定 2025 年 7 月一般发售；Anime Store.JP 预约至 4 月 22 日。",
+      "eventDates": [
+        {
+          "date": "2025-04-22",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "7 月无具体日；去掉 23:59"
     }
   }
 }

@@ -5477,16 +5477,12 @@ DTSTART;VALUE=DATE:20250409
 DTEND;VALUE=DATE:20250410
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 二次元コスパより新グッズ「全部ぶちこめ
- 。」 Tシャツ(5種)登場！ガルクラ展先行販売も決定！
-DESCRIPTION:二次元コスパより、アニメ『ガールズバンドク
- ライ』新グッズ 井芹仁菜、河原木桃香、安和すばる、
- 海老塚智、ルパ 5人それぞれの「全部ぶちこめ。\n」 T
- シャツが登場です！\nこれらは、4/9(水)～池袋を皮切り
- に開催される《ガールズバンドクライ展》にて先行販
- 売が決定！\nいち早く手に入れるこの機会をどうぞお見
- 逃しなく。\nまた、これらは通常よりも大きい【XXL/3XL
- 】も\n\nhttps://girls-band-cry.com/news/post-327.html
+SUMMARY:[发售] 二次元 COSPA 推出新周边「全部ぶちこめ。」
+ T 恤（5 种）！GBC 展亦决定先行发售！
+DESCRIPTION:无刺有刺 5 人「全部ぶちこめ。\n」T 恤由二次
+ 元 COSPA 推出；4/9 起于 GBC 展先行发售，一般预约自 4/17 
+ 起受理（含 XXL/3XL）。\n\n
+ https://girls-band-cry.com/news/post-327.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-327.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
@@ -5569,6 +5565,23 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-295.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-330-2025-04-13-hold@gbc-news
+DTSTAMP:20250413T000000Z
+DTSTART;VALUE=DATE:20250413
+DTEND;VALUE=DATE:20250414
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺第 10 张 Single《ダレモ》5 月 28 日
+ （三）发售！收录曲《飛べない蝶は夢を見る》MV 亦将
+ 公开！
+DESCRIPTION:第 10 张 Single《ダレモ》5/28 发售；《飛べない
+ 蝶は夢を見る》MV 于 4/28 20:00 公开并先行配信。\n4/13 Limi
+ sta 线上 talk、7/25 animate 发售纪念 talk 亦将举办。\n\n
+ https://girls-band-cry.com/news/post-330.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-330.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-329-2025-04-15-sale@gbc-news
 DTSTAMP:20250415T000000Z
 DTSTART;VALUE=DATE:20250415
@@ -5595,15 +5608,11 @@ DTSTART;VALUE=DATE:20250415
 DTEND;VALUE=DATE:20250416
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ展大特集SP」がYouTu
- beでも公開！
-DESCRIPTION:4/15(火)25:00～25:05にTOKYO MXで放送した「ガールズ
- バンドクライ展 大特集SP」がYouTubeでも公開！\n▼視聴
- はこちら トゲナシトゲアリの理名さん、夕莉さん、朱
- 李さんが 東京会場をリポート！\nぜひご覧ください！\n
- そして…\n「ガールズバンドクライ展」東京会場は い
- よいよ今週末4/20(日)まで開催！\nそしてそのあとは名古
- 屋会場、福岡会場\n\nhttps://girls-band-cry.com/news/post-334.html
+SUMMARY:[举办] 「Girls Band Cry 展大特集 SP」也在 YouTube 公开
+ ！
+DESCRIPTION:4/15 于 TOKYO MX 播出的「GBC 展大特集 SP」已在 YouT
+ ube 公开；东京会场至 4/20，随后巡回名古屋・福冈・大
+ 阪。\n\nhttps://girls-band-cry.com/news/post-334.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-334.html
 CATEGORIES:togenashi,live,event,media
 END:VEVENT
@@ -5614,111 +5623,57 @@ DTSTART;VALUE=DATE:20250417
 DTEND;VALUE=DATE:20250418
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 二次元コスパより新グッズ「全部ぶちこめ
- 。」 Tシャツ(5種)登場！ガルクラ展先行販売も決定！
-DESCRIPTION:二次元コスパより、アニメ『ガールズバンドク
- ライ』新グッズ 井芹仁菜、河原木桃香、安和すばる、
- 海老塚智、ルパ 5人それぞれの「全部ぶちこめ。\n」 T
- シャツが登場です！\nこれらは、4/9(水)～池袋を皮切り
- に開催される《ガールズバンドクライ展》にて先行販
- 売が決定！\nいち早く手に入れるこの機会をどうぞお見
- 逃しなく。\nまた、これらは通常よりも大きい【XXL/3XL
- 】も\n\nhttps://girls-band-cry.com/news/post-327.html
+SUMMARY:[发售] 二次元 COSPA 推出新周边「全部ぶちこめ。」
+ T 恤（5 种）！GBC 展亦决定先行发售！
+DESCRIPTION:无刺有刺 5 人「全部ぶちこめ。\n」T 恤由二次
+ 元 COSPA 推出；4/9 起于 GBC 展先行发售，一般预约自 4/17 
+ 起受理（含 XXL/3XL）。\n\n
+ https://girls-band-cry.com/news/post-327.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-327.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-334-2025-04-19-hold@gbc-news
+UID:post-334-2025-04-19_2025-04-20-hold@gbc-news
 DTSTAMP:20250419T000000Z
 DTSTART;VALUE=DATE:20250419
-DTEND;VALUE=DATE:20250420
+DTEND;VALUE=DATE:20250421
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ展大特集SP」がYouTu
- beでも公開！
-DESCRIPTION:4/15(火)25:00～25:05にTOKYO MXで放送した「ガールズ
- バンドクライ展 大特集SP」がYouTubeでも公開！\n▼視聴
- はこちら トゲナシトゲアリの理名さん、夕莉さん、朱
- 李さんが 東京会場をリポート！\nぜひご覧ください！\n
- そして…\n「ガールズバンドクライ展」東京会場は い
- よいよ今週末4/20(日)まで開催！\nそしてそのあとは名古
- 屋会場、福岡会場\n\nhttps://girls-band-cry.com/news/post-334.html
+SUMMARY:[举办] 「Girls Band Cry 展大特集 SP」也在 YouTube 公开
+ ！
+DESCRIPTION:4/15 于 TOKYO MX 播出的「GBC 展大特集 SP」已在 YouT
+ ube 公开；东京会场至 4/20，随后巡回名古屋・福冈・大
+ 阪。\n\nhttps://girls-band-cry.com/news/post-334.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-334.html
 CATEGORIES:togenashi,live,event,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-335-2025-04-19-hold@gbc-news
-DTSTAMP:20250419T000000Z
-DTSTART;VALUE=DATE:20250419
-DTEND;VALUE=DATE:20250420
-TRANSP:TRANSPARENT
+UID:post-335-2025-04-20-sale-1000@gbc-news
+DTSTAMP:20250420T010000Z
+DTSTART:20250420T010000Z
+DTEND:20250420T020000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ展」福岡会場の券
- 売スケジュールが解禁！
-DESCRIPTION:福岡会場の券売スケジュールが解禁されました
- ！\n▼詳しくは こちら 「ガルクラ展オリジナルステン
- レスボード付きチケット」「3Dステッカー付きチケット
- 」は4/20(日)10:00より先着先行販売スタート！\nお見逃し
- なく！\n【福岡会場 開催概要】 ■会期：2025年6月27日(
- 金)～7月6日(日) ※会期中無休 ■営業時間：12:00～18:00 
- ※最終入場は閉場\n\nhttps://girls-band-cry.com/news/post-335.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-335.html
-CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-334-2025-04-20-hold@gbc-news
-DTSTAMP:20250420T000000Z
-DTSTART;VALUE=DATE:20250420
-DTEND;VALUE=DATE:20250421
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ展大特集SP」がYouTu
- beでも公開！
-DESCRIPTION:4/15(火)25:00～25:05にTOKYO MXで放送した「ガールズ
- バンドクライ展 大特集SP」がYouTubeでも公開！\n▼視聴
- はこちら トゲナシトゲアリの理名さん、夕莉さん、朱
- 李さんが 東京会場をリポート！\nぜひご覧ください！\n
- そして…\n「ガールズバンドクライ展」東京会場は い
- よいよ今週末4/20(日)まで開催！\nそしてそのあとは名古
- 屋会場、福岡会場\n\nhttps://girls-band-cry.com/news/post-334.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-334.html
-CATEGORIES:togenashi,live,event,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-335-2025-04-20-hold@gbc-news
-DTSTAMP:20250420T000000Z
-DTSTART;VALUE=DATE:20250420
-DTEND;VALUE=DATE:20250421
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ展」福岡会場の券
- 売スケジュールが解禁！
-DESCRIPTION:福岡会場の券売スケジュールが解禁されました
- ！\n▼詳しくは こちら 「ガルクラ展オリジナルステン
- レスボード付きチケット」「3Dステッカー付きチケット
- 」は4/20(日)10:00より先着先行販売スタート！\nお見逃し
- なく！\n【福岡会場 開催概要】 ■会期：2025年6月27日(
- 金)～7月6日(日) ※会期中無休 ■営業時間：12:00～18:00 
- ※最終入場は閉場\n\nhttps://girls-band-cry.com/news/post-335.html
+SUMMARY:[发售] 「Girls Band Cry 展」福冈会场票务日程公开！
+DESCRIPTION:GBC 展福冈会场于西铁 Hall 举办：2025 年 6 月 27 
+ 日–7 月 6 日；附不锈钢板/3D 贴纸门票自 4/20 10:00 起先
+ 行发售。\n\nhttps://girls-band-cry.com/news/post-335.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-335.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:collabo-girls-band-cry-color-glass-ver-contents-seed-anime-store-goods2
- 025-2025-04-22-sale-2359@gbc-news
-DTSTAMP:20250422T145900Z
-DTSTART:20250422T145900Z
-DTEND:20250422T155900Z
-TRANSP:OPAQUE
+ 025-2025-04-22-sale@gbc-news
+DTSTAMP:20250422T000000Z
+DTSTART;VALUE=DATE:20250422
+DTEND;VALUE=DATE:20250423
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ Color Glass サングラス
- 姿の描き下ろしグッズ 発売!
-DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
- 「ガールズバンドクライ (ガルクラ)」から、描き下ろ
- し「Color Glass Ver.」グッズが2025年7月に一般発売される
- 。\nカラーグラスをテーマとし、「トゲナシトゲアリ」
- &「ダイヤモンドダスト」メンバーたちのサングラス姿
- を描いたデカアクリルスタンドなどが新登場！\n\n
+SUMMARY:[发售] Girls Band Cry Color Glass 墨镜造型全新绘制周边
+ 发售！
+DESCRIPTION:《Girls Band Cry（GBC）》Color Glass Ver. 周边（大立
+ 牌、迷你亚克力、托特包、桌垫等 8 种）预定 2025 年 7 
+ 月一般发售；Anime Store.JP 预约至 4 月 22 日。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-color-glass-ver-con
  tents-seed-anime-store-goods2025/
 URL;VALUE=URI:
@@ -5727,22 +5682,47 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-338-2025-04-25_2025-06-22-hold-1200@gbc-news
-DTSTAMP:20250425T030000Z
-DTSTART:20250425T030000Z
-DTEND:20250622T125900Z
-TRANSP:OPAQUE
+UID:post-338-2025-04-25_2025-06-22-sale@gbc-news
+DTSTAMP:20250425T000000Z
+DTSTART;VALUE=DATE:20250425
+DTEND;VALUE=DATE:20250623
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 2nd Anniversary LIVEオンライン配信チケット販
- 売開始！
-DESCRIPTION:4月27日(日)にKanadevia Hallで開催される『ガール
- ズバンドクライ』2nd Anniversary LIVEのアーカイブ配信チケ
- ット、配信限定グッズ付きチケットの販売が決定！\n【
- チケット販売期間】 2025年4月25日(金)12:00～6月22日(日)21:
- 59 【視聴期間】 2025年6月6日(金)19:00～6月22日(日)23:59 ※2
- \n\nhttps://girls-band-cry.com/news/post-338.html
+SUMMARY:[发售] 2nd Anniversary LIVE 线上配信票开始发售！
+DESCRIPTION:4 月 27 日于 Kanadevia Hall 举办的《Girls Band Cry》2nd
+  Anniversary LIVE 回放票务销售期 4/25–6/22；观看期 6/6–6/22
+ （6/6 19:00 首播）。\n\nhttps://girls-band-cry.com/news/post-338.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-338.html
 CATEGORIES:togenashi,live,goods,event,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-334-2025-04-26_2025-05-25-hold@gbc-news
+DTSTAMP:20250426T000000Z
+DTSTART;VALUE=DATE:20250426
+DTEND;VALUE=DATE:20250526
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 「Girls Band Cry 展大特集 SP」也在 YouTube 公开
+ ！
+DESCRIPTION:4/15 于 TOKYO MX 播出的「GBC 展大特集 SP」已在 YouT
+ ube 公开；东京会场至 4/20，随后巡回名古屋・福冈・大
+ 阪。\n\nhttps://girls-band-cry.com/news/post-334.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-334.html
+CATEGORIES:togenashi,live,event,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-336-2025-04-26-hold@gbc-news
+DTSTAMP:20250426T000000Z
+DTSTART;VALUE=DATE:20250426
+DTEND;VALUE=DATE:20250427
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺 2nd Anniversary LIVE 纪念 X 活动开始！
+DESCRIPTION:纪念 2nd Anniversary LIVE，Girls Band Cry 官方 X 举办关
+ 注＆转发抽奖，截止 2025 年 4 月 26 日 23:59，抽选 30 名赠
+ 送主视觉海报。\n\nhttps://girls-band-cry.com/news/post-336.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-336.html
+CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-311-2025-04-26_2025-05-25-hold-1100@gbc-news
@@ -5765,42 +5745,33 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-311.html
 CATEGORIES:togenashi,live,music,goods,event,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-336-2025-04-26-hold-2359@gbc-news
-DTSTAMP:20250426T145900Z
-DTSTART:20250426T145900Z
-DTEND:20250426T165900Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ2nd Anniversary LIVE 記念 Xキ
- ャンペーンスタート！
-DESCRIPTION:トゲナシトゲアリ2nd Anniversary LIVE 開催を記念し
- て 「ガールズバンドクライ」公式Xにてフォロー＆リポ
- ストキャンペーンを開催！\nご参加いただいた方の中か
- ら抽選で30名様に2nd Anniversary LIVEキービジュアルポスタ
- ーをプレゼント 【開催期間】 2025年4月26日(土) 23:59まで
-  【参加方法】 ①X（旧Twitt\n\n
- https://girls-band-cry.com/news/post-336.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-336.html
-CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
 UID:post-337-2025-04-27-hold@gbc-news
 DTSTAMP:20250427T000000Z
 DTSTART;VALUE=DATE:20250427
 DTEND;VALUE=DATE:20250428
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 2nd Anniversary LIVEにご来場の皆様へお願い
-DESCRIPTION:ご来場の皆様へお願い 皆様が、楽しく安全に
- ライブをお楽しみいただけるよう、以下のルールのご
- 理解・ご協力をお願いいたします。\n4月27日(日) 『ガー
- ルズバンドクライ』2nd Anniversary LIVE公演を安全・快適に
- お楽しみいただくために来場される皆様に手荷物検査
- のご協力をお願いします。\n入場前にスタッフがお荷物
- を拝見し、持ち込み禁止物がないかを確認\n\n
+SUMMARY:[举办] 致 2nd Anniversary LIVE 到场观众须知
+DESCRIPTION:2025 年 4 月 27 日《Girls Band Cry》2nd Anniversary LIVE 
+ 将实施行李检查与身份证件确认；禁止携带团扇、自制
+ 应援物及改造荧光棒等。\n\n
  https://girls-band-cry.com/news/post-337.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-337.html
 CATEGORIES:togenashi,live,goods
+END:VEVENT
+BEGIN:VEVENT
+UID:post-338-2025-04-27-hold@gbc-news
+DTSTAMP:20250427T000000Z
+DTSTART;VALUE=DATE:20250427
+DTEND;VALUE=DATE:20250428
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 2nd Anniversary LIVE 线上配信票开始发售！
+DESCRIPTION:4 月 27 日于 Kanadevia Hall 举办的《Girls Band Cry》2nd
+  Anniversary LIVE 回放票务销售期 4/25–6/22；观看期 6/6–6/22
+ （6/6 19:00 首播）。\n\nhttps://girls-band-cry.com/news/post-338.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-338.html
+CATEGORIES:togenashi,live,goods,event,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-340-2025-04-27_2025-05-19-sale@gbc-news
@@ -5818,22 +5789,35 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-340.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
 BEGIN:VEVENT
+UID:post-330-2025-04-28-hold-2000@gbc-news
+DTSTAMP:20250428T110000Z
+DTSTART:20250428T110000Z
+DTEND:20250428T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺第 10 张 Single《ダレモ》5 月 28 日
+ （三）发售！收录曲《飛べない蝶は夢を見る》MV 亦将
+ 公开！
+DESCRIPTION:第 10 张 Single《ダレモ》5/28 发售；《飛べない
+ 蝶は夢を見る》MV 于 4/28 20:00 公开并先行配信。\n4/13 Limi
+ sta 线上 talk、7/25 animate 发售纪念 talk 亦将举办。\n\n
+ https://girls-band-cry.com/news/post-330.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-330.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-331-2025-05-01_2025-06-01-hold@gbc-news
 DTSTAMP:20250501T000000Z
 DTSTART;VALUE=DATE:20250501
 DTEND;VALUE=DATE:20250602
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ」ポップアップス
- トアが2025年中国華北で初開催決定！
-DESCRIPTION:「ガールズバンドクライ」のポップアップスト
- アが、2025年5月1日より、北京朝阳合生汇で開催予定で
- す！\n没入型体験ゾーンだけでなく、限定グッズも多数
- 登場。\nぬいぐるみ、バッジ、アクリルスタンドなどの
- 期間限定オリジナルグッズを多数取り揃えています。\n
- ぜひ北京朝阳合生汇で、ガールズバンドの魅力を一緒
- に体感しましょう！\n開催期間：2025年5月1日～6月1日 開
- 催\n\nhttps://girls-band-cry.com/news/post-331.html
+SUMMARY:[举办] 《Girls Band Cry》弹出商店 2025 年首次于中国
+ 华北举办！
+DESCRIPTION:《Girls Band Cry》弹出商店于北京朝阳合生汇 L1 中
+ 庭举办：2025 年 5 月 1 日–6 月 1 日，设沉浸式体验区并
+ 销售毛绒、徽章、亚克力立牌等限定周边。\n\n
+ https://girls-band-cry.com/news/post-331.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-331.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
@@ -5962,42 +5946,19 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-340.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-330-2025-05-28-hold@gbc-news
-DTSTAMP:20250528T000000Z
-DTSTART;VALUE=DATE:20250528
-DTEND;VALUE=DATE:20250529
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ 10th Single 「ダレモ」5月28
- 日(水)リリース！ 収録曲より、新曲「飛べない蝶は夢
- を見る」の Music Video公…
-DESCRIPTION:5月28日(水)に10th Single「ダレモ」のCDリリースが
- 決定しました！\nカップリングには新曲「飛べない蝶は
- 夢を見る」を収録。\nこちらの楽曲のMusic Videoは4月28日(
- 月) 20時に『ガールズバンドクライ』公式YouTubeチャンネ
- ルで初公開され、同時に楽曲の先行配信もスタートし
- ます。\nさらに、メンバー5人が出演するオリジナルド
- ラマパートも\n\nhttps://girls-band-cry.com/news/post-330.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-330.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
 UID:post-330-2025-05-28-sale@gbc-news
 DTSTAMP:20250528T000000Z
 DTSTART;VALUE=DATE:20250528
 DTEND;VALUE=DATE:20250529
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 10th Single 「ダレモ」5月28
- 日(水)リリース！ 収録曲より、新曲「飛べない蝶は夢
- を見る」の Music Video公…
-DESCRIPTION:5月28日(水)に10th Single「ダレモ」のCDリリースが
- 決定しました！\nカップリングには新曲「飛べない蝶は
- 夢を見る」を収録。\nこちらの楽曲のMusic Videoは4月28日(
- 月) 20時に『ガールズバンドクライ』公式YouTubeチャンネ
- ルで初公開され、同時に楽曲の先行配信もスタートし
- ます。\nさらに、メンバー5人が出演するオリジナルド
- ラマパートも\n\nhttps://girls-band-cry.com/news/post-330.html
+SUMMARY:[发售] 无刺有刺第 10 张 Single《ダレモ》5 月 28 日
+ （三）发售！收录曲《飛べない蝶は夢を見る》MV 亦将
+ 公开！
+DESCRIPTION:第 10 张 Single《ダレモ》5/28 发售；《飛べない
+ 蝶は夢を見る》MV 于 4/28 20:00 公开并先行配信。\n4/13 Limi
+ sta 线上 talk、7/25 animate 发售纪念 talk 亦将举办。\n\n
+ https://girls-band-cry.com/news/post-330.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-330.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
@@ -6008,15 +5969,11 @@ DTSTART;VALUE=DATE:20250530
 DTEND;VALUE=DATE:20250531
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 劇場版総集編 キービジュアル＆特報映像を
- 初公開！ ムビチケ前売券第2弾も発売決定！
-DESCRIPTION:『劇場版総集編 ガールズバンドクライ』 キー
- ビジュアル＆特報映像を公開しました！\n「劇場版総集
- 編 ガールズバンドクライ 【前編】 青春狂走曲」 2025年
- 10月3日(金)公開 ▶上映劇場情報は こちら 「劇場版総集
- 編 ガールズバンドクライ 【後編】 なぁ、未来。\n」 20
- 25年11月14日(金)公開 ▶上映劇場情報は こちら ※上映劇
- 場情報は順次追加予定です。\n\n
+SUMMARY:[发售] 剧场版总集篇主视觉 & 特报影像首次公开！M
+ ovi-Ticket 预售第 2 弹亦决定发售！
+DESCRIPTION:剧场版总集篇【前篇】10/3、【后篇】11/14 上映
+ ；主视觉与特报公开。\nMovi-Ticket 预售卡第 2 弹于 5/30 发
+ 售（附透明卡特典）。\n\n
  https://girls-band-cry.com/news/post-333.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-333.html
 CATEGORIES:togenashi,cinema
@@ -6038,20 +5995,16 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-348.html
 CATEGORIES:togenashi,live,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-338-2025-06-06_2025-06-22-hold-1900@gbc-news
-DTSTAMP:20250606T100000Z
-DTSTART:20250606T100000Z
-DTEND:20250622T145900Z
-TRANSP:OPAQUE
+UID:post-338-2025-06-06_2025-06-22-hold@gbc-news
+DTSTAMP:20250606T000000Z
+DTSTART;VALUE=DATE:20250606
+DTEND;VALUE=DATE:20250623
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 2nd Anniversary LIVEオンライン配信チケット販
- 売開始！
-DESCRIPTION:4月27日(日)にKanadevia Hallで開催される『ガール
- ズバンドクライ』2nd Anniversary LIVEのアーカイブ配信チケ
- ット、配信限定グッズ付きチケットの販売が決定！\n【
- チケット販売期間】 2025年4月25日(金)12:00～6月22日(日)21:
- 59 【視聴期間】 2025年6月6日(金)19:00～6月22日(日)23:59 ※2
- \n\nhttps://girls-band-cry.com/news/post-338.html
+SUMMARY:[举办] 2nd Anniversary LIVE 线上配信票开始发售！
+DESCRIPTION:4 月 27 日于 Kanadevia Hall 举办的《Girls Band Cry》2nd
+  Anniversary LIVE 回放票务销售期 4/25–6/22；观看期 6/6–6/22
+ （6/6 19:00 首播）。\n\nhttps://girls-band-cry.com/news/post-338.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-338.html
 CATEGORIES:togenashi,live,goods,event,media
 END:VEVENT
@@ -6115,15 +6068,10 @@ DTSTART;VALUE=DATE:20250627
 DTEND;VALUE=DATE:20250707
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ展」福岡会場の券
- 売スケジュールが解禁！
-DESCRIPTION:福岡会場の券売スケジュールが解禁されました
- ！\n▼詳しくは こちら 「ガルクラ展オリジナルステン
- レスボード付きチケット」「3Dステッカー付きチケット
- 」は4/20(日)10:00より先着先行販売スタート！\nお見逃し
- なく！\n【福岡会場 開催概要】 ■会期：2025年6月27日(
- 金)～7月6日(日) ※会期中無休 ■営業時間：12:00～18:00 
- ※最終入場は閉場\n\nhttps://girls-band-cry.com/news/post-335.html
+SUMMARY:[举办] 「Girls Band Cry 展」福冈会场票务日程公开！
+DESCRIPTION:GBC 展福冈会场于西铁 Hall 举办：2025 年 6 月 27 
+ 日–7 月 6 日；附不锈钢板/3D 贴纸门票自 4/20 10:00 起先
+ 行发售。\n\nhttps://girls-band-cry.com/news/post-335.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-335.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
@@ -6279,16 +6227,13 @@ DTSTART;VALUE=DATE:20250725
 DTEND;VALUE=DATE:20250726
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ 10th Single 「ダレモ」5月28
- 日(水)リリース！ 収録曲より、新曲「飛べない蝶は夢
- を見る」の Music Video公…
-DESCRIPTION:5月28日(水)に10th Single「ダレモ」のCDリリースが
- 決定しました！\nカップリングには新曲「飛べない蝶は
- 夢を見る」を収録。\nこちらの楽曲のMusic Videoは4月28日(
- 月) 20時に『ガールズバンドクライ』公式YouTubeチャンネ
- ルで初公開され、同時に楽曲の先行配信もスタートし
- ます。\nさらに、メンバー5人が出演するオリジナルド
- ラマパートも\n\nhttps://girls-band-cry.com/news/post-330.html
+SUMMARY:[举办] 无刺有刺第 10 张 Single《ダレモ》5 月 28 日
+ （三）发售！收录曲《飛べない蝶は夢を見る》MV 亦将
+ 公开！
+DESCRIPTION:第 10 张 Single《ダレモ》5/28 发售；《飛べない
+ 蝶は夢を見る》MV 于 4/28 20:00 公开并先行配信。\n4/13 Limi
+ sta 线上 talk、7/25 animate 发售纪念 talk 亦将举办。\n\n
+ https://girls-band-cry.com/news/post-330.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-330.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
@@ -6890,6 +6835,22 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-381.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-333-2025-10-03-hold@gbc-news
+DTSTAMP:20251003T000000Z
+DTSTART;VALUE=DATE:20251003
+DTEND;VALUE=DATE:20251004
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 剧场版总集篇主视觉 & 特报影像首次公开！M
+ ovi-Ticket 预售第 2 弹亦决定发售！
+DESCRIPTION:剧场版总集篇【前篇】10/3、【后篇】11/14 上映
+ ；主视觉与特报公开。\nMovi-Ticket 预售卡第 2 弹于 5/30 发
+ 售（附透明卡特典）。\n\n
+ https://girls-band-cry.com/news/post-333.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-333.html
+CATEGORIES:togenashi,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-357-2025-10-03-hold@gbc-news
 DTSTAMP:20251003T000000Z
 DTSTART;VALUE=DATE:20251003
@@ -7448,6 +7409,22 @@ DESCRIPTION:《【后篇】なぁ、未来。\n》11/14 于新宿 B9 举办
  发售 11/8 10:00 起。\n\nhttps://girls-band-cry.com/news/post-421.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-421.html
 CATEGORIES:togenashi,live,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-333-2025-11-14-hold@gbc-news
+DTSTAMP:20251114T000000Z
+DTSTART;VALUE=DATE:20251114
+DTEND;VALUE=DATE:20251115
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 剧场版总集篇主视觉 & 特报影像首次公开！M
+ ovi-Ticket 预售第 2 弹亦决定发售！
+DESCRIPTION:剧场版总集篇【前篇】10/3、【后篇】11/14 上映
+ ；主视觉与特报公开。\nMovi-Ticket 预售卡第 2 弹于 5/30 发
+ 售（附透明卡特典）。\n\n
+ https://girls-band-cry.com/news/post-333.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-333.html
+CATEGORIES:togenashi,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-384-2025-11-14-sale@gbc-news

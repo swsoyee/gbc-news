@@ -757,73 +757,57 @@ DTSTART;VALUE=DATE:20250415
 DTEND;VALUE=DATE:20250416
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ展大特集SP」がYouTu
- beでも公開！
-DESCRIPTION:4/15(火)25:00～25:05にTOKYO MXで放送した「ガールズ
- バンドクライ展 大特集SP」がYouTubeでも公開！\n▼視聴
- はこちら トゲナシトゲアリの理名さん、夕莉さん、朱
- 李さんが 東京会場をリポート！\nぜひご覧ください！\n
- そして…\n「ガールズバンドクライ展」東京会場は い
- よいよ今週末4/20(日)まで開催！\nそしてそのあとは名古
- 屋会場、福岡会場\n\nhttps://girls-band-cry.com/news/post-334.html
+SUMMARY:[举办] 「Girls Band Cry 展大特集 SP」也在 YouTube 公开
+ ！
+DESCRIPTION:4/15 于 TOKYO MX 播出的「GBC 展大特集 SP」已在 YouT
+ ube 公开；东京会场至 4/20，随后巡回名古屋・福冈・大
+ 阪。\n\nhttps://girls-band-cry.com/news/post-334.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-334.html
 CATEGORIES:togenashi,live,event,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-334-2025-04-19-hold@gbc-news
+UID:post-334-2025-04-19_2025-04-20-hold@gbc-news
 DTSTAMP:20250419T000000Z
 DTSTART;VALUE=DATE:20250419
-DTEND;VALUE=DATE:20250420
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ展大特集SP」がYouTu
- beでも公開！
-DESCRIPTION:4/15(火)25:00～25:05にTOKYO MXで放送した「ガールズ
- バンドクライ展 大特集SP」がYouTubeでも公開！\n▼視聴
- はこちら トゲナシトゲアリの理名さん、夕莉さん、朱
- 李さんが 東京会場をリポート！\nぜひご覧ください！\n
- そして…\n「ガールズバンドクライ展」東京会場は い
- よいよ今週末4/20(日)まで開催！\nそしてそのあとは名古
- 屋会場、福岡会場\n\nhttps://girls-band-cry.com/news/post-334.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-334.html
-CATEGORIES:togenashi,live,event,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-334-2025-04-20-hold@gbc-news
-DTSTAMP:20250420T000000Z
-DTSTART;VALUE=DATE:20250420
 DTEND;VALUE=DATE:20250421
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ展大特集SP」がYouTu
- beでも公開！
-DESCRIPTION:4/15(火)25:00～25:05にTOKYO MXで放送した「ガールズ
- バンドクライ展 大特集SP」がYouTubeでも公開！\n▼視聴
- はこちら トゲナシトゲアリの理名さん、夕莉さん、朱
- 李さんが 東京会場をリポート！\nぜひご覧ください！\n
- そして…\n「ガールズバンドクライ展」東京会場は い
- よいよ今週末4/20(日)まで開催！\nそしてそのあとは名古
- 屋会場、福岡会場\n\nhttps://girls-band-cry.com/news/post-334.html
+SUMMARY:[举办] 「Girls Band Cry 展大特集 SP」也在 YouTube 公开
+ ！
+DESCRIPTION:4/15 于 TOKYO MX 播出的「GBC 展大特集 SP」已在 YouT
+ ube 公开；东京会场至 4/20，随后巡回名古屋・福冈・大
+ 阪。\n\nhttps://girls-band-cry.com/news/post-334.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-334.html
 CATEGORIES:togenashi,live,event,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-338-2025-04-25_2025-06-22-hold-1200@gbc-news
-DTSTAMP:20250425T030000Z
-DTSTART:20250425T030000Z
-DTEND:20250622T125900Z
-TRANSP:OPAQUE
+UID:post-338-2025-04-25_2025-06-22-sale@gbc-news
+DTSTAMP:20250425T000000Z
+DTSTART;VALUE=DATE:20250425
+DTEND;VALUE=DATE:20250623
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 2nd Anniversary LIVEオンライン配信チケット販
- 売開始！
-DESCRIPTION:4月27日(日)にKanadevia Hallで開催される『ガール
- ズバンドクライ』2nd Anniversary LIVEのアーカイブ配信チケ
- ット、配信限定グッズ付きチケットの販売が決定！\n【
- チケット販売期間】 2025年4月25日(金)12:00～6月22日(日)21:
- 59 【視聴期間】 2025年6月6日(金)19:00～6月22日(日)23:59 ※2
- \n\nhttps://girls-band-cry.com/news/post-338.html
+SUMMARY:[发售] 2nd Anniversary LIVE 线上配信票开始发售！
+DESCRIPTION:4 月 27 日于 Kanadevia Hall 举办的《Girls Band Cry》2nd
+  Anniversary LIVE 回放票务销售期 4/25–6/22；观看期 6/6–6/22
+ （6/6 19:00 首播）。\n\nhttps://girls-band-cry.com/news/post-338.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-338.html
 CATEGORIES:togenashi,live,goods,event,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-334-2025-04-26_2025-05-25-hold@gbc-news
+DTSTAMP:20250426T000000Z
+DTSTART;VALUE=DATE:20250426
+DTEND;VALUE=DATE:20250526
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 「Girls Band Cry 展大特集 SP」也在 YouTube 公开
+ ！
+DESCRIPTION:4/15 于 TOKYO MX 播出的「GBC 展大特集 SP」已在 YouT
+ ube 公开；东京会场至 4/20，随后巡回名古屋・福冈・大
+ 阪。\n\nhttps://girls-band-cry.com/news/post-334.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-334.html
+CATEGORIES:togenashi,live,event,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-311-2025-04-26_2025-05-25-hold-1100@gbc-news
@@ -846,20 +830,30 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-311.html
 CATEGORIES:togenashi,live,music,goods,event,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-338-2025-06-06_2025-06-22-hold-1900@gbc-news
-DTSTAMP:20250606T100000Z
-DTSTART:20250606T100000Z
-DTEND:20250622T145900Z
-TRANSP:OPAQUE
+UID:post-338-2025-04-27-hold@gbc-news
+DTSTAMP:20250427T000000Z
+DTSTART;VALUE=DATE:20250427
+DTEND;VALUE=DATE:20250428
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 2nd Anniversary LIVEオンライン配信チケット販
- 売開始！
-DESCRIPTION:4月27日(日)にKanadevia Hallで開催される『ガール
- ズバンドクライ』2nd Anniversary LIVEのアーカイブ配信チケ
- ット、配信限定グッズ付きチケットの販売が決定！\n【
- チケット販売期間】 2025年4月25日(金)12:00～6月22日(日)21:
- 59 【視聴期間】 2025年6月6日(金)19:00～6月22日(日)23:59 ※2
- \n\nhttps://girls-band-cry.com/news/post-338.html
+SUMMARY:[举办] 2nd Anniversary LIVE 线上配信票开始发售！
+DESCRIPTION:4 月 27 日于 Kanadevia Hall 举办的《Girls Band Cry》2nd
+  Anniversary LIVE 回放票务销售期 4/25–6/22；观看期 6/6–6/22
+ （6/6 19:00 首播）。\n\nhttps://girls-band-cry.com/news/post-338.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-338.html
+CATEGORIES:togenashi,live,goods,event,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-338-2025-06-06_2025-06-22-hold@gbc-news
+DTSTAMP:20250606T000000Z
+DTSTART;VALUE=DATE:20250606
+DTEND;VALUE=DATE:20250623
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 2nd Anniversary LIVE 线上配信票开始发售！
+DESCRIPTION:4 月 27 日于 Kanadevia Hall 举办的《Girls Band Cry》2nd
+  Anniversary LIVE 回放票务销售期 4/25–6/22；观看期 6/6–6/22
+ （6/6 19:00 首播）。\n\nhttps://girls-band-cry.com/news/post-338.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-338.html
 CATEGORIES:togenashi,live,goods,event,media
 END:VEVENT

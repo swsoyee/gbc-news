@@ -1299,22 +1299,36 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-320.html
 CATEGORIES:togenashi,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-330-2025-05-28-hold@gbc-news
-DTSTAMP:20250528T000000Z
-DTSTART;VALUE=DATE:20250528
-DTEND;VALUE=DATE:20250529
+UID:post-330-2025-04-13-hold@gbc-news
+DTSTAMP:20250413T000000Z
+DTSTART;VALUE=DATE:20250413
+DTEND;VALUE=DATE:20250414
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ 10th Single 「ダレモ」5月28
- 日(水)リリース！ 収録曲より、新曲「飛べない蝶は夢
- を見る」の Music Video公…
-DESCRIPTION:5月28日(水)に10th Single「ダレモ」のCDリリースが
- 決定しました！\nカップリングには新曲「飛べない蝶は
- 夢を見る」を収録。\nこちらの楽曲のMusic Videoは4月28日(
- 月) 20時に『ガールズバンドクライ』公式YouTubeチャンネ
- ルで初公開され、同時に楽曲の先行配信もスタートし
- ます。\nさらに、メンバー5人が出演するオリジナルド
- ラマパートも\n\nhttps://girls-band-cry.com/news/post-330.html
+SUMMARY:[举办] 无刺有刺第 10 张 Single《ダレモ》5 月 28 日
+ （三）发售！收录曲《飛べない蝶は夢を見る》MV 亦将
+ 公开！
+DESCRIPTION:第 10 张 Single《ダレモ》5/28 发售；《飛べない
+ 蝶は夢を見る》MV 于 4/28 20:00 公开并先行配信。\n4/13 Limi
+ sta 线上 talk、7/25 animate 发售纪念 talk 亦将举办。\n\n
+ https://girls-band-cry.com/news/post-330.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-330.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-330-2025-04-28-hold-2000@gbc-news
+DTSTAMP:20250428T110000Z
+DTSTART:20250428T110000Z
+DTEND:20250428T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺第 10 张 Single《ダレモ》5 月 28 日
+ （三）发售！收录曲《飛べない蝶は夢を見る》MV 亦将
+ 公开！
+DESCRIPTION:第 10 张 Single《ダレモ》5/28 发售；《飛べない
+ 蝶は夢を見る》MV 于 4/28 20:00 公开并先行配信。\n4/13 Limi
+ sta 线上 talk、7/25 animate 发售纪念 talk 亦将举办。\n\n
+ https://girls-band-cry.com/news/post-330.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-330.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
@@ -1325,16 +1339,13 @@ DTSTART;VALUE=DATE:20250528
 DTEND;VALUE=DATE:20250529
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 10th Single 「ダレモ」5月28
- 日(水)リリース！ 収録曲より、新曲「飛べない蝶は夢
- を見る」の Music Video公…
-DESCRIPTION:5月28日(水)に10th Single「ダレモ」のCDリリースが
- 決定しました！\nカップリングには新曲「飛べない蝶は
- 夢を見る」を収録。\nこちらの楽曲のMusic Videoは4月28日(
- 月) 20時に『ガールズバンドクライ』公式YouTubeチャンネ
- ルで初公開され、同時に楽曲の先行配信もスタートし
- ます。\nさらに、メンバー5人が出演するオリジナルド
- ラマパートも\n\nhttps://girls-band-cry.com/news/post-330.html
+SUMMARY:[发售] 无刺有刺第 10 张 Single《ダレモ》5 月 28 日
+ （三）发售！收录曲《飛べない蝶は夢を見る》MV 亦将
+ 公开！
+DESCRIPTION:第 10 张 Single《ダレモ》5/28 发售；《飛べない
+ 蝶は夢を見る》MV 于 4/28 20:00 公开并先行配信。\n4/13 Limi
+ sta 线上 talk、7/25 animate 发售纪念 talk 亦将举办。\n\n
+ https://girls-band-cry.com/news/post-330.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-330.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
@@ -1345,15 +1356,11 @@ DTSTART;VALUE=DATE:20250530
 DTEND;VALUE=DATE:20250531
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 劇場版総集編 キービジュアル＆特報映像を
- 初公開！ ムビチケ前売券第2弾も発売決定！
-DESCRIPTION:『劇場版総集編 ガールズバンドクライ』 キー
- ビジュアル＆特報映像を公開しました！\n「劇場版総集
- 編 ガールズバンドクライ 【前編】 青春狂走曲」 2025年
- 10月3日(金)公開 ▶上映劇場情報は こちら 「劇場版総集
- 編 ガールズバンドクライ 【後編】 なぁ、未来。\n」 20
- 25年11月14日(金)公開 ▶上映劇場情報は こちら ※上映劇
- 場情報は順次追加予定です。\n\n
+SUMMARY:[发售] 剧场版总集篇主视觉 & 特报影像首次公开！M
+ ovi-Ticket 预售第 2 弹亦决定发售！
+DESCRIPTION:剧场版总集篇【前篇】10/3、【后篇】11/14 上映
+ ；主视觉与特报公开。\nMovi-Ticket 预售卡第 2 弹于 5/30 发
+ 售（附透明卡特典）。\n\n
  https://girls-band-cry.com/news/post-333.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-333.html
 CATEGORIES:togenashi,cinema
@@ -1430,16 +1437,13 @@ DTSTART;VALUE=DATE:20250725
 DTEND;VALUE=DATE:20250726
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ 10th Single 「ダレモ」5月28
- 日(水)リリース！ 収録曲より、新曲「飛べない蝶は夢
- を見る」の Music Video公…
-DESCRIPTION:5月28日(水)に10th Single「ダレモ」のCDリリースが
- 決定しました！\nカップリングには新曲「飛べない蝶は
- 夢を見る」を収録。\nこちらの楽曲のMusic Videoは4月28日(
- 月) 20時に『ガールズバンドクライ』公式YouTubeチャンネ
- ルで初公開され、同時に楽曲の先行配信もスタートし
- ます。\nさらに、メンバー5人が出演するオリジナルド
- ラマパートも\n\nhttps://girls-band-cry.com/news/post-330.html
+SUMMARY:[举办] 无刺有刺第 10 张 Single《ダレモ》5 月 28 日
+ （三）发售！收录曲《飛べない蝶は夢を見る》MV 亦将
+ 公开！
+DESCRIPTION:第 10 张 Single《ダレモ》5/28 发售；《飛べない
+ 蝶は夢を見る》MV 于 4/28 20:00 公开并先行配信。\n4/13 Limi
+ sta 线上 talk、7/25 animate 发售纪念 talk 亦将举办。\n\n
+ https://girls-band-cry.com/news/post-330.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-330.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
@@ -1586,6 +1590,22 @@ DESCRIPTION:谜游戏《桃香（を）ワッショイ》于 9/29 在 Steam
  https://girls-band-cry.com/news/post-377.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-377.html
 CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-333-2025-10-03-hold@gbc-news
+DTSTAMP:20251003T000000Z
+DTSTART;VALUE=DATE:20251003
+DTEND;VALUE=DATE:20251004
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 剧场版总集篇主视觉 & 特报影像首次公开！M
+ ovi-Ticket 预售第 2 弹亦决定发售！
+DESCRIPTION:剧场版总集篇【前篇】10/3、【后篇】11/14 上映
+ ；主视觉与特报公开。\nMovi-Ticket 预售卡第 2 弹于 5/30 发
+ 售（附透明卡特典）。\n\n
+ https://girls-band-cry.com/news/post-333.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-333.html
+CATEGORIES:togenashi,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-357-2025-10-03-hold@gbc-news
@@ -1953,6 +1973,22 @@ DESCRIPTION:《【后篇】なぁ、未来。\n》11/14 于新宿 B9 举办
  发售 11/8 10:00 起。\n\nhttps://girls-band-cry.com/news/post-421.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-421.html
 CATEGORIES:togenashi,live,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-333-2025-11-14-hold@gbc-news
+DTSTAMP:20251114T000000Z
+DTSTART;VALUE=DATE:20251114
+DTEND;VALUE=DATE:20251115
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 剧场版总集篇主视觉 & 特报影像首次公开！M
+ ovi-Ticket 预售第 2 弹亦决定发售！
+DESCRIPTION:剧场版总集篇【前篇】10/3、【后篇】11/14 上映
+ ；主视觉与特报公开。\nMovi-Ticket 预售卡第 2 弹于 5/30 发
+ 售（附透明卡特典）。\n\n
+ https://girls-band-cry.com/news/post-333.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-333.html
+CATEGORIES:togenashi,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-394-2025-11-14-hold@gbc-news

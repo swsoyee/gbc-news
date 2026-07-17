@@ -1,6 +1,6 @@
 {
   "sourceId": "gbc-news",
-  "updatedAt": "2026-07-17T14:10:00.000Z",
+  "updatedAt": "2026-07-17T14:20:00.000Z",
   "items": {
     "post-483": {
       "id": "post-483",
@@ -1954,6 +1954,199 @@
           "date": "2025-09-17",
           "endDate": "2025-09-30",
           "kind": "hold"
+        }
+      ]
+    },
+    "post-338": {
+      "id": "post-338",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "b9d4dcdff3e650697163a6c8ba4aa31af95abc036c31b8452d1c92c12cf729e1",
+      "reviewedAt": "2026-07-17T14:20:00.000Z",
+      "titleZh": "2nd Anniversary LIVE 线上配信票开始发售！",
+      "summaryZh": "4 月 27 日于 Kanadevia Hall 举办的《Girls Band Cry》2nd Anniversary LIVE 回放票务销售期 4/25–6/22；观看期 6/6–6/22（6/6 19:00 首播）。",
+      "eventDates": [
+        {
+          "date": "2025-04-25",
+          "endDate": "2025-06-22",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-06-06",
+          "endDate": "2025-06-22",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-04-27",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "跨日去时刻；售票 sale、观看 hold；补录原公演日"
+    },
+    "post-337": {
+      "id": "post-337",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "e5355c2a76876ed3eef14c7ba618e5dcf21f75191cf621949d7d9402757fba22",
+      "reviewedAt": "2026-07-17T14:20:00.000Z",
+      "titleZh": "致 2nd Anniversary LIVE 到场观众须知",
+      "summaryZh": "2025 年 4 月 27 日《Girls Band Cry》2nd Anniversary LIVE 将实施行李检查与身份证件确认；禁止携带团扇、自制应援物及改造荧光棒等。",
+      "eventDates": [
+        {
+          "date": "2025-04-27",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-336": {
+      "id": "post-336",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "12e94be891fdbdf93c7ecb6b98301b349e4fa5ff9ffd4230e59f0bcf6164bffe",
+      "reviewedAt": "2026-07-17T14:20:00.000Z",
+      "titleZh": "无刺有刺 2nd Anniversary LIVE 纪念 X 活动开始！",
+      "summaryZh": "纪念 2nd Anniversary LIVE，Girls Band Cry 官方 X 举办关注＆转发抽奖，截止 2025 年 4 月 26 日 23:59，抽选 30 名赠送主视觉海报。",
+      "eventDates": [
+        {
+          "date": "2025-04-26",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "截止日；去掉误抽 23:59"
+    },
+    "post-334": {
+      "id": "post-334",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "a4492883226febc714c03c33c89e6cdba2412231e5e7d16a16f7e437e0804383",
+      "reviewedAt": "2026-07-17T14:20:00.000Z",
+      "titleZh": "「Girls Band Cry 展大特集 SP」也在 YouTube 公开！",
+      "summaryZh": "4/15 于 TOKYO MX 播出的「GBC 展大特集 SP」已在 YouTube 公开；东京会场至 4/20，随后巡回名古屋・福冈・大阪。",
+      "eventDates": [
+        {
+          "date": "2025-04-15",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-04-19",
+          "endDate": "2025-04-20",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-04-26",
+          "endDate": "2025-05-25",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "东京末日与名古屋会期；福冈/大阪本篇未写全期"
+    },
+    "post-335": {
+      "id": "post-335",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "924e13297b277a37503474ba38d3ef0bd90e4959f6ec48226727c1c481d438e9",
+      "reviewedAt": "2026-07-17T14:20:00.000Z",
+      "titleZh": "「Girls Band Cry 展」福冈会场票务日程公开！",
+      "summaryZh": "GBC 展福冈会场于西铁 Hall 举办：2025 年 6 月 27 日–7 月 6 日；附不锈钢板/3D 贴纸门票自 4/20 10:00 起先行发售。",
+      "eventDates": [
+        {
+          "date": "2025-06-27",
+          "endDate": "2025-07-06",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-04-20",
+          "kind": "sale",
+          "startTime": "10:00"
+        }
+      ],
+      "reviewNotes": "去掉误抽东京 4/19–20；补录票务开售"
+    },
+    "post-333": {
+      "id": "post-333",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "a7762e85d1ceaa1642eba60c81fb4f0d679afc7a611eb4636225deb78447622b",
+      "reviewedAt": "2026-07-17T14:20:00.000Z",
+      "titleZh": "剧场版总集篇主视觉 & 特报影像首次公开！Movi-Ticket 预售第 2 弹亦决定发售！",
+      "summaryZh": "剧场版总集篇【前篇】10/3、【后篇】11/14 上映；主视觉与特报公开。Movi-Ticket 预售卡第 2 弹于 5/30 发售（附透明卡特典）。",
+      "eventDates": [
+        {
+          "date": "2025-10-03",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-11-14",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-05-30",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "补录前后篇上映日"
+    },
+    "post-331": {
+      "id": "post-331",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "efc6e2d9ac63bf974489e48674ad136d2a599b88aad24cbef8e7e03a993d3ba0",
+      "reviewedAt": "2026-07-17T14:20:00.000Z",
+      "titleZh": "《Girls Band Cry》弹出商店 2025 年首次于中国华北举办！",
+      "summaryZh": "《Girls Band Cry》弹出商店于北京朝阳合生汇 L1 中庭举办：2025 年 5 月 1 日–6 月 1 日，设沉浸式体验区并销售毛绒、徽章、亚克力立牌等限定周边。",
+      "eventDates": [
+        {
+          "date": "2025-05-01",
+          "endDate": "2025-06-01",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-330": {
+      "id": "post-330",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "7c283428247829b826d93ffb1f0c00408236b05b0903df2a85215be9d9185770",
+      "reviewedAt": "2026-07-17T14:20:00.000Z",
+      "titleZh": "无刺有刺第 10 张 Single《ダレモ》5 月 28 日（三）发售！收录曲《飛べない蝶は夢を見る》MV 亦将公开！",
+      "summaryZh": "第 10 张 Single《ダレモ》5/28 发售；《飛べない蝶は夢を見る》MV 于 4/28 20:00 公开并先行配信。4/13 Limista 线上 talk、7/25 animate 发售纪念 talk 亦将举办。",
+      "eventDates": [
+        {
+          "date": "2025-05-28",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-04-28",
+          "kind": "hold",
+          "startTime": "20:00"
+        },
+        {
+          "date": "2025-04-13",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-07-25",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "去掉重复 hold；补录 MV/talk"
+    },
+    "post-327": {
+      "id": "post-327",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "65d3fd65fdb6c92367623d029d27056a84d1fc4a5b338e893b35cb13d85c654e",
+      "reviewedAt": "2026-07-17T14:20:00.000Z",
+      "titleZh": "二次元 COSPA 推出新周边「全部ぶちこめ。」T 恤（5 种）！GBC 展亦决定先行发售！",
+      "summaryZh": "无刺有刺 5 人「全部ぶちこめ。」T 恤由二次元 COSPA 推出；4/9 起于 GBC 展先行发售，一般预约自 4/17 起受理（含 XXL/3XL）。",
+      "eventDates": [
+        {
+          "date": "2025-04-09",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-04-17",
+          "kind": "sale"
         }
       ]
     }
