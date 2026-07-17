@@ -324,22 +324,22 @@ function renderCalendar(groups, categories) {
 
     const segments = buildWeekSegments(events, weekCells)
     for (const segment of segments) {
-      if (segment.lane < CHIPS_PER_DAY) {
-        const { event } = segment
-        const chip = document.createElement('a')
-        chip.className = event.kind === 'sale' ? 'calendar-chip is-sale' : 'calendar-chip'
-        if (event.endDate > event.date) chip.classList.add('is-span')
-        chip.style.gridColumn = `${segment.startColumn + 1} / ${segment.endColumn + 2}`
-        chip.style.setProperty('--calendar-lane', String(segment.lane))
-        chip.href = event.item.url
-        chip.target = '_blank'
-        chip.rel = 'noopener'
-        chip.title = `${eventKindLabel(event.kind)} ${event.date}～${event.endDate} ${event.item.title}`
-        chip.textContent = chipLabel(segment)
-        weekEl.appendChild(chip)
-      }
+      const { event } = segment
+      const chip = document.createElement('a')
+      chip.className = event.kind === 'sale' ? 'calendar-chip is-sale' : 'calendar-chip'
+      if (event.endDate > event.date) chip.classList.add('is-span')
+      if (segment.lane >= CHIPS_PER_DAY) chip.classList.add('is-overflow')
+      chip.style.gridColumn = `${segment.startColumn + 1} / ${segment.endColumn + 2}`
+      chip.style.setProperty('--calendar-lane', String(segment.lane))
+      chip.href = event.item.url
+      chip.target = '_blank'
+      chip.rel = 'noopener'
+      chip.title = `${eventKindLabel(event.kind)} ${event.date}～${event.endDate} ${event.item.title}`
+      chip.textContent = chipLabel(segment)
+      weekEl.appendChild(chip)
     }
 
+    let hasOverflow = false
     for (let dayIndex = 0; dayIndex < weekCells.length; dayIndex += 1) {
       const hiddenCount = segments.filter(
         (segment) =>
@@ -348,15 +348,24 @@ function renderCalendar(groups, categories) {
           dayIndex <= segment.endColumn,
       ).length
       if (hiddenCount > 0) {
+        hasOverflow = true
         const more = document.createElement('div')
         more.className = 'calendar-more'
         more.style.gridColumn = String(dayIndex + 1)
         more.textContent = `+${hiddenCount}`
+        more.title = '悬浮显示全部事件'
+        more.addEventListener('mouseenter', () => weekEl.classList.add('is-expanded'))
         weekEl.appendChild(more)
       }
     }
+    if (hasOverflow) {
+      weekEl.addEventListener('mouseleave', () => weekEl.classList.remove('is-expanded'))
+    }
 
     calendarGridEl.appendChild(weekEl)
+    if (hasOverflow) {
+      weekEl.style.setProperty('--calendar-expanded-height', `${weekEl.scrollHeight}px`)
+    }
   }
 }
 

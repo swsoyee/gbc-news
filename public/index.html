@@ -183,7 +183,13 @@
         min-width: 43.4rem;
       }
       .calendar-week {
+        height: 7.2rem;
+        overflow: hidden;
         position: relative;
+        transition: height 180ms ease-out;
+      }
+      .calendar-week.is-expanded {
+        height: var(--calendar-expanded-height, 7.2rem);
       }
       .calendar-weekdays span {
         padding: 0.45rem 0.35rem;
@@ -195,7 +201,7 @@
         background: rgba(255, 255, 255, 0.03);
       }
       .calendar-day-cell {
-        min-height: 6.4rem;
+        min-height: 7.2rem;
         border-right: 1px solid var(--line);
         border-bottom: 1px solid var(--line);
         padding: 0.35rem;
@@ -256,6 +262,23 @@
       a.calendar-chip.is-span {
         opacity: 0.88;
       }
+      a.calendar-chip.is-overflow {
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-0.2rem);
+        transition:
+          opacity 140ms ease-out,
+          transform 180ms ease-out,
+          visibility 0s linear 180ms;
+        visibility: hidden;
+      }
+      .calendar-week.is-expanded a.calendar-chip.is-overflow {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+        transition-delay: 40ms;
+        visibility: visible;
+      }
       a.calendar-chip:hover {
         background: rgba(232, 93, 76, 0.28);
       }
@@ -268,8 +291,23 @@
         margin-top: calc(2.15rem + 3 * 1.25rem);
         z-index: 1;
         color: var(--muted);
+        cursor: default;
         font-size: 0.68rem;
         padding: 0.1rem 0.2rem;
+        transition:
+          opacity 100ms ease-out,
+          visibility 0s linear 100ms;
+      }
+      .calendar-week.is-expanded .calendar-more {
+        opacity: 0;
+        visibility: hidden;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .calendar-week,
+        a.calendar-chip.is-overflow,
+        .calendar-more {
+          transition: none;
+        }
       }
       details.fold {
         border-top: 1px solid var(--line);
