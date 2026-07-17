@@ -1,8 +1,9 @@
 import { buildIcal, buildRss } from './build.js'
-import { expandEventDates } from './expand.js'
+import { expandEventDates, type ExpandableNewsItem } from './expand.js'
 import { parseCategoryList } from '../models/categories.js'
+import { EVENT_DATE_TITLE_PREFIX_ZH } from '../models/event-date.js'
 import { parseGroupList } from '../models/groups.js'
-import { assertNewsItem, filterItems, type NewsItem } from '../models/item.js'
+import { assertNewsItem, filterItems } from '../models/item.js'
 
 export interface FeedHttpResult {
   statusCode: number
@@ -15,7 +16,7 @@ export interface CreateDynamicFeedInput {
   format?: string | undefined
   categories?: string | undefined
   groups?: string | undefined
-  items: NewsItem[]
+  items: ExpandableNewsItem[]
 }
 
 export function jsonError(statusCode: number, message: string): FeedHttpResult {
@@ -38,7 +39,7 @@ export function createDynamicFeed(input: CreateDynamicFeedInput): FeedHttpResult
   for (const item of input.items) assertNewsItem(item)
 
   const filtered = filterItems(input.items, { groups, categories })
-  const entries = expandEventDates(filtered)
+  const entries = expandEventDates(filtered, { titlePrefixes: EVENT_DATE_TITLE_PREFIX_ZH })
   const isIcs = format === 'ics' || format === 'ical'
 
   const groupLabel = groups == null ? '全部组合' : groups.join(',')

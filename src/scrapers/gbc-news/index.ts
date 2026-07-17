@@ -96,6 +96,7 @@ export async function hydrateEntries(
         groups,
         ...(eventDates.length > 0 ? { eventDates } : {}),
         summary: detail.summary,
+        bodyText: detail.bodyText,
         ...(entry.imageUrl ? { imageUrl: entry.imageUrl } : {}),
       })
     } catch (error) {

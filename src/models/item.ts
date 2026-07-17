@@ -15,6 +15,8 @@ export interface NewsItem {
   /** 活动相关日；缺省/空 = 不进入 RSS/iCal */
   eventDates?: EventDate[]
   summary?: string
+  /** 官网详情页完整纯文本；仅保存在原始快照中 */
+  bodyText?: string
   imageUrl?: string
 }
 
@@ -55,6 +57,13 @@ export function assertNewsItem(value: unknown): asserts value is NewsItem {
       throw new Error('NewsItem.eventDates must be an array when set')
     }
     for (const entry of item.eventDates) assertEventDate(entry)
+  }
+
+  if (
+    item.bodyText !== undefined &&
+    (typeof item.bodyText !== 'string' || item.bodyText.length === 0)
+  ) {
+    throw new Error('NewsItem.bodyText must be a non-empty string when set')
   }
 }
 

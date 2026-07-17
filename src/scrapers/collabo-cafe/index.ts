@@ -103,6 +103,7 @@ async function hydrateEntry(
     groups: ['togenashi'],
     ...(eventDates.length > 0 ? { eventDates } : {}),
     summary: detail.summary,
+    bodyText: detail.bodyText,
     ...(imageUrl ? { imageUrl } : {}),
   }
 }

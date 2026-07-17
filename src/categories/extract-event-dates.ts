@@ -32,6 +32,11 @@ const LABEL_RULES: LabelRule[] = [
 const EVENT_CUE =
   /開催|出演|上映|発売|配信|ライブ|LIVE|ツアー|Tour|カフェ|フェス|ポップアップ|実施決定/
 
+/** pending 队列与规则抽取共用的活动线索。 */
+export function hasEventCue(title: string, body = ''): boolean {
+  return EVENT_CUE.test(`${title}\n${body}`)
+}
+
 /**
  * 从标题/正文抽取活动相关日与可选时刻（D8/D9/D10）。
  * 抽不出则返回 []（该稿不进 feeds，仍可留在快照）。
@@ -91,7 +96,7 @@ export function extractEventDates(title: string, body = '', publishedAt?: string
     }
   }
 
-  if (EVENT_CUE.test(title) || EVENT_CUE.test(text)) {
+  if (hasEventCue(title, body)) {
     const titleKind: EventDateKind = /発売|Release|通販|受注/.test(title) ? 'sale' : 'hold'
     pushFromBlock(title, titleKind)
     if (found.length === 0) {

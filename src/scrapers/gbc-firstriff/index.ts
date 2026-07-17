@@ -65,6 +65,7 @@ export async function scrapeFirstriff(options: ScrapeFirstriffOptions = {}): Pro
         groups,
         ...(eventDates.length > 0 ? { eventDates } : {}),
         summary: detail.summary,
+        bodyText: detail.bodyText,
       })
     } catch (error) {
       console.warn(

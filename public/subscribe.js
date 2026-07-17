@@ -8,6 +8,7 @@ import {
   chipLabel,
   EARLY_HOURS,
   earlyHoursFrameVars,
+  displayNewsTitle,
   eventKindLabel,
   formatDayLabel,
   formatMonthLabel,
@@ -82,7 +83,7 @@ let earlyHoursExpanded = false
 /** 当前看板日期：本地时区的某一天 */
 let calendarCursor = startOfDay(new Date())
 
-/** @type {{ title: string, url: string, groups?: string[], categories?: string[], eventDates?: { date: string, endDate?: string, kind: 'hold' | 'sale', startTime?: string, endTime?: string }[] }[]} */
+/** @type {{ title: string, titleZh?: string, url: string, groups?: string[], categories?: string[], eventDates?: { date: string, endDate?: string, kind: 'hold' | 'sale', startTime?: string, endTime?: string }[] }[]} */
 let newsItems = []
 
 /** 来自 news.json scrapedAt，用于 ICS URL ?v= */
@@ -350,7 +351,7 @@ function renderWeekRow(events, weekCells, today, chipLimit) {
     chip.href = event.item.url
     chip.target = '_blank'
     chip.rel = 'noopener'
-    const tooltipText = `${eventKindLabel(event.kind)} ${event.item.title}`
+    const tooltipText = `${eventKindLabel(event.kind)} ${displayNewsTitle(event.item)}`
     bindEventTooltip(chip, tooltipText)
     chip.textContent = chipLabel(segment)
     weekEl.appendChild(chip)
@@ -414,10 +415,10 @@ function appendTimedBlocks(layerEl, events, isoDate) {
     timeEl.textContent = timeText
     const titleEl = document.createElement('div')
     titleEl.className = 'calendar-timed-title'
-    titleEl.textContent = block.event.item.title
+    titleEl.textContent = displayNewsTitle(block.event.item)
     el.append(timeEl, titleEl)
 
-    const tooltipText = `${eventKindLabel(block.event.kind)} ${timeText} ${block.event.item.title}`
+    const tooltipText = `${eventKindLabel(block.event.kind)} ${timeText} ${displayNewsTitle(block.event.item)}`
     bindEventTooltip(el, tooltipText)
     layerEl.appendChild(el)
   }
@@ -538,7 +539,7 @@ function renderTimeGridFrame(events, cells, today) {
     chip.href = segment.event.item.url
     chip.target = '_blank'
     chip.rel = 'noopener'
-    const tooltipText = `${eventKindLabel(segment.event.kind)} ${segment.event.item.title}`
+    const tooltipText = `${eventKindLabel(segment.event.kind)} ${displayNewsTitle(segment.event.item)}`
     bindEventTooltip(chip, tooltipText)
     chip.textContent = chipLabel(segment)
     header.appendChild(chip)

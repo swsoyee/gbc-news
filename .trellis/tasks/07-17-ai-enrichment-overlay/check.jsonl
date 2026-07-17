@@ -1,0 +1,8 @@
+{"file": ".trellis/spec/backend/index.md", "reason": "核对 scraper/model/feed/script 分层与后端质量清单"}
+{"file": ".trellis/spec/backend/database-guidelines.md", "reason": "核对快照和 enrichment 数据写入、兼容及仓库体积"}
+{"file": ".trellis/spec/backend/error-handling.md", "reason": "核对 backfill 失败隔离与 build fail-fast"}
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "核对类型、测试、feed 正确性和低成本约束"}
+{"file": ".trellis/spec/backend/enrichment-guidelines.md", "reason": "核对正文回填、人工增强、stale/pending 与输出叠加契约"}
+{"file": ".trellis/spec/frontend/index.md", "reason": "核对静态前端架构和预览要求"}
+{"file": ".trellis/spec/frontend/type-safety.md", "reason": "核对共享类型，无重复冲突模型"}
+{"file": ".trellis/spec/frontend/quality-guidelines.md", "reason": "核对中文日历显示测试及构建产物"}

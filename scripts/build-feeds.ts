@@ -12,6 +12,9 @@ import { CATEGORY_IDS, CATEGORY_LABELS, type CategoryId } from '../src/models/ca
 import { GROUP_IDS, GROUP_LABELS } from '../src/models/groups.js'
 import { filterItems } from '../src/models/item.js'
 import { expandEventDates } from '../src/feeds/expand.js'
+import { loadEnrichmentFiles } from '../src/enrichments/files.js'
+import { applyEnrichments } from '../src/models/enrichment.js'
+import { EVENT_DATE_TITLE_PREFIX_ZH } from '../src/models/event-date.js'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const sourcePaths = [
@@ -38,6 +41,8 @@ async function main(): Promise<void> {
   for (const warning of warnings) console.warn(`[warn] ${warning}`)
 
   requireNonEmptyMergedItems(merged)
+  const enrichmentFiles = await loadEnrichmentFiles(root)
+  const publicItems = applyEnrichments(merged, enrichmentFiles)
 
   const siteUrl = process.env.SITE_URL ?? 'https://gbc-news.example.com'
   await mkdir(dirname(publicDataPath), { recursive: true })
@@ -47,25 +52,26 @@ async function main(): Promise<void> {
     scrapedAt: new Date().toISOString(),
     sources,
     count: merged.length,
-    items: merged,
+    items: publicItems,
   }
   await writeFile(publicDataPath, `${JSON.stringify(snapshot, null, 2)}\n`, 'utf8')
 
-  const allEntries = requireExpandableEntries(merged)
+  const expandOptions = { titlePrefixes: EVENT_DATE_TITLE_PREFIX_ZH }
+  const allEntries = requireExpandableEntries(publicItems, expandOptions)
 
   await writeRss('all', allEntries, siteUrl)
   await writeIcs('all', allEntries, siteUrl)
 
   for (const category of CATEGORY_IDS) {
-    const filtered = filterItems(merged, { categories: [category] })
-    const entries = expandEventDates(filtered)
+    const filtered = filterItems(publicItems, { categories: [category] })
+    const entries = expandEventDates(filtered, expandOptions)
     await writeRss(category, entries, siteUrl)
     await writeIcs(category, entries, siteUrl)
   }
 
   for (const group of GROUP_IDS) {
-    const filtered = filterItems(merged, { groups: [group] })
-    const entries = expandEventDates(filtered)
+    const filtered = filterItems(publicItems, { groups: [group] })
+    const entries = expandEventDates(filtered, expandOptions)
     await writeRss(`group-${group}`, entries, siteUrl, GROUP_LABELS[group].zh)
     await writeIcs(`group-${group}`, entries, siteUrl, GROUP_LABELS[group].zh)
   }

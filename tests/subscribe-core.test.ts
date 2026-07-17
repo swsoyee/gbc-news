@@ -6,6 +6,7 @@ import {
   buildMonthCells,
   buildWeekSegments,
   chipLabel,
+  displayNewsTitle,
   EARLY_HOURS,
   earlyHoursFrameVars,
   formatMonthLabel,
@@ -128,6 +129,18 @@ describe('calendar helpers', () => {
       lane: 0,
     })
     expect(chipLabel(segments[0]!)).toBe('開催 Tour')
+  })
+
+  it('日历标题优先使用中文增强字段', () => {
+    const item = {
+      title: 'ライブ',
+      titleZh: '演出',
+      url: 'https://example.com/zh',
+      eventDates: [{ date: '2026-07-14', kind: 'hold' as const }],
+    }
+    const event = buildCalendarEvents([item], [], [], 4, 7)[0]!
+    expect(displayNewsTitle(event.item)).toBe('演出')
+    expect(chipLabel({ event, continuesBefore: false, continuesAfter: false })).toBe('開催 演出')
   })
 
   it('toWebcal 转换协议', () => {

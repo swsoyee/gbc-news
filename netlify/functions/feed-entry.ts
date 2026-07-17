@@ -1,8 +1,8 @@
 import { createDynamicFeed, jsonError } from '../../src/feeds/dynamic-feed.js'
-import type { NewsItem } from '../../src/models/item.js'
+import type { ExpandableNewsItem } from '../../src/feeds/expand.js'
 
 interface Snapshot {
-  items: NewsItem[]
+  items: ExpandableNewsItem[]
 }
 
 export async function handler(event: {

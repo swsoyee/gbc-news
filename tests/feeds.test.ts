@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { buildIcal, buildRss } from '../src/feeds/build.js'
 import { expandEventDates } from '../src/feeds/expand.js'
+import { EVENT_DATE_TITLE_PREFIX_ZH } from '../src/models/event-date.js'
 import type { NewsItem } from '../src/models/item.js'
 
 const item: NewsItem = {
@@ -37,6 +38,17 @@ describe('expandEventDates', () => {
   it('无 eventDates 的条目不进入 feeds', () => {
     const { eventDates: _e, ...noDates } = item
     expect(expandEventDates([noDates])).toEqual([])
+  })
+
+  it('中文输出使用增强标题、摘要与前缀', () => {
+    const entries = expandEventDates(
+      [{ ...item, titleZh: '演出信息', summaryZh: '门票现已发售。' }],
+      { titlePrefixes: EVENT_DATE_TITLE_PREFIX_ZH },
+    )
+    expect(entries.map((entry) => entry.title)).toEqual(['[发售] 演出信息', '[举办] 演出信息'])
+    expect(entries[0]?.summary).toBe('门票现已发售。')
+    expect(buildRss(entries, meta)).toContain('门票现已发售。')
+    expect(buildIcal(entries, meta)).toContain('SUMMARY:[发售] 演出信息')
   })
 })
 

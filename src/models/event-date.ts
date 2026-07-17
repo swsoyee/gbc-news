@@ -57,6 +57,11 @@ export const EVENT_DATE_TITLE_PREFIX: Record<EventDateKind, string> = {
   sale: '[発売]',
 }
 
+export const EVENT_DATE_TITLE_PREFIX_ZH: Record<EventDateKind, string> = {
+  hold: '[举办]',
+  sale: '[发售]',
+}
+
 /** hold 默认 2h，sale 默认 1h（分钟） */
 export function defaultDurationMinutes(kind: EventDateKind): number {
   return kind === 'sale' ? 60 : 120

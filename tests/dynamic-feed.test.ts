@@ -34,7 +34,7 @@ describe('createDynamicFeed', () => {
     })
     expect(result.statusCode).toBe(200)
     expect(result.headers['content-type']).toContain('application/rss+xml')
-    expect(result.body).toContain('[開催] Live 情報')
+    expect(result.body).toContain('[举办] Live 情報')
     expect(result.body).toContain('https://example.com/api/feed?format=rss')
   })
 

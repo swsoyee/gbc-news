@@ -17,6 +17,8 @@ const sample: NewsItem = {
 describe('NewsItem', () => {
   it('接受含 groups/categories 的合法条目', () => {
     expect(() => assertNewsItem(sample)).not.toThrow()
+    expect(() => assertNewsItem({ ...sample, bodyText: '完整正文' })).not.toThrow()
+    expect(() => assertNewsItem({ ...sample, bodyText: '' })).toThrow(/bodyText/)
   })
 
   it('拒绝缺少 groups 的对象', () => {

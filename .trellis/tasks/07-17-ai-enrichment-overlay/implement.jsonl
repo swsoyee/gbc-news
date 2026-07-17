@@ -1,0 +1,8 @@
+{"file": ".trellis/spec/backend/index.md", "reason": "抓取器、模型、feed 与批处理改动的后端入口和开发检查清单"}
+{"file": ".trellis/spec/backend/database-guidelines.md", "reason": "快照与 enrichment 静态 JSON 的存储、兼容和写入约定"}
+{"file": ".trellis/spec/backend/error-handling.md", "reason": "backfill 单条失败隔离与 build 数据错误失败策略"}
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "严格类型、feed 测试和低成本架构要求"}
+{"file": ".trellis/spec/backend/enrichment-guidelines.md", "reason": "正文回填、人工增强、fingerprint、pending 与发布叠加的可执行契约"}
+{"file": ".trellis/spec/frontend/index.md", "reason": "静态日历改动与 build:web 约束"}
+{"file": ".trellis/spec/frontend/type-safety.md", "reason": "共享资讯类型与中文展示字段的类型安全"}
+{"file": ".trellis/spec/frontend/quality-guidelines.md", "reason": "日历显示测试与静态 bundle 提交要求"}

@@ -9,6 +9,7 @@ export interface CatalogItem {
 
 export interface NewsItemLike {
   title: string
+  titleZh?: string
   url: string
   groups?: string[]
   categories?: string[]
@@ -19,6 +20,10 @@ export interface NewsItemLike {
     startTime?: string
     endTime?: string
   }[]
+}
+
+export function displayNewsTitle(item: Pick<NewsItemLike, 'title' | 'titleZh'>): string {
+  return item.titleZh ?? item.title
 }
 
 export interface CalendarEvent {
@@ -296,7 +301,7 @@ export function buildCalendarEvents(
     (a, b) =>
       a.date.localeCompare(b.date) ||
       (a.startTime ?? '').localeCompare(b.startTime ?? '') ||
-      a.item.title.localeCompare(b.item.title),
+      displayNewsTitle(a.item).localeCompare(displayNewsTitle(b.item)),
   )
 }
 
@@ -409,7 +414,7 @@ export function buildDayTimedBlocks(events: CalendarEvent[], isoDate: string): T
     (a, b) =>
       a.startMin - b.startMin ||
       b.endMin - a.endMin ||
-      a.event.item.title.localeCompare(b.event.item.title),
+      displayNewsTitle(a.event.item).localeCompare(displayNewsTitle(b.event.item)),
   )
 }
 
@@ -511,7 +516,7 @@ export function buildWeekSegments(events: CalendarEvent[], cells: DayCell[]): We
       (a, b) =>
         a.startColumn - b.startColumn ||
         b.endColumn - a.endColumn ||
-        a.event.item.title.localeCompare(b.event.item.title),
+        displayNewsTitle(a.event.item).localeCompare(displayNewsTitle(b.event.item)),
     )
 
   const laneEnds: number[] = []
@@ -534,7 +539,7 @@ export function chipLabel(segment: {
   const startMark = continuesBefore ? '… ' : ''
   const endMark = continuesAfter ? ' …' : ''
   const time = event.startTime && !continuesBefore ? `${event.startTime} ` : ''
-  return `${kind} ${startMark}${time}${event.item.title}${endMark}`
+  return `${kind} ${startMark}${time}${displayNewsTitle(event.item)}${endMark}`
 }
 
 export const THEME_STORAGE_KEY = 'gbc-news-theme'

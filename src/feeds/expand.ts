@@ -8,6 +8,15 @@ import type { CategoryId } from '../models/categories.js'
 import type { GroupId } from '../models/groups.js'
 import type { NewsItem } from '../models/item.js'
 
+export interface ExpandableNewsItem extends NewsItem {
+  titleZh?: string
+  summaryZh?: string
+}
+
+export interface ExpandEventDatesOptions {
+  titlePrefixes?: Record<EventDateKind, string>
+}
+
 /** Feed 展开后的单日/期间条目（RSS/iCal 共用） */
 export interface FeedEntry {
   /** `${item.id}-${date}[_endDate]-${kind}[-HHmm]`，用于 UID/guid */
@@ -36,15 +45,19 @@ export interface FeedEntry {
  * 标题加 `[開催]` / `[発売]` 前缀（D10）。
  * 带 endDate 的期间保持为一条（不按日拆开）。
  */
-export function expandEventDates(items: NewsItem[]): FeedEntry[] {
+export function expandEventDates(
+  items: ExpandableNewsItem[],
+  options: ExpandEventDatesOptions = {},
+): FeedEntry[] {
   const entries: FeedEntry[] = []
+  const titlePrefixes = options.titlePrefixes ?? EVENT_DATE_TITLE_PREFIX
 
   for (const item of items) {
     const dates = item.eventDates
     if (!dates || dates.length === 0) continue
 
     for (const eventDate of dates) {
-      const prefix = EVENT_DATE_TITLE_PREFIX[eventDate.kind]
+      const prefix = titlePrefixes[eventDate.kind]
       const range = eventDateToUtcRange(eventDate)
       const exclusiveEnd = allDayExclusiveEndDate(eventDate)
       const timeSuffix = eventDate.startTime ? `-${eventDate.startTime.replace(':', '')}` : ''
@@ -52,7 +65,7 @@ export function expandEventDates(items: NewsItem[]): FeedEntry[] {
         eventDate.endDate && eventDate.endDate > eventDate.date ? `_${eventDate.endDate}` : ''
       entries.push({
         entryId: `${item.id}-${eventDate.date}${endSuffix}-${eventDate.kind}${timeSuffix}`,
-        title: `${prefix} ${item.title}`,
+        title: `${prefix} ${item.titleZh ?? item.title}`,
         url: item.url,
         occurredOn: range?.startAt ?? `${eventDate.date}T00:00:00.000Z`,
         ...(range ? { endAt: range.endAt } : {}),
@@ -61,7 +74,11 @@ export function expandEventDates(items: NewsItem[]): FeedEntry[] {
         categories: item.categories,
         groups: item.groups,
         sourceId: item.sourceId,
-        ...(item.summary !== undefined ? { summary: item.summary } : {}),
+        ...(item.summaryZh !== undefined
+          ? { summary: item.summaryZh }
+          : item.summary !== undefined
+            ? { summary: item.summary }
+            : {}),
       })
     }
   }

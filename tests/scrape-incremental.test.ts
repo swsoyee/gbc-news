@@ -41,6 +41,7 @@ describe('scrapeGbcNews incremental', () => {
     })
 
     expect(items.map((item) => item.id)).toEqual(['post-487'])
+    expect(items[0]?.bodyText).toBeTruthy()
     expect(urls.some((url) => url.includes('/page/2'))).toBe(false)
   })
 })

@@ -1,5 +1,10 @@
 import { assertNewsItem, type NewsItem } from '../models/item.js'
-import { expandEventDates, type FeedEntry } from './expand.js'
+import {
+  expandEventDates,
+  type ExpandEventDatesOptions,
+  type ExpandableNewsItem,
+  type FeedEntry,
+} from './expand.js'
 
 export interface SnapshotLike {
   items?: unknown
@@ -48,8 +53,11 @@ export function requireNonEmptyMergedItems(merged: NewsItem[]): void {
 }
 
 /** 展开活动日；全量为空则拒绝写出空订阅。 */
-export function requireExpandableEntries(merged: NewsItem[]): FeedEntry[] {
-  const entries = expandEventDates(merged)
+export function requireExpandableEntries(
+  merged: ExpandableNewsItem[],
+  options: ExpandEventDatesOptions = {},
+): FeedEntry[] {
+  const entries = expandEventDates(merged, options)
   if (entries.length === 0) {
     throw new Error('展开后无活动日期条目，拒绝写出空 RSS/iCal')
   }

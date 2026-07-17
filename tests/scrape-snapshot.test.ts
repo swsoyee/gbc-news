@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { mergeById, resolveMaxPages, resolveScrapeMode } from '../scripts/lib/scrape-snapshot.js'
+import { parseBackfillArgs, withBackfilledBody } from '../scripts/lib/backfill-body-text.js'
 import type { NewsItem } from '../src/models/item.js'
 
 function item(id: string, publishedAt: string): NewsItem {
@@ -34,5 +35,18 @@ describe('scrape-snapshot helpers', () => {
     )
     expect(merged.map((entry) => entry.id)).toEqual(['c', 'b', 'a'])
     expect(merged[1]?.publishedAt).toBe('2026-01-03T00:00:00.000Z')
+  })
+
+  it('backfill 参数支持 source/force，且只补正文', () => {
+    expect(parseBackfillArgs(['--source', 'gbc-news', '--force', '--delay-ms', '0'])).toEqual({
+      sources: ['gbc-news'],
+      force: true,
+      delayMs: 0,
+    })
+    expect(withBackfilledBody(item('a', '2026-01-01T00:00:00.000Z'), ' 正文 ')).toMatchObject({
+      id: 'a',
+      bodyText: '正文',
+    })
+    expect(() => parseBackfillArgs(['--source', 'bad'])).toThrow(/source/)
   })
 })
