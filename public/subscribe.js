@@ -397,10 +397,7 @@ function renderWeekRow(events, weekCells, today, chipLimit) {
     weekEl.addEventListener('mouseleave', () => weekEl.classList.remove('is-expanded'))
   }
 
-  calendarGridEl.appendChild(weekEl)
-  if (hasOverflow) {
-    weekEl.style.setProperty('--calendar-expanded-height', `${weekEl.scrollHeight}px`)
-  }
+  return { weekEl, hasOverflow }
 }
 
 function appendTimedBlocks(layerEl, events, isoDate) {
@@ -594,8 +591,7 @@ function renderTimeGridFrame(events, cells, today) {
 }
 
 function renderWeekTimeGrid(events, weekCells, today) {
-  const { root } = renderTimeGridFrame(events, weekCells, today)
-  calendarGridEl.appendChild(root)
+  return renderTimeGridFrame(events, weekCells, today).root
 }
 
 function renderDayTimeGrid(events, isoDate, today) {
@@ -611,8 +607,15 @@ function renderDayTimeGrid(events, isoDate, today) {
     isRestDay: cursorDate.getDay() === 0 || cursorDate.getDay() === 6,
     holidayName: holidayNames.get(isoDate),
   }
-  const { root } = renderTimeGridFrame(events, [dayCell], today)
-  calendarGridEl.appendChild(root)
+  return renderTimeGridFrame(events, [dayCell], today).root
+}
+
+/** 避免筛选/重绘时清空大块 DOM 导致页面高度塌缩、滚动被浏览器夹到顶部。 */
+function withPreservedScroll(run) {
+  const scrollX = window.scrollX
+  const scrollY = window.scrollY
+  run()
+  window.scrollTo(scrollX, scrollY)
 }
 
 function renderCalendar(groups, categories) {
@@ -630,8 +633,6 @@ function renderCalendar(groups, categories) {
     calendarBoardEl.dataset.view = calendarView
   }
 
-  calendarGridEl.replaceChildren()
-
   if (calendarView === 'day') {
     const isoDate = toIsoDate(calendarCursor)
     if (calendarMonthLabelEl) calendarMonthLabelEl.textContent = formatDayLabel(calendarCursor)
@@ -642,7 +643,7 @@ function renderCalendar(groups, categories) {
       ).length
       calendarNoteEl.textContent = count > 0 ? `当天 ${count} 件（受当前筛选影响）` : ''
     }
-    renderDayTimeGrid(events, isoDate, today)
+    calendarGridEl.replaceChildren(renderDayTimeGrid(events, isoDate, today))
     return
   }
 
@@ -659,7 +660,7 @@ function renderCalendar(groups, categories) {
       calendarNoteEl.textContent =
         count > 0 ? `本周 ${count} 件（受当前筛选影响）` : '本周当前筛选下没有活动'
     }
-    renderWeekTimeGrid(events, weekCells, today)
+    calendarGridEl.replaceChildren(renderWeekTimeGrid(events, weekCells, today))
     return
   }
 
@@ -681,15 +682,30 @@ function renderCalendar(groups, categories) {
         : '本月当前筛选下没有活动'
   }
 
+  const fragment = document.createDocumentFragment()
+  const overflowWeeks = []
   for (let weekStart = 0; weekStart < cells.length; weekStart += 7) {
-    renderWeekRow(events, cells.slice(weekStart, weekStart + 7), today, CHIPS_PER_DAY)
+    const { weekEl, hasOverflow } = renderWeekRow(
+      events,
+      cells.slice(weekStart, weekStart + 7),
+      today,
+      CHIPS_PER_DAY,
+    )
+    fragment.appendChild(weekEl)
+    if (hasOverflow) overflowWeeks.push(weekEl)
+  }
+  calendarGridEl.replaceChildren(fragment)
+  for (const weekEl of overflowWeeks) {
+    weekEl.style.setProperty('--calendar-expanded-height', `${weekEl.scrollHeight}px`)
   }
 }
 
 function refreshCalendarOnly() {
-  const groups = selectedValues(groupsEl)
-  const categories = selectedValues(catsEl)
-  renderCalendar(groups, categories)
+  withPreservedScroll(() => {
+    const groups = selectedValues(groupsEl)
+    const categories = selectedValues(catsEl)
+    renderCalendar(groups, categories)
+  })
 }
 
 function renderStaticLinks(activeGroups, activeCategories) {
@@ -700,11 +716,11 @@ function renderStaticLinks(activeGroups, activeCategories) {
   const catSet = new Set(activeCategories)
 
   if (groupLinksEl) {
-    groupLinksEl.replaceChildren()
+    const fragment = document.createDocumentFragment()
     for (const group of GROUPS) {
       const active = allGroups || groupSet.has(group.id)
       const ics = withFeedRev(`${location.origin}/feeds/group-${group.id}.ics`, feedRev)
-      groupLinksEl.appendChild(
+      fragment.appendChild(
         buildLinkRow({
           title: active ? group.label : `${group.label}（当前未选）`,
           ics,
@@ -713,14 +729,15 @@ function renderStaticLinks(activeGroups, activeCategories) {
         }),
       )
     }
+    groupLinksEl.replaceChildren(fragment)
   }
 
   if (catLinksEl) {
-    catLinksEl.replaceChildren()
+    const fragment = document.createDocumentFragment()
     for (const category of CATEGORIES) {
       const active = allCategories || catSet.has(category.id)
       const ics = withFeedRev(`${location.origin}/feeds/${category.id}.ics`, feedRev)
-      catLinksEl.appendChild(
+      fragment.appendChild(
         buildLinkRow({
           title: active ? category.label : `${category.label}（当前未选）`,
           ics,
@@ -729,6 +746,7 @@ function renderStaticLinks(activeGroups, activeCategories) {
         }),
       )
     }
+    catLinksEl.replaceChildren(fragment)
   }
 }
 
@@ -801,26 +819,28 @@ function buildLinkRow({ title, ics, rssPath, dimmed }) {
 }
 
 function refresh() {
-  const groups = selectedValues(groupsEl)
-  const categories = selectedValues(catsEl)
-  const { rss, ics, mode } = buildFeedUrls(groups, categories)
-  const counts = countFiltered(groups, categories)
+  withPreservedScroll(() => {
+    const groups = selectedValues(groupsEl)
+    const categories = selectedValues(catsEl)
+    const { rss, ics, mode } = buildFeedUrls(groups, categories)
+    const counts = countFiltered(groups, categories)
 
-  rssUrlEl.textContent = rss
-  icsUrlEl.textContent = ics
-  rssOpen.href = rss
-  icsOpen.href = toWebcal(ics)
+    rssUrlEl.textContent = rss
+    icsUrlEl.textContent = ics
+    rssOpen.href = rss
+    icsOpen.href = toWebcal(ics)
 
-  const groupLabel = labelList(groups, GROUPS)
-  const catLabel = labelList(categories, CATEGORIES)
-  if (filterStatusEl) {
-    filterStatusEl.textContent = `当前筛选：组合「${groupLabel}」× 分类「${catLabel}」→ 匹配资讯 ${counts.items} 条（含活动日 ${counts.dated} 条）｜订阅模式 ${mode}`
-  }
+    const groupLabel = labelList(groups, GROUPS)
+    const catLabel = labelList(categories, CATEGORIES)
+    if (filterStatusEl) {
+      filterStatusEl.textContent = `当前筛选：组合「${groupLabel}」× 分类「${catLabel}」→ 匹配资讯 ${counts.items} 条（含活动日 ${counts.dated} 条）｜订阅模式 ${mode}`
+    }
 
-  renderCalendar(groups, categories)
-  renderStaticLinks(groups, categories)
-  syncToggleButton(groupsEl, toggleGroupsBtn)
-  syncToggleButton(catsEl, toggleCatsBtn)
+    renderCalendar(groups, categories)
+    renderStaticLinks(groups, categories)
+    syncToggleButton(groupsEl, toggleGroupsBtn)
+    syncToggleButton(catsEl, toggleCatsBtn)
+  })
 }
 
 async function copyText(text, button) {
