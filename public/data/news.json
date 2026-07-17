@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-17T12:15:49.629Z",
+  "scrapedAt": "2026-07-17T12:17:01.637Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
@@ -2069,12 +2069,13 @@
       "eventDates": [
         {
           "date": "2025-11-16",
-          "kind": "hold",
-          "startTime": "23:59"
+          "kind": "hold"
         }
       ],
       "summary": "『劇場版総集編ガールズバンドクライ【後編】なぁ、未来。』公開を記念して、 「ガールズバンドクライ」公式Xにてフォロー＆リポストキャンペーンを開催！ ご参加いただいた方の中から抽選で10名様に『劇場版総集編ガールズバンドクライ【後編】なぁ、未来。』 キービジュアルポスターをプレゼント🎁 【開催期間】 2025年11月16日(日) 23:59まで 【参加方法】",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/09/GBC%E7%B7%8F%E9%9B%86%E7%B7%A8_%E3%83%A0%E3%83%93%E3%83%81%E3%82%B1%E7%AC%AC4%E5%BC%BE_KV_%E6%A8%AA_%E5%85%AC%E9%96%8B%E6%97%A5%E3%83%8A%E3%82%B7-1024x576.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/09/GBC%E7%B7%8F%E9%9B%86%E7%B7%A8_%E3%83%A0%E3%83%93%E3%83%81%E3%82%B1%E7%AC%AC4%E5%BC%BE_KV_%E6%A8%AA_%E5%85%AC%E9%96%8B%E6%97%A5%E3%83%8A%E3%82%B7-1024x576.jpg",
+      "titleZh": "《剧场版总集篇 Girls Band Cry【后篇】なぁ、未来。》公开纪念 X 活动开始！",
+      "summaryZh": "为纪念《【后篇】なぁ、未来。》上映，Girls Band Cry 官方 X 举办关注＆转发抽奖活动，截止 2025 年 11 月 16 日 23:59，抽选 10 名赠送主视觉海报。"
     },
     {
       "id": "post-426",
@@ -2095,7 +2096,9 @@
         }
       ],
       "summary": "2025年12月7日(日)に京王アリーナ TOKYO(武蔵野の森総合スポーツプラザ)にて開催する RAISE A SUILEN ×トゲナシトゲアリ 「RAISE MY CATHARSIS」に向けて、予習プレイリストを公開！ 是非、開催までにたくさん聴いて予習してくださいね！ 予習プレイリストは こちら ※実際のセットリストではございません 対象サービス Ap",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/09/%E3%80%90WEB%E7%94%A8%E3%80%91RASTOGE_LIVE_KV_0925.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/09/%E3%80%90WEB%E7%94%A8%E3%80%91RASTOGE_LIVE_KV_0925.png",
+      "titleZh": "RAISE A SUILEN × 无刺有刺「RAISE MY CATHARSIS」预习歌单公开！",
+      "summaryZh": "2025 年 12 月 7 日于京王 Arena TOKYO 举办的 RAISE A SUILEN × 无刺有刺「RAISE MY CATHARSIS」公布预习歌单，可在 Apple Music、Spotify 等平台收听（非实际曲目表）。"
     },
     {
       "id": "post-424",
@@ -2129,18 +2132,32 @@
       ],
       "eventDates": [
         {
-          "date": "2025-11-14",
+          "date": "2025-11-01",
+          "endDate": "2025-11-06",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-11-08",
           "kind": "sale",
-          "startTime": "15:00"
+          "startTime": "10:00"
         },
         {
           "date": "2025-11-14",
-          "kind": "sale",
-          "startTime": "18:15"
+          "kind": "hold"
+        },
+        {
+          "date": "2025-11-15",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-11-16",
+          "kind": "hold"
         }
       ],
       "summary": "『劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未来。』初日舞台挨拶＆舞台挨拶ツアー、実施決定！ さらに、初日舞台挨拶＆舞台挨拶ツアー実施の全ての劇場にて、ご来場者の中から抽選で3名様にメンバー直筆サイン色紙のプレゼントも決定いたしました！ 【初日舞台挨拶に関して】 ＜劇場・時間＞ ・新宿バルト９ https://tjoy.jp/shinjuku_wa",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/09/GBC%E7%B7%8F%E9%9B%86%E7%B7%A8_%E3%83%A0%E3%83%93%E3%83%81%E3%82%B1%E7%AC%AC4%E5%BC%BE_KV_%E6%A8%AA_%E5%85%AC%E9%96%8B%E6%97%A5%E3%83%8A%E3%82%B7-1024x576.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/09/GBC%E7%B7%8F%E9%9B%86%E7%B7%A8_%E3%83%A0%E3%83%93%E3%83%81%E3%82%B1%E7%AC%AC4%E5%BC%BE_KV_%E6%A8%AA_%E5%85%AC%E9%96%8B%E6%97%A5%E3%83%8A%E3%82%B7-1024x576.jpg",
+      "titleZh": "《【后篇】なぁ、未来。》首日舞台问候 & 舞台问候巡演举办决定！",
+      "summaryZh": "《【后篇】なぁ、未来。》11/14 于新宿 B9 举办首日舞台问候（理名・夕莉・朱李），并展开舞台问候巡演（11/15–16 等多剧场）。先行抽选 11/1–11/6，一般发售 11/8 10:00 起。"
     },
     {
       "id": "post-416",
@@ -2168,7 +2185,9 @@
         }
       ],
       "summary": "11月7日(金)にT・ジョイSEIBU大泉にて、11月8日(土)に川崎チネチッタにて、『劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲』のスタッフトークイベントの開催がそれぞれ決定いたしました！ さらに！スタッフトークにお越しの全てのお客様に「ガルクラミニ色紙 第1弾＆第2弾」を1枚ずつセットでプレゼントいたします！ ＜11月7日(金)に関して＞ ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/09/GBC%E7%B7%8F%E9%9B%86%E7%B7%A8_%E3%83%A0%E3%83%93%E3%83%81%E3%82%B1%E7%AC%AC3%E5%BC%BE_KV_%E6%A8%AA_%E5%85%AC%E9%96%8B%E6%97%A5%E3%83%8A%E3%82%B7-1024x576.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/09/GBC%E7%B7%8F%E9%9B%86%E7%B7%A8_%E3%83%A0%E3%83%93%E3%83%81%E3%82%B1%E7%AC%AC3%E5%BC%BE_KV_%E6%A8%AA_%E5%85%AC%E9%96%8B%E6%97%A5%E3%83%8A%E3%82%B7-1024x576.jpg",
+      "titleZh": "11 月 7 日（五）・8 日（六）连续两天工作人员 talk @ T・Joy 西武大泉 & 川崎 Cinecitta 举办决定！",
+      "summaryZh": "《【前篇】青春狂走曲》工作人员 talk：11/7 于 T・Joy 西武大泉（19:15 场映后）、11/8 于川崎 Cinecitta（11:00 场映后）。到场赠迷你色纸第 1・2 弹各 1 张。"
     },
     {
       "id": "post-422",
@@ -2204,7 +2223,9 @@
         }
       ],
       "summary": "トゲナシトゲアリの「rockin'on presents COUNTDOWN JAPAN 25/26」への出演が決定しました！ 出演日：12月27日(土) 会場：幕張メッセ国際展示場1～11ホール 詳しくは こちら",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "无刺有刺决定出演「rockin'on presents COUNTDOWN JAPAN 25/26」！",
+      "summaryZh": "无刺有刺将出演 rockin'on presents COUNTDOWN JAPAN 25/26：2025 年 12 月 27 日于幕张 Messe 国际展示场 1–11 馆。"
     },
     {
       "id": "post-419",
@@ -2236,17 +2257,19 @@
       "eventDates": [
         {
           "date": "2025-10-24",
-          "kind": "hold",
-          "endDate": "2025-11-09"
+          "endDate": "2025-11-09",
+          "kind": "hold"
         },
         {
           "date": "2025-11-27",
-          "kind": "hold",
-          "endDate": "2025-12-14"
+          "endDate": "2025-12-14",
+          "kind": "hold"
         }
       ],
       "summary": "東映アニメーションが贈るオリジナルTVアニメ「ガールズバンドクライ」× HMVのストアが、全国５ヵ所にて2025年10月24日〜12月14日まで開催される。アニメ「ガールズバンドクライ」ストアでは、酒井香澄新規描き下ろしイラストを使用した新作グッズが多数ラインナップ!",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/805ca3c50e862df93d8a66dfb7e0b9fc.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/805ca3c50e862df93d8a66dfb7e0b9fc.jpg",
+      "titleZh": "Girls Band Cry 限定店 in 全国 5 地 10 月 24 日起陆续举办！",
+      "summaryZh": "《Girls Band Cry》× HMV 弹出商店于东京・福冈・神奈川（10/24–11/9）与大阪・宫城（11/27–12/14）举办，销售酒井香澄全新绘制周边；满 2000 日元随机赠透明卡 1 张。"
     },
     {
       "id": "post-418",
@@ -2265,17 +2288,19 @@
       "eventDates": [
         {
           "date": "2025-11-15",
-          "kind": "hold",
-          "endDate": "2025-11-26"
+          "endDate": "2025-11-26",
+          "kind": "hold"
         },
         {
           "date": "2025-12-01",
-          "kind": "hold",
-          "endDate": "2025-12-14"
+          "endDate": "2025-12-14",
+          "kind": "hold"
         }
       ],
       "summary": "劇場版総集編 ガールズバンドクライ 【前編】青春狂走曲 / 【後編】なぁ、未来。の公開を記念して、『ガールズバンドクライ POP UP SHOP filming ver.』がタワーレコード4店舗にて開催決定いたしました！ 酒井香澄描き下ろしで、映画クルーな装いのトゲナシトゲアリの新作グッズを販売いたします！ ぜひこの機会をお見逃しなく！ 『ガールズバンドクラ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png",
+      "titleZh": "11/15（六）起《Girls Band Cry POP UP SHOP filming ver.》于 TOWER RECORDS 四店举办！",
+      "summaryZh": "纪念剧场版前后篇上映，filming ver. 弹出商店于 TOWER RECORDS 名古屋・福冈（11/15–26）与涩谷・阿倍野（12/1–14）销售酒井香澄全新绘制周边。"
     },
     {
       "id": "post-417",
@@ -2330,7 +2355,9 @@
         }
       ],
       "summary": "10/24(金)は井芹仁菜の誕生日です。この記念日に応援上映を実施することが決定いたしました！ 井芹仁菜の生誕を劇場で一緒にお祝いしましょう！ こちらの上映形式は声だしOKの応援上映となります。 歓声OK！応援OK！拍手OK！ うちわ、タオル、ぬいぐるみ、ペンライト、サイリウムなど応援グッズをご持参いただくのもOKです。 大音響のライブシーンなどで手拍子や歓",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/09/GBC%E7%B7%8F%E9%9B%86%E7%B7%A8_%E3%83%A0%E3%83%93%E3%83%81%E3%82%B1%E7%AC%AC3%E5%BC%BE_KV_%E6%A8%AA_%E5%85%AC%E9%96%8B%E6%97%A5%E3%83%8A%E3%82%B7-1024x576.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/09/GBC%E7%B7%8F%E9%9B%86%E7%B7%A8_%E3%83%A0%E3%83%93%E3%83%81%E3%82%B1%E7%AC%AC3%E5%BC%BE_KV_%E6%A8%AA_%E5%85%AC%E9%96%8B%E6%97%A5%E3%83%8A%E3%82%B7-1024x576.jpg",
+      "titleZh": "10/24（五）《【前篇】青春狂走曲》＜应援上映＞（附日语字幕）举办决定！",
+      "summaryZh": "为纪念仁菜生日，10/24 于新宿 B9、川崎 Cinecitta、T・Joy 梅田举办《【前篇】青春狂走曲》应援上映（可出声应援、附日语字幕）；到场赠迷你色纸第 1・2 弹各 1 张。"
     },
     {
       "id": "post-414",
@@ -2364,13 +2391,17 @@
       "eventDates": [
         {
           "date": "2025-10-18",
-          "kind": "sale",
-          "endDate": "2025-10-19",
-          "startTime": "16:00"
+          "kind": "hold"
+        },
+        {
+          "date": "2025-10-19",
+          "kind": "hold"
         }
       ],
       "summary": "10月18日（土）・19日（日）に開催いたします『劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲』舞台挨拶チケットの一般発売に関してお知らせです。 チケットぴあでの一般発売は、それぞれ下記日程で受付を終了させていただくことになりました。何卒ご了承ください。 【10月18日（土）実施分】10月15日（水）16：00まで 【10月19日（日）実施分】1",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/07/%E7%B7%8F%E9%9B%86%E7%B7%A8_%E5%89%8D%E7%B7%A8KV_%E6%A8%AA_%E5%85%AC%E9%96%8B%E6%97%A5%E3%83%8A%E3%82%B7-1024x576.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/07/%E7%B7%8F%E9%9B%86%E7%B7%A8_%E5%89%8D%E7%B7%A8KV_%E6%A8%AA_%E5%85%AC%E9%96%8B%E6%97%A5%E3%83%8A%E3%82%B7-1024x576.jpg",
+      "titleZh": "10 月 18 日（六）・19 日（日）《【前篇】青春狂走曲》舞台问候门票一般发售通知",
+      "summaryZh": "《【前篇】青春狂走曲》10/18–19 舞台问候门票：ぴあ一般发售分别于 10/15 16:00、10/16 16:00 截止；舞台问候于调布、立川、所泽、西武大泉、池袋、新宿 B9 等举办。"
     },
     {
       "id": "post-411",
@@ -2402,12 +2433,14 @@
       "eventDates": [
         {
           "date": "2025-10-17",
-          "kind": "hold",
-          "endDate": "2025-11-03"
+          "endDate": "2025-11-03",
+          "kind": "hold"
         }
       ],
       "summary": "東映アニメーションが贈るオリジナルTVアニメの劇場版総集編「ガールズバンドクライ」× キュアメイドカフェ秋葉原にて2025年10月17日〜11月3日までコラボカフェが開催される。「劇場版総集編 ガールズバンドクライ」コラボカフェでは、作品の世界観やキャラクターをイメージしたコラボメニューが登場!",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-932.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-932.jpg",
+      "titleZh": "剧场版总集篇 Girls Band Cry 联动咖啡厅 in 秋叶原 10 月 17 日起举办！",
+      "summaryZh": "《剧场版总集篇 Girls Band Cry》× Cure Maid Cafe 秋叶原联动咖啡厅于 2025 年 10 月 17 日–11 月 3 日举办；点单赠限定卡片，同楼 Gran Entas 亦销售联动周边。"
     },
     {
       "id": "post-410",

@@ -1,6 +1,6 @@
 {
   "sourceId": "gbc-news",
-  "updatedAt": "2026-07-17T12:45:00.000Z",
+  "updatedAt": "2026-07-17T13:00:00.000Z",
   "items": {
     "post-483": {
       "id": "post-483",
@@ -831,6 +831,160 @@
         }
       ],
       "reviewNotes": "剧场商品发售为 sale"
+    },
+    "post-426": {
+      "id": "post-426",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "dd0722e84c573a172616801576ee9578650964ba2b5238c3faece4959a9d13e3",
+      "reviewedAt": "2026-07-17T13:00:00.000Z",
+      "titleZh": "RAISE A SUILEN × 无刺有刺「RAISE MY CATHARSIS」预习歌单公开！",
+      "summaryZh": "2025 年 12 月 7 日于京王 Arena TOKYO 举办的 RAISE A SUILEN × 无刺有刺「RAISE MY CATHARSIS」公布预习歌单，可在 Apple Music、Spotify 等平台收听（非实际曲目表）。",
+      "eventDates": [
+        {
+          "date": "2025-12-07",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-427": {
+      "id": "post-427",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "5aa803d6b07beb01fc3b85f44e9df3e0ae7f5599ae4468c63f8d33d6cffac329",
+      "reviewedAt": "2026-07-17T13:00:00.000Z",
+      "titleZh": "《剧场版总集篇 Girls Band Cry【后篇】なぁ、未来。》公开纪念 X 活动开始！",
+      "summaryZh": "为纪念《【后篇】なぁ、未来。》上映，Girls Band Cry 官方 X 举办关注＆转发抽奖活动，截止 2025 年 11 月 16 日 23:59，抽选 10 名赠送主视觉海报。",
+      "eventDates": [
+        {
+          "date": "2025-11-16",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "截止日；去掉误抽 23:59 时刻"
+    },
+    "post-416": {
+      "id": "post-416",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "1285b137e48ed06eac5dc13ba1fe6a9aef53e01669442498299a766942fcc3c3",
+      "reviewedAt": "2026-07-17T13:00:00.000Z",
+      "titleZh": "11 月 7 日（五）・8 日（六）连续两天工作人员 talk @ T・Joy 西武大泉 & 川崎 Cinecitta 举办决定！",
+      "summaryZh": "《【前篇】青春狂走曲》工作人员 talk：11/7 于 T・Joy 西武大泉（19:15 场映后）、11/8 于川崎 Cinecitta（11:00 场映后）。到场赠迷你色纸第 1・2 弹各 1 张。",
+      "eventDates": [
+        {
+          "date": "2025-11-07",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-11-08",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-421": {
+      "id": "post-421",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "ee658985441110409570f4e4116ff8e0272192d66f307b638f47064714e72c4e",
+      "reviewedAt": "2026-07-17T13:00:00.000Z",
+      "titleZh": "《【后篇】なぁ、未来。》首日舞台问候 & 舞台问候巡演举办决定！",
+      "summaryZh": "《【后篇】なぁ、未来。》11/14 于新宿 B9 举办首日舞台问候（理名・夕莉・朱李），并展开舞台问候巡演（11/15–16 等多剧场）。先行抽选 11/1–11/6，一般发售 11/8 10:00 起。",
+      "eventDates": [
+        {
+          "date": "2025-11-01",
+          "endDate": "2025-11-06",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-11-08",
+          "kind": "sale",
+          "startTime": "10:00"
+        },
+        {
+          "date": "2025-11-14",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-11-15",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-11-16",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "上映时刻改 hold；抽选跨日去时刻"
+    },
+    "post-420": {
+      "id": "post-420",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "71ddb1ad44343ba78a6612646ac3185942c62ef94f5df67a5ee6c99e80e4759e",
+      "reviewedAt": "2026-07-17T13:00:00.000Z",
+      "titleZh": "无刺有刺决定出演「rockin'on presents COUNTDOWN JAPAN 25/26」！",
+      "summaryZh": "无刺有刺将出演 rockin'on presents COUNTDOWN JAPAN 25/26：2025 年 12 月 27 日于幕张 Messe 国际展示场 1–11 馆。",
+      "eventDates": [
+        {
+          "date": "2025-12-27",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-418": {
+      "id": "post-418",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "2dfc2f3d787fa8e949bcbaf8ed3deb1cd8db711d3c62ca6a842f21b1a861e2bd",
+      "reviewedAt": "2026-07-17T13:00:00.000Z",
+      "titleZh": "11/15（六）起《Girls Band Cry POP UP SHOP filming ver.》于 TOWER RECORDS 四店举办！",
+      "summaryZh": "纪念剧场版前后篇上映，filming ver. 弹出商店于 TOWER RECORDS 名古屋・福冈（11/15–26）与涩谷・阿倍野（12/1–14）销售酒井香澄全新绘制周边。",
+      "eventDates": [
+        {
+          "date": "2025-11-15",
+          "endDate": "2025-11-26",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-12-01",
+          "endDate": "2025-12-14",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-413": {
+      "id": "post-413",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "3bf0038d2ecc55b529783c4b48739eeff6414f658818e3264ccaa6395cc672e5",
+      "reviewedAt": "2026-07-17T13:00:00.000Z",
+      "titleZh": "10/24（五）《【前篇】青春狂走曲》＜应援上映＞（附日语字幕）举办决定！",
+      "summaryZh": "为纪念仁菜生日，10/24 于新宿 B9、川崎 Cinecitta、T・Joy 梅田举办《【前篇】青春狂走曲》应援上映（可出声应援、附日语字幕）；到场赠迷你色纸第 1・2 弹各 1 张。",
+      "eventDates": [
+        {
+          "date": "2025-10-24",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-412": {
+      "id": "post-412",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "aba02c6a506d0705d4409d8f13918fdd0d7c55a4ad86273d8d42035b073c8aa4",
+      "reviewedAt": "2026-07-17T13:00:00.000Z",
+      "titleZh": "10 月 18 日（六）・19 日（日）《【前篇】青春狂走曲》舞台问候门票一般发售通知",
+      "summaryZh": "《【前篇】青春狂走曲》10/18–19 舞台问候门票：ぴあ一般发售分别于 10/15 16:00、10/16 16:00 截止；舞台问候于调布、立川、所泽、西武大泉、池袋、新宿 B9 等举办。",
+      "eventDates": [
+        {
+          "date": "2025-10-18",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-10-19",
+          "kind": "hold"
+        }
+      ]
     }
   }
 }

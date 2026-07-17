@@ -1,6 +1,6 @@
 {
   "sourceId": "collabo-cafe",
-  "updatedAt": "2026-07-17T12:45:00.000Z",
+  "updatedAt": "2026-07-17T13:00:00.000Z",
   "items": {
     "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026": {
       "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
@@ -291,6 +291,43 @@
         }
       ],
       "reviewNotes": "预约截止日；3 月无具体日不补录"
+    },
+    "collabo-girls-band-cry-pop-up-store-medicos-tokyo-osaka-fukuoka-kanagawa-miyagi-2025": {
+      "id": "collabo-girls-band-cry-pop-up-store-medicos-tokyo-osaka-fukuoka-kanagawa-miyagi-2025",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "6bfd13f199196de8ce22f9465ddffb952f1210e89ecb36c3e19ac7f3237a8e3d",
+      "reviewedAt": "2026-07-17T13:00:00.000Z",
+      "titleZh": "Girls Band Cry 限定店 in 全国 5 地 10 月 24 日起陆续举办！",
+      "summaryZh": "《Girls Band Cry》× HMV 弹出商店于东京・福冈・神奈川（10/24–11/9）与大阪・宫城（11/27–12/14）举办，销售酒井香澄全新绘制周边；满 2000 日元随机赠透明卡 1 张。",
+      "eventDates": [
+        {
+          "date": "2025-10-24",
+          "endDate": "2025-11-09",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-11-27",
+          "endDate": "2025-12-14",
+          "kind": "hold"
+        }
+      ]
+    },
+    "collabo-girls-band-cry-movie-cure-maid-cafe-2025": {
+      "id": "collabo-girls-band-cry-movie-cure-maid-cafe-2025",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "2ff3a81f6408fae0a84de2096b759143e8942ff69b3656d46bc2b4f7775994ed",
+      "reviewedAt": "2026-07-17T13:00:00.000Z",
+      "titleZh": "剧场版总集篇 Girls Band Cry 联动咖啡厅 in 秋叶原 10 月 17 日起举办！",
+      "summaryZh": "《剧场版总集篇 Girls Band Cry》× Cure Maid Cafe 秋叶原联动咖啡厅于 2025 年 10 月 17 日–11 月 3 日举办；点单赠限定卡片，同楼 Gran Entas 亦销售联动周边。",
+      "eventDates": [
+        {
+          "date": "2025-10-17",
+          "endDate": "2025-11-03",
+          "kind": "hold"
+        }
+      ]
     }
   }
 }

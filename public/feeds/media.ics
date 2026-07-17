@@ -971,19 +971,30 @@ DTSTART;VALUE=DATE:20251024
 DTEND;VALUE=DATE:20251025
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 10/24(金) 『劇場版総集編 ガールズバンドク
- ライ 【前編】 青春狂走曲』＜応援上映＞（日本語字幕
- 付き）開催決定！
-DESCRIPTION:10/24(金)は井芹仁菜の誕生日です。\nこの記念日
- に応援上映を実施することが決定いたしました！\n井芹
- 仁菜の生誕を劇場で一緒にお祝いしましょう！\nこちら
- の上映形式は声だしOKの応援上映となります。\n歓声OK
- ！\n応援OK！\n拍手OK！\nうちわ、タオル、ぬいぐるみ、
- ペンライト、サイリウムなど応援グッズをご持参いた
- だくのもOKです。\n大音響のライブシーンなどで手拍子
- や歓\n\nhttps://girls-band-cry.com/news/post-413.html
+SUMMARY:[举办] 10/24（五）《【前篇】青春狂走曲》＜应援
+ 上映＞（附日语字幕）举办决定！
+DESCRIPTION:为纪念仁菜生日，10/24 于新宿 B9、川崎 Cinecitta
+ 、T・Joy 梅田举办《【前篇】青春狂走曲》应援上映（可
+ 出声应援、附日语字幕）；到场赠迷你色纸第 1・2 弹各 
+ 1 张。\n\nhttps://girls-band-cry.com/news/post-413.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-413.html
 CATEGORIES:togenashi,live,goods,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-421-2025-11-01_2025-11-06-sale@gbc-news
+DTSTAMP:20251101T000000Z
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20251107
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 《【后篇】なぁ、未来。》首日舞台问候 & 
+ 舞台问候巡演举办决定！
+DESCRIPTION:《【后篇】なぁ、未来。\n》11/14 于新宿 B9 举办
+ 首日舞台问候（理名・夕莉・朱李），并展开舞台问候
+ 巡演（11/15–16 等多剧场）。\n先行抽选 11/1–11/6，一般
+ 发售 11/8 10:00 起。\n\nhttps://girls-band-cry.com/news/post-421.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-421.html
+CATEGORIES:togenashi,live,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-416-2025-11-07-hold@gbc-news
@@ -992,16 +1003,11 @@ DTSTART;VALUE=DATE:20251107
 DTEND;VALUE=DATE:20251108
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 11月7日(金)・11月8日(土)2日連続のスタッフ
- トークイベント＠T・ジョイSEIBU大泉＆川崎チネチッタ 
- 開催決定！
-DESCRIPTION:11月7日(金)にT・ジョイSEIBU大泉にて、11月8日(土
- )に川崎チネチッタにて、『劇場版総集編 ガールズバン
- ドクライ 【前編】 青春狂走曲』のスタッフトークイベ
- ントの開催がそれぞれ決定いたしました！\nさらに！\n
- スタッフトークにお越しの全てのお客様に「ガルクラ
- ミニ色紙 第1弾＆第2弾」を1枚ずつセットでプレゼント
- いたします！\n＜11月7日(金)に関して＞\n\n
+SUMMARY:[举办] 11 月 7 日（五）・8 日（六）连续两天工作
+ 人员 talk @ T・Joy 西武大泉 & 川崎 Cinecitta 举办决定！
+DESCRIPTION:《【前篇】青春狂走曲》工作人员 talk：11/7 于 T
+ ・Joy 西武大泉（19:15 场映后）、11/8 于川崎 Cinecitta（11:0
+ 0 场映后）。\n到场赠迷你色纸第 1・2 弹各 1 张。\n\n
  https://girls-band-cry.com/news/post-416.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-416.html
 CATEGORIES:togenashi,live,event,cinema,media
@@ -1013,18 +1019,29 @@ DTSTART;VALUE=DATE:20251108
 DTEND;VALUE=DATE:20251109
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 11月7日(金)・11月8日(土)2日連続のスタッフ
- トークイベント＠T・ジョイSEIBU大泉＆川崎チネチッタ 
- 開催決定！
-DESCRIPTION:11月7日(金)にT・ジョイSEIBU大泉にて、11月8日(土
- )に川崎チネチッタにて、『劇場版総集編 ガールズバン
- ドクライ 【前編】 青春狂走曲』のスタッフトークイベ
- ントの開催がそれぞれ決定いたしました！\nさらに！\n
- スタッフトークにお越しの全てのお客様に「ガルクラ
- ミニ色紙 第1弾＆第2弾」を1枚ずつセットでプレゼント
- いたします！\n＜11月7日(金)に関して＞\n\n
+SUMMARY:[举办] 11 月 7 日（五）・8 日（六）连续两天工作
+ 人员 talk @ T・Joy 西武大泉 & 川崎 Cinecitta 举办决定！
+DESCRIPTION:《【前篇】青春狂走曲》工作人员 talk：11/7 于 T
+ ・Joy 西武大泉（19:15 场映后）、11/8 于川崎 Cinecitta（11:0
+ 0 场映后）。\n到场赠迷你色纸第 1・2 弹各 1 张。\n\n
  https://girls-band-cry.com/news/post-416.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-416.html
+CATEGORIES:togenashi,live,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-421-2025-11-08-sale-1000@gbc-news
+DTSTAMP:20251108T010000Z
+DTSTART:20251108T010000Z
+DTEND:20251108T020000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] 《【后篇】なぁ、未来。》首日舞台问候 & 
+ 舞台问候巡演举办决定！
+DESCRIPTION:《【后篇】なぁ、未来。\n》11/14 于新宿 B9 举办
+ 首日舞台问候（理名・夕莉・朱李），并展开舞台问候
+ 巡演（11/15–16 等多剧场）。\n先行抽选 11/1–11/6，一般
+ 发售 11/8 10:00 起。\n\nhttps://girls-band-cry.com/news/post-421.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-421.html
 CATEGORIES:togenashi,live,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
@@ -1047,6 +1064,22 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-384.html
 CATEGORIES:togenashi,live,media
 END:VEVENT
 BEGIN:VEVENT
+UID:post-421-2025-11-14-hold@gbc-news
+DTSTAMP:20251114T000000Z
+DTSTART;VALUE=DATE:20251114
+DTEND;VALUE=DATE:20251115
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 《【后篇】なぁ、未来。》首日舞台问候 & 
+ 舞台问候巡演举办决定！
+DESCRIPTION:《【后篇】なぁ、未来。\n》11/14 于新宿 B9 举办
+ 首日舞台问候（理名・夕莉・朱李），并展开舞台问候
+ 巡演（11/15–16 等多剧场）。\n先行抽选 11/1–11/6，一般
+ 发售 11/8 10:00 起。\n\nhttps://girls-band-cry.com/news/post-421.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-421.html
+CATEGORIES:togenashi,live,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
 UID:post-423-2025-11-14_2025-11-30-hold@gbc-news
 DTSTAMP:20251114T000000Z
 DTSTART;VALUE=DATE:20251114
@@ -1064,42 +1097,34 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-423.html
 CATEGORIES:togenashi,goods,event,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-421-2025-11-14-sale-1500@gbc-news
-DTSTAMP:20251114T060000Z
-DTSTART:20251114T060000Z
-DTEND:20251114T070000Z
-TRANSP:OPAQUE
+UID:post-421-2025-11-15-hold@gbc-news
+DTSTAMP:20251115T000000Z
+DTSTART;VALUE=DATE:20251115
+DTEND;VALUE=DATE:20251116
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 『劇場版総集編 ガールズバンドクライ 【
- 後編】 なぁ、未来。』 初日舞台挨拶＆舞台挨拶ツアー
-  実施決定！
-DESCRIPTION:『劇場版総集編 ガールズバンドクライ 【後編
- 】 なぁ、未来。\n』初日舞台挨拶＆舞台挨拶ツアー、
- 実施決定！\nさらに、初日舞台挨拶＆舞台挨拶ツアー実
- 施の全ての劇場にて、ご来場者の中から抽選で3名様に
- メンバー直筆サイン色紙のプレゼントも決定いたしま
- した！\n【初日舞台挨拶に関して】 ＜劇場・時間＞ ・
- 新宿バルト９\n\nhttps://girls-band-cry.com/news/post-421.html
+SUMMARY:[举办] 《【后篇】なぁ、未来。》首日舞台问候 & 
+ 舞台问候巡演举办决定！
+DESCRIPTION:《【后篇】なぁ、未来。\n》11/14 于新宿 B9 举办
+ 首日舞台问候（理名・夕莉・朱李），并展开舞台问候
+ 巡演（11/15–16 等多剧场）。\n先行抽选 11/1–11/6，一般
+ 发售 11/8 10:00 起。\n\nhttps://girls-band-cry.com/news/post-421.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-421.html
 CATEGORIES:togenashi,live,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-421-2025-11-14-sale-1815@gbc-news
-DTSTAMP:20251114T091500Z
-DTSTART:20251114T091500Z
-DTEND:20251114T101500Z
-TRANSP:OPAQUE
+UID:post-421-2025-11-16-hold@gbc-news
+DTSTAMP:20251116T000000Z
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DATE:20251117
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 『劇場版総集編 ガールズバンドクライ 【
- 後編】 なぁ、未来。』 初日舞台挨拶＆舞台挨拶ツアー
-  実施決定！
-DESCRIPTION:『劇場版総集編 ガールズバンドクライ 【後編
- 】 なぁ、未来。\n』初日舞台挨拶＆舞台挨拶ツアー、
- 実施決定！\nさらに、初日舞台挨拶＆舞台挨拶ツアー実
- 施の全ての劇場にて、ご来場者の中から抽選で3名様に
- メンバー直筆サイン色紙のプレゼントも決定いたしま
- した！\n【初日舞台挨拶に関して】 ＜劇場・時間＞ ・
- 新宿バルト９\n\nhttps://girls-band-cry.com/news/post-421.html
+SUMMARY:[举办] 《【后篇】なぁ、未来。》首日舞台问候 & 
+ 舞台问候巡演举办决定！
+DESCRIPTION:《【后篇】なぁ、未来。\n》11/14 于新宿 B9 举办
+ 首日舞台问候（理名・夕莉・朱李），并展开舞台问候
+ 巡演（11/15–16 等多剧场）。\n先行抽选 11/1–11/6，一般
+ 发售 11/8 10:00 起。\n\nhttps://girls-band-cry.com/news/post-421.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-421.html
 CATEGORIES:togenashi,live,event,cinema,media
 END:VEVENT
