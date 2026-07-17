@@ -21,17 +21,25 @@ src/
   feeds/
     expand.ts        # eventDates → FeedEntry（无日期跳过）
     build.ts         # RSS / iCal 字符串生成（只吃 FeedEntry）
+    merge-snapshots.ts # 多源合并 + 空订阅防护
+    dynamic-feed.ts  # /api/feed 可测响应逻辑
+  web/
+    subscribe-core.ts # 前端纯函数（打包到 public/）
   utils/
     http.ts          # 带超时与 User-Agent 的请求
+    html.ts          # strip/decode 共享工具
 scripts/
-  scrape-<source>.ts # Actions / 本地入口：抓取并写 data/
+  scrape-<source>.ts # 单源入口：抓取并写 data/
+  scrape-all.ts      # 三源编排（失败隔离）
   build-feeds.ts     # 多源合并 → public/data/news.json + feeds
   bundle-function.mjs
+  bundle-web.mjs
 data/
   <source-id>/       # 抓取快照（生成物）
 public/
   feeds/             # 对外订阅文件（按活动日展开）
   data/news.json     # 合并快照（含无活动日条目）
+  index.html / subscribe.js / subscribe-core.js
 netlify/functions/
   feed-entry.ts      # /api/feed：groups∧categories 过滤后再 expand
 ```
