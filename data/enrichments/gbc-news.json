@@ -1,6 +1,6 @@
 {
   "sourceId": "gbc-news",
-  "updatedAt": "2026-07-17T14:20:00.000Z",
+  "updatedAt": "2026-07-17T14:30:00.000Z",
   "items": {
     "post-483": {
       "id": "post-483",
@@ -2149,6 +2149,162 @@
           "kind": "sale"
         }
       ]
+    },
+    "post-329": {
+      "id": "post-329",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "09e75093fab84e28944bf08e1c0337441814f51e59527453162f85f3c963adf5",
+      "reviewedAt": "2026-07-17T14:30:00.000Z",
+      "titleZh": "GBC 展区域地图等信息陆续公开！",
+      "summaryZh": "GBC 展公开区域地图与展品详情（含无刺有刺使用乐器模型、便携 AR）；4/15 talk 秀由酒井和男登台。东京会场自 4/9 起于池袋 Sunshine City 举办。",
+      "eventDates": [
+        {
+          "date": "2025-04-09",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-04-15",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "开幕与 talk 为 hold；规则误标 sale"
+    },
+    "post-328": {
+      "id": "post-328",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "69a32407c0e39765769e042111d2bbaeec3e4b8bc5c3577323bac3fc4dee03d0",
+      "reviewedAt": "2026-07-17T14:30:00.000Z",
+      "titleZh": "GBC 展 × AniBirth 池袋 PARCO 店「赠品联动活动」实施决定！",
+      "summaryZh": "AniBirth 池袋 PARCO（4/4 开业）与 GBC 展联动：店内购满含 GBC 周边 2200 日元并出示展票，自 4/9 起赠随机明信片（5 种，售完即止）。",
+      "eventDates": [
+        {
+          "date": "2025-04-04",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-04-09",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-325": {
+      "id": "post-325",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "0a05d085202e926f07da8415f371eeb4d9d2ff2ab9cfc4ada7818bd8834f1b77",
+      "reviewedAt": "2026-07-17T14:30:00.000Z",
+      "titleZh": "GBC 展福冈会场举办概要公开！",
+      "summaryZh": "「Girls Band Cry 展」福冈会场于西铁 Hall 举办：2025 年 6 月 27 日–7 月 6 日（12:00–18:00）；票务另行公布。",
+      "eventDates": [
+        {
+          "date": "2025-06-27",
+          "endDate": "2025-07-06",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "跨日去掉营业时刻"
+    },
+    "post-321": {
+      "id": "post-321",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "9c7c927f1137b15f950d1f98a65b008ca0861d97322e5b13d1fdd5cbbe72a9a9",
+      "reviewedAt": "2026-07-17T14:30:00.000Z",
+      "titleZh": "4 月 3 日（四）起《Girls Band Cry × 夜之水母不会游泳 联动 POPUP SHOP》举办！",
+      "summaryZh": "《Girls Band Cry》×《夜之水母不会游泳》联动弹出商店于 HMV&BOOKS 涩谷・心斋桥・博多等店举办：2025 年 4 月 3 日–30 日，销售手岛 nari 与 popman3580 全新绘制联动周边。",
+      "eventDates": [
+        {
+          "date": "2025-04-03",
+          "endDate": "2025-04-30",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-319": {
+      "id": "post-319",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8abfc7cb9d712402a9652981a06aee4bbd75540441658b7cc1fc1a2f291a3f77",
+      "reviewedAt": "2026-07-17T14:30:00.000Z",
+      "titleZh": "GBC 展大阪会场举办决定！周边・入场赠品信息亦公开！",
+      "summaryZh": "GBC 展大阪会场定于 2025 年 9 月举办；东京通常票预售 3/9 10:00 起，名古屋附不锈钢板门票抽选至 3/9 23:59。并公开展会周边与入场赠品信息。",
+      "eventDates": [
+        {
+          "date": "2025-03-09",
+          "kind": "sale",
+          "startTime": "10:00"
+        }
+      ],
+      "reviewNotes": "东京预售开售；大阪仅写九月不补录；名古屋截止同日"
+    },
+    "post-320": {
+      "id": "post-320",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "2aec4f0fc8449a9c278c5671066fb7cfa1f2f95f07ff7f1d019ddfffbf48cfe3",
+      "reviewedAt": "2026-07-17T14:30:00.000Z",
+      "titleZh": "剧场版总集篇预售券第 1 弹 前后篇套票详情决定！",
+      "summaryZh": "剧场版总集篇预售券第 1 弹前后篇套票于 2025 年 3 月 20 日发售，特典为 teaser 视觉 B6 透明文件夹；通贩及全国部分影院限量销售。",
+      "eventDates": [
+        {
+          "date": "2025-03-20",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-318": {
+      "id": "post-318",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "fa575ac56d1f80f4ab4a45a6226815e43b258f5fe15f7d2e1e97918c170b6d8e",
+      "reviewedAt": "2026-07-17T14:30:00.000Z",
+      "titleZh": "She is Legend × 无刺有刺 对邦 LIVE 主视觉解禁！",
+      "summaryZh": "She is Legend × 无刺有刺「SOUL & CRY」于 2025 年 5 月 15 日在东京花园剧场举办，开演 19:00；主视觉与标题公开。",
+      "eventDates": [
+        {
+          "date": "2025-05-15",
+          "kind": "hold",
+          "startTime": "19:00"
+        }
+      ]
+    },
+    "post-314": {
+      "id": "post-314",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "ffde16ccf8b4e60b1a696d2abdfeb68eaecbba5563616cebfaa057647d0d0d1f",
+      "reviewedAt": "2026-07-17T14:30:00.000Z",
+      "titleZh": "《Girls Band Cry》弹出商店 2025 年首次于中国举办！",
+      "summaryZh": "《Girls Band Cry》弹出商店于上海静安大悦城北座 3F 中庭举办：2025 年 3 月 22 日–4 月 20 日，设沉浸式体验区并销售毛绒、徽章、亚克力立牌等限定周边。",
+      "eventDates": [
+        {
+          "date": "2025-03-22",
+          "endDate": "2025-04-20",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-315": {
+      "id": "post-315",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f4ef0ece1e349749563a432762133cbcbef725e3f8ae3f47d8995aad8fb83572",
+      "reviewedAt": "2026-07-17T14:30:00.000Z",
+      "titleZh": "角色设计手岛 nari 全新绘制！二次元 COSPA 推出无刺有刺 5 人「亚克力立牌 档案照 Ver.」！",
+      "summaryZh": "手岛 nari 档案照风格全新绘制无刺有刺 5 人亚克力立牌由二次元 COSPA 推出；3/22–23 AnimeJapan 2025 COSPA 展位先行发售。",
+      "eventDates": [
+        {
+          "date": "2025-03-22",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-03-23",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "AJ 先行为 sale；补录 3/23"
     }
   }
 }

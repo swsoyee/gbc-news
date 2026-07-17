@@ -1397,41 +1397,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-305.html
 CATEGORIES:togenashi,live,goods,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-319-2025-03-09-hold-1000@gbc-news
+UID:post-319-2025-03-09-sale-1000@gbc-news
 DTSTAMP:20250309T010000Z
 DTSTART:20250309T010000Z
-DTEND:20250309T030000Z
+DTEND:20250309T020000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] ガルクラ展大阪会場の開催が決定！グッズ
- ・入場者プレゼント情報も解禁！
-DESCRIPTION:「ガールズバンドクライ展」大阪会場の開催が
- 決定しました！\n2025年９月に開催！\n続報をお楽しみに
- ！\n東京会場の通常チケットの前売り券は3/9(日)10:00～
- 販売開始！\n名古屋会場の「ガルクラ展オリジナルステ
- ンレスボード付きチケット」抽選申し込み受け付けは3/
- 9(日)23:59までです。\nこちらもお見逃しなく！\nそして
- 、グッズ情報と入場者プレゼントの情報が解禁\n\n
- https://girls-band-cry.com/news/post-319.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-319.html
-CATEGORIES:togenashi,live,goods,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-319-2025-03-09-hold-2359@gbc-news
-DTSTAMP:20250309T145900Z
-DTSTART:20250309T145900Z
-DTEND:20250309T165900Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] ガルクラ展大阪会場の開催が決定！グッズ
- ・入場者プレゼント情報も解禁！
-DESCRIPTION:「ガールズバンドクライ展」大阪会場の開催が
- 決定しました！\n2025年９月に開催！\n続報をお楽しみに
- ！\n東京会場の通常チケットの前売り券は3/9(日)10:00～
- 販売開始！\n名古屋会場の「ガルクラ展オリジナルステ
- ンレスボード付きチケット」抽選申し込み受け付けは3/
- 9(日)23:59までです。\nこちらもお見逃しなく！\nそして
- 、グッズ情報と入場者プレゼントの情報が解禁\n\n
+SUMMARY:[发售] GBC 展大阪会场举办决定！周边・入场赠品信
+ 息亦公开！
+DESCRIPTION:GBC 展大阪会场定于 2025 年 9 月举办；东京通常
+ 票预售 3/9 10:00 起，名古屋附不锈钢板门票抽选至 3/9 23:5
+ 9。\n并公开展会周边与入场赠品信息。\n\n
  https://girls-band-cry.com/news/post-319.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-319.html
 CATEGORIES:togenashi,live,goods,event
@@ -1462,57 +1438,57 @@ DTSTART;VALUE=DATE:20250322
 DTEND;VALUE=DATE:20250421
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ」ポップアップス
- トアが2025年中国で初開催決定！
-DESCRIPTION:「ガールズバンドクライ」のポップアップスト
- アが、 2025年3月22日より、上海静安大悦城で開催予定で
- す！\n没入型体験ゾーンだけでなく、限定グッズも多数
- 登場予定です。\nぬいぐるみ、バッジ、アクリルスタン
- ドなどの期間限定オリジナルグッズを多数取り揃えて
- います。\nぜひ上海静安大悦城で、ガールズバンドの魅
- 力を一緒に体感しましょう！\n開催期間：2025年3月22日
- ～\n\nhttps://girls-band-cry.com/news/post-314.html
+SUMMARY:[举办] 《Girls Band Cry》弹出商店 2025 年首次于中国
+ 举办！
+DESCRIPTION:《Girls Band Cry》弹出商店于上海静安大悦城北座 
+ 3F 中庭举办：2025 年 3 月 22 日–4 月 20 日，设沉浸式体
+ 验区并销售毛绒、徽章、亚克力立牌等限定周边。\n\n
+ https://girls-band-cry.com/news/post-314.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-314.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-315-2025-03-22-hold@gbc-news
+UID:post-315-2025-03-22-sale@gbc-news
 DTSTAMP:20250322T000000Z
 DTSTART;VALUE=DATE:20250322
 DTEND;VALUE=DATE:20250323
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] キャラクターデザイン手島nari描き下ろしイ
- ラスト使用！二次元コスパよりアー写をイメージした
- トゲナシトゲアリ 5人の「アクリルスタンド アー写Ver
- …
-DESCRIPTION:キャラクターデザイン手島nari描き下ろしによ
- る、 アー写をイメージしたトゲナシトゲアリ 5人のイ
- ラストを使用した「アクリルスタンド アー写Ver.」が二
- 次元コスパから登場！\nアクリルスタンド アー写Ver.(5
- 種)は、 3/22(土)～23(日)東京ビッグサイトで開催の《Anime
- Japan 2025》COSPA(コスパ)ブースにて先行販売も決定！\n一
- 般販\n\nhttps://girls-band-cry.com/news/post-315.html
+SUMMARY:[发售] 角色设计手岛 nari 全新绘制！二次元 COSPA 推
+ 出无刺有刺 5 人「亚克力立牌 档案照 Ver.」！
+DESCRIPTION:手岛 nari 档案照风格全新绘制无刺有刺 5 人亚克
+ 力立牌由二次元 COSPA 推出；3/22–23 AnimeJapan 2025 COSPA 展
+ 位先行发售。\n\nhttps://girls-band-cry.com/news/post-315.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-315.html
+CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-315-2025-03-23-sale@gbc-news
+DTSTAMP:20250323T000000Z
+DTSTART;VALUE=DATE:20250323
+DTEND;VALUE=DATE:20250324
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 角色设计手岛 nari 全新绘制！二次元 COSPA 推
+ 出无刺有刺 5 人「亚克力立牌 档案照 Ver.」！
+DESCRIPTION:手岛 nari 档案照风格全新绘制无刺有刺 5 人亚克
+ 力立牌由二次元 COSPA 推出；3/22–23 AnimeJapan 2025 COSPA 展
+ 位先行发售。\n\nhttps://girls-band-cry.com/news/post-315.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-315.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
 UID:collabo-girls-band-cry-righteous-monster-t-shirt-cospa-anime-store-good
- s2025-2025-03-29-sale-2359@gbc-news
-DTSTAMP:20250329T145900Z
-DTSTART:20250329T145900Z
-DTEND:20250329T155900Z
-TRANSP:OPAQUE
+ s2025-2025-03-29-sale@gbc-news
+DTSTAMP:20250329T000000Z
+DTSTART;VALUE=DATE:20250329
+DTEND;VALUE=DATE:20250330
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ 正論モンスター & シ
- ティーガールのTシャツ 発売!
-DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
- 「ガールズバンドクライ (ガルクラ)」から、「正論モ
- ンスター Tシャツ」& 安和すばるの「シティーガール T
- シャツ」などアパレルグッズが2025年6月に発売される。
- \n4話ですばるが着用しているルームウェアの再現Tシャ
- ツや、ロックすぎる正論モンスターTシャツでなりきろ
- う。\n\n
+SUMMARY:[发售] Girls Band Cry 正论怪兽 & City Girl T 恤发售！
+DESCRIPTION:《Girls Band Cry（GBC）》「正论怪兽 T 恤」与昴「C
+ ity Girl T 恤」（各 3300 日元）预定 2025 年 6 月发售；Anime 
+ Store.JP 预约至 3 月 29 日。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-righteous-monster-t
  -shirt-cospa-anime-store-goods2025/
 URL;VALUE=URI:
@@ -1527,16 +1503,12 @@ DTSTART;VALUE=DATE:20250403
 DTEND;VALUE=DATE:20250501
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 4月3日(木)より『ガールズバンドクライ×夜
- のクラゲは泳げないコラボレーション POPUP SHOP』開催決
- 定！
-DESCRIPTION:同時期に放送されたオリジナルTVアニメ 「ガー
- ルズバンドクライ」と「夜のクラゲは泳げない」のコ
- ラボレーションPOPUP SHOP開催決定！\n相互にインスパイ
- アした衣装の“トゲナシトゲアリ”・“JELEE”を 手島na
- riとpopman3580がそれぞれ描き下ろし！\nPOPUP SHOPでは、描
- き下ろしイラストを使ったコラボレーショングッズの
- 販売や 等身大スタ\n\nhttps://girls-band-cry.com/news/post-321.html
+SUMMARY:[举办] 4 月 3 日（四）起《Girls Band Cry × 夜之水母
+ 不会游泳 联动 POPUP SHOP》举办！
+DESCRIPTION:《Girls Band Cry》×《夜之水母不会游泳》联动弹
+ 出商店于 HMV&BOOKS 涩谷・心斋桥・博多等店举办：2025 年 
+ 4 月 3 日–30 日，销售手岛 nari 与 popman3580 全新绘制联动
+ 周边。\n\nhttps://girls-band-cry.com/news/post-321.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-321.html
 CATEGORIES:togenashi,goods,event,media
 END:VEVENT
@@ -1547,15 +1519,12 @@ DTSTART;VALUE=DATE:20250404
 DTEND;VALUE=DATE:20250405
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガルクラ展×AniBirth池袋PARCO店「ノベルティ
- 連動キャンペーン」実施決定！
-DESCRIPTION:4/4(金)にNEW OPENするAniBirth池袋PARCO店と ガールズ
- バンドクライ展のノベルティ連動キャンペーンが実施
- 決定！\nAniBirth池袋PARCO店で「ガルクラグッズ」を含む
- 商品を 2\,200円(税込)以上ご購入の上、 ガルクラ展チケ
- ットを店舗でご提示いただくと 「ノベルティポストカ
- ード（ランダム5種）」をプレゼント！\n【レシート対
- 象期間】\n\nhttps://girls-band-cry.com/news/post-328.html
+SUMMARY:[举办] GBC 展 × AniBirth 池袋 PARCO 店「赠品联动活动
+ 」实施决定！
+DESCRIPTION:AniBirth 池袋 PARCO（4/4 开业）与 GBC 展联动：店内
+ 购满含 GBC 周边 2200 日元并出示展票，自 4/9 起赠随机明
+ 信片（5 种，售完即止）。\n\n
+ https://girls-band-cry.com/news/post-328.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-328.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
@@ -1582,15 +1551,12 @@ DTSTART;VALUE=DATE:20250409
 DTEND;VALUE=DATE:20250410
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガルクラ展×AniBirth池袋PARCO店「ノベルティ
- 連動キャンペーン」実施決定！
-DESCRIPTION:4/4(金)にNEW OPENするAniBirth池袋PARCO店と ガールズ
- バンドクライ展のノベルティ連動キャンペーンが実施
- 決定！\nAniBirth池袋PARCO店で「ガルクラグッズ」を含む
- 商品を 2\,200円(税込)以上ご購入の上、 ガルクラ展チケ
- ットを店舗でご提示いただくと 「ノベルティポストカ
- ード（ランダム5種）」をプレゼント！\n【レシート対
- 象期間】\n\nhttps://girls-band-cry.com/news/post-328.html
+SUMMARY:[举办] GBC 展 × AniBirth 池袋 PARCO 店「赠品联动活动
+ 」实施决定！
+DESCRIPTION:AniBirth 池袋 PARCO（4/4 开业）与 GBC 展联动：店内
+ 购满含 GBC 周边 2200 日元并出示展票，自 4/9 起赠随机明
+ 信片（5 种，售完即止）。\n\n
+ https://girls-band-cry.com/news/post-328.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-328.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT

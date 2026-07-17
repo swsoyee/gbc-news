@@ -1286,15 +1286,12 @@ DTSTART;VALUE=DATE:20250320
 DTEND;VALUE=DATE:20250321
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 劇場版総集編 前売券 第1弾 前後編セット券
- 詳細決定！
-DESCRIPTION:3月20日(木・祝）発売 前売券 第1弾 前後編セッ
- ト券 特典：ティザービジュアルB6クリアファイル ・メ
- イジャー通販サイト ・MOVIE WALKER STORE ・下記の映画館 
- にて数量限定販売！\n【販売映画館一覧】 北海道／札
- 幌シネマフロンティア 宮城／TOHOシネマズ仙台 東京／
- 新宿バルト９ 神奈川／横浜ブルク１３ 神奈川／チネチ
- ッタ\n\nhttps://girls-band-cry.com/news/post-320.html
+SUMMARY:[发售] 剧场版总集篇预售券第 1 弹 前后篇套票详情
+ 决定！
+DESCRIPTION:剧场版总集篇预售券第 1 弹前后篇套票于 2025 年
+  3 月 20 日发售，特典为 teaser 视觉 B6 透明文件夹；通贩
+ 及全国部分影院限量销售。\n\n
+ https://girls-band-cry.com/news/post-320.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-320.html
 CATEGORIES:togenashi,cinema
 END:VEVENT

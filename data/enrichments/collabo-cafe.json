@@ -1,6 +1,6 @@
 {
   "sourceId": "collabo-cafe",
-  "updatedAt": "2026-07-17T14:20:00.000Z",
+  "updatedAt": "2026-07-17T14:30:00.000Z",
   "items": {
     "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026": {
       "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
@@ -499,6 +499,22 @@
         }
       ],
       "reviewNotes": "7 月无具体日；去掉 23:59"
+    },
+    "collabo-girls-band-cry-righteous-monster-t-shirt-cospa-anime-store-goods2025": {
+      "id": "collabo-girls-band-cry-righteous-monster-t-shirt-cospa-anime-store-goods2025",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "d172595ada908de63ff61d92ade592cebf922d5707d5f1ad31b549e934d5f9f7",
+      "reviewedAt": "2026-07-17T14:30:00.000Z",
+      "titleZh": "Girls Band Cry 正论怪兽 & City Girl T 恤发售！",
+      "summaryZh": "《Girls Band Cry（GBC）》「正论怪兽 T 恤」与昴「City Girl T 恤」（各 3300 日元）预定 2025 年 6 月发售；Anime Store.JP 预约至 3 月 29 日。",
+      "eventDates": [
+        {
+          "date": "2025-03-29",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "6 月无具体日；去掉 23:59"
     }
   }
 }

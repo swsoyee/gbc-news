@@ -2821,41 +2821,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-305.html
 CATEGORIES:togenashi,live,goods,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-319-2025-03-09-hold-1000@gbc-news
+UID:post-319-2025-03-09-sale-1000@gbc-news
 DTSTAMP:20250309T010000Z
 DTSTART:20250309T010000Z
-DTEND:20250309T030000Z
+DTEND:20250309T020000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] ガルクラ展大阪会場の開催が決定！グッズ
- ・入場者プレゼント情報も解禁！
-DESCRIPTION:「ガールズバンドクライ展」大阪会場の開催が
- 決定しました！\n2025年９月に開催！\n続報をお楽しみに
- ！\n東京会場の通常チケットの前売り券は3/9(日)10:00～
- 販売開始！\n名古屋会場の「ガルクラ展オリジナルステ
- ンレスボード付きチケット」抽選申し込み受け付けは3/
- 9(日)23:59までです。\nこちらもお見逃しなく！\nそして
- 、グッズ情報と入場者プレゼントの情報が解禁\n\n
- https://girls-band-cry.com/news/post-319.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-319.html
-CATEGORIES:togenashi,live,goods,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-319-2025-03-09-hold-2359@gbc-news
-DTSTAMP:20250309T145900Z
-DTSTART:20250309T145900Z
-DTEND:20250309T165900Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] ガルクラ展大阪会場の開催が決定！グッズ
- ・入場者プレゼント情報も解禁！
-DESCRIPTION:「ガールズバンドクライ展」大阪会場の開催が
- 決定しました！\n2025年９月に開催！\n続報をお楽しみに
- ！\n東京会場の通常チケットの前売り券は3/9(日)10:00～
- 販売開始！\n名古屋会場の「ガルクラ展オリジナルステ
- ンレスボード付きチケット」抽選申し込み受け付けは3/
- 9(日)23:59までです。\nこちらもお見逃しなく！\nそして
- 、グッズ情報と入場者プレゼントの情報が解禁\n\n
+SUMMARY:[发售] GBC 展大阪会场举办决定！周边・入场赠品信
+ 息亦公开！
+DESCRIPTION:GBC 展大阪会场定于 2025 年 9 月举办；东京通常
+ 票预售 3/9 10:00 起，名古屋附不锈钢板门票抽选至 3/9 23:5
+ 9。\n并公开展会周边与入场赠品信息。\n\n
  https://girls-band-cry.com/news/post-319.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-319.html
 CATEGORIES:togenashi,live,goods,event
@@ -2977,15 +2953,12 @@ DTSTART;VALUE=DATE:20250404
 DTEND;VALUE=DATE:20250405
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガルクラ展×AniBirth池袋PARCO店「ノベルティ
- 連動キャンペーン」実施決定！
-DESCRIPTION:4/4(金)にNEW OPENするAniBirth池袋PARCO店と ガールズ
- バンドクライ展のノベルティ連動キャンペーンが実施
- 決定！\nAniBirth池袋PARCO店で「ガルクラグッズ」を含む
- 商品を 2\,200円(税込)以上ご購入の上、 ガルクラ展チケ
- ットを店舗でご提示いただくと 「ノベルティポストカ
- ード（ランダム5種）」をプレゼント！\n【レシート対
- 象期間】\n\nhttps://girls-band-cry.com/news/post-328.html
+SUMMARY:[举办] GBC 展 × AniBirth 池袋 PARCO 店「赠品联动活动
+ 」实施决定！
+DESCRIPTION:AniBirth 池袋 PARCO（4/4 开业）与 GBC 展联动：店内
+ 购满含 GBC 周边 2200 日元并出示展票，自 4/9 起赠随机明
+ 信片（5 种，售完即止）。\n\n
+ https://girls-band-cry.com/news/post-328.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-328.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
@@ -2996,35 +2969,27 @@ DTSTART;VALUE=DATE:20250409
 DTEND;VALUE=DATE:20250410
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガルクラ展×AniBirth池袋PARCO店「ノベルティ
- 連動キャンペーン」実施決定！
-DESCRIPTION:4/4(金)にNEW OPENするAniBirth池袋PARCO店と ガールズ
- バンドクライ展のノベルティ連動キャンペーンが実施
- 決定！\nAniBirth池袋PARCO店で「ガルクラグッズ」を含む
- 商品を 2\,200円(税込)以上ご購入の上、 ガルクラ展チケ
- ットを店舗でご提示いただくと 「ノベルティポストカ
- ード（ランダム5種）」をプレゼント！\n【レシート対
- 象期間】\n\nhttps://girls-band-cry.com/news/post-328.html
+SUMMARY:[举办] GBC 展 × AniBirth 池袋 PARCO 店「赠品联动活动
+ 」实施决定！
+DESCRIPTION:AniBirth 池袋 PARCO（4/4 开业）与 GBC 展联动：店内
+ 购满含 GBC 周边 2200 日元并出示展票，自 4/9 起赠随机明
+ 信片（5 种，售完即止）。\n\n
+ https://girls-band-cry.com/news/post-328.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-328.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-329-2025-04-09-sale@gbc-news
+UID:post-329-2025-04-09-hold@gbc-news
 DTSTAMP:20250409T000000Z
 DTSTART;VALUE=DATE:20250409
 DTEND;VALUE=DATE:20250410
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] ガルクラ展エリアマップなど、続々と情報
- 解禁！
-DESCRIPTION:「ガールズバンドクライ展」エリアマップが解
- 禁されました！\nそのほか展示内容詳細もガルクラ展HP
- にて公開。\nトゲナシトゲアリ5人の使用楽器モデルが
- 展示されるほか、スタジオを覗くことができるポータ
- ブル型ARも登場！\n（AR協力：Anique株式会社） また、4月
- 15日(火)に開催するトークショーへ「ガールズバンドク
- ライ」シリーズディレクター・酒井和男さんの登壇が
- 決\n\nhttps://girls-band-cry.com/news/post-329.html
+SUMMARY:[举办] GBC 展区域地图等信息陆续公开！
+DESCRIPTION:GBC 展公开区域地图与展品详情（含无刺有刺使
+ 用乐器模型、便携 AR）；4/15 talk 秀由酒井和男登台。\n
+ 东京会场自 4/9 起于池袋 Sunshine City 举办。\n\n
+ https://girls-band-cry.com/news/post-329.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-329.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
@@ -3085,22 +3050,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-330.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-329-2025-04-15-sale@gbc-news
+UID:post-329-2025-04-15-hold@gbc-news
 DTSTAMP:20250415T000000Z
 DTSTART;VALUE=DATE:20250415
 DTEND;VALUE=DATE:20250416
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] ガルクラ展エリアマップなど、続々と情報
- 解禁！
-DESCRIPTION:「ガールズバンドクライ展」エリアマップが解
- 禁されました！\nそのほか展示内容詳細もガルクラ展HP
- にて公開。\nトゲナシトゲアリ5人の使用楽器モデルが
- 展示されるほか、スタジオを覗くことができるポータ
- ブル型ARも登場！\n（AR協力：Anique株式会社） また、4月
- 15日(火)に開催するトークショーへ「ガールズバンドク
- ライ」シリーズディレクター・酒井和男さんの登壇が
- 決\n\nhttps://girls-band-cry.com/news/post-329.html
+SUMMARY:[举办] GBC 展区域地图等信息陆续公开！
+DESCRIPTION:GBC 展公开区域地图与展品详情（含无刺有刺使
+ 用乐器模型、便携 AR）；4/15 talk 秀由酒井和男登台。\n
+ 东京会场自 4/9 起于池袋 Sunshine City 举办。\n\n
+ https://girls-band-cry.com/news/post-329.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-329.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
@@ -3328,15 +3288,11 @@ DTSTART:20250515T100000Z
 DTEND:20250515T120000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] She is Legend×トゲナシトゲアリ 対バンライブ
- キービジュアル解禁！
-DESCRIPTION:2025年5月15日(木)東京ガーデンシアターにて開催
- される、She is Legendとトゲナシトゲアリの対バンライブ
- 。\n待望のキービジュアル＆ライブタイトルがついに解
- 禁！\nチケット情報など、詳しくは ＜こちら＞ ■公演
- 名 She is Legend×トゲナシトゲアリ 「SOUL & CRY」 ■出演 She
-  is Legend トゲナシトゲアリ ■開催日\n\n
- https://girls-band-cry.com/news/post-318.html
+SUMMARY:[举办] She is Legend × 无刺有刺 对邦 LIVE 主视觉解禁
+ ！
+DESCRIPTION:She is Legend × 无刺有刺「SOUL & CRY」于 2025 年 5 月
+  15 日在东京花园剧场举办，开演 19:00；主视觉与标题公
+ 开。\n\nhttps://girls-band-cry.com/news/post-318.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-318.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
@@ -3436,6 +3392,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-347.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-325-2025-06-27_2025-07-06-hold@gbc-news
+DTSTAMP:20250627T000000Z
+DTSTART;VALUE=DATE:20250627
+DTEND;VALUE=DATE:20250707
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] GBC 展福冈会场举办概要公开！
+DESCRIPTION:「Girls Band Cry 展」福冈会场于西铁 Hall 举办：202
+ 5 年 6 月 27 日–7 月 6 日（12:00–18:00）；票务另行公布
+ 。\n\nhttps://girls-band-cry.com/news/post-325.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-325.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-335-2025-06-27_2025-07-06-hold@gbc-news
 DTSTAMP:20250627T000000Z
 DTSTART;VALUE=DATE:20250627
@@ -3463,24 +3433,6 @@ DESCRIPTION:GBC 展福冈会场自 6/27 起举办，新增第 9・10・12
  的福冈版舞台通行证风缎面贴纸（15 名）。\n\n
  https://girls-band-cry.com/news/post-355.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-355.html
-CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-325-2025-06-27_2025-07-06-hold-1200@gbc-news
-DTSTAMP:20250627T030000Z
-DTSTART:20250627T030000Z
-DTEND:20250706T145900Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] ガルクラ展福岡会場の開催概要が解禁！
-DESCRIPTION:「ガールズバンドクライ展」福岡会場は 2025年6
- 月27日（金）～7月6日（日）の期間、西鉄ホールにて開
- 催いたします。\nチケット情報は後日公開予定！\n福岡
- 会場 開催概要 ■会期：2025年6月27日（金）～7月6日（日
- ） ※会期中無休 ■営業時間：12時～18時 ※最終入場は
- 閉場時間の30分前 ■会場：西鉄ホール（〒810-0001 福岡
- 市中央区天神2-11\n\nhttps://girls-band-cry.com/news/post-325.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-325.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
