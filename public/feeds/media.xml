@@ -4,7 +4,7 @@
     <title>gbc-news · 媒体</title>
     <link>https://gbc-news.example.com/</link>
     <description>ガールズバンドクライ 公式ニュース（媒体）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 12:19:21 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 12:20:01 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/media.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[举办] 生配信番組「トゲナシトゲアリ修行中」7月29日（土）17:00スタート</title>
@@ -476,19 +476,31 @@
       <description>4月27日(日)にKanadevia Hallで開催される『ガールズバンドクライ』2nd Anniversary LIVEのアーカイブ配信チケット、配信限定グッズ付きチケットの販売が決定！ 【チケット販売期間】 2025年4月25日(金)12:00～6月22日(日)21:59 【視聴期間】 2025年6月6日(金)19:00～6月22日(日)23:59 ※2</description>
     </item>
     <item>
-      <title>[举办] She is Legend×トゲナシトゲアリ 「SOUL &amp;#038; CRY」LIVEオンライン配信チケット販売開始！</title>
+      <title>[发售] She is Legend × 无刺有刺「SOUL &amp; CRY」LIVE 线上回放配信</title>
       <link>https://girls-band-cry.com/news/post-364.html</link>
-      <guid isPermaLink="false">post-364-2025-08-16_2025-08-31-hold-1200@gbc-news</guid>
-      <pubDate>Sat, 16 Aug 2025 03:00:00 GMT</pubDate>
+      <guid isPermaLink="false">post-364-2025-08-03_2025-08-31-sale@gbc-news</guid>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 GMT</pubDate>
       <category>live</category>
       <category>goods</category>
       <category>event</category>
       <category>media</category>
       <category domain="group">togenashi</category>
-      <description>５月15日(木)に東京ガーデンシアターで開催されたShe is Legend×トゲナシトゲアリ 「SOUL &amp; CRY」LIVEのアーカイブ配信チケット、配信限定グッズ付きチケットの販売が決定！ 今回はライブ本編に加えて、特別な舞台裏映像をライブと一緒に視聴可能です！ 【チケット販売期間】 2025年8月３日(日)21:30～8月31日(日)21:59 【視</description>
+      <description>She is Legend × 无刺有刺「SOUL &amp; CRY」LIVE 回放票务 8/3–8/31 销售；首播 8/16 12:00 起至 8/31 23:59 可观看（含幕后影像）。</description>
     </item>
     <item>
-      <title>[举办] 8月21日（木）より「ガールズバンドクライ×カラオケの鉄人 COLLABORATION」開催決定！</title>
+      <title>[举办] She is Legend × 无刺有刺「SOUL &amp; CRY」LIVE 线上回放配信</title>
+      <link>https://girls-band-cry.com/news/post-364.html</link>
+      <guid isPermaLink="false">post-364-2025-08-16_2025-08-31-hold@gbc-news</guid>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>goods</category>
+      <category>event</category>
+      <category>media</category>
+      <category domain="group">togenashi</category>
+      <description>She is Legend × 无刺有刺「SOUL &amp; CRY」LIVE 回放票务 8/3–8/31 销售；首播 8/16 12:00 起至 8/31 23:59 可观看（含幕后影像）。</description>
+    </item>
+    <item>
+      <title>[举办] 8 月 21 日（四）起「Girls Band Cry × 卡拉 OK 铁人 COLLABORATION」举办！</title>
       <link>https://girls-band-cry.com/news/post-362.html</link>
       <guid isPermaLink="false">post-362-2025-08-21_2025-09-28-hold@gbc-news</guid>
       <pubDate>Thu, 21 Aug 2025 00:00:00 GMT</pubDate>
@@ -496,7 +508,7 @@
       <category>event</category>
       <category>media</category>
       <category domain="group">togenashi</category>
-      <description>2025年8月21日（木）より、ガールズバンドクライとカラオケの鉄人のコラボイベント 「ガールズバンドクライ×カラオケの鉄人 COLLABORATION」が開催！ 「私服」をテーマにした室田雄平さん描き下ろしの新規イラストを使用した コラボグッズの先行販売の他に、コラボドリンクやコンセプトルームなど さまざまな企画がお楽しみいただけます。 コラボ対象店舗にて</description>
+      <description>《Girls Band Cry》× 卡拉 OK 铁人 5 店联动于 2025 年 8 月 21 日–9 月 28 日举办：联名饮品、室田雄平全新绘制周边、概念包厢与课题曲挑战等。</description>
     </item>
     <item>
       <title>[举办] 9 月 20 日（六）起「Girls Band Cry × 丸福咖啡店」联动举办！</title>

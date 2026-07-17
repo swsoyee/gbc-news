@@ -1495,6 +1495,38 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-330.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-363-2025-08-22-hold-1900@gbc-news
+DTSTAMP:20250822T100000Z
+DTSTART:20250822T100000Z
+DTEND:20250822T120000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺第 11 张 Single《薄采ディスプレイ
+ 》9 月 24 日（三）发售！
+DESCRIPTION:第 11 张 Single《薄采ディスプレイ》9/24 发售；
+ 收录曲《蜃気楼ニ問フ》MV 于 8/25 20:00 公开并先行配信
+ ，8/22 19:00 举办 Limista 线上 talk。\n\n
+ https://girls-band-cry.com/news/post-363.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-363.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-363-2025-08-25-hold-2000@gbc-news
+DTSTAMP:20250825T110000Z
+DTSTART:20250825T110000Z
+DTEND:20250825T130000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺第 11 张 Single《薄采ディスプレイ
+ 》9 月 24 日（三）发售！
+DESCRIPTION:第 11 张 Single《薄采ディスプレイ》9/24 发售；
+ 收录曲《蜃気楼ニ問フ》MV 于 8/25 20:00 公开并先行配信
+ ，8/22 19:00 举办 Limista 线上 talk。\n\n
+ https://girls-band-cry.com/news/post-363.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-363.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-373-2025-09-05-sale-1000@gbc-news
 DTSTAMP:20250905T010000Z
 DTSTART:20250905T010000Z
@@ -1528,42 +1560,18 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-309.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-363-2025-09-24-hold@gbc-news
-DTSTAMP:20250924T000000Z
-DTSTART;VALUE=DATE:20250924
-DTEND;VALUE=DATE:20250925
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ 11th Single 「薄采ディスプ
- レイ」9月24日(水)リリース！ 収録曲より、新曲「蜃気
- 楼ニ問フ」の Music Video…
-DESCRIPTION:9月24日(水)に11th Single「薄采ディスプレイ」のCD
- リリースが決定しました！\nカップリングには新曲「蜃
- 気楼ニ問フ」を収録。\nこちらの楽曲のMusic Videoを8月25
- 日(月) 20時に『ガールズバンドクライ』公式YouTubeチャ
- ンネルで初公開。\n同時に楽曲の先行配信もスタートし
- ます。\nさらに、メンバー5人が出演するオリジナルド
- ラマパートも収\n\nhttps://girls-band-cry.com/news/post-363.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-363.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
 UID:post-363-2025-09-24-sale@gbc-news
 DTSTAMP:20250924T000000Z
 DTSTART;VALUE=DATE:20250924
 DTEND;VALUE=DATE:20250925
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 11th Single 「薄采ディスプ
- レイ」9月24日(水)リリース！ 収録曲より、新曲「蜃気
- 楼ニ問フ」の Music Video…
-DESCRIPTION:9月24日(水)に11th Single「薄采ディスプレイ」のCD
- リリースが決定しました！\nカップリングには新曲「蜃
- 気楼ニ問フ」を収録。\nこちらの楽曲のMusic Videoを8月25
- 日(月) 20時に『ガールズバンドクライ』公式YouTubeチャ
- ンネルで初公開。\n同時に楽曲の先行配信もスタートし
- ます。\nさらに、メンバー5人が出演するオリジナルド
- ラマパートも収\n\nhttps://girls-band-cry.com/news/post-363.html
+SUMMARY:[发售] 无刺有刺第 11 张 Single《薄采ディスプレイ
+ 》9 月 24 日（三）发售！
+DESCRIPTION:第 11 张 Single《薄采ディスプレイ》9/24 发售；
+ 收录曲《蜃気楼ニ問フ》MV 于 8/25 20:00 公开并先行配信
+ ，8/22 19:00 举办 Limista 线上 talk。\n\n
+ https://girls-band-cry.com/news/post-363.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-363.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT

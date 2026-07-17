@@ -1,6 +1,6 @@
 {
   "sourceId": "gbc-news",
-  "updatedAt": "2026-07-17T13:35:00.000Z",
+  "updatedAt": "2026-07-17T13:45:00.000Z",
   "items": {
     "post-483": {
       "id": "post-483",
@@ -1520,6 +1520,145 @@
       "eventDates": [
         {
           "date": "2025-09-23",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-366": {
+      "id": "post-366",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "3de08ead582dee8a45c1493de63bed07b6ca285597d0014f89bb1dbfa14a30f0",
+      "reviewedAt": "2026-07-17T13:45:00.000Z",
+      "titleZh": "《Girls Band Cry》弹出商店 2025 年首次于中国华南举办！",
+      "summaryZh": "《Girls Band Cry》弹出商店于深圳大悦城 L1 星空中庭举办：2025 年 9 月 20 日–11 月 2 日，设沉浸式体验区并销售毛绒、徽章、亚克力立牌等限定周边。",
+      "eventDates": [
+        {
+          "date": "2025-09-20",
+          "endDate": "2025-11-02",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-371": {
+      "id": "post-371",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "793590e7d7d405213c4df966158b1eb63eaab9061eaca5d3d43e5c5afbcf9f03",
+      "reviewedAt": "2026-07-17T13:45:00.000Z",
+      "titleZh": "无刺有刺 LIVE in 日本武道馆 “奏檄之叫” 8 月 30 日（六）10:00 起一般抽选发售",
+      "summaryZh": "无刺有刺武道馆 LIVE “奏檄之叫”（9/23 开演 18:00）注释指定席等票种一般抽选：受理 8/30 10:00–9/3 23:59，结果 9/6 12:00 起公布。",
+      "eventDates": [
+        {
+          "date": "2025-08-30",
+          "endDate": "2025-09-03",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-09-23",
+          "kind": "hold",
+          "startTime": "18:00"
+        }
+      ],
+      "reviewNotes": "抽选跨日去时刻；公演 hold"
+    },
+    "post-370": {
+      "id": "post-370",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "c791c0094d82b7f4b098addb2ad118e1b89ec4272f0e6797478090862ce20e9e",
+      "reviewedAt": "2026-07-17T13:45:00.000Z",
+      "titleZh": "无刺有刺决定出演学园祭 LIVE！",
+      "summaryZh": "无刺有刺将出演 Natalie × 日本工学院蒲田祭 School Festival LIVE：2025 年 11 月 3 日于日本工学院 Arena，开演 15:30。",
+      "eventDates": [
+        {
+          "date": "2025-11-03",
+          "kind": "hold",
+          "startTime": "15:30"
+        }
+      ]
+    },
+    "post-365": {
+      "id": "post-365",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "97bc1aae230decfa380ef0af5dbb94008866f4a3e3c1e25e75c76c2665fac72c",
+      "reviewedAt": "2026-07-17T13:45:00.000Z",
+      "titleZh": "8 月 15 日（五）发售！无刺有刺室内周边新增 T 恤图案徽章、人气斜角亚克力立牌",
+      "summaryZh": "无刺有刺室内周边等于 8/15 起在 AniBirth 池袋・心斋桥店发售；名古屋 PARCO 出差店 8/8–8/31 亦可购买。",
+      "eventDates": [
+        {
+          "date": "2025-08-15",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-08-08",
+          "endDate": "2025-08-31",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "补录名古屋出差店会期"
+    },
+    "post-364": {
+      "id": "post-364",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8321a0a0d25d8d15e780c951284514620ef73ab58fa00b127da446e6ac3eae0d",
+      "reviewedAt": "2026-07-17T13:45:00.000Z",
+      "titleZh": "She is Legend × 无刺有刺「SOUL & CRY」LIVE 线上回放配信",
+      "summaryZh": "She is Legend × 无刺有刺「SOUL & CRY」LIVE 回放票务 8/3–8/31 销售；首播 8/16 12:00 起至 8/31 23:59 可观看（含幕后影像）。",
+      "eventDates": [
+        {
+          "date": "2025-08-03",
+          "endDate": "2025-08-31",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-08-16",
+          "endDate": "2025-08-31",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "跨日>24h 去时刻"
+    },
+    "post-363": {
+      "id": "post-363",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f230f73e3d1f19796466961729a675e8c0d5791db8b9428da64159fd4bf6cdc5",
+      "reviewedAt": "2026-07-17T13:45:00.000Z",
+      "titleZh": "无刺有刺第 11 张 Single《薄采ディスプレイ》9 月 24 日（三）发售！",
+      "summaryZh": "第 11 张 Single《薄采ディスプレイ》9/24 发售；收录曲《蜃気楼ニ問フ》MV 于 8/25 20:00 公开并先行配信，8/22 19:00 举办 Limista 线上 talk。",
+      "eventDates": [
+        {
+          "date": "2025-09-24",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-08-25",
+          "kind": "hold",
+          "startTime": "20:00"
+        },
+        {
+          "date": "2025-08-22",
+          "kind": "hold",
+          "startTime": "19:00"
+        }
+      ],
+      "reviewNotes": "去掉重复 hold；补录 MV/talk"
+    },
+    "post-362": {
+      "id": "post-362",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "d0c79887fecf6faa7ecde09bf2c65016d5a021cf02ee1d5e8625025a48620bae",
+      "reviewedAt": "2026-07-17T13:45:00.000Z",
+      "titleZh": "8 月 21 日（四）起「Girls Band Cry × 卡拉 OK 铁人 COLLABORATION」举办！",
+      "summaryZh": "《Girls Band Cry》× 卡拉 OK 铁人 5 店联动于 2025 年 8 月 21 日–9 月 28 日举办：联名饮品、室田雄平全新绘制周边、概念包厢与课题曲挑战等。",
+      "eventDates": [
+        {
+          "date": "2025-08-21",
+          "endDate": "2025-09-28",
           "kind": "hold"
         }
       ]

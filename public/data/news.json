@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-17T12:19:20.959Z",
+  "scrapedAt": "2026-07-17T12:20:01.001Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
@@ -3470,12 +3470,19 @@
       "eventDates": [
         {
           "date": "2025-08-30",
+          "endDate": "2025-09-03",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-09-23",
           "kind": "hold",
-          "startTime": "10:00"
+          "startTime": "18:00"
         }
       ],
       "summary": "トゲナシトゲアリ LIVE in 日本武道館 “奏檄の叫”公演 8月30日(土)10:00より一般抽選販売が決定しました！ 発売する券種は注釈付指定席、ステージサイドバック席になります。 注意事項をご確認の上、お申し込みください。 ■日時：2025年9月23日（火・祝） ■時間：OPEN/16:30 START/18:00 ■会場：日本武道館 ■チケット金額",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/02/0207%E6%97%A5%E6%9C%AC%E6%AD%A6%E9%81%93%E9%A4%A8%E5%91%8A%E7%9F%A5%E7%94%BB%E5%83%8F-1024x576.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/02/0207%E6%97%A5%E6%9C%AC%E6%AD%A6%E9%81%93%E9%A4%A8%E5%91%8A%E7%9F%A5%E7%94%BB%E5%83%8F-1024x576.jpg",
+      "titleZh": "无刺有刺 LIVE in 日本武道馆 “奏檄之叫” 8 月 30 日（六）10:00 起一般抽选发售",
+      "summaryZh": "无刺有刺武道馆 LIVE “奏檄之叫”（9/23 开演 18:00）注释指定席等票种一般抽选：受理 8/30 10:00–9/3 23:59，结果 9/6 12:00 起公布。"
     },
     {
       "id": "post-366",
@@ -3493,12 +3500,14 @@
       "eventDates": [
         {
           "date": "2025-09-20",
-          "kind": "hold",
-          "endDate": "2025-11-02"
+          "endDate": "2025-11-02",
+          "kind": "hold"
         }
       ],
       "summary": "「ガールズバンドクライ」のポップアップストアが、2025年9月20日より、深圳大悦城で開催予定です！ 没入型体験ゾーンだけでなく、新柄の新しいグッズも用意してます！ ぬいぐるみ、バッジ、アクリルスタンドなどの期間限定オリジナルグッズを多数取り揃えています！ ぜひ深圳大悦城で、ガールズバンドの魅力を一緒に体感しましょう！ 開催期間：2025年9月20日～11月",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png",
+      "titleZh": "《Girls Band Cry》弹出商店 2025 年首次于中国华南举办！",
+      "summaryZh": "《Girls Band Cry》弹出商店于深圳大悦城 L1 星空中庭举办：2025 年 9 月 20 日–11 月 2 日，设沉浸式体验区并销售毛绒、徽章、亚克力立牌等限定周边。"
     },
     {
       "id": "post-370",
@@ -3520,7 +3529,9 @@
         }
       ],
       "summary": "トゲナシトゲアリ、学園祭ライブへの出演が決定しました！ ナタリー × 日本工学院かまた祭 School Festival LIVE “トゲナシトゲアリ” ■日時：2025年11月3日(月・祝) ■時間：OPEN 14:30 / START 15:30 ■会場：日本工学院専門学校 日本工学院アリーナ ▶詳細は＜ こちら ＞",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/08/fix_LP0826-1024x576.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/08/fix_LP0826-1024x576.jpg",
+      "titleZh": "无刺有刺决定出演学园祭 LIVE！",
+      "summaryZh": "无刺有刺将出演 Natalie × 日本工学院蒲田祭 School Festival LIVE：2025 年 11 月 3 日于日本工学院 Arena，开演 15:30。"
     },
     {
       "id": "post-368",
@@ -3567,12 +3578,14 @@
       "eventDates": [
         {
           "date": "2025-08-21",
-          "kind": "hold",
-          "endDate": "2025-09-28"
+          "endDate": "2025-09-28",
+          "kind": "hold"
         }
       ],
       "summary": "東映アニメーションが贈るオリジナルTVアニメ「ガールズバンドクライ」× カラオケの鉄人 池袋東口店、カラオケの鉄人コラボミックス (福岡天神店、大阪なんば店、名古屋名駅店、松山銀天街店) にて、2025年8月21日〜9月28日までコラボキャンペーンが開催される。コラボメニューやグッズ、コラボルームなどを展開!",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/cdf540a11ae20c8c0ab3b03282f5a43e-2469.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/cdf540a11ae20c8c0ab3b03282f5a43e-2469.jpg",
+      "titleZh": "Girls Band Cry × 卡拉 OK 铁人 5 店 8 月 21 日起联动举办！",
+      "summaryZh": "《Girls Band Cry》× 卡拉 OK 铁人 5 店联动于 2025 年 8 月 21 日–9 月 28 日举办：联名饮品、室田雄平全新绘制特典与周边、概念包厢及课题曲挑战。"
     },
     {
       "id": "collabo-girls-band-cry-sanrio-a3-anime-store-goods2025",
@@ -3589,12 +3602,13 @@
       "eventDates": [
         {
           "date": "2025-08-27",
-          "kind": "sale",
-          "startTime": "23:59"
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが贈るオリジナルTVアニメ「ガールズバンドクライ (ガルクラ)」×「サンリオキャラクターズ」から、コラボグッズが2025年10月に一般発売される。サンリオアニメストア等にて開催のポップアップストア先行販売アイテムで、トゲトゲメンバーとサンリオキャラたちのコラボイラストを使用したアクスタが登場！",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/7b8982fb78a0b7f7d834a2fa4e241c99-955.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/7b8982fb78a0b7f7d834a2fa4e241c99-955.jpg",
+      "titleZh": "Girls Band Cry × 三丽鸥 昴 & Kitty 联动周边发售！",
+      "summaryZh": "《Girls Band Cry（GBC）》× 三丽鸥联动周边预定 2025 年 10 月一般发售；Anime Store.JP 预约至 2025 年 8 月 27 日。含刺刺・Diamond Dust 与三丽鸥角色全新绘制共 8 款。"
     },
     {
       "id": "post-365",
@@ -3613,10 +3627,17 @@
         {
           "date": "2025-08-15",
           "kind": "sale"
+        },
+        {
+          "date": "2025-08-08",
+          "endDate": "2025-08-31",
+          "kind": "hold"
         }
       ],
       "summary": "2025/8/15（金）～AniBirth各店舗にて新商品が発売！ トゲナシトゲアリたちのインテリアグッズにTシャツデザインの缶バッジ、人気のバッテンアクリルスタンドが登場！ 【販売店舗】 AniBirth池袋PARCO店 AniBirth心斎橋PARCO店 【期間限定出張店】 AniBirth名古屋PARCO店 期間：8/8（金）～8/31（日） AniB",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "8 月 15 日（五）发售！无刺有刺室内周边新增 T 恤图案徽章、人气斜角亚克力立牌",
+      "summaryZh": "无刺有刺室内周边等于 8/15 起在 AniBirth 池袋・心斋桥店发售；名古屋 PARCO 出差店 8/8–8/31 亦可购买。"
     },
     {
       "id": "post-364",
@@ -3635,15 +3656,20 @@
       ],
       "eventDates": [
         {
-          "date": "2025-08-16",
-          "kind": "hold",
+          "date": "2025-08-03",
           "endDate": "2025-08-31",
-          "startTime": "12:00",
-          "endTime": "23:59"
+          "kind": "sale"
+        },
+        {
+          "date": "2025-08-16",
+          "endDate": "2025-08-31",
+          "kind": "hold"
         }
       ],
       "summary": "５月15日(木)に東京ガーデンシアターで開催されたShe is Legend×トゲナシトゲアリ 「SOUL & CRY」LIVEのアーカイブ配信チケット、配信限定グッズ付きチケットの販売が決定！ 今回はライブ本編に加えて、特別な舞台裏映像をライブと一緒に視聴可能です！ 【チケット販売期間】 2025年8月３日(日)21:30～8月31日(日)21:59 【視",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "She is Legend × 无刺有刺「SOUL & CRY」LIVE 线上回放配信",
+      "summaryZh": "She is Legend × 无刺有刺「SOUL & CRY」LIVE 回放票务 8/3–8/31 销售；首播 8/16 12:00 起至 8/31 23:59 可观看（含幕后影像）。"
     },
     {
       "id": "post-363",
@@ -3663,15 +3689,23 @@
       "eventDates": [
         {
           "date": "2025-09-24",
-          "kind": "hold"
+          "kind": "sale"
         },
         {
-          "date": "2025-09-24",
-          "kind": "sale"
+          "date": "2025-08-25",
+          "kind": "hold",
+          "startTime": "20:00"
+        },
+        {
+          "date": "2025-08-22",
+          "kind": "hold",
+          "startTime": "19:00"
         }
       ],
       "summary": "9月24日(水)に11th Single「薄采ディスプレイ」のCDリリースが決定しました！ カップリングには新曲「蜃気楼ニ問フ」を収録。 こちらの楽曲のMusic Videoを8月25日(月) 20時に『ガールズバンドクライ』公式YouTubeチャンネルで初公開。同時に楽曲の先行配信もスタートします。 さらに、メンバー5人が出演するオリジナルドラマパートも収",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "无刺有刺第 11 张 Single《薄采ディスプレイ》9 月 24 日（三）发售！",
+      "summaryZh": "第 11 张 Single《薄采ディスプレイ》9/24 发售；收录曲《蜃気楼ニ問フ》MV 于 8/25 20:00 公开并先行配信，8/22 19:00 举办 Limista 线上 talk。"
     },
     {
       "id": "post-362",
@@ -3690,12 +3724,14 @@
       "eventDates": [
         {
           "date": "2025-08-21",
-          "kind": "hold",
-          "endDate": "2025-09-28"
+          "endDate": "2025-09-28",
+          "kind": "hold"
         }
       ],
       "summary": "2025年8月21日（木）より、ガールズバンドクライとカラオケの鉄人のコラボイベント 「ガールズバンドクライ×カラオケの鉄人 COLLABORATION」が開催！ 「私服」をテーマにした室田雄平さん描き下ろしの新規イラストを使用した コラボグッズの先行販売の他に、コラボドリンクやコンセプトルームなど さまざまな企画がお楽しみいただけます。 コラボ対象店舗にて",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png",
+      "titleZh": "8 月 21 日（四）起「Girls Band Cry × 卡拉 OK 铁人 COLLABORATION」举办！",
+      "summaryZh": "《Girls Band Cry》× 卡拉 OK 铁人 5 店联动于 2025 年 8 月 21 日–9 月 28 日举办：联名饮品、室田雄平全新绘制周边、概念包厢与课题曲挑战等。"
     },
     {
       "id": "collabo-girls-band-cry-scene-shot-t-shirt-armabianca-anime-store-goods2025",
@@ -3712,12 +3748,13 @@
       "eventDates": [
         {
           "date": "2025-08-10",
-          "kind": "sale",
-          "startTime": "23:59"
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが贈るオリジナルTVアニメ「ガールズバンドクライ (ガルクラ)」から、作中の印象的なシーンを集めた「場面写」の新作グッズが2025年10月に発売される。井芹仁菜・河原木桃香・安和すばる・海老塚智・ルパらトゲナシトゲアリのメンバー5人の場面写アクスタ & Tシャツや、キャラクターカードが新登場！",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/7b8982fb78a0b7f7d834a2fa4e241c99-928.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/7b8982fb78a0b7f7d834a2fa4e241c99-928.jpg",
+      "titleZh": "Girls Band Cry 昴等人亚克力立牌 & T 恤 场面截图周边发售！",
+      "summaryZh": "《Girls Band Cry（GBC）》场面截图主题周边（立牌、T 恤、角色卡等 7 种）由 armabianca 预定 2025 年 10 月中旬发售；Anime Store.JP 预约至 8 月 10 日。"
     },
     {
       "id": "post-361",

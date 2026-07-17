@@ -1,6 +1,6 @@
 {
   "sourceId": "collabo-cafe",
-  "updatedAt": "2026-07-17T13:35:00.000Z",
+  "updatedAt": "2026-07-17T13:45:00.000Z",
   "items": {
     "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026": {
       "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
@@ -370,6 +370,54 @@
           "kind": "hold"
         }
       ]
+    },
+    "collabo-girls-band-cry-karatetsu-2025": {
+      "id": "collabo-girls-band-cry-karatetsu-2025",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "6530b04748cb9ed06dae1be54a1c6e5928a74ad5ca0eb07d94262c8a4848bc49",
+      "reviewedAt": "2026-07-17T13:45:00.000Z",
+      "titleZh": "Girls Band Cry × 卡拉 OK 铁人 5 店 8 月 21 日起联动举办！",
+      "summaryZh": "《Girls Band Cry》× 卡拉 OK 铁人 5 店联动于 2025 年 8 月 21 日–9 月 28 日举办：联名饮品、室田雄平全新绘制特典与周边、概念包厢及课题曲挑战。",
+      "eventDates": [
+        {
+          "date": "2025-08-21",
+          "endDate": "2025-09-28",
+          "kind": "hold"
+        }
+      ]
+    },
+    "collabo-girls-band-cry-sanrio-a3-anime-store-goods2025": {
+      "id": "collabo-girls-band-cry-sanrio-a3-anime-store-goods2025",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "d9cba94734bbfaf97510392ac87a7c59328a0974595f119ecb9d13da5e19c840",
+      "reviewedAt": "2026-07-17T13:45:00.000Z",
+      "titleZh": "Girls Band Cry × 三丽鸥 昴 & Kitty 联动周边发售！",
+      "summaryZh": "《Girls Band Cry（GBC）》× 三丽鸥联动周边预定 2025 年 10 月一般发售；Anime Store.JP 预约至 2025 年 8 月 27 日。含刺刺・Diamond Dust 与三丽鸥角色全新绘制共 8 款。",
+      "eventDates": [
+        {
+          "date": "2025-08-27",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "10 月无具体日；预约截止"
+    },
+    "collabo-girls-band-cry-scene-shot-t-shirt-armabianca-anime-store-goods2025": {
+      "id": "collabo-girls-band-cry-scene-shot-t-shirt-armabianca-anime-store-goods2025",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "377a501c56cca13be8c21aad45740ac5392abb4ff96d45302ba2d36a701b6505",
+      "reviewedAt": "2026-07-17T13:45:00.000Z",
+      "titleZh": "Girls Band Cry 昴等人亚克力立牌 & T 恤 场面截图周边发售！",
+      "summaryZh": "《Girls Band Cry（GBC）》场面截图主题周边（立牌、T 恤、角色卡等 7 种）由 armabianca 预定 2025 年 10 月中旬发售；Anime Store.JP 预约至 8 月 10 日。",
+      "eventDates": [
+        {
+          "date": "2025-08-10",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "10 月中旬无具体日"
     }
   }
 }
