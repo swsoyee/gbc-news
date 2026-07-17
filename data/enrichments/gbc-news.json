@@ -1,6 +1,6 @@
 {
   "sourceId": "gbc-news",
-  "updatedAt": "2026-07-17T13:55:00.000Z",
+  "updatedAt": "2026-07-17T14:10:00.000Z",
   "items": {
     "post-483": {
       "id": "post-483",
@@ -1808,6 +1808,151 @@
       "eventDates": [
         {
           "date": "2025-07-11",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-349": {
+      "id": "post-349",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "241c6183f7dbc645948f78fe981034765495a98fc79c37aa49d539c1343091dc",
+      "reviewedAt": "2026-07-17T14:10:00.000Z",
+      "titleZh": "无刺有刺首次台湾个人演唱会决定在台北举办！",
+      "summaryZh": "无刺有刺 Live in TAIPEI “凛音の理” 于 2025 年 8 月 10 日在台北 LEGACY TERA 举办，开演 18:30（当地时间）；票务 6 月 14 日 12:00 起发售。",
+      "eventDates": [
+        {
+          "date": "2025-06-14",
+          "kind": "sale",
+          "startTime": "12:00"
+        },
+        {
+          "date": "2025-08-10",
+          "kind": "hold",
+          "startTime": "18:30"
+        }
+      ],
+      "reviewNotes": "补录公演日与开演时刻"
+    },
+    "post-348": {
+      "id": "post-348",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "d5c56f2881387ce24dccd37619a1786026fc2e988d2f1de82fb0bc38c66877be",
+      "reviewedAt": "2026-07-17T14:10:00.000Z",
+      "titleZh": "剧场版总集篇 Movi-Ticket 预售券（卡）第 2 弹发售！",
+      "summaryZh": "剧场版总集篇 Girls Band Cry Movi-Ticket 预售券（卡）第 2 弹自 2025 年 5 月 30 日起在部分影院及通贩渠道发售；第 1 弹销售影院名单亦追加公开。",
+      "eventDates": [
+        {
+          "date": "2025-05-30",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-346": {
+      "id": "post-346",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "49b0cc2b874425427ded91a14d9a1c97536ca85c1384be6f6097b062d6c37d3c",
+      "reviewedAt": "2026-07-17T14:10:00.000Z",
+      "titleZh": "无刺有刺『2nd ONE-MAN LIVE “凛音の理”』『3rd ONE-MAN LIVE “咆哮の奏”』[Blu-ray][DVD] 7 月 23 日（三）两作同时发售！",
+      "summaryZh": "无刺有刺 2nd「凛音の理」、3rd「咆哮の奏」个人演唱会影像于 2025 年 7 月 23 日同时发售 Blu-ray/DVD，附幕后影像、交易卡及最速先行抽选申请券。",
+      "eventDates": [
+        {
+          "date": "2025-07-23",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "发售日为 sale；去掉重复 hold"
+    },
+    "post-347": {
+      "id": "post-347",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "22918c4237bfd33b6cdba05c7515f1791ba03aee5898ddb84ca2d219417adc0b",
+      "reviewedAt": "2026-07-17T14:10:00.000Z",
+      "titleZh": "【6/20】无刺有刺个人演唱会『凛音の理』&『咆哮の奏』[Blu-ray][DVD] 两作同时发售纪念线上 talk 配信",
+      "summaryZh": "纪念 2nd/3rd 个人演唱会影像同时发售，6 月 20 日 18:00–19:00 于 Limista 举办线上 talk 配信（理名・夕莉・朱李出演预定）；预约抽选获签名卡。",
+      "eventDates": [
+        {
+          "date": "2025-06-20",
+          "kind": "hold",
+          "startTime": "18:00",
+          "endTime": "19:00"
+        }
+      ],
+      "reviewNotes": "去掉误标 sale"
+    },
+    "post-345": {
+      "id": "post-345",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "6ea1aa5fcb6d1c67d719e83a925ab84fdc130f8aafcd0bed2aff534c7a344340",
+      "reviewedAt": "2026-07-17T14:10:00.000Z",
+      "titleZh": "She is Legend × 无刺有刺 回放配信决定！",
+      "summaryZh": "5 月 15 日举办的 She is Legend × 无刺有刺「SOUL & CRY」对邦 LIVE 决定提供回放配信，详情另行公布。",
+      "eventDates": [
+        {
+          "date": "2025-05-15",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "回放日程未公布，仅保留原公演日"
+    },
+    "post-343": {
+      "id": "post-343",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "bda1d557522cb0f489cf85319b4193faa61a0ed9ca338aeb4ef88c5fa36a507c",
+      "reviewedAt": "2026-07-17T14:10:00.000Z",
+      "titleZh": "She is Legend × 刺刺对邦『SOUL & CRY』举办直前双关注活动举办！",
+      "summaryZh": "纪念「SOUL & CRY」对邦，She is Legend 与 Girls Band Cry 官方 X 举办双关注＆转发抽奖，截止 2025 年 5 月 14 日 23:59，抽选 2 名赠签名周边。",
+      "eventDates": [
+        {
+          "date": "2025-05-14",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "截止日；去掉误抽 23:59"
+    },
+    "post-340": {
+      "id": "post-340",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "edd69fadb128ab89bad594c823b1d2cd011cb0af6c9a29c4e581fe87cb31ab47",
+      "reviewedAt": "2026-07-17T14:10:00.000Z",
+      "titleZh": "无刺有刺 LIVE in 日本武道馆 “奏檄之叫”【Girls Band Cry 2 周年纪念先行发售】开始通知",
+      "summaryZh": "无刺有刺武道馆 LIVE “奏檄之叫”（9/23）追加 GBC 2 周年纪念先行：申请 4/27–5/19，结果 5/27 起，入金至 6/1。",
+      "eventDates": [
+        {
+          "date": "2025-04-27",
+          "endDate": "2025-05-19",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-05-27",
+          "endDate": "2025-06-01",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-09-23",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "跨日去时刻；售票为 sale"
+    },
+    "post-341": {
+      "id": "post-341",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8e38cff75d71903c34c5448c6b8272bf22c8e346359c95fdce8c8bf409536696",
+      "reviewedAt": "2026-07-17T14:10:00.000Z",
+      "titleZh": "GBC 展大阪会场举办概要公开！",
+      "summaryZh": "「Girls Band Cry 展」大阪会场于大丸博物馆梅田举办：2025 年 9 月 17 日–30 日；票务与营业时间另行公布。",
+      "eventDates": [
+        {
+          "date": "2025-09-17",
+          "endDate": "2025-09-30",
           "kind": "hold"
         }
       ]

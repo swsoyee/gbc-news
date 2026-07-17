@@ -1,6 +1,6 @@
 {
   "sourceId": "collabo-cafe",
-  "updatedAt": "2026-07-17T13:55:00.000Z",
+  "updatedAt": "2026-07-17T14:10:00.000Z",
   "items": {
     "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026": {
       "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
@@ -450,6 +450,39 @@
         }
       ],
       "reviewNotes": "8 月再贩无具体日"
+    },
+    "collabo-girls-band-cry-family-mart-goods-2025": {
+      "id": "collabo-girls-band-cry-family-mart-goods-2025",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "d21a148ae5f9f47925fa631a4d4e3f7f0655a05f5450180f83353507e995ec07",
+      "reviewedAt": "2026-07-17T14:10:00.000Z",
+      "titleZh": "Girls Band Cry 限定周边 5 月 23 日起于 FamilyMart 发售！",
+      "summaryZh": "《Girls Band Cry（GBC）》限定周边自 2025 年 5 月 23 日 10:00 起在全国部分 FamilyMart 发售，含手岛 nari 全新绘制无刺有刺成员亚克力立牌与透明文件夹套装；售完即止。",
+      "eventDates": [
+        {
+          "date": "2025-05-23",
+          "kind": "sale",
+          "startTime": "10:00"
+        }
+      ],
+      "reviewNotes": "发售为 sale；去掉重复 hold"
+    },
+    "collabo-girls-band-cry-aloha-shirt-cospa-anime-store-goods2025": {
+      "id": "collabo-girls-band-cry-aloha-shirt-cospa-anime-store-goods2025",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "e4ab6349d6dc8091b488e12fe956611d34f932c40fe7df9c059922cceb8a16bb",
+      "reviewedAt": "2026-07-17T14:10:00.000Z",
+      "titleZh": "Girls Band Cry 初回生产限定 无刺有刺 Aloha 衬衫发售！",
+      "summaryZh": "无刺有刺 Aloha 衬衫 2025MODEL（初回生产限定，M–XXL，各 14080 日元）由二次元 COSPA 预定 2025 年 8 月发售；Anime Store.JP 预约至 5 月 17 日。",
+      "eventDates": [
+        {
+          "date": "2025-05-17",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "8 月无具体日；去掉 23:59"
     }
   }
 }

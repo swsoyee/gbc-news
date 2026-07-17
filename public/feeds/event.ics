@@ -3083,20 +3083,18 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-331.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-343-2025-05-14-hold-2359@gbc-news
-DTSTAMP:20250514T145900Z
-DTSTART:20250514T145900Z
-DTEND:20250514T165900Z
-TRANSP:OPAQUE
+UID:post-343-2025-05-14-hold@gbc-news
+DTSTAMP:20250514T000000Z
+DTSTART;VALUE=DATE:20250514
+DTEND;VALUE=DATE:20250515
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] シーレジェトゲトゲ対バン『SOUL&#038\;CRY』
- 開催直前 Wフォローキャンペーン開催！
-DESCRIPTION:She is Legend & トゲナシトゲアリ 直筆サイン入り
- ライブグッズを2名様にプレゼント @SiL_official_jp @girlsband
- cry をフォロー& キャンペーン投稿 をリポストで応募完
- 了！\n／ #シーレジェトゲトゲ対バン 『SOUL&CRY』開催直
- 前 Wフォローキャンペーン ＼ She is Legend & トゲナシトゲ
- ア\n\nhttps://girls-band-cry.com/news/post-343.html
+SUMMARY:[举办] She is Legend × 刺刺对邦『SOUL & CRY』举办直前
+ 双关注活动举办！
+DESCRIPTION:纪念「SOUL & CRY」对邦，She is Legend 与 Girls Band Cry
+  官方 X 举办双关注＆转发抽奖，截止 2025 年 5 月 14 日 23
+ :59，抽选 2 名赠签名周边。\n\n
+ https://girls-band-cry.com/news/post-343.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-343.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
@@ -3126,11 +3124,9 @@ DTSTART;VALUE=DATE:20250515
 DTEND;VALUE=DATE:20250516
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] SheisLegend×トゲナシトゲアリ アーカイブ配
- 信決定！
-DESCRIPTION:5月15日に開催された対バンライブ SheisLegend×ト
- ゲナシトゲアリ「SOUL&CRY」のアーカイブ配信が決定！\n
- 詳細は後日発表します！\nライブ情報は こちら\n\n
+SUMMARY:[举办] She is Legend × 无刺有刺 回放配信决定！
+DESCRIPTION:5 月 15 日举办的 She is Legend × 无刺有刺「SOUL & CR
+ Y」对邦 LIVE 决定提供回放配信，详情另行公布。\n\n
  https://girls-band-cry.com/news/post-345.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-345.html
 CATEGORIES:togenashi,live,event
@@ -3219,36 +3215,14 @@ DTSTART:20250614T030000Z
 DTEND:20250614T040000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ初台湾ワンマンライブが
- 台北で開催決定！
-DESCRIPTION:TOGENASHI TOGEARI Live in TAIPEI “凛音の理” ■日時
- ：2025年8月10日（日） ■時間：OPEN：17:30 START：18:30 （現
- 地時間） ■会場：LEGACY TERA （台北市南港區市民大道八
- 段99號） ■チケット金額：VIPチケット $3\,800 NTD（優先
- 入場&お見送り会） ・一般チケットA $2\,900\n\n
+SUMMARY:[发售] 无刺有刺首次台湾个人演唱会决定在台北举
+ 办！
+DESCRIPTION:无刺有刺 Live in TAIPEI “凛音の理” 于 2025 年 8 
+ 月 10 日在台北 LEGACY TERA 举办，开演 18:30（当地时间）；
+ 票务 6 月 14 日 12:00 起发售。\n\n
  https://girls-band-cry.com/news/post-349.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-349.html
 CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-347-2025-06-20-sale@gbc-news
-DTSTAMP:20250620T000000Z
-DTSTART;VALUE=DATE:20250620
-DTEND;VALUE=DATE:20250621
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] 【6/20】トゲナシトゲアリONE-MAN LIVE『凛音の
- 理 』&#038\;『咆哮の奏』 [Blu-ray]［DVD］2作品同時発売記
- 念オンライ…
-DESCRIPTION:開催日時：2025年6月20日(金)18:00スタート (19:00終
- 了予定) トゲナシトゲアリ、2nd ONE-MAN LIVE “凛音の理” 
- 、3rd ONE-MAN LIVE “咆哮の奏”[Blu-ray]［DVD］2作品同時発
- 売を記念して、オンライントーク配信の開催が決定！\n
- リミスタにて対象商品をご予約の方に、 各対象商品の
- ライブキービジュアル絵柄を\n\n
- https://girls-band-cry.com/news/post-347.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-347.html
-CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-347-2025-06-20-hold-1800@gbc-news
@@ -3257,15 +3231,12 @@ DTSTART:20250620T090000Z
 DTEND:20250620T100000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 【6/20】トゲナシトゲアリONE-MAN LIVE『凛音の
- 理 』&#038\;『咆哮の奏』 [Blu-ray]［DVD］2作品同時発売記
- 念オンライ…
-DESCRIPTION:開催日時：2025年6月20日(金)18:00スタート (19:00終
- 了予定) トゲナシトゲアリ、2nd ONE-MAN LIVE “凛音の理” 
- 、3rd ONE-MAN LIVE “咆哮の奏”[Blu-ray]［DVD］2作品同時発
- 売を記念して、オンライントーク配信の開催が決定！\n
- リミスタにて対象商品をご予約の方に、 各対象商品の
- ライブキービジュアル絵柄を\n\n
+SUMMARY:[举办] 【6/20】无刺有刺个人演唱会『凛音の理』&
+ 『咆哮の奏』[Blu-ray][DVD] 两作同时发售纪念线上 talk 配
+ 信
+DESCRIPTION:纪念 2nd/3rd 个人演唱会影像同时发售，6 月 20 日
+  18:00–19:00 于 Limista 举办线上 talk 配信（理名・夕莉・
+ 朱李出演预定）；预约抽选获签名卡。\n\n
  https://girls-band-cry.com/news/post-347.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-347.html
 CATEGORIES:togenashi,live,event,cinema
@@ -3344,37 +3315,17 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-346-2025-07-23-hold@gbc-news
-DTSTAMP:20250723T000000Z
-DTSTART;VALUE=DATE:20250723
-DTEND;VALUE=DATE:20250724
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ『2nd ONE-MAN LIVE “凛音の
- 理” 』『3rd ONE-MAN LIVE “咆哮の奏”』[Blu-ray][DVD]7…
-DESCRIPTION:2024年9月13日(金)に川崎・CLUB CITTA’で開催され
- た『2nd ONE-MAN LIVE “凛音の理”』、2024年11月2日(土)にTOK
- YO DOME CITY HALLで開催された『3rd ONE-MAN LIVE “咆哮の奏”
- 』のパッケージが2作品同時リリース決定！\n 発売日：2
- 025年7月23日(水) トゲナシトゲアリ 2nd ON\n\n
- https://girls-band-cry.com/news/post-346.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-346.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
 UID:post-346-2025-07-23-sale@gbc-news
 DTSTAMP:20250723T000000Z
 DTSTART;VALUE=DATE:20250723
 DTEND;VALUE=DATE:20250724
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ『2nd ONE-MAN LIVE “凛音の
- 理” 』『3rd ONE-MAN LIVE “咆哮の奏”』[Blu-ray][DVD]7…
-DESCRIPTION:2024年9月13日(金)に川崎・CLUB CITTA’で開催され
- た『2nd ONE-MAN LIVE “凛音の理”』、2024年11月2日(土)にTOK
- YO DOME CITY HALLで開催された『3rd ONE-MAN LIVE “咆哮の奏”
- 』のパッケージが2作品同時リリース決定！\n 発売日：2
- 025年7月23日(水) トゲナシトゲアリ 2nd ON\n\n
+SUMMARY:[发售] 无刺有刺『2nd ONE-MAN LIVE “凛音の理”』『3r
+ d ONE-MAN LIVE “咆哮の奏”』[Blu-ray][DVD] 7 月 2…
+DESCRIPTION:无刺有刺 2nd「凛音の理」、3rd「咆哮の奏」个
+ 人演唱会影像于 2025 年 7 月 23 日同时发售 Blu-ray/DVD，附
+ 幕后影像、交易卡及最速先行抽选申请券。\n\n
  https://girls-band-cry.com/news/post-346.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-346.html
 CATEGORIES:togenashi,live,music,event,cinema
@@ -3444,6 +3395,22 @@ DESCRIPTION:无刺有刺室内周边等于 8/15 起在 AniBirth 池袋・
  n\nhttps://girls-band-cry.com/news/post-365.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-365.html
 CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-349-2025-08-10-hold-1830@gbc-news
+DTSTAMP:20250810T093000Z
+DTSTART:20250810T093000Z
+DTEND:20250810T113000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺首次台湾个人演唱会决定在台北举
+ 办！
+DESCRIPTION:无刺有刺 Live in TAIPEI “凛音の理” 于 2025 年 8 
+ 月 10 日在台北 LEGACY TERA 举办，开演 18:30（当地时间）；
+ 票务 6 月 14 日 12:00 起发售。\n\n
+ https://girls-band-cry.com/news/post-349.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-349.html
+CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-365-2025-08-15-sale@gbc-news
@@ -3564,15 +3531,10 @@ DTSTART;VALUE=DATE:20250917
 DTEND;VALUE=DATE:20251001
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガルクラ展大阪会場の開催概要が解禁！
-DESCRIPTION:「ガールズバンドクライ展」大阪会場は 2025年9
- 月17日（水）～9月30日（火）の期間、大丸ミュージアム
- 梅田にて開催いたします。\nチケット情報は後日公開予
- 定！\n大阪会場 開催概要 ■会期：2025年9月17日（水）～
- 9月30日（火） ■営業時間：後日公開いたします。\n■
- 会場：大丸ミュージアム梅田（〒530-8202 大阪府大阪市
- 北区梅田3-1-1） ■チケ\n\n
- https://girls-band-cry.com/news/post-341.html
+SUMMARY:[举办] GBC 展大阪会场举办概要公开！
+DESCRIPTION:「Girls Band Cry 展」大阪会场于大丸博物馆梅田举
+ 办：2025 年 9 月 17 日–30 日；票务与营业时间另行公布
+ 。\n\nhttps://girls-band-cry.com/news/post-341.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-341.html
 CATEGORIES:togenashi,live,event
 END:VEVENT

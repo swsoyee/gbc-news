@@ -1365,38 +1365,14 @@ DTSTART;VALUE=DATE:20250530
 DTEND;VALUE=DATE:20250531
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 劇場版総集編 ムビチケ前売券（カード）第
- 2弾が発売！
-DESCRIPTION:劇場版総集編ガールズバンドクライ ムビチケ
- 前売券（カード）第2弾 本日5月30日(金)より、 一部映画
- 館、メイジャー通販サイト、MOVIE WALKER STORE、アニメイ
- ト通販にて販売開始‼️ 第1弾の販売劇場も追加で公開
- されました ▶チケット詳細は こちら ▶販売劇場一覧
- は こちら ※【クリアカード】を封入しているOPP袋に傷
- があるものがございま\n\n
+SUMMARY:[发售] 剧场版总集篇 Movi-Ticket 预售券（卡）第 2 弹
+ 发售！
+DESCRIPTION:剧场版总集篇 Girls Band Cry Movi-Ticket 预售券（卡
+ ）第 2 弹自 2025 年 5 月 30 日起在部分影院及通贩渠道发
+ 售；第 1 弹销售影院名单亦追加公开。\n\n
  https://girls-band-cry.com/news/post-348.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-348.html
 CATEGORIES:togenashi,live,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-347-2025-06-20-sale@gbc-news
-DTSTAMP:20250620T000000Z
-DTSTART;VALUE=DATE:20250620
-DTEND;VALUE=DATE:20250621
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] 【6/20】トゲナシトゲアリONE-MAN LIVE『凛音の
- 理 』&#038\;『咆哮の奏』 [Blu-ray]［DVD］2作品同時発売記
- 念オンライ…
-DESCRIPTION:開催日時：2025年6月20日(金)18:00スタート (19:00終
- 了予定) トゲナシトゲアリ、2nd ONE-MAN LIVE “凛音の理” 
- 、3rd ONE-MAN LIVE “咆哮の奏”[Blu-ray]［DVD］2作品同時発
- 売を記念して、オンライントーク配信の開催が決定！\n
- リミスタにて対象商品をご予約の方に、 各対象商品の
- ライブキービジュアル絵柄を\n\n
- https://girls-band-cry.com/news/post-347.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-347.html
-CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-347-2025-06-20-hold-1800@gbc-news
@@ -1405,15 +1381,12 @@ DTSTART:20250620T090000Z
 DTEND:20250620T100000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 【6/20】トゲナシトゲアリONE-MAN LIVE『凛音の
- 理 』&#038\;『咆哮の奏』 [Blu-ray]［DVD］2作品同時発売記
- 念オンライ…
-DESCRIPTION:開催日時：2025年6月20日(金)18:00スタート (19:00終
- 了予定) トゲナシトゲアリ、2nd ONE-MAN LIVE “凛音の理” 
- 、3rd ONE-MAN LIVE “咆哮の奏”[Blu-ray]［DVD］2作品同時発
- 売を記念して、オンライントーク配信の開催が決定！\n
- リミスタにて対象商品をご予約の方に、 各対象商品の
- ライブキービジュアル絵柄を\n\n
+SUMMARY:[举办] 【6/20】无刺有刺个人演唱会『凛音の理』&
+ 『咆哮の奏』[Blu-ray][DVD] 两作同时发售纪念线上 talk 配
+ 信
+DESCRIPTION:纪念 2nd/3rd 个人演唱会影像同时发售，6 月 20 日
+  18:00–19:00 于 Limista 举办线上 talk 配信（理名・夕莉・
+ 朱李出演预定）；预约抽选获签名卡。\n\n
  https://girls-band-cry.com/news/post-347.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-347.html
 CATEGORIES:togenashi,live,event,cinema
@@ -1435,37 +1408,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-357.html
 CATEGORIES:togenashi,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-346-2025-07-23-hold@gbc-news
-DTSTAMP:20250723T000000Z
-DTSTART;VALUE=DATE:20250723
-DTEND;VALUE=DATE:20250724
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ『2nd ONE-MAN LIVE “凛音の
- 理” 』『3rd ONE-MAN LIVE “咆哮の奏”』[Blu-ray][DVD]7…
-DESCRIPTION:2024年9月13日(金)に川崎・CLUB CITTA’で開催され
- た『2nd ONE-MAN LIVE “凛音の理”』、2024年11月2日(土)にTOK
- YO DOME CITY HALLで開催された『3rd ONE-MAN LIVE “咆哮の奏”
- 』のパッケージが2作品同時リリース決定！\n 発売日：2
- 025年7月23日(水) トゲナシトゲアリ 2nd ON\n\n
- https://girls-band-cry.com/news/post-346.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-346.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
 UID:post-346-2025-07-23-sale@gbc-news
 DTSTAMP:20250723T000000Z
 DTSTART;VALUE=DATE:20250723
 DTEND;VALUE=DATE:20250724
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ『2nd ONE-MAN LIVE “凛音の
- 理” 』『3rd ONE-MAN LIVE “咆哮の奏”』[Blu-ray][DVD]7…
-DESCRIPTION:2024年9月13日(金)に川崎・CLUB CITTA’で開催され
- た『2nd ONE-MAN LIVE “凛音の理”』、2024年11月2日(土)にTOK
- YO DOME CITY HALLで開催された『3rd ONE-MAN LIVE “咆哮の奏”
- 』のパッケージが2作品同時リリース決定！\n 発売日：2
- 025年7月23日(水) トゲナシトゲアリ 2nd ON\n\n
+SUMMARY:[发售] 无刺有刺『2nd ONE-MAN LIVE “凛音の理”』『3r
+ d ONE-MAN LIVE “咆哮の奏”』[Blu-ray][DVD] 7 月 2…
+DESCRIPTION:无刺有刺 2nd「凛音の理」、3rd「咆哮の奏」个
+ 人演唱会影像于 2025 年 7 月 23 日同时发售 Blu-ray/DVD，附
+ 幕后影像、交易卡及最速先行抽选申请券。\n\n
  https://girls-band-cry.com/news/post-346.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-346.html
 CATEGORIES:togenashi,live,music,event,cinema

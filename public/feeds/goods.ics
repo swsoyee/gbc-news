@@ -1699,22 +1699,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-337.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-340-2025-04-27_2025-05-19-hold-2100@gbc-news
-DTSTAMP:20250427T120000Z
-DTSTART:20250427T120000Z
-DTEND:20250519T145900Z
-TRANSP:OPAQUE
+UID:post-340-2025-04-27_2025-05-19-sale@gbc-news
+DTSTAMP:20250427T000000Z
+DTSTART;VALUE=DATE:20250427
+DTEND;VALUE=DATE:20250520
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ LIVE in 日本武道館 “奏檄
- の叫” 【ガールズバンドクライ２周年記念先行販売】
- 開始のお知らせ
-DESCRIPTION:9月23日（火・祝）トゲナシトゲアリ LIVE in 日本
- 武道館 “奏檄の叫” 最速先行申込多数＆ステージプラ
- ン変更につき、 【ガールズバンドクライ２周年記念先
- 行販売】が決定しました！\n【ガールズバンドクライ２
- 周年記念先行】 受付期間：4月27日(日)21:00〜5月19日(月)2
- 3:59 当落発表：5月27日(火)18:00～ 入金期間：5月27日(火)1\
- n\nhttps://girls-band-cry.com/news/post-340.html
+SUMMARY:[发售] 无刺有刺 LIVE in 日本武道馆 “奏檄之叫”【
+ Girls Band Cry 2 周年纪念先行发售】开始通知
+DESCRIPTION:无刺有刺武道馆 LIVE “奏檄之叫”（9/23）追加 G
+ BC 2 周年纪念先行：申请 4/27–5/19，结果 5/27 起，入金至
+  6/1。\n\nhttps://girls-band-cry.com/news/post-340.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-340.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
@@ -1739,40 +1734,34 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-331.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-343-2025-05-14-hold-2359@gbc-news
-DTSTAMP:20250514T145900Z
-DTSTART:20250514T145900Z
-DTEND:20250514T165900Z
-TRANSP:OPAQUE
+UID:post-343-2025-05-14-hold@gbc-news
+DTSTAMP:20250514T000000Z
+DTSTART;VALUE=DATE:20250514
+DTEND;VALUE=DATE:20250515
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] シーレジェトゲトゲ対バン『SOUL&#038\;CRY』
- 開催直前 Wフォローキャンペーン開催！
-DESCRIPTION:She is Legend & トゲナシトゲアリ 直筆サイン入り
- ライブグッズを2名様にプレゼント @SiL_official_jp @girlsband
- cry をフォロー& キャンペーン投稿 をリポストで応募完
- 了！\n／ #シーレジェトゲトゲ対バン 『SOUL&CRY』開催直
- 前 Wフォローキャンペーン ＼ She is Legend & トゲナシトゲ
- ア\n\nhttps://girls-band-cry.com/news/post-343.html
+SUMMARY:[举办] She is Legend × 刺刺对邦『SOUL & CRY』举办直前
+ 双关注活动举办！
+DESCRIPTION:纪念「SOUL & CRY」对邦，She is Legend 与 Girls Band Cry
+  官方 X 举办双关注＆转发抽奖，截止 2025 年 5 月 14 日 23
+ :59，抽选 2 名赠签名周边。\n\n
+ https://girls-band-cry.com/news/post-343.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-343.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
 UID:collabo-girls-band-cry-aloha-shirt-cospa-anime-store-goods2025-2025-05-
- 17-sale-2359@gbc-news
-DTSTAMP:20250517T145900Z
-DTSTART:20250517T145900Z
-DTEND:20250517T155900Z
-TRANSP:OPAQUE
+ 17-sale@gbc-news
+DTSTAMP:20250517T000000Z
+DTSTART;VALUE=DATE:20250517
+DTEND;VALUE=DATE:20250518
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ 初回生産限定 トゲ
- ナシトゲアリ アロハシャツ発売!
-DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
- 「ガールズバンドクライ (ガルクラ)」から、「トゲナ
- シトゲアリ アロハシャツ 2025MODEL」が2025年8月にコスパ
- から発売される。\n伝統的なアロハ柄にトゲトゲのメン
- バーを散りばめた初回生産限定「アロハシャツ」が登
- 場。\n南国風の植物柄でアロハを感じるアパレルは必見
- 。\n\n
+SUMMARY:[发售] Girls Band Cry 初回生产限定 无刺有刺 Aloha 衬
+ 衫发售！
+DESCRIPTION:无刺有刺 Aloha 衬衫 2025MODEL（初回生产限定，M–
+ XXL，各 14080 日元）由二次元 COSPA 预定 2025 年 8 月发售；
+ Anime Store.JP 预约至 5 月 17 日。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-aloha-shirt-cospa-a
  nime-store-goods2025/
 URL;VALUE=URI:
@@ -1781,68 +1770,38 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:collabo-girls-band-cry-family-mart-goods-2025-2025-05-23-hold@gbc-news
-DTSTAMP:20250523T000000Z
-DTSTART;VALUE=DATE:20250523
-DTEND;VALUE=DATE:20250524
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライ 限定グッズ 5月23日
- よりファミリーマートにて発売!
-DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
- 「ガールズバンドクライ (ガルクラ)」× 全国一部のフ
- ァミリーマートにて、2025年5月23日よりオリジナルグッ
- ズが発売される。\n手島nari先生の描き下ろしイラスト
- による“トゲナシトゲアリ”メンバーの「アクリルス
- タンド」と「クリアファイル3枚セット」がラインナッ
- プ！\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-family-mart-goods-2
- 025/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-family-mart-goods-2
- 025/
-CATEGORIES:togenashi,goods
-END:VEVENT
-BEGIN:VEVENT
-UID:collabo-girls-band-cry-family-mart-goods-2025-2025-05-23-sale@gbc-news
-DTSTAMP:20250523T000000Z
-DTSTART;VALUE=DATE:20250523
-DTEND;VALUE=DATE:20250524
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ 限定グッズ 5月23日
- よりファミリーマートにて発売!
-DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
- 「ガールズバンドクライ (ガルクラ)」× 全国一部のフ
- ァミリーマートにて、2025年5月23日よりオリジナルグッ
- ズが発売される。\n手島nari先生の描き下ろしイラスト
- による“トゲナシトゲアリ”メンバーの「アクリルス
- タンド」と「クリアファイル3枚セット」がラインナッ
- プ！\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-family-mart-goods-2
- 025/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-family-mart-goods-2
- 025/
-CATEGORIES:togenashi,goods
-END:VEVENT
-BEGIN:VEVENT
-UID:post-340-2025-05-27_2025-06-01-hold-1800@gbc-news
-DTSTAMP:20250527T090000Z
-DTSTART:20250527T090000Z
-DTEND:20250601T145900Z
+UID:collabo-girls-band-cry-family-mart-goods-2025-2025-05-23-sale-1000@gbc-
+ news
+DTSTAMP:20250523T010000Z
+DTSTART:20250523T010000Z
+DTEND:20250523T020000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ LIVE in 日本武道館 “奏檄
- の叫” 【ガールズバンドクライ２周年記念先行販売】
- 開始のお知らせ
-DESCRIPTION:9月23日（火・祝）トゲナシトゲアリ LIVE in 日本
- 武道館 “奏檄の叫” 最速先行申込多数＆ステージプラ
- ン変更につき、 【ガールズバンドクライ２周年記念先
- 行販売】が決定しました！\n【ガールズバンドクライ２
- 周年記念先行】 受付期間：4月27日(日)21:00〜5月19日(月)2
- 3:59 当落発表：5月27日(火)18:00～ 入金期間：5月27日(火)1\
- n\nhttps://girls-band-cry.com/news/post-340.html
+SUMMARY:[发售] Girls Band Cry 限定周边 5 月 23 日起于 FamilyMart 
+ 发售！
+DESCRIPTION:《Girls Band Cry（GBC）》限定周边自 2025 年 5 月 23 
+ 日 10:00 起在全国部分 FamilyMart 发售，含手岛 nari 全新绘
+ 制无刺有刺成员亚克力立牌与透明文件夹套装；售完即
+ 止。\n\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-family-mart-goods-2
+ 025/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-family-mart-goods-2
+ 025/
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
+UID:post-340-2025-05-27_2025-06-01-sale@gbc-news
+DTSTAMP:20250527T000000Z
+DTSTART;VALUE=DATE:20250527
+DTEND;VALUE=DATE:20250602
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺 LIVE in 日本武道馆 “奏檄之叫”【
+ Girls Band Cry 2 周年纪念先行发售】开始通知
+DESCRIPTION:无刺有刺武道馆 LIVE “奏檄之叫”（9/23）追加 G
+ BC 2 周年纪念先行：申请 4/27–5/19，结果 5/27 起，入金至
+  6/1。\n\nhttps://girls-band-cry.com/news/post-340.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-340.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
@@ -2070,16 +2029,11 @@ DTSTART;VALUE=DATE:20250923
 DTEND;VALUE=DATE:20250924
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ LIVE in 日本武道館 “奏檄
- の叫” 【ガールズバンドクライ２周年記念先行販売】
- 開始のお知らせ
-DESCRIPTION:9月23日（火・祝）トゲナシトゲアリ LIVE in 日本
- 武道館 “奏檄の叫” 最速先行申込多数＆ステージプラ
- ン変更につき、 【ガールズバンドクライ２周年記念先
- 行販売】が決定しました！\n【ガールズバンドクライ２
- 周年記念先行】 受付期間：4月27日(日)21:00〜5月19日(月)2
- 3:59 当落発表：5月27日(火)18:00～ 入金期間：5月27日(火)1\
- n\nhttps://girls-band-cry.com/news/post-340.html
+SUMMARY:[举办] 无刺有刺 LIVE in 日本武道馆 “奏檄之叫”【
+ Girls Band Cry 2 周年纪念先行发售】开始通知
+DESCRIPTION:无刺有刺武道馆 LIVE “奏檄之叫”（9/23）追加 G
+ BC 2 周年纪念先行：申请 4/27–5/19，结果 5/27 起，入金至
+  6/1。\n\nhttps://girls-band-cry.com/news/post-340.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-340.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT

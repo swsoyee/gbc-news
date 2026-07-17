@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-17T12:20:52.944Z",
+  "scrapedAt": "2026-07-17T12:26:03.563Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
@@ -4098,10 +4098,17 @@
           "date": "2025-06-14",
           "kind": "sale",
           "startTime": "12:00"
+        },
+        {
+          "date": "2025-08-10",
+          "kind": "hold",
+          "startTime": "18:30"
         }
       ],
       "summary": "TOGENASHI TOGEARI Live in TAIPEI “凛音の理” ■日時：2025年8月10日（日） ■時間：OPEN：17:30 START：18:30 （現地時間） ■会場：LEGACY TERA （台北市南港區市民大道八段99號） ■チケット金額：VIPチケット $3,800 NTD（優先入場&お見送り会） ・一般チケットA $2,900",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "无刺有刺首次台湾个人演唱会决定在台北举办！",
+      "summaryZh": "无刺有刺 Live in TAIPEI “凛音の理” 于 2025 年 8 月 10 日在台北 LEGACY TERA 举办，开演 18:30（当地时间）；票务 6 月 14 日 12:00 起发售。"
     },
     {
       "id": "post-348",
@@ -4123,7 +4130,9 @@
         }
       ],
       "summary": "劇場版総集編ガールズバンドクライ ムビチケ前売券（カード）第2弾 📅本日5月30日(金)より、 一部映画館、メイジャー通販サイト、MOVIE WALKER STORE、アニメイト通販にて販売開始‼️ 第1弾の販売劇場も追加で公開されました✨ ▶チケット詳細は こちら ▶販売劇場一覧は こちら ※【クリアカード】を封入しているOPP袋に傷があるものがございま",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/02/HP%E6%98%A0%E7%94%BB%E6%83%85%E5%A0%B1.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/02/HP%E6%98%A0%E7%94%BB%E6%83%85%E5%A0%B1.png",
+      "titleZh": "剧场版总集篇 Movi-Ticket 预售券（卡）第 2 弹发售！",
+      "summaryZh": "剧场版总集篇 Girls Band Cry Movi-Ticket 预售券（卡）第 2 弹自 2025 年 5 月 30 日起在部分影院及通贩渠道发售；第 1 弹销售影院名单亦追加公开。"
     },
     {
       "id": "post-347",
@@ -4145,14 +4154,12 @@
           "kind": "hold",
           "startTime": "18:00",
           "endTime": "19:00"
-        },
-        {
-          "date": "2025-06-20",
-          "kind": "sale"
         }
       ],
       "summary": "開催日時：2025年6月20日(金)18:00スタート (19:00終了予定) トゲナシトゲアリ、2nd ONE-MAN LIVE “凛音の理” 、3rd ONE-MAN LIVE “咆哮の奏”[Blu-ray]［DVD］2作品同時発売を記念して、オンライントーク配信の開催が決定！ リミスタにて対象商品をご予約の方に、 各対象商品のライブキービジュアル絵柄を",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "【6/20】无刺有刺个人演唱会『凛音の理』&『咆哮の奏』[Blu-ray][DVD] 两作同时发售纪念线上 talk 配信",
+      "summaryZh": "纪念 2nd/3rd 个人演唱会影像同时发售，6 月 20 日 18:00–19:00 于 Limista 举办线上 talk 配信（理名・夕莉・朱李出演预定）；预约抽选获签名卡。"
     },
     {
       "id": "post-346",
@@ -4172,15 +4179,13 @@
       "eventDates": [
         {
           "date": "2025-07-23",
-          "kind": "hold"
-        },
-        {
-          "date": "2025-07-23",
           "kind": "sale"
         }
       ],
       "summary": "2024年9月13日(金)に川崎・CLUB CITTA’で開催された『2nd ONE-MAN LIVE “凛音の理”』、2024年11月2日(土)にTOKYO DOME CITY HALLで開催された『3rd ONE-MAN LIVE “咆哮の奏”』のパッケージが2作品同時リリース決定！🎊 発売日：2025年7月23日(水) トゲナシトゲアリ 2nd ON",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "无刺有刺『2nd ONE-MAN LIVE “凛音の理”』『3rd ONE-MAN LIVE “咆哮の奏”』[Blu-ray][DVD] 7 月 23 日（三）两作同时发售！",
+      "summaryZh": "无刺有刺 2nd「凛音の理」、3rd「咆哮の奏」个人演唱会影像于 2025 年 7 月 23 日同时发售 Blu-ray/DVD，附幕后影像、交易卡及最速先行抽选申请券。"
     },
     {
       "id": "collabo-girls-band-cry-family-mart-goods-2025",
@@ -4197,15 +4202,14 @@
       "eventDates": [
         {
           "date": "2025-05-23",
-          "kind": "hold"
-        },
-        {
-          "date": "2025-05-23",
-          "kind": "sale"
+          "kind": "sale",
+          "startTime": "10:00"
         }
       ],
       "summary": "東映アニメーションが贈るオリジナルTVアニメ「ガールズバンドクライ (ガルクラ)」× 全国一部のファミリーマートにて、2025年5月23日よりオリジナルグッズが発売される。手島nari先生の描き下ろしイラストによる“トゲナシトゲアリ”メンバーの「アクリルスタンド」と「クリアファイル3枚セット」がラインナップ！",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-767.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/75c140d3601436d9bf49d9f8aa3af58a-767.jpg",
+      "titleZh": "Girls Band Cry 限定周边 5 月 23 日起于 FamilyMart 发售！",
+      "summaryZh": "《Girls Band Cry（GBC）》限定周边自 2025 年 5 月 23 日 10:00 起在全国部分 FamilyMart 发售，含手岛 nari 全新绘制无刺有刺成员亚克力立牌与透明文件夹套装；售完即止。"
     },
     {
       "id": "post-344",
@@ -4243,7 +4247,9 @@
         }
       ],
       "summary": "5月15日に開催された対バンライブ SheisLegend×トゲナシトゲアリ「SOUL&CRY」のアーカイブ配信が決定！ 詳細は後日発表します！ ライブ情報は こちら",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/03/%E3%83%88%E3%82%B2%E3%83%88%E3%82%B2%E5%AF%BE%E3%83%90%E3%83%B3KV_%E6%A8%AA%E9%95%B7_HP-1024x724.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/03/%E3%83%88%E3%82%B2%E3%83%88%E3%82%B2%E5%AF%BE%E3%83%90%E3%83%B3KV_%E6%A8%AA%E9%95%B7_HP-1024x724.jpg",
+      "titleZh": "She is Legend × 无刺有刺 回放配信决定！",
+      "summaryZh": "5 月 15 日举办的 She is Legend × 无刺有刺「SOUL & CRY」对邦 LIVE 决定提供回放配信，详情另行公布。"
     },
     {
       "id": "collabo-girls-band-cry-aloha-shirt-cospa-anime-store-goods2025",
@@ -4260,12 +4266,13 @@
       "eventDates": [
         {
           "date": "2025-05-17",
-          "kind": "sale",
-          "startTime": "23:59"
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが贈るオリジナルTVアニメ「ガールズバンドクライ (ガルクラ)」から、「トゲナシトゲアリ アロハシャツ 2025MODEL」が2025年8月にコスパから発売される。伝統的なアロハ柄にトゲトゲのメンバーを散りばめた初回生産限定「アロハシャツ」が登場。南国風の植物柄でアロハを感じるアパレルは必見。",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/7b8982fb78a0b7f7d834a2fa4e241c99-857.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/7b8982fb78a0b7f7d834a2fa4e241c99-857.jpg",
+      "titleZh": "Girls Band Cry 初回生产限定 无刺有刺 Aloha 衬衫发售！",
+      "summaryZh": "无刺有刺 Aloha 衬衫 2025MODEL（初回生产限定，M–XXL，各 14080 日元）由二次元 COSPA 预定 2025 年 8 月发售；Anime Store.JP 预约至 5 月 17 日。"
     },
     {
       "id": "post-343",
@@ -4284,12 +4291,13 @@
       "eventDates": [
         {
           "date": "2025-05-14",
-          "kind": "hold",
-          "startTime": "23:59"
+          "kind": "hold"
         }
       ],
       "summary": "She is Legend & トゲナシトゲアリ 直筆サイン入りライブグッズを2名様にプレゼント🎁 @SiL_official_jp @girlsbandcry をフォロー& キャンペーン投稿 をリポストで応募完了！ ／ #シーレジェトゲトゲ対バン 『SOUL&CRY』開催直前 Wフォローキャンペーン🎊 ＼ She is Legend & トゲナシトゲア",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png",
+      "titleZh": "She is Legend × 刺刺对邦『SOUL & CRY』举办直前双关注活动举办！",
+      "summaryZh": "纪念「SOUL & CRY」对邦，She is Legend 与 Girls Band Cry 官方 X 举办双关注＆转发抽奖，截止 2025 年 5 月 14 日 23:59，抽选 2 名赠签名周边。"
     },
     {
       "id": "post-342",
@@ -4322,12 +4330,14 @@
       "eventDates": [
         {
           "date": "2025-09-17",
-          "kind": "hold",
-          "endDate": "2025-09-30"
+          "endDate": "2025-09-30",
+          "kind": "hold"
         }
       ],
       "summary": "「ガールズバンドクライ展」大阪会場は 2025年9月17日（水）～9月30日（火）の期間、大丸ミュージアム梅田にて開催いたします。 チケット情報は後日公開予定！ 大阪会場 開催概要 ■会期：2025年9月17日（水）～9月30日（火） ■営業時間：後日公開いたします。 ■会場：大丸ミュージアム梅田（〒530-8202 大阪府大阪市北区梅田3-1-1） ■チケ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "GBC 展大阪会场举办概要公开！",
+      "summaryZh": "「Girls Band Cry 展」大阪会场于大丸博物馆梅田举办：2025 年 9 月 17 日–30 日；票务与营业时间另行公布。"
     },
     {
       "id": "post-340",
@@ -4345,17 +4355,13 @@
       "eventDates": [
         {
           "date": "2025-04-27",
-          "kind": "hold",
           "endDate": "2025-05-19",
-          "startTime": "21:00",
-          "endTime": "23:59"
+          "kind": "sale"
         },
         {
           "date": "2025-05-27",
-          "kind": "hold",
           "endDate": "2025-06-01",
-          "startTime": "18:00",
-          "endTime": "23:59"
+          "kind": "sale"
         },
         {
           "date": "2025-09-23",
@@ -4363,7 +4369,9 @@
         }
       ],
       "summary": "9月23日（火・祝）トゲナシトゲアリ LIVE in 日本武道館 “奏檄の叫” 最速先行申込多数＆ステージプラン変更につき、 【ガールズバンドクライ２周年記念先行販売】が決定しました！ 【ガールズバンドクライ２周年記念先行】 受付期間：4月27日(日)21:00〜5月19日(月)23:59 当落発表：5月27日(火)18:00～ 入金期間：5月27日(火)1",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "无刺有刺 LIVE in 日本武道馆 “奏檄之叫”【Girls Band Cry 2 周年纪念先行发售】开始通知",
+      "summaryZh": "无刺有刺武道馆 LIVE “奏檄之叫”（9/23）追加 GBC 2 周年纪念先行：申请 4/27–5/19，结果 5/27 起，入金至 6/1。"
     },
     {
       "id": "post-339",
