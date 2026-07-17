@@ -372,36 +372,50 @@ function buildHourRail() {
   return rail
 }
 
-function buildTimedBody() {
-  const body = document.createElement('div')
-  body.className = 'calendar-timed-body'
-  body.appendChild(buildHourRail())
-  const columns = document.createElement('div')
-  columns.className = 'calendar-timed-columns'
-  body.appendChild(columns)
-  return { body, columns }
+function applyDayState(el, cell, today) {
+  if (cell.isRestDay) el.classList.add('is-rest-day')
+  if (cell.holidayName) {
+    el.classList.add('is-holiday')
+    el.title = `日本公共节假日：${cell.holidayName}`
+  }
+  if (cell.date === today) el.classList.add('is-today')
 }
 
-function renderAllDayStrip(events, cells, today) {
-  const strip = document.createElement('div')
-  strip.className = 'calendar-allday'
-  const allDayEvents = events.filter(isAllDayEvent)
-  const segments = buildWeekSegments(allDayEvents, cells)
+/** 统一 gutter + N 列，保证日期头 / 全天 / 时段列对齐 */
+function renderTimeGridFrame(events, cells, today) {
+  const colCount = cells.length
+  const root = document.createElement('div')
+  root.className = colCount === 1 ? 'calendar-time-grid is-day' : 'calendar-time-grid is-week'
+  root.style.setProperty('--cal-cols', String(colCount))
 
-  for (const [dayIndex, cell] of cells.entries()) {
-    const cellEl = document.createElement('div')
-    cellEl.className = 'calendar-allday-cell'
-    if (cell.isRestDay) cellEl.classList.add('is-rest-day')
-    if (cell.holidayName) cellEl.classList.add('is-holiday')
-    if (cell.date === today) cellEl.classList.add('is-today')
+  const frame = document.createElement('div')
+  frame.className = 'calendar-time-frame'
+
+  const corner = document.createElement('div')
+  corner.className = 'calendar-time-corner'
+  frame.appendChild(corner)
+
+  for (const [index, cell] of cells.entries()) {
+    const head = document.createElement('div')
+    head.className = 'calendar-day-head'
+    if (index === cells.length - 1) head.classList.add('is-last-col')
+    applyDayState(head, cell, today)
     const num = document.createElement('div')
     num.className = 'calendar-day-num'
     num.textContent = String(cell.dayNum)
-    cellEl.appendChild(num)
-    cellEl.style.gridColumn = String(dayIndex + 1)
-    strip.appendChild(cellEl)
+    head.appendChild(num)
+    frame.appendChild(head)
   }
 
+  const allDayLabel = document.createElement('div')
+  allDayLabel.className = 'calendar-allday-label'
+  allDayLabel.textContent = '全天'
+  frame.appendChild(allDayLabel)
+
+  const allDayTrack = document.createElement('div')
+  allDayTrack.className = 'calendar-allday-track'
+  const allDayEvents = events.filter(isAllDayEvent)
+  const segments = buildWeekSegments(allDayEvents, cells)
   for (const segment of segments) {
     const chip = document.createElement('a')
     chip.className =
@@ -415,88 +429,62 @@ function renderAllDayStrip(events, cells, today) {
     const tooltipText = `${eventKindLabel(segment.event.kind)} ${segment.event.item.title}`
     bindEventTooltip(chip, tooltipText)
     chip.textContent = chipLabel(segment)
-    strip.appendChild(chip)
+    allDayTrack.appendChild(chip)
   }
-
   const laneCount = segments.reduce((max, segment) => Math.max(max, segment.lane + 1), 0)
-  strip.style.setProperty('--allday-lanes', String(Math.max(laneCount, 1)))
-  return strip
-}
+  allDayTrack.style.setProperty('--allday-lanes', String(Math.max(laneCount, 1)))
+  frame.appendChild(allDayTrack)
 
-function renderWeekTimeGrid(events, weekCells, today) {
-  const root = document.createElement('div')
-  root.className = 'calendar-time-grid is-week'
+  const hourRail = buildHourRail()
+  frame.appendChild(hourRail)
 
-  root.appendChild(renderAllDayStrip(events, weekCells, today))
-
-  const { body, columns } = buildTimedBody()
-  columns.style.gridTemplateColumns = `repeat(${weekCells.length}, minmax(5.5rem, 1fr))`
-
-  for (const cell of weekCells) {
+  const columns = document.createElement('div')
+  columns.className = 'calendar-timed-columns'
+  let timedCount = 0
+  for (const cell of cells) {
     const col = document.createElement('div')
     col.className = 'calendar-time-col'
-    if (cell.isRestDay) col.classList.add('is-rest-day')
-    if (cell.holidayName) col.classList.add('is-holiday')
-    if (cell.date === today) col.classList.add('is-today')
-
+    applyDayState(col, cell, today)
     const layer = document.createElement('div')
     layer.className = 'calendar-timed-layer'
-    appendTimedBlocks(layer, events, cell.date)
+    timedCount += appendTimedBlocks(layer, events, cell.date)
     col.appendChild(layer)
     columns.appendChild(col)
   }
+  frame.appendChild(columns)
 
-  root.appendChild(body)
+  root.appendChild(frame)
+  const visibleAllDay = allDayEvents.filter((event) =>
+    cells.some((cell) => event.date <= cell.date && cell.date <= event.endDate),
+  ).length
+  return { root, timedCount, allDayCount: visibleAllDay }
+}
+
+function renderWeekTimeGrid(events, weekCells, today) {
+  const { root } = renderTimeGridFrame(events, weekCells, today)
   calendarGridEl.appendChild(root)
 }
 
 function renderDayTimeGrid(events, isoDate, today) {
-  const root = document.createElement('div')
-  root.className = 'calendar-time-grid is-day'
-
-  const dayCell = {
-    date: isoDate,
-    dayNum: Number(isoDate.slice(8, 10)),
-    inMonth: true,
-    isRestDay: false,
-    holidayName: holidayNames.get(isoDate),
-  }
   const cursorDate = new Date(
     Number(isoDate.slice(0, 4)),
     Number(isoDate.slice(5, 7)) - 1,
     Number(isoDate.slice(8, 10)),
   )
-  dayCell.isRestDay = cursorDate.getDay() === 0 || cursorDate.getDay() === 6
-  dayCell.dayNum = cursorDate.getDate()
-
-  root.appendChild(renderAllDayStrip(events, [dayCell], today))
-
-  const { body, columns } = buildTimedBody()
-  columns.style.gridTemplateColumns = '1fr'
-
-  const col = document.createElement('div')
-  col.className = 'calendar-time-col'
-  if (dayCell.isRestDay) col.classList.add('is-rest-day')
-  if (dayCell.holidayName) col.classList.add('is-holiday')
-  if (isoDate === today) col.classList.add('is-today')
-
-  const layer = document.createElement('div')
-  layer.className = 'calendar-timed-layer'
-  const timedCount = appendTimedBlocks(layer, events, isoDate)
-  col.appendChild(layer)
-  columns.appendChild(col)
-  root.appendChild(body)
-
-  const allDayCount = events.filter(
-    (event) => isAllDayEvent(event) && event.date <= isoDate && isoDate <= event.endDate,
-  ).length
+  const dayCell = {
+    date: isoDate,
+    dayNum: cursorDate.getDate(),
+    inMonth: true,
+    isRestDay: cursorDate.getDay() === 0 || cursorDate.getDay() === 6,
+    holidayName: holidayNames.get(isoDate),
+  }
+  const { root, timedCount, allDayCount } = renderTimeGridFrame(events, [dayCell], today)
   if (timedCount === 0 && allDayCount === 0) {
     const empty = document.createElement('div')
     empty.className = 'calendar-day-empty'
     empty.textContent = '当天当前筛选下没有活动'
     root.appendChild(empty)
   }
-
   calendarGridEl.appendChild(root)
 }
 

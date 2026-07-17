@@ -567,38 +567,81 @@
         display: grid;
         gap: 0;
       }
-      .calendar-allday {
+      .calendar-time-frame {
+        --cal-gutter: 3.2rem;
+        --cal-col-min: 5.5rem;
         display: grid;
-        grid-template-columns: repeat(7, minmax(5.5rem, 1fr));
-        position: relative;
-        min-height: calc(2.2rem + var(--allday-lanes, 1) * 1.25rem);
+        grid-template-columns: var(--cal-gutter) repeat(var(--cal-cols, 7), minmax(var(--cal-col-min), 1fr));
+        grid-template-rows: auto auto minmax(calc(24 * 2.4rem), auto);
+        min-width: calc(var(--cal-gutter) + var(--cal-cols, 7) * var(--cal-col-min));
+      }
+      .calendar-time-grid.is-day .calendar-time-frame {
+        min-width: 0;
+      }
+      .calendar-time-corner {
+        grid-column: 1;
+        grid-row: 1;
         border-bottom: 1px solid var(--line);
+        border-right: 1px solid var(--line);
         background: rgba(255, 255, 255, 0.03);
       }
-      .calendar-time-grid.is-day .calendar-allday {
-        grid-template-columns: 1fr;
-      }
-      .calendar-allday-cell {
-        padding: 0.35rem;
+      .calendar-day-head {
+        grid-row: 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0.4rem 0.35rem 0.35rem;
         border-right: 1px solid var(--line);
-        min-height: 2.2rem;
+        border-bottom: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.03);
+        min-height: 2.4rem;
       }
-      .calendar-allday-cell:last-child {
+      .calendar-day-head.is-last-col {
         border-right: none;
       }
-      .calendar-allday-cell.is-today {
+      .calendar-day-head.is-today {
         background: rgba(232, 93, 76, 0.1);
         box-shadow: inset 0 0 0 2px rgba(232, 93, 76, 0.78);
       }
-      .calendar-allday a.calendar-chip.is-allday {
-        margin: calc(2rem + var(--calendar-lane) * 1.2rem) 0.16rem 0;
+      .calendar-day-head.is-rest-day .calendar-day-num,
+      .calendar-day-head.is-holiday .calendar-day-num {
+        color: var(--accent);
       }
-      .calendar-timed-body {
+      .calendar-day-head.is-today .calendar-day-num {
+        border-radius: 999px;
+        background: var(--accent);
+        color: #1a0f0d;
+      }
+      .calendar-allday-label {
+        grid-column: 1;
+        grid-row: 2;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        padding: 0.35rem 0.3rem 0 0;
+        border-right: 1px solid var(--line);
+        border-bottom: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.68rem;
+        background: rgba(255, 255, 255, 0.02);
+      }
+      .calendar-allday-track {
+        grid-column: 2 / -1;
+        grid-row: 2;
         display: grid;
-        grid-template-columns: 3.2rem 1fr;
-        min-height: calc(24 * 2.4rem);
+        grid-template-columns: repeat(var(--cal-cols, 7), minmax(var(--cal-col-min), 1fr));
+        position: relative;
+        min-height: calc(0.35rem + var(--allday-lanes, 1) * 1.25rem + 0.25rem);
+        border-bottom: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.02);
+      }
+      .calendar-allday-track a.calendar-chip.is-allday {
+        margin: calc(0.2rem + var(--calendar-lane) * 1.2rem) 0.16rem 0.2rem;
+        align-self: start;
       }
       .calendar-hour-rail {
+        grid-column: 1;
+        grid-row: 3;
         display: grid;
         grid-template-rows: repeat(24, 2.4rem);
         border-right: 1px solid var(--line);
@@ -612,8 +655,12 @@
         border-bottom: 1px solid rgba(244, 239, 230, 0.06);
       }
       .calendar-timed-columns {
+        grid-column: 2 / -1;
+        grid-row: 3;
         display: grid;
+        grid-template-columns: repeat(var(--cal-cols, 7), minmax(var(--cal-col-min), 1fr));
         min-width: 0;
+        min-height: calc(24 * 2.4rem);
       }
       .calendar-time-col {
         position: relative;
