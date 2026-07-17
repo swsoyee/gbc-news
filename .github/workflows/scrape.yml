@@ -31,16 +31,22 @@ jobs:
         run: npm ci
 
       - name: Scrape sources (incremental)
+        id: scrape
+        continue-on-error: true
         env:
           SCRAPE_MODE: incremental
         run: npm run scrape
 
+      # scrape-all 会跑完所有源：部分失败 exit 1，全失败 exit 2。
+      # 只要未被取消，就用现有成功快照重建 feeds（build-feeds 会拒绝空总集）。
       - name: Build feeds
+        if: always() && steps.scrape.conclusion != 'cancelled'
         env:
           SITE_URL: https://gbc-news.netlify.app
         run: npm run build:feeds
 
       - name: Commit and push updates
+        if: always() && steps.scrape.conclusion != 'cancelled'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -51,3 +57,9 @@ jobs:
           fi
           git commit -m "chore: 增量更新抓取快照与订阅源"
           git push
+
+      - name: Propagate scrape failure
+        if: steps.scrape.outcome == 'failure'
+        run: |
+          echo "Scrape reported failure (partial or full). Job marked failed after commit attempt."
+          exit 1

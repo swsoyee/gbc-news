@@ -19,7 +19,7 @@
     "scrape:gbc": "tsx scripts/scrape-gbc.ts",
     "scrape:firstriff": "tsx scripts/scrape-firstriff.ts",
     "scrape:collabo-cafe": "tsx scripts/scrape-collabo-cafe.ts",
-    "scrape": "npm run scrape:gbc && npm run scrape:firstriff && npm run scrape:collabo-cafe",
+    "scrape": "tsx scripts/scrape-all.ts",
     "build:feeds": "tsx scripts/build-feeds.ts",
     "build:function": "node scripts/bundle-function.mjs",
     "build": "npm run typecheck && npm run build:function && npm run build:feeds"
