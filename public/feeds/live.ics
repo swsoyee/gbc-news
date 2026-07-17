@@ -5550,6 +5550,22 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-458.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
+UID:firstriff-post-3-2026-04-18_2026-04-30-sale-2100@gbc-news
+DTSTAMP:20260418T120000Z
+DTSTART:20260418T120000Z
+DTEND:20260430T145900Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] F-272 第1场个人演唱会 The Dissonant “I DOLL” 
+ 决定举办！
+DESCRIPTION:F-272 第1场个人演唱会 The Dissonant “I DOLL” 于2026
+ 年7月20日在代官山 UNIT 举办，开演17:00。\n先行抽选受理
+ 为4月18日21:00–4月30日23:59；一般先着销售自5月24日10:00
+ 起，售完即止。\n\nhttps://gbc-firstriff.com/news/post-3.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-3.html
+CATEGORIES:f272,live,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-467-2026-04-22-hold@gbc-news
 DTSTAMP:20260422T000000Z
 DTSTART;VALUE=DATE:20260422
@@ -5648,6 +5664,38 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-466.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-474-2026-05-08_2026-05-24-sale-1700@gbc-news
+DTSTAMP:20260508T080000Z
+DTSTART:20260508T080000Z
+DTEND:20260524T145900Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺确定出演「FEST. INAZUMA 2026」！
+DESCRIPTION:无刺有刺确定出演滋贺县草津市乌丸半岛芝生广
+ 场举办的 FEST. INAZUMA 2026，出演日为2026年9月19日。\n音乐
+ 节整体会期为9月19日–9月21日；官方最快先行抽选受理
+ 为5月8日17:00–5月24日23:59。\n\n
+ https://girls-band-cry.com/news/post-474.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-474.html
+CATEGORIES:togenashi,live,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:firstriff-post-3-2026-05-24-sale-1000@gbc-news
+DTSTAMP:20260524T010000Z
+DTSTART:20260524T010000Z
+DTEND:20260524T020000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] F-272 第1场个人演唱会 The Dissonant “I DOLL” 
+ 决定举办！
+DESCRIPTION:F-272 第1场个人演唱会 The Dissonant “I DOLL” 于2026
+ 年7月20日在代官山 UNIT 举办，开演17:00。\n先行抽选受理
+ 为4月18日21:00–4月30日23:59；一般先着销售自5月24日10:00
+ 起，售完即止。\n\nhttps://gbc-firstriff.com/news/post-3.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-3.html
+CATEGORIES:f272,live,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-465-2026-05-29-hold-1900@gbc-news
 DTSTAMP:20260529T100000Z
 DTSTART:20260529T100000Z
@@ -5690,20 +5738,16 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-465.html
 CATEGORIES:togenashi,live,music,event
 END:VEVENT
 BEGIN:VEVENT
-UID:firstriff-post-4-2026-06-03_2026-06-11-hold-1800@gbc-news
+UID:firstriff-post-4-2026-06-03_2026-06-11-sale-1800@gbc-news
 DTSTAMP:20260603T090000Z
 DTSTART:20260603T090000Z
 DTEND:20260611T145900Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“グッズ
- 情報公開！
-DESCRIPTION:F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“のライブ
- 会場で販売するグッズ情報を公開。\nさらに会場販売に
- 先駆け、グッズの先行販売を実施します。\n先行販売期
- 間内にご購入いただくことで、公演日までに商品を発
- 送いたします。\n■先行販売期間 2026年6月3日（水）18:00
-  ～ 2026年6月11日（木）23:59まで\n\n
+SUMMARY:[发售] F-272 第1场个人演唱会 The Dissonant “I DOLL” 
+ 周边信息公开！
+DESCRIPTION:公开 F-272 第1场个人演唱会周边信息；先行销售
+ 期间为2026年6月3日18:00–6月11日23:59，公演日前发货。\n\n
  https://gbc-firstriff.com/news/post-4.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-4.html
 CATEGORIES:f272,live,goods
@@ -5715,13 +5759,12 @@ DTSTART:20260623T030000Z
 DTEND:20260623T040000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA 
- TOUR 2026 チケット発売情報公開！
-DESCRIPTION:トゲナシトゲアリ初の東南アジアツアー「TOGENA
- SHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026」のチケット
- 発売情報が公開となりました。\nTOGENASHI TOGEARI “凛音の
- 理” SOUTHEAST ASIA TOUR 2026 ▼バンコク TOGENASHI TOGEARI “Rinne
-  no Kotowar\n\nhttps://girls-band-cry.com/news/post-480.html
+SUMMARY:[发售] 无刺有刺「凛音之理」SOUTHEAST ASIA TOUR 2026 票
+ 务发售信息公开！
+DESCRIPTION:无刺有刺首次东南亚巡演票务信息公开：曼谷8/1
+ 4 19:30、雅加达8/16 19:00、新加坡8/19 20:00；各地票务分别
+ 于6/26、6/23、6/25当地时间12:00开售。\n\n
+ https://girls-band-cry.com/news/post-480.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
 CATEGORIES:togenashi,live
 END:VEVENT
@@ -5732,13 +5775,12 @@ DTSTART:20260625T030000Z
 DTEND:20260625T040000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA 
- TOUR 2026 チケット発売情報公開！
-DESCRIPTION:トゲナシトゲアリ初の東南アジアツアー「TOGENA
- SHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026」のチケット
- 発売情報が公開となりました。\nTOGENASHI TOGEARI “凛音の
- 理” SOUTHEAST ASIA TOUR 2026 ▼バンコク TOGENASHI TOGEARI “Rinne
-  no Kotowar\n\nhttps://girls-band-cry.com/news/post-480.html
+SUMMARY:[发售] 无刺有刺「凛音之理」SOUTHEAST ASIA TOUR 2026 票
+ 务发售信息公开！
+DESCRIPTION:无刺有刺首次东南亚巡演票务信息公开：曼谷8/1
+ 4 19:30、雅加达8/16 19:00、新加坡8/19 20:00；各地票务分别
+ 于6/26、6/23、6/25当地时间12:00开售。\n\n
+ https://girls-band-cry.com/news/post-480.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
 CATEGORIES:togenashi,live
 END:VEVENT
@@ -5749,13 +5791,12 @@ DTSTART:20260626T030000Z
 DTEND:20260626T040000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA 
- TOUR 2026 チケット発売情報公開！
-DESCRIPTION:トゲナシトゲアリ初の東南アジアツアー「TOGENA
- SHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026」のチケット
- 発売情報が公開となりました。\nTOGENASHI TOGEARI “凛音の
- 理” SOUTHEAST ASIA TOUR 2026 ▼バンコク TOGENASHI TOGEARI “Rinne
-  no Kotowar\n\nhttps://girls-band-cry.com/news/post-480.html
+SUMMARY:[发售] 无刺有刺「凛音之理」SOUTHEAST ASIA TOUR 2026 票
+ 务发售信息公开！
+DESCRIPTION:无刺有刺首次东南亚巡演票务信息公开：曼谷8/1
+ 4 19:30、雅加达8/16 19:00、新加坡8/19 20:00；各地票务分别
+ 于6/26、6/23、6/25当地时间12:00开售。\n\n
+ https://girls-band-cry.com/news/post-480.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
 CATEGORIES:togenashi,live
 END:VEVENT
@@ -5774,6 +5815,22 @@ DESCRIPTION:Canna Lily 1st ONE-MAN LIVE「未明に咲く花」の開催が
  抽選販売を実施します。\n受付期間:2026年3月22日(日)21:00
  ～4月1日(水)23:59\n\nhttps://gbc-firstriff.com/news/post-2.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-2.html
+CATEGORIES:canna-lily,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:firstriff-post-5-2026-06-26_2026-07-05-sale-2100@gbc-news
+DTSTAMP:20260626T120000Z
+DTSTART:20260626T120000Z
+DTEND:20260705T145900Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] Canna Lily 第2场个人演唱会「枯歌的情景」决
+ 定举办！
+DESCRIPTION:Canna Lily 第2场个人演唱会「枯歌的情景」于2026
+ 年9月5日在 WWW X 举办（一部开演15:00／二部开演19:30）；
+ 先行抽选受理2026年6月26日21:00–7月5日23:59。\n\n
+ https://gbc-firstriff.com/news/post-5.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-5.html
 CATEGORIES:canna-lily,live,event
 END:VEVENT
 BEGIN:VEVENT
@@ -5846,14 +5903,12 @@ DTSTART:20260720T080000Z
 DTEND:20260720T100000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“ 開催
- 決定！
-DESCRIPTION:※ 2026/5/22：チケット情報（一般販売）を追記 F
- -272 1st ONE-MAN LIVE The Dissonant “I DOLL“の開催が決定。\n■
- 開催日時 2026年7月20日(月・祝) 開場 16:00/開演 17:00 ■会
- 場 代官山UNIT(東京都渋谷区) ■チケット情報（一般販売
- ） キャンセル分のチケットを若干数ではございますが
- 、一\n\nhttps://gbc-firstriff.com/news/post-3.html
+SUMMARY:[举办] F-272 第1场个人演唱会 The Dissonant “I DOLL” 
+ 决定举办！
+DESCRIPTION:F-272 第1场个人演唱会 The Dissonant “I DOLL” 于2026
+ 年7月20日在代官山 UNIT 举办，开演17:00。\n先行抽选受理
+ 为4月18日21:00–4月30日23:59；一般先着销售自5月24日10:00
+ 起，售完即止。\n\nhttps://gbc-firstriff.com/news/post-3.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-3.html
 CATEGORIES:f272,live,event
 END:VEVENT
@@ -5879,41 +5934,33 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-473-2026-07-22-hold@gbc-news
+UID:post-473-2026-07-22-sale@gbc-news
 DTSTAMP:20260722T000000Z
 DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライ Special LIVE “赤色の
- 響祭” 開催決定！
-DESCRIPTION:ガールズバンドクライ Special LIVE “赤色の響祭
- ”の開催が決定しました！\n■開催日 2026年11月3日（火
- ・祝） ■会場 ぴあアリーナMM チケット最速先行抽選申
- し込み券は、2026年7月22日（水）発売 劇場版総集編 ガ
- ールズバンドクライ 【前編】 青春狂走曲 Blu-ray & DVD 劇
- 場版総集編 ガールズバンドクライ 【後編】 なぁ、未\n
- \nhttps://girls-band-cry.com/news/post-473.html
+SUMMARY:[发售] Girls Band Cry（GBC）Special LIVE “赤色的响祭” 
+ 决定举办！
+DESCRIPTION:Girls Band Cry（GBC）Special LIVE “赤色的响祭” 将
+ 于2026年11月3日在 Pia Arena MM 举办。\n票务最快先行抽选申
+ 请券封入2026年7月22日发售的剧场版总集篇前篇/后篇 Blu-r
+ ay & DVD。\n\nhttps://girls-band-cry.com/news/post-473.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-473.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-483-2026-07-26-hold@gbc-news
+UID:post-483-2026-07-26-sale@gbc-news
 DTSTAMP:20260726T000000Z
 DTSTART;VALUE=DATE:20260726
 DTEND;VALUE=DATE:20260727
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 夏らしい新グッズ「トゲナシトゲアリ 甚平
- 」が二次元コスパより登場！
-DESCRIPTION:通気性・吸水性が抜群。\n手軽に羽織れる夏ら
- しい和装ウェア トゲナシトゲアリのロゴをデザインし
- た 「トゲナシトゲアリ 甚平」が二次元コスパから登場
- です！\n「トゲナシトゲアリ 甚平」は、肌に張り付き
- にくく、通気性に優れたサラッと感のある「しじら織
- り」を採用。\nルームウェアとしてリラックスしたい時
- や夕涼みや散歩などでの着用もおすすめなアイテムで
- す！\n上着1か所、パ\n\n
+SUMMARY:[发售] 夏日风新周边「无刺有刺 甚平」由二次元 CO
+ SPA 推出！
+DESCRIPTION:无刺有刺标志甚平采用透气绉织；将于2026年7月2
+ 6日幕张展览馆《Wonder Festival 2026[夏]》COSPA 展位先行发售
+ ，一般销售预定2026年9月下旬。\n\n
  https://girls-band-cry.com/news/post-483.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-483.html
 CATEGORIES:togenashi,live,goods,event
@@ -5925,13 +5972,12 @@ DTSTART:20260814T103000Z
 DTEND:20260814T123000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA 
- TOUR 2026 チケット発売情報公開！
-DESCRIPTION:トゲナシトゲアリ初の東南アジアツアー「TOGENA
- SHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026」のチケット
- 発売情報が公開となりました。\nTOGENASHI TOGEARI “凛音の
- 理” SOUTHEAST ASIA TOUR 2026 ▼バンコク TOGENASHI TOGEARI “Rinne
-  no Kotowar\n\nhttps://girls-band-cry.com/news/post-480.html
+SUMMARY:[举办] 无刺有刺「凛音之理」SOUTHEAST ASIA TOUR 2026 票
+ 务发售信息公开！
+DESCRIPTION:无刺有刺首次东南亚巡演票务信息公开：曼谷8/1
+ 4 19:30、雅加达8/16 19:00、新加坡8/19 20:00；各地票务分别
+ 于6/26、6/23、6/25当地时间12:00开售。\n\n
+ https://girls-band-cry.com/news/post-480.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
 CATEGORIES:togenashi,live
 END:VEVENT
@@ -5942,13 +5988,12 @@ DTSTART:20260816T100000Z
 DTEND:20260816T120000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA 
- TOUR 2026 チケット発売情報公開！
-DESCRIPTION:トゲナシトゲアリ初の東南アジアツアー「TOGENA
- SHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026」のチケット
- 発売情報が公開となりました。\nTOGENASHI TOGEARI “凛音の
- 理” SOUTHEAST ASIA TOUR 2026 ▼バンコク TOGENASHI TOGEARI “Rinne
-  no Kotowar\n\nhttps://girls-band-cry.com/news/post-480.html
+SUMMARY:[举办] 无刺有刺「凛音之理」SOUTHEAST ASIA TOUR 2026 票
+ 务发售信息公开！
+DESCRIPTION:无刺有刺首次东南亚巡演票务信息公开：曼谷8/1
+ 4 19:30、雅加达8/16 19:00、新加坡8/19 20:00；各地票务分别
+ 于6/26、6/23、6/25当地时间12:00开售。\n\n
+ https://girls-band-cry.com/news/post-480.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
 CATEGORIES:togenashi,live
 END:VEVENT
@@ -5980,33 +6025,14 @@ DTSTART:20260819T110000Z
 DTEND:20260819T130000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA 
- TOUR 2026 チケット発売情報公開！
-DESCRIPTION:トゲナシトゲアリ初の東南アジアツアー「TOGENA
- SHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026」のチケット
- 発売情報が公開となりました。\nTOGENASHI TOGEARI “凛音の
- 理” SOUTHEAST ASIA TOUR 2026 ▼バンコク TOGENASHI TOGEARI “Rinne
-  no Kotowar\n\nhttps://girls-band-cry.com/news/post-480.html
+SUMMARY:[举办] 无刺有刺「凛音之理」SOUTHEAST ASIA TOUR 2026 票
+ 务发售信息公开！
+DESCRIPTION:无刺有刺首次东南亚巡演票务信息公开：曼谷8/1
+ 4 19:30、雅加达8/16 19:00、新加坡8/19 20:00；各地票务分别
+ 于6/26、6/23、6/25当地时间12:00开售。\n\n
+ https://girls-band-cry.com/news/post-480.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
 CATEGORIES:togenashi,live
-END:VEVENT
-BEGIN:VEVENT
-UID:post-476-2026-09-05_2026-09-06-hold@gbc-news
-DTSTAMP:20260905T000000Z
-DTSTART;VALUE=DATE:20260905
-DTEND;VALUE=DATE:20260907
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ「ASUTO MUSIC PARK 2026」に出
- 演決定！
-DESCRIPTION:仙台の副都心 あすと長町にて開催 明日が色づ
- く都市型音楽フェス ASUTO MUSIC PARK 2026にトゲナシトゲア
- リの出演が決定しました！\n■開催日時 2026年9月5日(土)
- /6日(日) ※トゲナシトゲアリの出演は9月6日(日) ■開催
- 場所 ゼビオアリーナ仙台/杜の広場 詳細は こちら\n\n
- https://girls-band-cry.com/news/post-476.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-476.html
-CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:firstriff-post-5-2026-09-05-hold-1500@gbc-news
@@ -6015,12 +6041,11 @@ DTSTART:20260905T060000Z
 DTEND:20260905T080000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」開催
- 決定！
-DESCRIPTION:Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」の開催が
- 決定。\n■開催日時 2026年9月5日(土) 一部:開場14:00/開演 
- 15:00 二部:開場 18:30/開演 19:30 ■会場 WWW X ■チケット情
- 報 先行抽選販売を実施します。\n受付期間:2\n\n
+SUMMARY:[举办] Canna Lily 第2场个人演唱会「枯歌的情景」决
+ 定举办！
+DESCRIPTION:Canna Lily 第2场个人演唱会「枯歌的情景」于2026
+ 年9月5日在 WWW X 举办（一部开演15:00／二部开演19:30）；
+ 先行抽选受理2026年6月26日21:00–7月5日23:59。\n\n
  https://gbc-firstriff.com/news/post-5.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-5.html
 CATEGORIES:canna-lily,live,event
@@ -6032,49 +6057,60 @@ DTSTART:20260905T103000Z
 DTEND:20260905T123000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」開催
- 決定！
-DESCRIPTION:Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」の開催が
- 決定。\n■開催日時 2026年9月5日(土) 一部:開場14:00/開演 
- 15:00 二部:開場 18:30/開演 19:30 ■会場 WWW X ■チケット情
- 報 先行抽選販売を実施します。\n受付期間:2\n\n
+SUMMARY:[举办] Canna Lily 第2场个人演唱会「枯歌的情景」决
+ 定举办！
+DESCRIPTION:Canna Lily 第2场个人演唱会「枯歌的情景」于2026
+ 年9月5日在 WWW X 举办（一部开演15:00／二部开演19:30）；
+ 先行抽选受理2026年6月26日21:00–7月5日23:59。\n\n
  https://gbc-firstriff.com/news/post-5.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-5.html
 CATEGORIES:canna-lily,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-475-2026-09-12_2026-09-13-hold@gbc-news
-DTSTAMP:20260912T000000Z
-DTSTART;VALUE=DATE:20260912
-DTEND;VALUE=DATE:20260914
+UID:post-476-2026-09-06-hold@gbc-news
+DTSTAMP:20260906T000000Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ「ROCK IN JAPAN FESTIVAL 2026」 
- に出演決定！
-DESCRIPTION:「ROCK IN JAPAN FESTIVAL 2026」のトゲナシトゲアリの
- 出演が決定しました！\n■開催日 2026年9月12日(土)・13日
- (日)／19日(土)・20日(日)・21日(月・祝) ■トゲナシトゲ
- アリ出演日 2026年9月12日(土) ■会場 千葉市蘇我スポー
- ツ公園（千葉県千葉市） ▶詳細は コチラ X：\n\n
+SUMMARY:[举办] 无刺有刺确定出演「ASUTO MUSIC PARK 2026」！
+DESCRIPTION:无刺有刺确定出演在仙台副都心「あすと长町」
+ 举办的城市型音乐节 ASUTO MUSIC PARK 2026。\n音乐节会期为20
+ 26年9月5日–9月6日，无刺有刺的出演日为9月6日；会场为
+  Xebio Arena 仙台 / 杜之广场。\n\n
+ https://girls-band-cry.com/news/post-476.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-476.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-475-2026-09-12-hold@gbc-news
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺确定出演「ROCK IN JAPAN FESTIVAL 2026」
+ ！
+DESCRIPTION:无刺有刺确定出演 ROCK IN JAPAN FESTIVAL 2026。\n活动
+ 整体日程为9月12日、13日、19日、20日、21日；无刺有刺的
+ 出演日为2026年9月12日，会场为千叶市苏我运动公园。\n\n
  https://girls-band-cry.com/news/post-475.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-475.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-474-2026-09-19-hold-1200@gbc-news
-DTSTAMP:20260919T030000Z
-DTSTART:20260919T030000Z
-DTEND:20260919T080000Z
-TRANSP:OPAQUE
+UID:post-474-2026-09-19-hold@gbc-news
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ「FEST. INAZUMA 2026」に出演
- 決定！
-DESCRIPTION:2026年9月19日(土)、20日(日)、21日(月・祝)の3日間
- 、滋賀県草津市烏丸半島芝生広場で開催される 「FEST. I
- NAZUMA 2026」にトゲナシトゲアリの出演が決定しました！
- \nトゲナシトゲアリは9月19日(土)の出演になります。\n
- ＜第1弾出演アーティスト＞ (50音順) ▼9月19日(土) GENERAT
- IONS T.M.Revolution\n\nhttps://girls-band-cry.com/news/post-474.html
+SUMMARY:[举办] 无刺有刺确定出演「FEST. INAZUMA 2026」！
+DESCRIPTION:无刺有刺确定出演滋贺县草津市乌丸半岛芝生广
+ 场举办的 FEST. INAZUMA 2026，出演日为2026年9月19日。\n音乐
+ 节整体会期为9月19日–9月21日；官方最快先行抽选受理
+ 为5月8日17:00–5月24日23:59。\n\n
+ https://girls-band-cry.com/news/post-474.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-474.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
@@ -6085,15 +6121,12 @@ DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライ Special LIVE “赤色の
- 響祭” 開催決定！
-DESCRIPTION:ガールズバンドクライ Special LIVE “赤色の響祭
- ”の開催が決定しました！\n■開催日 2026年11月3日（火
- ・祝） ■会場 ぴあアリーナMM チケット最速先行抽選申
- し込み券は、2026年7月22日（水）発売 劇場版総集編 ガ
- ールズバンドクライ 【前編】 青春狂走曲 Blu-ray & DVD 劇
- 場版総集編 ガールズバンドクライ 【後編】 なぁ、未\n
- \nhttps://girls-band-cry.com/news/post-473.html
+SUMMARY:[举办] Girls Band Cry（GBC）Special LIVE “赤色的响祭” 
+ 决定举办！
+DESCRIPTION:Girls Band Cry（GBC）Special LIVE “赤色的响祭” 将
+ 于2026年11月3日在 Pia Arena MM 举办。\n票务最快先行抽选申
+ 请券封入2026年7月22日发售的剧场版总集篇前篇/后篇 Blu-r
+ ay & DVD。\n\nhttps://girls-band-cry.com/news/post-473.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-473.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT

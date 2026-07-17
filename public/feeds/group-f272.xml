@@ -4,27 +4,47 @@
     <title>gbc-news · F-272</title>
     <link>https://gbc-news.example.com/</link>
     <description>ガールズバンドクライ 公式ニュース（F-272）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 10:59:29 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 11:54:09 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/group-f272.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>[举办] F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“グッズ情報公開！</title>
+      <title>[发售] F-272 第1场个人演唱会 The Dissonant “I DOLL” 决定举办！</title>
+      <link>https://gbc-firstriff.com/news/post-3.html</link>
+      <guid isPermaLink="false">firstriff-post-3-2026-04-18_2026-04-30-sale-2100@gbc-news</guid>
+      <pubDate>Sat, 18 Apr 2026 12:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>event</category>
+      <category domain="group">f272</category>
+      <description>F-272 第1场个人演唱会 The Dissonant “I DOLL” 于2026年7月20日在代官山 UNIT 举办，开演17:00。先行抽选受理为4月18日21:00–4月30日23:59；一般先着销售自5月24日10:00起，售完即止。</description>
+    </item>
+    <item>
+      <title>[发售] F-272 第1场个人演唱会 The Dissonant “I DOLL” 决定举办！</title>
+      <link>https://gbc-firstriff.com/news/post-3.html</link>
+      <guid isPermaLink="false">firstriff-post-3-2026-05-24-sale-1000@gbc-news</guid>
+      <pubDate>Sun, 24 May 2026 01:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>event</category>
+      <category domain="group">f272</category>
+      <description>F-272 第1场个人演唱会 The Dissonant “I DOLL” 于2026年7月20日在代官山 UNIT 举办，开演17:00。先行抽选受理为4月18日21:00–4月30日23:59；一般先着销售自5月24日10:00起，售完即止。</description>
+    </item>
+    <item>
+      <title>[发售] F-272 第1场个人演唱会 The Dissonant “I DOLL” 周边信息公开！</title>
       <link>https://gbc-firstriff.com/news/post-4.html</link>
-      <guid isPermaLink="false">firstriff-post-4-2026-06-03_2026-06-11-hold-1800@gbc-news</guid>
+      <guid isPermaLink="false">firstriff-post-4-2026-06-03_2026-06-11-sale-1800@gbc-news</guid>
       <pubDate>Wed, 03 Jun 2026 09:00:00 GMT</pubDate>
       <category>live</category>
       <category>goods</category>
       <category domain="group">f272</category>
-      <description>F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“のライブ会場で販売するグッズ情報を公開。 さらに会場販売に先駆け、グッズの先行販売を実施します。 先行販売期間内にご購入いただくことで、公演日までに商品を発送いたします。 ■先行販売期間 2026年6月3日（水）18:00 ～ 2026年6月11日（木）23:59まで </description>
+      <description>公开 F-272 第1场个人演唱会周边信息；先行销售期间为2026年6月3日18:00–6月11日23:59，公演日前发货。</description>
     </item>
     <item>
-      <title>[举办] F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“ 開催決定！</title>
+      <title>[举办] F-272 第1场个人演唱会 The Dissonant “I DOLL” 决定举办！</title>
       <link>https://gbc-firstriff.com/news/post-3.html</link>
       <guid isPermaLink="false">firstriff-post-3-2026-07-20-hold-1700@gbc-news</guid>
       <pubDate>Mon, 20 Jul 2026 08:00:00 GMT</pubDate>
       <category>live</category>
       <category>event</category>
       <category domain="group">f272</category>
-      <description>※ 2026/5/22：チケット情報（一般販売）を追記 F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“の開催が決定。 ■開催日時 2026年7月20日(月・祝) 開場 16:00/開演 17:00 ■会場 代官山UNIT(東京都渋谷区) ■チケット情報（一般販売） キャンセル分のチケットを若干数ではございますが、一</description>
+      <description>F-272 第1场个人演唱会 The Dissonant “I DOLL” 于2026年7月20日在代官山 UNIT 举办，开演17:00。先行抽选受理为4月18日21:00–4月30日23:59；一般先着销售自5月24日10:00起，售完即止。</description>
     </item>
   </channel>
 </rss>

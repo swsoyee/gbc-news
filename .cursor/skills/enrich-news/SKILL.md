@@ -7,6 +7,14 @@ description: 批量核对、汉化并补录 gbc-news 抓取资讯的活动日期
 
 仅使用当前 Cursor 会话内模型分析正文；禁止调用外部付费 AI API。
 
+## 固定术语（必读）
+
+汉化前先读取 [glossary.md](glossary.md)。
+
+- `titleZh` / `summaryZh` **必须**使用词表中的固定译名（例如 `ガルクラ`→`GBC`，`トゲナシトゲアリ`→`无刺有刺`，`トゲトゲ`→`刺刺`，`ルパ`→`RUPA`）。
+- 禁止临时发明近义词；词表没有的专名优先保留原文，需要新增时先更新 `glossary.md`。
+- 角色名按方案 B：一律使用词表译名（如 `安和すばる`→`安和昴`），不得混用未收录写法。
+
 ## 批次流程
 
 1. 获取待处理项：
@@ -15,7 +23,7 @@ description: 批量核对、汉化并补录 gbc-news 抓取资讯的活动日期
    ```
    `--source` 可用 `gbc-news`、`gbc-firstriff`、`collabo-cafe`；需要跨源时省略。
 2. 逐条核对输出中的 `title`、`bodyText`、`eventDates` 与 `url`：
-   - 翻译简体中文 `titleZh`、`summaryZh`，忠于原文，不扩写未证实信息。
+   - 按 [glossary.md](glossary.md) 翻译简体中文 `titleZh`、`summaryZh`，忠于原文，不扩写未证实信息。
    - 有明确日期证据时订正或补录 `eventDates`；证据不足时不得猜测日期。
    - 明确无需发布增强的条目可标记 `skip`。
 3. 编辑 `data/enrichments/<sourceId>.json` 的 `items[id]`：

@@ -2737,6 +2737,57 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
+UID:post-469-2026-04-26-sale-2359@gbc-news
+DTSTAMP:20260426T145900Z
+DTSTART:20260426T145900Z
+DTEND:20260426T155900Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] UNIVERSAL MUSIC STORE / 东映动画官方商店限定毛
+ 绒玩偶套装（完全受注限定生产）原创配送箱设计确定
+ ！
+DESCRIPTION:UNIVERSAL MUSIC STORE 与东映动画官方商店限定销售
+ 的完全受注限定生产毛绒玩偶套装原创配送箱设计确定
+ 。\n预约截止为2026年4月26日23:59，发售日为2026年7月22日
+ 。\n\nhttps://girls-band-cry.com/news/post-469.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-469.html
+CATEGORIES:togenashi,goods,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-470-2026-04-26-sale-2359@gbc-news
+DTSTAMP:20260426T145900Z
+DTSTART:20260426T145900Z
+DTEND:20260426T155900Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] 《剧场版总集篇 Girls Band Cry（GBC）》初回限
+ 定版豪华 booklet 部分内容公开！
+DESCRIPTION:《剧场版总集篇 Girls Band Cry（GBC）》初回限定版
+ 前篇 Side-A / 后篇 Side-B 豪华 booklet 部分内容公开，并确
+ 定收录脚本花田十辉新写迷你故事。\n限定套装预约截止
+ 为2026年4月26日23:59，发售日为2026年7月22日。\n\n
+ https://girls-band-cry.com/news/post-470.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-470.html
+CATEGORIES:togenashi,goods,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-472-2026-04-26-sale-2359@gbc-news
+DTSTAMP:20260426T145900Z
+DTSTART:20260426T145900Z
+DTEND:20260426T155900Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] UNIVERSAL MUSIC STORE / 东映动画官方商店限定毛
+ 绒玩偶套装「在剧场举止不佳的井芹仁菜原创玩偶」插
+ 图公开！
+DESCRIPTION:公开 UNIVERSAL MUSIC STORE 与东映动画官方商店限定
+ 销售的毛绒玩偶套装中「在剧场举止不佳的井芹仁菜原
+ 创玩偶」插图。\n预约截止为2026年4月26日23:59，发售日为
+ 2026年7月22日。\n\nhttps://girls-band-cry.com/news/post-472.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-472.html
+CATEGORIES:togenashi,goods,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-466-2026-05-01-hold-1900@gbc-news
 DTSTAMP:20260501T100000Z
 DTSTART:20260501T100000Z
@@ -2839,86 +2890,71 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-473-2026-07-22-hold@gbc-news
+UID:post-469-2026-07-22-sale@gbc-news
 DTSTAMP:20260722T000000Z
 DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライ Special LIVE “赤色の
- 響祭” 開催決定！
-DESCRIPTION:ガールズバンドクライ Special LIVE “赤色の響祭
- ”の開催が決定しました！\n■開催日 2026年11月3日（火
- ・祝） ■会場 ぴあアリーナMM チケット最速先行抽選申
- し込み券は、2026年7月22日（水）発売 劇場版総集編 ガ
- ールズバンドクライ 【前編】 青春狂走曲 Blu-ray & DVD 劇
- 場版総集編 ガールズバンドクライ 【後編】 なぁ、未\n
- \nhttps://girls-band-cry.com/news/post-473.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-473.html
-CATEGORIES:togenashi,live,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-469-2026-07-22-sale-1000@gbc-news
-DTSTAMP:20260722T010000Z
-DTSTART:20260722T010000Z
-DTEND:20260722T020000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[发售] UNIVERSAL MUSIC STORE/東映アニメーションオフィ
- シャルストア限定ぬいぐるみセット （完全受注限定生
- 産） オリジナル配送箱デザイン…
-DESCRIPTION:UNIVERSAL MUSIC STOREと東映アニメーションオフィシ
- ャルストアで限定販売されるぬいぐるみセットのオリ
- ジナル配送箱デザインが決定しました！\n・ぬいぐるみ
- セットご購入の方のみガールズバンドクライオリジナ
- ル配送箱でお届けします。\n・配送箱は、配送上使用す
- るもので特典ではありません。\nその為、配送時におけ
- る凹み・汚れ、破損や角潰れなどに伴う交換・返金\n\n
- https://girls-band-cry.com/news/post-469.html
+SUMMARY:[发售] UNIVERSAL MUSIC STORE / 东映动画官方商店限定毛
+ 绒玩偶套装（完全受注限定生产）原创配送箱设计确定
+ ！
+DESCRIPTION:UNIVERSAL MUSIC STORE 与东映动画官方商店限定销售
+ 的完全受注限定生产毛绒玩偶套装原创配送箱设计确定
+ 。\n预约截止为2026年4月26日23:59，发售日为2026年7月22日
+ 。\n\nhttps://girls-band-cry.com/news/post-469.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-469.html
 CATEGORIES:togenashi,goods,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-470-2026-07-22-sale-1000@gbc-news
-DTSTAMP:20260722T010000Z
-DTSTART:20260722T010000Z
-DTEND:20260722T020000Z
-TRANSP:OPAQUE
+UID:post-470-2026-07-22-sale@gbc-news
+DTSTAMP:20260722T000000Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 『劇場版総集編ガールズバンドクライ』（
- 初回限定版）【前編封入】Side-A ／【後編封入】Side-B 豪
- 華ブックレットの一部内容公開！
-DESCRIPTION:『劇場版総集編ガールズバンドクライ』（初回
- 限定版） 【前編封入】Side-A ／【後編封入】Side-B 豪華
- ブックレットの一部内容公開！\nガールズバンドクライ
- 脚本・花田十輝による新規書き下ろし「ミニストーリ
- ー」 の収録が決定しました！\n前編・後編、それぞれ
- 別のストーリーが付きます。\n※初回限定版にのみ封入
- されます。\n※仕様は変更する場合がございます。\nUN\n
- \nhttps://girls-band-cry.com/news/post-470.html
+SUMMARY:[发售] 《剧场版总集篇 Girls Band Cry（GBC）》初回限
+ 定版豪华 booklet 部分内容公开！
+DESCRIPTION:《剧场版总集篇 Girls Band Cry（GBC）》初回限定版
+ 前篇 Side-A / 后篇 Side-B 豪华 booklet 部分内容公开，并确
+ 定收录脚本花田十辉新写迷你故事。\n限定套装预约截止
+ 为2026年4月26日23:59，发售日为2026年7月22日。\n\n
+ https://girls-band-cry.com/news/post-470.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-470.html
 CATEGORIES:togenashi,goods,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-472-2026-07-22-sale-1000@gbc-news
-DTSTAMP:20260722T010000Z
-DTSTART:20260722T010000Z
-DTEND:20260722T020000Z
-TRANSP:OPAQUE
+UID:post-472-2026-07-22-sale@gbc-news
+DTSTAMP:20260722T000000Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] UNIVERSAL MUSIC STORE/東映アニメーションオフィ
- シャルストア限定ぬいぐるみセット（完全受注限定生
- 産）【劇場でマナーの悪かった井芹…
-DESCRIPTION:UNIVERSAL MUSIC STOREと東映アニメーションオフィシ
- ャルストアで限定販売されるぬいぐるみセットの【劇
- 場でマナーの悪かった井芹仁菜オリジナルぬいぐるみ
- 】イラストを公開いたします！\n※監修中、仕様は変更
- する場合がございます。\n※ぬいぐるみセットをご購入
- の方のみ、お届けします。\n※画像はイメージです。\n
- 実物とは異なる場合がございます。\nUNIVER\n\n
- https://girls-band-cry.com/news/post-472.html
+SUMMARY:[发售] UNIVERSAL MUSIC STORE / 东映动画官方商店限定毛
+ 绒玩偶套装「在剧场举止不佳的井芹仁菜原创玩偶」插
+ 图公开！
+DESCRIPTION:公开 UNIVERSAL MUSIC STORE 与东映动画官方商店限定
+ 销售的毛绒玩偶套装中「在剧场举止不佳的井芹仁菜原
+ 创玩偶」插图。\n预约截止为2026年4月26日23:59，发售日为
+ 2026年7月22日。\n\nhttps://girls-band-cry.com/news/post-472.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-472.html
 CATEGORIES:togenashi,goods,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-473-2026-07-22-sale@gbc-news
+DTSTAMP:20260722T000000Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] Girls Band Cry（GBC）Special LIVE “赤色的响祭” 
+ 决定举办！
+DESCRIPTION:Girls Band Cry（GBC）Special LIVE “赤色的响祭” 将
+ 于2026年11月3日在 Pia Arena MM 举办。\n票务最快先行抽选申
+ 请券封入2026年7月22日发售的剧场版总集篇前篇/后篇 Blu-r
+ ay & DVD。\n\nhttps://girls-band-cry.com/news/post-473.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-473.html
+CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-473-2026-11-03-hold@gbc-news
@@ -2927,15 +2963,12 @@ DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライ Special LIVE “赤色の
- 響祭” 開催決定！
-DESCRIPTION:ガールズバンドクライ Special LIVE “赤色の響祭
- ”の開催が決定しました！\n■開催日 2026年11月3日（火
- ・祝） ■会場 ぴあアリーナMM チケット最速先行抽選申
- し込み券は、2026年7月22日（水）発売 劇場版総集編 ガ
- ールズバンドクライ 【前編】 青春狂走曲 Blu-ray & DVD 劇
- 場版総集編 ガールズバンドクライ 【後編】 なぁ、未\n
- \nhttps://girls-band-cry.com/news/post-473.html
+SUMMARY:[举办] Girls Band Cry（GBC）Special LIVE “赤色的响祭” 
+ 决定举办！
+DESCRIPTION:Girls Band Cry（GBC）Special LIVE “赤色的响祭” 将
+ 于2026年11月3日在 Pia Arena MM 举办。\n票务最快先行抽选申
+ 请券封入2026年7月22日发售的剧场版总集篇前篇/后篇 Blu-r
+ ay & DVD。\n\nhttps://girls-band-cry.com/news/post-473.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-473.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT

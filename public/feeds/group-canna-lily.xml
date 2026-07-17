@@ -4,7 +4,7 @@
     <title>gbc-news · Canna Lily</title>
     <link>https://gbc-news.example.com/</link>
     <description>ガールズバンドクライ 公式ニュース（Canna Lily）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 10:59:29 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 11:54:09 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/group-canna-lily.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[举办] AnimeJapan 2026出展情報</title>
@@ -28,24 +28,34 @@
       <description>Canna Lily 1st ONE-MAN LIVE「未明に咲く花」の開催が決定。 ■開催日時 2026年6月26日(金) 開場 18:00/開演 19:00 ■会場 代官山UNIT(東京都渋谷区) ■チケット情報 先行抽選販売を実施します。 受付期間:2026年3月22日(日)21:00～4月1日(水)23:59 https://livepocket.j</description>
     </item>
     <item>
-      <title>[举办] Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」開催決定！</title>
+      <title>[发售] Canna Lily 第2场个人演唱会「枯歌的情景」决定举办！</title>
+      <link>https://gbc-firstriff.com/news/post-5.html</link>
+      <guid isPermaLink="false">firstriff-post-5-2026-06-26_2026-07-05-sale-2100@gbc-news</guid>
+      <pubDate>Fri, 26 Jun 2026 12:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>event</category>
+      <category domain="group">canna-lily</category>
+      <description>Canna Lily 第2场个人演唱会「枯歌的情景」于2026年9月5日在 WWW X 举办（一部开演15:00／二部开演19:30）；先行抽选受理2026年6月26日21:00–7月5日23:59。</description>
+    </item>
+    <item>
+      <title>[举办] Canna Lily 第2场个人演唱会「枯歌的情景」决定举办！</title>
       <link>https://gbc-firstriff.com/news/post-5.html</link>
       <guid isPermaLink="false">firstriff-post-5-2026-09-05-hold-1500@gbc-news</guid>
       <pubDate>Sat, 05 Sep 2026 06:00:00 GMT</pubDate>
       <category>live</category>
       <category>event</category>
       <category domain="group">canna-lily</category>
-      <description>Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」の開催が決定。 ■開催日時 2026年9月5日(土) 一部:開場14:00/開演 15:00 二部:開場 18:30/開演 19:30 ■会場 WWW X https://www-shibuya.jp/schedule/#www_x ■チケット情報 先行抽選販売を実施します。 受付期間:2</description>
+      <description>Canna Lily 第2场个人演唱会「枯歌的情景」于2026年9月5日在 WWW X 举办（一部开演15:00／二部开演19:30）；先行抽选受理2026年6月26日21:00–7月5日23:59。</description>
     </item>
     <item>
-      <title>[举办] Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」開催決定！</title>
+      <title>[举办] Canna Lily 第2场个人演唱会「枯歌的情景」决定举办！</title>
       <link>https://gbc-firstriff.com/news/post-5.html</link>
       <guid isPermaLink="false">firstriff-post-5-2026-09-05-hold-1930@gbc-news</guid>
       <pubDate>Sat, 05 Sep 2026 10:30:00 GMT</pubDate>
       <category>live</category>
       <category>event</category>
       <category domain="group">canna-lily</category>
-      <description>Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」の開催が決定。 ■開催日時 2026年9月5日(土) 一部:開場14:00/開演 15:00 二部:開場 18:30/開演 19:30 ■会場 WWW X https://www-shibuya.jp/schedule/#www_x ■チケット情報 先行抽選販売を実施します。 受付期間:2</description>
+      <description>Canna Lily 第2场个人演唱会「枯歌的情景」于2026年9月5日在 WWW X 举办（一部开演15:00／二部开演19:30）；先行抽选受理2026年6月26日21:00–7月5日23:59。</description>
     </item>
   </channel>
 </rss>

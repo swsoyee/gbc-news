@@ -1,5 +1,83 @@
 {
   "sourceId": "gbc-firstriff",
-  "updatedAt": "2026-07-17T10:46:00.000Z",
-  "items": {}
+  "updatedAt": "2026-07-17T12:00:00.000Z",
+  "items": {
+    "firstriff-post-5": {
+      "id": "firstriff-post-5",
+      "sourceId": "gbc-firstriff",
+      "status": "reviewed",
+      "contentFingerprint": "8a64da48c8561f3a4b44b4fcce8b3fb05dc9a9f14e3182385fc93565c357d3b5",
+      "reviewedAt": "2026-07-17T11:40:00.000Z",
+      "titleZh": "Canna Lily 第2场个人演唱会「枯歌的情景」决定举办！",
+      "summaryZh": "Canna Lily 第2场个人演唱会「枯歌的情景」于2026年9月5日在 WWW X 举办（一部开演15:00／二部开演19:30）；先行抽选受理2026年6月26日21:00–7月5日23:59。",
+      "eventDates": [
+        {
+          "date": "2026-06-26",
+          "kind": "sale",
+          "startTime": "21:00",
+          "endDate": "2026-07-05",
+          "endTime": "23:59"
+        },
+        {
+          "date": "2026-09-05",
+          "kind": "hold",
+          "startTime": "15:00"
+        },
+        {
+          "date": "2026-09-05",
+          "kind": "hold",
+          "startTime": "19:30"
+        }
+      ],
+      "reviewNotes": "补录先行抽选期间；开演时刻保留规则结果（开场时刻不另建条）。"
+    },
+    "firstriff-post-4": {
+      "id": "firstriff-post-4",
+      "sourceId": "gbc-firstriff",
+      "status": "reviewed",
+      "contentFingerprint": "898c731b11ff00aee7cc2fe61ebc0f780b4430046c6ebedcdb22efb7b52145fc",
+      "reviewedAt": "2026-07-17T11:40:00.000Z",
+      "titleZh": "F-272 第1场个人演唱会 The Dissonant “I DOLL” 周边信息公开！",
+      "summaryZh": "公开 F-272 第1场个人演唱会周边信息；先行销售期间为2026年6月3日18:00–6月11日23:59，公演日前发货。",
+      "eventDates": [
+        {
+          "date": "2026-06-03",
+          "kind": "sale",
+          "endDate": "2026-06-11",
+          "startTime": "18:00",
+          "endTime": "23:59"
+        }
+      ],
+      "reviewNotes": "规则误标为 hold；订正为 sale 先行销售期间。"
+    },
+    "firstriff-post-3": {
+      "id": "firstriff-post-3",
+      "sourceId": "gbc-firstriff",
+      "status": "reviewed",
+      "contentFingerprint": "e5d55ade18ec2ba82fd9eef562859faa6b01f1942c501b3eb9f836c64284dc1b",
+      "reviewedAt": "2026-07-17T11:55:00.000Z",
+      "titleZh": "F-272 第1场个人演唱会 The Dissonant “I DOLL” 决定举办！",
+      "summaryZh": "F-272 第1场个人演唱会 The Dissonant “I DOLL” 于2026年7月20日在代官山 UNIT 举办，开演17:00。先行抽选受理为4月18日21:00–4月30日23:59；一般先着销售自5月24日10:00起，售完即止。",
+      "eventDates": [
+        {
+          "date": "2026-04-18",
+          "kind": "sale",
+          "startTime": "21:00",
+          "endDate": "2026-04-30",
+          "endTime": "23:59"
+        },
+        {
+          "date": "2026-05-24",
+          "kind": "sale",
+          "startTime": "10:00"
+        },
+        {
+          "date": "2026-07-20",
+          "kind": "hold",
+          "startTime": "17:00"
+        }
+      ],
+      "reviewNotes": "保留开演时刻，补录先行抽选期间与一般先着销售开始。"
+    }
+  }
 }

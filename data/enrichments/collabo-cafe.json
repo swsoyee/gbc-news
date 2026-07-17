@@ -1,5 +1,118 @@
 {
   "sourceId": "collabo-cafe",
-  "updatedAt": "2026-07-17T10:46:00.000Z",
-  "items": {}
+  "updatedAt": "2026-07-17T12:00:00.000Z",
+  "items": {
+    "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026": {
+      "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "24f552ef006e3ec5f4a2321ee3026eaffbcc3cdb79a13c6d742e212c3eb5f591",
+      "reviewedAt": "2026-07-17T11:40:00.000Z",
+      "titleZh": "GBC夏日祭限定店 in TOWER RECORDS 8月7日起举办！",
+      "summaryZh": "《Girls Band Cry（GBC）》弹出商店于 TOWER RECORDS 川崎店、梅田NU茶屋町店、阿里奥购物中心苏我店举办；酒井香澄绘制浴衣夏日祭插图周边发售，满3300日元（含税）随机赠送特典卡1张。会期：川崎8/7–8/16、梅田9/4–9/13、苏我9/11–9/21。",
+      "eventDates": [
+        {
+          "date": "2026-08-07",
+          "kind": "hold",
+          "endDate": "2026-08-16"
+        },
+        {
+          "date": "2026-09-04",
+          "kind": "hold",
+          "endDate": "2026-09-13"
+        },
+        {
+          "date": "2026-09-11",
+          "kind": "hold",
+          "endDate": "2026-09-21"
+        }
+      ],
+      "reviewNotes": "三店会期与正文一致；保留为三段 hold 期间。"
+    },
+    "collabo-girls-band-cry-goodsmile-moment-anime-store-goods2026": {
+      "id": "collabo-girls-band-cry-goodsmile-moment-anime-store-goods2026",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "ac7c6be82f21ddb18feb4640a8a44e2ef5f1bde53fd144bf8d2fd1deca57bca5",
+      "reviewedAt": "2026-07-17T11:40:00.000Z",
+      "titleZh": "GBC新周边：效果器风斜挎包、连帽衫等登场！",
+      "summaryZh": "Good Smile Moment 将于2026年12月发售《Girls Band Cry（GBC）》新周边（斜挎包、连帽衫等）；Anime Store.JP 预约受理至2026年7月18日23:59。",
+      "eventDates": [
+        {
+          "date": "2026-07-18",
+          "kind": "sale",
+          "startTime": "23:59"
+        }
+      ],
+      "reviewNotes": "保留预约截止为 sale；12月发售无明确日期，不猜测补录。"
+    },
+    "collabo-girls-band-cry-stride-animate-fair2026": {
+      "id": "collabo-girls-band-cry-stride-animate-fair2026",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "f08343d598b8aa63c259e2a0a731b2bad9d4f5169ea017d2fc62839f5bb1eef9",
+      "reviewedAt": "2026-07-17T11:40:00.000Z",
+      "titleZh": "GBC Stride! ver. 展会 in animate 7月10日起举办！",
+      "summaryZh": "动画《Girls Band Cry（GBC）》Stride! ver. 展会于 animate 多店 2026年7月10日–7月26日举办；酒井香澄绘制 Stride! ver. 周边发售，相关商品满2200日元（含税）随机赠送拨片贴纸特典。",
+      "eventDates": [
+        {
+          "date": "2026-07-10",
+          "kind": "hold",
+          "endDate": "2026-07-26"
+        }
+      ],
+      "reviewNotes": "会期与正文一致，规则抽取正确。"
+    },
+    "collabo-girls-band-cry-cafe-sharecafe-2026": {
+      "id": "collabo-girls-band-cry-cafe-sharecafe-2026",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "d63ea7b12323bbde3108ba52a52a65a82991224235acdd52c9c011a49856baae",
+      "reviewedAt": "2026-07-17T11:40:00.000Z",
+      "titleZh": "GBC 咖啡厅 in 洒落CAFE 三店 7月3日起举办！",
+      "summaryZh": "《Girls Band Cry（GBC）》× 洒落CAFE（东京哈拉卡多店、大阪心斋桥 BIGSTEP 店、福冈博多丸井店）于2026年7月3日–7月20日举办联动咖啡厅；提供联动菜单，米村雅人「冰淇淋女孩」限定周边发售。",
+      "eventDates": [
+        {
+          "date": "2026-07-03",
+          "kind": "hold",
+          "endDate": "2026-07-20"
+        }
+      ],
+      "reviewNotes": "会期与正文一致；规则抽取正确。"
+    },
+    "collabo-girls-band-cry-sanrio-pop-up-store-tower-records2026": {
+      "id": "collabo-girls-band-cry-sanrio-pop-up-store-tower-records2026",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "109406c56842318d9ad443eb8159f3c9f436c0267a38d523ccce4423bcae4c1b",
+      "reviewedAt": "2026-07-17T11:55:00.000Z",
+      "titleZh": "GBC × 三丽鸥弹出商店 in TOWER RECORDS 5月16日起举办！",
+      "summaryZh": "《Girls Band Cry（GBC）》× 三丽鸥角色弹出商店于 TOWER RECORDS 涩谷店、川崎店、名古屋 PARCO 店、梅田NU茶屋町店举办，会期2026年5月16日–5月25日；新商品满2200日元（含税）随机赠送明信片1张。",
+      "eventDates": [
+        {
+          "date": "2026-05-16",
+          "kind": "hold",
+          "endDate": "2026-05-25"
+        }
+      ],
+      "reviewNotes": "会期与正文一致；保留 hold 期间。"
+    },
+    "collabo-girls-band-cry-togenashi-togeari-watch-armabianca-anime-store-goods2026": {
+      "id": "collabo-girls-band-cry-togenashi-togeari-watch-armabianca-anime-store-goods2026",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "cf0871891892bdb9791ed1eca8de52159527e7e3037f401f7c808236f5252539",
+      "reviewedAt": "2026-07-17T11:55:00.000Z",
+      "titleZh": "GBC 以 OP 服装和乐器为设计元素，刺刺腕表全5款登场",
+      "summaryZh": "《Girls Band Cry（GBC）》推出以剧中乐队无刺有刺（刺刺）成员为主题的全5款新腕表，设计融入仁菜的 OP 服装、桃香的吉他、昴的鼓棒、海老塚智的键盘、RUPA 的贝斯等元素；Anime Store.JP 预约受理至2026年6月7日23:59，预计2026年10月中旬发售。",
+      "eventDates": [
+        {
+          "date": "2026-06-07",
+          "kind": "sale",
+          "startTime": "23:59"
+        }
+      ],
+      "reviewNotes": "保留预约截止为 sale；10月中旬发售无明确日期，不补录。"
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-17T10:59:29.486Z",
+  "scrapedAt": "2026-07-17T11:54:09.159Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
@@ -37,7 +37,9 @@
         }
       ],
       "summary": "「ガールズバンドクライ (ガルクラ)」のポップアップストアが、タワーレコードにて2026年8月7日〜9月21日まで開催される。",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/309d1dd94db895a64af11f019d2cca09.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/309d1dd94db895a64af11f019d2cca09.jpg",
+      "titleZh": "GBC夏日祭限定店 in TOWER RECORDS 8月7日起举办！",
+      "summaryZh": "《Girls Band Cry（GBC）》弹出商店于 TOWER RECORDS 川崎店、梅田NU茶屋町店、阿里奥购物中心苏我店举办；酒井香澄绘制浴衣夏日祭插图周边发售，满3300日元（含税）随机赠送特典卡1张。会期：川崎8/7–8/16、梅田9/4–9/13、苏我9/11–9/21。"
     },
     {
       "id": "post-487",
@@ -106,7 +108,9 @@
         }
       ],
       "summary": "「ガールズバンドクライ」から、エフェクター風ショルダーバッグやメンバーカラーのパーカーなど、新作アパレルや雑貨が2026年12月発売！",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/077de3722a7db00051b6f0379cba5612.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/077de3722a7db00051b6f0379cba5612.jpg",
+      "titleZh": "GBC新周边：效果器风斜挎包、连帽衫等登场！",
+      "summaryZh": "Good Smile Moment 将于2026年12月发售《Girls Band Cry（GBC）》新周边（斜挎包、连帽衫等）；Anime Store.JP 预约受理至2026年7月18日23:59。"
     },
     {
       "id": "collabo-girls-band-cry-stride-animate-fair2026",
@@ -128,7 +132,9 @@
         }
       ],
       "summary": "「ガールズバンドクライ」Stride! ver. フェア in アニメイトが、対象店舗にて2026年7月10日〜7月26日まで開催!",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/6728dab09a4dd7b05e253d088ec14d02.jpeg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/6728dab09a4dd7b05e253d088ec14d02.jpeg",
+      "titleZh": "GBC Stride! ver. 展会 in animate 7月10日起举办！",
+      "summaryZh": "动画《Girls Band Cry（GBC）》Stride! ver. 展会于 animate 多店 2026年7月10日–7月26日举办；酒井香澄绘制 Stride! ver. 周边发售，相关商品满2200日元（含税）随机赠送拨片贴纸特典。"
     },
     {
       "id": "post-483",
@@ -147,11 +153,13 @@
       "eventDates": [
         {
           "date": "2026-07-26",
-          "kind": "hold"
+          "kind": "sale"
         }
       ],
       "summary": "通気性・吸水性が抜群。手軽に羽織れる夏らしい和装ウェア🎐 トゲナシトゲアリのロゴをデザインした 「トゲナシトゲアリ 甚平」が二次元コスパから登場です！ 「トゲナシトゲアリ 甚平」は、肌に張り付きにくく、通気性に優れたサラッと感のある「しじら織り」を採用。ルームウェアとしてリラックスしたい時や夕涼みや散歩などでの着用もおすすめなアイテムです！ 上着1か所、パ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "夏日风新周边「无刺有刺 甚平」由二次元 COSPA 推出！",
+      "summaryZh": "无刺有刺标志甚平采用透气绉织；将于2026年7月26日幕张展览馆《Wonder Festival 2026[夏]》COSPA 展位先行发售，一般销售预定2026年9月下旬。"
     },
     {
       "id": "firstriff-post-6",
@@ -184,6 +192,13 @@
       ],
       "eventDates": [
         {
+          "date": "2026-06-26",
+          "kind": "sale",
+          "startTime": "21:00",
+          "endDate": "2026-07-05",
+          "endTime": "23:59"
+        },
+        {
           "date": "2026-09-05",
           "kind": "hold",
           "startTime": "15:00"
@@ -194,7 +209,9 @@
           "startTime": "19:30"
         }
       ],
-      "summary": "Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」の開催が決定。 ■開催日時 2026年9月5日(土) 一部:開場14:00/開演 15:00 二部:開場 18:30/開演 19:30 ■会場 WWW X https://www-shibuya.jp/schedule/#www_x ■チケット情報 先行抽選販売を実施します。 受付期間:2"
+      "summary": "Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」の開催が決定。 ■開催日時 2026年9月5日(土) 一部:開場14:00/開演 15:00 二部:開場 18:30/開演 19:30 ■会場 WWW X https://www-shibuya.jp/schedule/#www_x ■チケット情報 先行抽選販売を実施します。 受付期間:2",
+      "titleZh": "Canna Lily 第2场个人演唱会「枯歌的情景」决定举办！",
+      "summaryZh": "Canna Lily 第2场个人演唱会「枯歌的情景」于2026年9月5日在 WWW X 举办（一部开演15:00／二部开演19:30）；先行抽选受理2026年6月26日21:00–7月5日23:59。"
     },
     {
       "id": "post-477",
@@ -215,11 +232,14 @@
         },
         {
           "date": "2026-06-29",
-          "kind": "sale"
+          "kind": "sale",
+          "startTime": "13:00"
         }
       ],
       "summary": "ルパの誕生日グッズが発売決定！ ＜発売日＞ AniBirthショップ：2026年6月28日(日) 東映アニメーションオフィシャルストア：2026年6月29日(月)13時 ＜AniBirthショップ詳細＞ ◇池袋 〒171-8557 東京都豊島区南池袋1-28-2 池袋PARCO 本館 6F 営業時間：11時～21時 ◇心斎橋 〒542-0085 大阪府大阪市",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2026/06/%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB-1024x538.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2026/06/%E3%82%BF%E3%82%A4%E3%83%88%E3%83%AB-1024x538.jpg",
+      "titleZh": "2026年 RUPA 生日周边",
+      "summaryZh": "RUPA 生日周边发售决定。AniBirth 店铺：2026年6月28日；东映动画官方商店：2026年6月29日13:00。"
     },
     {
       "id": "collabo-girls-band-cry-cafe-sharecafe-2026",
@@ -241,7 +261,9 @@
         }
       ],
       "summary": "アニメ「ガールズバンドクライ (ガルクラ)」× 洒落CAFE 3店舗にて、2026年7月3日よりコラボカフェが開催される。",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/7f161234a423c8d284d90f097a46329b.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/7f161234a423c8d284d90f097a46329b.jpg",
+      "titleZh": "GBC 咖啡厅 in 洒落CAFE 三店 7月3日起举办！",
+      "summaryZh": "《Girls Band Cry（GBC）》× 洒落CAFE（东京哈拉卡多店、大阪心斋桥 BIGSTEP 店、福冈博多丸井店）于2026年7月3日–7月20日举办联动咖啡厅；提供联动菜单，米村雅人「冰淇淋女孩」限定周边发售。"
     },
     {
       "id": "post-482",
@@ -259,15 +281,14 @@
       "eventDates": [
         {
           "date": "2026-07-03",
-          "kind": "hold"
-        },
-        {
-          "date": "2026-07-20",
-          "kind": "hold"
+          "kind": "hold",
+          "endDate": "2026-07-20"
         }
       ],
       "summary": "「TVアニメ『ガールズバンドクライ』アイスクリームガールズカフェ at 洒落CAFE」が東京・大阪・福岡にて開催決定！ 本コラボレーションのテーマイラストは、米村雅人新規描き下ろし「アイスクリームガールズ」！ アイスクリームパーラーをイメージしたポップでレトロな衣装に身を包み、カラフルなアイスクリームを手にしたキャラクターたちが登場します。 カフェメニューで",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png",
+      "titleZh": "7/3(五)起《Girls Band Cry（GBC）》冰淇淋女孩咖啡厅 at 洒落CAFE 决定举办！",
+      "summaryZh": "TV动画《Girls Band Cry（GBC）》冰淇淋女孩咖啡厅 at 洒落CAFE 于东京・大阪・福冈举办，会期2026年7月3日–7月20日；米村雅人新绘「冰淇淋女孩」插图用于菜单与周边，各店与 Anique 同步发售。"
     },
     {
       "id": "post-481",
@@ -329,7 +350,9 @@
         }
       ],
       "summary": "トゲナシトゲアリ初の東南アジアツアー「TOGENASHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026」のチケット発売情報が公開となりました。 TOGENASHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026 ▼バンコク TOGENASHI TOGEARI “Rinne no Kotowar",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "无刺有刺「凛音之理」SOUTHEAST ASIA TOUR 2026 票务发售信息公开！",
+      "summaryZh": "无刺有刺首次东南亚巡演票务信息公开：曼谷8/14 19:30、雅加达8/16 19:00、新加坡8/19 20:00；各地票务分别于6/26、6/23、6/25当地时间12:00开售。"
     },
     {
       "id": "post-479",
@@ -379,13 +402,15 @@
       "eventDates": [
         {
           "date": "2026-06-03",
-          "kind": "hold",
+          "kind": "sale",
           "endDate": "2026-06-11",
           "startTime": "18:00",
           "endTime": "23:59"
         }
       ],
-      "summary": "F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“のライブ会場で販売するグッズ情報を公開。 さらに会場販売に先駆け、グッズの先行販売を実施します。 先行販売期間内にご購入いただくことで、公演日までに商品を発送いたします。 ■先行販売期間 2026年6月3日（水）18:00 ～ 2026年6月11日（木）23:59まで "
+      "summary": "F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“のライブ会場で販売するグッズ情報を公開。 さらに会場販売に先駆け、グッズの先行販売を実施します。 先行販売期間内にご購入いただくことで、公演日までに商品を発送いたします。 ■先行販売期間 2026年6月3日（水）18:00 ～ 2026年6月11日（木）23:59まで ",
+      "titleZh": "F-272 第1场个人演唱会 The Dissonant “I DOLL” 周边信息公开！",
+      "summaryZh": "公开 F-272 第1场个人演唱会周边信息；先行销售期间为2026年6月3日18:00–6月11日23:59，公演日前发货。"
     },
     {
       "id": "post-476",
@@ -402,13 +427,14 @@
       ],
       "eventDates": [
         {
-          "date": "2026-09-05",
-          "kind": "hold",
-          "endDate": "2026-09-06"
+          "date": "2026-09-06",
+          "kind": "hold"
         }
       ],
       "summary": "仙台の副都心 あすと長町にて開催 明日が色づく都市型音楽フェス ASUTO MUSIC PARK 2026にトゲナシトゲアリの出演が決定しました！ ■開催日時 2026年9月5日(土)/6日(日) ※トゲナシトゲアリの出演は9月6日(日) ■開催場所 ゼビオアリーナ仙台/杜の広場 詳細は こちら",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2026/05/logo_amp2026_c-1024x602.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2026/05/logo_amp2026_c-1024x602.jpg",
+      "titleZh": "无刺有刺确定出演「ASUTO MUSIC PARK 2026」！",
+      "summaryZh": "无刺有刺确定出演在仙台副都心「あすと长町」举办的城市型音乐节 ASUTO MUSIC PARK 2026。音乐节会期为2026年9月5日–9月6日，无刺有刺的出演日为9月6日；会场为 Xebio Arena 仙台 / 杜之广场。"
     },
     {
       "id": "post-475",
@@ -426,12 +452,13 @@
       "eventDates": [
         {
           "date": "2026-09-12",
-          "kind": "hold",
-          "endDate": "2026-09-13"
+          "kind": "hold"
         }
       ],
       "summary": "「ROCK IN JAPAN FESTIVAL 2026」のトゲナシトゲアリの出演が決定しました！ ■開催日 2026年9月12日(土)・13日(日)／19日(土)・20日(日)・21日(月・祝) ■トゲナシトゲアリ出演日 2026年9月12日(土) ■会場 千葉市蘇我スポーツ公園（千葉県千葉市） ▶詳細は コチラ X： https://x.com/rock",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2026/05/4.%E3%80%90RIJF2026%E3%80%91%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B4%E7%94%BB%E5%83%8F_%E6%AD%A3%E6%96%B9%E5%BD%A2-1024x1024.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2026/05/4.%E3%80%90RIJF2026%E3%80%91%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B4%E7%94%BB%E5%83%8F_%E6%AD%A3%E6%96%B9%E5%BD%A2-1024x1024.png",
+      "titleZh": "无刺有刺确定出演「ROCK IN JAPAN FESTIVAL 2026」！",
+      "summaryZh": "无刺有刺确定出演 ROCK IN JAPAN FESTIVAL 2026。活动整体日程为9月12日、13日、19日、20日、21日；无刺有刺的出演日为2026年9月12日，会场为千叶市苏我运动公园。"
     },
     {
       "id": "collabo-girls-band-cry-sanrio-pop-up-store-tower-records2026",
@@ -453,7 +480,9 @@
         }
       ],
       "summary": "ガールズバンドクライ × サンリオのポップアップストアが、タワーレコード(4店舗)にて2026年5月16日〜5月25日まで開催!",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/51913aad3b321a1ef63f85cebf5a7eae.jpeg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/51913aad3b321a1ef63f85cebf5a7eae.jpeg",
+      "titleZh": "GBC × 三丽鸥弹出商店 in TOWER RECORDS 5月16日起举办！",
+      "summaryZh": "《Girls Band Cry（GBC）》× 三丽鸥角色弹出商店于 TOWER RECORDS 涩谷店、川崎店、名古屋 PARCO 店、梅田NU茶屋町店举办，会期2026年5月16日–5月25日；新商品满2200日元（含税）随机赠送明信片1张。"
     },
     {
       "id": "collabo-girls-band-cry-togenashi-togeari-watch-armabianca-anime-store-goods2026",
@@ -475,7 +504,9 @@
         }
       ],
       "summary": "アニメ「ガールズバンドクライ」からトゲナシトゲアリ5人の腕時計が、2026年10月中旬発売。仁菜のOP衣装や桃香のギターをデザイン。",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/c478b1a6dedb96603a486610161ab963-251.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/c478b1a6dedb96603a486610161ab963-251.jpg",
+      "titleZh": "GBC 以 OP 服装和乐器为设计元素，刺刺腕表全5款登场",
+      "summaryZh": "《Girls Band Cry（GBC）》推出以剧中乐队无刺有刺（刺刺）成员为主题的全5款新腕表，设计融入仁菜的 OP 服装、桃香的吉他、昴的鼓棒、海老塚智的键盘、RUPA 的贝斯等元素；Anime Store.JP 预约受理至2026年6月7日23:59，预计2026年10月中旬发售。"
     },
     {
       "id": "post-474",
@@ -493,14 +524,21 @@
       ],
       "eventDates": [
         {
+          "date": "2026-05-08",
+          "kind": "sale",
+          "startTime": "17:00",
+          "endDate": "2026-05-24",
+          "endTime": "23:59"
+        },
+        {
           "date": "2026-09-19",
-          "kind": "hold",
-          "startTime": "12:00",
-          "endTime": "17:00"
+          "kind": "hold"
         }
       ],
       "summary": "2026年9月19日(土)、20日(日)、21日(月・祝)の3日間、滋賀県草津市烏丸半島芝生広場で開催される 「FEST. INAZUMA 2026」にトゲナシトゲアリの出演が決定しました！ トゲナシトゲアリは9月19日(土)の出演になります。 ＜第1弾出演アーティスト＞ (50音順) ▼9月19日(土) GENERATIONS T.M.Revolution",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2026/05/FI26_750%C3%97422.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2026/05/FI26_750%C3%97422.jpg",
+      "titleZh": "无刺有刺确定出演「FEST. INAZUMA 2026」！",
+      "summaryZh": "无刺有刺确定出演滋贺县草津市乌丸半岛芝生广场举办的 FEST. INAZUMA 2026，出演日为2026年9月19日。音乐节整体会期为9月19日–9月21日；官方最快先行抽选受理为5月8日17:00–5月24日23:59。"
     },
     {
       "id": "post-473",
@@ -519,7 +557,7 @@
       "eventDates": [
         {
           "date": "2026-07-22",
-          "kind": "hold"
+          "kind": "sale"
         },
         {
           "date": "2026-11-03",
@@ -527,7 +565,9 @@
         }
       ],
       "summary": "ガールズバンドクライ Special LIVE “赤色の響祭”の開催が決定しました！ ■開催日 2026年11月3日（火・祝） ■会場 ぴあアリーナMM チケット最速先行抽選申し込み券は、2026年7月22日（水）発売 劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲 Blu-ray & DVD 劇場版総集編 ガールズバンドクライ 【後編】 なぁ、未",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2026/05/%E8%B5%A4%E8%89%B2%E3%81%AE%E9%A5%97%E7%A5%AD-1024x576.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2026/05/%E8%B5%A4%E8%89%B2%E3%81%AE%E9%A5%97%E7%A5%AD-1024x576.jpg",
+      "titleZh": "Girls Band Cry（GBC）Special LIVE “赤色的响祭” 决定举办！",
+      "summaryZh": "Girls Band Cry（GBC）Special LIVE “赤色的响祭” 将于2026年11月3日在 Pia Arena MM 举办。票务最快先行抽选申请券封入2026年7月22日发售的剧场版总集篇前篇/后篇 Blu-ray & DVD。"
     },
     {
       "id": "firstriff-post-3",
@@ -544,12 +584,26 @@
       ],
       "eventDates": [
         {
+          "date": "2026-04-18",
+          "kind": "sale",
+          "startTime": "21:00",
+          "endDate": "2026-04-30",
+          "endTime": "23:59"
+        },
+        {
+          "date": "2026-05-24",
+          "kind": "sale",
+          "startTime": "10:00"
+        },
+        {
           "date": "2026-07-20",
           "kind": "hold",
           "startTime": "17:00"
         }
       ],
-      "summary": "※ 2026/5/22：チケット情報（一般販売）を追記 F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“の開催が決定。 ■開催日時 2026年7月20日(月・祝) 開場 16:00/開演 17:00 ■会場 代官山UNIT(東京都渋谷区) ■チケット情報（一般販売） キャンセル分のチケットを若干数ではございますが、一"
+      "summary": "※ 2026/5/22：チケット情報（一般販売）を追記 F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“の開催が決定。 ■開催日時 2026年7月20日(月・祝) 開場 16:00/開演 17:00 ■会場 代官山UNIT(東京都渋谷区) ■チケット情報（一般販売） キャンセル分のチケットを若干数ではございますが、一",
+      "titleZh": "F-272 第1场个人演唱会 The Dissonant “I DOLL” 决定举办！",
+      "summaryZh": "F-272 第1场个人演唱会 The Dissonant “I DOLL” 于2026年7月20日在代官山 UNIT 举办，开演17:00。先行抽选受理为4月18日21:00–4月30日23:59；一般先着销售自5月24日10:00起，售完即止。"
     },
     {
       "id": "post-472",
@@ -566,13 +620,19 @@
       ],
       "eventDates": [
         {
-          "date": "2026-07-22",
+          "date": "2026-04-26",
           "kind": "sale",
-          "startTime": "10:00"
+          "startTime": "23:59"
+        },
+        {
+          "date": "2026-07-22",
+          "kind": "sale"
         }
       ],
       "summary": "UNIVERSAL MUSIC STOREと東映アニメーションオフィシャルストアで限定販売されるぬいぐるみセットの【劇場でマナーの悪かった井芹仁菜オリジナルぬいぐるみ】イラストを公開いたします！ ※監修中、仕様は変更する場合がございます。 ※ぬいぐるみセットをご購入の方のみ、お届けします。 ※画像はイメージです。実物とは異なる場合がございます。 UNIVER",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "UNIVERSAL MUSIC STORE / 东映动画官方商店限定毛绒玩偶套装「在剧场举止不佳的井芹仁菜原创玩偶」插图公开！",
+      "summaryZh": "公开 UNIVERSAL MUSIC STORE 与东映动画官方商店限定销售的毛绒玩偶套装中「在剧场举止不佳的井芹仁菜原创玩偶」插图。预约截止为2026年4月26日23:59，发售日为2026年7月22日。"
     },
     {
       "id": "post-471",
@@ -604,13 +664,19 @@
       ],
       "eventDates": [
         {
-          "date": "2026-07-22",
+          "date": "2026-04-26",
           "kind": "sale",
-          "startTime": "10:00"
+          "startTime": "23:59"
+        },
+        {
+          "date": "2026-07-22",
+          "kind": "sale"
         }
       ],
       "summary": "『劇場版総集編ガールズバンドクライ』（初回限定版） 【前編封入】Side-A ／【後編封入】Side-B 豪華ブックレットの一部内容公開！ ガールズバンドクライ脚本・花田十輝による新規書き下ろし「ミニストーリー」 の収録が決定しました！ 前編・後編、それぞれ別のストーリーが付きます。 ※初回限定版にのみ封入されます。 ※仕様は変更する場合がございます。 UN",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "《剧场版总集篇 Girls Band Cry（GBC）》初回限定版豪华 booklet 部分内容公开！",
+      "summaryZh": "《剧场版总集篇 Girls Band Cry（GBC）》初回限定版前篇 Side-A / 后篇 Side-B 豪华 booklet 部分内容公开，并确定收录脚本花田十辉新写迷你故事。限定套装预约截止为2026年4月26日23:59，发售日为2026年7月22日。"
     },
     {
       "id": "post-469",
@@ -627,13 +693,19 @@
       ],
       "eventDates": [
         {
-          "date": "2026-07-22",
+          "date": "2026-04-26",
           "kind": "sale",
-          "startTime": "10:00"
+          "startTime": "23:59"
+        },
+        {
+          "date": "2026-07-22",
+          "kind": "sale"
         }
       ],
       "summary": "UNIVERSAL MUSIC STOREと東映アニメーションオフィシャルストアで限定販売されるぬいぐるみセットのオリジナル配送箱デザインが決定しました！ ・ぬいぐるみセットご購入の方のみガールズバンドクライオリジナル配送箱でお届けします。 ・配送箱は、配送上使用するもので特典ではありません。その為、配送時における凹み・汚れ、破損や角潰れなどに伴う交換・返金",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "UNIVERSAL MUSIC STORE / 东映动画官方商店限定毛绒玩偶套装（完全受注限定生产）原创配送箱设计确定！",
+      "summaryZh": "UNIVERSAL MUSIC STORE 与东映动画官方商店限定销售的完全受注限定生产毛绒玩偶套装原创配送箱设计确定。预约截止为2026年4月26日23:59，发售日为2026年7月22日。"
     },
     {
       "id": "post-467",

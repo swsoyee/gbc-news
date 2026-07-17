@@ -9468,6 +9468,22 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-468.html
 CATEGORIES:togenashi,event,media
 END:VEVENT
 BEGIN:VEVENT
+UID:firstriff-post-3-2026-04-18_2026-04-30-sale-2100@gbc-news
+DTSTAMP:20260418T120000Z
+DTSTART:20260418T120000Z
+DTEND:20260430T145900Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] F-272 第1场个人演唱会 The Dissonant “I DOLL” 
+ 决定举办！
+DESCRIPTION:F-272 第1场个人演唱会 The Dissonant “I DOLL” 于2026
+ 年7月20日在代官山 UNIT 举办，开演17:00。\n先行抽选受理
+ 为4月18日21:00–4月30日23:59；一般先着销售自5月24日10:00
+ 起，售完即止。\n\nhttps://gbc-firstriff.com/news/post-3.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-3.html
+CATEGORIES:f272,live,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-467-2026-04-22-hold@gbc-news
 DTSTAMP:20260422T000000Z
 DTSTART;VALUE=DATE:20260422
@@ -9589,6 +9605,57 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
+UID:post-469-2026-04-26-sale-2359@gbc-news
+DTSTAMP:20260426T145900Z
+DTSTART:20260426T145900Z
+DTEND:20260426T155900Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] UNIVERSAL MUSIC STORE / 东映动画官方商店限定毛
+ 绒玩偶套装（完全受注限定生产）原创配送箱设计确定
+ ！
+DESCRIPTION:UNIVERSAL MUSIC STORE 与东映动画官方商店限定销售
+ 的完全受注限定生产毛绒玩偶套装原创配送箱设计确定
+ 。\n预约截止为2026年4月26日23:59，发售日为2026年7月22日
+ 。\n\nhttps://girls-band-cry.com/news/post-469.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-469.html
+CATEGORIES:togenashi,goods,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-470-2026-04-26-sale-2359@gbc-news
+DTSTAMP:20260426T145900Z
+DTSTART:20260426T145900Z
+DTEND:20260426T155900Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] 《剧场版总集篇 Girls Band Cry（GBC）》初回限
+ 定版豪华 booklet 部分内容公开！
+DESCRIPTION:《剧场版总集篇 Girls Band Cry（GBC）》初回限定版
+ 前篇 Side-A / 后篇 Side-B 豪华 booklet 部分内容公开，并确
+ 定收录脚本花田十辉新写迷你故事。\n限定套装预约截止
+ 为2026年4月26日23:59，发售日为2026年7月22日。\n\n
+ https://girls-band-cry.com/news/post-470.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-470.html
+CATEGORIES:togenashi,goods,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-472-2026-04-26-sale-2359@gbc-news
+DTSTAMP:20260426T145900Z
+DTSTART:20260426T145900Z
+DTEND:20260426T155900Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] UNIVERSAL MUSIC STORE / 东映动画官方商店限定毛
+ 绒玩偶套装「在剧场举止不佳的井芹仁菜原创玩偶」插
+ 图公开！
+DESCRIPTION:公开 UNIVERSAL MUSIC STORE 与东映动画官方商店限定
+ 销售的毛绒玩偶套装中「在剧场举止不佳的井芹仁菜原
+ 创玩偶」插图。\n预约截止为2026年4月26日23:59，发售日为
+ 2026年7月22日。\n\nhttps://girls-band-cry.com/news/post-472.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-472.html
+CATEGORIES:togenashi,goods,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:collabo-girls-band-cry-white-focus-popup-store-village-v2026-2026-04-29
  _2026-05-06-hold@gbc-news
 DTSTAMP:20260429T000000Z
@@ -9627,6 +9694,22 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-466.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-474-2026-05-08_2026-05-24-sale-1700@gbc-news
+DTSTAMP:20260508T080000Z
+DTSTART:20260508T080000Z
+DTEND:20260524T145900Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺确定出演「FEST. INAZUMA 2026」！
+DESCRIPTION:无刺有刺确定出演滋贺县草津市乌丸半岛芝生广
+ 场举办的 FEST. INAZUMA 2026，出演日为2026年9月19日。\n音乐
+ 节整体会期为9月19日–9月21日；官方最快先行抽选受理
+ 为5月8日17:00–5月24日23:59。\n\n
+ https://girls-band-cry.com/news/post-474.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-474.html
+CATEGORIES:togenashi,live,goods,event
+END:VEVENT
+BEGIN:VEVENT
 UID:collabo-girls-band-cry-sanrio-pop-up-store-tower-records2026-2026-05-16
  _2026-05-25-hold@gbc-news
 DTSTAMP:20260516T000000Z
@@ -9634,17 +9717,34 @@ DTSTART;VALUE=DATE:20260516
 DTEND;VALUE=DATE:20260526
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガルクラ × サンリオ ストア in タワーレコ
- ード 5月16日より開催!
-DESCRIPTION:ガールズバンドクライ × サンリオのポップア
- ップストアが、タワーレコード(4店舗)にて2026年5月16日
- 〜5月25日まで開催!\n\n
+SUMMARY:[举办] GBC × 三丽鸥弹出商店 in TOWER RECORDS 5月16日起
+ 举办！
+DESCRIPTION:《Girls Band Cry（GBC）》× 三丽鸥角色弹出商店于 
+ TOWER RECORDS 涩谷店、川崎店、名古屋 PARCO 店、梅田NU茶屋
+ 町店举办，会期2026年5月16日–5月25日；新商品满2200日元
+ （含税）随机赠送明信片1张。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-sanrio-pop-up-store
  -tower-records2026/
 URL;VALUE=URI:
  https://collabo-cafe.com/events/collabo/girls-band-cry-sanrio-pop-up-store
  -tower-records2026/
 CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
+UID:firstriff-post-3-2026-05-24-sale-1000@gbc-news
+DTSTAMP:20260524T010000Z
+DTSTART:20260524T010000Z
+DTEND:20260524T020000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] F-272 第1场个人演唱会 The Dissonant “I DOLL” 
+ 决定举办！
+DESCRIPTION:F-272 第1场个人演唱会 The Dissonant “I DOLL” 于2026
+ 年7月20日在代官山 UNIT 举办，开演17:00。\n先行抽选受理
+ 为4月18日21:00–4月30日23:59；一般先着销售自5月24日10:00
+ 起，售完即止。\n\nhttps://gbc-firstriff.com/news/post-3.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-3.html
+CATEGORIES:f272,live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-465-2026-05-29-hold-1900@gbc-news
@@ -9689,20 +9789,16 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-465.html
 CATEGORIES:togenashi,live,music,event
 END:VEVENT
 BEGIN:VEVENT
-UID:firstriff-post-4-2026-06-03_2026-06-11-hold-1800@gbc-news
+UID:firstriff-post-4-2026-06-03_2026-06-11-sale-1800@gbc-news
 DTSTAMP:20260603T090000Z
 DTSTART:20260603T090000Z
 DTEND:20260611T145900Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“グッズ
- 情報公開！
-DESCRIPTION:F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“のライブ
- 会場で販売するグッズ情報を公開。\nさらに会場販売に
- 先駆け、グッズの先行販売を実施します。\n先行販売期
- 間内にご購入いただくことで、公演日までに商品を発
- 送いたします。\n■先行販売期間 2026年6月3日（水）18:00
-  ～ 2026年6月11日（木）23:59まで\n\n
+SUMMARY:[发售] F-272 第1场个人演唱会 The Dissonant “I DOLL” 
+ 周边信息公开！
+DESCRIPTION:公开 F-272 第1场个人演唱会周边信息；先行销售
+ 期间为2026年6月3日18:00–6月11日23:59，公演日前发货。\n\n
  https://gbc-firstriff.com/news/post-4.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-4.html
 CATEGORIES:f272,live,goods
@@ -9756,11 +9852,13 @@ DTSTART:20260607T145900Z
 DTEND:20260607T155900Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] ガルクラ OP衣装や楽器をデザイン!トゲトゲ
- の腕時計 全5種が登場
-DESCRIPTION:アニメ「ガールズバンドクライ」からトゲナシ
- トゲアリ5人の腕時計が、2026年10月中旬発売。\n仁菜のOP
- 衣装や桃香のギターをデザイン。\n\n
+SUMMARY:[发售] GBC 以 OP 服装和乐器为设计元素，刺刺腕表
+ 全5款登场
+DESCRIPTION:《Girls Band Cry（GBC）》推出以剧中乐队无刺有刺
+ （刺刺）成员为主题的全5款新腕表，设计融入仁菜的 OP 
+ 服装、桃香的吉他、昴的鼓棒、海老塚智的键盘、RUPA 的
+ 贝斯等元素；Anime Store.JP 预约受理至2026年6月7日23:59，预
+ 计2026年10月中旬发售。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-togenashi-togeari-w
  atch-armabianca-anime-store-goods2026/
 URL;VALUE=URI:
@@ -9775,13 +9873,12 @@ DTSTART:20260623T030000Z
 DTEND:20260623T040000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA 
- TOUR 2026 チケット発売情報公開！
-DESCRIPTION:トゲナシトゲアリ初の東南アジアツアー「TOGENA
- SHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026」のチケット
- 発売情報が公開となりました。\nTOGENASHI TOGEARI “凛音の
- 理” SOUTHEAST ASIA TOUR 2026 ▼バンコク TOGENASHI TOGEARI “Rinne
-  no Kotowar\n\nhttps://girls-band-cry.com/news/post-480.html
+SUMMARY:[发售] 无刺有刺「凛音之理」SOUTHEAST ASIA TOUR 2026 票
+ 务发售信息公开！
+DESCRIPTION:无刺有刺首次东南亚巡演票务信息公开：曼谷8/1
+ 4 19:30、雅加达8/16 19:00、新加坡8/19 20:00；各地票务分别
+ 于6/26、6/23、6/25当地时间12:00开售。\n\n
+ https://girls-band-cry.com/news/post-480.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
 CATEGORIES:togenashi,live
 END:VEVENT
@@ -9792,13 +9889,12 @@ DTSTART:20260625T030000Z
 DTEND:20260625T040000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA 
- TOUR 2026 チケット発売情報公開！
-DESCRIPTION:トゲナシトゲアリ初の東南アジアツアー「TOGENA
- SHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026」のチケット
- 発売情報が公開となりました。\nTOGENASHI TOGEARI “凛音の
- 理” SOUTHEAST ASIA TOUR 2026 ▼バンコク TOGENASHI TOGEARI “Rinne
-  no Kotowar\n\nhttps://girls-band-cry.com/news/post-480.html
+SUMMARY:[发售] 无刺有刺「凛音之理」SOUTHEAST ASIA TOUR 2026 票
+ 务发售信息公开！
+DESCRIPTION:无刺有刺首次东南亚巡演票务信息公开：曼谷8/1
+ 4 19:30、雅加达8/16 19:00、新加坡8/19 20:00；各地票务分别
+ 于6/26、6/23、6/25当地时间12:00开售。\n\n
+ https://girls-band-cry.com/news/post-480.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
 CATEGORIES:togenashi,live
 END:VEVENT
@@ -9809,13 +9905,12 @@ DTSTART:20260626T030000Z
 DTEND:20260626T040000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA 
- TOUR 2026 チケット発売情報公開！
-DESCRIPTION:トゲナシトゲアリ初の東南アジアツアー「TOGENA
- SHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026」のチケット
- 発売情報が公開となりました。\nTOGENASHI TOGEARI “凛音の
- 理” SOUTHEAST ASIA TOUR 2026 ▼バンコク TOGENASHI TOGEARI “Rinne
-  no Kotowar\n\nhttps://girls-band-cry.com/news/post-480.html
+SUMMARY:[发售] 无刺有刺「凛音之理」SOUTHEAST ASIA TOUR 2026 票
+ 务发售信息公开！
+DESCRIPTION:无刺有刺首次东南亚巡演票务信息公开：曼谷8/1
+ 4 19:30、雅加达8/16 19:00、新加坡8/19 20:00；各地票务分别
+ 于6/26、6/23、6/25当地时间12:00开售。\n\n
+ https://girls-band-cry.com/news/post-480.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
 CATEGORIES:togenashi,live
 END:VEVENT
@@ -9837,36 +9932,46 @@ URL;VALUE=URI:https://gbc-firstriff.com/news/post-2.html
 CATEGORIES:canna-lily,live,event
 END:VEVENT
 BEGIN:VEVENT
+UID:firstriff-post-5-2026-06-26_2026-07-05-sale-2100@gbc-news
+DTSTAMP:20260626T120000Z
+DTSTART:20260626T120000Z
+DTEND:20260705T145900Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] Canna Lily 第2场个人演唱会「枯歌的情景」决
+ 定举办！
+DESCRIPTION:Canna Lily 第2场个人演唱会「枯歌的情景」于2026
+ 年9月5日在 WWW X 举办（一部开演15:00／二部开演19:30）；
+ 先行抽选受理2026年6月26日21:00–7月5日23:59。\n\n
+ https://gbc-firstriff.com/news/post-5.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-5.html
+CATEGORIES:canna-lily,live,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-477-2026-06-28-sale@gbc-news
 DTSTAMP:20260628T000000Z
 DTSTART;VALUE=DATE:20260628
 DTEND;VALUE=DATE:20260629
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 2026年ルパ誕生日グッズ
-DESCRIPTION:ルパの誕生日グッズが発売決定！\n＜発売日＞ 
- AniBirthショップ：2026年6月28日(日) 東映アニメーション
- オフィシャルストア：2026年6月29日(月)13時 ＜AniBirthショ
- ップ詳細＞ ◇池袋 〒171-8557 東京都豊島区南池袋1-28-2 
- 池袋PARCO 本館 6F 営業時間：11時～21時 ◇心斎橋 〒542-008
- 5 大阪府大阪市\n\nhttps://girls-band-cry.com/news/post-477.html
+SUMMARY:[发售] 2026年 RUPA 生日周边
+DESCRIPTION:RUPA 生日周边发售决定。\nAniBirth 店铺：2026年6月
+ 28日；东映动画官方商店：2026年6月29日13:00。\n\n
+ https://girls-band-cry.com/news/post-477.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-477.html
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-477-2026-06-29-sale@gbc-news
-DTSTAMP:20260629T000000Z
-DTSTART;VALUE=DATE:20260629
-DTEND;VALUE=DATE:20260630
-TRANSP:TRANSPARENT
+UID:post-477-2026-06-29-sale-1300@gbc-news
+DTSTAMP:20260629T040000Z
+DTSTART:20260629T040000Z
+DTEND:20260629T050000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] 2026年ルパ誕生日グッズ
-DESCRIPTION:ルパの誕生日グッズが発売決定！\n＜発売日＞ 
- AniBirthショップ：2026年6月28日(日) 東映アニメーション
- オフィシャルストア：2026年6月29日(月)13時 ＜AniBirthショ
- ップ詳細＞ ◇池袋 〒171-8557 東京都豊島区南池袋1-28-2 
- 池袋PARCO 本館 6F 営業時間：11時～21時 ◇心斎橋 〒542-008
- 5 大阪府大阪市\n\nhttps://girls-band-cry.com/news/post-477.html
+SUMMARY:[发售] 2026年 RUPA 生日周边
+DESCRIPTION:RUPA 生日周边发售决定。\nAniBirth 店铺：2026年6月
+ 28日；东映动画官方商店：2026年6月29日13:00。\n\n
+ https://girls-band-cry.com/news/post-477.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-477.html
 CATEGORIES:togenashi,goods
 END:VEVENT
@@ -9878,11 +9983,11 @@ DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260721
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライ カフェ in 洒落CAFE 3
- 店舗 7月3日より開催!
-DESCRIPTION:アニメ「ガールズバンドクライ (ガルクラ)」× 
- 洒落CAFE 3店舗にて、2026年7月3日よりコラボカフェが開
- 催される。\n\n
+SUMMARY:[举办] GBC 咖啡厅 in 洒落CAFE 三店 7月3日起举办！
+DESCRIPTION:《Girls Band Cry（GBC）》× 洒落CAFE（东京哈拉卡多
+ 店、大阪心斋桥 BIGSTEP 店、福冈博多丸井店）于2026年7月
+ 3日–7月20日举办联动咖啡厅；提供联动菜单，米村雅人
+ 「冰淇淋女孩」限定周边发售。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-sharecafe-2026
  /
 URL;VALUE=URI:
@@ -9891,22 +9996,19 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-482-2026-07-03-hold@gbc-news
+UID:post-482-2026-07-03_2026-07-20-hold@gbc-news
 DTSTAMP:20260703T000000Z
 DTSTART;VALUE=DATE:20260703
-DTEND;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260721
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 7/3(金)より『ガールズバンドクライ』アイ
- スクリームガールズカフェ at 洒落CAFE 開催決定！
-DESCRIPTION:「TVアニメ『ガールズバンドクライ』アイスク
- リームガールズカフェ at 洒落CAFE」が東京・大阪・福岡
- にて開催決定！\n本コラボレーションのテーマイラスト
- は、米村雅人新規描き下ろし「アイスクリームガール
- ズ」！\nアイスクリームパーラーをイメージしたポップ
- でレトロな衣装に身を包み、カラフルなアイスクリー
- ムを手にしたキャラクターたちが登場します。\nカフェ
- メニューで\n\nhttps://girls-band-cry.com/news/post-482.html
+SUMMARY:[举办] 7/3(五)起《Girls Band Cry（GBC）》冰淇淋女孩咖
+ 啡厅 at 洒落CAFE 决定举办！
+DESCRIPTION:TV动画《Girls Band Cry（GBC）》冰淇淋女孩咖啡厅 a
+ t 洒落CAFE 于东京・大阪・福冈举办，会期2026年7月3日–7
+ 月20日；米村雅人新绘「冰淇淋女孩」插图用于菜单与周
+ 边，各店与 Anique 同步发售。\n\n
+ https://girls-band-cry.com/news/post-482.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-482.html
 CATEGORIES:togenashi,goods,event
 END:VEVENT
@@ -9918,11 +10020,11 @@ DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260727
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガルクラ Stride! ver. フェア in アニメイト 7
- 月10日より開催!
-DESCRIPTION:「ガールズバンドクライ」Stride!\nver. フェア in 
- アニメイトが、対象店舗にて2026年7月10日〜7月26日まで
- 開催!\n\n
+SUMMARY:[举办] GBC Stride! ver. 展会 in animate 7月10日起举办！
+DESCRIPTION:动画《Girls Band Cry（GBC）》Stride!\nver. 展会于 anim
+ ate 多店 2026年7月10日–7月26日举办；酒井香澄绘制 Stride!
+ \nver. 周边发售，相关商品满2200日元（含税）随机赠送拨
+ 片贴纸特典。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-stride-animate-fair
  2026/
 URL;VALUE=URI:
@@ -10001,11 +10103,11 @@ DTSTART:20260718T145900Z
 DTEND:20260718T155900Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] ガルクラ 新作グッズにエフェクター風バッ
- グやパーカーなど登場!
-DESCRIPTION:「ガールズバンドクライ」から、エフェクター
- 風ショルダーバッグやメンバーカラーのパーカーなど
- 、新作アパレルや雑貨が2026年12月発売！\n\n
+SUMMARY:[发售] GBC新周边：效果器风斜挎包、连帽衫等登场
+ ！
+DESCRIPTION:Good Smile Moment 将于2026年12月发售《Girls Band Cry（G
+ BC）》新周边（斜挎包、连帽衫等）；Anime Store.JP 预约受
+ 理至2026年7月18日23:59。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-goodsmile-moment-an
  ime-store-goods2026/
 URL;VALUE=URI:
@@ -10014,40 +10116,18 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-482-2026-07-20-hold@gbc-news
-DTSTAMP:20260720T000000Z
-DTSTART;VALUE=DATE:20260720
-DTEND;VALUE=DATE:20260721
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 7/3(金)より『ガールズバンドクライ』アイ
- スクリームガールズカフェ at 洒落CAFE 開催決定！
-DESCRIPTION:「TVアニメ『ガールズバンドクライ』アイスク
- リームガールズカフェ at 洒落CAFE」が東京・大阪・福岡
- にて開催決定！\n本コラボレーションのテーマイラスト
- は、米村雅人新規描き下ろし「アイスクリームガール
- ズ」！\nアイスクリームパーラーをイメージしたポップ
- でレトロな衣装に身を包み、カラフルなアイスクリー
- ムを手にしたキャラクターたちが登場します。\nカフェ
- メニューで\n\nhttps://girls-band-cry.com/news/post-482.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-482.html
-CATEGORIES:togenashi,goods,event
-END:VEVENT
-BEGIN:VEVENT
 UID:firstriff-post-3-2026-07-20-hold-1700@gbc-news
 DTSTAMP:20260720T080000Z
 DTSTART:20260720T080000Z
 DTEND:20260720T100000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] F-272 1st ONE-MAN LIVE The Dissonant “I DOLL“ 開催
- 決定！
-DESCRIPTION:※ 2026/5/22：チケット情報（一般販売）を追記 F
- -272 1st ONE-MAN LIVE The Dissonant “I DOLL“の開催が決定。\n■
- 開催日時 2026年7月20日(月・祝) 開場 16:00/開演 17:00 ■会
- 場 代官山UNIT(東京都渋谷区) ■チケット情報（一般販売
- ） キャンセル分のチケットを若干数ではございますが
- 、一\n\nhttps://gbc-firstriff.com/news/post-3.html
+SUMMARY:[举办] F-272 第1场个人演唱会 The Dissonant “I DOLL” 
+ 决定举办！
+DESCRIPTION:F-272 第1场个人演唱会 The Dissonant “I DOLL” 于2026
+ 年7月20日在代官山 UNIT 举办，开演17:00。\n先行抽选受理
+ 为4月18日21:00–4月30日23:59；一般先着销售自5月24日10:00
+ 起，售完即止。\n\nhttps://gbc-firstriff.com/news/post-3.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-3.html
 CATEGORIES:f272,live,event
 END:VEVENT
@@ -10073,104 +10153,84 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-473-2026-07-22-hold@gbc-news
+UID:post-469-2026-07-22-sale@gbc-news
 DTSTAMP:20260722T000000Z
 DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライ Special LIVE “赤色の
- 響祭” 開催決定！
-DESCRIPTION:ガールズバンドクライ Special LIVE “赤色の響祭
- ”の開催が決定しました！\n■開催日 2026年11月3日（火
- ・祝） ■会場 ぴあアリーナMM チケット最速先行抽選申
- し込み券は、2026年7月22日（水）発売 劇場版総集編 ガ
- ールズバンドクライ 【前編】 青春狂走曲 Blu-ray & DVD 劇
- 場版総集編 ガールズバンドクライ 【後編】 なぁ、未\n
- \nhttps://girls-band-cry.com/news/post-473.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-473.html
-CATEGORIES:togenashi,live,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-469-2026-07-22-sale-1000@gbc-news
-DTSTAMP:20260722T010000Z
-DTSTART:20260722T010000Z
-DTEND:20260722T020000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[发售] UNIVERSAL MUSIC STORE/東映アニメーションオフィ
- シャルストア限定ぬいぐるみセット （完全受注限定生
- 産） オリジナル配送箱デザイン…
-DESCRIPTION:UNIVERSAL MUSIC STOREと東映アニメーションオフィシ
- ャルストアで限定販売されるぬいぐるみセットのオリ
- ジナル配送箱デザインが決定しました！\n・ぬいぐるみ
- セットご購入の方のみガールズバンドクライオリジナ
- ル配送箱でお届けします。\n・配送箱は、配送上使用す
- るもので特典ではありません。\nその為、配送時におけ
- る凹み・汚れ、破損や角潰れなどに伴う交換・返金\n\n
- https://girls-band-cry.com/news/post-469.html
+SUMMARY:[发售] UNIVERSAL MUSIC STORE / 东映动画官方商店限定毛
+ 绒玩偶套装（完全受注限定生产）原创配送箱设计确定
+ ！
+DESCRIPTION:UNIVERSAL MUSIC STORE 与东映动画官方商店限定销售
+ 的完全受注限定生产毛绒玩偶套装原创配送箱设计确定
+ 。\n预约截止为2026年4月26日23:59，发售日为2026年7月22日
+ 。\n\nhttps://girls-band-cry.com/news/post-469.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-469.html
 CATEGORIES:togenashi,goods,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-470-2026-07-22-sale-1000@gbc-news
-DTSTAMP:20260722T010000Z
-DTSTART:20260722T010000Z
-DTEND:20260722T020000Z
-TRANSP:OPAQUE
+UID:post-470-2026-07-22-sale@gbc-news
+DTSTAMP:20260722T000000Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 『劇場版総集編ガールズバンドクライ』（
- 初回限定版）【前編封入】Side-A ／【後編封入】Side-B 豪
- 華ブックレットの一部内容公開！
-DESCRIPTION:『劇場版総集編ガールズバンドクライ』（初回
- 限定版） 【前編封入】Side-A ／【後編封入】Side-B 豪華
- ブックレットの一部内容公開！\nガールズバンドクライ
- 脚本・花田十輝による新規書き下ろし「ミニストーリ
- ー」 の収録が決定しました！\n前編・後編、それぞれ
- 別のストーリーが付きます。\n※初回限定版にのみ封入
- されます。\n※仕様は変更する場合がございます。\nUN\n
- \nhttps://girls-band-cry.com/news/post-470.html
+SUMMARY:[发售] 《剧场版总集篇 Girls Band Cry（GBC）》初回限
+ 定版豪华 booklet 部分内容公开！
+DESCRIPTION:《剧场版总集篇 Girls Band Cry（GBC）》初回限定版
+ 前篇 Side-A / 后篇 Side-B 豪华 booklet 部分内容公开，并确
+ 定收录脚本花田十辉新写迷你故事。\n限定套装预约截止
+ 为2026年4月26日23:59，发售日为2026年7月22日。\n\n
+ https://girls-band-cry.com/news/post-470.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-470.html
 CATEGORIES:togenashi,goods,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-472-2026-07-22-sale-1000@gbc-news
-DTSTAMP:20260722T010000Z
-DTSTART:20260722T010000Z
-DTEND:20260722T020000Z
-TRANSP:OPAQUE
+UID:post-472-2026-07-22-sale@gbc-news
+DTSTAMP:20260722T000000Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] UNIVERSAL MUSIC STORE/東映アニメーションオフィ
- シャルストア限定ぬいぐるみセット（完全受注限定生
- 産）【劇場でマナーの悪かった井芹…
-DESCRIPTION:UNIVERSAL MUSIC STOREと東映アニメーションオフィシ
- ャルストアで限定販売されるぬいぐるみセットの【劇
- 場でマナーの悪かった井芹仁菜オリジナルぬいぐるみ
- 】イラストを公開いたします！\n※監修中、仕様は変更
- する場合がございます。\n※ぬいぐるみセットをご購入
- の方のみ、お届けします。\n※画像はイメージです。\n
- 実物とは異なる場合がございます。\nUNIVER\n\n
- https://girls-band-cry.com/news/post-472.html
+SUMMARY:[发售] UNIVERSAL MUSIC STORE / 东映动画官方商店限定毛
+ 绒玩偶套装「在剧场举止不佳的井芹仁菜原创玩偶」插
+ 图公开！
+DESCRIPTION:公开 UNIVERSAL MUSIC STORE 与东映动画官方商店限定
+ 销售的毛绒玩偶套装中「在剧场举止不佳的井芹仁菜原
+ 创玩偶」插图。\n预约截止为2026年4月26日23:59，发售日为
+ 2026年7月22日。\n\nhttps://girls-band-cry.com/news/post-472.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-472.html
 CATEGORIES:togenashi,goods,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-483-2026-07-26-hold@gbc-news
+UID:post-473-2026-07-22-sale@gbc-news
+DTSTAMP:20260722T000000Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] Girls Band Cry（GBC）Special LIVE “赤色的响祭” 
+ 决定举办！
+DESCRIPTION:Girls Band Cry（GBC）Special LIVE “赤色的响祭” 将
+ 于2026年11月3日在 Pia Arena MM 举办。\n票务最快先行抽选申
+ 请券封入2026年7月22日发售的剧场版总集篇前篇/后篇 Blu-r
+ ay & DVD。\n\nhttps://girls-band-cry.com/news/post-473.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-473.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-483-2026-07-26-sale@gbc-news
 DTSTAMP:20260726T000000Z
 DTSTART;VALUE=DATE:20260726
 DTEND;VALUE=DATE:20260727
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 夏らしい新グッズ「トゲナシトゲアリ 甚平
- 」が二次元コスパより登場！
-DESCRIPTION:通気性・吸水性が抜群。\n手軽に羽織れる夏ら
- しい和装ウェア トゲナシトゲアリのロゴをデザインし
- た 「トゲナシトゲアリ 甚平」が二次元コスパから登場
- です！\n「トゲナシトゲアリ 甚平」は、肌に張り付き
- にくく、通気性に優れたサラッと感のある「しじら織
- り」を採用。\nルームウェアとしてリラックスしたい時
- や夕涼みや散歩などでの着用もおすすめなアイテムで
- す！\n上着1か所、パ\n\n
+SUMMARY:[发售] 夏日风新周边「无刺有刺 甚平」由二次元 CO
+ SPA 推出！
+DESCRIPTION:无刺有刺标志甚平采用透气绉织；将于2026年7月2
+ 6日幕张展览馆《Wonder Festival 2026[夏]》COSPA 展位先行发售
+ ，一般销售预定2026年9月下旬。\n\n
  https://girls-band-cry.com/news/post-483.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-483.html
 CATEGORIES:togenashi,live,goods,event
@@ -10183,11 +10243,13 @@ DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260817
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガルクラ お祭り ストア in タワーレコード 
- 8月7日より開催!
-DESCRIPTION:「ガールズバンドクライ (ガルクラ)」のポップ
- アップストアが、タワーレコードにて2026年8月7日〜9月2
- 1日まで開催される。\n\n
+SUMMARY:[举办] GBC夏日祭限定店 in TOWER RECORDS 8月7日起举办
+ ！
+DESCRIPTION:《Girls Band Cry（GBC）》弹出商店于 TOWER RECORDS 川
+ 崎店、梅田NU茶屋町店、阿里奥购物中心苏我店举办；酒
+ 井香澄绘制浴衣夏日祭插图周边发售，满3300日元（含税
+ ）随机赠送特典卡1张。\n会期：川崎8/7–8/16、梅田9/4–9
+ /13、苏我9/11–9/21。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-omatsuri-popup-stor
  e-tower-records2026/
 URL;VALUE=URI:
@@ -10202,13 +10264,12 @@ DTSTART:20260814T103000Z
 DTEND:20260814T123000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA 
- TOUR 2026 チケット発売情報公開！
-DESCRIPTION:トゲナシトゲアリ初の東南アジアツアー「TOGENA
- SHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026」のチケット
- 発売情報が公開となりました。\nTOGENASHI TOGEARI “凛音の
- 理” SOUTHEAST ASIA TOUR 2026 ▼バンコク TOGENASHI TOGEARI “Rinne
-  no Kotowar\n\nhttps://girls-band-cry.com/news/post-480.html
+SUMMARY:[举办] 无刺有刺「凛音之理」SOUTHEAST ASIA TOUR 2026 票
+ 务发售信息公开！
+DESCRIPTION:无刺有刺首次东南亚巡演票务信息公开：曼谷8/1
+ 4 19:30、雅加达8/16 19:00、新加坡8/19 20:00；各地票务分别
+ 于6/26、6/23、6/25当地时间12:00开售。\n\n
+ https://girls-band-cry.com/news/post-480.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
 CATEGORIES:togenashi,live
 END:VEVENT
@@ -10219,13 +10280,12 @@ DTSTART:20260816T100000Z
 DTEND:20260816T120000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA 
- TOUR 2026 チケット発売情報公開！
-DESCRIPTION:トゲナシトゲアリ初の東南アジアツアー「TOGENA
- SHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026」のチケット
- 発売情報が公開となりました。\nTOGENASHI TOGEARI “凛音の
- 理” SOUTHEAST ASIA TOUR 2026 ▼バンコク TOGENASHI TOGEARI “Rinne
-  no Kotowar\n\nhttps://girls-band-cry.com/news/post-480.html
+SUMMARY:[举办] 无刺有刺「凛音之理」SOUTHEAST ASIA TOUR 2026 票
+ 务发售信息公开！
+DESCRIPTION:无刺有刺首次东南亚巡演票务信息公开：曼谷8/1
+ 4 19:30、雅加达8/16 19:00、新加坡8/19 20:00；各地票务分别
+ 于6/26、6/23、6/25当地时间12:00开售。\n\n
+ https://girls-band-cry.com/news/post-480.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
 CATEGORIES:togenashi,live
 END:VEVENT
@@ -10257,13 +10317,12 @@ DTSTART:20260819T110000Z
 DTEND:20260819T130000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ“凛音の理” SOUTHEAST ASIA 
- TOUR 2026 チケット発売情報公開！
-DESCRIPTION:トゲナシトゲアリ初の東南アジアツアー「TOGENA
- SHI TOGEARI “凛音の理” SOUTHEAST ASIA TOUR 2026」のチケット
- 発売情報が公開となりました。\nTOGENASHI TOGEARI “凛音の
- 理” SOUTHEAST ASIA TOUR 2026 ▼バンコク TOGENASHI TOGEARI “Rinne
-  no Kotowar\n\nhttps://girls-band-cry.com/news/post-480.html
+SUMMARY:[举办] 无刺有刺「凛音之理」SOUTHEAST ASIA TOUR 2026 票
+ 务发售信息公开！
+DESCRIPTION:无刺有刺首次东南亚巡演票务信息公开：曼谷8/1
+ 4 19:30、雅加达8/16 19:00、新加坡8/19 20:00；各地票务分别
+ 于6/26、6/23、6/25当地时间12:00开售。\n\n
+ https://girls-band-cry.com/news/post-480.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
 CATEGORIES:togenashi,live
 END:VEVENT
@@ -10275,11 +10334,13 @@ DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260914
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガルクラ お祭り ストア in タワーレコード 
- 8月7日より開催!
-DESCRIPTION:「ガールズバンドクライ (ガルクラ)」のポップ
- アップストアが、タワーレコードにて2026年8月7日〜9月2
- 1日まで開催される。\n\n
+SUMMARY:[举办] GBC夏日祭限定店 in TOWER RECORDS 8月7日起举办
+ ！
+DESCRIPTION:《Girls Band Cry（GBC）》弹出商店于 TOWER RECORDS 川
+ 崎店、梅田NU茶屋町店、阿里奥购物中心苏我店举办；酒
+ 井香澄绘制浴衣夏日祭插图周边发售，满3300日元（含税
+ ）随机赠送特典卡1张。\n会期：川崎8/7–8/16、梅田9/4–9
+ /13、苏我9/11–9/21。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-omatsuri-popup-stor
  e-tower-records2026/
 URL;VALUE=URI:
@@ -10288,36 +10349,17 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-476-2026-09-05_2026-09-06-hold@gbc-news
-DTSTAMP:20260905T000000Z
-DTSTART;VALUE=DATE:20260905
-DTEND;VALUE=DATE:20260907
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ「ASUTO MUSIC PARK 2026」に出
- 演決定！
-DESCRIPTION:仙台の副都心 あすと長町にて開催 明日が色づ
- く都市型音楽フェス ASUTO MUSIC PARK 2026にトゲナシトゲア
- リの出演が決定しました！\n■開催日時 2026年9月5日(土)
- /6日(日) ※トゲナシトゲアリの出演は9月6日(日) ■開催
- 場所 ゼビオアリーナ仙台/杜の広場 詳細は こちら\n\n
- https://girls-band-cry.com/news/post-476.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-476.html
-CATEGORIES:togenashi,live,event
-END:VEVENT
-BEGIN:VEVENT
 UID:firstriff-post-5-2026-09-05-hold-1500@gbc-news
 DTSTAMP:20260905T060000Z
 DTSTART:20260905T060000Z
 DTEND:20260905T080000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」開催
- 決定！
-DESCRIPTION:Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」の開催が
- 決定。\n■開催日時 2026年9月5日(土) 一部:開場14:00/開演 
- 15:00 二部:開場 18:30/開演 19:30 ■会場 WWW X ■チケット情
- 報 先行抽選販売を実施します。\n受付期間:2\n\n
+SUMMARY:[举办] Canna Lily 第2场个人演唱会「枯歌的情景」决
+ 定举办！
+DESCRIPTION:Canna Lily 第2场个人演唱会「枯歌的情景」于2026
+ 年9月5日在 WWW X 举办（一部开演15:00／二部开演19:30）；
+ 先行抽选受理2026年6月26日21:00–7月5日23:59。\n\n
  https://gbc-firstriff.com/news/post-5.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-5.html
 CATEGORIES:canna-lily,live,event
@@ -10329,15 +10371,30 @@ DTSTART:20260905T103000Z
 DTEND:20260905T123000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」開催
- 決定！
-DESCRIPTION:Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」の開催が
- 決定。\n■開催日時 2026年9月5日(土) 一部:開場14:00/開演 
- 15:00 二部:開場 18:30/開演 19:30 ■会場 WWW X ■チケット情
- 報 先行抽選販売を実施します。\n受付期間:2\n\n
+SUMMARY:[举办] Canna Lily 第2场个人演唱会「枯歌的情景」决
+ 定举办！
+DESCRIPTION:Canna Lily 第2场个人演唱会「枯歌的情景」于2026
+ 年9月5日在 WWW X 举办（一部开演15:00／二部开演19:30）；
+ 先行抽选受理2026年6月26日21:00–7月5日23:59。\n\n
  https://gbc-firstriff.com/news/post-5.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-5.html
 CATEGORIES:canna-lily,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-476-2026-09-06-hold@gbc-news
+DTSTAMP:20260906T000000Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺确定出演「ASUTO MUSIC PARK 2026」！
+DESCRIPTION:无刺有刺确定出演在仙台副都心「あすと长町」
+ 举办的城市型音乐节 ASUTO MUSIC PARK 2026。\n音乐节会期为20
+ 26年9月5日–9月6日，无刺有刺的出演日为9月6日；会场为
+  Xebio Arena 仙台 / 杜之广场。\n\n
+ https://girls-band-cry.com/news/post-476.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-476.html
+CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:collabo-girls-band-cry-omatsuri-popup-store-tower-records2026-2026-09-1
@@ -10347,11 +10404,13 @@ DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260922
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガルクラ お祭り ストア in タワーレコード 
- 8月7日より開催!
-DESCRIPTION:「ガールズバンドクライ (ガルクラ)」のポップ
- アップストアが、タワーレコードにて2026年8月7日〜9月2
- 1日まで開催される。\n\n
+SUMMARY:[举办] GBC夏日祭限定店 in TOWER RECORDS 8月7日起举办
+ ！
+DESCRIPTION:《Girls Band Cry（GBC）》弹出商店于 TOWER RECORDS 川
+ 崎店、梅田NU茶屋町店、阿里奥购物中心苏我店举办；酒
+ 井香澄绘制浴衣夏日祭插图周边发售，满3300日元（含税
+ ）随机赠送特典卡1张。\n会期：川崎8/7–8/16、梅田9/4–9
+ /13、苏我9/11–9/21。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-omatsuri-popup-stor
  e-tower-records2026/
 URL;VALUE=URI:
@@ -10360,38 +10419,34 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-475-2026-09-12_2026-09-13-hold@gbc-news
+UID:post-475-2026-09-12-hold@gbc-news
 DTSTAMP:20260912T000000Z
 DTSTART;VALUE=DATE:20260912
-DTEND;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260913
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ「ROCK IN JAPAN FESTIVAL 2026」 
- に出演決定！
-DESCRIPTION:「ROCK IN JAPAN FESTIVAL 2026」のトゲナシトゲアリの
- 出演が決定しました！\n■開催日 2026年9月12日(土)・13日
- (日)／19日(土)・20日(日)・21日(月・祝) ■トゲナシトゲ
- アリ出演日 2026年9月12日(土) ■会場 千葉市蘇我スポー
- ツ公園（千葉県千葉市） ▶詳細は コチラ X：\n\n
+SUMMARY:[举办] 无刺有刺确定出演「ROCK IN JAPAN FESTIVAL 2026」
+ ！
+DESCRIPTION:无刺有刺确定出演 ROCK IN JAPAN FESTIVAL 2026。\n活动
+ 整体日程为9月12日、13日、19日、20日、21日；无刺有刺的
+ 出演日为2026年9月12日，会场为千叶市苏我运动公园。\n\n
  https://girls-band-cry.com/news/post-475.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-475.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-474-2026-09-19-hold-1200@gbc-news
-DTSTAMP:20260919T030000Z
-DTSTART:20260919T030000Z
-DTEND:20260919T080000Z
-TRANSP:OPAQUE
+UID:post-474-2026-09-19-hold@gbc-news
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ「FEST. INAZUMA 2026」に出演
- 決定！
-DESCRIPTION:2026年9月19日(土)、20日(日)、21日(月・祝)の3日間
- 、滋賀県草津市烏丸半島芝生広場で開催される 「FEST. I
- NAZUMA 2026」にトゲナシトゲアリの出演が決定しました！
- \nトゲナシトゲアリは9月19日(土)の出演になります。\n
- ＜第1弾出演アーティスト＞ (50音順) ▼9月19日(土) GENERAT
- IONS T.M.Revolution\n\nhttps://girls-band-cry.com/news/post-474.html
+SUMMARY:[举办] 无刺有刺确定出演「FEST. INAZUMA 2026」！
+DESCRIPTION:无刺有刺确定出演滋贺县草津市乌丸半岛芝生广
+ 场举办的 FEST. INAZUMA 2026，出演日为2026年9月19日。\n音乐
+ 节整体会期为9月19日–9月21日；官方最快先行抽选受理
+ 为5月8日17:00–5月24日23:59。\n\n
+ https://girls-band-cry.com/news/post-474.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-474.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
@@ -10402,15 +10457,12 @@ DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライ Special LIVE “赤色の
- 響祭” 開催決定！
-DESCRIPTION:ガールズバンドクライ Special LIVE “赤色の響祭
- ”の開催が決定しました！\n■開催日 2026年11月3日（火
- ・祝） ■会場 ぴあアリーナMM チケット最速先行抽選申
- し込み券は、2026年7月22日（水）発売 劇場版総集編 ガ
- ールズバンドクライ 【前編】 青春狂走曲 Blu-ray & DVD 劇
- 場版総集編 ガールズバンドクライ 【後編】 なぁ、未\n
- \nhttps://girls-band-cry.com/news/post-473.html
+SUMMARY:[举办] Girls Band Cry（GBC）Special LIVE “赤色的响祭” 
+ 决定举办！
+DESCRIPTION:Girls Band Cry（GBC）Special LIVE “赤色的响祭” 将
+ 于2026年11月3日在 Pia Arena MM 举办。\n票务最快先行抽选申
+ 请券封入2026年7月22日发售的剧场版总集篇前篇/后篇 Blu-r
+ ay & DVD。\n\nhttps://girls-band-cry.com/news/post-473.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-473.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
