@@ -31,6 +31,7 @@ const toggleCatsBtn = document.getElementById('toggle-cats')
 const calendarGridEl = document.getElementById('calendar-grid')
 const calendarNoteEl = document.getElementById('calendar-note')
 const calendarMonthLabelEl = document.getElementById('calendar-month-label')
+const calendarMonthBgEl = document.getElementById('calendar-month-bg')
 const calendarPrevBtn = document.getElementById('calendar-prev')
 const calendarNextBtn = document.getElementById('calendar-next')
 const calendarTodayBtn = document.getElementById('calendar-today')
@@ -318,6 +319,7 @@ function renderCalendar(groups, categories) {
   ).length
 
   if (calendarMonthLabelEl) calendarMonthLabelEl.textContent = formatMonthLabel(calendarCursor)
+  if (calendarMonthBgEl) calendarMonthBgEl.textContent = String(calendarCursor.getMonth() + 1)
   if (calendarNoteEl) {
     calendarNoteEl.textContent =
       monthEventCount > 0

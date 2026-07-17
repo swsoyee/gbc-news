@@ -314,15 +314,37 @@
         margin: 0 0 0.75rem;
       }
       .calendar-board {
+        position: relative;
         overflow-x: auto;
         border: 1px solid var(--line);
         background: rgba(0, 0, 0, 0.16);
+      }
+      .calendar-month-bg {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: clamp(10rem, 36vw, 20rem);
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: -0.06em;
+        color: rgba(244, 239, 230, 0.03);
+        pointer-events: none;
+        user-select: none;
+        z-index: 0;
       }
       .calendar-weekdays,
       .calendar-week {
         display: grid;
         grid-template-columns: repeat(7, minmax(6.2rem, 1fr));
         min-width: 43.4rem;
+      }
+      .calendar-weekdays,
+      .calendar-grid {
+        position: relative;
+        z-index: 1;
       }
       .calendar-grid {
         min-width: 43.4rem;
@@ -641,6 +663,7 @@
         </div>
         <p class="calendar-note" id="calendar-note">按当前筛选显示</p>
         <div class="calendar-board" id="calendar-board">
+          <div class="calendar-month-bg" id="calendar-month-bg" aria-hidden="true"></div>
           <div class="calendar-weekdays" aria-hidden="true">
             <span>一</span><span>二</span><span>三</span><span>四</span><span>五</span
             ><span>六</span><span>日</span>
