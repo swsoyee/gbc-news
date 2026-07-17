@@ -187,14 +187,11 @@ DTSTART;VALUE=DATE:20240216
 DTEND;VALUE=DATE:20240217
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 「ガールズバンドクライ」のヴィレッジヴ
- ァンガード限定商品が発売決定！！
-DESCRIPTION:トゲナシトゲアリのグッズがヴィレッジヴァン
- ガード限定で2/16(金）より発売決定いたしました！\n本
- 日よりヴィレッジヴァンガード公式オンラインストア
- にて通販も開始いたします！\nこの機会にぜひお買い求
- めください！\n 展開店舗は こちら オンラインでのご注
- 文は こちら\n\nhttps://girls-band-cry.com/news/post-75.html
+SUMMARY:[发售] 《Girls Band Cry》Village Vanguard 限定商品发售决
+ 定！！
+DESCRIPTION:无刺有刺 Village Vanguard 限定周边自 2/16 起发售，
+ 官方网店同步开售。\n\n
+ https://girls-band-cry.com/news/post-75.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-75.html
 CATEGORIES:togenashi,goods
 END:VEVENT
@@ -205,16 +202,11 @@ DTSTART:20240304T100000Z
 DTEND:20240304T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] アニメ第1弾予告公開記念 オンライントー
- ク配信＆サイン会 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド “トゲナシトゲアリ” 今回はいよいよ
- 4月から放送がスタートするオリジナルTVアニメ「ガー
- ルズバンドクライ」の本予告第1弾公開を記念して、リ
- ミスタでのオフィシャルグッズ販売を行います。\nリミ
- スタにて対象商品をご購入いただいたお客様に、ミニ
- 色紙へメンバー全\n\nhttps://girls-band-cry.com/news/post-81.html
+SUMMARY:[举办] 动画第 1 弹预告公开纪念线上 talk 配信＆签
+ 名会举办通知
+DESCRIPTION:纪念本预告第 1 弹公开，3 月 4 日 19:00–20:00 于 
+ Limista 举办线上 talk；购入周边获签名迷你色纸。\n\n
+ https://girls-band-cry.com/news/post-81.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-81.html
 CATEGORIES:togenashi,live,goods,event,media
 END:VEVENT
@@ -225,29 +217,24 @@ DTSTART;VALUE=DATE:20240316
 DTEND;VALUE=DATE:20240317
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 3月16日ワンマンライブグッズ初公開！
-DESCRIPTION:ライブグッズをゲットして、トゲトゲワンマン
- ライブで盛り上がろう‼️ 当日は開場前物販も実施！\
- n詳しくは コチラ\n\nhttps://girls-band-cry.com/news/post-86.html
+SUMMARY:[举办] 3 月 16 日个人演唱会周边初公开！
+DESCRIPTION:公开 3/16 无刺有刺个人演唱会周边；当日开场前
+ 亦有物贩。\n\nhttps://girls-band-cry.com/news/post-86.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-86.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-96-2024-03-29_2024-06-30-sale-1300@gbc-news
-DTSTAMP:20240329T040000Z
-DTSTART:20240329T040000Z
-DTEND:20240630T145900Z
-TRANSP:OPAQUE
+UID:post-96-2024-03-29_2024-06-30-sale@gbc-news
+DTSTAMP:20240329T000000Z
+DTSTART;VALUE=DATE:20240329
+DTEND;VALUE=DATE:20240701
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 1st ONE-MAN LIVE “薄明の序
- 奏”グッズ事後通販のご案内
-DESCRIPTION:「トゲナシトゲアリ 1st ONE-MAN LIVE “薄明の序奏
- ”」にご来場いただいた皆様、誠にありがとうござい
- ました たくさんのお客様にご来場いただき、心より御
- 礼申し上げます LIVEグッズ関して、3月29日（金）より事
- 後通販を行います！\n ■販売期間：3月29日（金）13：00
- ～6月30日（日）23：59まで 購入方法、商品の発送時期等
- の詳細は\n\nhttps://girls-band-cry.com/news/post-96.html
+SUMMARY:[发售] 无刺有刺 1st ONE-MAN LIVE “薄明の序奏”周边
+ 事后通贩通知
+DESCRIPTION:1st 个人演唱会周边自 3/29 起于东映动画官方商
+ 店事后通贩至 6/30（不含 T 恤・徽章）。\n\n
+ https://girls-band-cry.com/news/post-96.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-96.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT

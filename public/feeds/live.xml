@@ -4,7 +4,7 @@
     <title>gbc-news · Live</title>
     <link>https://gbc-news.example.com/</link>
     <description>ガールズバンドクライ 公式ニュース（Live）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 12:35:52 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 12:36:34 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/live.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[举办] 生配信番組「トゲナシトゲアリ修行中」7月29日（土）17:00スタート</title>
@@ -368,6 +368,16 @@
       <description>東映アニメーションが製作するオリジナルアニメ「ガールズバンドクライ」の主題歌を歌う5人編成のガールズバンド “トゲナシトゲアリ” 12 月20日(水)の 4th Single『極私的極彩色アンサー』発売を記念し、大好評のオンライントーク配信＆サイン会【6回目】の開催が決定！ 今回の企画は「トゲトゲ版！きよしこの夜、プレゼント対決」になります。 ご期待ください</description>
     </item>
     <item>
+      <title>[发售] 1st ONE-MAN LIVE《薄明の序奏》主视觉公开！</title>
+      <link>https://girls-band-cry.com/news/post-73.html</link>
+      <guid isPermaLink="false">post-73-2024-02-01_2024-02-12-sale@gbc-news</guid>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>3/16 18:00 于横滨・1000 CLUB 举办；7-Eleven 先行抽选申请期为 2/1–2/12。</description>
+    </item>
+    <item>
       <title>[举办] トゲナシトゲアリ 5th Single『運命に賭けたい論理』発売記念 オンライントーク配信＆サイン会 開催のご案内</title>
       <link>https://girls-band-cry.com/news/post-68.html</link>
       <guid isPermaLink="false">post-68-2024-02-03-hold-1700@gbc-news</guid>
@@ -380,31 +390,41 @@
       <description>東映アニメーションが製作するオリジナルアニメ「ガールズバンドクライ」の主題歌を歌う5人編成のガールズバンド “トゲナシトゲアリ” 2024年2月28日（水）の5th Single 『運命に賭けたい論理』の発売を記念して、今年第1回目となるオンライントーク配信＆サイン会の開催が決定！ 今回の企画は「朱李プレゼンツ：ジェスチャー伝言ゲーム」になります。ご期待くだ</description>
     </item>
     <item>
-      <title>[举办] トゲナシトゲアリ 5th Single『運命に賭けたい論理』発売記念イベント開催！</title>
+      <title>[发售] 无刺有刺 1st ONE-MAN LIVE “薄明の序奏”门票一般销售开始！</title>
+      <link>https://girls-band-cry.com/news/post-79.html</link>
+      <guid isPermaLink="false">post-79-2024-02-16-sale-1800@gbc-news</guid>
+      <pubDate>Fri, 16 Feb 2024 09:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>3/16 18:00 于横滨・1000 CLUB 举办；一般售票自 2/16 18:00 起，入场特典为随机 PASS 风照片卡。</description>
+    </item>
+    <item>
+      <title>[举办] 无刺有刺 5th Single《運命に賭けたい論理》发售纪念活动举办！</title>
       <link>https://girls-band-cry.com/news/post-74.html</link>
-      <guid isPermaLink="false">post-74-2024-02-27-hold@gbc-news</guid>
-      <pubDate>Tue, 27 Feb 2024 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">post-74-2024-02-27-hold-1900@gbc-news</guid>
+      <pubDate>Tue, 27 Feb 2024 10:00:00 GMT</pubDate>
       <category>live</category>
       <category>music</category>
       <category>event</category>
       <category>cinema</category>
       <category domain="group">togenashi</category>
-      <description>東映アニメーションが製作するオリジナルアニメーション「ガールズバンドクライ」から 飛び出したガールズバンド “トゲナシトゲアリ” 5th Single『運命に賭けたい論理』の発売を記念して、HMV＆BOOKS SHIBUYA 5Fにてトークイベント【第4回目】の開催が決定！ 【開催日時】 2024年2月27日(火) 19:00 【優先エリア入場開始時間】 2</description>
+      <description>2/27 19:00 于 HMV＆BOOKS SHIBUYA 5F 举办 talk＆特典会；当日购入 5th Single 等可获海报签名。</description>
     </item>
     <item>
-      <title>[举办] トゲナシトゲアリ 5th Single『運命に賭けたい論理』発売記念イベント開催！</title>
+      <title>[发售] 无刺有刺 5th Single《運命に賭けたい論理》发售纪念活动举办！</title>
       <link>https://girls-band-cry.com/news/post-74.html</link>
-      <guid isPermaLink="false">post-74-2024-02-28-hold@gbc-news</guid>
+      <guid isPermaLink="false">post-74-2024-02-28-sale@gbc-news</guid>
       <pubDate>Wed, 28 Feb 2024 00:00:00 GMT</pubDate>
       <category>live</category>
       <category>music</category>
       <category>event</category>
       <category>cinema</category>
       <category domain="group">togenashi</category>
-      <description>東映アニメーションが製作するオリジナルアニメーション「ガールズバンドクライ」から 飛び出したガールズバンド “トゲナシトゲアリ” 5th Single『運命に賭けたい論理』の発売を記念して、HMV＆BOOKS SHIBUYA 5Fにてトークイベント【第4回目】の開催が決定！ 【開催日時】 2024年2月27日(火) 19:00 【優先エリア入場開始時間】 2</description>
+      <description>2/27 19:00 于 HMV＆BOOKS SHIBUYA 5F 举办 talk＆特典会；当日购入 5th Single 等可获海报签名。</description>
     </item>
     <item>
-      <title>[举办] アニメ第1弾予告公開記念 オンライントーク配信＆サイン会 開催のご案内</title>
+      <title>[举办] 动画第 1 弹预告公开纪念线上 talk 配信＆签名会举办通知</title>
       <link>https://girls-band-cry.com/news/post-81.html</link>
       <guid isPermaLink="false">post-81-2024-03-04-hold-1900@gbc-news</guid>
       <pubDate>Mon, 04 Mar 2024 10:00:00 GMT</pubDate>
@@ -413,38 +433,50 @@
       <category>event</category>
       <category>media</category>
       <category domain="group">togenashi</category>
-      <description>東映アニメーションが製作するオリジナルアニメ「ガールズバンドクライ」の主題歌を歌う5人編成のガールズバンド “トゲナシトゲアリ” 今回はいよいよ4月から放送がスタートするオリジナルTVアニメ「ガールズバンドクライ」の本予告第1弾公開を記念して、リミスタでのオフィシャルグッズ販売を行います。 リミスタにて対象商品をご購入いただいたお客様に、ミニ色紙へメンバー全</description>
+      <description>纪念本预告第 1 弹公开，3 月 4 日 19:00–20:00 于 Limista 举办线上 talk；购入周边获签名迷你色纸。</description>
     </item>
     <item>
-      <title>[发售] ガールズバンドクライ 新商品発売決定！</title>
+      <title>[发售] Girls Band Cry 新商品发售决定！</title>
       <link>https://girls-band-cry.com/news/post-92.html</link>
       <guid isPermaLink="false">post-92-2024-03-15-sale@gbc-news</guid>
       <pubDate>Fri, 15 Mar 2024 00:00:00 GMT</pubDate>
       <category>live</category>
       <category>event</category>
       <category domain="group">togenashi</category>
-      <description>ガールズバンドクライの新商品の発売が決定しました！ 今回新たに登場するのはボトルホルダー、キービジュアルクリアファイル、キービジュアルアクリルキーホルダーの3種！ ボトルホルダーはギター型のデザインです！ペットボトルをぶらさげることができ、 キャンプや屋外フェス、スポーツ観戦などさまざまなイベントで役立ちます！ ガールズバンドクライのキービジュアルを使用した</description>
+      <description>AniBirth 自 3/15 起发售瓶托、主视觉透明文件夹、主视觉亚克力钥匙扣；官方商店约 3 月下旬发售。</description>
     </item>
     <item>
-      <title>[举办] 3月16日ワンマンライブグッズ初公開！</title>
+      <title>[举办] 3 月 16 日个人演唱会周边初公开！</title>
       <link>https://girls-band-cry.com/news/post-86.html</link>
       <guid isPermaLink="false">post-86-2024-03-16-hold@gbc-news</guid>
       <pubDate>Sat, 16 Mar 2024 00:00:00 GMT</pubDate>
       <category>live</category>
       <category>goods</category>
       <category domain="group">togenashi</category>
-      <description>ライブグッズをゲット✨して、トゲトゲワンマンライブで盛り上がろう‼️ 🎶当日は開場前物販も実施！ 👇詳しくは コチラ 👇</description>
+      <description>公开 3/16 无刺有刺个人演唱会周边；当日开场前亦有物贩。</description>
     </item>
     <item>
-      <title>[发售] トゲナシトゲアリ 1st ONE-MAN LIVE “薄明の序奏”@横浜・1000CLUB 会場予約特典決定のご案内</title>
+      <title>[举办] 原创专辑《棘アリ》将于 4 月 24 日（三）发售！</title>
+      <link>https://girls-band-cry.com/news/post-88.html</link>
+      <guid isPermaLink="false">post-88-2024-03-16-hold@gbc-news</guid>
+      <pubDate>Sat, 16 Mar 2024 00:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>music</category>
+      <category>event</category>
+      <category>cinema</category>
+      <category domain="group">togenashi</category>
+      <description>无刺有刺首张原创专辑《棘アリ》于 4/24 发售并开始预约；3/16 个人演唱会会场预约可获动画化纪念海报。</description>
+    </item>
+    <item>
+      <title>[举办] 无刺有刺 1st ONE-MAN LIVE “薄明の序奏”@横滨・1000CLUB 会场预约特典决定通知</title>
       <link>https://girls-band-cry.com/news/post-89.html</link>
-      <guid isPermaLink="false">post-89-2024-03-16-sale@gbc-news</guid>
+      <guid isPermaLink="false">post-89-2024-03-16-hold@gbc-news</guid>
       <pubDate>Sat, 16 Mar 2024 00:00:00 GMT</pubDate>
       <category>live</category>
       <category>music</category>
       <category>event</category>
       <category domain="group">togenashi</category>
-      <description>2024年3月16日(土)横浜・1000CLUBにて開催される トゲナシトゲアリ1st ONE-MAN LIVE “薄明の序奏”会場内のCD販売ブースで、 4月24日発売トゲナシトゲアリ オリジナルアルバム 『棘アリ』をご予約いただきますと、 「ガールズバンドクライ」 TVアニメ化記念特製キービジュアルポスター（非売品・B2サイズ）」をその場でプレゼントいた</description>
+      <description>3/16 会场 CD 摊预约 4/24 发售的《棘アリ》，可获动画化纪念主视觉海报（B2）。</description>
     </item>
     <item>
       <title>[举办] トゲナシトゲアリ 1st ONE-MAN LIVE &quot;薄明の序奏”開催決定！</title>
@@ -458,34 +490,34 @@
       <description>3月16日(土)に横浜・1000CLUBにて開催します。 ライブタイトルは「薄明の序奏」。 テレビアニメの放送を直前に控える中、ファンに直接音楽と想いを届けます。 ここから本格始動するバンド活動の”序奏”となるステージをぜひ会場でご覧ください。 トゲナシトゲアリ1st ONE-MAN LIVE 「薄明の序奏」 ■開催日時：2024年3月16日(土) ■開場／</description>
     </item>
     <item>
-      <title>[举办] 1st ONE-MAN LIVE 『薄明の序奏』メインビジュアルを公開！</title>
+      <title>[举办] 1st ONE-MAN LIVE《薄明の序奏》主视觉公开！</title>
       <link>https://girls-band-cry.com/news/post-73.html</link>
       <guid isPermaLink="false">post-73-2024-03-16-hold-1800@gbc-news</guid>
       <pubDate>Sat, 16 Mar 2024 09:00:00 GMT</pubDate>
       <category>live</category>
       <category>event</category>
       <category domain="group">togenashi</category>
-      <description>トゲナシトゲアリ 1st ONE-MAN LIVE &quot;薄明の序奏” ■開催日時：2024年3月16日(土) ■開場／開演：17:00／18:00 ■会場：横浜・1000 CLUB ■チケット：￥8,800(税込) ※ドリンク代別途必要 ▼セブンイレブン先行 〈受付期間〉2024年2月1日(木)12:00〜2月12日(月)23:59 〈受付URL〉 https</description>
+      <description>3/16 18:00 于横滨・1000 CLUB 举办；7-Eleven 先行抽选申请期为 2/1–2/12。</description>
     </item>
     <item>
-      <title>[举办] トゲナシトゲアリ 1st ONE-MAN LIVE &quot;薄明の序奏”チケット一般販売開始！</title>
+      <title>[举办] 无刺有刺 1st ONE-MAN LIVE “薄明の序奏”门票一般销售开始！</title>
       <link>https://girls-band-cry.com/news/post-79.html</link>
       <guid isPermaLink="false">post-79-2024-03-16-hold-1800@gbc-news</guid>
       <pubDate>Sat, 16 Mar 2024 09:00:00 GMT</pubDate>
       <category>live</category>
       <category>event</category>
       <category domain="group">togenashi</category>
-      <description>トゲナシトゲアリ 1st ONE-MAN LIVE &quot;薄明の序奏” ■開催日時：2024年3月16日(土) ■開場／開演：17:00／18:00 ■会場：横浜・1000 CLUB ■チケット：￥8,800(税込) ※ドリンク代別途必要 ▼一般発売 〈受付期間〉2024年2月16日(金)18:00〜 〈受付URL〉 ぴあ： https://w.pia.jp/t</description>
+      <description>3/16 18:00 于横滨・1000 CLUB 举办；一般售票自 2/16 18:00 起，入场特典为随机 PASS 风照片卡。</description>
     </item>
     <item>
-      <title>[发售] トゲナシトゲアリ 1st ONE-MAN LIVE “薄明の序奏”グッズ事後通販のご案内</title>
+      <title>[发售] 无刺有刺 1st ONE-MAN LIVE “薄明の序奏”周边事后通贩通知</title>
       <link>https://girls-band-cry.com/news/post-96.html</link>
-      <guid isPermaLink="false">post-96-2024-03-29_2024-06-30-sale-1300@gbc-news</guid>
-      <pubDate>Fri, 29 Mar 2024 04:00:00 GMT</pubDate>
+      <guid isPermaLink="false">post-96-2024-03-29_2024-06-30-sale@gbc-news</guid>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 GMT</pubDate>
       <category>live</category>
       <category>goods</category>
       <category domain="group">togenashi</category>
-      <description>「トゲナシトゲアリ 1st ONE-MAN LIVE “薄明の序奏”」にご来場いただいた皆様、誠にありがとうございました✨ たくさんのお客様にご来場いただき、心より御礼申し上げます🙏 LIVEグッズ関して、3月29日（金）より事後通販を行います！🎁 ■販売期間：3月29日（金）13：00～6月30日（日）23：59まで 購入方法、商品の発送時期等の詳細は</description>
+      <description>1st 个人演唱会周边自 3/29 起于东映动画官方商店事后通贩至 6/30（不含 T 恤・徽章）。</description>
     </item>
     <item>
       <title>[举办] real Sound 刊登 Girls Band Cry 特集页面！</title>
@@ -509,19 +541,7 @@
       <description>豪华限定版 BD/DVD 全 7 卷自 6/26 起每月发售；详细信息于 4/19 25 时发表。</description>
     </item>
     <item>
-      <title>[举办] オリジナルアルバム『棘アリ』を4月24日(水)にリリース！</title>
-      <link>https://girls-band-cry.com/news/post-88.html</link>
-      <guid isPermaLink="false">post-88-2024-04-24-hold@gbc-news</guid>
-      <pubDate>Wed, 24 Apr 2024 00:00:00 GMT</pubDate>
-      <category>live</category>
-      <category>music</category>
-      <category>event</category>
-      <category>cinema</category>
-      <category domain="group">togenashi</category>
-      <description>アニメ『ガールズバンドクライ』 本作の劇中バンド「トゲナシトゲアリ」が、 初のオリジナルアルバム『棘アリ』を4月24日(水)にリリース！🎉🎉 ご予約受付を開始しました✨ 💿アルバム予約は こちら から💿 さらに、2024年3月16日(土)横浜・1000CLUBにて開催されるトゲナシトゲアリ 1st ONE-MAN LIVE “薄明の序奏” の会場でご</description>
-    </item>
-    <item>
-      <title>[发售] オリジナルアルバム『棘アリ』を4月24日(水)にリリース！</title>
+      <title>[发售] 原创专辑《棘アリ》将于 4 月 24 日（三）发售！</title>
       <link>https://girls-band-cry.com/news/post-88.html</link>
       <guid isPermaLink="false">post-88-2024-04-24-sale@gbc-news</guid>
       <pubDate>Wed, 24 Apr 2024 00:00:00 GMT</pubDate>
@@ -530,10 +550,10 @@
       <category>event</category>
       <category>cinema</category>
       <category domain="group">togenashi</category>
-      <description>アニメ『ガールズバンドクライ』 本作の劇中バンド「トゲナシトゲアリ」が、 初のオリジナルアルバム『棘アリ』を4月24日(水)にリリース！🎉🎉 ご予約受付を開始しました✨ 💿アルバム予約は こちら から💿 さらに、2024年3月16日(土)横浜・1000CLUBにて開催されるトゲナシトゲアリ 1st ONE-MAN LIVE “薄明の序奏” の会場でご</description>
+      <description>无刺有刺首张原创专辑《棘アリ》于 4/24 发售并开始预约；3/16 个人演唱会会场预约可获动画化纪念海报。</description>
     </item>
     <item>
-      <title>[发售] トゲナシトゲアリ 1st ONE-MAN LIVE “薄明の序奏”@横浜・1000CLUB 会場予約特典決定のご案内</title>
+      <title>[发售] 无刺有刺 1st ONE-MAN LIVE “薄明の序奏”@横滨・1000CLUB 会场预约特典决定通知</title>
       <link>https://girls-band-cry.com/news/post-89.html</link>
       <guid isPermaLink="false">post-89-2024-04-24-sale@gbc-news</guid>
       <pubDate>Wed, 24 Apr 2024 00:00:00 GMT</pubDate>
@@ -541,7 +561,7 @@
       <category>music</category>
       <category>event</category>
       <category domain="group">togenashi</category>
-      <description>2024年3月16日(土)横浜・1000CLUBにて開催される トゲナシトゲアリ1st ONE-MAN LIVE “薄明の序奏”会場内のCD販売ブースで、 4月24日発売トゲナシトゲアリ オリジナルアルバム 『棘アリ』をご予約いただきますと、 「ガールズバンドクライ」 TVアニメ化記念特製キービジュアルポスター（非売品・B2サイズ）」をその場でプレゼントいた</description>
+      <description>3/16 会场 CD 摊预约 4/24 发售的《棘アリ》，可获动画化纪念主视觉海报（B2）。</description>
     </item>
     <item>
       <title>[举办] ABEMA 免费一举配信决定！</title>

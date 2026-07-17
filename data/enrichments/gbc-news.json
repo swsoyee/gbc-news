@@ -4667,6 +4667,365 @@
           "startTime": "01:00"
         }
       ]
+    },
+    "post-99": {
+      "id": "post-99",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "a6466c0fee2ceb83ed390ac42c038e435159059518b50e9db8c32503bf1b02fa",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "TV 动画 PV 第 2 弹公开纪念活动开始！",
+      "summaryZh": "纪念本预告第 2 弹公开，官方 X 关注＆转发活动进行至 4/4；抽选 5 名获签名海报。",
+      "eventDates": [
+        {
+          "date": "2024-03-29",
+          "endDate": "2024-04-04",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "活动跨日>24h 去时刻"
+    },
+    "post-96": {
+      "id": "post-96",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f224af7013bec0be35d242062ae42ccdc01076c077ab165d0f6eba884354deae",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "无刺有刺 1st ONE-MAN LIVE “薄明の序奏”周边事后通贩通知",
+      "summaryZh": "1st 个人演唱会周边自 3/29 起于东映动画官方商店事后通贩至 6/30（不含 T 恤・徽章）。",
+      "eventDates": [
+        {
+          "date": "2024-03-29",
+          "endDate": "2024-06-30",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "通贩跨日去时刻"
+    },
+    "post-95": {
+      "id": "post-95",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "9b8856d04bff2208c2b61fbfe426b306061051bdab75b377fd6cd6bbedcb9827",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "RUPA 角色 PV 公开纪念 X 活动开始！",
+      "summaryZh": "纪念 RUPA 角色 PV 公开，官方 X 关注＆转发活动进行至 3/21；抽选 5 名获签名海报。",
+      "eventDates": [
+        {
+          "date": "2024-03-17",
+          "endDate": "2024-03-21",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "活动跨日去时刻"
+    },
+    "post-92": {
+      "id": "post-92",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "842e7ef3dfaed42cd8c0de5629c7e8bed0b799e058d762238287e45edadc8a76",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "Girls Band Cry 新商品发售决定！",
+      "summaryZh": "AniBirth 自 3/15 起发售瓶托、主视觉透明文件夹、主视觉亚克力钥匙扣；官方商店约 3 月下旬发售。",
+      "eventDates": [
+        {
+          "date": "2024-03-15",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "官方商店下旬无具体日不补录"
+    },
+    "post-91": {
+      "id": "post-91",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "5b23e27f2dbaf9f8e417195dcc305dc5de466f357cfbb36f43028fde0646a2a6",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "海老塚智角色 PV 公开纪念 X 活动开始！",
+      "summaryZh": "纪念海老塚智角色 PV 公开，官方 X 关注＆转发活动进行至 3/14；抽选 5 名获签名海报。",
+      "eventDates": [
+        {
+          "date": "2024-03-08",
+          "endDate": "2024-03-14",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "活动跨日去时刻"
+    },
+    "post-88": {
+      "id": "post-88",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "0b23d92f611ec20efa9e047755d3ce6e3348f745a32c27274874f7bddc076f5a",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "原创专辑《棘アリ》将于 4 月 24 日（三）发售！",
+      "summaryZh": "无刺有刺首张原创专辑《棘アリ》于 4/24 发售并开始预约；3/16 个人演唱会会场预约可获动画化纪念海报。",
+      "eventDates": [
+        {
+          "date": "2024-04-24",
+          "kind": "sale"
+        },
+        {
+          "date": "2024-03-16",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "去掉与发售重复的 hold"
+    },
+    "post-89": {
+      "id": "post-89",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "54ef1024329ff47cec69e8dfa84aa49b91d6cd76b22fc0d9831b07e41d651ae7",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "无刺有刺 1st ONE-MAN LIVE “薄明の序奏”@横滨・1000CLUB 会场预约特典决定通知",
+      "summaryZh": "3/16 会场 CD 摊预约 4/24 发售的《棘アリ》，可获动画化纪念主视觉海报（B2）。",
+      "eventDates": [
+        {
+          "date": "2024-03-16",
+          "kind": "hold"
+        },
+        {
+          "date": "2024-04-24",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "公演误标 sale，订正为 hold"
+    },
+    "post-90": {
+      "id": "post-90",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "57d24d1d3aff31689056865149c79fefaa4368316469746dcb16caee1b367cda",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》〈第 8 话〉回顾上映会举办决定！",
+      "summaryZh": "于 animate 预约/购入《棘アリ》可获应募序号；5/25 于 animate 池袋本店举办第 8 话回顾上映会（14:00 / 17:00 两部）。",
+      "eventDates": [
+        {
+          "date": "2024-04-24",
+          "kind": "sale"
+        },
+        {
+          "date": "2024-05-25",
+          "kind": "hold",
+          "startTime": "14:00"
+        },
+        {
+          "date": "2024-05-25",
+          "kind": "hold",
+          "startTime": "17:00"
+        }
+      ],
+      "reviewNotes": "上映会误标 sale，订正为 hold 并补时刻"
+    },
+    "post-86": {
+      "id": "post-86",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "6b9f24b7ec7818c90351559eca24d83c29cdbe63ff042c93531988d27dc84b33",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "3 月 16 日个人演唱会周边初公开！",
+      "summaryZh": "公开 3/16 无刺有刺个人演唱会周边；当日开场前亦有物贩。",
+      "eventDates": [
+        {
+          "date": "2024-03-16",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-87": {
+      "id": "post-87",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "b4978eeb4ea69c9e96ec0133faed1155a4815fc83b0a2e19b3b7f645776f6e18",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "安和昴角色 PV 公开纪念 X 活动开始！",
+      "summaryZh": "纪念安和昴角色 PV 公开，官方 X 关注＆转发活动进行至 3/7；抽选 5 名获签名海报。",
+      "eventDates": [
+        {
+          "date": "2024-03-01",
+          "endDate": "2024-03-07",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "活动跨日去时刻"
+    },
+    "post-84": {
+      "id": "post-84",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "c30f107178e947eacde1fb5ef72c0629cf9c86efb8d2c1d62373df20265c4891",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "无刺有刺 5th Single《運命に賭けたい論理》开始销售！",
+      "summaryZh": "无刺有刺 5th Single《運命に賭けたい論理》于 2/28 发售；含 CD 剧场与 MV 影像盘。",
+      "eventDates": [
+        {
+          "date": "2024-02-28",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-83": {
+      "id": "post-83",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "6662d2edb6787a01acc778ecd20ec874c9085c3f1bbe393dd4fb95aef83fb476",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "河原木桃香角色 PV 公开纪念 X 活动开始！",
+      "summaryZh": "纪念河原木桃香角色 PV 公开，官方 X 关注＆转发活动进行至 2/29；抽选 5 名获签名海报。",
+      "eventDates": [
+        {
+          "date": "2024-02-23",
+          "endDate": "2024-02-29",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "活动跨日去时刻"
+    },
+    "post-81": {
+      "id": "post-81",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "10e6d58c83155ba2d396900ca20a1a7855e77a6ff65822fa51879e8b189c95b3",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "动画第 1 弹预告公开纪念线上 talk 配信＆签名会举办通知",
+      "summaryZh": "纪念本预告第 1 弹公开，3 月 4 日 19:00–20:00 于 Limista 举办线上 talk；购入周边获签名迷你色纸。",
+      "eventDates": [
+        {
+          "date": "2024-03-04",
+          "kind": "hold",
+          "startTime": "19:00",
+          "endTime": "20:00"
+        }
+      ]
+    },
+    "post-79": {
+      "id": "post-79",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "a6e6cdb6a977a41c5d28cf63e2e1edc33a631fd70f3d665eab1eeb52cc150621",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "无刺有刺 1st ONE-MAN LIVE “薄明の序奏”门票一般销售开始！",
+      "summaryZh": "3/16 18:00 于横滨・1000 CLUB 举办；一般售票自 2/16 18:00 起，入场特典为随机 PASS 风照片卡。",
+      "eventDates": [
+        {
+          "date": "2024-03-16",
+          "kind": "hold",
+          "startTime": "18:00"
+        },
+        {
+          "date": "2024-02-16",
+          "kind": "sale",
+          "startTime": "18:00"
+        }
+      ]
+    },
+    "post-80": {
+      "id": "post-80",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "1223c74ec397f2b5cf13cdd80b0a701d0ba4e1e069bbf03daa33cdceee744ced",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "井芹仁菜角色 PV 公开纪念 X 活动开始！",
+      "summaryZh": "纪念井芹仁菜角色 PV 公开，官方 X 关注＆转发活动进行至 2/22；抽选 5 名获签名海报。",
+      "eventDates": [
+        {
+          "date": "2024-02-16",
+          "endDate": "2024-02-22",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "活动跨日去时刻"
+    },
+    "post-78": {
+      "id": "post-78",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "a8f5a258e689bc7160efd407c879d12e9c172103c61c1ed10c9c5e8b1765cb43",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "无刺有刺 5th Single《運命に賭けたい論理》各店特典图案决定通知",
+      "summaryZh": "2/28 发售的 5th Single 各店先着特典图案已决定。",
+      "eventDates": [
+        {
+          "date": "2024-02-28",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-77": {
+      "id": "post-77",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "720536911a505ec442bdd97da9e5b65e0f403b22ea7da19308326ceb521bd079",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "TV 动画 PV 公开纪念活动开始！",
+      "summaryZh": "纪念本预告第 1 弹公开，官方 X 关注＆转发活动进行至 2/15；抽选 5 名获签名海报。",
+      "eventDates": [
+        {
+          "date": "2024-02-09",
+          "endDate": "2024-02-15",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "活动跨日去时刻"
+    },
+    "post-74": {
+      "id": "post-74",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "77dc7441c389655026767310940f468f7cfeed606ae378712ec4044786997686",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "无刺有刺 5th Single《運命に賭けたい論理》发售纪念活动举办！",
+      "summaryZh": "2/27 19:00 于 HMV＆BOOKS SHIBUYA 5F 举办 talk＆特典会；当日购入 5th Single 等可获海报签名。",
+      "eventDates": [
+        {
+          "date": "2024-02-27",
+          "kind": "hold",
+          "startTime": "19:00"
+        },
+        {
+          "date": "2024-02-28",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "发售日误标 hold，订正为 sale"
+    },
+    "post-75": {
+      "id": "post-75",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8aab99e417cc0d69bf24bd878a9d1284cf7cde69c4797bbc00eefb8f957b9407",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "《Girls Band Cry》Village Vanguard 限定商品发售决定！！",
+      "summaryZh": "无刺有刺 Village Vanguard 限定周边自 2/16 起发售，官方网店同步开售。",
+      "eventDates": [
+        {
+          "date": "2024-02-16",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-73": {
+      "id": "post-73",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "cc80d9fa5c6210259c391c1f44dcfa7e1474d820d19c9f1d1da1d9497748d3fd",
+      "reviewedAt": "2026-07-17T18:00:00.000Z",
+      "titleZh": "1st ONE-MAN LIVE《薄明の序奏》主视觉公开！",
+      "summaryZh": "3/16 18:00 于横滨・1000 CLUB 举办；7-Eleven 先行抽选申请期为 2/1–2/12。",
+      "eventDates": [
+        {
+          "date": "2024-03-16",
+          "kind": "hold",
+          "startTime": "18:00"
+        },
+        {
+          "date": "2024-02-01",
+          "endDate": "2024-02-12",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "票务先行跨日去时刻"
     }
   }
 }

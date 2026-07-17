@@ -400,21 +400,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-68.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-74-2024-02-27-hold@gbc-news
-DTSTAMP:20240227T000000Z
-DTSTART;VALUE=DATE:20240227
-DTEND;VALUE=DATE:20240228
-TRANSP:TRANSPARENT
+UID:post-74-2024-02-27-hold-1900@gbc-news
+DTSTAMP:20240227T100000Z
+DTSTART:20240227T100000Z
+DTEND:20240227T120000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ 5th Single『運命に賭けた
- い論理』発売記念イベント開催！
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メーション「ガールズバンドクライ」から 飛び出した
- ガールズバンド “トゲナシトゲアリ” 5th Single『運命
- に賭けたい論理』の発売を記念して、HMV＆BOOKS SHIBUYA 5F
- にてトークイベント【第4回目】の開催が決定！\n【開
- 催日時】 2024年2月27日(火) 19:00 【優先エリア入場開始時
- 間】 2\n\nhttps://girls-band-cry.com/news/post-74.html
+SUMMARY:[举办] 无刺有刺 5th Single《運命に賭けたい論理》
+ 发售纪念活动举办！
+DESCRIPTION:2/27 19:00 于 HMV＆BOOKS SHIBUYA 5F 举办 talk＆特典会
+ ；当日购入 5th Single 等可获海报签名。\n\n
+ https://girls-band-cry.com/news/post-74.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-74.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
@@ -437,21 +433,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-55.html
 CATEGORIES:togenashi,music,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-74-2024-02-28-hold@gbc-news
+UID:post-74-2024-02-28-sale@gbc-news
 DTSTAMP:20240228T000000Z
 DTSTART;VALUE=DATE:20240228
 DTEND;VALUE=DATE:20240229
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ 5th Single『運命に賭けた
- い論理』発売記念イベント開催！
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メーション「ガールズバンドクライ」から 飛び出した
- ガールズバンド “トゲナシトゲアリ” 5th Single『運命
- に賭けたい論理』の発売を記念して、HMV＆BOOKS SHIBUYA 5F
- にてトークイベント【第4回目】の開催が決定！\n【開
- 催日時】 2024年2月27日(火) 19:00 【優先エリア入場開始時
- 間】 2\n\nhttps://girls-band-cry.com/news/post-74.html
+SUMMARY:[发售] 无刺有刺 5th Single《運命に賭けたい論理》
+ 发售纪念活动举办！
+DESCRIPTION:2/27 19:00 于 HMV＆BOOKS SHIBUYA 5F 举办 talk＆特典会
+ ；当日购入 5th Single 等可获海报签名。\n\n
+ https://girls-band-cry.com/news/post-74.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-74.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
@@ -462,17 +454,28 @@ DTSTART;VALUE=DATE:20240228
 DTEND;VALUE=DATE:20240229
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ5th Single「運命に賭けたい
- 論理」販売スタート！
-DESCRIPTION:劇中バンド「トゲナシトゲアリ」の 5thシング
- ル「運命に賭けたい論理」 の販売がスタートしました 
- CDのご購入は こちら 【アーティスト】 トゲナシトゲア
- リ Vo.井芹 仁菜（CV:理名） Gt.河原木 桃香（CV:夕莉） Dr.
- 安和 すばる（CV: 美怜） Key.海老塚 智（CV: 凪都） Ba.ル
- パ （CV: 朱李） 【発売日】 2024年2月2\n\n
+SUMMARY:[发售] 无刺有刺 5th Single《運命に賭けたい論理》
+ 开始销售！
+DESCRIPTION:无刺有刺 5th Single《運命に賭けたい論理》于 2/2
+ 8 发售；含 CD 剧场与 MV 影像盘。\n\n
  https://girls-band-cry.com/news/post-84.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-84.html
 CATEGORIES:togenashi,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-88-2024-03-16-hold@gbc-news
+DTSTAMP:20240316T000000Z
+DTSTART;VALUE=DATE:20240316
+DTEND;VALUE=DATE:20240317
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 原创专辑《棘アリ》将于 4 月 24 日（三）发
+ 售！
+DESCRIPTION:无刺有刺首张原创专辑《棘アリ》于 4/24 发售并
+ 开始预约；3/16 个人演唱会会场预约可获动画化纪念海报
+ 。\n\nhttps://girls-band-cry.com/news/post-88.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-88.html
+CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-108-2024-04-20-hold-0100@gbc-news
@@ -504,40 +507,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-121.html
 CATEGORIES:togenashi,music,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-88-2024-04-24-hold@gbc-news
-DTSTAMP:20240424T000000Z
-DTSTART;VALUE=DATE:20240424
-DTEND;VALUE=DATE:20240425
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] オリジナルアルバム『棘アリ』を4月24日(水
- )にリリース！
-DESCRIPTION:アニメ『ガールズバンドクライ』 本作の劇中
- バンド「トゲナシトゲアリ」が、 初のオリジナルアル
- バム『棘アリ』を4月24日(水)にリリース！\n ご予約受付
- を開始しました アルバム予約は こちら から さらに、2
- 024年3月16日(土)横浜・1000CLUBにて開催されるトゲナシト
- ゲアリ 1st ONE-MAN LIVE “薄明の序奏” の会場でご\n\n
- https://girls-band-cry.com/news/post-88.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-88.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
 UID:post-88-2024-04-24-sale@gbc-news
 DTSTAMP:20240424T000000Z
 DTSTART;VALUE=DATE:20240424
 DTEND;VALUE=DATE:20240425
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] オリジナルアルバム『棘アリ』を4月24日(水
- )にリリース！
-DESCRIPTION:アニメ『ガールズバンドクライ』 本作の劇中
- バンド「トゲナシトゲアリ」が、 初のオリジナルアル
- バム『棘アリ』を4月24日(水)にリリース！\n ご予約受付
- を開始しました アルバム予約は こちら から さらに、2
- 024年3月16日(土)横浜・1000CLUBにて開催されるトゲナシト
- ゲアリ 1st ONE-MAN LIVE “薄明の序奏” の会場でご\n\n
- https://girls-band-cry.com/news/post-88.html
+SUMMARY:[发售] 原创专辑《棘アリ》将于 4 月 24 日（三）发
+ 售！
+DESCRIPTION:无刺有刺首张原创专辑《棘アリ》于 4/24 发售并
+ 开始预约；3/16 个人演唱会会场预约可获动画化纪念海报
+ 。\n\nhttps://girls-band-cry.com/news/post-88.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-88.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
@@ -548,16 +528,11 @@ DTSTART;VALUE=DATE:20240424
 DTEND;VALUE=DATE:20240425
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] TVアニメ「ガールズバンドクライ」〈第8話
- 〉振り返り上映会 開催決定！
-DESCRIPTION:2024年4月24日(水)発売 トゲナシトゲアリ オリジ
- ナルアルバム 『棘アリ』 を全国アニメイト（通販含む
- ）でご予約（全額内金）もしくはご購入いただくと、 
- メンバーと一緒に振り返り上映会にご参加いただける
- 応募シリアルをプレゼント！\nご当選者のみご参加いた
- だけるイベントです。\n〈開催場所・日時〉 アニメイ
- トシアター(アニメイト池袋本店 B2F) 2024年5\n\n
- https://girls-band-cry.com/news/post-90.html
+SUMMARY:[发售] TV 动画《Girls Band Cry》〈第 8 话〉回顾上映
+ 会举办决定！
+DESCRIPTION:于 animate 预约/购入《棘アリ》可获应募序号；5/
+ 25 于 animate 池袋本店举办第 8 话回顾上映会（14:00 / 17:00 
+ 两部）。\n\nhttps://girls-band-cry.com/news/post-90.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-90.html
 CATEGORIES:togenashi,music,event,cinema
 END:VEVENT
@@ -577,26 +552,6 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-107.html
 CATEGORIES:togenashi,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-90-2024-05-25-sale@gbc-news
-DTSTAMP:20240525T000000Z
-DTSTART;VALUE=DATE:20240525
-DTEND;VALUE=DATE:20240526
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] TVアニメ「ガールズバンドクライ」〈第8話
- 〉振り返り上映会 開催決定！
-DESCRIPTION:2024年4月24日(水)発売 トゲナシトゲアリ オリジ
- ナルアルバム 『棘アリ』 を全国アニメイト（通販含む
- ）でご予約（全額内金）もしくはご購入いただくと、 
- メンバーと一緒に振り返り上映会にご参加いただける
- 応募シリアルをプレゼント！\nご当選者のみご参加いた
- だけるイベントです。\n〈開催場所・日時〉 アニメイ
- トシアター(アニメイト池袋本店 B2F) 2024年5\n\n
- https://girls-band-cry.com/news/post-90.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-90.html
-CATEGORIES:togenashi,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
 UID:post-109-2024-05-25-hold-1400@gbc-news
 DTSTAMP:20240525T050000Z
 DTSTART:20240525T050000Z
@@ -612,6 +567,21 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-109.html
 CATEGORIES:togenashi,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-90-2024-05-25-hold-1400@gbc-news
+DTSTAMP:20240525T050000Z
+DTSTART:20240525T050000Z
+DTEND:20240525T070000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] TV 动画《Girls Band Cry》〈第 8 话〉回顾上映
+ 会举办决定！
+DESCRIPTION:于 animate 预约/购入《棘アリ》可获应募序号；5/
+ 25 于 animate 池袋本店举办第 8 话回顾上映会（14:00 / 17:00 
+ 两部）。\n\nhttps://girls-band-cry.com/news/post-90.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-90.html
+CATEGORIES:togenashi,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-109-2024-05-25-hold-1700@gbc-news
 DTSTAMP:20240525T080000Z
 DTSTART:20240525T080000Z
@@ -625,6 +595,21 @@ DESCRIPTION:专辑购入者可应募 5/25 于 animate 池袋本店举办的
  https://girls-band-cry.com/news/post-109.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-109.html
 CATEGORIES:togenashi,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-90-2024-05-25-hold-1700@gbc-news
+DTSTAMP:20240525T080000Z
+DTSTART:20240525T080000Z
+DTEND:20240525T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] TV 动画《Girls Band Cry》〈第 8 话〉回顾上映
+ 会举办决定！
+DESCRIPTION:于 animate 预约/购入《棘アリ》可获应募序号；5/
+ 25 于 animate 池袋本店举办第 8 话回顾上映会（14:00 / 17:00 
+ 两部）。\n\nhttps://girls-band-cry.com/news/post-90.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-90.html
+CATEGORIES:togenashi,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-151-2024-06-21-hold-1900@gbc-news

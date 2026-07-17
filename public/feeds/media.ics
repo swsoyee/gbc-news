@@ -186,16 +186,11 @@ DTSTART:20240304T100000Z
 DTEND:20240304T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] アニメ第1弾予告公開記念 オンライントー
- ク配信＆サイン会 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド “トゲナシトゲアリ” 今回はいよいよ
- 4月から放送がスタートするオリジナルTVアニメ「ガー
- ルズバンドクライ」の本予告第1弾公開を記念して、リ
- ミスタでのオフィシャルグッズ販売を行います。\nリミ
- スタにて対象商品をご購入いただいたお客様に、ミニ
- 色紙へメンバー全\n\nhttps://girls-band-cry.com/news/post-81.html
+SUMMARY:[举办] 动画第 1 弹预告公开纪念线上 talk 配信＆签
+ 名会举办通知
+DESCRIPTION:纪念本预告第 1 弹公开，3 月 4 日 19:00–20:00 于 
+ Limista 举办线上 talk；购入周边获签名迷你色纸。\n\n
+ https://girls-band-cry.com/news/post-81.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-81.html
 CATEGORIES:togenashi,live,goods,event,media
 END:VEVENT
