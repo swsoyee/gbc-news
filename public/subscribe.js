@@ -68,9 +68,14 @@ const calendarViewBtns = document.querySelectorAll('[data-calendar-view]')
 
 const CHIPS_PER_DAY = 3
 const CHIPS_PER_WEEK = Number.POSITIVE_INFINITY
+/** 周/日视图默认折叠的凌晨小时数（0:00–7:59） */
+const EARLY_HOURS = 8
 
 /** @type {'month' | 'week' | 'day'} */
 let calendarView = 'month'
+
+/** 周/日视图是否展开 0:00–7:59 */
+let earlyHoursExpanded = false
 
 /** 当前看板日期：本地时区的某一天 */
 let calendarCursor = startOfDay(new Date())
@@ -359,17 +364,51 @@ function appendTimedBlocks(layerEl, events, isoDate) {
   return blocks.length
 }
 
-function buildHourRail() {
+function buildHourRail(expanded) {
   const rail = document.createElement('div')
   rail.className = 'calendar-hour-rail'
   rail.setAttribute('aria-hidden', 'true')
-  for (let hour = 0; hour < 24; hour += 1) {
+  const startHour = expanded ? 0 : EARLY_HOURS
+  rail.style.setProperty('--hour-rows', String(24 - startHour))
+  for (let hour = startHour; hour < 24; hour += 1) {
     const mark = document.createElement('div')
     mark.className = 'calendar-hour-mark'
     mark.textContent = `${String(hour).padStart(2, '0')}:00`
     rail.appendChild(mark)
   }
   return rail
+}
+
+function countEarlyTimedBlocks(events, cells) {
+  const earlyEnd = EARLY_HOURS * 60
+  let count = 0
+  for (const cell of cells) {
+    for (const block of buildDayTimedBlocks(events, cell.date)) {
+      if (block.startMin < earlyEnd) count += 1
+    }
+  }
+  return count
+}
+
+function buildEarlyHoursToggle(earlyCount) {
+  const button = document.createElement('button')
+  button.type = 'button'
+  button.className = 'calendar-early-toggle'
+  if (earlyHoursExpanded) {
+    button.textContent = '收起凌晨'
+    button.setAttribute('aria-expanded', 'true')
+    button.title = '收起 0:00–7:59'
+  } else {
+    button.textContent = earlyCount > 0 ? `展开凌晨（${earlyCount}）` : '展开凌晨'
+    button.setAttribute('aria-expanded', 'false')
+    button.title = '展开 0:00–7:59'
+    if (earlyCount > 0) button.classList.add('has-early-events')
+  }
+  button.addEventListener('click', () => {
+    earlyHoursExpanded = !earlyHoursExpanded
+    refreshCalendarOnly()
+  })
+  return button
 }
 
 function applyDayState(el, cell, today) {
@@ -434,7 +473,14 @@ function renderTimeGridFrame(events, cells, today) {
   header.style.setProperty('--allday-lanes', String(Math.max(laneCount, 1)))
   frame.appendChild(header)
 
-  const hourRail = buildHourRail()
+  const earlyCount = countEarlyTimedBlocks(events, cells)
+  corner.appendChild(buildEarlyHoursToggle(earlyCount))
+
+  if (!earlyHoursExpanded) frame.classList.add('is-early-collapsed')
+  frame.style.setProperty('--early-hours', String(EARLY_HOURS))
+  frame.style.setProperty('--visible-hours', String(earlyHoursExpanded ? 24 : 24 - EARLY_HOURS))
+
+  const hourRail = buildHourRail(earlyHoursExpanded)
   frame.appendChild(hourRail)
 
   const columns = document.createElement('div')
@@ -453,10 +499,7 @@ function renderTimeGridFrame(events, cells, today) {
   frame.appendChild(columns)
 
   root.appendChild(frame)
-  const visibleAllDay = allDayEvents.filter((event) =>
-    cells.some((cell) => event.date <= cell.date && cell.date <= event.endDate),
-  ).length
-  return { root, timedCount, allDayCount: visibleAllDay }
+  return { root, timedCount, allDayCount: allDayEvents.length }
 }
 
 function renderWeekTimeGrid(events, weekCells, today) {

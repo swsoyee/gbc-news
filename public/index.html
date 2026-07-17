@@ -569,12 +569,15 @@
       .calendar-time-frame {
         --cal-gutter: 3.2rem;
         --cal-col-min: 5.5rem;
+        --early-hours: 8;
+        --visible-hours: 24;
+        --hour-row-height: 2.4rem;
         display: grid;
         grid-template-columns: var(--cal-gutter) repeat(
             var(--cal-cols, 7),
             minmax(var(--cal-col-min), 1fr)
           );
-        grid-template-rows: auto minmax(calc(24 * 2.4rem), auto);
+        grid-template-rows: auto minmax(calc(var(--visible-hours) * var(--hour-row-height)), auto);
         min-width: calc(var(--cal-gutter) + var(--cal-cols, 7) * var(--cal-col-min));
       }
       .calendar-time-grid.is-day .calendar-time-frame {
@@ -596,8 +599,33 @@
       .calendar-time-corner {
         grid-column: 1;
         grid-row: 1;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0.25rem 0.15rem;
         border-right: 1px solid var(--line);
         min-height: inherit;
+      }
+      .calendar-early-toggle {
+        appearance: none;
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.04);
+        color: var(--muted);
+        cursor: pointer;
+        font-size: 0.62rem;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+        padding: 0.28rem 0.2rem;
+        width: 100%;
+        text-align: center;
+      }
+      .calendar-early-toggle:hover {
+        color: var(--ink);
+        background: rgba(255, 255, 255, 0.08);
+      }
+      .calendar-early-toggle.has-early-events {
+        color: var(--accent);
+        border-color: rgba(232, 93, 76, 0.45);
       }
       .calendar-day-head {
         grid-row: 1;
@@ -630,10 +658,11 @@
         margin: calc(2.15rem + var(--calendar-lane) * 1.25rem) 0.16rem 0.2rem;
       }
       .calendar-hour-rail {
+        --hour-rows: 24;
         grid-column: 1;
         grid-row: 2;
         display: grid;
-        grid-template-rows: repeat(24, 2.4rem);
+        grid-template-rows: repeat(var(--hour-rows), var(--hour-row-height));
         border-right: 1px solid var(--line);
         color: var(--muted);
         font-size: 0.68rem;
@@ -650,7 +679,7 @@
         display: grid;
         grid-template-columns: repeat(var(--cal-cols, 7), minmax(var(--cal-col-min), 1fr));
         min-width: 0;
-        min-height: calc(24 * 2.4rem);
+        min-height: calc(var(--visible-hours) * var(--hour-row-height));
       }
       .calendar-time-col {
         position: relative;
@@ -660,11 +689,12 @@
         background-image: repeating-linear-gradient(
           to bottom,
           transparent,
-          transparent calc(2.4rem - 1px),
-          rgba(244, 239, 230, 0.06) calc(2.4rem - 1px),
-          rgba(244, 239, 230, 0.06) 2.4rem
+          transparent calc(var(--hour-row-height) - 1px),
+          rgba(244, 239, 230, 0.06) calc(var(--hour-row-height) - 1px),
+          rgba(244, 239, 230, 0.06) var(--hour-row-height)
         );
-        min-height: calc(24 * 2.4rem);
+        min-height: calc(var(--visible-hours) * var(--hour-row-height));
+        height: calc(var(--visible-hours) * var(--hour-row-height));
       }
       .calendar-time-col:last-child {
         border-right: none;
@@ -674,7 +704,13 @@
       }
       .calendar-timed-layer {
         position: absolute;
-        inset: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: calc(24 * var(--hour-row-height));
+      }
+      .calendar-time-frame.is-early-collapsed .calendar-timed-layer {
+        top: calc(var(--early-hours) * var(--hour-row-height) * -1);
       }
       a.calendar-timed-block {
         position: absolute;
