@@ -1,6 +1,6 @@
 {
   "sourceId": "gbc-news",
-  "updatedAt": "2026-07-17T13:25:00.000Z",
+  "updatedAt": "2026-07-17T13:35:00.000Z",
   "items": {
     "post-483": {
       "id": "post-483",
@@ -1363,6 +1363,166 @@
         }
       ],
       "reviewNotes": "截止日；去掉误抽 23:59"
+    },
+    "post-377": {
+      "id": "post-377",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "c09ae96e9b5840ef2a8b10e035019fcc9e161c10a83bcc30c4f9f8d73ee0fa9e",
+      "reviewedAt": "2026-07-17T13:35:00.000Z",
+      "titleZh": "「桃香（を）ワッショイ」发售 & 东京电玩展出展决定！",
+      "summaryZh": "谜游戏《桃香（を）ワッショイ》于 9/29 在 Steam 发售（定价 500 日元，10/12 前特价 350 日元），并将于 9/25–28 在幕张 Messe 东京电玩展 2025 出展。",
+      "eventDates": [
+        {
+          "date": "2025-09-25",
+          "endDate": "2025-09-28",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-09-29",
+          "endDate": "2025-10-12",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "TGS 为 hold；Steam 发售与特价期"
+    },
+    "post-375": {
+      "id": "post-375",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "bcc96f64892a43f6025741b93549c3a9af013d1cdccbb6c2540f3fcaf81923d8",
+      "reviewedAt": "2026-07-17T13:35:00.000Z",
+      "titleZh": "《【前篇】青春狂走曲》首日 & 公开纪念舞台问候举办决定！",
+      "summaryZh": "《【前篇】青春狂走曲》10/3 于新宿 B9 举办首日舞台问候（理名・夕莉・朱李），10/4–5 展开公开纪念舞台问候巡演（多剧场）。",
+      "eventDates": [
+        {
+          "date": "2025-10-03",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-10-04",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-10-05",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "舞台日为 hold"
+    },
+    "post-378": {
+      "id": "post-378",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8bf767cbb3e3e26673cf12ee879947e36ccac65a6619c4f60fc3e2647836a744",
+      "reviewedAt": "2026-07-17T13:35:00.000Z",
+      "titleZh": "GBC 手办登陆 AniBirth 店铺！",
+      "summaryZh": "东映动画官方商店预约贩售的人气 GBC 手办于 9/19 起在 AniBirth 池袋 PARCO・心斋桥 PARCO 店发售。",
+      "eventDates": [
+        {
+          "date": "2025-09-19",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-379": {
+      "id": "post-379",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "d233064a8776a676ec5fad49cbb87b90c93c6c839a1e6f8c33fc501c26e3f6c7",
+      "reviewedAt": "2026-07-17T13:35:00.000Z",
+      "titleZh": "无刺有刺 LIVE in 日本武道馆 “奏檄之叫” 关于美怜、凪都出演的通知",
+      "summaryZh": "美怜、凪都因身体状况无法出演原定 2025 年 9 月 23 日的武道馆 LIVE “奏檄之叫”，当日由理名、夕莉、朱李 3 名与 2 名支援成员出演。",
+      "eventDates": [
+        {
+          "date": "2025-09-23",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-376": {
+      "id": "post-376",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "d5f8ed1d49b7e5865ad6144229f1dbff1fd7fe7a143702eb8cf3089adbfda586",
+      "reviewedAt": "2026-07-17T13:35:00.000Z",
+      "titleZh": "第 11 张 Single《薄采ディスプレイ》收录「昴的咨询」试听视频公开！",
+      "summaryZh": "无刺有刺第 11 张 Single《薄采ディスプレイ》于 9/24 发售，收录 5 人出演的 3 篇广播剧，现公开其中「昴的咨询」试听。",
+      "eventDates": [
+        {
+          "date": "2025-09-24",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-374": {
+      "id": "post-374",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "80298c7a425f0a95a5e70c1fa627a84ed4bdca4f2c80853f38b7968f2a812af1",
+      "reviewedAt": "2026-07-17T13:35:00.000Z",
+      "titleZh": "无刺有刺 LIVE in 日本武道馆 “奏檄之叫” 9 月 13 日（六）18:00 起一般先到先得发售",
+      "summaryZh": "无刺有刺武道馆 LIVE “奏檄之叫”（9/23 开演 18:00）追加票种一般先到先得售票：9/13 18:00 起受理舞台侧后方席与 2F 后方立见席。",
+      "eventDates": [
+        {
+          "date": "2025-09-13",
+          "kind": "sale",
+          "startTime": "18:00"
+        },
+        {
+          "date": "2025-09-23",
+          "kind": "hold",
+          "startTime": "18:00"
+        }
+      ],
+      "reviewNotes": "售票与公演分开"
+    },
+    "post-373": {
+      "id": "post-373",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "0c10072dfa487b0f19b36b155d32a79f002d7f72dbc4a3de43ead14d6a765f0c",
+      "reviewedAt": "2026-07-17T13:35:00.000Z",
+      "titleZh": "9 月 5 日（五）起 Movi-Ticket 预售券（线上）发售！购买特典为手机壁纸！",
+      "summaryZh": "《剧场版总集篇 Girls Band Cry》【前篇】Movi-Ticket 线上预售券于 9/5 10:00 起发售，购买特典为前篇主视觉手机壁纸。",
+      "eventDates": [
+        {
+          "date": "2025-09-05",
+          "kind": "sale",
+          "startTime": "10:00"
+        }
+      ]
+    },
+    "post-369": {
+      "id": "post-369",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "fb1b51a67db5c6815c9dbd176c3a568a4481c01fdf60a0e050fb9baf6c9db337",
+      "reviewedAt": "2026-07-17T13:35:00.000Z",
+      "titleZh": "9 月 20 日（六）起「Girls Band Cry × 丸福咖啡店」联动举办！",
+      "summaryZh": "《Girls Band Cry》× 丸福咖啡店联动自 9/20 起举办：推出联名菜单与全新绘制周边（含徽章、亚克力杯垫、咖啡礼盒等 9 种），店头与通贩同步销售。",
+      "eventDates": [
+        {
+          "date": "2025-09-20",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "本篇未写结束日"
+    },
+    "post-372": {
+      "id": "post-372",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8dd542f96f3299b185aba63fd784eba7f9e93bbbba7162e869aa3fc25c41f87e",
+      "reviewedAt": "2026-07-17T13:35:00.000Z",
+      "titleZh": "无刺有刺 LIVE in 日本武道馆 “奏檄之叫” 致到场观众须知",
+      "summaryZh": "2025 年 9 月 23 日武道馆 LIVE “奏檄之叫”将实施行李检查与身份证件确认；禁止携带荧光棒、团扇、自制周边及录音录像设备等。",
+      "eventDates": [
+        {
+          "date": "2025-09-23",
+          "kind": "hold"
+        }
+      ]
     }
   }
 }

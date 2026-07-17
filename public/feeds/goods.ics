@@ -2060,16 +2060,12 @@ DTSTART;VALUE=DATE:20250920
 DTEND;VALUE=DATE:20250921
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 9月20日（土）より「ガールズバンドクライ
- ×丸福珈琲店」コラボ開催決定！
-DESCRIPTION:2025年9月20日（土）より、ガールズバンドクラ
- イと丸福珈琲店のコラボイベント 「ガールズバンドク
- ライ×丸福珈琲店 コラボレーション」が開催！\n■丸福
- 珈琲店 看板メニューとのコラボは全3種展開！\nメンバ
- ーのパーソナルカラーをベースにした爽やかなクリー
- ムソーダ、外はサクッと中はふんわりとした⾷感が特
- 徴の看板メニュー・ホットケーキ、様々な味が楽しめ
- るフルーツカ\n\nhttps://girls-band-cry.com/news/post-369.html
+SUMMARY:[举办] 9 月 20 日（六）起「Girls Band Cry × 丸福咖啡
+ 店」联动举办！
+DESCRIPTION:《Girls Band Cry》× 丸福咖啡店联动自 9/20 起举办
+ ：推出联名菜单与全新绘制周边（含徽章、亚克力杯垫
+ 、咖啡礼盒等 9 种），店头与通贩同步销售。\n\n
+ https://girls-band-cry.com/news/post-369.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-369.html
 CATEGORIES:togenashi,goods,event,media
 END:VEVENT
@@ -2119,16 +2115,12 @@ DTSTART;VALUE=DATE:20250923
 DTEND;VALUE=DATE:20250924
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ LIVE in 日本武道館 “奏檄
- の叫”公演、ご来場の皆様へお願い
-DESCRIPTION:ご来場の皆様へお願い 皆様が、楽しく安全に
- ライブをお楽しみいただけるよう、以下のルールのご
- 理解・ご協力をお願いいたします。\n9月23日(火・祝) ト
- ゲナシトゲアリ LIVE in 日本武道館 “奏檄の叫”公演を 
- 安全・快適にお楽しみいただくために来場される皆様
- に手荷物検査のご協力をお願いします。\n入場前にスタ
- ッフがお荷物を拝見し、持ち込み禁止物がないかを確
- 認\n\nhttps://girls-band-cry.com/news/post-372.html
+SUMMARY:[举办] 无刺有刺 LIVE in 日本武道馆 “奏檄之叫” 
+ 致到场观众须知
+DESCRIPTION:2025 年 9 月 23 日武道馆 LIVE “奏檄之叫”将实施
+ 行李检查与身份证件确认；禁止携带荧光棒、团扇、自
+ 制周边及录音录像设备等。\n\n
+ https://girls-band-cry.com/news/post-372.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-372.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT

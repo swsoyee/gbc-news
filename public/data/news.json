@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-17T12:18:43.789Z",
+  "scrapedAt": "2026-07-17T12:19:20.959Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
@@ -3209,20 +3209,19 @@
       "eventDates": [
         {
           "date": "2025-09-25",
-          "kind": "hold",
-          "endDate": "2025-09-28"
+          "endDate": "2025-09-28",
+          "kind": "hold"
         },
         {
           "date": "2025-09-29",
-          "kind": "sale"
-        },
-        {
-          "date": "2025-10-12",
+          "endDate": "2025-10-12",
           "kind": "sale"
         }
       ],
       "summary": "あの謎ゲーム「桃香（を）ワッショイ」が 9月29日(月)よりSteamで発売決定！🎉 さらに、9月25日(木)〜9月28日(日)に、幕張メッセで開催される「東京ゲームショウ2025」への出展も決定しました！ 🔗Steamストアページは こちら から！ 本日よりストアページが公開されております。 ウィッシュリストに登録して発売をお待ちください！！ 🎮『桃",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/09/%E6%A1%83%E3%83%AF%E3%82%B7%E3%83%A7_%E7%99%BA%E5%A3%B2%E6%B1%BA%E5%AE%9A-1024x576.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/09/%E6%A1%83%E3%83%AF%E3%82%B7%E3%83%A7_%E7%99%BA%E5%A3%B2%E6%B1%BA%E5%AE%9A-1024x576.png",
+      "titleZh": "「桃香（を）ワッショイ」发售 & 东京电玩展出展决定！",
+      "summaryZh": "谜游戏《桃香（を）ワッショイ》于 9/29 在 Steam 发售（定价 500 日元，10/12 前特价 350 日元），并将于 9/25–28 在幕张 Messe 东京电玩展 2025 出展。"
     },
     {
       "id": "post-379",
@@ -3244,7 +3243,9 @@
         }
       ],
       "summary": "いつもトゲナシトゲアリを応援いただき誠にありがとうございます。 体調不良によりライブ公演の欠席が続いております美怜、凪都に関して、 2025年9月23日（火・祝）開催予定の日本武道館公演の出演を目指し調整を進めて参りましたが、出演が困難と判断いたしました。 当日は理名、夕莉、朱李の3名とサポートメンバー2名での出演となります。 ファンの皆様、ならびに関係者の",
-      "imageUrl": "https://girls-band-cry.com/wp-content/themes/gbc_v1/assets/images/common/img_thumb.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/themes/gbc_v1/assets/images/common/img_thumb.png",
+      "titleZh": "无刺有刺 LIVE in 日本武道馆 “奏檄之叫” 关于美怜、凪都出演的通知",
+      "summaryZh": "美怜、凪都因身体状况无法出演原定 2025 年 9 月 23 日的武道馆 LIVE “奏檄之叫”，当日由理名、夕莉、朱李 3 名与 2 名支援成员出演。"
     },
     {
       "id": "post-375",
@@ -3264,15 +3265,21 @@
       "eventDates": [
         {
           "date": "2025-10-03",
-          "kind": "sale"
+          "kind": "hold"
         },
         {
           "date": "2025-10-04",
-          "kind": "sale"
+          "kind": "hold"
+        },
+        {
+          "date": "2025-10-05",
+          "kind": "hold"
         }
       ],
       "summary": "『劇場版総集編 ガールズバンドクライ 【前編】 青春狂走曲』 初日舞台挨拶、公開記念舞台挨拶開催決定！ ◇実施日時 【初日舞台挨拶】 ■10月3日（金） ＜舞台挨拶登壇者＞ 理名、夕莉、朱李 ※登壇者は予告なく変更する場合がございますこと、予めご了承ください。 ＜劇場＞ 新宿バルト９ ＜時間＞ ・15：00の回（上映終了後） ※マスコミあり ・18：20の回",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/08/GBC%E7%B7%8F%E9%9B%86%E7%B7%A8_%E3%83%A0%E3%83%93%E3%83%81%E3%82%B1%E7%AC%AC3%E5%BC%BE_KV_%E6%A8%AA_%E5%85%AC%E9%96%8B%E6%97%A5%E3%83%8A%E3%82%B7-1024x576.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/08/GBC%E7%B7%8F%E9%9B%86%E7%B7%A8_%E3%83%A0%E3%83%93%E3%83%81%E3%82%B1%E7%AC%AC3%E5%BC%BE_KV_%E6%A8%AA_%E5%85%AC%E9%96%8B%E6%97%A5%E3%83%8A%E3%82%B7-1024x576.jpg",
+      "titleZh": "《【前篇】青春狂走曲》首日 & 公开纪念舞台问候举办决定！",
+      "summaryZh": "《【前篇】青春狂走曲》10/3 于新宿 B9 举办首日舞台问候（理名・夕莉・朱李），10/4–5 展开公开纪念舞台问候巡演（多剧场）。"
     },
     {
       "id": "post-378",
@@ -3293,7 +3300,9 @@
         }
       ],
       "summary": "📅9/19(金) ガルクラフィギュアがAniBirth店舗に登場📢 東映アニメーションオフィシャルストアにて予約販売した、 大人気フィギュアがついにAniBirthに登場✨ 下記店舗にて発売いたしますので、お見逃しなく❗ ・AniBirth池袋PARCO店 ・AniBirth心斎橋PARCO店",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "GBC 手办登陆 AniBirth 店铺！",
+      "summaryZh": "东映动画官方商店预约贩售的人气 GBC 手办于 9/19 起在 AniBirth 池袋 PARCO・心斋桥 PARCO 店发售。"
     },
     {
       "id": "post-376",
@@ -3316,7 +3325,9 @@
         }
       ],
       "summary": "💿11th Single『薄采ディスプレイ』 📅9月24日(水)発売 収録されているドラマパートにはトゲトゲメンバー5人が出演！ 3篇の中から「すばるの相談」を特別公開しました！ トゲナシトゲアリ 11th Single「薄采ディスプレイ」 9月24日(水)発売予定！ ▼CD収録内容 ■収録曲 01. 薄采ディスプレイ 02. 蜃気楼ニ問フ 03. 薄采",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "第 11 张 Single《薄采ディスプレイ》收录「昴的咨询」试听视频公开！",
+      "summaryZh": "无刺有刺第 11 张 Single《薄采ディスプレイ》于 9/24 发售，收录 5 人出演的 3 篇广播剧，现公开其中「昴的咨询」试听。"
     },
     {
       "id": "post-374",
@@ -3333,12 +3344,19 @@
       "eventDates": [
         {
           "date": "2025-09-13",
+          "kind": "sale",
+          "startTime": "18:00"
+        },
+        {
+          "date": "2025-09-23",
           "kind": "hold",
           "startTime": "18:00"
         }
       ],
       "summary": "トゲナシトゲアリ LIVE in 日本武道館 “奏檄の叫”公演 9月13日(土)18:00より、一般先着販売が決定しました！ 発売する券種はステージサイドバック席、2F後方立見(立ち位置指定) になります。 注意事項をご確認の上、お申し込みください。 ■日時：2025年9月23日（火・祝） ■時間：OPEN/16:30 START/18:00 ■会場：日本武",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/02/0207%E6%97%A5%E6%9C%AC%E6%AD%A6%E9%81%93%E9%A4%A8%E5%91%8A%E7%9F%A5%E7%94%BB%E5%83%8F-1024x576.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/02/0207%E6%97%A5%E6%9C%AC%E6%AD%A6%E9%81%93%E9%A4%A8%E5%91%8A%E7%9F%A5%E7%94%BB%E5%83%8F-1024x576.jpg",
+      "titleZh": "无刺有刺 LIVE in 日本武道馆 “奏檄之叫” 9 月 13 日（六）18:00 起一般先到先得发售",
+      "summaryZh": "无刺有刺武道馆 LIVE “奏檄之叫”（9/23 开演 18:00）追加票种一般先到先得售票：9/13 18:00 起受理舞台侧后方席与 2F 后方立见席。"
     },
     {
       "id": "post-373",
@@ -3360,7 +3378,9 @@
         }
       ],
       "summary": "『劇場版総集編 ガールズバンドクライ』🎬 9月5日(金)10時より前編のムビチケ前売券(オンライン)販売開始📢 購入特典は前編KVを使ったスマホ壁紙🎁 🔗ムビチケ前売券(オンライン)購入は こちら ※カード券ではございません。",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/02/HP%E6%98%A0%E7%94%BB%E6%83%85%E5%A0%B1.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/02/HP%E6%98%A0%E7%94%BB%E6%83%85%E5%A0%B1.png",
+      "titleZh": "9 月 5 日（五）起 Movi-Ticket 预售券（线上）发售！购买特典为手机壁纸！",
+      "summaryZh": "《剧场版总集篇 Girls Band Cry》【前篇】Movi-Ticket 线上预售券于 9/5 10:00 起发售，购买特典为前篇主视觉手机壁纸。"
     },
     {
       "id": "collabo-girls-band-cry-cafe-marufuku-coffee-2025",
@@ -3377,12 +3397,14 @@
       "eventDates": [
         {
           "date": "2025-09-20",
-          "kind": "hold",
-          "endDate": "2025-10-31"
+          "endDate": "2025-10-31",
+          "kind": "hold"
         }
       ],
       "summary": "東映アニメーションが贈るオリジナルTVアニメ「ガールズバンドクライ」× 昭和9年創業の老舗珈琲店「丸福珈琲店」7店舗にて2025年9月20日〜10月31日までコラボカフェが開催される。作品の世界観やキャラクターをイメージしたコラボメニューが楽しめる他、描き下ろしイラストを使用したコラボカフェ限定グッズが登場!",
-      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/4e2eefe31e5bfbce3ab4f587d15bd771-2534.jpg"
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/4e2eefe31e5bfbce3ab4f587d15bd771-2534.jpg",
+      "titleZh": "Girls Band Cry × 丸福咖啡店 7 店 9 月 20 日起联动举办！",
+      "summaryZh": "《Girls Band Cry》× 丸福咖啡店 7 店联动咖啡厅于 2025 年 9 月 20 日–10 月 31 日举办，提供联名菜单与制服主题全新绘制限定周边。"
     },
     {
       "id": "post-372",
@@ -3404,7 +3426,9 @@
         }
       ],
       "summary": "ご来場の皆様へお願い 皆様が、楽しく安全にライブをお楽しみいただけるよう、以下のルールのご理解・ご協力をお願いいたします。 9月23日(火・祝) トゲナシトゲアリ LIVE in 日本武道館 “奏檄の叫”公演を 安全・快適にお楽しみいただくために来場される皆様に手荷物検査のご協力をお願いします。 入場前にスタッフがお荷物を拝見し、持ち込み禁止物がないかを確認",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/02/0207%E6%97%A5%E6%9C%AC%E6%AD%A6%E9%81%93%E9%A4%A8%E5%91%8A%E7%9F%A5%E7%94%BB%E5%83%8F-1024x576.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2025/02/0207%E6%97%A5%E6%9C%AC%E6%AD%A6%E9%81%93%E9%A4%A8%E5%91%8A%E7%9F%A5%E7%94%BB%E5%83%8F-1024x576.jpg",
+      "titleZh": "无刺有刺 LIVE in 日本武道馆 “奏檄之叫” 致到场观众须知",
+      "summaryZh": "2025 年 9 月 23 日武道馆 LIVE “奏檄之叫”将实施行李检查与身份证件确认；禁止携带荧光棒、团扇、自制周边及录音录像设备等。"
     },
     {
       "id": "post-369",
@@ -3427,7 +3451,9 @@
         }
       ],
       "summary": "2025年9月20日（土）より、ガールズバンドクライと丸福珈琲店のコラボイベント 「ガールズバンドクライ×丸福珈琲店 コラボレーション」が開催！ ■丸福珈琲店 看板メニューとのコラボは全3種展開！ メンバーのパーソナルカラーをベースにした爽やかなクリームソーダ、外はサクッと中はふんわりとした⾷感が特徴の看板メニュー・ホットケーキ、様々な味が楽しめるフルーツカ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png",
+      "titleZh": "9 月 20 日（六）起「Girls Band Cry × 丸福咖啡店」联动举办！",
+      "summaryZh": "《Girls Band Cry》× 丸福咖啡店联动自 9/20 起举办：推出联名菜单与全新绘制周边（含徽章、亚克力杯垫、咖啡礼盒等 9 种），店头与通贩同步销售。"
     },
     {
       "id": "post-371",

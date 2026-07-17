@@ -909,57 +909,59 @@ DTSTART;VALUE=DATE:20250920
 DTEND;VALUE=DATE:20250921
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 9月20日（土）より「ガールズバンドクライ
- ×丸福珈琲店」コラボ開催決定！
-DESCRIPTION:2025年9月20日（土）より、ガールズバンドクラ
- イと丸福珈琲店のコラボイベント 「ガールズバンドク
- ライ×丸福珈琲店 コラボレーション」が開催！\n■丸福
- 珈琲店 看板メニューとのコラボは全3種展開！\nメンバ
- ーのパーソナルカラーをベースにした爽やかなクリー
- ムソーダ、外はサクッと中はふんわりとした⾷感が特
- 徴の看板メニュー・ホットケーキ、様々な味が楽しめ
- るフルーツカ\n\nhttps://girls-band-cry.com/news/post-369.html
+SUMMARY:[举办] 9 月 20 日（六）起「Girls Band Cry × 丸福咖啡
+ 店」联动举办！
+DESCRIPTION:《Girls Band Cry》× 丸福咖啡店联动自 9/20 起举办
+ ：推出联名菜单与全新绘制周边（含徽章、亚克力杯垫
+ 、咖啡礼盒等 9 种），店头与通贩同步销售。\n\n
+ https://girls-band-cry.com/news/post-369.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-369.html
 CATEGORIES:togenashi,goods,event,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-375-2025-10-03-sale@gbc-news
+UID:post-375-2025-10-03-hold@gbc-news
 DTSTAMP:20251003T000000Z
 DTSTART;VALUE=DATE:20251003
 DTEND;VALUE=DATE:20251004
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 『劇場版総集編 ガールズバンドクライ 【
- 前編】 青春狂走曲』 初日＆公開記念舞台挨拶 実施決
- 定！
-DESCRIPTION:『劇場版総集編 ガールズバンドクライ 【前編
- 】 青春狂走曲』 初日舞台挨拶、公開記念舞台挨拶開催
- 決定！\n◇実施日時 【初日舞台挨拶】 ■10月3日（金） 
- ＜舞台挨拶登壇者＞ 理名、夕莉、朱李 ※登壇者は予告
- なく変更する場合がございますこと、予めご了承くだ
- さい。\n＜劇場＞ 新宿バルト９ ＜時間＞ ・15：00の回
- （上映終了後） ※マスコミあり ・18：20の回\n\n
+SUMMARY:[举办] 《【前篇】青春狂走曲》首日 & 公开纪念舞
+ 台问候举办决定！
+DESCRIPTION:《【前篇】青春狂走曲》10/3 于新宿 B9 举办首日
+ 舞台问候（理名・夕莉・朱李），10/4–5 展开公开纪念
+ 舞台问候巡演（多剧场）。\n\n
  https://girls-band-cry.com/news/post-375.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-375.html
 CATEGORIES:togenashi,live,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-375-2025-10-04-sale@gbc-news
+UID:post-375-2025-10-04-hold@gbc-news
 DTSTAMP:20251004T000000Z
 DTSTART;VALUE=DATE:20251004
 DTEND;VALUE=DATE:20251005
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 『劇場版総集編 ガールズバンドクライ 【
- 前編】 青春狂走曲』 初日＆公開記念舞台挨拶 実施決
- 定！
-DESCRIPTION:『劇場版総集編 ガールズバンドクライ 【前編
- 】 青春狂走曲』 初日舞台挨拶、公開記念舞台挨拶開催
- 決定！\n◇実施日時 【初日舞台挨拶】 ■10月3日（金） 
- ＜舞台挨拶登壇者＞ 理名、夕莉、朱李 ※登壇者は予告
- なく変更する場合がございますこと、予めご了承くだ
- さい。\n＜劇場＞ 新宿バルト９ ＜時間＞ ・15：00の回
- （上映終了後） ※マスコミあり ・18：20の回\n\n
+SUMMARY:[举办] 《【前篇】青春狂走曲》首日 & 公开纪念舞
+ 台问候举办决定！
+DESCRIPTION:《【前篇】青春狂走曲》10/3 于新宿 B9 举办首日
+ 舞台问候（理名・夕莉・朱李），10/4–5 展开公开纪念
+ 舞台问候巡演（多剧场）。\n\n
+ https://girls-band-cry.com/news/post-375.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-375.html
+CATEGORIES:togenashi,live,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-375-2025-10-05-hold@gbc-news
+DTSTAMP:20251005T000000Z
+DTSTART;VALUE=DATE:20251005
+DTEND;VALUE=DATE:20251006
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 《【前篇】青春狂走曲》首日 & 公开纪念舞
+ 台问候举办决定！
+DESCRIPTION:《【前篇】青春狂走曲》10/3 于新宿 B9 举办首日
+ 舞台问候（理名・夕莉・朱李），10/4–5 展开公开纪念
+ 舞台问候巡演（多剧场）。\n\n
  https://girls-band-cry.com/news/post-375.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-375.html
 CATEGORIES:togenashi,live,event,cinema,media

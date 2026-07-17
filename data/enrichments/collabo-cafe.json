@@ -1,6 +1,6 @@
 {
   "sourceId": "collabo-cafe",
-  "updatedAt": "2026-07-17T13:25:00.000Z",
+  "updatedAt": "2026-07-17T13:35:00.000Z",
   "items": {
     "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026": {
       "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
@@ -351,6 +351,22 @@
         {
           "date": "2025-11-20",
           "endDate": "2025-12-01",
+          "kind": "hold"
+        }
+      ]
+    },
+    "collabo-girls-band-cry-cafe-marufuku-coffee-2025": {
+      "id": "collabo-girls-band-cry-cafe-marufuku-coffee-2025",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "3f3d21e298ccf62f23be3f47f93bde22aada2e9b19eb54a5ae442e8311c46ec6",
+      "reviewedAt": "2026-07-17T13:35:00.000Z",
+      "titleZh": "Girls Band Cry × 丸福咖啡店 7 店 9 月 20 日起联动举办！",
+      "summaryZh": "《Girls Band Cry》× 丸福咖啡店 7 店联动咖啡厅于 2025 年 9 月 20 日–10 月 31 日举办，提供联名菜单与制服主题全新绘制限定周边。",
+      "eventDates": [
+        {
+          "date": "2025-09-20",
+          "endDate": "2025-10-31",
           "kind": "hold"
         }
       ]

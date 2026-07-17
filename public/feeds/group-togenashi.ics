@@ -6566,31 +6566,26 @@ DTSTART:20250905T010000Z
 DTEND:20250905T020000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] 9月5日（金）よりムビチケ前売券(オンライ
- ン)発売！ 購入特典はスマホ壁紙！
-DESCRIPTION:『劇場版総集編 ガールズバンドクライ』 9月5
- 日(金)10時より前編のムビチケ前売券(オンライン)販売
- 開始 購入特典は前編KVを使ったスマホ壁紙 ムビチケ前
- 売券(オンライン)購入は こちら ※カード券ではござい
- ません。\n\nhttps://girls-band-cry.com/news/post-373.html
+SUMMARY:[发售] 9 月 5 日（五）起 Movi-Ticket 预售券（线上）
+ 发售！购买特典为手机壁纸！
+DESCRIPTION:《剧场版总集篇 Girls Band Cry》【前篇】Movi-Ticket 
+ 线上预售券于 9/5 10:00 起发售，购买特典为前篇主视觉手
+ 机壁纸。\n\nhttps://girls-band-cry.com/news/post-373.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-373.html
 CATEGORIES:togenashi,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-374-2025-09-13-hold-1800@gbc-news
+UID:post-374-2025-09-13-sale-1800@gbc-news
 DTSTAMP:20250913T090000Z
 DTSTART:20250913T090000Z
-DTEND:20250913T110000Z
+DTEND:20250913T100000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ LIVE in 日本武道館 “奏檄
- の叫”公演 9月13日(土)18:00より一般先着販売が決定！
-DESCRIPTION:トゲナシトゲアリ LIVE in 日本武道館 “奏檄の
- 叫”公演 9月13日(土)18:00より、一般先着販売が決定しま
- した！\n発売する券種はステージサイドバック席、2F後
- 方立見(立ち位置指定) になります。\n注意事項をご確認
- の上、お申し込みください。\n■日時：2025年9月23日（
- 火・祝） ■時間：OPEN/16:30 START/18:00 ■会場：日本武\n\n
+SUMMARY:[发售] 无刺有刺 LIVE in 日本武道馆 “奏檄之叫” 9 
+ 月 13 日（六）18:00 起一般先到先得发售
+DESCRIPTION:无刺有刺武道馆 LIVE “奏檄之叫”（9/23 开演 18:
+ 00）追加票种一般先到先得售票：9/13 18:00 起受理舞台侧
+ 后方席与 2F 后方立见席。\n\n
  https://girls-band-cry.com/news/post-374.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-374.html
 CATEGORIES:togenashi,live
@@ -6642,12 +6637,9 @@ DTSTART;VALUE=DATE:20250919
 DTEND;VALUE=DATE:20250920
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] ガルクラフィギュアがAniBirth店舗に登場！
-DESCRIPTION:9/19(金) ガルクラフィギュアがAniBirth店舗に登場
-  東映アニメーションオフィシャルストアにて予約販売
- した、 大人気フィギュアがついにAniBirthに登場 下記店
- 舗にて発売いたしますので、お見逃しなく ・AniBirth池
- 袋PARCO店 ・AniBirth心斎橋PARCO店\n\n
+SUMMARY:[发售] GBC 手办登陆 AniBirth 店铺！
+DESCRIPTION:东映动画官方商店预约贩售的人气 GBC 手办于 9/1
+ 9 起在 AniBirth 池袋 PARCO・心斋桥 PARCO 店发售。\n\n
  https://girls-band-cry.com/news/post-378.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-378.html
 CATEGORIES:togenashi,other
@@ -6660,15 +6652,11 @@ DTSTART;VALUE=DATE:20250920
 DTEND;VALUE=DATE:20251101
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライ × 丸福珈琲店 7店舗 
- 9月20日よりコラボ開催!
-DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
- 「ガールズバンドクライ」× 昭和9年創業の老舗珈琲店
- 「丸福珈琲店」7店舗にて2025年9月20日〜10月31日までコ
- ラボカフェが開催される。\n作品の世界観やキャラクタ
- ーをイメージしたコラボメニューが楽しめる他、描き
- 下ろしイラストを使用したコラボカフェ限定グッズが
- 登場!\n\n
+SUMMARY:[举办] Girls Band Cry × 丸福咖啡店 7 店 9 月 20 日起联
+ 动举办！
+DESCRIPTION:《Girls Band Cry》× 丸福咖啡店 7 店联动咖啡厅于 
+ 2025 年 9 月 20 日–10 月 31 日举办，提供联名菜单与制服
+ 主题全新绘制限定周边。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-cafe-marufuku-coffe
  e-2025/
 URL;VALUE=URI:
@@ -6703,16 +6691,12 @@ DTSTART;VALUE=DATE:20250920
 DTEND;VALUE=DATE:20250921
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 9月20日（土）より「ガールズバンドクライ
- ×丸福珈琲店」コラボ開催決定！
-DESCRIPTION:2025年9月20日（土）より、ガールズバンドクラ
- イと丸福珈琲店のコラボイベント 「ガールズバンドク
- ライ×丸福珈琲店 コラボレーション」が開催！\n■丸福
- 珈琲店 看板メニューとのコラボは全3種展開！\nメンバ
- ーのパーソナルカラーをベースにした爽やかなクリー
- ムソーダ、外はサクッと中はふんわりとした⾷感が特
- 徴の看板メニュー・ホットケーキ、様々な味が楽しめ
- るフルーツカ\n\nhttps://girls-band-cry.com/news/post-369.html
+SUMMARY:[举办] 9 月 20 日（六）起「Girls Band Cry × 丸福咖啡
+ 店」联动举办！
+DESCRIPTION:《Girls Band Cry》× 丸福咖啡店联动自 9/20 起举办
+ ：推出联名菜单与全新绘制周边（含徽章、亚克力杯垫
+ 、咖啡礼盒等 9 种），店头与通贩同步销售。\n\n
+ https://girls-band-cry.com/news/post-369.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-369.html
 CATEGORIES:togenashi,goods,event,media
 END:VEVENT
@@ -6796,16 +6780,12 @@ DTSTART;VALUE=DATE:20250923
 DTEND;VALUE=DATE:20250924
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ LIVE in 日本武道館 “奏檄
- の叫”公演、ご来場の皆様へお願い
-DESCRIPTION:ご来場の皆様へお願い 皆様が、楽しく安全に
- ライブをお楽しみいただけるよう、以下のルールのご
- 理解・ご協力をお願いいたします。\n9月23日(火・祝) ト
- ゲナシトゲアリ LIVE in 日本武道館 “奏檄の叫”公演を 
- 安全・快適にお楽しみいただくために来場される皆様
- に手荷物検査のご協力をお願いします。\n入場前にスタ
- ッフがお荷物を拝見し、持ち込み禁止物がないかを確
- 認\n\nhttps://girls-band-cry.com/news/post-372.html
+SUMMARY:[举办] 无刺有刺 LIVE in 日本武道馆 “奏檄之叫” 
+ 致到场观众须知
+DESCRIPTION:2025 年 9 月 23 日武道馆 LIVE “奏檄之叫”将实施
+ 行李检查与身份证件确认；禁止携带荧光棒、团扇、自
+ 制周边及录音录像设备等。\n\n
+ https://girls-band-cry.com/news/post-372.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-372.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
@@ -6816,18 +6796,30 @@ DTSTART;VALUE=DATE:20250923
 DTEND;VALUE=DATE:20250924
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ LIVE in 日本武道館 “奏檄
- の叫”公演 美怜、凪都に関してのお知らせ
-DESCRIPTION:いつもトゲナシトゲアリを応援いただき誠にあ
- りがとうございます。\n体調不良によりライブ公演の欠
- 席が続いております美怜、凪都に関して、 2025年9月23日
- （火・祝）開催予定の日本武道館公演の出演を目指し
- 調整を進めて参りましたが、出演が困難と判断いたし
- ました。\n当日は理名、夕莉、朱李の3名とサポートメ
- ンバー2名での出演となります。\nファンの皆様、なら
- びに関係者の\n\nhttps://girls-band-cry.com/news/post-379.html
+SUMMARY:[举办] 无刺有刺 LIVE in 日本武道馆 “奏檄之叫” 
+ 关于美怜、凪都出演的通知
+DESCRIPTION:美怜、凪都因身体状况无法出演原定 2025 年 9 月
+  23 日的武道馆 LIVE “奏檄之叫”，当日由理名、夕莉、
+ 朱李 3 名与 2 名支援成员出演。\n\n
+ https://girls-band-cry.com/news/post-379.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-379.html
 CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-374-2025-09-23-hold-1800@gbc-news
+DTSTAMP:20250923T090000Z
+DTSTART:20250923T090000Z
+DTEND:20250923T110000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺 LIVE in 日本武道馆 “奏檄之叫” 9 
+ 月 13 日（六）18:00 起一般先到先得发售
+DESCRIPTION:无刺有刺武道馆 LIVE “奏檄之叫”（9/23 开演 18:
+ 00）追加票种一般先到先得售票：9/13 18:00 起受理舞台侧
+ 后方席与 2F 后方立见席。\n\n
+ https://girls-band-cry.com/news/post-374.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-374.html
+CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
 UID:post-363-2025-09-24-hold@gbc-news
@@ -6876,15 +6868,11 @@ DTSTART;VALUE=DATE:20250924
 DTEND;VALUE=DATE:20250925
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 11th Single『薄采ディスプレイ』収録 「すば
- るの相談」試聴動画公開！
-DESCRIPTION:11th Single『薄采ディスプレイ』 9月24日(水)発売 
- 収録されているドラマパートにはトゲトゲメンバー5人
- が出演！\n3篇の中から「すばるの相談」を特別公開し
- ました！\nトゲナシトゲアリ 11th Single「薄采ディスプレ
- イ」 9月24日(水)発売予定！\n▼CD収録内容 ■収録曲 01. 
- 薄采ディスプレイ 02. 蜃気楼ニ問フ 03. 薄采\n\n
- https://girls-band-cry.com/news/post-376.html
+SUMMARY:[发售] 第 11 张 Single《薄采ディスプレイ》收录「
+ 昴的咨询」试听视频公开！
+DESCRIPTION:无刺有刺第 11 张 Single《薄采ディスプレイ》于 
+ 9/24 发售，收录 5 人出演的 3 篇广播剧，现公开其中「昴
+ 的咨询」试听。\n\nhttps://girls-band-cry.com/news/post-376.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-376.html
 CATEGORIES:togenashi,live,music,cinema
 END:VEVENT
@@ -6895,15 +6883,12 @@ DTSTART;VALUE=DATE:20250925
 DTEND;VALUE=DATE:20250929
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「桃香(を)ワッショイ」発売＆東京ゲーム
- ショウ出展決定！
-DESCRIPTION:あの謎ゲーム「桃香（を）ワッショイ」が 9月2
- 9日(月)よりSteamで発売決定！\n さらに、9月25日(木)〜9月
- 28日(日)に、幕張メッセで開催される「東京ゲームショ
- ウ2025」への出展も決定しました！\nSteamストアページは
-  こちら から！\n本日よりストアページが公開されてお
- ります。\nウィッシュリストに登録して発売をお待ちく
- ださい！！\n『桃\n\nhttps://girls-band-cry.com/news/post-377.html
+SUMMARY:[举办] 「桃香（を）ワッショイ」发售 & 东京电玩
+ 展出展决定！
+DESCRIPTION:谜游戏《桃香（を）ワッショイ》于 9/29 在 Steam
+  发售（定价 500 日元，10/12 前特价 350 日元），并将于 9/
+ 25–28 在幕张 Messe 东京电玩展 2025 出展。\n\n
+ https://girls-band-cry.com/news/post-377.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-377.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
@@ -6940,21 +6925,18 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-381.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-377-2025-09-29-sale@gbc-news
+UID:post-377-2025-09-29_2025-10-12-sale@gbc-news
 DTSTAMP:20250929T000000Z
 DTSTART;VALUE=DATE:20250929
-DTEND;VALUE=DATE:20250930
+DTEND;VALUE=DATE:20251013
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 「桃香(を)ワッショイ」発売＆東京ゲーム
- ショウ出展決定！
-DESCRIPTION:あの謎ゲーム「桃香（を）ワッショイ」が 9月2
- 9日(月)よりSteamで発売決定！\n さらに、9月25日(木)〜9月
- 28日(日)に、幕張メッセで開催される「東京ゲームショ
- ウ2025」への出展も決定しました！\nSteamストアページは
-  こちら から！\n本日よりストアページが公開されてお
- ります。\nウィッシュリストに登録して発売をお待ちく
- ださい！！\n『桃\n\nhttps://girls-band-cry.com/news/post-377.html
+SUMMARY:[发售] 「桃香（を）ワッショイ」发售 & 东京电玩
+ 展出展决定！
+DESCRIPTION:谜游戏《桃香（を）ワッショイ》于 9/29 在 Steam
+  发售（定价 500 日元，10/12 前特价 350 日元），并将于 9/
+ 25–28 在幕张 Messe 东京电玩展 2025 出展。\n\n
+ https://girls-band-cry.com/news/post-377.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-377.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
@@ -6975,22 +6957,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-381.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-375-2025-10-03-sale@gbc-news
+UID:post-375-2025-10-03-hold@gbc-news
 DTSTAMP:20251003T000000Z
 DTSTART;VALUE=DATE:20251003
 DTEND;VALUE=DATE:20251004
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 『劇場版総集編 ガールズバンドクライ 【
- 前編】 青春狂走曲』 初日＆公開記念舞台挨拶 実施決
- 定！
-DESCRIPTION:『劇場版総集編 ガールズバンドクライ 【前編
- 】 青春狂走曲』 初日舞台挨拶、公開記念舞台挨拶開催
- 決定！\n◇実施日時 【初日舞台挨拶】 ■10月3日（金） 
- ＜舞台挨拶登壇者＞ 理名、夕莉、朱李 ※登壇者は予告
- なく変更する場合がございますこと、予めご了承くだ
- さい。\n＜劇場＞ 新宿バルト９ ＜時間＞ ・15：00の回
- （上映終了後） ※マスコミあり ・18：20の回\n\n
+SUMMARY:[举办] 《【前篇】青春狂走曲》首日 & 公开纪念舞
+ 台问候举办决定！
+DESCRIPTION:《【前篇】青春狂走曲》10/3 于新宿 B9 举办首日
+ 舞台问候（理名・夕莉・朱李），10/4–5 展开公开纪念
+ 舞台问候巡演（多剧场）。\n\n
  https://girls-band-cry.com/news/post-375.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-375.html
 CATEGORIES:togenashi,live,event,cinema,media
@@ -7113,22 +7090,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-359.html
 CATEGORIES:togenashi,music,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-375-2025-10-04-sale@gbc-news
+UID:post-375-2025-10-04-hold@gbc-news
 DTSTAMP:20251004T000000Z
 DTSTART;VALUE=DATE:20251004
 DTEND;VALUE=DATE:20251005
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 『劇場版総集編 ガールズバンドクライ 【
- 前編】 青春狂走曲』 初日＆公開記念舞台挨拶 実施決
- 定！
-DESCRIPTION:『劇場版総集編 ガールズバンドクライ 【前編
- 】 青春狂走曲』 初日舞台挨拶、公開記念舞台挨拶開催
- 決定！\n◇実施日時 【初日舞台挨拶】 ■10月3日（金） 
- ＜舞台挨拶登壇者＞ 理名、夕莉、朱李 ※登壇者は予告
- なく変更する場合がございますこと、予めご了承くだ
- さい。\n＜劇場＞ 新宿バルト９ ＜時間＞ ・15：00の回
- （上映終了後） ※マスコミあり ・18：20の回\n\n
+SUMMARY:[举办] 《【前篇】青春狂走曲》首日 & 公开纪念舞
+ 台问候举办决定！
+DESCRIPTION:《【前篇】青春狂走曲》10/3 于新宿 B9 举办首日
+ 舞台问候（理名・夕莉・朱李），10/4–5 展开公开纪念
+ 舞台问候巡演（多剧场）。\n\n
  https://girls-band-cry.com/news/post-375.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-375.html
 CATEGORIES:togenashi,live,event,cinema,media
@@ -7166,6 +7138,22 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-401.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-375-2025-10-05-hold@gbc-news
+DTSTAMP:20251005T000000Z
+DTSTART;VALUE=DATE:20251005
+DTEND;VALUE=DATE:20251006
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 《【前篇】青春狂走曲》首日 & 公开纪念舞
+ 台问候举办决定！
+DESCRIPTION:《【前篇】青春狂走曲》10/3 于新宿 B9 举办首日
+ 舞台问候（理名・夕莉・朱李），10/4–5 展开公开纪念
+ 舞台问候巡演（多剧场）。\n\n
+ https://girls-band-cry.com/news/post-375.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-375.html
+CATEGORIES:togenashi,live,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
 UID:post-395-2025-10-05-hold@gbc-news
 DTSTAMP:20251005T000000Z
 DTSTART;VALUE=DATE:20251005
@@ -7195,25 +7183,6 @@ DESCRIPTION:《【前篇】青春狂走曲》10/11–12 舞台问候：ぴ
  古屋、横滨等多剧场举办。\n\n
  https://girls-band-cry.com/news/post-407.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-407.html
-CATEGORIES:togenashi,live,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-377-2025-10-12-sale@gbc-news
-DTSTAMP:20251012T000000Z
-DTSTART;VALUE=DATE:20251012
-DTEND;VALUE=DATE:20251013
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] 「桃香(を)ワッショイ」発売＆東京ゲーム
- ショウ出展決定！
-DESCRIPTION:あの謎ゲーム「桃香（を）ワッショイ」が 9月2
- 9日(月)よりSteamで発売決定！\n さらに、9月25日(木)〜9月
- 28日(日)に、幕張メッセで開催される「東京ゲームショ
- ウ2025」への出展も決定しました！\nSteamストアページは
-  こちら から！\n本日よりストアページが公開されてお
- ります。\nウィッシュリストに登録して発売をお待ちく
- ださい！！\n『桃\n\nhttps://girls-band-cry.com/news/post-377.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-377.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
