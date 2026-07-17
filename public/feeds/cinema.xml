@@ -4,7 +4,7 @@
     <title>gbc-news · 剧场/映像</title>
     <link>https://gbc-news.example.com/</link>
     <description>ガールズバンドクライ 公式ニュース（剧场/映像）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 12:38:23 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 12:39:54 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/cinema.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[发售] 名もなき何もかも／无刺有刺 2023 年 7 月 26 日（三）CD 发售！</title>
@@ -1310,6 +1310,16 @@
       <category>cinema</category>
       <category domain="group">togenashi</category>
       <description>纪念剧场版前后篇上映，联动咖啡厅于 Cure Maid Cafe 举办：2025 年 10 月 17 日–11 月 3 日；点单赠限定卡片，并与 Atre 秋叶原 POP UP SHOP 联动赠特典。仁菜生日饮品 10/22–28 限定提供。</description>
+    </item>
+    <item>
+      <title>[举办] 特别联动决定！「剧场版总集篇 Girls Band Cry」✕「僵尸乐园传说 梦银河乐园」</title>
+      <link>https://girls-band-cry.com/news/post-392.html</link>
+      <guid isPermaLink="false">post-392-2025-10-24_2025-11-23-hold@gbc-news</guid>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 GMT</pubDate>
+      <category>event</category>
+      <category>cinema</category>
+      <category domain="group">togenashi</category>
+      <description>公开方言互换特别影像；半券活动应募期为 10/24–11/23，可获壁纸并抽选签名海报。</description>
     </item>
     <item>
       <title>[举办] 10/24（五）《【前篇】青春狂走曲》＜应援上映＞（附日语字幕）举办决定！</title>

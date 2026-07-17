@@ -2736,6 +2736,38 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-335.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-344-2025-06-27_2025-07-06-hold@gbc-news
+DTSTAMP:20250627T000000Z
+DTSTART;VALUE=DATE:20250627
+DTEND;VALUE=DATE:20250707
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] GBC 展福冈会场入场赠品・岛村乐器联动解禁
+ ！
+DESCRIPTION:福冈会场 6/27–7/6 于西铁大厅举办；入场赠舞台
+ 通行证风贴纸，6/27–6/28 岛村乐器アミュプラザ博多店
+ 出示门票可获海报。\n\n
+ https://girls-band-cry.com/news/post-344.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-344.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-344-2025-06-27-hold@gbc-news
+DTSTAMP:20250627T000000Z
+DTSTART;VALUE=DATE:20250627
+DTEND;VALUE=DATE:20250628
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] GBC 展福冈会场入场赠品・岛村乐器联动解禁
+ ！
+DESCRIPTION:福冈会场 6/27–7/6 于西铁大厅举办；入场赠舞台
+ 通行证风贴纸，6/27–6/28 岛村乐器アミュプラザ博多店
+ 出示门票可获海报。\n\n
+ https://girls-band-cry.com/news/post-344.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-344.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-355-2025-06-27-hold@gbc-news
 DTSTAMP:20250627T000000Z
 DTSTART;VALUE=DATE:20250627
@@ -2749,6 +2781,22 @@ DESCRIPTION:GBC 展福冈会场自 6/27 起举办，新增第 9・10・12
  的福冈版舞台通行证风缎面贴纸（15 名）。\n\n
  https://girls-band-cry.com/news/post-355.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-355.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-344-2025-06-28-hold@gbc-news
+DTSTAMP:20250628T000000Z
+DTSTART;VALUE=DATE:20250628
+DTEND;VALUE=DATE:20250629
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] GBC 展福冈会场入场赠品・岛村乐器联动解禁
+ ！
+DESCRIPTION:福冈会场 6/27–7/6 于西铁大厅举办；入场赠舞台
+ 通行证风贴纸，6/27–6/28 岛村乐器アミュプラザ博多店
+ 出示门票可获海报。\n\n
+ https://girls-band-cry.com/news/post-344.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-344.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
@@ -3511,6 +3559,21 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-392-2025-10-24_2025-11-23-hold@gbc-news
+DTSTAMP:20251024T000000Z
+DTSTART;VALUE=DATE:20251024
+DTEND;VALUE=DATE:20251124
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 特别联动决定！「剧场版总集篇 Girls Band Cry
+ 」「僵尸乐园传说 梦银河乐园」
+DESCRIPTION:公开方言互换特别影像；半券活动应募期为 10/24
+ –11/23，可获壁纸并抽选签名海报。\n\n
+ https://girls-band-cry.com/news/post-392.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-392.html
+CATEGORIES:togenashi,event,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-413-2025-10-24-hold@gbc-news
 DTSTAMP:20251024T000000Z
 DTSTART;VALUE=DATE:20251024
@@ -3813,6 +3876,20 @@ DESCRIPTION:纪念剧场版前后篇上映，filming ver. 弹出商店于 T
  https://girls-band-cry.com/news/post-418.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-418.html
 CATEGORIES:togenashi,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-429-2025-12-05-sale@gbc-news
+DTSTAMP:20251205T000000Z
+DTSTART;VALUE=DATE:20251205
+DTEND;VALUE=DATE:20251206
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] Bic Camera 集团第二弹展会举办决定！
+DESCRIPTION:自 2025/12/5 起于 Bic Camera 集团指定门店举办先行
+ 销售展会；含運命の華 ver. 成员与くまみね新绘名场面
+ 共 10 点。\n\nhttps://girls-band-cry.com/news/post-429.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-429.html
+CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-434-2025-12-05-hold@gbc-news
@@ -4848,6 +4925,21 @@ DESCRIPTION:Canna Lily 第1场个人演唱会「未明に咲く花」于202
  https://gbc-firstriff.com/news/post-2.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-2.html
 CATEGORIES:canna-lily,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:firstriff-post-6-2026-07-01-sale@gbc-news
+DTSTAMP:20260701T000000Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] Canna Lily 1st ONE-MAN LIVE「未明に咲く花」LIVE 
+ 周边事后通贩开始！
+DESCRIPTION:Canna Lily 1st 个人演唱会会场周边已于东映动画官
+ 方商店开始事后通贩（数量有限，售完即止）。\n\n
+ https://gbc-firstriff.com/news/post-6.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-6.html
+CATEGORIES:canna-lily,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
 UID:collabo-girls-band-cry-cafe-sharecafe-2026-2026-07-03_2026-07-20-hold@g

@@ -111,6 +111,22 @@
         }
       ],
       "reviewNotes": "保留开演时刻，补录先行抽选受理期间。；跨日时长>24h，去掉时刻仅保留日期。"
+    },
+    "firstriff-post-6": {
+      "id": "firstriff-post-6",
+      "sourceId": "gbc-firstriff",
+      "status": "reviewed",
+      "contentFingerprint": "f75fd534573cc4232ef10dca198728b5b943415bc422b40a8fb7693c7150ebd1",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "Canna Lily 1st ONE-MAN LIVE「未明に咲く花」LIVE 周边事后通贩开始！",
+      "summaryZh": "Canna Lily 1st 个人演唱会会场周边已于东映动画官方商店开始事后通贩（数量有限，售完即止）。",
+      "eventDates": [
+        {
+          "date": "2026-07-01",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "通贩开始日取发布日；无截止日"
     }
   }
 }

@@ -805,6 +805,46 @@
         }
       ],
       "reviewNotes": "4 月发售无具体日"
+    },
+    "collabo-girls-band-cry-togenashitogeari-momoka-rupa-figure-kotobukiya-anime-store-goods2024": {
+      "id": "collabo-girls-band-cry-togenashitogeari-momoka-rupa-figure-kotobukiya-anime-store-goods2024",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "d3aa9148d34afba9dd7f98f3a5ffdb3ce9c2c69c2e02d7d08c18b37b8539684a",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "Girls Band Cry 成员全员登场！桃香 & RUPA 手办发售",
+      "summaryZh": "寿屋 1/7 河原木桃香・RUPA 手办于 Anime Store 预约；桃香预约至 12/2、RUPA 至 12/9，预定 2025 年 6 月发售。",
+      "eventDates": [
+        {
+          "date": "2024-12-02",
+          "kind": "sale"
+        },
+        {
+          "date": "2024-12-09",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "预约截止；6 月发售无具体日不补录"
+    },
+    "collabo-girls-band-cry-togenashitogeari-nina-subaru-tomo-scale-figure-kotobukiya-anime-store-goods2024": {
+      "id": "collabo-girls-band-cry-togenashitogeari-nina-subaru-tomo-scale-figure-kotobukiya-anime-store-goods2024",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "a1cbab3443464678280aa4ecc62282344223669e8e3b01b8d08b15e17bf2ecb3",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "Girls Band Cry 还原舞台服装！昴等人新手办发售",
+      "summaryZh": "寿屋 1/7 仁菜・安和昴・海老塚智手办于 Anime Store 预约；仁菜预约至 10/7，昴・智至 11/11，约 2025 年 4–5 月发售。",
+      "eventDates": [
+        {
+          "date": "2024-10-07",
+          "kind": "sale"
+        },
+        {
+          "date": "2024-11-11",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "预约截止；发售仅月中/予定无具体日不补录"
     }
   }
 }

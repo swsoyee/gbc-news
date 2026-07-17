@@ -5864,6 +5864,432 @@
           "kind": "sale"
         }
       ]
+    },
+    "post-471": {
+      "id": "post-471",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "9e2837003d6b2267450f58423910e09c79f73581acf353296a0785eb4b0be635",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "二次元 COSPA 推出「无刺有刺 夏威夷衬衫 2026MODEL」等新周边！",
+      "summaryZh": "二次元 COSPA 推出无刺有刺夏威夷衬衫 2026MODEL（约 8 月上旬发售）与成员手帳型手机壳（约 7 月上旬发售）。",
+      "eventDates": [],
+      "reviewNotes": "上旬无具体日不补录"
+    },
+    "post-442": {
+      "id": "post-442",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8c80cdfb59ba42c9acc69a45e1f8b3f4664fc13f8fa475f4401b42b6a67ecf3d",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "《【后篇】呐，未来》Girls Band Cry 礼仪讲座第 4 周是「昴＆RUPA」",
+      "summaryZh": "剧场版总集篇后篇上映前礼仪讲座第 4 周由昴＆RUPA 担任；插图为くまみね绘制。",
+      "eventDates": []
+    },
+    "post-435": {
+      "id": "post-435",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "161cf308e4f8bfb3f63e5bb88368132d9cbd6ea4b76bcdc21bfcc7f98c34dd3e",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "刺刺 5 人「双面印花靠垫套」于二次元 COSPA 登场！",
+      "summaryZh": "二次元 COSPA 推出无刺有刺五人各自的双面印花靠垫套（45×45cm），可于官网预约。",
+      "eventDates": []
+    },
+    "post-436": {
+      "id": "post-436",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "d507acf4b0c4d565f750d11912144c60ede05edfc059071f0ef960af9821e798",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "《【后篇】呐，未来》Girls Band Cry 礼仪讲座第 3 周是「仁菜＆智」",
+      "summaryZh": "剧场版总集篇后篇上映前礼仪讲座第 3 周由仁菜＆智担任；插图为くまみね绘制。",
+      "eventDates": []
+    },
+    "post-432": {
+      "id": "post-432",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "b4a8706f892abe75e28980e93f30cbcc289c7696966075f1490241eaa23793ce",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "《【后篇】呐，未来》Girls Band Cry 礼仪讲座第 2 周是「RUPA＆桃香」",
+      "summaryZh": "剧场版总集篇后篇上映前礼仪讲座第 2 周由 RUPA＆桃香担任；插图为くまみね绘制。",
+      "eventDates": []
+    },
+    "post-429": {
+      "id": "post-429",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "97f947f44678b055f98913e915ea215cd39959c64af02148d56247da38904211",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "Bic Camera 集团第二弹展会举办决定！",
+      "summaryZh": "自 2025/12/5 起于 Bic Camera 集团指定门店举办先行销售展会；含運命の華 ver. 成员与くまみね新绘名场面共 10 点。",
+      "eventDates": [
+        {
+          "date": "2025-12-05",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-430": {
+      "id": "post-430",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "075e1326f307a3e08040376799da083ed662619492d1c696a522fc4252263558",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "《【后篇】呐，未来》Girls Band Cry 礼仪讲座上映！",
+      "summaryZh": "剧场版总集篇后篇亦上映礼仪讲座；第 1 周由仁菜＆昴担任。",
+      "eventDates": []
+    },
+    "post-422": {
+      "id": "post-422",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "973a9c84a2b64ddcef0b4ac0a0549f32e44eb65ac76f44ccf9d04c7e28622cba",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "「Girls Band Cry 礼仪讲座」第 5 周是「昴＆智」",
+      "summaryZh": "剧场版总集篇前篇上映前礼仪讲座第 5 周由昴＆智担任；插图为くまみね绘制。",
+      "eventDates": []
+    },
+    "post-417": {
+      "id": "post-417",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "87a15327d3d1f70df4a85f286290e1b4e821eacd95f2bbb40634aa479e4339e2",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "「Girls Band Cry 礼仪讲座」第 4 周是「仁菜＆RUPA」",
+      "summaryZh": "剧场版总集篇前篇上映前礼仪讲座第 4 周由仁菜＆RUPA 担任；插图为くまみね绘制。",
+      "eventDates": []
+    },
+    "post-414": {
+      "id": "post-414",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "c3560bb433d0afd30da80ff5ec0780cff1172fbe7b03326aa3e6c5dc1a5e5375",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "「Girls Band Cry 礼仪讲座」第 3 周是「RUPA＆智」",
+      "summaryZh": "剧场版总集篇前篇上映前礼仪讲座第 3 周由 RUPA＆智担任；插图为くまみね绘制。",
+      "eventDates": []
+    },
+    "post-409": {
+      "id": "post-409",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "54c335d52e93d74de5d75f7168d4d969b06c57a0be7498104d353a5f57771629",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "「Girls Band Cry 礼仪讲座」第 2 周是「桃香＆昴」",
+      "summaryZh": "剧场版总集篇前篇上映前礼仪讲座第 2 周由桃香＆昴担任；插图为くまみね绘制。",
+      "eventDates": []
+    },
+    "post-406": {
+      "id": "post-406",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "17d738c1ad5cbef8bca635b3de97ef67002b56170fa34a2adea8f398bc38008d",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "GBC 总集篇 × AI 相机 App SNOW 联动贴图登场‼",
+      "summaryZh": "「Girls Band Cry 礼仪讲座」成为 SNOW 联动贴图，欢迎使用并投稿。",
+      "eventDates": []
+    },
+    "post-398": {
+      "id": "post-398",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "1d4148e6b7e0e670ac518ce36f2d1895556a2cd1d818f2946294f227822415d7",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "剧场决定上映「Girls Band Cry 礼仪讲座」！",
+      "summaryZh": "本片上映前将播放电影院礼仪解说短片。",
+      "eventDates": []
+    },
+    "post-392": {
+      "id": "post-392",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "56940117981a6a334e6dc5d35b510461adc7ba3229f2a8df18928a36271d190a",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "特别联动决定！「剧场版总集篇 Girls Band Cry」✕「僵尸乐园传说 梦银河乐园」",
+      "summaryZh": "公开方言互换特别影像；半券活动应募期为 10/24–11/23，可获壁纸并抽选签名海报。",
+      "eventDates": [
+        {
+          "date": "2025-10-24",
+          "endDate": "2025-11-23",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-387": {
+      "id": "post-387",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "2826b99593cfc7eeebe76e539335b866c0e766c16a8dd9820afec7662cfc3a67",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "官方游戏《Girls Band Cry First Riff（GBC Riff）》官方 X＆预告站公开！",
+      "summaryZh": "公开 First Riff 官方 X 与预告站，武道馆 LIVE 首映预告 PV；东京电玩展 GBC 展位亦展出并分发限定团扇。",
+      "eventDates": [],
+      "reviewNotes": "TGS 会期未在正文写明具体日，不补录"
+    },
+    "post-368": {
+      "id": "post-368",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "031912666f3460fe9c2379fd9f3d6ff1d0111623f972ec8c14c3c8b98c552195",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "新曲「蜃気楼二問フ」MV 已公开！",
+      "summaryZh": "公开无刺有刺新曲 MV（正文写「薄采ディスプレイ」处与标题不一致，以标题曲名为准），并开始各平台配信。",
+      "eventDates": [],
+      "reviewNotes": "正文曲名与标题不一致，摘要已注明"
+    },
+    "post-354": {
+      "id": "post-354",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f3740c595d41d94d56e2340eecab8bfc31f93b773c8ac17b2de52de5f8505c54",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "「薄采ディスプレイ」MV 已公开！",
+      "summaryZh": "公开无刺有刺新曲「薄采ディスプレイ」MV，并开始各平台配信。",
+      "eventDates": []
+    },
+    "post-350": {
+      "id": "post-350",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "2e98757cfb393698146af7842f4fd885cfa8b7ea56234c3935d1b9f24ddc9cd1",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "游戏声优海选追加公开招募开始！",
+      "summaryZh": "DONUTS × ASOBISYSTEM 共同主办，追加公开招募游戏原创乐队成员＆组合声优；乐曲由松隈ケンタ 监制。",
+      "eventDates": [],
+      "reviewNotes": "正文未写截止日，不补录"
+    },
+    "post-344": {
+      "id": "post-344",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "3a82e386ba2e641d742fbf00bcf247f356fffd40408e229ba2da8e6976ec80ca",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "GBC 展福冈会场入场赠品・岛村乐器联动解禁！",
+      "summaryZh": "福冈会场 6/27–7/6 于西铁大厅举办；入场赠舞台通行证风贴纸，6/27–6/28 岛村乐器アミュプラザ博多店出示门票可获海报。",
+      "eventDates": [
+        {
+          "date": "2025-06-27",
+          "endDate": "2025-07-06",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-06-27",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-06-28",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-342": {
+      "id": "post-342",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "6b377d96071021f5af317a7910772034cc3179f688326c6a7ed2a5849b699792",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "「飛べない蝶は夢を見る」MV 已公开！",
+      "summaryZh": "公开无刺有刺新曲「飛べない蝶は夢を見る」MV，并开始各平台配信。",
+      "eventDates": []
+    },
+    "post-326": {
+      "id": "post-326",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "a4c2457add687d314f5b4119f0e2297c60ebbb857d7ba630f37e18d34a8c929e",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "GBC 展×岛村乐器「GBC 展海报赠送活动」实施决定！",
+      "summaryZh": "于岛村乐器指定门店出示 GBC 展门票，可获 GBC 展 B1 海报（详情见展览官网）。",
+      "eventDates": [],
+      "reviewNotes": "正文未写具体实施日，不补录"
+    },
+    "post-323": {
+      "id": "post-323",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "135a4ecdf31c3bcec4740d9cae523e0e259f541c344e1df91dda265ca2bdb86a",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "「ダレモ」MV 已公开！",
+      "summaryZh": "公开无刺有刺新曲「ダレモ」MV，并开始各平台配信。",
+      "eventDates": []
+    },
+    "post-316": {
+      "id": "post-316",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "7675fd6ece11251a33f9089d5c295cc7105d365c11ad32d920174b4f581c5daf",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "无刺有刺 5th ONE-MAN LIVE “鳴動の刻” 线上串流门票现已开售！",
+      "summaryZh": "串流门票销售期 2/6 18:00–3/16 21:59；观看期 3/8 12:00–3/16 23:59（非实时直播）。",
+      "eventDates": [
+        {
+          "date": "2025-02-06",
+          "endDate": "2025-03-16",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-03-08",
+          "endDate": "2025-03-16",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "跨日>24h 去时刻；英文稿汉化"
+    },
+    "post-317": {
+      "id": "post-317",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "fffe87de31eb088869be18be5b4c2c6a1f8a4ef4a9e11d34976b46576d268291",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "无刺有刺 5th ONE-MAN LIVE “鳴動の刻” 线上串流门票销售中！",
+      "summaryZh": "串流门票销售期 2/6–3/16；观看期 3/8–3/16（非实时直播）；可通过 Beyond LIVE / interpark / ZAIKO 购买。",
+      "eventDates": [
+        {
+          "date": "2025-02-06",
+          "endDate": "2025-03-16",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-03-08",
+          "endDate": "2025-03-16",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "跨日去时刻；韩文稿汉化"
+    },
+    "post-303": {
+      "id": "post-303",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "4fa51ee97bf5b6bb9e95d390018cfcbf0a7d20c8c8e7b73b3e40f92d30e03090",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "5th ONE-MAN LIVE“鳴動の刻” 决定档案配信！！",
+      "summaryZh": "因会场门票申请踊跃，决定进行 5th 个人演唱会档案配信；详情稍后于官网与 SNS 公布。",
+      "eventDates": []
+    },
+    "post-287": {
+      "id": "post-287",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "9edd95203bd77566a28639b09905a0101aa83f874e45226156545b21fb3c4c75",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "无刺有刺 4th ONE-MAN LIVE “協奏の響”＆LIVE IN SHANGHAI \"凛音の理\" 2Days 曲目列表于 Spotify 公开！",
+      "summaryZh": "于 Spotify 公开 4th 个人演唱会与上海 LIVE 两日曲目播放列表。",
+      "eventDates": []
+    },
+    "post-288": {
+      "id": "post-288",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "a5df2ff7904a9492ada496f0dfec0129f87aa9286e6146443b19295df2ca8502",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "「Girls Band Cry 展」决定于 2025 年春・东京举办！",
+      "summaryZh": "公开手島nari 绘制主视觉与 15 秒 PV，并开设展览官网与官方 X；会场・会期・票务稍后公布。",
+      "eventDates": [],
+      "reviewNotes": "春季无具体日不补录"
+    },
+    "post-263": {
+      "id": "post-263",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "961df9eafa61a61e0d3a1a3df8eedf8fd7446a310aadf8e85e73a2d2ce8ae7a9",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "《Girls Band Cry》2nd Anniversary LIVE 举办决定！",
+      "summaryZh": "宣布举办 2nd Anniversary LIVE；详情见相关页面。",
+      "eventDates": [],
+      "reviewNotes": "本页无具体日程"
+    },
+    "post-265-2": {
+      "id": "post-265-2",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "ba3a5314e87e02a9dd4a4050bc142dd2b8359c45ca2a594f21c97c873d095978",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "3rd ONE-MAN LIVE 曲目列表于 Spotify 公开！",
+      "summaryZh": "于 Spotify 公开无刺有刺 3rd 个人演唱会《咆哮の奏》曲目列表（部分曲目省略）。",
+      "eventDates": []
+    },
+    "post-258": {
+      "id": "post-258",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "61bc2300f0d1ad63014ffae0a9a862c2fe32daa388a31b3e291af794d220cb5c",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "4th ONE-MAN LIVE “協奏の響”配信决定！",
+      "summaryZh": "因会场门票申请踊跃，决定进行 4th 个人演唱会配信；详情稍后公布。",
+      "eventDates": []
+    },
+    "post-256": {
+      "id": "post-256",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "309845da5162f4677852a5b495c85b3af11437caa542d782bb9abc85b70af3de",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "5th ONE-MAN LIVE 主视觉＆LIVE 标题解禁！",
+      "summaryZh": "公开 5th 个人演唱会主视觉与标题；详情见相关页面。",
+      "eventDates": []
+    },
+    "post-245": {
+      "id": "post-245",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f0c3bdeaf9573891914a23087dbcc582091ad093ef6a490db0f7668a065a326b",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "3rd ONE-MAN LIVE 周边信息公开！",
+      "summaryZh": "公开 3rd 个人演唱会周边信息；详情见相关页面。",
+      "eventDates": []
+    },
+    "post-243": {
+      "id": "post-243",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "ab7c5a5f6e865f805b89314de7b427066875421601cc652c354d3bdcf09cca4f",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "【无刺有刺】以「雑踏、僕らの街」为灵感的时尚单品登场！",
+      "summaryZh": "SuperGroupies 推出以 OP 曲为灵感的手表、外套、腰包，先行预约受理中。",
+      "eventDates": []
+    },
+    "post-242": {
+      "id": "post-242",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "54e87b42385f170a92836bba7fcd5c4333b2def839aa73090dae66b892fac7b2",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "3rd ONE-MAN LIVE “咆哮の奏”配信决定！",
+      "summaryZh": "因会场门票申请踊跃，决定进行档案配信（无实时直播）；详情稍后公布。",
+      "eventDates": []
+    },
+    "post-238": {
+      "id": "post-238",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "878b7656ad0f1b6b0967ba524bb7333d807d6e6747312558755c77c368ac21cc",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "二次元 COSPA 推出井芹仁菜「仁義」T 恤・海老塚智「菜屑と消えろ」T 恤・仁菜「HOPE FOR THE BEST」卫衣！",
+      "summaryZh": "二次元 COSPA 上架还原现场服装的两款 T 恤与「HOPE FOR THE BEST」卫衣，可于官网预约。",
+      "eventDates": []
+    },
+    "post-231": {
+      "id": "post-231",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "40e0df3c0568f97f03d25018160c4edf8c2adf0a7853499986ba5fb5de1c0dd5",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "5th ONE-MAN LIVE 举办决定！",
+      "summaryZh": "宣布举办 5th 个人演唱会；详情见相关页面。",
+      "eventDates": []
+    },
+    "post-223": {
+      "id": "post-223",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "2765a3278e57e088c7eb6527ba51a686ff8f2153a5bbdcf558fc28d96911591c",
+      "reviewedAt": "2026-07-17T19:30:00.000Z",
+      "titleZh": "2nd ONE-MAN LIVE 周边信息公开！",
+      "summaryZh": "公开 2nd 个人演唱会周边信息；详情见相关页面。",
+      "eventDates": []
     }
   }
 }

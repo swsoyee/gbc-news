@@ -72,6 +72,21 @@ URL;VALUE=URI:https://gbc-firstriff.com/news/post-2.html
 CATEGORIES:canna-lily,live,event
 END:VEVENT
 BEGIN:VEVENT
+UID:firstriff-post-6-2026-07-01-sale@gbc-news
+DTSTAMP:20260701T000000Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] Canna Lily 1st ONE-MAN LIVE「未明に咲く花」LIVE 
+ 周边事后通贩开始！
+DESCRIPTION:Canna Lily 1st 个人演唱会会场周边已于东映动画官
+ 方商店开始事后通贩（数量有限，售完即止）。\n\n
+ https://gbc-firstriff.com/news/post-6.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-6.html
+CATEGORIES:canna-lily,live,goods,event
+END:VEVENT
+BEGIN:VEVENT
 UID:firstriff-post-5-2026-09-05-hold-1500@gbc-news
 DTSTAMP:20260905T060000Z
 DTSTART:20260905T060000Z

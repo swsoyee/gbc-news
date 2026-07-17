@@ -1791,6 +1791,21 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-397.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-392-2025-10-24_2025-11-23-hold@gbc-news
+DTSTAMP:20251024T000000Z
+DTSTART;VALUE=DATE:20251024
+DTEND;VALUE=DATE:20251124
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 特别联动决定！「剧场版总集篇 Girls Band Cry
+ 」「僵尸乐园传说 梦银河乐园」
+DESCRIPTION:公开方言互换特别影像；半券活动应募期为 10/24
+ –11/23，可获壁纸并抽选签名海报。\n\n
+ https://girls-band-cry.com/news/post-392.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-392.html
+CATEGORIES:togenashi,event,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-413-2025-10-24-hold@gbc-news
 DTSTAMP:20251024T000000Z
 DTSTART;VALUE=DATE:20251024

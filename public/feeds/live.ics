@@ -2193,6 +2193,36 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-305.html
 CATEGORIES:togenashi,live,goods,media
 END:VEVENT
 BEGIN:VEVENT
+UID:post-316-2025-02-06_2025-03-16-sale@gbc-news
+DTSTAMP:20250206T000000Z
+DTSTART;VALUE=DATE:20250206
+DTEND;VALUE=DATE:20250317
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺 5th ONE-MAN LIVE “鳴動の刻” 线上串
+ 流门票现已开售！
+DESCRIPTION:串流门票销售期 2/6 18:00–3/16 21:59；观看期 3/8 12
+ :00–3/16 23:59（非实时直播）。\n\n
+ https://girls-band-cry.com/news/post-316.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-316.html
+CATEGORIES:togenashi,live
+END:VEVENT
+BEGIN:VEVENT
+UID:post-317-2025-02-06_2025-03-16-sale@gbc-news
+DTSTAMP:20250206T000000Z
+DTSTART;VALUE=DATE:20250206
+DTEND;VALUE=DATE:20250317
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺 5th ONE-MAN LIVE “鳴動の刻” 线上串
+ 流门票销售中！
+DESCRIPTION:串流门票销售期 2/6–3/16；观看期 3/8–3/16（非
+ 实时直播）；可通过 Beyond LIVE / interpark / ZAIKO 购买。\n\n
+ https://girls-band-cry.com/news/post-317.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-317.html
+CATEGORIES:togenashi,live
+END:VEVENT
+BEGIN:VEVENT
 UID:post-304-2025-02-07-hold@gbc-news
 DTSTAMP:20250207T000000Z
 DTSTART;VALUE=DATE:20250207
@@ -2315,6 +2345,36 @@ DESCRIPTION:5th 个人演唱会「鳴動の刻」回放票务销售期 2/6
  与周边限定票。\n\nhttps://girls-band-cry.com/news/post-305.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-305.html
 CATEGORIES:togenashi,live,goods,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-316-2025-03-08_2025-03-16-hold@gbc-news
+DTSTAMP:20250308T000000Z
+DTSTART;VALUE=DATE:20250308
+DTEND;VALUE=DATE:20250317
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺 5th ONE-MAN LIVE “鳴動の刻” 线上串
+ 流门票现已开售！
+DESCRIPTION:串流门票销售期 2/6 18:00–3/16 21:59；观看期 3/8 12
+ :00–3/16 23:59（非实时直播）。\n\n
+ https://girls-band-cry.com/news/post-316.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-316.html
+CATEGORIES:togenashi,live
+END:VEVENT
+BEGIN:VEVENT
+UID:post-317-2025-03-08_2025-03-16-hold@gbc-news
+DTSTAMP:20250308T000000Z
+DTSTART;VALUE=DATE:20250308
+DTEND;VALUE=DATE:20250317
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺 5th ONE-MAN LIVE “鳴動の刻” 线上串
+ 流门票销售中！
+DESCRIPTION:串流门票销售期 2/6–3/16；观看期 3/8–3/16（非
+ 实时直播）；可通过 Beyond LIVE / interpark / ZAIKO 购买。\n\n
+ https://girls-band-cry.com/news/post-317.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-317.html
+CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
 UID:post-319-2025-03-09-sale-1000@gbc-news
@@ -2886,6 +2946,38 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-335.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-344-2025-06-27_2025-07-06-hold@gbc-news
+DTSTAMP:20250627T000000Z
+DTSTART;VALUE=DATE:20250627
+DTEND;VALUE=DATE:20250707
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] GBC 展福冈会场入场赠品・岛村乐器联动解禁
+ ！
+DESCRIPTION:福冈会场 6/27–7/6 于西铁大厅举办；入场赠舞台
+ 通行证风贴纸，6/27–6/28 岛村乐器アミュプラザ博多店
+ 出示门票可获海报。\n\n
+ https://girls-band-cry.com/news/post-344.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-344.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-344-2025-06-27-hold@gbc-news
+DTSTAMP:20250627T000000Z
+DTSTART;VALUE=DATE:20250627
+DTEND;VALUE=DATE:20250628
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] GBC 展福冈会场入场赠品・岛村乐器联动解禁
+ ！
+DESCRIPTION:福冈会场 6/27–7/6 于西铁大厅举办；入场赠舞台
+ 通行证风贴纸，6/27–6/28 岛村乐器アミュプラザ博多店
+ 出示门票可获海报。\n\n
+ https://girls-band-cry.com/news/post-344.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-344.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-355-2025-06-27-hold@gbc-news
 DTSTAMP:20250627T000000Z
 DTSTART;VALUE=DATE:20250627
@@ -2899,6 +2991,22 @@ DESCRIPTION:GBC 展福冈会场自 6/27 起举办，新增第 9・10・12
  的福冈版舞台通行证风缎面贴纸（15 名）。\n\n
  https://girls-band-cry.com/news/post-355.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-355.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-344-2025-06-28-hold@gbc-news
+DTSTAMP:20250628T000000Z
+DTSTART;VALUE=DATE:20250628
+DTEND;VALUE=DATE:20250629
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] GBC 展福冈会场入场赠品・岛村乐器联动解禁
+ ！
+DESCRIPTION:福冈会场 6/27–7/6 于西铁大厅举办；入场赠舞台
+ 通行证风贴纸，6/27–6/28 岛村乐器アミュプラザ博多店
+ 出示门票可获海报。\n\n
+ https://girls-band-cry.com/news/post-344.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-344.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
@@ -4759,6 +4867,21 @@ DESCRIPTION:Canna Lily 第1场个人演唱会「未明に咲く花」于202
  https://gbc-firstriff.com/news/post-2.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-2.html
 CATEGORIES:canna-lily,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:firstriff-post-6-2026-07-01-sale@gbc-news
+DTSTAMP:20260701T000000Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] Canna Lily 1st ONE-MAN LIVE「未明に咲く花」LIVE 
+ 周边事后通贩开始！
+DESCRIPTION:Canna Lily 1st 个人演唱会会场周边已于东映动画官
+ 方商店开始事后通贩（数量有限，售完即止）。\n\n
+ https://gbc-firstriff.com/news/post-6.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-6.html
+CATEGORIES:canna-lily,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-464-2026-07-10-hold-1900@gbc-news
