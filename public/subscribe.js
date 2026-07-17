@@ -364,51 +364,58 @@ function appendTimedBlocks(layerEl, events, isoDate) {
   return blocks.length
 }
 
-function buildHourRail(expanded) {
+function buildHourRail() {
   const rail = document.createElement('div')
   rail.className = 'calendar-hour-rail'
-  rail.setAttribute('aria-hidden', 'true')
-  const startHour = expanded ? 0 : EARLY_HOURS
-  rail.style.setProperty('--hour-rows', String(24 - startHour))
-  for (let hour = startHour; hour < 24; hour += 1) {
+  for (let hour = 0; hour < 24; hour += 1) {
     const mark = document.createElement('div')
     mark.className = 'calendar-hour-mark'
-    mark.textContent = `${String(hour).padStart(2, '0')}:00`
+    if (hour === EARLY_HOURS) mark.classList.add('is-early-boundary')
+    const label = document.createElement('span')
+    label.className = 'calendar-hour-label'
+    label.textContent = `${String(hour).padStart(2, '0')}:00`
+    mark.appendChild(label)
+    if (hour === EARLY_HOURS) {
+      mark.appendChild(buildEarlyHoursToggle())
+    }
     rail.appendChild(mark)
   }
   return rail
 }
 
-function countEarlyTimedBlocks(events, cells) {
-  const earlyEnd = EARLY_HOURS * 60
-  let count = 0
-  for (const cell of cells) {
-    for (const block of buildDayTimedBlocks(events, cell.date)) {
-      if (block.startMin < earlyEnd) count += 1
-    }
-  }
-  return count
-}
-
-function buildEarlyHoursToggle(earlyCount) {
+function buildEarlyHoursToggle() {
   const button = document.createElement('button')
   button.type = 'button'
   button.className = 'calendar-early-toggle'
-  if (earlyHoursExpanded) {
-    button.textContent = '收起凌晨'
-    button.setAttribute('aria-expanded', 'true')
-    button.title = '收起 0:00–7:59'
-  } else {
-    button.textContent = earlyCount > 0 ? `展开凌晨（${earlyCount}）` : '展开凌晨'
-    button.setAttribute('aria-expanded', 'false')
-    button.title = '展开 0:00–7:59'
-    if (earlyCount > 0) button.classList.add('has-early-events')
-  }
-  button.addEventListener('click', () => {
-    earlyHoursExpanded = !earlyHoursExpanded
-    refreshCalendarOnly()
+  button.setAttribute('aria-label', earlyHoursExpanded ? '收起凌晨时段' : '展开凌晨时段')
+  button.setAttribute('aria-expanded', earlyHoursExpanded ? 'true' : 'false')
+  button.title = earlyHoursExpanded ? '收起 0:00–7:59' : '展开 0:00–7:59'
+  button.textContent = earlyHoursExpanded ? '−' : '+'
+  button.addEventListener('click', (event) => {
+    event.preventDefault()
+    event.stopPropagation()
+    setEarlyHoursExpanded(!earlyHoursExpanded)
   })
   return button
+}
+
+function setEarlyHoursExpanded(expanded) {
+  earlyHoursExpanded = expanded
+  const frame = calendarGridEl?.querySelector('.calendar-time-frame')
+  if (!frame) {
+    refreshCalendarOnly()
+    return
+  }
+  frame.classList.toggle('is-early-collapsed', !expanded)
+  frame.style.setProperty('--early-offset', String(expanded ? 0 : EARLY_HOURS))
+  frame.style.setProperty('--visible-hours', String(expanded ? 24 : 24 - EARLY_HOURS))
+  const button = frame.querySelector('.calendar-early-toggle')
+  if (button instanceof HTMLButtonElement) {
+    button.textContent = expanded ? '−' : '+'
+    button.setAttribute('aria-expanded', expanded ? 'true' : 'false')
+    button.setAttribute('aria-label', expanded ? '收起凌晨时段' : '展开凌晨时段')
+    button.title = expanded ? '收起 0:00–7:59' : '展开 0:00–7:59'
+  }
 }
 
 function applyDayState(el, cell, today) {
@@ -473,15 +480,18 @@ function renderTimeGridFrame(events, cells, today) {
   header.style.setProperty('--allday-lanes', String(Math.max(laneCount, 1)))
   frame.appendChild(header)
 
-  const earlyCount = countEarlyTimedBlocks(events, cells)
-  corner.appendChild(buildEarlyHoursToggle(earlyCount))
-
   if (!earlyHoursExpanded) frame.classList.add('is-early-collapsed')
   frame.style.setProperty('--early-hours', String(EARLY_HOURS))
+  frame.style.setProperty('--early-offset', String(earlyHoursExpanded ? 0 : EARLY_HOURS))
   frame.style.setProperty('--visible-hours', String(earlyHoursExpanded ? 24 : 24 - EARLY_HOURS))
 
-  const hourRail = buildHourRail(earlyHoursExpanded)
-  frame.appendChild(hourRail)
+  const viewport = document.createElement('div')
+  viewport.className = 'calendar-timed-viewport'
+
+  const shift = document.createElement('div')
+  shift.className = 'calendar-timed-shift'
+
+  shift.appendChild(buildHourRail())
 
   const columns = document.createElement('div')
   columns.className = 'calendar-timed-columns'
@@ -496,7 +506,9 @@ function renderTimeGridFrame(events, cells, today) {
     col.appendChild(layer)
     columns.appendChild(col)
   }
-  frame.appendChild(columns)
+  shift.appendChild(columns)
+  viewport.appendChild(shift)
+  frame.appendChild(viewport)
 
   root.appendChild(frame)
   return { root, timedCount, allDayCount: allDayEvents.length }
