@@ -174,10 +174,16 @@
         background: rgba(0, 0, 0, 0.16);
       }
       .calendar-weekdays,
-      .calendar-grid {
+      .calendar-week {
         display: grid;
         grid-template-columns: repeat(7, minmax(6.2rem, 1fr));
         min-width: 43.4rem;
+      }
+      .calendar-grid {
+        min-width: 43.4rem;
+      }
+      .calendar-week {
+        position: relative;
       }
       .calendar-weekdays span {
         padding: 0.45rem 0.35rem;
@@ -227,6 +233,11 @@
       }
       a.calendar-chip {
         display: block;
+        align-self: start;
+        grid-row: 1;
+        min-width: 0;
+        margin: calc(2.15rem + var(--calendar-lane) * 1.25rem) 0.16rem 0;
+        z-index: 1;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -252,6 +263,10 @@
         background: rgba(90, 140, 180, 0.32);
       }
       .calendar-more {
+        align-self: start;
+        grid-row: 1;
+        margin-top: calc(2.15rem + 3 * 1.25rem);
+        z-index: 1;
         color: var(--muted);
         font-size: 0.68rem;
         padding: 0.1rem 0.2rem;

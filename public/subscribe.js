@@ -237,15 +237,46 @@ function buildCalendarEvents(groups, categories) {
   )
 }
 
-function eventsCoveringDay(events, isoDate) {
-  return events.filter((event) => event.date <= isoDate && isoDate <= event.endDate)
+function buildWeekSegments(events, cells) {
+  const weekStart = cells[0].date
+  const weekEnd = cells[cells.length - 1].date
+  const segments = events
+    .filter((event) => event.date <= weekEnd && event.endDate >= weekStart)
+    .map((event) => {
+      const startDate = event.date < weekStart ? weekStart : event.date
+      const endDate = event.endDate > weekEnd ? weekEnd : event.endDate
+      return {
+        event,
+        startColumn: cells.findIndex((cell) => cell.date === startDate),
+        endColumn: cells.findIndex((cell) => cell.date === endDate),
+        continuesBefore: event.date < weekStart,
+        continuesAfter: event.endDate > weekEnd,
+      }
+    })
+    .sort(
+      (a, b) =>
+        a.startColumn - b.startColumn ||
+        b.endColumn - a.endColumn ||
+        a.event.item.title.localeCompare(b.event.item.title),
+    )
+
+  const laneEnds = []
+  for (const segment of segments) {
+    let lane = laneEnds.findIndex((endColumn) => endColumn < segment.startColumn)
+    if (lane === -1) lane = laneEnds.length
+    laneEnds[lane] = segment.endColumn
+    segment.lane = lane
+  }
+  return segments
 }
 
-function chipLabel(event, isoDate) {
+function chipLabel(segment) {
+  const { event, continuesBefore, continuesAfter } = segment
   const kind = eventKindLabel(event.kind)
-  const prefix = event.startTime && event.date === isoDate ? `${event.startTime} ` : ''
-  const spanMark = event.endDate > event.date && event.date !== isoDate ? '… ' : ''
-  return `${kind} ${spanMark}${prefix}${event.item.title}`
+  const startMark = continuesBefore ? '… ' : ''
+  const endMark = continuesAfter ? ' …' : ''
+  const time = event.startTime && !continuesBefore ? `${event.startTime} ` : ''
+  return `${kind} ${startMark}${time}${event.item.title}${endMark}`
 }
 
 function renderCalendar(groups, categories) {
@@ -271,43 +302,61 @@ function renderCalendar(groups, categories) {
   }
 
   calendarGridEl.replaceChildren()
-  for (const cell of cells) {
-    const cellEl = document.createElement('div')
-    cellEl.className = 'calendar-day-cell'
-    if (!cell.inMonth) cellEl.classList.add('is-outside')
-    if (cell.date === today) cellEl.classList.add('is-today')
+  for (let weekStart = 0; weekStart < cells.length; weekStart += 7) {
+    const weekCells = cells.slice(weekStart, weekStart + 7)
+    const weekEl = document.createElement('div')
+    weekEl.className = 'calendar-week'
 
-    const num = document.createElement('div')
-    num.className = 'calendar-day-num'
-    num.textContent = String(cell.dayNum)
-    cellEl.appendChild(num)
+    for (const [dayIndex, cell] of weekCells.entries()) {
+      const cellEl = document.createElement('div')
+      cellEl.className = 'calendar-day-cell'
+      cellEl.style.gridColumn = String(dayIndex + 1)
+      cellEl.style.gridRow = '1'
+      if (!cell.inMonth) cellEl.classList.add('is-outside')
+      if (cell.date === today) cellEl.classList.add('is-today')
 
-    const dayEvents = eventsCoveringDay(events, cell.date)
-    if (dayEvents.length > 0) {
-      const list = document.createElement('div')
-      list.className = 'calendar-day-events'
-      const visible = dayEvents.slice(0, CHIPS_PER_DAY)
-      for (const event of visible) {
+      const num = document.createElement('div')
+      num.className = 'calendar-day-num'
+      num.textContent = String(cell.dayNum)
+      cellEl.appendChild(num)
+      weekEl.appendChild(cellEl)
+    }
+
+    const segments = buildWeekSegments(events, weekCells)
+    for (const segment of segments) {
+      if (segment.lane < CHIPS_PER_DAY) {
+        const { event } = segment
         const chip = document.createElement('a')
         chip.className = event.kind === 'sale' ? 'calendar-chip is-sale' : 'calendar-chip'
         if (event.endDate > event.date) chip.classList.add('is-span')
+        chip.style.gridColumn = `${segment.startColumn + 1} / ${segment.endColumn + 2}`
+        chip.style.setProperty('--calendar-lane', String(segment.lane))
         chip.href = event.item.url
         chip.target = '_blank'
         chip.rel = 'noopener'
-        chip.title = `${eventKindLabel(event.kind)} ${event.item.title}`
-        chip.textContent = chipLabel(event, cell.date)
-        list.appendChild(chip)
+        chip.title = `${eventKindLabel(event.kind)} ${event.date}～${event.endDate} ${event.item.title}`
+        chip.textContent = chipLabel(segment)
+        weekEl.appendChild(chip)
       }
-      if (dayEvents.length > CHIPS_PER_DAY) {
-        const more = document.createElement('div')
-        more.className = 'calendar-more'
-        more.textContent = `+${dayEvents.length - CHIPS_PER_DAY}`
-        list.appendChild(more)
-      }
-      cellEl.appendChild(list)
     }
 
-    calendarGridEl.appendChild(cellEl)
+    for (let dayIndex = 0; dayIndex < weekCells.length; dayIndex += 1) {
+      const hiddenCount = segments.filter(
+        (segment) =>
+          segment.lane >= CHIPS_PER_DAY &&
+          segment.startColumn <= dayIndex &&
+          dayIndex <= segment.endColumn,
+      ).length
+      if (hiddenCount > 0) {
+        const more = document.createElement('div')
+        more.className = 'calendar-more'
+        more.style.gridColumn = String(dayIndex + 1)
+        more.textContent = `+${hiddenCount}`
+        weekEl.appendChild(more)
+      }
+    }
+
+    calendarGridEl.appendChild(weekEl)
   }
 }
 
