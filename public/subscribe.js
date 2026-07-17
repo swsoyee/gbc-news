@@ -28,6 +28,7 @@ const rssOpen = document.getElementById('rss-open')
 const icsOpen = document.getElementById('ics-open')
 const toggleGroupsBtn = document.getElementById('toggle-groups')
 const toggleCatsBtn = document.getElementById('toggle-cats')
+const calendarBoardEl = document.getElementById('calendar-board')
 const calendarGridEl = document.getElementById('calendar-grid')
 const calendarNoteEl = document.getElementById('calendar-note')
 const calendarMonthLabelEl = document.getElementById('calendar-month-label')
@@ -35,11 +36,17 @@ const calendarMonthBgEl = document.getElementById('calendar-month-bg')
 const calendarPrevBtn = document.getElementById('calendar-prev')
 const calendarNextBtn = document.getElementById('calendar-next')
 const calendarTodayBtn = document.getElementById('calendar-today')
+const calendarViewBtns = document.querySelectorAll('[data-calendar-view]')
 
 const CHIPS_PER_DAY = 3
+const CHIPS_PER_WEEK = Number.POSITIVE_INFINITY
+const WEEKDAY_LABELS = ['日', '一', '二', '三', '四', '五', '六']
 
-/** 当前看板月份：本地时区的年月（日固定为 1） */
-let calendarCursor = startOfMonth(new Date())
+/** @type {'month' | 'week' | 'day'} */
+let calendarView = 'month'
+
+/** 当前看板日期：本地时区的某一天 */
+let calendarCursor = startOfDay(new Date())
 
 /** @type {{ title: string, url: string, groups?: string[], categories?: string[], eventDates?: { date: string, endDate?: string, kind: 'hold' | 'sale', startTime?: string }[] }[]} */
 let newsItems = []
@@ -196,16 +203,45 @@ function toIsoDate(date) {
   return `${year}-${month}-${day}`
 }
 
+function startOfDay(date) {
+  return new Date(date.getFullYear(), date.getMonth(), date.getDate())
+}
+
 function startOfMonth(date) {
   return new Date(date.getFullYear(), date.getMonth(), 1)
 }
 
+function startOfWeek(date) {
+  const day = startOfDay(date)
+  return new Date(day.getFullYear(), day.getMonth(), day.getDate() - mondayBasedWeekday(day))
+}
+
+function shiftDay(date, delta) {
+  return new Date(date.getFullYear(), date.getMonth(), date.getDate() + delta)
+}
+
 function shiftMonth(date, delta) {
-  return new Date(date.getFullYear(), date.getMonth() + delta, 1)
+  const next = new Date(date.getFullYear(), date.getMonth() + delta, 1)
+  const lastDay = new Date(next.getFullYear(), next.getMonth() + 1, 0).getDate()
+  return new Date(next.getFullYear(), next.getMonth(), Math.min(date.getDate(), lastDay))
 }
 
 function formatMonthLabel(date) {
   return `${date.getFullYear()}年${date.getMonth() + 1}月`
+}
+
+function formatWeekLabel(date) {
+  const start = startOfWeek(date)
+  const end = shiftDay(start, 6)
+  const sameMonth = start.getMonth() === end.getMonth()
+  if (sameMonth) {
+    return `${start.getFullYear()}年${start.getMonth() + 1}月${start.getDate()}日–${end.getDate()}日`
+  }
+  return `${start.getMonth() + 1}月${start.getDate()}日–${end.getMonth() + 1}月${end.getDate()}日`
+}
+
+function formatDayLabel(date) {
+  return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日（周${WEEKDAY_LABELS[date.getDay()]}）`
 }
 
 function eventKindLabel(kind) {
@@ -214,6 +250,17 @@ function eventKindLabel(kind) {
 
 function mondayBasedWeekday(date) {
   return (date.getDay() + 6) % 7
+}
+
+function buildDayMeta(day, inMonth) {
+  const date = toIsoDate(day)
+  return {
+    date,
+    dayNum: day.getDate(),
+    inMonth,
+    isRestDay: day.getDay() === 0 || day.getDay() === 6,
+    holidayName: holidayNames.get(date),
+  }
 }
 
 function buildMonthCells(cursor) {
@@ -225,14 +272,17 @@ function buildMonthCells(cursor) {
   const cells = []
   for (let i = 0; i < 42; i += 1) {
     const day = new Date(start.getFullYear(), start.getMonth(), start.getDate() + i)
-    const date = toIsoDate(day)
-    cells.push({
-      date,
-      dayNum: day.getDate(),
-      inMonth: day.getMonth() === month,
-      isRestDay: day.getDay() === 0 || day.getDay() === 6,
-      holidayName: holidayNames.get(date),
-    })
+    cells.push(buildDayMeta(day, day.getMonth() === month))
+  }
+  return cells
+}
+
+function buildWeekCells(cursor) {
+  const start = startOfWeek(cursor)
+  const cells = []
+  for (let i = 0; i < 7; i += 1) {
+    const day = shiftDay(start, i)
+    cells.push(buildDayMeta(day, true))
   }
   return cells
 }
@@ -304,13 +354,197 @@ function chipLabel(segment) {
   return `${kind} ${startMark}${time}${event.item.title}${endMark}`
 }
 
+function syncCalendarViewButtons() {
+  for (const button of calendarViewBtns) {
+    button.classList.toggle('is-active', button.getAttribute('data-calendar-view') === calendarView)
+  }
+}
+
+function syncCalendarNav() {
+  if (!calendarPrevBtn || !calendarNextBtn || !calendarTodayBtn) return
+  if (calendarView === 'week') {
+    calendarPrevBtn.textContent = '上周'
+    calendarPrevBtn.setAttribute('aria-label', '上周')
+    calendarNextBtn.textContent = '下周'
+    calendarNextBtn.setAttribute('aria-label', '下周')
+    calendarTodayBtn.textContent = '本周'
+  } else if (calendarView === 'day') {
+    calendarPrevBtn.textContent = '前一天'
+    calendarPrevBtn.setAttribute('aria-label', '前一天')
+    calendarNextBtn.textContent = '后一天'
+    calendarNextBtn.setAttribute('aria-label', '后一天')
+    calendarTodayBtn.textContent = '今天'
+  } else {
+    calendarPrevBtn.textContent = '上个月'
+    calendarPrevBtn.setAttribute('aria-label', '上个月')
+    calendarNextBtn.textContent = '下个月'
+    calendarNextBtn.setAttribute('aria-label', '下个月')
+    calendarTodayBtn.textContent = '本月'
+  }
+}
+
+function appendDayCell(weekEl, cell, dayIndex, today) {
+  const cellEl = document.createElement('div')
+  cellEl.className = 'calendar-day-cell'
+  cellEl.style.gridColumn = String(dayIndex + 1)
+  cellEl.style.gridRow = '1'
+  if (!cell.inMonth) cellEl.classList.add('is-outside')
+  if (cell.isRestDay) cellEl.classList.add('is-rest-day')
+  if (cell.holidayName) {
+    cellEl.classList.add('is-holiday')
+    cellEl.title = `日本公共节假日：${cell.holidayName}`
+  }
+  if (cell.date === today) cellEl.classList.add('is-today')
+
+  const num = document.createElement('div')
+  num.className = 'calendar-day-num'
+  num.textContent = String(cell.dayNum)
+  cellEl.appendChild(num)
+  weekEl.appendChild(cellEl)
+}
+
+function renderWeekRow(events, weekCells, today, chipLimit) {
+  const weekEl = document.createElement('div')
+  weekEl.className = 'calendar-week'
+
+  for (const [dayIndex, cell] of weekCells.entries()) {
+    appendDayCell(weekEl, cell, dayIndex, today)
+  }
+
+  const segments = buildWeekSegments(events, weekCells)
+  for (const segment of segments) {
+    const { event } = segment
+    const chip = document.createElement('a')
+    chip.className = event.kind === 'sale' ? 'calendar-chip is-sale' : 'calendar-chip'
+    if (event.endDate > event.date) chip.classList.add('is-span')
+    if (segment.lane >= chipLimit) chip.classList.add('is-overflow')
+    chip.style.gridColumn = `${segment.startColumn + 1} / ${segment.endColumn + 2}`
+    chip.style.setProperty('--calendar-lane', String(segment.lane))
+    chip.href = event.item.url
+    chip.target = '_blank'
+    chip.rel = 'noopener'
+    chip.title = `${eventKindLabel(event.kind)} ${event.date}～${event.endDate} ${event.item.title}`
+    chip.textContent = chipLabel(segment)
+    weekEl.appendChild(chip)
+  }
+
+  let hasOverflow = false
+  for (let dayIndex = 0; dayIndex < weekCells.length; dayIndex += 1) {
+    const hiddenCount = segments.filter(
+      (segment) =>
+        segment.lane >= chipLimit &&
+        segment.startColumn <= dayIndex &&
+        dayIndex <= segment.endColumn,
+    ).length
+    if (hiddenCount > 0) {
+      hasOverflow = true
+      const more = document.createElement('div')
+      more.className = 'calendar-more'
+      more.style.gridColumn = String(dayIndex + 1)
+      more.style.marginTop = `calc(2.15rem + ${chipLimit} * 1.25rem)`
+      more.textContent = `+${hiddenCount}`
+      more.title = '悬浮显示全部事件'
+      more.addEventListener('mouseenter', () => weekEl.classList.add('is-expanded'))
+      weekEl.appendChild(more)
+    }
+  }
+  if (hasOverflow) {
+    weekEl.addEventListener('mouseleave', () => weekEl.classList.remove('is-expanded'))
+  }
+
+  calendarGridEl.appendChild(weekEl)
+  if (hasOverflow) {
+    weekEl.style.setProperty('--calendar-expanded-height', `${weekEl.scrollHeight}px`)
+  }
+}
+
+function renderDayAgenda(events, isoDate) {
+  const agenda = document.createElement('div')
+  agenda.className = 'calendar-day-agenda'
+  const dayEvents = events.filter((event) => event.date <= isoDate && isoDate <= event.endDate)
+
+  if (dayEvents.length === 0) {
+    const empty = document.createElement('div')
+    empty.className = 'calendar-day-empty'
+    empty.textContent = '当天当前筛选下没有活动'
+    agenda.appendChild(empty)
+    calendarGridEl.appendChild(agenda)
+    return
+  }
+
+  for (const event of dayEvents) {
+    const item = document.createElement('a')
+    item.className = event.kind === 'sale' ? 'calendar-agenda-item is-sale' : 'calendar-agenda-item'
+    item.href = event.item.url
+    item.target = '_blank'
+    item.rel = 'noopener'
+
+    const meta = document.createElement('div')
+    meta.className = 'calendar-agenda-meta'
+    const range = event.endDate > event.date ? `${event.date}～${event.endDate}` : event.date
+    const time = event.startTime && event.date === isoDate ? ` · ${event.startTime}` : ''
+    meta.textContent = `${eventKindLabel(event.kind)} · ${range}${time}`
+
+    const title = document.createElement('div')
+    title.className = 'calendar-agenda-title'
+    title.textContent = event.item.title
+
+    item.append(meta, title)
+    agenda.appendChild(item)
+  }
+  calendarGridEl.appendChild(agenda)
+}
+
 function renderCalendar(groups, categories) {
   if (!calendarGridEl) return
 
   const events = buildCalendarEvents(groups, categories)
-  const cells = buildMonthCells(calendarCursor)
   const today = localTodayIso()
-  const monthStart = toIsoDate(calendarCursor)
+  syncCalendarViewButtons()
+  syncCalendarNav()
+
+  if (calendarBoardEl) {
+    calendarBoardEl.classList.toggle('is-week-view', calendarView === 'week')
+    calendarBoardEl.classList.toggle('is-day-view', calendarView === 'day')
+    calendarBoardEl.dataset.view = calendarView
+  }
+
+  calendarGridEl.replaceChildren()
+
+  if (calendarView === 'day') {
+    const isoDate = toIsoDate(calendarCursor)
+    if (calendarMonthLabelEl) calendarMonthLabelEl.textContent = formatDayLabel(calendarCursor)
+    if (calendarMonthBgEl) calendarMonthBgEl.textContent = String(calendarCursor.getDate())
+    if (calendarNoteEl) {
+      const count = events.filter(
+        (event) => event.date <= isoDate && isoDate <= event.endDate,
+      ).length
+      calendarNoteEl.textContent =
+        count > 0 ? `当天 ${count} 件（受当前筛选影响）` : '当天当前筛选下没有活动'
+    }
+    renderDayAgenda(events, isoDate)
+    return
+  }
+
+  if (calendarView === 'week') {
+    const weekCells = buildWeekCells(calendarCursor)
+    const weekStart = weekCells[0].date
+    const weekEnd = weekCells[6].date
+    if (calendarMonthLabelEl) calendarMonthLabelEl.textContent = formatWeekLabel(calendarCursor)
+    if (calendarMonthBgEl) calendarMonthBgEl.textContent = String(calendarCursor.getMonth() + 1)
+    if (calendarNoteEl) {
+      const count = events.filter(
+        (event) => event.date <= weekEnd && event.endDate >= weekStart,
+      ).length
+      calendarNoteEl.textContent =
+        count > 0 ? `本周 ${count} 件（受当前筛选影响）` : '本周当前筛选下没有活动'
+    }
+    renderWeekRow(events, weekCells, today, CHIPS_PER_WEEK)
+    return
+  }
+
+  const cells = buildMonthCells(calendarCursor)
+  const monthStart = toIsoDate(startOfMonth(calendarCursor))
   const monthEnd = toIsoDate(
     new Date(calendarCursor.getFullYear(), calendarCursor.getMonth() + 1, 0),
   )
@@ -327,76 +561,8 @@ function renderCalendar(groups, categories) {
         : '本月当前筛选下没有活动'
   }
 
-  calendarGridEl.replaceChildren()
   for (let weekStart = 0; weekStart < cells.length; weekStart += 7) {
-    const weekCells = cells.slice(weekStart, weekStart + 7)
-    const weekEl = document.createElement('div')
-    weekEl.className = 'calendar-week'
-
-    for (const [dayIndex, cell] of weekCells.entries()) {
-      const cellEl = document.createElement('div')
-      cellEl.className = 'calendar-day-cell'
-      cellEl.style.gridColumn = String(dayIndex + 1)
-      cellEl.style.gridRow = '1'
-      if (!cell.inMonth) cellEl.classList.add('is-outside')
-      if (cell.isRestDay) cellEl.classList.add('is-rest-day')
-      if (cell.holidayName) {
-        cellEl.classList.add('is-holiday')
-        cellEl.title = `日本公共节假日：${cell.holidayName}`
-      }
-      if (cell.date === today) cellEl.classList.add('is-today')
-
-      const num = document.createElement('div')
-      num.className = 'calendar-day-num'
-      num.textContent = String(cell.dayNum)
-      cellEl.appendChild(num)
-      weekEl.appendChild(cellEl)
-    }
-
-    const segments = buildWeekSegments(events, weekCells)
-    for (const segment of segments) {
-      const { event } = segment
-      const chip = document.createElement('a')
-      chip.className = event.kind === 'sale' ? 'calendar-chip is-sale' : 'calendar-chip'
-      if (event.endDate > event.date) chip.classList.add('is-span')
-      if (segment.lane >= CHIPS_PER_DAY) chip.classList.add('is-overflow')
-      chip.style.gridColumn = `${segment.startColumn + 1} / ${segment.endColumn + 2}`
-      chip.style.setProperty('--calendar-lane', String(segment.lane))
-      chip.href = event.item.url
-      chip.target = '_blank'
-      chip.rel = 'noopener'
-      chip.title = `${eventKindLabel(event.kind)} ${event.date}～${event.endDate} ${event.item.title}`
-      chip.textContent = chipLabel(segment)
-      weekEl.appendChild(chip)
-    }
-
-    let hasOverflow = false
-    for (let dayIndex = 0; dayIndex < weekCells.length; dayIndex += 1) {
-      const hiddenCount = segments.filter(
-        (segment) =>
-          segment.lane >= CHIPS_PER_DAY &&
-          segment.startColumn <= dayIndex &&
-          dayIndex <= segment.endColumn,
-      ).length
-      if (hiddenCount > 0) {
-        hasOverflow = true
-        const more = document.createElement('div')
-        more.className = 'calendar-more'
-        more.style.gridColumn = String(dayIndex + 1)
-        more.textContent = `+${hiddenCount}`
-        more.title = '悬浮显示全部事件'
-        more.addEventListener('mouseenter', () => weekEl.classList.add('is-expanded'))
-        weekEl.appendChild(more)
-      }
-    }
-    if (hasOverflow) {
-      weekEl.addEventListener('mouseleave', () => weekEl.classList.remove('is-expanded'))
-    }
-
-    calendarGridEl.appendChild(weekEl)
-    if (hasOverflow) {
-      weekEl.style.setProperty('--calendar-expanded-height', `${weekEl.scrollHeight}px`)
-    }
+    renderWeekRow(events, cells.slice(weekStart, weekStart + 7), today, CHIPS_PER_DAY)
   }
 }
 
@@ -603,17 +769,30 @@ groupsEl.addEventListener('change', refresh)
 catsEl.addEventListener('change', refresh)
 
 calendarPrevBtn?.addEventListener('click', () => {
-  calendarCursor = shiftMonth(calendarCursor, -1)
+  if (calendarView === 'week') calendarCursor = shiftDay(calendarCursor, -7)
+  else if (calendarView === 'day') calendarCursor = shiftDay(calendarCursor, -1)
+  else calendarCursor = shiftMonth(calendarCursor, -1)
   refreshCalendarOnly()
 })
 calendarNextBtn?.addEventListener('click', () => {
-  calendarCursor = shiftMonth(calendarCursor, 1)
+  if (calendarView === 'week') calendarCursor = shiftDay(calendarCursor, 7)
+  else if (calendarView === 'day') calendarCursor = shiftDay(calendarCursor, 1)
+  else calendarCursor = shiftMonth(calendarCursor, 1)
   refreshCalendarOnly()
 })
 calendarTodayBtn?.addEventListener('click', () => {
-  calendarCursor = startOfMonth(new Date())
+  calendarCursor = startOfDay(new Date())
   refreshCalendarOnly()
 })
+
+for (const button of calendarViewBtns) {
+  button.addEventListener('click', () => {
+    const nextView = button.getAttribute('data-calendar-view')
+    if (nextView !== 'month' && nextView !== 'week' && nextView !== 'day') return
+    calendarView = nextView
+    refreshCalendarOnly()
+  })
+}
 
 // 事件委托：静态区动态按钮 + 自定义区复制
 document.addEventListener('click', (event) => {
