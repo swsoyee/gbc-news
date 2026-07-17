@@ -99,6 +99,15 @@
         padding: 0.55rem 0.9rem;
         cursor: pointer;
         text-decoration: none;
+        transition:
+          background 140ms ease-out,
+          border-color 140ms ease-out,
+          color 140ms ease-out;
+      }
+      button:hover,
+      a.btn:hover {
+        background: rgba(255, 255, 255, 0.1);
+        border-color: rgba(244, 239, 230, 0.36);
       }
       button.primary,
       a.btn.primary {
@@ -106,6 +115,11 @@
         border-color: var(--accent);
         color: #1a0f0d;
         font-weight: 700;
+      }
+      button.primary:hover,
+      a.btn.primary:hover {
+        background: #ff8a7a;
+        border-color: #ff8a7a;
       }
       .links {
         display: grid;
@@ -115,13 +129,116 @@
         display: grid;
         gap: 0.35rem;
       }
-      .link-row code {
+      .link-code {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: stretch;
+        gap: 0.45rem;
+      }
+      .link-field {
+        position: relative;
+        min-width: 0;
+      }
+      .link-field code {
         display: block;
         overflow-wrap: anywhere;
-        padding: 0.75rem 0.85rem;
+        min-height: 2.85rem;
+        padding: 0.75rem 3rem 0.75rem 0.85rem;
         background: rgba(0, 0, 0, 0.28);
         border: 1px solid var(--line);
         font-size: 0.86rem;
+      }
+      .link-actions {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.35rem;
+      }
+      button.btn-icon,
+      a.btn-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.4rem;
+        height: 2.4rem;
+        padding: 0;
+        border: 1px solid var(--line);
+        background: transparent;
+        color: var(--ink);
+        font: inherit;
+        cursor: pointer;
+        text-decoration: none;
+        transition:
+          background 140ms ease-out,
+          border-color 140ms ease-out,
+          color 140ms ease-out,
+          opacity 140ms ease-out;
+      }
+      button.btn-icon:hover,
+      a.btn-icon:hover {
+        background: rgba(255, 255, 255, 0.1);
+        border-color: rgba(244, 239, 230, 0.36);
+      }
+      button.btn-icon:focus-visible,
+      a.btn-icon:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+      }
+      button.btn-icon.primary,
+      a.btn-icon.primary {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: #1a0f0d;
+      }
+      button.btn-icon.primary:hover,
+      a.btn-icon.primary:hover {
+        background: #ff8a7a;
+        border-color: #ff8a7a;
+      }
+      button.btn-icon svg,
+      a.btn-icon svg {
+        width: 1.05rem;
+        height: 1.05rem;
+        display: block;
+        pointer-events: none;
+      }
+      button.btn-icon.copy-inline {
+        position: absolute;
+        top: 50%;
+        right: 0.35rem;
+        transform: translateY(-50%);
+        z-index: 1;
+        background: transparent;
+        border-color: transparent;
+        color: var(--accent);
+      }
+      button.btn-icon.copy-inline:hover {
+        background: rgba(232, 93, 76, 0.14);
+        border-color: transparent;
+        color: #ff8a7a;
+      }
+      button.copy-inline[data-tooltip]::after {
+        content: attr(data-tooltip);
+        position: absolute;
+        left: 50%;
+        bottom: calc(100% + 0.35rem);
+        transform: translateX(-50%) translateY(0.15rem);
+        padding: 0.28rem 0.5rem;
+        border: 1px solid var(--line);
+        background: rgba(16, 20, 24, 0.96);
+        color: var(--ink);
+        font-size: 0.72rem;
+        line-height: 1.2;
+        white-space: nowrap;
+        opacity: 0;
+        pointer-events: none;
+        transition:
+          opacity 220ms ease,
+          transform 220ms ease;
+      }
+      button.copy-inline.is-copied[data-tooltip]::after {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
       }
       .link-row.is-dimmed {
         opacity: 0.45;
@@ -388,18 +505,80 @@
         <div class="links">
           <div class="link-row">
             <strong>RSS</strong>
-            <code id="rss-url"></code>
-            <div class="actions">
-              <button type="button" class="primary" data-copy="rss-url">复制 RSS</button>
-              <a class="btn" id="rss-open" href="#" target="_blank" rel="noopener">打开</a>
+            <div class="link-code">
+              <div class="link-field">
+                <code id="rss-url"></code>
+                <button
+                  type="button"
+                  class="btn-icon copy-inline"
+                  data-copy="rss-url"
+                  aria-label="复制链接"
+                  title="复制链接"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path
+                      fill="currentColor"
+                      d="M16 1H6a2 2 0 0 0-2 2v12h2V3h10V1Zm3 4H10a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H10V7h9v14Z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div class="link-actions">
+                <a
+                  class="btn-icon"
+                  id="rss-open"
+                  href="#"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="打开 RSS"
+                  title="打开 RSS"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path
+                      fill="currentColor"
+                      d="M6.18 15.64a2.18 2.18 0 1 1 0 4.36 2.18 2.18 0 0 1 0-4.36Zm-2.36-6.9v2.82c3.9 0 7.08 3.18 7.08 7.08h2.82c0-5.46-4.44-9.9-9.9-9.9Zm0-5.64v2.82c7.02 0 12.72 5.7 12.72 12.72h2.82C19.36 9.3 12.06 2 3.82 2Z"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
           <div class="link-row">
             <strong>iCal / 日历</strong>
-            <code id="ics-url"></code>
-            <div class="actions">
-              <button type="button" class="primary" data-copy="ics-url">复制日历链接</button>
-              <a class="btn" id="ics-open" href="#">打开 webcal</a>
+            <div class="link-code">
+              <div class="link-field">
+                <code id="ics-url"></code>
+                <button
+                  type="button"
+                  class="btn-icon copy-inline"
+                  data-copy="ics-url"
+                  aria-label="复制链接"
+                  title="复制链接"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path
+                      fill="currentColor"
+                      d="M16 1H6a2 2 0 0 0-2 2v12h2V3h10V1Zm3 4H10a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H10V7h9v14Z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div class="link-actions">
+                <a
+                  class="btn-icon primary"
+                  id="ics-open"
+                  href="#"
+                  aria-label="订阅日历"
+                  title="订阅日历"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path
+                      fill="currentColor"
+                      d="M7 2h2v2h6V2h2v2h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3V2Zm13 8H4v10h16V10Zm-9 2h2v2h2v2h-2v2h-2v-2H9v-2h2v-2Z"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -446,12 +625,12 @@
       </section>
 
       <details class="fold">
-        <summary>各组合日历（ICS）· 快捷单维订阅</summary>
+        <summary>组合订阅</summary>
         <div class="links" id="group-links"></div>
       </details>
 
       <details class="fold">
-        <summary>各分类日历（ICS）· 快捷单维订阅</summary>
+        <summary>分类订阅</summary>
         <div class="links" id="cat-links"></div>
       </details>
 

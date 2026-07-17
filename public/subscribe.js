@@ -428,6 +428,24 @@ function renderStaticLinks(activeGroups, activeCategories) {
   }
 }
 
+function iconSvg(kind) {
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
+  svg.setAttribute('viewBox', '0 0 24 24')
+  svg.setAttribute('aria-hidden', 'true')
+  svg.setAttribute('focusable', 'false')
+  const path = document.createElementNS('http://www.w3.org/2000/svg', 'path')
+  path.setAttribute('fill', 'currentColor')
+  const paths = {
+    rss: 'M6.18 15.64a2.18 2.18 0 1 1 0 4.36 2.18 2.18 0 0 1 0-4.36Zm-2.36-6.9v2.82c3.9 0 7.08 3.18 7.08 7.08h2.82c0-5.46-4.44-9.9-9.9-9.9Zm0-5.64v2.82c7.02 0 12.72 5.7 12.72 12.72h2.82C19.36 9.3 12.06 2 3.82 2Z',
+    calendar:
+      'M7 2h2v2h6V2h2v2h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3V2Zm13 8H4v10h16V10Zm-9 2h2v2h2v2h-2v2h-2v-2H9v-2h2v-2Z',
+    copy: 'M16 1H6a2 2 0 0 0-2 2v12h2V3h10V1Zm3 4H10a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H10V7h9v14Z',
+  }
+  path.setAttribute('d', paths[kind] ?? paths.copy)
+  svg.appendChild(path)
+  return svg
+}
+
 function buildLinkRow({ title, ics, rssPath, dimmed }) {
   const row = document.createElement('div')
   row.className = dimmed ? 'link-row is-dimmed' : 'link-row'
@@ -435,32 +453,46 @@ function buildLinkRow({ title, ics, rssPath, dimmed }) {
   const strong = document.createElement('strong')
   strong.textContent = title
 
+  const codeWrap = document.createElement('div')
+  codeWrap.className = 'link-code'
+
+  const field = document.createElement('div')
+  field.className = 'link-field'
+
   const code = document.createElement('code')
   code.textContent = ics
 
-  const actions = document.createElement('div')
-  actions.className = 'actions'
-
   const copyBtn = document.createElement('button')
   copyBtn.type = 'button'
-  copyBtn.className = 'primary'
-  copyBtn.textContent = '复制链接'
+  copyBtn.className = 'btn-icon copy-inline'
+  copyBtn.setAttribute('aria-label', '复制链接')
+  copyBtn.title = '复制链接'
   copyBtn.dataset.copyText = ics
+  copyBtn.appendChild(iconSvg('copy'))
+
+  const actions = document.createElement('div')
+  actions.className = 'link-actions'
 
   const calLink = document.createElement('a')
-  calLink.className = 'btn primary'
+  calLink.className = 'btn-icon primary'
   calLink.href = toWebcal(ics)
-  calLink.textContent = '订阅日历'
+  calLink.setAttribute('aria-label', '订阅日历')
+  calLink.title = '订阅日历'
+  calLink.appendChild(iconSvg('calendar'))
 
   const rssLink = document.createElement('a')
-  rssLink.className = 'btn'
+  rssLink.className = 'btn-icon'
   rssLink.href = rssPath
   rssLink.target = '_blank'
   rssLink.rel = 'noopener'
-  rssLink.textContent = 'RSS'
+  rssLink.setAttribute('aria-label', '打开 RSS')
+  rssLink.title = '打开 RSS'
+  rssLink.appendChild(iconSvg('rss'))
 
-  actions.append(copyBtn, calLink, rssLink)
-  row.append(strong, code, actions)
+  field.append(code, copyBtn)
+  actions.append(calLink, rssLink)
+  codeWrap.append(field, actions)
+  row.append(strong, codeWrap)
   return row
 }
 
@@ -505,18 +537,36 @@ async function copyText(text, button) {
       document.execCommand('copy')
       area.remove()
     }
-    const prev = button.textContent
-    button.textContent = '已复制'
-    window.setTimeout(() => {
-      button.textContent = prev
-    }, 1200)
+    showCopyTooltip(button, '已复制')
   } catch (error) {
     console.error(error)
-    button.textContent = '复制失败'
-    window.setTimeout(() => {
-      button.textContent = '复制链接'
-    }, 1500)
+    showCopyTooltip(button, '复制失败')
   }
+}
+
+/** @type {WeakMap<HTMLElement, { hide?: number, clear?: number }>} */
+const copyTooltipTimers = new WeakMap()
+
+function showCopyTooltip(button, message) {
+  const previousTimers = copyTooltipTimers.get(button)
+  if (previousTimers?.hide) window.clearTimeout(previousTimers.hide)
+  if (previousTimers?.clear) window.clearTimeout(previousTimers.clear)
+
+  button.dataset.tooltip = message
+  // 强制重绘，确保连续点击时也能重新播放淡入
+  button.classList.remove('is-copied')
+  void button.offsetWidth
+  button.classList.add('is-copied')
+
+  const hide = window.setTimeout(() => {
+    button.classList.remove('is-copied')
+    const clear = window.setTimeout(() => {
+      delete button.dataset.tooltip
+      copyTooltipTimers.delete(button)
+    }, 240)
+    copyTooltipTimers.set(button, { clear })
+  }, 1200)
+  copyTooltipTimers.set(button, { hide })
 }
 
 document.getElementById('select-all-groups').addEventListener('click', () => {
@@ -559,20 +609,21 @@ calendarTodayBtn?.addEventListener('click', () => {
 // 事件委托：静态区动态按钮 + 自定义区复制
 document.addEventListener('click', (event) => {
   const target = event.target
-  if (!(target instanceof HTMLElement)) return
+  if (!(target instanceof Element)) return
 
-  const copyId = target.getAttribute('data-copy')
-  if (copyId) {
+  const copyById = target.closest('[data-copy]')
+  if (copyById instanceof HTMLElement) {
     event.preventDefault()
-    const text = document.getElementById(copyId)?.textContent ?? ''
-    void copyText(text, target)
+    const text =
+      document.getElementById(copyById.getAttribute('data-copy') ?? '')?.textContent ?? ''
+    void copyText(text, copyById)
     return
   }
 
-  const copyTextValue = target.getAttribute('data-copy-text')
-  if (copyTextValue) {
+  const copyByText = target.closest('[data-copy-text]')
+  if (copyByText instanceof HTMLElement) {
     event.preventDefault()
-    void copyText(copyTextValue, target)
+    void copyText(copyByText.getAttribute('data-copy-text') ?? '', copyByText)
   }
 })
 
