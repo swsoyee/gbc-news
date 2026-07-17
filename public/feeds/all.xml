@@ -4,8 +4,18 @@
     <title>gbc-news · 全部</title>
     <link>https://gbc-news.example.com/</link>
     <description>ガールズバンドクライ 公式ニュース（全部）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 12:39:54 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 12:40:48 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/all.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[举办] 无刺有刺「名もなき何もかも」于卡拉 OK DAM 开始配信 MV！！</title>
+      <link>https://girls-band-cry.com/news/post-6.html</link>
+      <guid isPermaLink="false">post-6-2023-07-24_2024-06-30-hold@gbc-news</guid>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>music</category>
+      <category domain="group">togenashi</category>
+      <description>出道曲 MV 自即日起于 DAM 配信，预定至 2024 年 6 月末。</description>
+    </item>
     <item>
       <title>[发售] 名もなき何もかも／无刺有刺 2023 年 7 月 26 日（三）CD 发售！</title>
       <link>https://girls-band-cry.com/news/post-2.html</link>
@@ -53,6 +63,15 @@
       <category>media</category>
       <category domain="group">togenashi</category>
       <description>纪念出道单曲，7 月 29 日 17:00–18:00 于 Limista 举办线上 talk（仅声音出演）；购入获夹克签名。</description>
+    </item>
+    <item>
+      <title>[举办] 卡拉 OK「Big Echo」店头正播放「名もなき何もかも」MV！</title>
+      <link>https://girls-band-cry.com/news/post-13.html</link>
+      <guid isPermaLink="false">post-13-2023-08-11_2023-08-31-hold@gbc-news</guid>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 GMT</pubDate>
+      <category>music</category>
+      <category domain="group">togenashi</category>
+      <description>Big Echo 店头显示器限时至 8 月末播放出道曲 MV。</description>
     </item>
     <item>
       <title>[举办] 无刺有刺「偽りの理」「気鬱、白濁す」「理想的パラドクスとは」于卡拉 OK DAM 开始配信 MV！！</title>
@@ -167,6 +186,16 @@
       <description>纪念 2nd Single，9 月 2 日 17:00–18:00 于 Limista 举办线上 talk（露脸出演）；购入获夹克签名。</description>
     </item>
     <item>
+      <title>[举办] 「爆ぜて咲く」MV 公开纪念活动第 2 弹开始！</title>
+      <link>https://girls-band-cry.com/news/post-19.html</link>
+      <guid isPermaLink="false">post-19-2023-09-04_2023-09-10-hold@gbc-news</guid>
+      <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
+      <category>music</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>官方 X 关注＆转发活动截止 9/10，抽选 5 名获签名海报。</description>
+    </item>
+    <item>
       <title>[举办] MV 第 5 弹「爆ぜて咲く」公开纪念活动举办决定！</title>
       <link>https://girls-band-cry.com/news/post-15.html</link>
       <guid isPermaLink="false">post-15-2023-09-04-hold-1200@gbc-news</guid>
@@ -217,6 +246,15 @@
       <category>event</category>
       <category domain="group">togenashi</category>
       <description>9/14 19:30 于代官山 SPACE ODD 举办公开练习 LIVE；应募截止 9/6，中签 9/9 邮件通知。</description>
+    </item>
+    <item>
+      <title>[举办] 「爆ぜて咲く」公开纪念活动第 4 弹开始！</title>
+      <link>https://girls-band-cry.com/news/post-26.html</link>
+      <guid isPermaLink="false">post-26-2023-09-18_2023-09-24-hold@gbc-news</guid>
+      <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>于 Spotify 收听并以标签分享，截止 9/24 抽选 5 名获限定贴纸。</description>
     </item>
     <item>
       <title>[举办] MV 第 5 弹「爆ぜて咲く」公开纪念活动举办决定！</title>
@@ -971,6 +1009,15 @@
       <description>动画自 4/5 起开播；real Sound 公开成员访谈、玉井健二访谈与 LIVE 报道等特集。</description>
     </item>
     <item>
+      <title>[举办] 【超短期游击企划】第 2 话实况活动举办！</title>
+      <link>https://girls-band-cry.com/news/post-112.html</link>
+      <guid isPermaLink="false">post-112-2024-04-13-hold-0000@gbc-news</guid>
+      <pubDate>Fri, 12 Apr 2024 15:00:00 GMT</pubDate>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>第 2 话实况＆感想投稿活动于 4/13 0:00–8:59 举办；抽选 1 名获签名海报。</description>
+    </item>
+    <item>
       <title>[举办] 【超短期游击企划】第 3 话实况活动举办！</title>
       <link>https://girls-band-cry.com/news/post-118.html</link>
       <guid isPermaLink="false">post-118-2024-04-20-hold-0000@gbc-news</guid>
@@ -1054,6 +1101,15 @@
       <description>于 animate 预约/购入《棘アリ》可获应募序号；5/25 于 animate 池袋本店举办第 8 话回顾上映会（14:00 / 17:00 两部）。</description>
     </item>
     <item>
+      <title>[发售] AniBirth 发售 Girls Band Cry 新商品＆赠品决定！</title>
+      <link>https://girls-band-cry.com/news/post-117.html</link>
+      <guid isPermaLink="false">post-117-2024-04-26-sale@gbc-news</guid>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category domain="group">togenashi</category>
+      <description>AniBirth 自 4/26 起发售立牌、毛巾等 6 类周边，满额赠贴纸；官方商店约 5 月上旬发售。</description>
+    </item>
+    <item>
       <title>[举办] 第 4 话「感謝（驚）」WEB 预告＆剧情概要公开</title>
       <link>https://girls-band-cry.com/news/post-120.html</link>
       <guid isPermaLink="false">post-120-2024-04-26-hold@gbc-news</guid>
@@ -1088,6 +1144,15 @@
       <category>goods</category>
       <category domain="group">togenashi</category>
       <description>井芹仁菜手办自 4/26 起于东映动画官方商店受理至 6/30；样本自 4/27 起在 AniBirth 涉谷 PARCO 店展示。</description>
+    </item>
+    <item>
+      <title>[举办] Big Echo×Girls Band Cry 联动活动 5 月 3 日开始！</title>
+      <link>https://girls-band-cry.com/news/post-125.html</link>
+      <guid isPermaLink="false">post-125-2024-05-03_2024-06-30-hold@gbc-news</guid>
+      <pubDate>Fri, 03 May 2024 00:00:00 GMT</pubDate>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>5/3–6/30 于 Big Echo 5 家店举办店头展览与联动饮料，点单赠拨片徽章。</description>
     </item>
     <item>
       <title>[举办] 【超短期游击企划】第 5 话实况活动举办！</title>
@@ -1191,6 +1256,15 @@
       <description>收录 OP/ED 主题曲的两张单曲于 5/22 同时发售；初回特典为随机成员交易卡。</description>
     </item>
     <item>
+      <title>[举办] 【超短期企划】TV 动画《Girls Band Cry》实况活动举办！</title>
+      <link>https://girls-band-cry.com/news/post-147.html</link>
+      <guid isPermaLink="false">post-147-2024-05-24-hold@gbc-news</guid>
+      <pubDate>Fri, 24 May 2024 00:00:00 GMT</pubDate>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>配合同步观看 Space，举办实况＆感想投稿超短期活动。</description>
+    </item>
+    <item>
       <title>[举办] 第 8 话播出直前 第 7 话同步观看 Space 配信决定！</title>
       <link>https://girls-band-cry.com/news/post-144.html</link>
       <guid isPermaLink="false">post-144-2024-05-24-hold-2345@gbc-news</guid>
@@ -1259,6 +1333,15 @@
       <description>以无刺有刺与 Diamond Dust 成员兴趣为主题的 Village Vanguard 限定周边自 5/29 起发售，官方网店同步开售。</description>
     </item>
     <item>
+      <title>[举办] 【超短期游击企划】第 9 话实况活动举办！</title>
+      <link>https://girls-band-cry.com/news/post-150.html</link>
+      <guid isPermaLink="false">post-150-2024-05-31-hold@gbc-news</guid>
+      <pubDate>Fri, 31 May 2024 00:00:00 GMT</pubDate>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>配合第 8 话同步观看 Space，举办第 9 话实况＆感想投稿超短期活动。</description>
+    </item>
+    <item>
       <title>[发售] 5/31（五）起 AniBirth 发售 Girls Band Cry 新商品！！</title>
       <link>https://girls-band-cry.com/news/post-149.html</link>
       <guid isPermaLink="false">post-149-2024-05-31-sale-1100@gbc-news</guid>
@@ -1266,6 +1349,15 @@
       <category>other</category>
       <category domain="group">togenashi</category>
       <description>AniBirth 自 5/31 起发售透明瓶、抽绳包、托特包、T 恤等；通话画面风亚克力立牌延期发售。</description>
+    </item>
+    <item>
+      <title>[举办] 【超短期企划】第 10 话实况活动举办！</title>
+      <link>https://girls-band-cry.com/news/post-159.html</link>
+      <guid isPermaLink="false">post-159-2024-06-07-hold@gbc-news</guid>
+      <pubDate>Fri, 07 Jun 2024 00:00:00 GMT</pubDate>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>配合第 9 话同步观看 Space，举办第 10 话实况＆感想投稿超短期活动。</description>
     </item>
     <item>
       <title>[举办] 第 10 话播出直前 第 9 话同步观看 Space 配信决定！</title>
@@ -1406,6 +1498,15 @@
       <description>寿屋抽奖《Girls Band Cry》于 2024 年 6 月 21 日–7 月 21 日发售，使用手岛 nari 为手办绘制的全新插图周边。</description>
     </item>
     <item>
+      <title>[举办] 【超短期企划】第 12 话实况活动举办！</title>
+      <link>https://girls-band-cry.com/news/post-181.html</link>
+      <guid isPermaLink="false">post-181-2024-06-21-hold@gbc-news</guid>
+      <pubDate>Fri, 21 Jun 2024 00:00:00 GMT</pubDate>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>配合第 11 话同步观看 Space，举办第 12 话实况＆感想投稿超短期活动。</description>
+    </item>
+    <item>
       <title>[发售] 6/21（五）起 AniBirth 发售 Girls Band Cry 新商品！！</title>
       <link>https://girls-band-cry.com/news/post-176.html</link>
       <guid isPermaLink="false">post-176-2024-06-21-sale-1100@gbc-news</guid>
@@ -1543,6 +1644,15 @@
       <category>other</category>
       <category domain="group">togenashi</category>
       <description>AniBirth 自 6/28 起发售无刺有刺・Diamond Dust 拨片型徽章与手机带（各 9 种）；东映官方商店亦预定 7 月发售。</description>
+    </item>
+    <item>
+      <title>[举办] 【超短期企划】第 13 话实况活动举办！</title>
+      <link>https://girls-band-cry.com/news/post-187.html</link>
+      <guid isPermaLink="false">post-187-2024-06-29-hold@gbc-news</guid>
+      <pubDate>Sat, 29 Jun 2024 00:00:00 GMT</pubDate>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>第 13 话实况＆感想投稿超短期活动举办中。</description>
     </item>
     <item>
       <title>[举办] 「Girls Band Cry × 丸福咖啡店」川崎 Azalea 店联动决定！</title>
@@ -1889,6 +1999,15 @@
       <category>goods</category>
       <category domain="group">togenashi</category>
       <description>无刺有刺与 Diamond Dust 角色橡胶垫（各 3850 日元）由 Ensky 预定 2024 年 12 月下旬发售；Anime Store.JP 预约至 9 月 8 日。</description>
+    </item>
+    <item>
+      <title>[发售] TV 动画《Girls Band Cry》原创原声带发售决定！</title>
+      <link>https://girls-band-cry.com/news/post-152.html</link>
+      <guid isPermaLink="false">post-152-2024-09-11-sale@gbc-news</guid>
+      <pubDate>Wed, 11 Sep 2024 00:00:00 GMT</pubDate>
+      <category>other</category>
+      <category domain="group">togenashi</category>
+      <description>原创原声带于 2024/9/11 发售；封面为手島nari 绘制。</description>
     </item>
     <item>
       <title>[发售] 无刺有刺 2nd Album《棘ナシ》/ TV 动画原声带发售纪念线上 talk 配信举办！</title>

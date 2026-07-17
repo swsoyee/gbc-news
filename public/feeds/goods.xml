@@ -4,7 +4,7 @@
     <title>gbc-news · 周边</title>
     <link>https://gbc-news.example.com/</link>
     <description>ガールズバンドクライ 公式ニュース（周边）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 12:39:54 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 12:40:48 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/goods.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[举办] MV 第 5 弹「爆ぜて咲く」公开纪念活动举办决定！</title>
@@ -151,6 +151,15 @@
       <category>goods</category>
       <category domain="group">togenashi</category>
       <description>1st 个人演唱会周边自 3/29 起于东映动画官方商店事后通贩至 6/30（不含 T 恤・徽章）。</description>
+    </item>
+    <item>
+      <title>[发售] AniBirth 发售 Girls Band Cry 新商品＆赠品决定！</title>
+      <link>https://girls-band-cry.com/news/post-117.html</link>
+      <guid isPermaLink="false">post-117-2024-04-26-sale@gbc-news</guid>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 GMT</pubDate>
+      <category>goods</category>
+      <category domain="group">togenashi</category>
+      <description>AniBirth 自 4/26 起发售立牌、毛巾等 6 类周边，满额赠贴纸；官方商店约 5 月上旬发售。</description>
     </item>
     <item>
       <title>[发售] 仁菜手办登场！自今日 4/26（五）起东映动画官方商店开始受理！</title>

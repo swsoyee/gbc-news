@@ -215,6 +215,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-96.html
 CATEGORIES:togenashi,live,goods
 END:VEVENT
 BEGIN:VEVENT
+UID:post-117-2024-04-26-sale@gbc-news
+DTSTAMP:20240426T000000Z
+DTSTART;VALUE=DATE:20240426
+DTEND;VALUE=DATE:20240427
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] AniBirth 发售 Girls Band Cry 新商品＆赠品决定！
+DESCRIPTION:AniBirth 自 4/26 起发售立牌、毛巾等 6 类周边，满
+ 额赠贴纸；官方商店约 5 月上旬发售。\n\n
+ https://girls-band-cry.com/news/post-117.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-117.html
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
 UID:post-123-2024-04-26_2024-06-30-sale@gbc-news
 DTSTAMP:20240426T000000Z
 DTSTART;VALUE=DATE:20240426

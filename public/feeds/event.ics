@@ -143,6 +143,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-10.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-19-2023-09-04_2023-09-10-hold@gbc-news
+DTSTAMP:20230904T000000Z
+DTSTART;VALUE=DATE:20230904
+DTEND;VALUE=DATE:20230911
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 「爆ぜて咲く」MV 公开纪念活动第 2 弹开始
+ ！
+DESCRIPTION:官方 X 关注＆转发活动截止 9/10，抽选 5 名获签
+ 名海报。\n\nhttps://girls-band-cry.com/news/post-19.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-19.html
+CATEGORIES:togenashi,music,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-15-2023-09-04-hold-1200@gbc-news
 DTSTAMP:20230904T030000Z
 DTSTART:20230904T030000Z
@@ -213,6 +227,19 @@ DESCRIPTION:9/14 19:30 于代官山 SPACE ODD 举办公开练习 LIVE；应
  https://girls-band-cry.com/news/post-20.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-20.html
 CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-26-2023-09-18_2023-09-24-hold@gbc-news
+DTSTAMP:20230918T000000Z
+DTSTART;VALUE=DATE:20230918
+DTEND;VALUE=DATE:20230925
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 「爆ぜて咲く」公开纪念活动第 4 弹开始！
+DESCRIPTION:于 Spotify 收听并以标签分享，截止 9/24 抽选 5 名
+ 获限定贴纸。\n\nhttps://girls-band-cry.com/news/post-26.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-26.html
+CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-15-2023-09-18-hold-1200@gbc-news
@@ -959,6 +986,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-99.html
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-112-2024-04-13-hold-0000@gbc-news
+DTSTAMP:20240412T150000Z
+DTSTART:20240412T150000Z
+DTEND:20240412T235900Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 【超短期游击企划】第 2 话实况活动举办！
+DESCRIPTION:第 2 话实况＆感想投稿活动于 4/13 0:00–8:59 举办
+ ；抽选 1 名获签名海报。\n\n
+ https://girls-band-cry.com/news/post-112.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-112.html
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-118-2024-04-20-hold-0000@gbc-news
 DTSTAMP:20240419T150000Z
 DTSTART:20240419T150000Z
@@ -1046,6 +1087,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-124.html
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-125-2024-05-03_2024-06-30-hold@gbc-news
+DTSTAMP:20240503T000000Z
+DTSTART;VALUE=DATE:20240503
+DTEND;VALUE=DATE:20240701
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] Big Echo×Girls Band Cry 联动活动 5 月 3 日开始！
+DESCRIPTION:5/3–6/30 于 Big Echo 5 家店举办店头展览与联动饮
+ 料，点单赠拨片徽章。\n\n
+ https://girls-band-cry.com/news/post-125.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-125.html
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-127-2024-05-04-hold-0000@gbc-news
 DTSTAMP:20240503T150000Z
 DTSTART:20240503T150000Z
@@ -1118,6 +1173,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-107.html
 CATEGORIES:togenashi,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-147-2024-05-24-hold@gbc-news
+DTSTAMP:20240524T000000Z
+DTSTART;VALUE=DATE:20240524
+DTEND;VALUE=DATE:20240525
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 【超短期企划】TV 动画《Girls Band Cry》实况
+ 活动举办！
+DESCRIPTION:配合同步观看 Space，举办实况＆感想投稿超短期
+ 活动。\n\nhttps://girls-band-cry.com/news/post-147.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-147.html
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-90-2024-05-25-hold-1400@gbc-news
 DTSTAMP:20240525T050000Z
 DTSTART:20240525T050000Z
@@ -1163,6 +1232,34 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-128.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-150-2024-05-31-hold@gbc-news
+DTSTAMP:20240531T000000Z
+DTSTART;VALUE=DATE:20240531
+DTEND;VALUE=DATE:20240601
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 【超短期游击企划】第 9 话实况活动举办！
+DESCRIPTION:配合第 8 话同步观看 Space，举办第 9 话实况＆感
+ 想投稿超短期活动。\n\n
+ https://girls-band-cry.com/news/post-150.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-150.html
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-159-2024-06-07-hold@gbc-news
+DTSTAMP:20240607T000000Z
+DTSTART;VALUE=DATE:20240607
+DTEND;VALUE=DATE:20240608
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 【超短期企划】第 10 话实况活动举办！
+DESCRIPTION:配合第 9 话同步观看 Space，举办第 10 话实况＆
+ 感想投稿超短期活动。\n\n
+ https://girls-band-cry.com/news/post-159.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-159.html
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-167-2024-06-15-hold-0030@gbc-news
 DTSTAMP:20240614T153000Z
 DTSTART:20240614T153000Z
@@ -1191,6 +1288,20 @@ DESCRIPTION:纪念 6/19 发售的 8th Single，5 月 28 日 19:00–20:00
  nhttps://girls-band-cry.com/news/post-128.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-128.html
 CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-181-2024-06-21-hold@gbc-news
+DTSTAMP:20240621T000000Z
+DTSTART;VALUE=DATE:20240621
+DTEND;VALUE=DATE:20240622
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 【超短期企划】第 12 话实况活动举办！
+DESCRIPTION:配合第 11 话同步观看 Space，举办第 12 话实况＆
+ 感想投稿超短期活动。\n\n
+ https://girls-band-cry.com/news/post-181.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-181.html
+CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-151-2024-06-21-hold-1900@gbc-news
@@ -1279,6 +1390,19 @@ DESCRIPTION:纪念 6/26 发售的 Vol.1 豪华限定版，6 月 21 日 19:0
  名获签名海报。\n\nhttps://girls-band-cry.com/news/post-151.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-151.html
 CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-187-2024-06-29-hold@gbc-news
+DTSTAMP:20240629T000000Z
+DTSTART;VALUE=DATE:20240629
+DTEND;VALUE=DATE:20240630
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 【超短期企划】第 13 话实况活动举办！
+DESCRIPTION:第 13 话实况＆感想投稿超短期活动举办中。\n\n
+ https://girls-band-cry.com/news/post-187.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-187.html
+CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-186-2024-07-01_2024-07-31-hold@gbc-news

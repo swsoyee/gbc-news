@@ -8,6 +8,20 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-WR-CALNAME:gbc-news · トゲナシトゲアリ
 NAME:gbc-news · トゲナシトゲアリ
 BEGIN:VEVENT
+UID:post-6-2023-07-24_2024-06-30-hold@gbc-news
+DTSTAMP:20230724T000000Z
+DTSTART;VALUE=DATE:20230724
+DTEND;VALUE=DATE:20240701
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺「名もなき何もかも」于卡拉 OK DAM
+  开始配信 MV！！
+DESCRIPTION:出道曲 MV 自即日起于 DAM 配信，预定至 2024 年 6 
+ 月末。\n\nhttps://girls-band-cry.com/news/post-6.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-6.html
+CATEGORIES:togenashi,live,music
+END:VEVENT
+BEGIN:VEVENT
 UID:post-2-2023-07-26-sale@gbc-news
 DTSTAMP:20230726T000000Z
 DTSTART;VALUE=DATE:20230726
@@ -68,6 +82,20 @@ DESCRIPTION:纪念出道单曲，7 月 29 日 17:00–18:00 于 Limista 举
  https://girls-band-cry.com/news/post-3.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-3.html
 CATEGORIES:togenashi,live,music,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-13-2023-08-11_2023-08-31-hold@gbc-news
+DTSTAMP:20230811T000000Z
+DTSTART;VALUE=DATE:20230811
+DTEND;VALUE=DATE:20230901
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 卡拉 OK「Big Echo」店头正播放「名もなき何
+ もかも」MV！
+DESCRIPTION:Big Echo 店头显示器限时至 8 月末播放出道曲 MV。
+ \n\nhttps://girls-band-cry.com/news/post-13.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-13.html
+CATEGORIES:togenashi,music
 END:VEVENT
 BEGIN:VEVENT
 UID:post-14-2023-08-22_2024-06-30-hold@gbc-news
@@ -215,6 +243,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-10.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-19-2023-09-04_2023-09-10-hold@gbc-news
+DTSTAMP:20230904T000000Z
+DTSTART;VALUE=DATE:20230904
+DTEND;VALUE=DATE:20230911
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 「爆ぜて咲く」MV 公开纪念活动第 2 弹开始
+ ！
+DESCRIPTION:官方 X 关注＆转发活动截止 9/10，抽选 5 名获签
+ 名海报。\n\nhttps://girls-band-cry.com/news/post-19.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-19.html
+CATEGORIES:togenashi,music,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-15-2023-09-04-hold-1200@gbc-news
 DTSTAMP:20230904T030000Z
 DTSTART:20230904T030000Z
@@ -285,6 +327,19 @@ DESCRIPTION:9/14 19:30 于代官山 SPACE ODD 举办公开练习 LIVE；应
  https://girls-band-cry.com/news/post-20.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-20.html
 CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-26-2023-09-18_2023-09-24-hold@gbc-news
+DTSTAMP:20230918T000000Z
+DTSTART;VALUE=DATE:20230918
+DTEND;VALUE=DATE:20230925
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 「爆ぜて咲く」公开纪念活动第 4 弹开始！
+DESCRIPTION:于 Spotify 收听并以标签分享，截止 9/24 抽选 5 名
+ 获限定贴纸。\n\nhttps://girls-band-cry.com/news/post-26.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-26.html
+CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-15-2023-09-18-hold-1200@gbc-news
@@ -1350,6 +1405,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-101.html
 CATEGORIES:togenashi,live,media
 END:VEVENT
 BEGIN:VEVENT
+UID:post-112-2024-04-13-hold-0000@gbc-news
+DTSTAMP:20240412T150000Z
+DTSTART:20240412T150000Z
+DTEND:20240412T235900Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 【超短期游击企划】第 2 话实况活动举办！
+DESCRIPTION:第 2 话实况＆感想投稿活动于 4/13 0:00–8:59 举办
+ ；抽选 1 名获签名海报。\n\n
+ https://girls-band-cry.com/news/post-112.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-112.html
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-118-2024-04-20-hold-0000@gbc-news
 DTSTAMP:20240419T150000Z
 DTSTART:20240419T150000Z
@@ -1466,6 +1535,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-90.html
 CATEGORIES:togenashi,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-117-2024-04-26-sale@gbc-news
+DTSTAMP:20240426T000000Z
+DTSTART;VALUE=DATE:20240426
+DTEND;VALUE=DATE:20240427
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] AniBirth 发售 Girls Band Cry 新商品＆赠品决定！
+DESCRIPTION:AniBirth 自 4/26 起发售立牌、毛巾等 6 类周边，满
+ 额赠贴纸；官方商店约 5 月上旬发售。\n\n
+ https://girls-band-cry.com/news/post-117.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-117.html
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
 UID:post-120-2024-04-26-hold@gbc-news
 DTSTAMP:20240426T000000Z
 DTSTART;VALUE=DATE:20240426
@@ -1523,6 +1606,20 @@ DESCRIPTION:井芹仁菜手办自 4/26 起于东映动画官方商店受理
  https://girls-band-cry.com/news/post-123.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-123.html
 CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
+UID:post-125-2024-05-03_2024-06-30-hold@gbc-news
+DTSTAMP:20240503T000000Z
+DTSTART;VALUE=DATE:20240503
+DTEND;VALUE=DATE:20240701
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] Big Echo×Girls Band Cry 联动活动 5 月 3 日开始！
+DESCRIPTION:5/3–6/30 于 Big Echo 5 家店举办店头展览与联动饮
+ 料，点单赠拨片徽章。\n\n
+ https://girls-band-cry.com/news/post-125.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-125.html
+CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-127-2024-05-04-hold-0000@gbc-news
@@ -1683,6 +1780,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-143.html
 CATEGORIES:togenashi,music
 END:VEVENT
 BEGIN:VEVENT
+UID:post-147-2024-05-24-hold@gbc-news
+DTSTAMP:20240524T000000Z
+DTSTART;VALUE=DATE:20240524
+DTEND;VALUE=DATE:20240525
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 【超短期企划】TV 动画《Girls Band Cry》实况
+ 活动举办！
+DESCRIPTION:配合同步观看 Space，举办实况＆感想投稿超短期
+ 活动。\n\nhttps://girls-band-cry.com/news/post-147.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-147.html
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-144-2024-05-24-hold-2345@gbc-news
 DTSTAMP:20240524T144500Z
 DTSTART:20240524T144500Z
@@ -1788,6 +1899,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-145.html
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
+UID:post-150-2024-05-31-hold@gbc-news
+DTSTAMP:20240531T000000Z
+DTSTART;VALUE=DATE:20240531
+DTEND;VALUE=DATE:20240601
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 【超短期游击企划】第 9 话实况活动举办！
+DESCRIPTION:配合第 8 话同步观看 Space，举办第 9 话实况＆感
+ 想投稿超短期活动。\n\n
+ https://girls-band-cry.com/news/post-150.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-150.html
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-149-2024-05-31-sale-1100@gbc-news
 DTSTAMP:20240531T020000Z
 DTSTART:20240531T020000Z
@@ -1801,6 +1926,20 @@ DESCRIPTION:AniBirth 自 5/31 起发售透明瓶、抽绳包、托特包、
  https://girls-band-cry.com/news/post-149.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-149.html
 CATEGORIES:togenashi,other
+END:VEVENT
+BEGIN:VEVENT
+UID:post-159-2024-06-07-hold@gbc-news
+DTSTAMP:20240607T000000Z
+DTSTART;VALUE=DATE:20240607
+DTEND;VALUE=DATE:20240608
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 【超短期企划】第 10 话实况活动举办！
+DESCRIPTION:配合第 9 话同步观看 Space，举办第 10 话实况＆
+ 感想投稿超短期活动。\n\n
+ https://girls-band-cry.com/news/post-159.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-159.html
+CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-158-2024-06-07-hold-2345@gbc-news
@@ -2027,6 +2166,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-179.html
 CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT
+UID:post-181-2024-06-21-hold@gbc-news
+DTSTAMP:20240621T000000Z
+DTSTART;VALUE=DATE:20240621
+DTEND;VALUE=DATE:20240622
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 【超短期企划】第 12 话实况活动举办！
+DESCRIPTION:配合第 11 话同步观看 Space，举办第 12 话实况＆
+ 感想投稿超短期活动。\n\n
+ https://girls-band-cry.com/news/post-181.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-181.html
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-176-2024-06-21-sale-1100@gbc-news
 DTSTAMP:20240621T020000Z
 DTSTART:20240621T020000Z
@@ -2216,6 +2369,19 @@ DESCRIPTION:AniBirth 自 6/28 起发售无刺有刺・Diamond Dust 拨片
  发售。\n\nhttps://girls-band-cry.com/news/post-184.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-184.html
 CATEGORIES:togenashi,other
+END:VEVENT
+BEGIN:VEVENT
+UID:post-187-2024-06-29-hold@gbc-news
+DTSTAMP:20240629T000000Z
+DTSTART;VALUE=DATE:20240629
+DTEND;VALUE=DATE:20240630
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 【超短期企划】第 13 话实况活动举办！
+DESCRIPTION:第 13 话实况＆感想投稿超短期活动举办中。\n\n
+ https://girls-band-cry.com/news/post-187.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-187.html
+CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-186-2024-07-01_2024-07-31-hold@gbc-news
@@ -2787,6 +2953,20 @@ URL;VALUE=URI:
  https://collabo-cafe.com/events/collabo/girls-band-cry-rubber-mat-ensky-an
  ime-store-goods2024/
 CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
+UID:post-152-2024-09-11-sale@gbc-news
+DTSTAMP:20240911T000000Z
+DTSTART;VALUE=DATE:20240911
+DTEND;VALUE=DATE:20240912
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] TV 动画《Girls Band Cry》原创原声带发售决定
+ ！
+DESCRIPTION:原创原声带于 2024/9/11 发售；封面为手島nari 绘
+ 制。\n\nhttps://girls-band-cry.com/news/post-152.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-152.html
+CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT
 UID:post-199-2024-09-11-sale@gbc-news

@@ -8,6 +8,20 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-WR-CALNAME:gbc-news · Live
 NAME:gbc-news · Live
 BEGIN:VEVENT
+UID:post-6-2023-07-24_2024-06-30-hold@gbc-news
+DTSTAMP:20230724T000000Z
+DTSTART;VALUE=DATE:20230724
+DTEND;VALUE=DATE:20240701
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺「名もなき何もかも」于卡拉 OK DAM
+  开始配信 MV！！
+DESCRIPTION:出道曲 MV 自即日起于 DAM 配信，预定至 2024 年 6 
+ 月末。\n\nhttps://girls-band-cry.com/news/post-6.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-6.html
+CATEGORIES:togenashi,live,music
+END:VEVENT
+BEGIN:VEVENT
 UID:post-3-2023-07-26-sale@gbc-news
 DTSTAMP:20230726T000000Z
 DTSTART;VALUE=DATE:20230726

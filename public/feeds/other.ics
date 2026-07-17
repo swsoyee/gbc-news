@@ -172,6 +172,20 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-222.html
 CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT
+UID:post-152-2024-09-11-sale@gbc-news
+DTSTAMP:20240911T000000Z
+DTSTART;VALUE=DATE:20240911
+DTEND;VALUE=DATE:20240912
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] TV 动画《Girls Band Cry》原创原声带发售决定
+ ！
+DESCRIPTION:原创原声带于 2024/9/11 发售；封面为手島nari 绘
+ 制。\n\nhttps://girls-band-cry.com/news/post-152.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-152.html
+CATEGORIES:togenashi,other
+END:VEVENT
+BEGIN:VEVENT
 UID:post-227-2024-09-12-sale-1000@gbc-news
 DTSTAMP:20240912T010000Z
 DTSTART:20240912T010000Z

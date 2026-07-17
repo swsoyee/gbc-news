@@ -6290,6 +6290,539 @@
       "titleZh": "2nd ONE-MAN LIVE 周边信息公开！",
       "summaryZh": "公开 2nd 个人演唱会周边信息；详情见相关页面。",
       "eventDates": []
+    },
+    "post-219": {
+      "id": "post-219",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "4fbf67e220b0a8382c6c239922e3d56ce82362793403929267153a32b7217cf1",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "4th ONE-MAN LIVE 主视觉＆LIVE 标题解禁！",
+      "summaryZh": "公开 4th 个人演唱会主视觉与标题；详情见相关页面。",
+      "eventDates": []
+    },
+    "post-216": {
+      "id": "post-216",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "41551932e5636a5650274165ef9917f2965e4913b99aa070ef422964327502be",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "2nd ONE-MAN LIVE 一般发售决定！",
+      "summaryZh": "解禁 2nd 个人演唱会“凛音の理”门票一般发售信息；详情见相关页面。",
+      "eventDates": []
+    },
+    "post-215": {
+      "id": "post-215",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "ef8e03a710014e8fe61629ba03966d4c2ac3ccf35542e6ceade5cb577368fb0d",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》原声带收录曲决定！",
+      "summaryZh": "公开原创原声带 DISC1/DISC2 收录曲目；商品详情见相关页面。",
+      "eventDates": []
+    },
+    "post-208": {
+      "id": "post-208",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "1590bfc15a45ca6ee7e4316312bddae28beddd8cff68774748feae36d50c6989",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "动画《Girls Band Cry》场面写真周边登场！",
+      "summaryZh": "使用作中场面写真的周边约 9 月中旬发售。",
+      "eventDates": [],
+      "reviewNotes": "中旬无具体日不补录"
+    },
+    "post-207": {
+      "id": "post-207",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "45aca6c97c5380634e66e6bab42c264a933026e3f83d17fcc68c1103bcd6a669",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "3rd ONE-MAN LIVE 最速先行抽选申请开始！",
+      "summaryZh": "3rd 个人演唱会“咆哮の奏”最速先行抽选申请已开始；详情见相关页面。",
+      "eventDates": []
+    },
+    "post-205": {
+      "id": "post-205",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "aefcee27818f711001cf6564a09aebc24a59948fc027050099b4d90adf5473b0",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "2nd ONE-MAN LIVE 决定直播配信！7-Eleven 先行受理期亦已公布！",
+      "summaryZh": "因申请踊跃决定直播配信，并公布 7-Eleven 先行信息；详情见相关页面。",
+      "eventDates": []
+    },
+    "post-204": {
+      "id": "post-204",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "2590cbe2426f6a6b0887476ba690759b043fdd7cf0027bbd4967d3deac0091ff",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "3rd ONE-MAN LIVE 主视觉＆LIVE 标题解禁！",
+      "summaryZh": "公开 3rd 个人演唱会主视觉与标题；详情见相关页面。",
+      "eventDates": []
+    },
+    "post-202": {
+      "id": "post-202",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "9dac753068c4f98e9dfd1ede8e1825e692b55be06eaff9ba9de03ae0ac15a4b5",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "Animelo Summer Live 2024 出演决定！",
+      "summaryZh": "无刺有刺决定出演 Animelo Summer Live 2024 -Stargazer-；详情见相关页面。",
+      "eventDates": []
+    },
+    "post-194": {
+      "id": "post-194",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "ba288e98b823838a91891a523f2b15c6eec87c4d9e171880fa02a148a4f8aa9f",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "「无刺有刺」×「MyGO!!!!!」对邦 LIVE 举办决定！",
+      "summaryZh": "宣布与 MyGO!!!!! 举办对邦 LIVE；详情见 Live 页面。",
+      "eventDates": []
+    },
+    "post-185": {
+      "id": "post-185",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "91d97d8e1492f7dcd1cacaa3994ae9801604104f4e8dfc9e209e26f821d4a809",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "4th ONE-MAN LIVE 详情发表！",
+      "summaryZh": "公开 4th 个人演唱会详情；详情见相关页面。",
+      "eventDates": []
+    },
+    "post-187": {
+      "id": "post-187",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "9e195c7dd9a73db7ea2b3094a590ecc2ec7edecd3f8b72f4fa4b242e6580f625",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "【超短期企划】第 13 话实况活动举办！",
+      "summaryZh": "第 13 话实况＆感想投稿超短期活动举办中。",
+      "eventDates": [
+        {
+          "date": "2024-06-29",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "正文无具体时段，取发布日"
+    },
+    "post-189": {
+      "id": "post-189",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "6b9c9b9e2098c2beb82a875a9ad154b0b6353d7127cff682c984966dad3ba3c0",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "于 Spotify 公开第 13 话 LIVE 曲目列表！",
+      "summaryZh": "公开第 13 话川崎 CLUB CITTA' LIVE（含本篇未收录曲）Spotify 曲目列表。",
+      "eventDates": []
+    },
+    "post-190": {
+      "id": "post-190",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "7cea80f46dfca1f167188f3d7751055caa6c2c4f418a47fada33768402224eff",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》第 13 话 LIVE 场景于 YouTube 公开！",
+      "summaryZh": "公开第 13 话插入歌无刺有刺「運命の華」LIVE 场景。",
+      "eventDates": []
+    },
+    "post-180": {
+      "id": "post-180",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "534b7d4538add2f66a53d841c9384eba91acc71bd5f78acfd88b6733c61666d1",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "2nd ONE-MAN LIVE 主视觉＆LIVE 标题解禁！",
+      "summaryZh": "公开 2nd 个人演唱会主视觉与标题；详情见相关页面。",
+      "eventDates": []
+    },
+    "post-181": {
+      "id": "post-181",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "99b7abd9e98f4a9861a36770017b3c21ea36dc24fdbb5f90f09373c8ceee9669",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "【超短期企划】第 12 话实况活动举办！",
+      "summaryZh": "配合第 11 话同步观看 Space，举办第 12 话实况＆感想投稿超短期活动。",
+      "eventDates": [
+        {
+          "date": "2024-06-21",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "正文无具体时段，取发布日"
+    },
+    "post-168": {
+      "id": "post-168",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "2405013b5b3da2a257438aa14a441d13061e8b5f9d0e1359fa0b6548bab9c976",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "「ATF25th presents BAYCAMP 2024」出演决定！",
+      "summaryZh": "无刺有刺决定真人出演第 11 话舞台 BAYCAMP 2024；详情稍后解禁。",
+      "eventDates": []
+    },
+    "post-172": {
+      "id": "post-172",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "2b7c026fd288573aff6dce326b5149a7465d5512a6834ea6e97ff3612d613c78",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》第 11 话 LIVE 场景于 YouTube 公开！",
+      "summaryZh": "公开第 11 话插入歌无刺有刺「空白とカタルシス」与 Diamond Dust「Cycle Of Sorrow」。",
+      "eventDates": []
+    },
+    "post-162": {
+      "id": "post-162",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "19273458e6beabd07ccfde9c0adbcd7037438a81e45cd2de730686898c5669e4",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "3rd ONE-MAN LIVE 详情发表！",
+      "summaryZh": "公开 3rd 个人演唱会详情；详见 LIVE 页面。",
+      "eventDates": []
+    },
+    "post-159": {
+      "id": "post-159",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "0dde9cc3e53eaa5c2fed3fa5a1be47eaea3ec505988d72a5f8111cd20e745ecf",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "【超短期企划】第 10 话实况活动举办！",
+      "summaryZh": "配合第 9 话同步观看 Space，举办第 10 话实况＆感想投稿超短期活动。",
+      "eventDates": [
+        {
+          "date": "2024-06-07",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "正文无具体时段，取发布日"
+    },
+    "post-152": {
+      "id": "post-152",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "825f6b374f6f2c2332433ac979b34c9b19f2ca7544ddb1d253cd832d63a71dd5",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》原创原声带发售决定！",
+      "summaryZh": "原创原声带于 2024/9/11 发售；封面为手島nari 绘制。",
+      "eventDates": [
+        {
+          "date": "2024-09-11",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-150": {
+      "id": "post-150",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "21e574fd0891815ad2b3a24cac8ba739f6bfa41f451836889d0c1792fffda85b",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "【超短期游击企划】第 9 话实况活动举办！",
+      "summaryZh": "配合第 8 话同步观看 Space，举办第 9 话实况＆感想投稿超短期活动。",
+      "eventDates": [
+        {
+          "date": "2024-05-31",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "正文无具体时段，取发布日"
+    },
+    "post-148": {
+      "id": "post-148",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "eddd6cf9880d68c4661e216698f504f63a6918ede937a0430d344a023a3a6b0b",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "Diamond Dust「ETERNAL FLAME 〜空の箱〜」音乐配信开始",
+      "summaryZh": "第 8 话插入歌 Diamond Dust「ETERNAL FLAME 〜空の箱〜」全曲开始配信。",
+      "eventDates": []
+    },
+    "post-147": {
+      "id": "post-147",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "91f8c996b6e177cd461f39a5bc0f5db1edc150d7164ed3fa54a3653eb4f20c14",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "【超短期企划】TV 动画《Girls Band Cry》实况活动举办！",
+      "summaryZh": "配合同步观看 Space，举办实况＆感想投稿超短期活动。",
+      "eventDates": [
+        {
+          "date": "2024-05-24",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "正文无具体时段，取发布日"
+    },
+    "post-139": {
+      "id": "post-139",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "b8214ef75649fc80cae9fdfc67cd7cfb7375229e912dbca58febb6b68999ca43",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "LIVE @ kamisuwa clubrockhearts 曲目列表于 Spotify 公开！",
+      "summaryZh": "公开第 7 话 LIVE 场景（含本篇未收录曲）Spotify 曲目列表。",
+      "eventDates": []
+    },
+    "post-141": {
+      "id": "post-141",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f3747db6e209c5084528a9c9c319a010ea6be2ccf1e28435024f2bbe42812f17",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "2nd ONE-MAN LIVE 详情发表！此外 3rd、4th 公演亦决定举办！！",
+      "summaryZh": "公开 2nd 详情；并宣布 2024 年 11、12 月举办 3rd＆4th 个人演唱会。",
+      "eventDates": [],
+      "reviewNotes": "11/12 月无具体日不补录"
+    },
+    "post-130": {
+      "id": "post-130",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "152e849d8b7f72f20dff48810d314b72ff91134dbd047f101b8cf4fc9f6849e6",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "于 Spotify 公开第 5 话 LIVE 曲目列表！",
+      "summaryZh": "公开第 5 话川崎塞尔维亚之夜三人 LIVE（含本篇未收录曲）Spotify 曲目列表。",
+      "eventDates": []
+    },
+    "post-125": {
+      "id": "post-125",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "0d9ecd5a1806a870b2d0d3f4fa68270172fe39504f5a1ce70e222592fee8e6b7",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "Big Echo×Girls Band Cry 联动活动 5 月 3 日开始！",
+      "summaryZh": "5/3–6/30 于 Big Echo 5 家店举办店头展览与联动饮料，点单赠拨片徽章。",
+      "eventDates": [
+        {
+          "date": "2024-05-03",
+          "endDate": "2024-06-30",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-119": {
+      "id": "post-119",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f898a3d7e3a3b2ac230f8b96c0b9f477bd3001610a2b77e8ea4d32605fb815dd",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "第 3 话插入歌「声なき魚」于官方 YouTube 频道公开中！",
+      "summaryZh": "公开第 3 话插入歌「声なき魚」LIVE 场景。",
+      "eventDates": []
+    },
+    "post-117": {
+      "id": "post-117",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "ad911ea035db232ee9cb8a33d4fa668ce745d94ba66bbfcdd7b88aec74cf03c2",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "AniBirth 发售 Girls Band Cry 新商品＆赠品决定！",
+      "summaryZh": "AniBirth 自 4/26 起发售立牌、毛巾等 6 类周边，满额赠贴纸；官方商店约 5 月上旬发售。",
+      "eventDates": [
+        {
+          "date": "2024-04-26",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "官方商店上旬无具体日不补录"
+    },
+    "post-112": {
+      "id": "post-112",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "2aafa8026515f151793229d7435b23ab7baa9086bc226d8dc7ea4105c8762d16",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "【超短期游击企划】第 2 话实况活动举办！",
+      "summaryZh": "第 2 话实况＆感想投稿活动于 4/13 0:00–8:59 举办；抽选 1 名获签名海报。",
+      "eventDates": [
+        {
+          "date": "2024-04-13",
+          "kind": "hold",
+          "startTime": "00:00",
+          "endTime": "08:59"
+        }
+      ],
+      "reviewNotes": "原文本日24:00 规范为次日 00:00"
+    },
+    "post-111": {
+      "id": "post-111",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "3521c48c46db7b4322d2fbca5e41bfaa6866ee5133df1a6fef8233bd2a8df627",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "于 Spotify 公开 TV 动画《Girls Band Cry》节目官方播放列表！",
+      "summaryZh": "公开含 OP/插入歌与录制角色语音的官方 Spotify 播放列表。",
+      "eventDates": []
+    },
+    "post-106": {
+      "id": "post-106",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "c6ac80a63e5fc3fd8c1f98b1b685f9e78087af8c9f5387ddab250c99670b55bf",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "片头主题曲与第 1 话插入歌于 YouTube 公开！音乐配信亦已开始！",
+      "summaryZh": "公开 OP「雑踏、僕らの街」与插入歌「空の箱(井芹仁菜、河原木桃香)」并开始配信。",
+      "eventDates": []
+    },
+    "post-100": {
+      "id": "post-100",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "59117655a02064b13913918eed1f907b0f0888df99a022123528d603df9edd1f",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "卡拉 OK DAM×Girls Band Cry 联动活动开始！",
+      "summaryZh": "举办歌唱抽选、成员评论播放列表、推しフォト等 DAM 联动活动。",
+      "eventDates": []
+    },
+    "post-94": {
+      "id": "post-94",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "b4d7caa478a71e1b76173d4656b2b3a6f0f75d363f57104f427f07c1c662b145",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "1st ONE-MAN LIVE 举办纪念联动活动！",
+      "summaryZh": "纪念 1st 个人演唱会，柯尼卡美能达以印刷应援并抽选赠礼。",
+      "eventDates": []
+    },
+    "post-82": {
+      "id": "post-82",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "137adbc7373ecb74fa54500153cc0f36c4b382fa5f78d34786024e3525dc9aeb",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "「サヨナラサヨナラサヨナラ」MV 于卡拉 OK DAM 开始配信！",
+      "summaryZh": "「サヨナラサヨナラサヨナラ」MV 已于 DAM 开始配信。",
+      "eventDates": []
+    },
+    "post-70": {
+      "id": "post-70",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "c143128cb47e323fb4cb88e6aa25e13cc38f7ee474edda0601eab69897616fd3",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "「運命に賭けたい論理」MV 于卡拉 OK DAM 开始配信！",
+      "summaryZh": "「運命に賭けたい論理」MV 已于 DAM 开始配信（正文另提及「傷つき…」配信）。",
+      "eventDates": []
+    },
+    "post-61": {
+      "id": "post-61",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "3b3328b4dd1f8a60f124e94796b63321cde4c3f00163e15aa68b23f7d33bdd9a",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "动画化纪念！「Girls Band Cry × 卡拉 OK DAM」联动活动举办！！",
+      "summaryZh": "于 DAM 演唱无刺有刺曲目可抽选充电宝或非卖主视觉海报。",
+      "eventDates": []
+    },
+    "post-57": {
+      "id": "post-57",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "efc76cbaac96e6d8befea6a86d3b4b3e15760128e17b26172db705e0a55ede17",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "「傷つき傷つけ痛くて辛い」MV 于卡拉 OK DAM 开始配信！",
+      "summaryZh": "「傷つき傷つけ痛くて辛い」MV 已于 DAM 开始配信。",
+      "eventDates": []
+    },
+    "post-51": {
+      "id": "post-51",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "eb662ecfe6f52780c253227aaaa730236fced6774623642a09d88b55f3eab800",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "Girls Band Cry 特设周边商店 OPEN！",
+      "summaryZh": "东映动画官方商店内 Girls Band Cry 特设周边店已开业。",
+      "eventDates": []
+    },
+    "post-47": {
+      "id": "post-47",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "c459ae62b5a7deb80c3c87063090ca662873a2e071da0b8f7193422e4899b236",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "「極私的極彩色アンサー」MV 于卡拉 OK DAM 开始配信！",
+      "summaryZh": "「極私的極彩色アンサー」MV 已于 DAM 开始配信。",
+      "eventDates": []
+    },
+    "post-28": {
+      "id": "post-28",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "2bafc144eee43054aea7378310677d9e967a67d319d79b07a2cd13de9cadd94f",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "「爆ぜて咲く」于 DAM 配信中！",
+      "summaryZh": "「爆ぜて咲く」MV 于 DAM 配信中，Big Echo 店头亦有播放。",
+      "eventDates": []
+    },
+    "post-26": {
+      "id": "post-26",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "10e20914e04758434b9579e7d8993be3b78c7e9fa2768dd2cd3f9e372fb84951",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "「爆ぜて咲く」公开纪念活动第 4 弹开始！",
+      "summaryZh": "于 Spotify 收听并以标签分享，截止 9/24 抽选 5 名获限定贴纸。",
+      "eventDates": [
+        {
+          "date": "2023-09-18",
+          "endDate": "2023-09-24",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "活动跨日去截止时刻"
+    },
+    "post-19": {
+      "id": "post-19",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "ff845b337958ecfe6d71424788fc93269eb3727c99f7725731df38026edf2c9f",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "「爆ぜて咲く」MV 公开纪念活动第 2 弹开始！",
+      "summaryZh": "官方 X 关注＆转发活动截止 9/10，抽选 5 名获签名海报。",
+      "eventDates": [
+        {
+          "date": "2023-09-04",
+          "endDate": "2023-09-10",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "活动跨日去截止时刻"
+    },
+    "post-13": {
+      "id": "post-13",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "14167f90a8b22f042116d08fcde514339851e60491333ff2059df26630b2b571",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "卡拉 OK「Big Echo」店头正播放「名もなき何もかも」MV！",
+      "summaryZh": "Big Echo 店头显示器限时至 8 月末播放出道曲 MV。",
+      "eventDates": [
+        {
+          "date": "2023-08-11",
+          "endDate": "2023-08-31",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-6": {
+      "id": "post-6",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "5653fc71c82cd9dc3b1067a06586f178f34fec242cd85100434680405f81c7f8",
+      "reviewedAt": "2026-07-17T20:00:00.000Z",
+      "titleZh": "无刺有刺「名もなき何もかも」于卡拉 OK DAM 开始配信 MV！！",
+      "summaryZh": "出道曲 MV 自即日起于 DAM 配信，预定至 2024 年 6 月末。",
+      "eventDates": [
+        {
+          "date": "2023-07-24",
+          "endDate": "2024-06-30",
+          "kind": "hold"
+        }
+      ]
     }
   }
 }

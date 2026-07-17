@@ -4,8 +4,18 @@
     <title>gbc-news · 曲目</title>
     <link>https://gbc-news.example.com/</link>
     <description>ガールズバンドクライ 公式ニュース（曲目）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 12:39:54 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 12:40:48 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/music.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[举办] 无刺有刺「名もなき何もかも」于卡拉 OK DAM 开始配信 MV！！</title>
+      <link>https://girls-band-cry.com/news/post-6.html</link>
+      <guid isPermaLink="false">post-6-2023-07-24_2024-06-30-hold@gbc-news</guid>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>music</category>
+      <category domain="group">togenashi</category>
+      <description>出道曲 MV 自即日起于 DAM 配信，预定至 2024 年 6 月末。</description>
+    </item>
     <item>
       <title>[发售] 名もなき何もかも／无刺有刺 2023 年 7 月 26 日（三）CD 发售！</title>
       <link>https://girls-band-cry.com/news/post-2.html</link>
@@ -53,6 +63,15 @@
       <category>media</category>
       <category domain="group">togenashi</category>
       <description>纪念出道单曲，7 月 29 日 17:00–18:00 于 Limista 举办线上 talk（仅声音出演）；购入获夹克签名。</description>
+    </item>
+    <item>
+      <title>[举办] 卡拉 OK「Big Echo」店头正播放「名もなき何もかも」MV！</title>
+      <link>https://girls-band-cry.com/news/post-13.html</link>
+      <guid isPermaLink="false">post-13-2023-08-11_2023-08-31-hold@gbc-news</guid>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 GMT</pubDate>
+      <category>music</category>
+      <category domain="group">togenashi</category>
+      <description>Big Echo 店头显示器限时至 8 月末播放出道曲 MV。</description>
     </item>
     <item>
       <title>[举办] 无刺有刺「偽りの理」「気鬱、白濁す」「理想的パラドクスとは」于卡拉 OK DAM 开始配信 MV！！</title>
@@ -155,6 +174,16 @@
       <category>cinema</category>
       <category domain="group">togenashi</category>
       <description>纪念 2nd Single，9 月 2 日 17:00–18:00 于 Limista 举办线上 talk（露脸出演）；购入获夹克签名。</description>
+    </item>
+    <item>
+      <title>[举办] 「爆ぜて咲く」MV 公开纪念活动第 2 弹开始！</title>
+      <link>https://girls-band-cry.com/news/post-19.html</link>
+      <guid isPermaLink="false">post-19-2023-09-04_2023-09-10-hold@gbc-news</guid>
+      <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
+      <category>music</category>
+      <category>event</category>
+      <category domain="group">togenashi</category>
+      <description>官方 X 关注＆转发活动截止 9/10，抽选 5 名获签名海报。</description>
     </item>
     <item>
       <title>[举办] MV 第 5 弹「爆ぜて咲く」公开纪念活动举办决定！</title>
