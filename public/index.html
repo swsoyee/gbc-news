@@ -346,7 +346,11 @@
       }
       .calendar-board.is-week-view,
       .calendar-board.is-day-view {
-        overflow: auto;
+        overflow-x: auto;
+        overflow-y: auto;
+      }
+      .calendar-board.is-day-view {
+        overflow-x: hidden;
       }
       .calendar-board.is-day-view .calendar-weekdays {
         display: none;
@@ -655,6 +659,8 @@
       }
       .calendar-time-col {
         position: relative;
+        min-width: 0;
+        overflow: hidden;
         border-right: 1px solid var(--line);
         background-image: repeating-linear-gradient(
           to bottom,
@@ -679,7 +685,7 @@
         position: absolute;
         z-index: 1;
         box-sizing: border-box;
-        margin: 0 1px;
+        margin: 0;
         padding: 0.2rem 0.3rem;
         overflow: hidden;
         border-left: 2px solid var(--accent);

@@ -277,8 +277,8 @@ function timedBlockStyle(block, laneCount) {
   return {
     top: `${top}%`,
     height: `${height}%`,
-    left: `${left}%`,
-    width: `${width}%`
+    left: `calc(${left}% + 1px)`,
+    width: `calc(${width}% - 2px)`
   };
 }
 function buildWeekSegments(events, cells) {

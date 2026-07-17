@@ -227,8 +227,8 @@ describe('timed event helpers', () => {
     const laid = layoutTimedLanes(buildDayTimedBlocks(events, '2026-07-14'))
     expect(laid.map((b) => b.lane)).toEqual([0, 1])
     const style = timedBlockStyle(laid[1]!, 2)
-    expect(style.left).toBe('50%')
-    expect(style.width).toBe('50%')
+    expect(style.left).toBe('calc(50% + 1px)')
+    expect(style.width).toBe('calc(50% - 2px)')
     expect(formatTimeRangeLabel('19:00', '21:00')).toBe('19:00–21:00')
   })
 
