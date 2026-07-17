@@ -2326,34 +2326,25 @@ DTSTART;VALUE=DATE:20240621
 DTEND;VALUE=DATE:20240622
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 第12話「空がまた暗くなる」WEB予告＆あら
- すじを公開！
-DESCRIPTION:第12話「空がまた暗くなる」 6/21(金)24:30～放送 
- 放送・配信情報は こちら ＜あらすじ＞ 野外フェスで
- 爪痕を残すことに成功し、事務所と正式に契約した仁
- 菜達。\nアルバイトを辞め、5人のプロとしての本格的
- な曲作りが始まる。\nプロとして生き残っていくために
- それぞれの思いが交錯する。\n\n
- https://girls-band-cry.com/news/post-175.html
+SUMMARY:[举办] 第 12 话「天空又变暗了」WEB 预告＆剧情概
+ 要公开！
+DESCRIPTION:第 12 话「天空又变暗了」于 6/21 24:30 起播出；
+ 野外音乐节留下痕迹并正式签约后，五人开始作为职业
+ 乐队创作。\n\nhttps://girls-band-cry.com/news/post-175.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-175.html
 CATEGORIES:togenashi,live,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-179-2024-06-21_2024-07-21-sale-1000@gbc-news
-DTSTAMP:20240621T010000Z
-DTSTART:20240621T010000Z
-DTEND:20240721T145900Z
-TRANSP:OPAQUE
+UID:post-179-2024-06-21_2024-07-21-sale@gbc-news
+DTSTAMP:20240621T000000Z
+DTSTART;VALUE=DATE:20240621
+DTEND;VALUE=DATE:20240722
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 「コトブキヤくじ ガールズバンドクライ」
- 発売決定！！
-DESCRIPTION:株式会社 壽屋（コトブキヤ）より「コトブキ
- ヤくじ ガールズバンドクライ」の発売が決定いたしま
- した！\nコトブキヤにて制作進行中のフィギュア用に手
- 島nari先生が描き下ろしたイラストを使用した豪華ライ
- ンナップです 販売期間：2024年6月21日(金)10:00～2024年7月
- 21日(日)23:59 ▽ご購入は こちら\n\n
- https://girls-band-cry.com/news/post-179.html
+SUMMARY:[发售] 「寿屋抽奖 Girls Band Cry」发售决定！！
+DESCRIPTION:寿屋抽奖《Girls Band Cry》于 2024 年 6 月 21 日–7 
+ 月 21 日发售，使用手岛 nari 为手办绘制的全新插图周边
+ 。\n\nhttps://girls-band-cry.com/news/post-179.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-179.html
 CATEGORIES:togenashi,other
 END:VEVENT
@@ -2364,16 +2355,11 @@ DTSTART:20240621T020000Z
 DTEND:20240621T030000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] 6/21（金）よりAniBirthでガールズバンドクラ
- イ新商品発売決定！！
-DESCRIPTION:AniBirthでのガールズバンドクライ新商品の発売
- が決定しました！\nED映像に登場するイラストを使用し
- たオリジナルグッズが多数ラインナップ！\n今回新たに
- 登場するのはアクリルキーホルダー、クリアファイル
- 、タオル、Tシャツの4アイテム！\nイラストを切り取っ
- たアクリルキーホルダーは全8種のランダム商品！\nク
- リアファイルは携帯の待ち受け写真のデザインとイラ
- ストが散\n\nhttps://girls-band-cry.com/news/post-176.html
+SUMMARY:[发售] 6/21（五）起 AniBirth 发售 Girls Band Cry 新商品
+ ！！
+DESCRIPTION:AniBirth 自 6/21 起发售 ED 插图主题钥匙扣、透明
+ 文件夹、毛巾、T 恤等周边。\n\n
+ https://girls-band-cry.com/news/post-176.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-176.html
 CATEGORIES:togenashi,goods
 END:VEVENT
@@ -2405,15 +2391,11 @@ DTSTART:20240621T144500Z
 DTEND:20240621T164500Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 第12話放送直前 第11話同時視聴スペース配
- 信決定！
-DESCRIPTION:6/21(金)23:45~ 第11話同時視聴復習トーク 第12話放
- 送前に第11話をいっしょに復習しましょう 河原木桃香
- 役の夕莉 ルパ役の朱李 が第11話を観ながら 「ガールズ
- バンドクライ」公式X にてスペース（オンライントーク
- ）配信を行います ※アニメ「ガールズバンドクライ」
- を配信中の各サービスで第9話を観ながらお聴きくださ
- い 配信情報は\n\nhttps://girls-band-cry.com/news/post-177.html
+SUMMARY:[举办] 第 12 话播出直前 第 11 话同步观看 Space 配信
+ 决定！
+DESCRIPTION:6/21 23:45 起夕莉・朱李在官方 X Space 同步观看复
+ 习第 11 话（文案写第 9 话处以配信页为准）。\n\n
+ https://girls-band-cry.com/news/post-177.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-177.html
 CATEGORIES:togenashi,media
 END:VEVENT
@@ -2517,15 +2499,11 @@ DTSTART;VALUE=DATE:20240628
 DTEND;VALUE=DATE:20240629
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 第13話「ロックンロールは鳴り止まないっ
- 」WEB予告＆あらすじを公開！
-DESCRIPTION:第13話「ロックンロールは鳴り止まないっ」 6/2
- 8(金)24:30～放送 放送・配信情報は こちら ＜あらすじ＞
-  ダイヤモンドダストとの対バンライブ、仁菜達のチケ
- ットの売り上げは想定の半分にも満たなかった。\n一方
- 、ダイヤモンドダストのチケットはSOLD OUT。\n突き付け
- られる厳しい現実。\nそれでも仁菜たちは自分の意思を
- 貫き通す。\n\nhttps://girls-band-cry.com/news/post-183.html
+SUMMARY:[举办] 第 13 话「摇滚不会停下」WEB 预告＆剧情概
+ 要公开！
+DESCRIPTION:第 13 话「摇滚不会停下」于 6/28 24:30 起播出；Di
+ amond Dust 对邦票房与无刺有刺的现实差距中，仁菜们仍贯
+ 彻己意。\n\nhttps://girls-band-cry.com/news/post-183.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-183.html
 CATEGORIES:togenashi,live,media
 END:VEVENT
@@ -2536,16 +2514,11 @@ DTSTART:20240628T010000Z
 DTEND:20240628T020000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] 6/28（金）よりAniBirthでガールズバンドクラ
- イ新商品発売決定！！
-DESCRIPTION:AniBirthでのガールズバンドクライ新商品の発売
- が決定しました！\n トゲナシトゲアリとダイヤモンド
- ダストのピック型缶バッジ、フォンタブが登場！\n ピ
- ック型缶バッジはトゲナシトゲアリの5人とダイヤモン
- ドダストの4人がラインナップされた、全9種のランダム
- 商品です。\nフォンタブもトゲナシトゲアリの5人とダ
- イヤモンドダストの4人の計9種展開。\n本体はチェキ風\
- n\nhttps://girls-band-cry.com/news/post-184.html
+SUMMARY:[发售] 6/28（五）起 AniBirth 发售 Girls Band Cry 新商品
+ ！！
+DESCRIPTION:AniBirth 自 6/28 起发售无刺有刺・Diamond Dust 拨片
+ 型徽章与手机带（各 9 种）；东映官方商店亦预定 7 月
+ 发售。\n\nhttps://girls-band-cry.com/news/post-184.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-184.html
 CATEGORIES:togenashi,other
 END:VEVENT
@@ -2577,12 +2550,10 @@ DTSTART;VALUE=DATE:20240701
 DTEND;VALUE=DATE:20240801
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 「ガールズバンドクライ×丸福珈琲店」川
- 崎アゼリア店でコラボ決定！
-DESCRIPTION:2024年7月1日～7月31日の期間、 アニメ「ガール
- ズバンドクライ」と作中にも登場する丸福珈琲店川崎
- アゼリア店のコラボ開催が決定しました 聖地巡礼の際
- にはぜひお立ち寄りください！\n\n
+SUMMARY:[举办] 「Girls Band Cry × 丸福咖啡店」川崎 Azalea 店
+ 联动决定！
+DESCRIPTION:《Girls Band Cry》与剧中登场的丸福咖啡店川崎 Aza
+ lea 店联动于 2024 年 7 月 1 日–31 日举办。\n\n
  https://girls-band-cry.com/news/post-186.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-186.html
 CATEGORIES:togenashi,event
@@ -2609,18 +2580,16 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-171.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-193-2024-07-05-hold@gbc-news
-DTSTAMP:20240705T000000Z
-DTSTART;VALUE=DATE:20240705
-DTEND;VALUE=DATE:20240706
-TRANSP:TRANSPARENT
+UID:post-193-2024-07-05-hold-1200@gbc-news
+DTSTAMP:20240705T030000Z
+DTSTART:20240705T030000Z
+DTEND:20240705T050000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 7月5日正午よりガールズバンドクライ公式yo
- utubeチャンネルにてライブに関する重大発表を生配信！
-DESCRIPTION:2024年7月5日(金)正午～ トゲナシトゲアリ から 
- ライブに関する重大発表があります ガールズバンドク
- ライ公式YouTubeチャンネルにて “生配信”でお届けしま
- す 配信ページは コチラ\n\n
+SUMMARY:[举办] 7 月 5 日正午起 Girls Band Cry 官方 YouTube 直播
+ 重大 LIVE 发表！
+DESCRIPTION:无刺有刺将于 2024 年 7 月 5 日正午起在 Girls Band 
+ Cry 官方 YouTube 直播重大 LIVE 相关发表。\n\n
  https://girls-band-cry.com/news/post-193.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-193.html
 CATEGORIES:togenashi,live
@@ -2665,107 +2634,32 @@ DTSTART;VALUE=DATE:20240710
 DTEND;VALUE=DATE:20240711
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 第13話挿入歌 トゲナシトゲアリ 「運命の華
- 」フルサイズ音楽配信スタート！＆ 9thシングルCDに収
- 録決定！
-DESCRIPTION:第13話挿入歌「運命の華」のフルサイズ音楽配
- 信スタート！\nそして9thシングルCDに収録が決定しまし
- た！\n楽曲配信は こちら CDご予約は こちら ＜NEW RELEASE
- ＞ トゲナシトゲアリ 9th シングル 「空白とカタルシス
- 」 2024/7/10(水) Release UMCK-5758 \\1\,430(税込) 初回プレス特
- 典： トレーディングカ\n\n
- https://girls-band-cry.com/news/post-188.html
+SUMMARY:[发售] 第 13 话插曲 无刺有刺《運命の華》全曲配
+ 信开始！＆收录于第 9 张 Single！
+DESCRIPTION:第 13 话插曲《運命の華》全曲配信开始，并收
+ 录于 2024 年 7 月 10 日发售的第 9 张 Single《空白とカタル
+ シス》。\n\nhttps://girls-band-cry.com/news/post-188.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-188.html
 CATEGORIES:togenashi,live,music
 END:VEVENT
 BEGIN:VEVENT
-UID:collabo-girls-band-cry-don-quijote-item-2024-2024-07-13-hold@gbc-news
+UID:collabo-girls-band-cry-togetoge-diamond-dust-cospa-anime-store-goods202
+ 4-2024-07-13-sale@gbc-news
 DTSTAMP:20240713T000000Z
 DTSTART;VALUE=DATE:20240713
 DTEND;VALUE=DATE:20240714
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライ 新作グッズ 7月13日
- よりドン・キホーテにて発売!
-DESCRIPTION:東映アニメーションが贈る完全新作オリジナル
- アニメ「ガールズバンドクライ (ガルクラ)」× 全国の
- ドン・キホーテにて、2024年7月13日よりコラボグッズが
- 発売される。\nイブのアンコールをイメージし東映アニ
- メーションが描き下ろしたイラスト「アンコール」デ
- ザインの新作グッズが多数ラインナップ!\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-don-quijote-item-20
- 24/
+SUMMARY:[发售] Girls Band Cry 刺刺＆Diamond Dust 亚克力立牌 9 月
+ 发售！
+DESCRIPTION:第 11 话 Live 服装无刺有刺 5 人与 Diamond Dust 4 人
+ 共 9 款亚克力立牌由二次元 COSPA 预定 2024 年 9 月下旬发
+ 售；Anime Store.JP 预约至 7 月 13 日。\n\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-togetoge-diamond-du
+ st-cospa-anime-store-goods2024/
 URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-don-quijote-item-20
- 24/
-CATEGORIES:togenashi,goods
-END:VEVENT
-BEGIN:VEVENT
-UID:collabo-girls-band-cry-don-quijote-item-2024-2024-07-13-sale@gbc-news
-DTSTAMP:20240713T000000Z
-DTSTART;VALUE=DATE:20240713
-DTEND;VALUE=DATE:20240714
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ 新作グッズ 7月13日
- よりドン・キホーテにて発売!
-DESCRIPTION:東映アニメーションが贈る完全新作オリジナル
- アニメ「ガールズバンドクライ (ガルクラ)」× 全国の
- ドン・キホーテにて、2024年7月13日よりコラボグッズが
- 発売される。\nイブのアンコールをイメージし東映アニ
- メーションが描き下ろしたイラスト「アンコール」デ
- ザインの新作グッズが多数ラインナップ!\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-don-quijote-item-20
- 24/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-don-quijote-item-20
- 24/
-CATEGORIES:togenashi,goods
-END:VEVENT
-BEGIN:VEVENT
-UID:collabo-girls-band-cry-don-quijote-item2024-2024-07-13-hold@gbc-news
-DTSTAMP:20240713T000000Z
-DTSTART;VALUE=DATE:20240713
-DTEND;VALUE=DATE:20240714
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] ガールズバンドクライ × ドン・キホーテ 7
- 月13日よりコラボグッズ登場!
-DESCRIPTION:東映アニメーションが贈る完全新作オリジナル
- アニメ「ガールズバンドクライ (ガルクラ)」× 全国の
- ドン・キホーテにて、2024年7月13日よりコラボグッズが
- 発売される。\n「トゲナシトゲアリ」「ダイヤモンドダ
- スト」のメンバーたちが『アンコール』をテーマにし
- た描き下ろしイラストで描かれたコラボオリジナルグ
- ッズが登場！\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-don-quijote-item202
- 4/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-don-quijote-item202
- 4/
-CATEGORIES:togenashi,goods
-END:VEVENT
-BEGIN:VEVENT
-UID:collabo-girls-band-cry-don-quijote-item2024-2024-07-13-sale@gbc-news
-DTSTAMP:20240713T000000Z
-DTSTART;VALUE=DATE:20240713
-DTEND;VALUE=DATE:20240714
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ × ドン・キホーテ 7
- 月13日よりコラボグッズ登場!
-DESCRIPTION:東映アニメーションが贈る完全新作オリジナル
- アニメ「ガールズバンドクライ (ガルクラ)」× 全国の
- ドン・キホーテにて、2024年7月13日よりコラボグッズが
- 発売される。\n「トゲナシトゲアリ」「ダイヤモンドダ
- スト」のメンバーたちが『アンコール』をテーマにし
- た描き下ろしイラストで描かれたコラボオリジナルグ
- ッズが登場！\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-don-quijote-item202
- 4/
-URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-don-quijote-item202
- 4/
+ https://collabo-cafe.com/events/collabo/girls-band-cry-togetoge-diamond-du
+ st-cospa-anime-store-goods2024/
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
@@ -2775,40 +2669,52 @@ DTSTART;VALUE=DATE:20240713
 DTEND;VALUE=DATE:20240714
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] アニメ『ガールズバンドクライ』ドン・キ
- ホーテ限定商品が発売！！
-DESCRIPTION:7月13日(土)よりドン・キホーテ対象店舗にて、 
- アニメ『ガールズバンドクライ』東映アニメーション
- 描き下ろしイラスト「アンコール」をイメージした限
- 定商品が登場！\nライブの高揚感に包まれた「トゲナシ
- トゲアリ」「ダイヤモンドダスト」のメンバーたちに
- 注目！！\nこの機会にぜひお買い求めください！\n ▼特
- 集は こちら\n\nhttps://girls-band-cry.com/news/post-182.html
+SUMMARY:[发售] 动画《Girls Band Cry》Don Quijote 限定商品发售
+ ！！
+DESCRIPTION:东映动画「Encore」全新绘制 Don Quijote 限定周边
+ 自 2024 年 7 月 13 日起在指定店铺发售。\n\n
+ https://girls-band-cry.com/news/post-182.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-182.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
-UID:collabo-girls-band-cry-togetoge-diamond-dust-cospa-anime-store-goods202
- 4-2024-07-13-sale-2359@gbc-news
-DTSTAMP:20240713T145900Z
-DTSTART:20240713T145900Z
-DTEND:20240713T155900Z
+UID:collabo-girls-band-cry-don-quijote-item-2024-2024-07-13-sale-1000@gbc-n
+ ews
+DTSTAMP:20240713T010000Z
+DTSTART:20240713T010000Z
+DTEND:20240713T020000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ トゲトゲ&ダイダス
- のアクリルスタンド 9月発売!
-DESCRIPTION:東映アニメーションが贈るオリジナルアニメ「
- ガールズバンドクライ (ガルクラ)」より、新作グッズ
- 「アクリルスタンド」が2024年9月下旬に発売される。\n
- アニメ11話に登場したライブ衣装姿のトゲナシトゲアリ
- (トゲトゲ)の仁菜・桃香・すばる・智・ルパ、ダイヤモ
- ンドダスト（ダイダス)のヒナ・リン・ナナ・アイら9人
- が登場！\n\n
- https://collabo-cafe.com/events/collabo/girls-band-cry-togetoge-diamond-du
- st-cospa-anime-store-goods2024/
+SUMMARY:[发售] Girls Band Cry 新作周边 7 月 13 日起于 Don Quijote
+  发售！
+DESCRIPTION:《Girls Band Cry》× Don Quijote「Encore」主题限定周
+ 边自 2024 年 7 月 13 日 10:00 起发售；满 3000 日元随机赠明
+ 信片。\n\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-don-quijote-item-20
+ 24/
 URL;VALUE=URI:
- https://collabo-cafe.com/events/collabo/girls-band-cry-togetoge-diamond-du
- st-cospa-anime-store-goods2024/
+ https://collabo-cafe.com/events/collabo/girls-band-cry-don-quijote-item-20
+ 24/
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
+UID:collabo-girls-band-cry-don-quijote-item2024-2024-07-13-sale-1000@gbc-ne
+ ws
+DTSTAMP:20240713T010000Z
+DTSTART:20240713T010000Z
+DTEND:20240713T020000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] Girls Band Cry × Don Quijote 7 月 13 日起联动周边
+ 登场！
+DESCRIPTION:《Girls Band Cry》× Don Quijote「Encore」主题限定周
+ 边自 2024 年 7 月 13 日 10:00 起发售；满 3000 日元随机赠原
+ 创明信片。\n\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-don-quijote-item202
+ 4/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-don-quijote-item202
+ 4/
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
@@ -2832,21 +2738,17 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
-UID:post-198-2024-07-24-sale@gbc-news
+UID:post-198-2024-07-24_2024-08-07-sale@gbc-news
 DTSTAMP:20240724T000000Z
 DTSTART;VALUE=DATE:20240724
-DTEND;VALUE=DATE:20240725
+DTEND;VALUE=DATE:20240808
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 東映アニメーションオフィシャルストアに
- てAniBirth販売商品の受注販売が決定！
-DESCRIPTION:5～6月にかけてAniBirthで発売した商品がついに 
- 東映アニメーションオフィシャルストア に登場！\n 加
- えて、バッテンアクリルスタンド（5種）とトレーディ
- ング缶バッジの受注販売も決定！\n7/24（水）13:00より受
- 注開始です！\n受注期間は7/24（水）13:00～8/7（水）23：5
- 9となります。\nこの機会を逃さず、ぜひゲットしてく
- ださい！\n（お\n\nhttps://girls-band-cry.com/news/post-198.html
+SUMMARY:[发售] 东映动画官方商店决定受理 AniBirth 销售商品
+ ！
+DESCRIPTION:AniBirth 5–6 月发售商品及斜角亚克力立牌、交易
+ 徽章等自 7/24 13:00 起在东映动画官方商店受理，截止 8/7 
+ 23:59。\n\nhttps://girls-band-cry.com/news/post-198.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-198.html
 CATEGORIES:togenashi,other
 END:VEVENT
@@ -2857,37 +2759,27 @@ DTSTART:20240726T100000Z
 DTEND:20240726T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.2〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.2の発売を記念して、リミスタでのオンラ
- イントーク配信 の開催が決定！\nリミスタにて対象商
- 品をご購入いただいたお客様に、TVアニメ『ガールズバ
- ンドクライ』豪華限定版Vol.2のジャケ\n\n
+SUMMARY:[举办] TV 动画《Girls Band Cry》Vol.2〈豪华限定版〉发
+ 售纪念线上 talk 配信举办通知
+DESCRIPTION:纪念 Vol.2 豪华限定版发售，7 月 26 日 19:00–20:00
+  于 Limista 举办线上 talk 配信；预约抽选获签名卡。\n\n
  https://girls-band-cry.com/news/post-192.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-192.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:collabo-girls-band-cry-maid-ver-newly-drawn-pop-up-armabianca-anime-sto
- re-goods2024-2024-07-27-sale-2359@gbc-news
-DTSTAMP:20240727T145900Z
-DTSTART:20240727T145900Z
-DTEND:20240727T155900Z
-TRANSP:OPAQUE
+ re-goods2024-2024-07-27-sale@gbc-news
+DTSTAMP:20240727T000000Z
+DTSTART;VALUE=DATE:20240727
+DTEND;VALUE=DATE:20240728
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ「メイド風 Ver.」描
- き下ろしグッズ 12月一般発売!
-DESCRIPTION:東映アニメーションが贈る完全新作オリジナル
- アニメ「ガールズバンドクライ (ガルクラ)」から、描
- き下ろしイラスト「メイド風 Ver.」グッズが2024年12月に
- 発売される。\nタワーレコード店舗等のPOP UPにて先行販
- 売された「トゲナシトゲアリ」&「ダイヤモンドダスト
- 」人気キャラクター達のポップアップグッズが登場！\n
- \n
+SUMMARY:[发售] Girls Band Cry「女仆风 Ver.」全新绘制周边 12 
+ 月一般发售！
+DESCRIPTION:女仆风 Ver. 全新绘制周边（无刺有刺＆Diamond Dust
+ ）预定 2024 年 12 月上旬一般发售；Anime Store.JP 预约至 7 
+ 月 27 日。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-maid-ver-newly-draw
  n-pop-up-armabianca-anime-store-goods2024/
 URL;VALUE=URI:
@@ -2930,25 +2822,6 @@ URL;VALUE=URI:
  https://collabo-cafe.com/events/collabo/girls-band-cry-reproductions-repli
  ca-tshirts-cospa-anime-store-goods2024/
 CATEGORIES:togenashi,goods
-END:VEVENT
-BEGIN:VEVENT
-UID:post-198-2024-08-07-sale@gbc-news
-DTSTAMP:20240807T000000Z
-DTSTART;VALUE=DATE:20240807
-DTEND;VALUE=DATE:20240808
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] 東映アニメーションオフィシャルストアに
- てAniBirth販売商品の受注販売が決定！
-DESCRIPTION:5～6月にかけてAniBirthで発売した商品がついに 
- 東映アニメーションオフィシャルストア に登場！\n 加
- えて、バッテンアクリルスタンド（5種）とトレーディ
- ング缶バッジの受注販売も決定！\n7/24（水）13:00より受
- 注開始です！\n受注期間は7/24（水）13:00～8/7（水）23：5
- 9となります。\nこの機会を逃さず、ぜひゲットしてく
- ださい！\n（お\n\nhttps://girls-band-cry.com/news/post-198.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-198.html
-CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT
 UID:post-199-2024-08-09-hold-1900@gbc-news
@@ -2999,21 +2872,17 @@ CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT
 UID:collabo-girls-band-cry-kuripan-stuffed-toy-togenashitogeari-goodsmile-a
- nime-store-goods2024-2024-08-16-sale-2359@gbc-news
-DTSTAMP:20240816T145900Z
-DTSTART:20240816T145900Z
-DTEND:20240816T155900Z
-TRANSP:OPAQUE
+ nime-store-goods2024-2024-08-16-sale@gbc-news
+DTSTAMP:20240816T000000Z
+DTSTART;VALUE=DATE:20240816
+DTEND;VALUE=DATE:20240817
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ トゲトゲメンバーの
- 「くりぱん」ぬいぐるみ 発売!
-DESCRIPTION:東映アニメーションが贈る完全新作オリジナル
- アニメ「ガールズバンドクライ (ガルクラ)」から、「
- くりぱん ぬいぐるみ」が2025年2月に発売決定！\nくりく
- りの大きな目、コッペパンのようなおおきな足が特徴
- の人気シリーズより、井芹仁菜・河原木桃香・安和す
- ばる・海老塚智・ルパらトゲトゲメンバーたちの「ぬ
- いぐるみ」が登場。\n\n
+SUMMARY:[发售] Girls Band Cry 刺刺成员「くりぱん」毛绒发售
+ ！
+DESCRIPTION:无刺有刺 5 人「くりぱん」毛绒（约 17cm，最终
+ 话 Live 服装）预定 2025 年 2 月发售；Anime Store.JP 预约至 2
+ 024 年 8 月 16 日。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-kuripan-stuffed-toy
  -togenashitogeari-goodsmile-anime-store-goods2024/
 URL;VALUE=URI:
@@ -3105,15 +2974,11 @@ DTSTART;VALUE=DATE:20240828
 DTEND;VALUE=DATE:20240829
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 2nd Album「棘ナシ」発売記
- 念生アフレコイベント 開催のご案内
-DESCRIPTION:2024年8月28日発売 トゲナシトゲアリ 2nd Album「棘
- ナシ」の発売を記念して、アニメイト池袋本店9F animate 
- hall BLACKでの〈生アフレコイベント〉の開催が決定しま
- した。\n大好評のうちに全13話のOAが終了したTVアニメ『
- ガールズバンドクライ』のいくつかのシーンの生アフ
- レコをメンバーが披露するイベントとなります。\nご応
- 募をお待ちし\n\nhttps://girls-band-cry.com/news/post-201.html
+SUMMARY:[发售] 无刺有刺 2nd Album《棘ナシ》发售纪念现场配
+ 音活动举办通知
+DESCRIPTION:纪念 2nd Album《棘ナシ》发售，10/12 于 animate 池
+ 袋本店 9F animate hall BLACK 举办现场配音活动（14:00 / 17:00 
+ 两部）。\n\nhttps://girls-band-cry.com/news/post-201.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-201.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
@@ -3414,13 +3279,11 @@ DTSTART;VALUE=DATE:20240925
 DTEND;VALUE=DATE:20240926
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 対バンライブ トゲナシトゲアリ×MyGO!!!!!「A
- void Note」の告知映像を公開！
-DESCRIPTION:2025年1月12日（日）にTOKYO DOME CITY HALLにて開催予
- 定 対バンライブ トゲナシトゲアリ×MyGO!!!!!\n「Avoid Note
- 」の告知映像を大公開！\n最速先行抽選申込券は9/25(水)
- 発売のBlu-ray＆DVD第4巻に封入‼️ ▼ライブ情報は こち
- ら\n\nhttps://girls-band-cry.com/news/post-195.html
+SUMMARY:[发售] 对邦 LIVE 无刺有刺 × MyGO!!!!!「Avoid Note」告
+ 知影像公开！
+DESCRIPTION:对邦 LIVE「Avoid Note」于 2025 年 1 月 12 日在 TOKYO D
+ OME CITY HALL 举办；最速先行抽选申请券封入 9/25 发售的 Bl
+ u-ray＆DVD 第 4 卷。\n\nhttps://girls-band-cry.com/news/post-195.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-195.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
@@ -3509,21 +3372,17 @@ CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
 UID:collabo-girls-band-cry-nina-figure-kotobukiya-anime-store-goods2024-202
- 4-10-07-sale-2359@gbc-news
-DTSTAMP:20241007T145900Z
-DTSTART:20241007T145900Z
-DTEND:20241007T155900Z
-TRANSP:OPAQUE
+ 4-10-07-sale@gbc-news
+DTSTAMP:20241007T000000Z
+DTSTART;VALUE=DATE:20241007
+DTEND;VALUE=DATE:20241008
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] ガールズバンドクライ 第1弾は仁菜! トゲナ
- シトゲアリの5人が立体化決定!
-DESCRIPTION:東映アニメーションが贈るオリジナルアニメ「
- ガールズバンドクライ (ガルクラ)」から、劇中に登場
- するバンド「トゲナシトゲアリ」のメンバー5人がフィ
- ギュアのために描き下ろしたイラストをもとに立体化
- 決定！\n第1弾はボーカルを務める「井芹仁菜」が2025年4
- 月にコトブキヤより発売される。\nOP主題歌MV衣装を着
- た姿で登場！\n\n
+SUMMARY:[发售] Girls Band Cry 第 1 弹是仁菜！无刺有刺 5 人决
+ 定立体化！
+DESCRIPTION:寿屋将制作无刺有刺 5 人 OP MV 舞台服装手办；
+ 第 1 弹井芹仁菜 1/7 预定 2025 年 4 月发售（25960 日元）。
+ \nAnime Store.JP 预约至 2024 年 10 月 7 日。\n\n
  https://collabo-cafe.com/events/collabo/girls-band-cry-nina-figure-kotobuk
  iya-anime-store-goods2024/
 URL;VALUE=URI:
@@ -3548,21 +3407,32 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-235.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-201-2024-10-12-sale@gbc-news
-DTSTAMP:20241012T000000Z
-DTSTART;VALUE=DATE:20241012
-DTEND;VALUE=DATE:20241013
-TRANSP:TRANSPARENT
+UID:post-201-2024-10-12-hold-1400@gbc-news
+DTSTAMP:20241012T050000Z
+DTSTART:20241012T050000Z
+DTEND:20241012T070000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 2nd Album「棘ナシ」発売記
- 念生アフレコイベント 開催のご案内
-DESCRIPTION:2024年8月28日発売 トゲナシトゲアリ 2nd Album「棘
- ナシ」の発売を記念して、アニメイト池袋本店9F animate 
- hall BLACKでの〈生アフレコイベント〉の開催が決定しま
- した。\n大好評のうちに全13話のOAが終了したTVアニメ『
- ガールズバンドクライ』のいくつかのシーンの生アフ
- レコをメンバーが披露するイベントとなります。\nご応
- 募をお待ちし\n\nhttps://girls-band-cry.com/news/post-201.html
+SUMMARY:[举办] 无刺有刺 2nd Album《棘ナシ》发售纪念现场配
+ 音活动举办通知
+DESCRIPTION:纪念 2nd Album《棘ナシ》发售，10/12 于 animate 池
+ 袋本店 9F animate hall BLACK 举办现场配音活动（14:00 / 17:00 
+ 两部）。\n\nhttps://girls-band-cry.com/news/post-201.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-201.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-201-2024-10-12-hold-1700@gbc-news
+DTSTAMP:20241012T080000Z
+DTSTART:20241012T080000Z
+DTEND:20241012T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺 2nd Album《棘ナシ》发售纪念现场配
+ 音活动举办通知
+DESCRIPTION:纪念 2nd Album《棘ナシ》发售，10/12 于 animate 池
+ 袋本店 9F animate hall BLACK 举办现场配音活动（14:00 / 17:00 
+ 两部）。\n\nhttps://girls-band-cry.com/news/post-201.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-201.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
@@ -4224,19 +4094,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-266.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
-UID:post-195-2025-01-12-sale@gbc-news
+UID:post-195-2025-01-12-hold@gbc-news
 DTSTAMP:20250112T000000Z
 DTSTART;VALUE=DATE:20250112
 DTEND;VALUE=DATE:20250113
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 対バンライブ トゲナシトゲアリ×MyGO!!!!!「A
- void Note」の告知映像を公開！
-DESCRIPTION:2025年1月12日（日）にTOKYO DOME CITY HALLにて開催予
- 定 対バンライブ トゲナシトゲアリ×MyGO!!!!!\n「Avoid Note
- 」の告知映像を大公開！\n最速先行抽選申込券は9/25(水)
- 発売のBlu-ray＆DVD第4巻に封入‼️ ▼ライブ情報は こち
- ら\n\nhttps://girls-band-cry.com/news/post-195.html
+SUMMARY:[举办] 对邦 LIVE 无刺有刺 × MyGO!!!!!「Avoid Note」告
+ 知影像公开！
+DESCRIPTION:对邦 LIVE「Avoid Note」于 2025 年 1 月 12 日在 TOKYO D
+ OME CITY HALL 举办；最速先行抽选申请券封入 9/25 发售的 Bl
+ u-ray＆DVD 第 4 卷。\n\nhttps://girls-band-cry.com/news/post-195.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-195.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT

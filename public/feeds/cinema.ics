@@ -771,16 +771,10 @@ DTSTART:20240726T100000Z
 DTEND:20240726T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.2〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.2の発売を記念して、リミスタでのオンラ
- イントーク配信 の開催が決定！\nリミスタにて対象商
- 品をご購入いただいたお客様に、TVアニメ『ガールズバ
- ンドクライ』豪華限定版Vol.2のジャケ\n\n
+SUMMARY:[举办] TV 动画《Girls Band Cry》Vol.2〈豪华限定版〉发
+ 售纪念线上 talk 配信举办通知
+DESCRIPTION:纪念 Vol.2 豪华限定版发售，7 月 26 日 19:00–20:00
+  于 Limista 举办线上 talk 配信；预约抽选获签名卡。\n\n
  https://girls-band-cry.com/news/post-192.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-192.html
 CATEGORIES:togenashi,live,music,event,cinema
@@ -855,15 +849,11 @@ DTSTART;VALUE=DATE:20240828
 DTEND;VALUE=DATE:20240829
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 2nd Album「棘ナシ」発売記
- 念生アフレコイベント 開催のご案内
-DESCRIPTION:2024年8月28日発売 トゲナシトゲアリ 2nd Album「棘
- ナシ」の発売を記念して、アニメイト池袋本店9F animate 
- hall BLACKでの〈生アフレコイベント〉の開催が決定しま
- した。\n大好評のうちに全13話のOAが終了したTVアニメ『
- ガールズバンドクライ』のいくつかのシーンの生アフ
- レコをメンバーが披露するイベントとなります。\nご応
- 募をお待ちし\n\nhttps://girls-band-cry.com/news/post-201.html
+SUMMARY:[发售] 无刺有刺 2nd Album《棘ナシ》发售纪念现场配
+ 音活动举办通知
+DESCRIPTION:纪念 2nd Album《棘ナシ》发售，10/12 于 animate 池
+ 袋本店 9F animate hall BLACK 举办现场配音活动（14:00 / 17:00 
+ 两部）。\n\nhttps://girls-band-cry.com/news/post-201.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-201.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
@@ -949,13 +939,11 @@ DTSTART;VALUE=DATE:20240925
 DTEND;VALUE=DATE:20240926
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 対バンライブ トゲナシトゲアリ×MyGO!!!!!「A
- void Note」の告知映像を公開！
-DESCRIPTION:2025年1月12日（日）にTOKYO DOME CITY HALLにて開催予
- 定 対バンライブ トゲナシトゲアリ×MyGO!!!!!\n「Avoid Note
- 」の告知映像を大公開！\n最速先行抽選申込券は9/25(水)
- 発売のBlu-ray＆DVD第4巻に封入‼️ ▼ライブ情報は こち
- ら\n\nhttps://girls-band-cry.com/news/post-195.html
+SUMMARY:[发售] 对邦 LIVE 无刺有刺 × MyGO!!!!!「Avoid Note」告
+ 知影像公开！
+DESCRIPTION:对邦 LIVE「Avoid Note」于 2025 年 1 月 12 日在 TOKYO D
+ OME CITY HALL 举办；最速先行抽选申请券封入 9/25 发售的 Bl
+ u-ray＆DVD 第 4 卷。\n\nhttps://girls-band-cry.com/news/post-195.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-195.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
@@ -992,21 +980,32 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-234.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-201-2024-10-12-sale@gbc-news
-DTSTAMP:20241012T000000Z
-DTSTART;VALUE=DATE:20241012
-DTEND;VALUE=DATE:20241013
-TRANSP:TRANSPARENT
+UID:post-201-2024-10-12-hold-1400@gbc-news
+DTSTAMP:20241012T050000Z
+DTSTART:20241012T050000Z
+DTEND:20241012T070000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 2nd Album「棘ナシ」発売記
- 念生アフレコイベント 開催のご案内
-DESCRIPTION:2024年8月28日発売 トゲナシトゲアリ 2nd Album「棘
- ナシ」の発売を記念して、アニメイト池袋本店9F animate 
- hall BLACKでの〈生アフレコイベント〉の開催が決定しま
- した。\n大好評のうちに全13話のOAが終了したTVアニメ『
- ガールズバンドクライ』のいくつかのシーンの生アフ
- レコをメンバーが披露するイベントとなります。\nご応
- 募をお待ちし\n\nhttps://girls-band-cry.com/news/post-201.html
+SUMMARY:[举办] 无刺有刺 2nd Album《棘ナシ》发售纪念现场配
+ 音活动举办通知
+DESCRIPTION:纪念 2nd Album《棘ナシ》发售，10/12 于 animate 池
+ 袋本店 9F animate hall BLACK 举办现场配音活动（14:00 / 17:00 
+ 两部）。\n\nhttps://girls-band-cry.com/news/post-201.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-201.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-201-2024-10-12-hold-1700@gbc-news
+DTSTAMP:20241012T080000Z
+DTSTART:20241012T080000Z
+DTEND:20241012T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺 2nd Album《棘ナシ》发售纪念现场配
+ 音活动举办通知
+DESCRIPTION:纪念 2nd Album《棘ナシ》发售，10/12 于 animate 池
+ 袋本店 9F animate hall BLACK 举办现场配音活动（14:00 / 17:00 
+ 两部）。\n\nhttps://girls-band-cry.com/news/post-201.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-201.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
@@ -1085,19 +1084,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-264.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-195-2025-01-12-sale@gbc-news
+UID:post-195-2025-01-12-hold@gbc-news
 DTSTAMP:20250112T000000Z
 DTSTART;VALUE=DATE:20250112
 DTEND;VALUE=DATE:20250113
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 対バンライブ トゲナシトゲアリ×MyGO!!!!!「A
- void Note」の告知映像を公開！
-DESCRIPTION:2025年1月12日（日）にTOKYO DOME CITY HALLにて開催予
- 定 対バンライブ トゲナシトゲアリ×MyGO!!!!!\n「Avoid Note
- 」の告知映像を大公開！\n最速先行抽選申込券は9/25(水)
- 発売のBlu-ray＆DVD第4巻に封入‼️ ▼ライブ情報は こち
- ら\n\nhttps://girls-band-cry.com/news/post-195.html
+SUMMARY:[举办] 对邦 LIVE 无刺有刺 × MyGO!!!!!「Avoid Note」告
+ 知影像公开！
+DESCRIPTION:对邦 LIVE「Avoid Note」于 2025 年 1 月 12 日在 TOKYO D
+ OME CITY HALL 举办；最速先行抽选申请券封入 9/25 发售的 Bl
+ u-ray＆DVD 第 4 卷。\n\nhttps://girls-band-cry.com/news/post-195.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-195.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT

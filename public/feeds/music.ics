@@ -1206,16 +1206,11 @@ DTSTART;VALUE=DATE:20240710
 DTEND;VALUE=DATE:20240711
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 第13話挿入歌 トゲナシトゲアリ 「運命の華
- 」フルサイズ音楽配信スタート！＆ 9thシングルCDに収
- 録決定！
-DESCRIPTION:第13話挿入歌「運命の華」のフルサイズ音楽配
- 信スタート！\nそして9thシングルCDに収録が決定しまし
- た！\n楽曲配信は こちら CDご予約は こちら ＜NEW RELEASE
- ＞ トゲナシトゲアリ 9th シングル 「空白とカタルシス
- 」 2024/7/10(水) Release UMCK-5758 \\1\,430(税込) 初回プレス特
- 典： トレーディングカ\n\n
- https://girls-band-cry.com/news/post-188.html
+SUMMARY:[发售] 第 13 话插曲 无刺有刺《運命の華》全曲配
+ 信开始！＆收录于第 9 张 Single！
+DESCRIPTION:第 13 话插曲《運命の華》全曲配信开始，并收
+ 录于 2024 年 7 月 10 日发售的第 9 张 Single《空白とカタル
+ シス》。\n\nhttps://girls-band-cry.com/news/post-188.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-188.html
 CATEGORIES:togenashi,live,music
 END:VEVENT
@@ -1226,16 +1221,10 @@ DTSTART:20240726T100000Z
 DTEND:20240726T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.2〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.2の発売を記念して、リミスタでのオンラ
- イントーク配信 の開催が決定！\nリミスタにて対象商
- 品をご購入いただいたお客様に、TVアニメ『ガールズバ
- ンドクライ』豪華限定版Vol.2のジャケ\n\n
+SUMMARY:[举办] TV 动画《Girls Band Cry》Vol.2〈豪华限定版〉发
+ 售纪念线上 talk 配信举办通知
+DESCRIPTION:纪念 Vol.2 豪华限定版发售，7 月 26 日 19:00–20:00
+  于 Limista 举办线上 talk 配信；预约抽选获签名卡。\n\n
  https://girls-band-cry.com/news/post-192.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-192.html
 CATEGORIES:togenashi,live,music,event,cinema
@@ -1325,15 +1314,11 @@ DTSTART;VALUE=DATE:20240828
 DTEND;VALUE=DATE:20240829
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 2nd Album「棘ナシ」発売記
- 念生アフレコイベント 開催のご案内
-DESCRIPTION:2024年8月28日発売 トゲナシトゲアリ 2nd Album「棘
- ナシ」の発売を記念して、アニメイト池袋本店9F animate 
- hall BLACKでの〈生アフレコイベント〉の開催が決定しま
- した。\n大好評のうちに全13話のOAが終了したTVアニメ『
- ガールズバンドクライ』のいくつかのシーンの生アフ
- レコをメンバーが披露するイベントとなります。\nご応
- 募をお待ちし\n\nhttps://girls-band-cry.com/news/post-201.html
+SUMMARY:[发售] 无刺有刺 2nd Album《棘ナシ》发售纪念现场配
+ 音活动举办通知
+DESCRIPTION:纪念 2nd Album《棘ナシ》发售，10/12 于 animate 池
+ 袋本店 9F animate hall BLACK 举办现场配音活动（14:00 / 17:00 
+ 两部）。\n\nhttps://girls-band-cry.com/news/post-201.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-201.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
@@ -1442,21 +1427,32 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-236.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-201-2024-10-12-sale@gbc-news
-DTSTAMP:20241012T000000Z
-DTSTART;VALUE=DATE:20241012
-DTEND;VALUE=DATE:20241013
-TRANSP:TRANSPARENT
+UID:post-201-2024-10-12-hold-1400@gbc-news
+DTSTAMP:20241012T050000Z
+DTSTART:20241012T050000Z
+DTEND:20241012T070000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 2nd Album「棘ナシ」発売記
- 念生アフレコイベント 開催のご案内
-DESCRIPTION:2024年8月28日発売 トゲナシトゲアリ 2nd Album「棘
- ナシ」の発売を記念して、アニメイト池袋本店9F animate 
- hall BLACKでの〈生アフレコイベント〉の開催が決定しま
- した。\n大好評のうちに全13話のOAが終了したTVアニメ『
- ガールズバンドクライ』のいくつかのシーンの生アフ
- レコをメンバーが披露するイベントとなります。\nご応
- 募をお待ちし\n\nhttps://girls-band-cry.com/news/post-201.html
+SUMMARY:[举办] 无刺有刺 2nd Album《棘ナシ》发售纪念现场配
+ 音活动举办通知
+DESCRIPTION:纪念 2nd Album《棘ナシ》发售，10/12 于 animate 池
+ 袋本店 9F animate hall BLACK 举办现场配音活动（14:00 / 17:00 
+ 两部）。\n\nhttps://girls-band-cry.com/news/post-201.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-201.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-201-2024-10-12-hold-1700@gbc-news
+DTSTAMP:20241012T080000Z
+DTSTART:20241012T080000Z
+DTEND:20241012T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺 2nd Album《棘ナシ》发售纪念现场配
+ 音活动举办通知
+DESCRIPTION:纪念 2nd Album《棘ナシ》发售，10/12 于 animate 池
+ 袋本店 9F animate hall BLACK 举办现场配音活动（14:00 / 17:00 
+ 两部）。\n\nhttps://girls-band-cry.com/news/post-201.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-201.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT

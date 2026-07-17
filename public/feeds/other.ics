@@ -48,21 +48,16 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-163.html
 CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT
-UID:post-179-2024-06-21_2024-07-21-sale-1000@gbc-news
-DTSTAMP:20240621T010000Z
-DTSTART:20240621T010000Z
-DTEND:20240721T145900Z
-TRANSP:OPAQUE
+UID:post-179-2024-06-21_2024-07-21-sale@gbc-news
+DTSTAMP:20240621T000000Z
+DTSTART;VALUE=DATE:20240621
+DTEND;VALUE=DATE:20240722
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 「コトブキヤくじ ガールズバンドクライ」
- 発売決定！！
-DESCRIPTION:株式会社 壽屋（コトブキヤ）より「コトブキ
- ヤくじ ガールズバンドクライ」の発売が決定いたしま
- した！\nコトブキヤにて制作進行中のフィギュア用に手
- 島nari先生が描き下ろしたイラストを使用した豪華ライ
- ンナップです 販売期間：2024年6月21日(金)10:00～2024年7月
- 21日(日)23:59 ▽ご購入は こちら\n\n
- https://girls-band-cry.com/news/post-179.html
+SUMMARY:[发售] 「寿屋抽奖 Girls Band Cry」发售决定！！
+DESCRIPTION:寿屋抽奖《Girls Band Cry》于 2024 年 6 月 21 日–7 
+ 月 21 日发售，使用手岛 nari 为手办绘制的全新插图周边
+ 。\n\nhttps://girls-band-cry.com/news/post-179.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-179.html
 CATEGORIES:togenashi,other
 END:VEVENT
@@ -73,16 +68,11 @@ DTSTART:20240628T010000Z
 DTEND:20240628T020000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] 6/28（金）よりAniBirthでガールズバンドクラ
- イ新商品発売決定！！
-DESCRIPTION:AniBirthでのガールズバンドクライ新商品の発売
- が決定しました！\n トゲナシトゲアリとダイヤモンド
- ダストのピック型缶バッジ、フォンタブが登場！\n ピ
- ック型缶バッジはトゲナシトゲアリの5人とダイヤモン
- ドダストの4人がラインナップされた、全9種のランダム
- 商品です。\nフォンタブもトゲナシトゲアリの5人とダ
- イヤモンドダストの4人の計9種展開。\n本体はチェキ風\
- n\nhttps://girls-band-cry.com/news/post-184.html
+SUMMARY:[发售] 6/28（五）起 AniBirth 发售 Girls Band Cry 新商品
+ ！！
+DESCRIPTION:AniBirth 自 6/28 起发售无刺有刺・Diamond Dust 拨片
+ 型徽章与手机带（各 9 种）；东映官方商店亦预定 7 月
+ 发售。\n\nhttps://girls-band-cry.com/news/post-184.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-184.html
 CATEGORIES:togenashi,other
 END:VEVENT
@@ -120,21 +110,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-170.html
 CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT
-UID:post-198-2024-07-24-sale@gbc-news
+UID:post-198-2024-07-24_2024-08-07-sale@gbc-news
 DTSTAMP:20240724T000000Z
 DTSTART;VALUE=DATE:20240724
-DTEND;VALUE=DATE:20240725
+DTEND;VALUE=DATE:20240808
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 東映アニメーションオフィシャルストアに
- てAniBirth販売商品の受注販売が決定！
-DESCRIPTION:5～6月にかけてAniBirthで発売した商品がついに 
- 東映アニメーションオフィシャルストア に登場！\n 加
- えて、バッテンアクリルスタンド（5種）とトレーディ
- ング缶バッジの受注販売も決定！\n7/24（水）13:00より受
- 注開始です！\n受注期間は7/24（水）13:00～8/7（水）23：5
- 9となります。\nこの機会を逃さず、ぜひゲットしてく
- ださい！\n（お\n\nhttps://girls-band-cry.com/news/post-198.html
+SUMMARY:[发售] 东映动画官方商店决定受理 AniBirth 销售商品
+ ！
+DESCRIPTION:AniBirth 5–6 月发售商品及斜角亚克力立牌、交易
+ 徽章等自 7/24 13:00 起在东映动画官方商店受理，截止 8/7 
+ 23:59。\n\nhttps://girls-band-cry.com/news/post-198.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-198.html
 CATEGORIES:togenashi,other
 END:VEVENT
@@ -152,25 +138,6 @@ DESCRIPTION:AniBirth 自 8/14 起发售 ED 插图亚克力钥匙扣第 2
   PARCO 出差店至 9/8。\n\n
  https://girls-band-cry.com/news/post-210.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-210.html
-CATEGORIES:togenashi,other
-END:VEVENT
-BEGIN:VEVENT
-UID:post-198-2024-08-07-sale@gbc-news
-DTSTAMP:20240807T000000Z
-DTSTART;VALUE=DATE:20240807
-DTEND;VALUE=DATE:20240808
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[发售] 東映アニメーションオフィシャルストアに
- てAniBirth販売商品の受注販売が決定！
-DESCRIPTION:5～6月にかけてAniBirthで発売した商品がついに 
- 東映アニメーションオフィシャルストア に登場！\n 加
- えて、バッテンアクリルスタンド（5種）とトレーディ
- ング缶バッジの受注販売も決定！\n7/24（水）13:00より受
- 注開始です！\n受注期間は7/24（水）13:00～8/7（水）23：5
- 9となります。\nこの機会を逃さず、ぜひゲットしてく
- ださい！\n（お\n\nhttps://girls-band-cry.com/news/post-198.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-198.html
 CATEGORIES:togenashi,other
 END:VEVENT
 BEGIN:VEVENT

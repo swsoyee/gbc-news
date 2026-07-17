@@ -1,6 +1,6 @@
 {
   "sourceId": "gbc-news",
-  "updatedAt": "2026-07-17T15:50:00.000Z",
+  "updatedAt": "2026-07-17T16:00:00.000Z",
   "items": {
     "post-483": {
       "id": "post-483",
@@ -3719,6 +3719,242 @@
         {
           "date": "2024-09-11",
           "kind": "sale"
+        }
+      ]
+    },
+    "post-201": {
+      "id": "post-201",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "e8ca19d3847b82eb4a5d806414cb52322a99bc5d4daa702075efc494e8f8b7d6",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "无刺有刺 2nd Album《棘ナシ》发售纪念现场配音活动举办通知",
+      "summaryZh": "纪念 2nd Album《棘ナシ》发售，10/12 于 animate 池袋本店 9F animate hall BLACK 举办现场配音活动（14:00 / 17:00 两部）。",
+      "eventDates": [
+        {
+          "date": "2024-10-12",
+          "kind": "hold",
+          "startTime": "14:00"
+        },
+        {
+          "date": "2024-10-12",
+          "kind": "hold",
+          "startTime": "17:00"
+        },
+        {
+          "date": "2024-08-28",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-198": {
+      "id": "post-198",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "128eef2e1e9bc466fdcba779f8fd91ab4306faf05b166c2764a86eba46ce5fec",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "东映动画官方商店决定受理 AniBirth 销售商品！",
+      "summaryZh": "AniBirth 5–6 月发售商品及斜角亚克力立牌、交易徽章等自 7/24 13:00 起在东映动画官方商店受理，截止 8/7 23:59。",
+      "eventDates": [
+        {
+          "date": "2024-07-24",
+          "endDate": "2024-08-07",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "受理跨日去时刻"
+    },
+    "post-195": {
+      "id": "post-195",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "fb088dad7ab6383c8b86ff5c4baa4377fdf9bdf13adb5f7024ab1ebfaecfd875",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "对邦 LIVE 无刺有刺 × MyGO!!!!!「Avoid Note」告知影像公开！",
+      "summaryZh": "对邦 LIVE「Avoid Note」于 2025 年 1 月 12 日在 TOKYO DOME CITY HALL 举办；最速先行抽选申请券封入 9/25 发售的 Blu-ray＆DVD 第 4 卷。",
+      "eventDates": [
+        {
+          "date": "2025-01-12",
+          "kind": "hold"
+        },
+        {
+          "date": "2024-09-25",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "公演为 hold；BD 发售为 sale"
+    },
+    "post-192": {
+      "id": "post-192",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f281a79863ced058ff33b1f6190276cc07b42b3972f57e83acc3f312af15ef83",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》Vol.2〈豪华限定版〉发售纪念线上 talk 配信举办通知",
+      "summaryZh": "纪念 Vol.2 豪华限定版发售，7 月 26 日 19:00–20:00 于 Limista 举办线上 talk 配信；预约抽选获签名卡。",
+      "eventDates": [
+        {
+          "date": "2024-07-26",
+          "kind": "hold",
+          "startTime": "19:00",
+          "endTime": "20:00"
+        }
+      ]
+    },
+    "post-193": {
+      "id": "post-193",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "a923481883a5b211e0d8b1e912f4bb8f7a32d23930f04b87fee5dcb8e8724cd8",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "7 月 5 日正午起 Girls Band Cry 官方 YouTube 直播重大 LIVE 发表！",
+      "summaryZh": "无刺有刺将于 2024 年 7 月 5 日正午起在 Girls Band Cry 官方 YouTube 直播重大 LIVE 相关发表。",
+      "eventDates": [
+        {
+          "date": "2024-07-05",
+          "kind": "hold",
+          "startTime": "12:00"
+        }
+      ]
+    },
+    "post-186": {
+      "id": "post-186",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "adeb977d17b07d79105b750440c174b625008c66d0201a98013732a33675936b",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "「Girls Band Cry × 丸福咖啡店」川崎 Azalea 店联动决定！",
+      "summaryZh": "《Girls Band Cry》与剧中登场的丸福咖啡店川崎 Azalea 店联动于 2024 年 7 月 1 日–31 日举办。",
+      "eventDates": [
+        {
+          "date": "2024-07-01",
+          "endDate": "2024-07-31",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-188": {
+      "id": "post-188",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "c69c9fa722f055a6eba07e79522ea8d48e53189b92960eeebf65aca5b2b7acf3",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "第 13 话插曲 无刺有刺《運命の華》全曲配信开始！＆收录于第 9 张 Single！",
+      "summaryZh": "第 13 话插曲《運命の華》全曲配信开始，并收录于 2024 年 7 月 10 日发售的第 9 张 Single《空白とカタルシス》。",
+      "eventDates": [
+        {
+          "date": "2024-07-10",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-182": {
+      "id": "post-182",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "c1560824695d57e06745b213bcaf401925efdcfafa3020523c53e9a1b4829bd6",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "动画《Girls Band Cry》Don Quijote 限定商品发售！！",
+      "summaryZh": "东映动画「Encore」全新绘制 Don Quijote 限定周边自 2024 年 7 月 13 日起在指定店铺发售。",
+      "eventDates": [
+        {
+          "date": "2024-07-13",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-184": {
+      "id": "post-184",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "511ab0d97322caaa7f9e62bff69ad73dd34b773e707f0974c5bf96199f84bcf5",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "6/28（五）起 AniBirth 发售 Girls Band Cry 新商品！！",
+      "summaryZh": "AniBirth 自 6/28 起发售无刺有刺・Diamond Dust 拨片型徽章与手机带（各 9 种）；东映官方商店亦预定 7 月发售。",
+      "eventDates": [
+        {
+          "date": "2024-06-28",
+          "kind": "sale",
+          "startTime": "10:00"
+        }
+      ]
+    },
+    "post-183": {
+      "id": "post-183",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "526445d0eec4d32160682742d8ef31a45623c88d18b6c614c6c8de68d6eb6796",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "第 13 话「摇滚不会停下」WEB 预告＆剧情概要公开！",
+      "summaryZh": "第 13 话「摇滚不会停下」于 6/28 24:30 起播出；Diamond Dust 对邦票房与无刺有刺的现实差距中，仁菜们仍贯彻己意。",
+      "eventDates": [
+        {
+          "date": "2024-06-28",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-179": {
+      "id": "post-179",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "4c2d35219d3ad257a077a71be46a7b089630ac290aaad4e63ac280d9c21699e3",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "「寿屋抽奖 Girls Band Cry」发售决定！！",
+      "summaryZh": "寿屋抽奖《Girls Band Cry》于 2024 年 6 月 21 日–7 月 21 日发售，使用手岛 nari 为手办绘制的全新插图周边。",
+      "eventDates": [
+        {
+          "date": "2024-06-21",
+          "endDate": "2024-07-21",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "跨日去时刻"
+    },
+    "post-177": {
+      "id": "post-177",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "3c2561b6a72055d517763c5b309cf5702cb80f63cfe5410370fee646eb83530c",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "第 12 话播出直前 第 11 话同步观看 Space 配信决定！",
+      "summaryZh": "6/21 23:45 起夕莉・朱李在官方 X Space 同步观看复习第 11 话（文案写第 9 话处以配信页为准）。",
+      "eventDates": [
+        {
+          "date": "2024-06-21",
+          "kind": "hold",
+          "startTime": "23:45"
+        }
+      ]
+    },
+    "post-176": {
+      "id": "post-176",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "7dcbecfefbd62007a6bd1d44ccfeea286149ad404a428e8cb047567c393a7778",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "6/21（五）起 AniBirth 发售 Girls Band Cry 新商品！！",
+      "summaryZh": "AniBirth 自 6/21 起发售 ED 插图主题钥匙扣、透明文件夹、毛巾、T 恤等周边。",
+      "eventDates": [
+        {
+          "date": "2024-06-21",
+          "kind": "sale",
+          "startTime": "11:00"
+        }
+      ]
+    },
+    "post-175": {
+      "id": "post-175",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "02e0e963cef1c830dc231214eb7b40b103174d2ae8cd54e6b59599063096f568",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "第 12 话「天空又变暗了」WEB 预告＆剧情概要公开！",
+      "summaryZh": "第 12 话「天空又变暗了」于 6/21 24:30 起播出；野外音乐节留下痕迹并正式签约后，五人开始作为职业乐队创作。",
+      "eventDates": [
+        {
+          "date": "2024-06-21",
+          "kind": "hold"
         }
       ]
     }

@@ -419,15 +419,11 @@ DTSTART;VALUE=DATE:20240621
 DTEND;VALUE=DATE:20240622
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 第12話「空がまた暗くなる」WEB予告＆あら
- すじを公開！
-DESCRIPTION:第12話「空がまた暗くなる」 6/21(金)24:30～放送 
- 放送・配信情報は こちら ＜あらすじ＞ 野外フェスで
- 爪痕を残すことに成功し、事務所と正式に契約した仁
- 菜達。\nアルバイトを辞め、5人のプロとしての本格的
- な曲作りが始まる。\nプロとして生き残っていくために
- それぞれの思いが交錯する。\n\n
- https://girls-band-cry.com/news/post-175.html
+SUMMARY:[举办] 第 12 话「天空又变暗了」WEB 预告＆剧情概
+ 要公开！
+DESCRIPTION:第 12 话「天空又变暗了」于 6/21 24:30 起播出；
+ 野外音乐节留下痕迹并正式签约后，五人开始作为职业
+ 乐队创作。\n\nhttps://girls-band-cry.com/news/post-175.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-175.html
 CATEGORIES:togenashi,live,media
 END:VEVENT
@@ -438,15 +434,11 @@ DTSTART:20240621T144500Z
 DTEND:20240621T164500Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 第12話放送直前 第11話同時視聴スペース配
- 信決定！
-DESCRIPTION:6/21(金)23:45~ 第11話同時視聴復習トーク 第12話放
- 送前に第11話をいっしょに復習しましょう 河原木桃香
- 役の夕莉 ルパ役の朱李 が第11話を観ながら 「ガールズ
- バンドクライ」公式X にてスペース（オンライントーク
- ）配信を行います ※アニメ「ガールズバンドクライ」
- を配信中の各サービスで第9話を観ながらお聴きくださ
- い 配信情報は\n\nhttps://girls-band-cry.com/news/post-177.html
+SUMMARY:[举办] 第 12 话播出直前 第 11 话同步观看 Space 配信
+ 决定！
+DESCRIPTION:6/21 23:45 起夕莉・朱李在官方 X Space 同步观看复
+ 习第 11 话（文案写第 9 话处以配信页为准）。\n\n
+ https://girls-band-cry.com/news/post-177.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-177.html
 CATEGORIES:togenashi,media
 END:VEVENT
@@ -457,15 +449,11 @@ DTSTART;VALUE=DATE:20240628
 DTEND;VALUE=DATE:20240629
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 第13話「ロックンロールは鳴り止まないっ
- 」WEB予告＆あらすじを公開！
-DESCRIPTION:第13話「ロックンロールは鳴り止まないっ」 6/2
- 8(金)24:30～放送 放送・配信情報は こちら ＜あらすじ＞
-  ダイヤモンドダストとの対バンライブ、仁菜達のチケ
- ットの売り上げは想定の半分にも満たなかった。\n一方
- 、ダイヤモンドダストのチケットはSOLD OUT。\n突き付け
- られる厳しい現実。\nそれでも仁菜たちは自分の意思を
- 貫き通す。\n\nhttps://girls-band-cry.com/news/post-183.html
+SUMMARY:[举办] 第 13 话「摇滚不会停下」WEB 预告＆剧情概
+ 要公开！
+DESCRIPTION:第 13 话「摇滚不会停下」于 6/28 24:30 起播出；Di
+ amond Dust 对邦票房与无刺有刺的现实差距中，仁菜们仍贯
+ 彻己意。\n\nhttps://girls-band-cry.com/news/post-183.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-183.html
 CATEGORIES:togenashi,live,media
 END:VEVENT

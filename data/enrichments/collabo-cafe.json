@@ -1,6 +1,6 @@
 {
   "sourceId": "collabo-cafe",
-  "updatedAt": "2026-07-17T15:50:00.000Z",
+  "updatedAt": "2026-07-17T16:00:00.000Z",
   "items": {
     "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026": {
       "id": "collabo-girls-band-cry-omatsuri-popup-store-tower-records2026",
@@ -707,6 +707,104 @@
         }
       ],
       "reviewNotes": "8 月下旬无具体日；与 post-200 具体日互补"
+    },
+    "collabo-girls-band-cry-kuripan-stuffed-toy-togenashitogeari-goodsmile-anime-store-goods2024": {
+      "id": "collabo-girls-band-cry-kuripan-stuffed-toy-togenashitogeari-goodsmile-anime-store-goods2024",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "bf284b3987fe6541c24666688066364a9ef01c9f03d3ed6fa66f6ef2ebd78c57",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "Girls Band Cry 刺刺成员「くりぱん」毛绒发售！",
+      "summaryZh": "无刺有刺 5 人「くりぱん」毛绒（约 17cm，最终话 Live 服装）预定 2025 年 2 月发售；Anime Store.JP 预约至 2024 年 8 月 16 日。",
+      "eventDates": [
+        {
+          "date": "2024-08-16",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "2 月无具体日"
+    },
+    "collabo-girls-band-cry-don-quijote-item-2024": {
+      "id": "collabo-girls-band-cry-don-quijote-item-2024",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "575c1f0f4483e06a141c7b5a3dd3f2e951d94ca80fd3347bfd26bb5f12524443",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "Girls Band Cry 新作周边 7 月 13 日起于 Don Quijote 发售！",
+      "summaryZh": "《Girls Band Cry》× Don Quijote「Encore」主题限定周边自 2024 年 7 月 13 日 10:00 起发售；满 3000 日元随机赠明信片。",
+      "eventDates": [
+        {
+          "date": "2024-07-13",
+          "kind": "sale",
+          "startTime": "10:00"
+        }
+      ],
+      "reviewNotes": "去掉重复 hold"
+    },
+    "collabo-girls-band-cry-maid-ver-newly-drawn-pop-up-armabianca-anime-store-goods2024": {
+      "id": "collabo-girls-band-cry-maid-ver-newly-drawn-pop-up-armabianca-anime-store-goods2024",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "79e9fd39ccea7368d021e7b49b4f8b059c8f1763c837592ff7257cc6700f9d96",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "Girls Band Cry「女仆风 Ver.」全新绘制周边 12 月一般发售！",
+      "summaryZh": "女仆风 Ver. 全新绘制周边（无刺有刺＆Diamond Dust）预定 2024 年 12 月上旬一般发售；Anime Store.JP 预约至 7 月 27 日。",
+      "eventDates": [
+        {
+          "date": "2024-07-27",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "12 月上旬无具体日"
+    },
+    "collabo-girls-band-cry-don-quijote-item2024": {
+      "id": "collabo-girls-band-cry-don-quijote-item2024",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "011cab9df2465f7d8e1897eb1953fa1fa904ee4e27abed40bfc9882d14c840a1",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "Girls Band Cry × Don Quijote 7 月 13 日起联动周边登场！",
+      "summaryZh": "《Girls Band Cry》× Don Quijote「Encore」主题限定周边自 2024 年 7 月 13 日 10:00 起发售；满 3000 日元随机赠原创明信片。",
+      "eventDates": [
+        {
+          "date": "2024-07-13",
+          "kind": "sale",
+          "startTime": "10:00"
+        }
+      ],
+      "reviewNotes": "去掉重复 hold"
+    },
+    "collabo-girls-band-cry-togetoge-diamond-dust-cospa-anime-store-goods2024": {
+      "id": "collabo-girls-band-cry-togetoge-diamond-dust-cospa-anime-store-goods2024",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "6352865712d982d1fcac9fc2b0e34230f98b51eb1b5b38134449118bd2437cdc",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "Girls Band Cry 刺刺＆Diamond Dust 亚克力立牌 9 月发售！",
+      "summaryZh": "第 11 话 Live 服装无刺有刺 5 人与 Diamond Dust 4 人共 9 款亚克力立牌由二次元 COSPA 预定 2024 年 9 月下旬发售；Anime Store.JP 预约至 7 月 13 日。",
+      "eventDates": [
+        {
+          "date": "2024-07-13",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "9 月下旬无具体日"
+    },
+    "collabo-girls-band-cry-nina-figure-kotobukiya-anime-store-goods2024": {
+      "id": "collabo-girls-band-cry-nina-figure-kotobukiya-anime-store-goods2024",
+      "sourceId": "collabo-cafe",
+      "status": "reviewed",
+      "contentFingerprint": "7bba8ba046ef1c8646f7a058d84ae65324f718585210ba21055dc00aa90259ac",
+      "reviewedAt": "2026-07-17T16:00:00.000Z",
+      "titleZh": "Girls Band Cry 第 1 弹是仁菜！无刺有刺 5 人决定立体化！",
+      "summaryZh": "寿屋将制作无刺有刺 5 人 OP MV 舞台服装手办；第 1 弹井芹仁菜 1/7 预定 2025 年 4 月发售（25960 日元）。Anime Store.JP 预约至 2024 年 10 月 7 日。",
+      "eventDates": [
+        {
+          "date": "2024-10-07",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "4 月发售无具体日"
     }
   }
 }
