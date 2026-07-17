@@ -300,16 +300,11 @@ DTSTART;VALUE=DATE:20240529
 DTEND;VALUE=DATE:20240530
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 「ガールズバンドクライ」のヴィレッジヴ
- ァンガード限定商品第２弾＜Free time＞シリーズが発売
- 決定！！
-DESCRIPTION:「トゲナシトゲアリ」と「ダイヤモンドダスト
- 」メンバーそれぞれの趣味をテーマに描き下ろしたヴ
- ィレヴァン限定グッズが5/29(金）より発売決定いたしま
- した！\n本日よりヴィレッジヴァンガード公式オンライ
- ンストアにて通販も開始いたします！\nこの機会にぜひ
- お買い求めください！\n 特集は こちら\n\n
- https://girls-band-cry.com/news/post-145.html
+SUMMARY:[发售] 《Girls Band Cry》Village Vanguard 限定商品第 2 弹
+ 〈Free time〉系列发售决定！！
+DESCRIPTION:以无刺有刺与 Diamond Dust 成员兴趣为主题的 Villag
+ e Vanguard 限定周边自 5/29 起发售，官方网店同步开售。\n\
+ nhttps://girls-band-cry.com/news/post-145.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-145.html
 CATEGORIES:togenashi,goods
 END:VEVENT

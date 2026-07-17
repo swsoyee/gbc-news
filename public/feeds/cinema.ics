@@ -630,44 +630,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-90.html
 CATEGORIES:togenashi,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-165-2024-06-14-hold@gbc-news
-DTSTAMP:20240614T000000Z
-DTSTART;VALUE=DATE:20240614
-DTEND;VALUE=DATE:20240615
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] ニコニコ「 アニメ『ガールズバンドクライ
- 』 1～10話振り返り上映会 」および無料配信中止のお知
- らせ
-DESCRIPTION:現在ニコニコ各種サービス（ニコニコ動画・ニ
- コニコ生放送・ニコニコチャンネルを含む全般）で障
- 害が発生しております。\n6月14日予定しておりました「
-  アニメ『ガールズバンドクライ』 1～10話振り返り上映
- 会 」および無料配信については中止とさせていただき
- ます。\n【 ニコニコからのおしらせ 】 配信を楽しみに
- していただいてた中 このような判断となり誠に申し訳
- ござい\n\nhttps://girls-band-cry.com/news/post-165.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-165.html
-CATEGORIES:togenashi,cinema,media
-END:VEVENT
-BEGIN:VEVENT
 UID:post-151-2024-06-21-hold-1900@gbc-news
 DTSTAMP:20240621T100000Z
 DTSTART:20240621T100000Z
 DTEND:20240621T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.1〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.1がいよいよ2024年6月26日(水)より発売開始
- ！\n発売を記念して、リミスタでのオンライントーク配
- 信の開催が決定！\nリミスタにて対象商品をご購入いた
- だいたお客様に、TVアニメ『ガ\n\n
- https://girls-band-cry.com/news/post-151.html
+SUMMARY:[举办] TV 动画《Girls Band Cry》Vol.1〈豪华限定版〉发
+ 售纪念线上 talk 配信举办通知
+DESCRIPTION:纪念 6/26 发售的 Vol.1 豪华限定版，6 月 21 日 19:0
+ 0–20:00 于 Limista 举办线上 talk；购入可获徽章，抽选 20 
+ 名获签名海报。\n\nhttps://girls-band-cry.com/news/post-151.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-151.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
@@ -735,13 +708,9 @@ DTSTART;VALUE=DATE:20240626
 DTEND;VALUE=DATE:20240627
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] Blu-ray &#038\; DVD 第1巻ジャケット初公開！
-DESCRIPTION:TVアニメ『ガールズバンドクライ』 キャラクタ
- ーデザイン手島nari 描きおろし Blu-ray & DVD 第1巻ジャケ
- ット初公開！\nVol.1＜豪華限定版＞ 2024/6/26(水) Release 仕
- 様：デジジャケット仕様 / 三方背スリーブケース 収録
- 内容： 第1話 ご予約は こちら ▼封入特典 ・特典映像 (
- 本予告第1弾 / 本予告第2弾\n\n
+SUMMARY:[发售] Blu-ray & DVD 第 1 卷封面初公开！
+DESCRIPTION:公开手島nari 绘制的 Vol.1 豪华限定版封面；2024/6
+ /26 发售，含特典 CD、票务先行券等。\n\n
  https://girls-band-cry.com/news/post-142.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-142.html
 CATEGORIES:togenashi,live,music,cinema
@@ -753,16 +722,27 @@ DTSTART;VALUE=DATE:20240626
 DTEND;VALUE=DATE:20240627
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 新曲 「碧いif」視聴動画
- 公開
-DESCRIPTION:TVアニメ「ガールズバンドクライ」Blu-ray/DVD Vol.
- 1（豪華限定版） 2024/6/26(水) Release ▼動画は こちら か
- ら TVアニメ「ガールズバンドクライ」Blu-ray/DVD Vol.1（豪
- 華限定版） 【Blu-ray+CD】 UMXK-9034 ￥4\,950(税込) 【DVD+CD】 
- UMBK-9312 ￥3\,850(税込)\n\n
+SUMMARY:[发售] 无刺有刺 新曲「碧いif」试听影像公开
+DESCRIPTION:公开封入 Blu-ray/DVD Vol.1 豪华限定版特典 CD 的新
+ 曲「碧いif」试听影像；Vol.1 于 6/26 发售。\n\n
  https://girls-band-cry.com/news/post-146.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-146.html
 CATEGORIES:togenashi,live,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-151-2024-06-26-sale@gbc-news
+DTSTAMP:20240626T000000Z
+DTSTART;VALUE=DATE:20240626
+DTEND;VALUE=DATE:20240627
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] TV 动画《Girls Band Cry》Vol.1〈豪华限定版〉发
+ 售纪念线上 talk 配信举办通知
+DESCRIPTION:纪念 6/26 发售的 Vol.1 豪华限定版，6 月 21 日 19:0
+ 0–20:00 于 Limista 举办线上 talk；购入可获徽章，抽选 20 
+ 名获签名海报。\n\nhttps://girls-band-cry.com/news/post-151.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-151.html
+CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-192-2024-07-26-hold-1900@gbc-news

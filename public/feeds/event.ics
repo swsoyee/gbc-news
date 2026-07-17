@@ -1247,15 +1247,10 @@ DTSTART:20240517T150000Z
 DTEND:20240517T235900Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 【超短期ゲリラ企画】第7話実況キャンペー
- ン開催！
-DESCRIPTION:超短期ゲリラ企画 「ガールズバンドクライ」 T
- Vアニメ第7話実況＆感想投稿キャンペーン 第7話の実況
- を盛り上げてくださる皆様に感謝を込めて超短期キャ
- ンペーンを開催します ⏰5/18(土)0:00～8:59まで⏰ ①Xで(
- ＠girlsbandcry）をフォロー Tweets by girlsbandcry ②Xで【#ガル
- クラ】 をつけてアニメ「ガール\n\n
- https://girls-band-cry.com/news/post-138.html
+SUMMARY:[举办] 【超短期游击企划】第 7 话实况活动举办！
+DESCRIPTION:第 7 话实况＆感想投稿活动于 5/18 0:00–8:59 举办
+ ；关注官方 X 并以 #ガルクラ 投稿，抽选 1 名获签名海
+ 报。\n\nhttps://girls-band-cry.com/news/post-138.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-138.html
 CATEGORIES:togenashi,event
 END:VEVENT
@@ -1266,32 +1261,11 @@ DTSTART:20240518T020000Z
 DTEND:20240518T063000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] アニメ「ガールズバンドクライ」一挙配信
- 記念キャンペーン開催！
-DESCRIPTION:TVアニメ「ガールズバンドクライ」 5月18日(土)1
- 1時～ 第1～7話リアタイ限定無料一挙配信 配信ページは
-  こちら 一挙配信を記念して、Xキャンペーンを行いま
- す ⏰5/18(土)11:00～15:30まで⏰ ①Xで(＠girlsbandcry）をフォ
- ロー Tweets by girlsbandcry ②Xで【#ガルクラ】 をつけてア
- ニメ「ガー\n\nhttps://girls-band-cry.com/news/post-140.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-140.html
-CATEGORIES:togenashi,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-140-2024-05-18-hold-1100@gbc-news
-DTSTAMP:20240518T020000Z
-DTSTART:20240518T020000Z
-DTEND:20240518T040000Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] アニメ「ガールズバンドクライ」一挙配信
- 記念キャンペーン開催！
-DESCRIPTION:TVアニメ「ガールズバンドクライ」 5月18日(土)1
- 1時～ 第1～7話リアタイ限定無料一挙配信 配信ページは
-  こちら 一挙配信を記念して、Xキャンペーンを行いま
- す ⏰5/18(土)11:00～15:30まで⏰ ①Xで(＠girlsbandcry）をフォ
- ロー Tweets by girlsbandcry ②Xで【#ガルクラ】 をつけてア
- ニメ「ガー\n\nhttps://girls-band-cry.com/news/post-140.html
+SUMMARY:[举办] 动画《Girls Band Cry》一举配信纪念活动举办
+ ！
+DESCRIPTION:纪念 5/18 11:00 起第 1–7 话一举配信，同日 11:00
+ –15:30 举办 X 实况投稿活动，抽选 5 名获签名海报。\n\n
+ https://girls-band-cry.com/news/post-140.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-140.html
 CATEGORIES:togenashi,event
 END:VEVENT
@@ -1356,39 +1330,16 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-128.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-167-2024-06-14-hold@gbc-news
-DTSTAMP:20240614T000000Z
-DTSTART;VALUE=DATE:20240614
-DTEND;VALUE=DATE:20240615
-TRANSP:TRANSPARENT
+UID:post-167-2024-06-15-hold-0030@gbc-news
+DTSTAMP:20240614T153000Z
+DTSTART:20240614T153000Z
+DTEND:20240614T235900Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 【超短期ゲリラ企画】第11話実況キャンペ
- ーン開催！
-DESCRIPTION:超短期ゲリラ企画 「ガールズバンドクライ」 T
- Vアニメ第11話実況＆感想投稿キャンペーン 第11話の実
- 況を盛り上げてくださる皆様に感謝を込めてキャンペ
- ーンを開催します ⏰6/14(金)24:30～6/15(土)8:59まで⏰ ①X
- で(＠girlsbandcry）をフォロー Tweets by girlsbandcry ②Xで【#
- ガルクラ】 をつけて\n\n
- https://girls-band-cry.com/news/post-167.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-167.html
-CATEGORIES:togenashi,event
-END:VEVENT
-BEGIN:VEVENT
-UID:post-167-2024-06-15-hold@gbc-news
-DTSTAMP:20240615T000000Z
-DTSTART;VALUE=DATE:20240615
-DTEND;VALUE=DATE:20240616
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 【超短期ゲリラ企画】第11話実況キャンペ
- ーン開催！
-DESCRIPTION:超短期ゲリラ企画 「ガールズバンドクライ」 T
- Vアニメ第11話実況＆感想投稿キャンペーン 第11話の実
- 況を盛り上げてくださる皆様に感謝を込めてキャンペ
- ーンを開催します ⏰6/14(金)24:30～6/15(土)8:59まで⏰ ①X
- で(＠girlsbandcry）をフォロー Tweets by girlsbandcry ②Xで【#
- ガルクラ】 をつけて\n\n
+SUMMARY:[举办] 【超短期游击企划】第 11 话实况活动举办！
+DESCRIPTION:第 11 话实况＆感想投稿活动于 6/15 0:30–8:59 举
+ 办（对应播出档 6/14 24:30 起）；关注官方 X 并以 #ガルク
+ ラ 投稿，抽选 1 名获签名海报。\n\n
  https://girls-band-cry.com/news/post-167.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-167.html
 CATEGORIES:togenashi,event
@@ -1400,17 +1351,11 @@ DTSTART:20240621T100000Z
 DTEND:20240621T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.1〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.1がいよいよ2024年6月26日(水)より発売開始
- ！\n発売を記念して、リミスタでのオンライントーク配
- 信の開催が決定！\nリミスタにて対象商品をご購入いた
- だいたお客様に、TVアニメ『ガ\n\n
- https://girls-band-cry.com/news/post-151.html
+SUMMARY:[举办] TV 动画《Girls Band Cry》Vol.1〈豪华限定版〉发
+ 售纪念线上 talk 配信举办通知
+DESCRIPTION:纪念 6/26 发售的 Vol.1 豪华限定版，6 月 21 日 19:0
+ 0–20:00 于 Limista 举办线上 talk；购入可获徽章，抽选 20 
+ 名获签名海报。\n\nhttps://girls-band-cry.com/news/post-151.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-151.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
@@ -1452,6 +1397,21 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-116.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-151-2024-06-26-sale@gbc-news
+DTSTAMP:20240626T000000Z
+DTSTART;VALUE=DATE:20240626
+DTEND;VALUE=DATE:20240627
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] TV 动画《Girls Band Cry》Vol.1〈豪华限定版〉发
+ 售纪念线上 talk 配信举办通知
+DESCRIPTION:纪念 6/26 发售的 Vol.1 豪华限定版，6 月 21 日 19:0
+ 0–20:00 于 Limista 举办线上 talk；购入可获徽章，抽选 20 
+ 名获签名海报。\n\nhttps://girls-band-cry.com/news/post-151.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-151.html
+CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-186-2024-07-01_2024-07-31-hold@gbc-news
 DTSTAMP:20240701T000000Z
 DTSTART;VALUE=DATE:20240701
@@ -1473,17 +1433,26 @@ DTSTART:20240702T100000Z
 DTEND:20240702T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ［fromガールズバンドクラ
- イ］ 9th Single『空白とカタルシス』オンライントーク配
- 信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド ‘’トゲナシトゲアリ‘’ 7 月10日(水)
- 9th Single『空白とカタルシス』の発売を記念して、 リミ
- スタでのオンライントーク配信 の開催が決定！\nリミ
- スタにて対象商品をご購入いただいたお客様に、アニ
- メ「ガールズバンドクライ」のビジュアルを使用し\n\n
- https://girls-band-cry.com/news/post-171.html
+SUMMARY:[举办] 无刺有刺［from Girls Band Cry］9th Single《空白
+ とカタルシス》线上 talk 配信举办通知
+DESCRIPTION:纪念 7/10 发售的 9th Single，7 月 2 日 19:00–20:00 
+ 于 Limista 举办线上 talk；购入可获视觉卡，抽选 200 名获
+ 成员签名。\n\nhttps://girls-band-cry.com/news/post-171.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-171.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-171-2024-07-10-sale@gbc-news
+DTSTAMP:20240710T000000Z
+DTSTART;VALUE=DATE:20240710
+DTEND;VALUE=DATE:20240711
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺［from Girls Band Cry］9th Single《空白
+ とカタルシス》线上 talk 配信举办通知
+DESCRIPTION:纪念 7/10 发售的 9th Single，7 月 2 日 19:00–20:00 
+ 于 Limista 举办线上 talk；购入可获视觉卡，抽选 200 名获
+ 成员签名。\n\nhttps://girls-band-cry.com/news/post-171.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-171.html
 CATEGORIES:togenashi,live,event
 END:VEVENT

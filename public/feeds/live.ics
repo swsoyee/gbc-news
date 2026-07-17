@@ -952,37 +952,43 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-89.html
 CATEGORIES:togenashi,live,music,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-134-2024-05-17-hold@gbc-news
-DTSTAMP:20240517T000000Z
-DTSTART;VALUE=DATE:20240517
-DTEND;VALUE=DATE:20240518
-TRANSP:TRANSPARENT
+UID:post-134-2024-05-17-hold-1730@gbc-news
+DTSTAMP:20240517T083000Z
+DTSTART:20240517T083000Z
+DTEND:20240517T103000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] ABEMAにて無料一挙配信決定！
-DESCRIPTION:ABEMAにて2度のリアタイ限定無料配信 YouTubeでキ
- ャストによる生オーディオコメンタリーも実施！\nここ
- までの流れを振り返り、今後の物語に備えましょう ま
- だ「ガールズバンドクライ」を見たことがない方もこ
- の機会にぜひチャックしてください！\n1⃣【第1-6話一
- 挙】5/17(金) 17時40分~\n\n
+SUMMARY:[举办] ABEMA 免费一举配信决定！
+DESCRIPTION:ABEMA 于 5/17 17:40 起一举第 1–6 话（另有 YouTube 
+ 音频评论），5/18 11:00 起一举第 1–7 话。\n\n
  https://girls-band-cry.com/news/post-134.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-134.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
-UID:post-134-2024-05-18-hold@gbc-news
-DTSTAMP:20240518T000000Z
-DTSTART;VALUE=DATE:20240518
-DTEND;VALUE=DATE:20240519
-TRANSP:TRANSPARENT
+UID:post-134-2024-05-17-hold-1740@gbc-news
+DTSTAMP:20240517T084000Z
+DTSTART:20240517T084000Z
+DTEND:20240517T104000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] ABEMAにて無料一挙配信決定！
-DESCRIPTION:ABEMAにて2度のリアタイ限定無料配信 YouTubeでキ
- ャストによる生オーディオコメンタリーも実施！\nここ
- までの流れを振り返り、今後の物語に備えましょう ま
- だ「ガールズバンドクライ」を見たことがない方もこ
- の機会にぜひチャックしてください！\n1⃣【第1-6話一
- 挙】5/17(金) 17時40分~\n\n
+SUMMARY:[举办] ABEMA 免费一举配信决定！
+DESCRIPTION:ABEMA 于 5/17 17:40 起一举第 1–6 话（另有 YouTube 
+ 音频评论），5/18 11:00 起一举第 1–7 话。\n\n
+ https://girls-band-cry.com/news/post-134.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-134.html
+CATEGORIES:togenashi,live
+END:VEVENT
+BEGIN:VEVENT
+UID:post-134-2024-05-18-hold-1100@gbc-news
+DTSTAMP:20240518T020000Z
+DTSTART:20240518T020000Z
+DTEND:20240518T040000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] ABEMA 免费一举配信决定！
+DESCRIPTION:ABEMA 于 5/17 17:40 起一举第 1–6 话（另有 YouTube 
+ 音频评论），5/18 11:00 起一举第 1–7 话。\n\n
  https://girls-band-cry.com/news/post-134.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-134.html
 CATEGORIES:togenashi,live
@@ -1015,15 +1021,11 @@ DTSTART;VALUE=DATE:20240614
 DTEND;VALUE=DATE:20240615
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 第11話「世界のまん中」WEB予告＆あらすじ
- を公開！
-DESCRIPTION:第11話「世界のまん中」 6/14(金)24:30～放送 放送
- ・配信情報は こちら ＜あらすじ＞ フェスに向けて練
- 習を重ねる仁菜達。\nバンドとしてまとまりがでてきた
- 。\nフェス会場の広い観客席、⼤きいステージを見て気
- 合いが⼊る。\nすばるは自分が本当にやりたいことに向
- き合う意思を固めていた。\n\n
- https://girls-band-cry.com/news/post-166.html
+SUMMARY:[举办] 第 11 话「世界のまん中」WEB 预告＆剧情概
+ 要公开！
+DESCRIPTION:第 11 话「世界のまん中」于 6/14（五）24:30 起播
+ 出；仁菜等人备战音乐节，昴坚定面对真正想做的事。\n
+ \nhttps://girls-band-cry.com/news/post-166.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-166.html
 CATEGORIES:togenashi,live,media
 END:VEVENT
@@ -1049,17 +1051,11 @@ DTSTART:20240621T100000Z
 DTEND:20240621T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』 Vol.1〈
- 豪華限定版〉［Blu-ray＋CD/DVD＋CD］発売記念 オンライン
- トーク配信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ『ガールズバンドクライ』待望の映像商品、TVアニメ
- 『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/D
- VD＋CD］のVol.1がいよいよ2024年6月26日(水)より発売開始
- ！\n発売を記念して、リミスタでのオンライントーク配
- 信の開催が決定！\nリミスタにて対象商品をご購入いた
- だいたお客様に、TVアニメ『ガ\n\n
- https://girls-band-cry.com/news/post-151.html
+SUMMARY:[举办] TV 动画《Girls Band Cry》Vol.1〈豪华限定版〉发
+ 售纪念线上 talk 配信举办通知
+DESCRIPTION:纪念 6/26 发售的 Vol.1 豪华限定版，6 月 21 日 19:0
+ 0–20:00 于 Limista 举办线上 talk；购入可获徽章，抽选 20 
+ 名获签名海报。\n\nhttps://girls-band-cry.com/news/post-151.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-151.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
@@ -1127,13 +1123,9 @@ DTSTART;VALUE=DATE:20240626
 DTEND;VALUE=DATE:20240627
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] Blu-ray &#038\; DVD 第1巻ジャケット初公開！
-DESCRIPTION:TVアニメ『ガールズバンドクライ』 キャラクタ
- ーデザイン手島nari 描きおろし Blu-ray & DVD 第1巻ジャケ
- ット初公開！\nVol.1＜豪華限定版＞ 2024/6/26(水) Release 仕
- 様：デジジャケット仕様 / 三方背スリーブケース 収録
- 内容： 第1話 ご予約は こちら ▼封入特典 ・特典映像 (
- 本予告第1弾 / 本予告第2弾\n\n
+SUMMARY:[发售] Blu-ray & DVD 第 1 卷封面初公开！
+DESCRIPTION:公开手島nari 绘制的 Vol.1 豪华限定版封面；2024/6
+ /26 发售，含特典 CD、票务先行券等。\n\n
  https://girls-band-cry.com/news/post-142.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-142.html
 CATEGORIES:togenashi,live,music,cinema
@@ -1145,16 +1137,27 @@ DTSTART;VALUE=DATE:20240626
 DTEND;VALUE=DATE:20240627
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 新曲 「碧いif」視聴動画
- 公開
-DESCRIPTION:TVアニメ「ガールズバンドクライ」Blu-ray/DVD Vol.
- 1（豪華限定版） 2024/6/26(水) Release ▼動画は こちら か
- ら TVアニメ「ガールズバンドクライ」Blu-ray/DVD Vol.1（豪
- 華限定版） 【Blu-ray+CD】 UMXK-9034 ￥4\,950(税込) 【DVD+CD】 
- UMBK-9312 ￥3\,850(税込)\n\n
+SUMMARY:[发售] 无刺有刺 新曲「碧いif」试听影像公开
+DESCRIPTION:公开封入 Blu-ray/DVD Vol.1 豪华限定版特典 CD 的新
+ 曲「碧いif」试听影像；Vol.1 于 6/26 发售。\n\n
  https://girls-band-cry.com/news/post-146.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-146.html
 CATEGORIES:togenashi,live,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-151-2024-06-26-sale@gbc-news
+DTSTAMP:20240626T000000Z
+DTSTART;VALUE=DATE:20240626
+DTEND;VALUE=DATE:20240627
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] TV 动画《Girls Band Cry》Vol.1〈豪华限定版〉发
+ 售纪念线上 talk 配信举办通知
+DESCRIPTION:纪念 6/26 发售的 Vol.1 豪华限定版，6 月 21 日 19:0
+ 0–20:00 于 Limista 举办线上 talk；购入可获徽章，抽选 20 
+ 名获签名海报。\n\nhttps://girls-band-cry.com/news/post-151.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-151.html
+CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-183-2024-06-28-hold@gbc-news
@@ -1178,17 +1181,11 @@ DTSTART:20240702T100000Z
 DTEND:20240702T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ［fromガールズバンドクラ
- イ］ 9th Single『空白とカタルシス』オンライントーク配
- 信 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド ‘’トゲナシトゲアリ‘’ 7 月10日(水)
- 9th Single『空白とカタルシス』の発売を記念して、 リミ
- スタでのオンライントーク配信 の開催が決定！\nリミ
- スタにて対象商品をご購入いただいたお客様に、アニ
- メ「ガールズバンドクライ」のビジュアルを使用し\n\n
- https://girls-band-cry.com/news/post-171.html
+SUMMARY:[举办] 无刺有刺［from Girls Band Cry］9th Single《空白
+ とカタルシス》线上 talk 配信举办通知
+DESCRIPTION:纪念 7/10 发售的 9th Single，7 月 2 日 19:00–20:00 
+ 于 Limista 举办线上 talk；购入可获视觉卡，抽选 200 名获
+ 成员签名。\n\nhttps://girls-band-cry.com/news/post-171.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-171.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
@@ -1206,6 +1203,21 @@ DESCRIPTION:无刺有刺将于 2024 年 7 月 5 日正午起在 Girls Band
  https://girls-band-cry.com/news/post-193.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-193.html
 CATEGORIES:togenashi,live
+END:VEVENT
+BEGIN:VEVENT
+UID:post-171-2024-07-10-sale@gbc-news
+DTSTAMP:20240710T000000Z
+DTSTART;VALUE=DATE:20240710
+DTEND;VALUE=DATE:20240711
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺［from Girls Band Cry］9th Single《空白
+ とカタルシス》线上 talk 配信举办通知
+DESCRIPTION:纪念 7/10 发售的 9th Single，7 月 2 日 19:00–20:00 
+ 于 Limista 举办线上 talk；购入可获视觉卡，抽选 200 名获
+ 成员签名。\n\nhttps://girls-band-cry.com/news/post-171.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-171.html
+CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-188-2024-07-10-sale@gbc-news

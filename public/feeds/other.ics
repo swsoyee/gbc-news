@@ -14,16 +14,11 @@ DTSTART:20240531T020000Z
 DTEND:20240531T030000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] 5/31（金）よりAniBirthでのガールズバンドク
- ライ新商品発売決定！！
-DESCRIPTION:AniBirthでのガールズバンドクライ新商品の発売
- が決定しました！\n 今回新たに登場するのはクリアボ
- トル、ナップサック、通話画面風アクリルスタンド、
- トートバッグ、Tシャツの5アイテム！\nクリアボトルは
- これからの季節のお出かけにぴったりなアイテム！\nボ
- トル全体にトゲナシトゲアリの5人が描かれています！\
- nナップサックはトゲナシトゲアリの5人のシルエットが
- かっ\n\nhttps://girls-band-cry.com/news/post-149.html
+SUMMARY:[发售] 5/31（五）起 AniBirth 发售 Girls Band Cry 新商品
+ ！！
+DESCRIPTION:AniBirth 自 5/31 起发售透明瓶、抽绳包、托特包、
+ T 恤等；通话画面风亚克力立牌延期发售。\n\n
+ https://girls-band-cry.com/news/post-149.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-149.html
 CATEGORIES:togenashi,other
 END:VEVENT
@@ -34,16 +29,11 @@ DTSTART:20240614T020000Z
 DTEND:20240614T030000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[发售] 6/14（金）よりAniBirthでのガールズバンドク
- ライ新商品発売決定！！
-DESCRIPTION:AniBirthでのガールズバンドクライ新商品の発売
- が決定しました！\n今回新たに登場するのはクリアマル
- チケース、リストバンド、通話画面風アクリルスタン
- ドの3アイテム！\nスタイリッシュなデザインのクリア
- マルチケースはカラビナも付いた、普段使いしやすい
- アイテムです！\nリストバンドはトゲナシトゲアリの5
- 人とトゲナシトゲアリロゴの6種展開！\n携帯の通話画
- 面のようなデ\n\nhttps://girls-band-cry.com/news/post-163.html
+SUMMARY:[发售] 6/14（五）起 AniBirth 发售 Girls Band Cry 新商品
+ ！！
+DESCRIPTION:AniBirth 自 6/14 起发售透明多功能包、手环、通话
+ 画面风亚克力立牌等周边；官方商店约 6 月下旬–7 月上
+ 旬发售。\n\nhttps://girls-band-cry.com/news/post-163.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-163.html
 CATEGORIES:togenashi,other
 END:VEVENT
@@ -83,14 +73,11 @@ DTSTART;VALUE=DATE:20240710
 DTEND;VALUE=DATE:20240711
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ 9th Single「空白とカタル
- シス」 2024/7/10(水) 発売
-DESCRIPTION:トゲナシトゲアリ 9th Single「空白とカタルシス
- 」 2024/7/10(水) 発売 【アーティスト】 トゲナシトゲア
- リ Vo.井芹 仁菜（CV:理名） Gt.河原木 桃香（CV:夕莉） Dr.
- 安和 すばる（CV: 美怜） Key.海老塚 智（CV: 凪都） Ba.ル
- パ （CV: 朱李） 【発売日】 2024年7月10日(水) 【品番・価
- 格】\n\nhttps://girls-band-cry.com/news/post-169.html
+SUMMARY:[发售] 无刺有刺 9th Single《空白とカタルシス》2024/
+ 7/10（三）发售
+DESCRIPTION:无刺有刺 9th Single《空白とカタルシス》于 2024 
+ 年 7 月 10 日（三）发售。\n\n
+ https://girls-band-cry.com/news/post-169.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-169.html
 CATEGORIES:togenashi,other
 END:VEVENT
@@ -101,11 +88,10 @@ DTSTART;VALUE=DATE:20240710
 DTEND;VALUE=DATE:20240711
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] ダイヤモンドダスト New Single「Cycle Of Sorrow
- 」 2024/7/10(水) 発売
-DESCRIPTION:ダイヤモンドダスト New Single「Cycle Of Sorrow」 202
- 4/7/10(水) 発売 【発売日】 2024年7月10日(水) 【品番・価
- 格】\n\nhttps://girls-band-cry.com/news/post-170.html
+SUMMARY:[发售] Diamond Dust New Single《Cycle Of Sorrow》2024/7/10（
+ 三）发售
+DESCRIPTION:Diamond Dust 新单曲《Cycle Of Sorrow》于 2024 年 7 月 1
+ 0 日（三）发售。\n\nhttps://girls-band-cry.com/news/post-170.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-170.html
 CATEGORIES:togenashi,other
 END:VEVENT

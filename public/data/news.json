@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-17T12:33:15.881Z",
+  "scrapedAt": "2026-07-17T12:35:02.349Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
@@ -8730,7 +8730,9 @@
         }
       ],
       "summary": "ダイヤモンドダスト New Single「Cycle Of Sorrow」 2024/7/10(水) 発売✨ 【発売日】 2024年7月10日(水) 【品番・価格】",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "Diamond Dust New Single《Cycle Of Sorrow》2024/7/10（三）发售",
+      "summaryZh": "Diamond Dust 新单曲《Cycle Of Sorrow》于 2024 年 7 月 10 日（三）发售。"
     },
     {
       "id": "post-171",
@@ -8751,10 +8753,16 @@
           "kind": "hold",
           "startTime": "19:00",
           "endTime": "20:00"
+        },
+        {
+          "date": "2024-07-10",
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが製作するオリジナルアニメ「ガールズバンドクライ」の主題歌を歌う5人編成のガールズバンド ‘’トゲナシトゲアリ‘’ 7 月10日(水)9th Single『空白とカタルシス』の発売を記念して、 リミスタでのオンライントーク配信 の開催が決定！ リミスタにて対象商品をご購入いただいたお客様に、アニメ「ガールズバンドクライ」のビジュアルを使用し",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "无刺有刺［from Girls Band Cry］9th Single《空白とカタルシス》线上 talk 配信举办通知",
+      "summaryZh": "纪念 7/10 发售的 9th Single，7 月 2 日 19:00–20:00 于 Limista 举办线上 talk；购入可获视觉卡，抽选 200 名获成员签名。"
     },
     {
       "id": "post-169",
@@ -8775,7 +8783,9 @@
         }
       ],
       "summary": "トゲナシトゲアリ 9th Single「空白とカタルシス」 2024/7/10(水) 発売✨ 【アーティスト】 トゲナシトゲアリ Vo.井芹 仁菜（CV:理名） Gt.河原木 桃香（CV:夕莉） Dr.安和 すばる（CV: 美怜） Key.海老塚 智（CV: 凪都） Ba.ルパ （CV: 朱李） 【発売日】 2024年7月10日(水) 【品番・価格】",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "无刺有刺 9th Single《空白とカタルシス》2024/7/10（三）发售",
+      "summaryZh": "无刺有刺 9th Single《空白とカタルシス》于 2024 年 7 月 10 日（三）发售。"
     },
     {
       "id": "post-167",
@@ -8791,16 +8801,16 @@
       ],
       "eventDates": [
         {
-          "date": "2024-06-14",
-          "kind": "hold"
-        },
-        {
           "date": "2024-06-15",
-          "kind": "hold"
+          "kind": "hold",
+          "startTime": "00:30",
+          "endTime": "08:59"
         }
       ],
       "summary": "⚠超短期ゲリラ企画⚠ 「ガールズバンドクライ」 TVアニメ第11話実況＆感想投稿キャンペーン✨ 第11話の実況を盛り上げてくださる皆様に感謝を込めてキャンペーンを開催します🎁 ⏰6/14(金)24:30～6/15(土)8:59まで⏰ ①Xで(＠girlsbandcry）をフォロー Tweets by girlsbandcry ②Xで【#ガルクラ】 をつけて",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/06/%E5%AE%9F%E6%B3%81%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B311%E8%A9%B1_HP%E3%83%90%E3%83%8A%E3%83%BC.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/06/%E5%AE%9F%E6%B3%81%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B311%E8%A9%B1_HP%E3%83%90%E3%83%8A%E3%83%BC.png",
+      "titleZh": "【超短期游击企划】第 11 话实况活动举办！",
+      "summaryZh": "第 11 话实况＆感想投稿活动于 6/15 0:30–8:59 举办（对应播出档 6/14 24:30 起）；关注官方 X 并以 #ガルクラ 投稿，抽选 1 名获签名海报。"
     },
     {
       "id": "post-166",
@@ -8822,7 +8832,9 @@
         }
       ],
       "summary": "第11話「世界のまん中」 6/14(金)24:30～放送 放送・配信情報は こちら ＜あらすじ＞ フェスに向けて練習を重ねる仁菜達。バンドとしてまとまりがでてきた。フェス会場の広い観客席、⼤きいステージを見て気合いが⼊る。すばるは自分が本当にやりたいことに向き合う意思を固めていた。",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b1.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b1.png",
+      "titleZh": "第 11 话「世界のまん中」WEB 预告＆剧情概要公开！",
+      "summaryZh": "第 11 话「世界のまん中」于 6/14（五）24:30 起播出；仁菜等人备战音乐节，昴坚定面对真正想做的事。"
     },
     {
       "id": "post-164",
@@ -8839,15 +8851,19 @@
       "eventDates": [
         {
           "date": "2024-06-14",
-          "kind": "hold"
+          "kind": "hold",
+          "startTime": "19:45"
         },
         {
           "date": "2024-06-15",
-          "kind": "hold"
+          "kind": "hold",
+          "startTime": "14:00"
         }
       ],
       "summary": "ダイジェストPV（第1話~第10話＋第11話先行カット）を公開しました✨ 第1話～第10話までのダイジェストと、第11話の先行カットをまとめたPVです🎬 第11話に向けて、気持ちを高めましょう！🔥 第11話放送日の6/14(金)19:45からは 第1～10話無料一挙配信＆生オーディオコメンタリー🎧 ＜ABEMA一挙配信＞ 第1-10話：6/14㈮19:",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/01/%E9%85%8D%E4%BF%A1%E6%83%85%E5%A0%B1_tb.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/01/%E9%85%8D%E4%BF%A1%E6%83%85%E5%A0%B1_tb.png",
+      "titleZh": "TV 动画《Girls Band Cry》摘要 PV（第 1–10 话＋第 11 话先行画面）公开！",
+      "summaryZh": "公开第 1–10 话摘要与第 11 话先行画面 PV；6/14 19:45 起 ABEMA 一举配信并有 X Space 音频评论，6/15 14:00 起再播第 1–11 话。"
     },
     {
       "id": "post-165",
@@ -8862,14 +8878,11 @@
       "groups": [
         "togenashi"
       ],
-      "eventDates": [
-        {
-          "date": "2024-06-14",
-          "kind": "hold"
-        }
-      ],
+      "eventDates": [],
       "summary": "現在ニコニコ各種サービス（ニコニコ動画・ニコニコ生放送・ニコニコチャンネルを含む全般）で障害が発生しております。 6月14日予定しておりました「 アニメ『ガールズバンドクライ』 1～10話振り返り上映会 」および無料配信については中止とさせていただきます。 【 ニコニコからのおしらせ 】 配信を楽しみにしていただいてた中 このような判断となり誠に申し訳ござい",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/01/%E9%85%8D%E4%BF%A1%E6%83%85%E5%A0%B1_tb.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/01/%E9%85%8D%E4%BF%A1%E6%83%85%E5%A0%B1_tb.png",
+      "titleZh": "niconico「动画《Girls Band Cry》1–10 话回顾上映会」及免费配信中止通知",
+      "summaryZh": "因 niconico 服务故障，原定 6/14 的 1–10 话回顾上映会及免费配信中止；ABEMA 免费配信照常实施。"
     },
     {
       "id": "post-163",
@@ -8891,7 +8904,9 @@
         }
       ],
       "summary": "AniBirthでのガールズバンドクライ新商品の発売が決定しました！ 今回新たに登場するのはクリアマルチケース、リストバンド、通話画面風アクリルスタンドの3アイテム！ スタイリッシュなデザインのクリアマルチケースはカラビナも付いた、普段使いしやすいアイテムです！ リストバンドはトゲナシトゲアリの5人とトゲナシトゲアリロゴの6種展開！ 携帯の通話画面のようなデ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "6/14（五）起 AniBirth 发售 Girls Band Cry 新商品！！",
+      "summaryZh": "AniBirth 自 6/14 起发售透明多功能包、手环、通话画面风亚克力立牌等周边；官方商店约 6 月下旬–7 月上旬发售。"
     },
     {
       "id": "post-162",
@@ -8974,7 +8989,9 @@
         }
       ],
       "summary": "📅6/7(金)23:45~ 第9話同時視聴復習トーク 第10話放送前に第7話をいっしょに復習しましょう♪ 海老塚智役の凪都 ルパ役の朱李 が第9話を観ながら「ガールズバンドクライ」公式Xにてスペース（オンライントーク）配信を行います🎤 ※アニメ「ガールズバンドクライ」を配信中の各サービスで第9話を観ながらお聴きください🎧 📺配信情報は こちら リアタ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/06/Space%E5%91%8A%E7%9F%A5%E7%94%BB%E5%83%8F_9%E8%A9%B1_hp-1024x576.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/06/Space%E5%91%8A%E7%9F%A5%E7%94%BB%E5%83%8F_9%E8%A9%B1_hp-1024x576.jpg",
+      "titleZh": "第 10 话播出直前 第 9 话同步观看 Space 配信决定！",
+      "summaryZh": "6/7 23:45 起凪都・朱李在官方 X Space 同步观看复习第 9 话（仅实时）。"
     },
     {
       "id": "post-157",
@@ -8991,12 +9008,35 @@
       "eventDates": [
         {
           "date": "2024-06-14",
+          "endDate": "2024-06-16",
+          "kind": "hold"
+        },
+        {
+          "date": "2024-06-14",
           "kind": "hold",
-          "endDate": "2024-06-16"
+          "startTime": "15:00",
+          "endTime": "19:30"
+        },
+        {
+          "date": "2024-06-14",
+          "kind": "hold",
+          "startTime": "19:30"
+        },
+        {
+          "date": "2024-06-14",
+          "kind": "hold",
+          "startTime": "19:45"
+        },
+        {
+          "date": "2024-06-15",
+          "kind": "hold",
+          "startTime": "14:00"
         }
       ],
       "summary": "◆6/14～6/16の3日間限定 ◆1話～最新話 ▼ご視聴ページ ＜ ABEMA ＞ ＜ ニコニコ動画 ＞ 更に無料一挙放送も決定🔥 ＜ニコニコ生放送＞ 第1-10話：6/14㈮15:00~19:30 ご視聴ページは こちら ＜ABEMA＞ 第1-10話：6/14㈮19:45~ ご視聴ページは こちら 第1-11話：6/15㈯14:00~ ご視聴ページは ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/01/%E9%85%8D%E4%BF%A1%E6%83%85%E5%A0%B1_tb.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/01/%E9%85%8D%E4%BF%A1%E6%83%85%E5%A0%B1_tb.png",
+      "titleZh": "TV 动画《Girls Band Cry》免费配信＆一举配信决定！",
+      "summaryZh": "6/14–6/16 三日限定免费配信最新话；另有 niconico/ABEMA 一举及 6/14 19:30 起官方 X Space 音频评论。"
     },
     {
       "id": "post-156",
@@ -9095,10 +9135,16 @@
           "kind": "hold",
           "startTime": "19:00",
           "endTime": "20:00"
+        },
+        {
+          "date": "2024-06-26",
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが製作するオリジナルアニメ『ガールズバンドクライ』待望の映像商品、TVアニメ『ガールズバンドクライ』〈豪華限定版〉［Blu-ray＋CD/DVD＋CD］のVol.1がいよいよ2024年6月26日(水)より発売開始！ 発売を記念して、リミスタでのオンライントーク配信の開催が決定！ リミスタにて対象商品をご購入いただいたお客様に、TVアニメ『ガ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png",
+      "titleZh": "TV 动画《Girls Band Cry》Vol.1〈豪华限定版〉发售纪念线上 talk 配信举办通知",
+      "summaryZh": "纪念 6/26 发售的 Vol.1 豪华限定版，6 月 21 日 19:00–20:00 于 Limista 举办线上 talk；购入可获徽章，抽选 20 名获签名海报。"
     },
     {
       "id": "post-150",
@@ -9135,7 +9181,9 @@
         }
       ],
       "summary": "AniBirthでのガールズバンドクライ新商品の発売が決定しました！🎉 今回新たに登場するのはクリアボトル、ナップサック、通話画面風アクリルスタンド、トートバッグ、Tシャツの5アイテム！ クリアボトルはこれからの季節のお出かけにぴったりなアイテム！ ボトル全体にトゲナシトゲアリの5人が描かれています！ ナップサックはトゲナシトゲアリの5人のシルエットがかっ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "5/31（五）起 AniBirth 发售 Girls Band Cry 新商品！！",
+      "summaryZh": "AniBirth 自 5/31 起发售透明瓶、抽绳包、托特包、T 恤等；通话画面风亚克力立牌延期发售。"
     },
     {
       "id": "post-148",
@@ -9173,7 +9221,9 @@
         }
       ],
       "summary": "TVアニメ「ガールズバンドクライ」Blu-ray/DVD Vol.1（豪華限定版） 2024/6/26(水) Release ▼動画は こちら から TVアニメ「ガールズバンドクライ」Blu-ray/DVD Vol.1（豪華限定版） 【Blu-ray+CD】 UMXK-9034 ￥4,950(税込) 【DVD+CD】 UMBK-9312 ￥3,850(税込)",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "无刺有刺 新曲「碧いif」试听影像公开",
+      "summaryZh": "公开封入 Blu-ray/DVD Vol.1 豪华限定版特典 CD 的新曲「碧いif」试听影像；Vol.1 于 6/26 发售。"
     },
     {
       "id": "post-147",
@@ -9209,7 +9259,9 @@
         }
       ],
       "summary": "「トゲナシトゲアリ」と「ダイヤモンドダスト」メンバーそれぞれの趣味をテーマに描き下ろしたヴィレヴァン限定グッズが5/29(金）より発売決定いたしました！ 本日よりヴィレッジヴァンガード公式オンラインストアにて通販も開始いたします！ この機会にぜひお買い求めください！✨ 📓特集は こちら",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "《Girls Band Cry》Village Vanguard 限定商品第 2 弹〈Free time〉系列发售决定！！",
+      "summaryZh": "以无刺有刺与 Diamond Dust 成员兴趣为主题的 Village Vanguard 限定周边自 5/29 起发售，官方网店同步开售。"
     },
     {
       "id": "post-144",
@@ -9231,7 +9283,9 @@
         }
       ],
       "summary": "📅5/24(金)23:45~ 第7話同時視聴復習トーク 第8話放送前に第7話をいっしょに復習しましょう♪ 河原木桃香役の夕莉 ルパ役の朱李 が第7話を観ながらスペース（オンライントーク）配信を行います🎤 ※アニメ「#ガールズバンドクライ」を配信中の各サービスで第7話を観ながらお聴きください🎧 📺配信情報は こちら リアタイ限定配信なのでお見逃しなく\ud83d",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/01/%E9%85%8D%E4%BF%A1%E6%83%85%E5%A0%B1_tb.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/01/%E9%85%8D%E4%BF%A1%E6%83%85%E5%A0%B1_tb.png",
+      "titleZh": "第 8 话播出直前 第 7 话同步观看 Space 配信决定！",
+      "summaryZh": "5/24 23:45 起夕莉・朱李在官方 X Space 同步观看复习第 7 话（仅实时）。"
     },
     {
       "id": "post-143",
@@ -9252,7 +9306,9 @@
         }
       ],
       "summary": "6th Single『雑踏僕らの街』7th Single『誰にもなれない私だから』 発売中！💿 OP主題歌とED主題歌をそれぞれ収録したNew Singleを 5/22に2枚同時にリリースしました！🎸 💿 「雑踏僕らの街』 【価格・品番】 CD : ¥1,430(Tax in)UMCK-5747 初回プレス分封入特典：トレーディングカード (メンバーソ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "6th Single《雑踏僕らの街》7th Single《誰にもなれない私だから》CD 发售日！",
+      "summaryZh": "收录 OP/ED 主题曲的两张单曲于 5/22 同时发售；初回特典为随机成员交易卡。"
     },
     {
       "id": "post-142",
@@ -9275,7 +9331,9 @@
         }
       ],
       "summary": "TVアニメ『ガールズバンドクライ』 キャラクターデザイン手島nari 描きおろし Blu-ray & DVD 第1巻ジャケット初公開！ Vol.1＜豪華限定版＞📀 2024/6/26(水) Release 仕様：デジジャケット仕様 / 三方背スリーブケース 収録内容： 第1話 🔗ご予約は こちら ▼封入特典 ・特典映像 (本予告第1弾 / 本予告第2弾 ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/01/%E9%85%8D%E4%BF%A1%E6%83%85%E5%A0%B1_tb.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/01/%E9%85%8D%E4%BF%A1%E6%83%85%E5%A0%B1_tb.png",
+      "titleZh": "Blu-ray & DVD 第 1 卷封面初公开！",
+      "summaryZh": "公开手島nari 绘制的 Vol.1 豪华限定版封面；2024/6/26 发售，含特典 CD、票务先行券等。"
     },
     {
       "id": "post-141",
@@ -9311,15 +9369,12 @@
           "kind": "hold",
           "startTime": "11:00",
           "endTime": "15:30"
-        },
-        {
-          "date": "2024-05-18",
-          "kind": "hold",
-          "startTime": "11:00"
         }
       ],
       "summary": "TVアニメ「ガールズバンドクライ」 5月18日(土)11時～ 第1～7話リアタイ限定無料一挙配信🎬 📺配信ページは こちら 一挙配信を記念して、Xキャンペーンを行います🎁 ⏰5/18(土)11:00～15:30まで⏰ ①Xで(＠girlsbandcry）をフォロー Tweets by girlsbandcry ②Xで【#ガルクラ】 をつけてアニメ「ガー",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/05/%E4%B8%80%E6%8C%99%E6%94%BE%E9%80%81%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3_HP%E3%83%90%E3%83%8A%E3%83%BC.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/05/%E4%B8%80%E6%8C%99%E6%94%BE%E9%80%81%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3_HP%E3%83%90%E3%83%8A%E3%83%BC.png",
+      "titleZh": "动画《Girls Band Cry》一举配信纪念活动举办！",
+      "summaryZh": "纪念 5/18 11:00 起第 1–7 话一举配信，同日 11:00–15:30 举办 X 实况投稿活动，抽选 5 名获签名海报。"
     },
     {
       "id": "post-139",
@@ -9358,7 +9413,9 @@
         }
       ],
       "summary": "⚠超短期ゲリラ企画⚠ 「ガールズバンドクライ」 TVアニメ第7話実況＆感想投稿キャンペーン✨ 第7話の実況を盛り上げてくださる皆様に感謝を込めて超短期キャンペーンを開催します🎁 ⏰5/18(土)0:00～8:59まで⏰ ①Xで(＠girlsbandcry）をフォロー Tweets by girlsbandcry ②Xで【#ガルクラ】 をつけてアニメ「ガール",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/05/%E5%AE%9F%E6%B3%81%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B37%E8%A9%B1_HP%E3%83%90%E3%83%8A%E3%83%BC.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/05/%E5%AE%9F%E6%B3%81%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B37%E8%A9%B1_HP%E3%83%90%E3%83%8A%E3%83%BC.png",
+      "titleZh": "【超短期游击企划】第 7 话实况活动举办！",
+      "summaryZh": "第 7 话实况＆感想投稿活动于 5/18 0:00–8:59 举办；关注官方 X 并以 #ガルクラ 投稿，抽选 1 名获签名海报。"
     },
     {
       "id": "post-137",
@@ -9428,15 +9485,24 @@
       "eventDates": [
         {
           "date": "2024-05-17",
-          "kind": "hold"
+          "kind": "hold",
+          "startTime": "17:30"
+        },
+        {
+          "date": "2024-05-17",
+          "kind": "hold",
+          "startTime": "17:40"
         },
         {
           "date": "2024-05-18",
-          "kind": "hold"
+          "kind": "hold",
+          "startTime": "11:00"
         }
       ],
       "summary": "ABEMAにて2度のリアタイ限定無料配信📺 YouTubeでキャストによる生オーディオコメンタリーも実施！ ここまでの流れを振り返り、今後の物語に備えましょう👀 まだ「ガールズバンドクライ」を見たことがない方もこの機会にぜひチャックしてください！ 1⃣【第1-6話一挙】5/17(金) 17時40分~ https://abema.tv/channels/a",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/05/GBC_EP6Abema%E4%B8%80%E6%8C%99%E6%94%BE%E9%80%81%E5%91%8A%E7%9F%A5-1024x576.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/05/GBC_EP6Abema%E4%B8%80%E6%8C%99%E6%94%BE%E9%80%81%E5%91%8A%E7%9F%A5-1024x576.jpg",
+      "titleZh": "ABEMA 免费一举配信决定！",
+      "summaryZh": "ABEMA 于 5/17 17:40 起一举第 1–6 话（另有 YouTube 音频评论），5/18 11:00 起一举第 1–7 话。"
     },
     {
       "id": "post-133",

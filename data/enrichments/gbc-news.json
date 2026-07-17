@@ -3957,6 +3957,367 @@
           "kind": "hold"
         }
       ]
+    },
+    "post-169": {
+      "id": "post-169",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "b4b37461f3fc782b014aa1a58f21e31aa9a71ac5e3bcb5e6b2ccccc5918dd638",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "无刺有刺 9th Single《空白とカタルシス》2024/7/10（三）发售",
+      "summaryZh": "无刺有刺 9th Single《空白とカタルシス》于 2024 年 7 月 10 日（三）发售。",
+      "eventDates": [
+        {
+          "date": "2024-07-10",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-170": {
+      "id": "post-170",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "44b303343f6e5b90f2f185424d5e085a96b31f23eb8c60957708703bf833cec8",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "Diamond Dust New Single《Cycle Of Sorrow》2024/7/10（三）发售",
+      "summaryZh": "Diamond Dust 新单曲《Cycle Of Sorrow》于 2024 年 7 月 10 日（三）发售。",
+      "eventDates": [
+        {
+          "date": "2024-07-10",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-171": {
+      "id": "post-171",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "dca2dfcbf809401748ea6f4369b69300e160694da0a18f184b6842098ab2517a",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "无刺有刺［from Girls Band Cry］9th Single《空白とカタルシス》线上 talk 配信举办通知",
+      "summaryZh": "纪念 7/10 发售的 9th Single，7 月 2 日 19:00–20:00 于 Limista 举办线上 talk；购入可获视觉卡，抽选 200 名获成员签名。",
+      "eventDates": [
+        {
+          "date": "2024-07-02",
+          "kind": "hold",
+          "startTime": "19:00",
+          "endTime": "20:00"
+        },
+        {
+          "date": "2024-07-10",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-167": {
+      "id": "post-167",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f7f5126e468ad33ebf7809656221b9824333b8de665daa25ee49c939075734b7",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "【超短期游击企划】第 11 话实况活动举办！",
+      "summaryZh": "第 11 话实况＆感想投稿活动于 6/15 0:30–8:59 举办（对应播出档 6/14 24:30 起）；关注官方 X 并以 #ガルクラ 投稿，抽选 1 名获签名海报。",
+      "eventDates": [
+        {
+          "date": "2024-06-15",
+          "kind": "hold",
+          "startTime": "00:30",
+          "endTime": "08:59"
+        }
+      ],
+      "reviewNotes": "原文 6/14 24:30 规范为 6/15 00:30"
+    },
+    "post-166": {
+      "id": "post-166",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "ce250cb4c37f45623acfb3ca10059daac5a3ed92ecc815b1f46ea2a07451115a",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "第 11 话「世界のまん中」WEB 预告＆剧情概要公开！",
+      "summaryZh": "第 11 话「世界のまん中」于 6/14（五）24:30 起播出；仁菜等人备战音乐节，昴坚定面对真正想做的事。",
+      "eventDates": [
+        {
+          "date": "2024-06-14",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-163": {
+      "id": "post-163",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "d90291a5d4dc3323fd4a6752b98f37ba7864b55030b64a1fcfdfd5621615c8df",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "6/14（五）起 AniBirth 发售 Girls Band Cry 新商品！！",
+      "summaryZh": "AniBirth 自 6/14 起发售透明多功能包、手环、通话画面风亚克力立牌等周边；官方商店约 6 月下旬–7 月上旬发售。",
+      "eventDates": [
+        {
+          "date": "2024-06-14",
+          "kind": "sale",
+          "startTime": "11:00"
+        }
+      ],
+      "reviewNotes": "官方商店「下旬～上旬」无具体日不补录"
+    },
+    "post-164": {
+      "id": "post-164",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "bee57aeac4e39e53875f1434333f46887c8164efe0eb64a8f2ba3cc9aa2d87bd",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》摘要 PV（第 1–10 话＋第 11 话先行画面）公开！",
+      "summaryZh": "公开第 1–10 话摘要与第 11 话先行画面 PV；6/14 19:45 起 ABEMA 一举配信并有 X Space 音频评论，6/15 14:00 起再播第 1–11 话。",
+      "eventDates": [
+        {
+          "date": "2024-06-14",
+          "kind": "hold",
+          "startTime": "19:45"
+        },
+        {
+          "date": "2024-06-15",
+          "kind": "hold",
+          "startTime": "14:00"
+        }
+      ]
+    },
+    "post-165": {
+      "id": "post-165",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "d1b248fc23047bd03122c58368ff09bbb41edea69a13ab0dc848a16ee2f24b12",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "niconico「动画《Girls Band Cry》1–10 话回顾上映会」及免费配信中止通知",
+      "summaryZh": "因 niconico 服务故障，原定 6/14 的 1–10 话回顾上映会及免费配信中止；ABEMA 免费配信照常实施。",
+      "eventDates": [],
+      "reviewNotes": "活动已中止，清空日程"
+    },
+    "post-158": {
+      "id": "post-158",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "bfaa01b734338aeb4355894be213edb51ed6025177d476f8191a6672175c45e1",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "第 10 话播出直前 第 9 话同步观看 Space 配信决定！",
+      "summaryZh": "6/7 23:45 起凪都・朱李在官方 X Space 同步观看复习第 9 话（仅实时）。",
+      "eventDates": [
+        {
+          "date": "2024-06-07",
+          "kind": "hold",
+          "startTime": "23:45"
+        }
+      ]
+    },
+    "post-157": {
+      "id": "post-157",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "b3663056e92035ea2de72e3227551d2d751fc10b7f39a6fbc02a824dd28873e2",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》免费配信＆一举配信决定！",
+      "summaryZh": "6/14–6/16 三日限定免费配信最新话；另有 niconico/ABEMA 一举及 6/14 19:30 起官方 X Space 音频评论。",
+      "eventDates": [
+        {
+          "date": "2024-06-14",
+          "endDate": "2024-06-16",
+          "kind": "hold"
+        },
+        {
+          "date": "2024-06-14",
+          "kind": "hold",
+          "startTime": "15:00",
+          "endTime": "19:30"
+        },
+        {
+          "date": "2024-06-14",
+          "kind": "hold",
+          "startTime": "19:30"
+        },
+        {
+          "date": "2024-06-14",
+          "kind": "hold",
+          "startTime": "19:45"
+        },
+        {
+          "date": "2024-06-15",
+          "kind": "hold",
+          "startTime": "14:00"
+        }
+      ],
+      "reviewNotes": "三日免费期跨日去时刻；一举与评论保留时刻"
+    },
+    "post-151": {
+      "id": "post-151",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8057f1c6e100e551f5f145e02c405dbc4e7ec0611ba70051ba13025a8ccdef33",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "TV 动画《Girls Band Cry》Vol.1〈豪华限定版〉发售纪念线上 talk 配信举办通知",
+      "summaryZh": "纪念 6/26 发售的 Vol.1 豪华限定版，6 月 21 日 19:00–20:00 于 Limista 举办线上 talk；购入可获徽章，抽选 20 名获签名海报。",
+      "eventDates": [
+        {
+          "date": "2024-06-21",
+          "kind": "hold",
+          "startTime": "19:00",
+          "endTime": "20:00"
+        },
+        {
+          "date": "2024-06-26",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-149": {
+      "id": "post-149",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "0ce4616acff727e7518495f433578c97d39260b956a2d3a806f4a440f9ba4868",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "5/31（五）起 AniBirth 发售 Girls Band Cry 新商品！！",
+      "summaryZh": "AniBirth 自 5/31 起发售透明瓶、抽绳包、托特包、T 恤等；通话画面风亚克力立牌延期发售。",
+      "eventDates": [
+        {
+          "date": "2024-05-31",
+          "kind": "sale",
+          "startTime": "11:00"
+        }
+      ]
+    },
+    "post-146": {
+      "id": "post-146",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "0e40fd20b4c82fc372f336a7e1caffd8e00c288348ec5a305485d954c68d201a",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "无刺有刺 新曲「碧いif」试听影像公开",
+      "summaryZh": "公开封入 Blu-ray/DVD Vol.1 豪华限定版特典 CD 的新曲「碧いif」试听影像；Vol.1 于 6/26 发售。",
+      "eventDates": [
+        {
+          "date": "2024-06-26",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-145": {
+      "id": "post-145",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "e9d35adeac5d4aef8bbd4c0d17bacccc9de8578cc6d0502aa3f0797acfe872d0",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "《Girls Band Cry》Village Vanguard 限定商品第 2 弹〈Free time〉系列发售决定！！",
+      "summaryZh": "以无刺有刺与 Diamond Dust 成员兴趣为主题的 Village Vanguard 限定周边自 5/29 起发售，官方网店同步开售。",
+      "eventDates": [
+        {
+          "date": "2024-05-29",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-144": {
+      "id": "post-144",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "365633bff399eb396a89b052cf3acc6a18d1b59564586ca2424c5ae7ad07d260",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "第 8 话播出直前 第 7 话同步观看 Space 配信决定！",
+      "summaryZh": "5/24 23:45 起夕莉・朱李在官方 X Space 同步观看复习第 7 话（仅实时）。",
+      "eventDates": [
+        {
+          "date": "2024-05-24",
+          "kind": "hold",
+          "startTime": "23:45"
+        }
+      ]
+    },
+    "post-143": {
+      "id": "post-143",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "bcc13f691fef3cfbb42e4a18675e893da3ea11555db53d54c8f06c482cb5f07d",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "6th Single《雑踏僕らの街》7th Single《誰にもなれない私だから》CD 发售日！",
+      "summaryZh": "收录 OP/ED 主题曲的两张单曲于 5/22 同时发售；初回特典为随机成员交易卡。",
+      "eventDates": [
+        {
+          "date": "2024-05-22",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-138": {
+      "id": "post-138",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "677e6139b2162e06ff95862ec4303d62b0ecacb8c71c2f5bb43164c378f8af5c",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "【超短期游击企划】第 7 话实况活动举办！",
+      "summaryZh": "第 7 话实况＆感想投稿活动于 5/18 0:00–8:59 举办；关注官方 X 并以 #ガルクラ 投稿，抽选 1 名获签名海报。",
+      "eventDates": [
+        {
+          "date": "2024-05-18",
+          "kind": "hold",
+          "startTime": "00:00",
+          "endTime": "08:59"
+        }
+      ]
+    },
+    "post-140": {
+      "id": "post-140",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "05e7652f5d79a55f49575326503b69b398ba71ff4015db9c726f45d9e04780ca",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "动画《Girls Band Cry》一举配信纪念活动举办！",
+      "summaryZh": "纪念 5/18 11:00 起第 1–7 话一举配信，同日 11:00–15:30 举办 X 实况投稿活动，抽选 5 名获签名海报。",
+      "eventDates": [
+        {
+          "date": "2024-05-18",
+          "kind": "hold",
+          "startTime": "11:00",
+          "endTime": "15:30"
+        }
+      ],
+      "reviewNotes": "合并重复的一举开播与活动窗口"
+    },
+    "post-142": {
+      "id": "post-142",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "f687bec641e8f2b3fd77bc465333d75f012c38abf2ef199e7151844d74007344",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "Blu-ray & DVD 第 1 卷封面初公开！",
+      "summaryZh": "公开手島nari 绘制的 Vol.1 豪华限定版封面；2024/6/26 发售，含特典 CD、票务先行券等。",
+      "eventDates": [
+        {
+          "date": "2024-06-26",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-134": {
+      "id": "post-134",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "1f357eeeeb00cacb06612665eb5de70ff950fe99256603374ef24bb3f38f10f9",
+      "reviewedAt": "2026-07-17T17:00:00.000Z",
+      "titleZh": "ABEMA 免费一举配信决定！",
+      "summaryZh": "ABEMA 于 5/17 17:40 起一举第 1–6 话（另有 YouTube 音频评论），5/18 11:00 起一举第 1–7 话。",
+      "eventDates": [
+        {
+          "date": "2024-05-17",
+          "kind": "hold",
+          "startTime": "17:30"
+        },
+        {
+          "date": "2024-05-17",
+          "kind": "hold",
+          "startTime": "17:40"
+        },
+        {
+          "date": "2024-05-18",
+          "kind": "hold",
+          "startTime": "11:00"
+        }
+      ]
     }
   }
 }

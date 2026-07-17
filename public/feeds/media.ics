@@ -283,15 +283,10 @@ DTSTART:20240524T144500Z
 DTEND:20240524T164500Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 第8話放送直前 第7話同時視聴スペース配信
- 決定！
-DESCRIPTION:5/24(金)23:45~ 第7話同時視聴復習トーク 第8話放
- 送前に第7話をいっしょに復習しましょう 河原木桃香役
- の夕莉 ルパ役の朱李 が第7話を観ながらスペース（オ
- ンライントーク）配信を行います ※アニメ「#ガールズ
- バンドクライ」を配信中の各サービスで第7話を観なが
- らお聴きください 配信情報は こちら リアタイ限定配
- 信なのでお見逃しなく�\n\n
+SUMMARY:[举办] 第 8 话播出直前 第 7 话同步观看 Space 配信
+ 决定！
+DESCRIPTION:5/24 23:45 起夕莉・朱李在官方 X Space 同步观看复
+ 习第 7 话（仅实时）。\n\n
  https://girls-band-cry.com/news/post-144.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-144.html
 CATEGORIES:togenashi,media
@@ -303,15 +298,10 @@ DTSTART:20240607T144500Z
 DTEND:20240607T164500Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] 第10話放送直前 第9話同時視聴スペース配信
- 決定！
-DESCRIPTION:6/7(金)23:45~ 第9話同時視聴復習トーク 第10話放
- 送前に第7話をいっしょに復習しましょう 海老塚智役の
- 凪都 ルパ役の朱李 が第9話を観ながら「ガールズバン
- ドクライ」公式Xにてスペース（オンライントーク）配
- 信を行います ※アニメ「ガールズバンドクライ」を配
- 信中の各サービスで第9話を観ながらお聴きください 配
- 信情報は こちら リアタ\n\n
+SUMMARY:[举办] 第 10 话播出直前 第 9 话同步观看 Space 配信
+ 决定！
+DESCRIPTION:6/7 23:45 起凪都・朱李在官方 X Space 同步观看复
+ 习第 9 话（仅实时）。\n\n
  https://girls-band-cry.com/news/post-158.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-158.html
 CATEGORIES:togenashi,media
@@ -323,56 +313,13 @@ DTSTART;VALUE=DATE:20240614
 DTEND;VALUE=DATE:20240617
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ『ガールズバンドクライ』無料配
- 信＆一挙配信決定！
-DESCRIPTION:◆6/14～6/16の3日間限定 ◆1話～最新話 ▼ご視聴
- ページ ＜ ABEMA ＞ ＜ ニコニコ動画 ＞ 更に無料一挙放
- 送も決定 ＜ニコニコ生放送＞ 第1-10話：6/14㈮15:00~19:30 
- ご視聴ページは こちら ＜ABEMA＞ 第1-10話：6/14㈮19:45~ ご
- 視聴ページは こちら 第1-11話：6/15㈯14:00~ ご視聴ページ
- は\n\nhttps://girls-band-cry.com/news/post-157.html
+SUMMARY:[举办] TV 动画《Girls Band Cry》免费配信＆一举配信
+ 决定！
+DESCRIPTION:6/14–6/16 三日限定免费配信最新话；另有 niconico
+ /ABEMA 一举及 6/14 19:30 起官方 X Space 音频评论。\n\n
+ https://girls-band-cry.com/news/post-157.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-157.html
 CATEGORIES:togenashi,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-164-2024-06-14-hold@gbc-news
-DTSTAMP:20240614T000000Z
-DTSTART;VALUE=DATE:20240614
-DTEND;VALUE=DATE:20240615
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ「ガールズバンドクライ」ダイジ
- ェストPV（第1話~第10話＋第11話先行カット）公開！
-DESCRIPTION:ダイジェストPV（第1話~第10話＋第11話先行カッ
- ト）を公開しました 第1話～第10話までのダイジェスト
- と、第11話の先行カットをまとめたPVです 第11話に向け
- て、気持ちを高めましょう！\n 第11話放送日の6/14(金)19:
- 45からは 第1～10話無料一挙配信＆生オーディオコメン
- タリー ＜ABEMA一挙配信＞ 第1-10話：6/14㈮19:\n\n
- https://girls-band-cry.com/news/post-164.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-164.html
-CATEGORIES:togenashi,media
-END:VEVENT
-BEGIN:VEVENT
-UID:post-165-2024-06-14-hold@gbc-news
-DTSTAMP:20240614T000000Z
-DTSTART;VALUE=DATE:20240614
-DTEND;VALUE=DATE:20240615
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] ニコニコ「 アニメ『ガールズバンドクライ
- 』 1～10話振り返り上映会 」および無料配信中止のお知
- らせ
-DESCRIPTION:現在ニコニコ各種サービス（ニコニコ動画・ニ
- コニコ生放送・ニコニコチャンネルを含む全般）で障
- 害が発生しております。\n6月14日予定しておりました「
-  アニメ『ガールズバンドクライ』 1～10話振り返り上映
- 会 」および無料配信については中止とさせていただき
- ます。\n【 ニコニコからのおしらせ 】 配信を楽しみに
- していただいてた中 このような判断となり誠に申し訳
- ござい\n\nhttps://girls-band-cry.com/news/post-165.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-165.html
-CATEGORIES:togenashi,cinema,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-166-2024-06-14-hold@gbc-news
@@ -381,34 +328,101 @@ DTSTART;VALUE=DATE:20240614
 DTEND;VALUE=DATE:20240615
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 第11話「世界のまん中」WEB予告＆あらすじ
- を公開！
-DESCRIPTION:第11話「世界のまん中」 6/14(金)24:30～放送 放送
- ・配信情報は こちら ＜あらすじ＞ フェスに向けて練
- 習を重ねる仁菜達。\nバンドとしてまとまりがでてきた
- 。\nフェス会場の広い観客席、⼤きいステージを見て気
- 合いが⼊る。\nすばるは自分が本当にやりたいことに向
- き合う意思を固めていた。\n\n
- https://girls-band-cry.com/news/post-166.html
+SUMMARY:[举办] 第 11 话「世界のまん中」WEB 预告＆剧情概
+ 要公开！
+DESCRIPTION:第 11 话「世界のまん中」于 6/14（五）24:30 起播
+ 出；仁菜等人备战音乐节，昴坚定面对真正想做的事。\n
+ \nhttps://girls-band-cry.com/news/post-166.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-166.html
 CATEGORIES:togenashi,live,media
 END:VEVENT
 BEGIN:VEVENT
-UID:post-164-2024-06-15-hold@gbc-news
-DTSTAMP:20240615T000000Z
-DTSTART;VALUE=DATE:20240615
-DTEND;VALUE=DATE:20240616
-TRANSP:TRANSPARENT
+UID:post-157-2024-06-14-hold-1500@gbc-news
+DTSTAMP:20240614T060000Z
+DTSTART:20240614T060000Z
+DTEND:20240614T103000Z
+TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] TVアニメ「ガールズバンドクライ」ダイジ
- ェストPV（第1話~第10話＋第11話先行カット）公開！
-DESCRIPTION:ダイジェストPV（第1話~第10話＋第11話先行カッ
- ト）を公開しました 第1話～第10話までのダイジェスト
- と、第11話の先行カットをまとめたPVです 第11話に向け
- て、気持ちを高めましょう！\n 第11話放送日の6/14(金)19:
- 45からは 第1～10話無料一挙配信＆生オーディオコメン
- タリー ＜ABEMA一挙配信＞ 第1-10話：6/14㈮19:\n\n
- https://girls-band-cry.com/news/post-164.html
+SUMMARY:[举办] TV 动画《Girls Band Cry》免费配信＆一举配信
+ 决定！
+DESCRIPTION:6/14–6/16 三日限定免费配信最新话；另有 niconico
+ /ABEMA 一举及 6/14 19:30 起官方 X Space 音频评论。\n\n
+ https://girls-band-cry.com/news/post-157.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-157.html
+CATEGORIES:togenashi,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-157-2024-06-14-hold-1930@gbc-news
+DTSTAMP:20240614T103000Z
+DTSTART:20240614T103000Z
+DTEND:20240614T123000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] TV 动画《Girls Band Cry》免费配信＆一举配信
+ 决定！
+DESCRIPTION:6/14–6/16 三日限定免费配信最新话；另有 niconico
+ /ABEMA 一举及 6/14 19:30 起官方 X Space 音频评论。\n\n
+ https://girls-band-cry.com/news/post-157.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-157.html
+CATEGORIES:togenashi,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-157-2024-06-14-hold-1945@gbc-news
+DTSTAMP:20240614T104500Z
+DTSTART:20240614T104500Z
+DTEND:20240614T124500Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] TV 动画《Girls Band Cry》免费配信＆一举配信
+ 决定！
+DESCRIPTION:6/14–6/16 三日限定免费配信最新话；另有 niconico
+ /ABEMA 一举及 6/14 19:30 起官方 X Space 音频评论。\n\n
+ https://girls-band-cry.com/news/post-157.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-157.html
+CATEGORIES:togenashi,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-164-2024-06-14-hold-1945@gbc-news
+DTSTAMP:20240614T104500Z
+DTSTART:20240614T104500Z
+DTEND:20240614T124500Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] TV 动画《Girls Band Cry》摘要 PV（第 1–10 话＋
+ 第 11 话先行画面）公开！
+DESCRIPTION:公开第 1–10 话摘要与第 11 话先行画面 PV；6/14 1
+ 9:45 起 ABEMA 一举配信并有 X Space 音频评论，6/15 14:00 起再
+ 播第 1–11 话。\n\nhttps://girls-band-cry.com/news/post-164.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-164.html
+CATEGORIES:togenashi,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-157-2024-06-15-hold-1400@gbc-news
+DTSTAMP:20240615T050000Z
+DTSTART:20240615T050000Z
+DTEND:20240615T070000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] TV 动画《Girls Band Cry》免费配信＆一举配信
+ 决定！
+DESCRIPTION:6/14–6/16 三日限定免费配信最新话；另有 niconico
+ /ABEMA 一举及 6/14 19:30 起官方 X Space 音频评论。\n\n
+ https://girls-band-cry.com/news/post-157.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-157.html
+CATEGORIES:togenashi,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-164-2024-06-15-hold-1400@gbc-news
+DTSTAMP:20240615T050000Z
+DTSTART:20240615T050000Z
+DTEND:20240615T070000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] TV 动画《Girls Band Cry》摘要 PV（第 1–10 话＋
+ 第 11 话先行画面）公开！
+DESCRIPTION:公开第 1–10 话摘要与第 11 话先行画面 PV；6/14 1
+ 9:45 起 ABEMA 一举配信并有 X Space 音频评论，6/15 14:00 起再
+ 播第 1–11 话。\n\nhttps://girls-band-cry.com/news/post-164.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-164.html
 CATEGORIES:togenashi,media
 END:VEVENT
