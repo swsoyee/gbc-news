@@ -4,7 +4,7 @@
     <title>gbc-news · 全部</title>
     <link>https://gbc-news.example.com/</link>
     <description>ガールズバンドクライ 公式ニュース（全部）</description>
-    <lastBuildDate>Fri, 17 Jul 2026 11:55:41 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 12:02:01 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.example.com/feeds/all.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[发售] 名もなき何もかも／トゲナシトゲアリ 2023年7月26日(水)CD発売！</title>
@@ -4825,8 +4825,8 @@
     <item>
       <title>[发售] Canna Lily 第1场个人演唱会「未明に咲く花」决定举办！</title>
       <link>https://gbc-firstriff.com/news/post-2.html</link>
-      <guid isPermaLink="false">firstriff-post-2-2026-03-22_2026-04-01-sale-2100@gbc-news</guid>
-      <pubDate>Sun, 22 Mar 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">firstriff-post-2-2026-03-22_2026-04-01-sale@gbc-news</guid>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
       <category>live</category>
       <category>event</category>
       <category domain="group">canna-lily</category>
@@ -4865,7 +4865,7 @@
     <item>
       <title>[举办] AnimeJapan 2026 出展信息</title>
       <link>https://gbc-firstriff.com/news/post-1.html</link>
-      <guid isPermaLink="false">firstriff-post-1-2026-03-28_2026-03-29-hold-0900@gbc-news</guid>
+      <guid isPermaLink="false">firstriff-post-1-2026-03-28_2026-03-29-hold@gbc-news</guid>
       <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
       <category>live</category>
       <category>event</category>
@@ -4955,8 +4955,8 @@
     <item>
       <title>[发售] F-272 第1场个人演唱会 The Dissonant “I DOLL” 决定举办！</title>
       <link>https://gbc-firstriff.com/news/post-3.html</link>
-      <guid isPermaLink="false">firstriff-post-3-2026-04-18_2026-04-30-sale-2100@gbc-news</guid>
-      <pubDate>Sat, 18 Apr 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">firstriff-post-3-2026-04-18_2026-04-30-sale@gbc-news</guid>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
       <category>live</category>
       <category>event</category>
       <category domain="group">f272</category>
@@ -5083,8 +5083,8 @@
     <item>
       <title>[发售] 无刺有刺确定出演「FEST. INAZUMA 2026」！</title>
       <link>https://girls-band-cry.com/news/post-474.html</link>
-      <guid isPermaLink="false">post-474-2026-05-08_2026-05-24-sale-1700@gbc-news</guid>
-      <pubDate>Fri, 08 May 2026 08:00:00 GMT</pubDate>
+      <guid isPermaLink="false">post-474-2026-05-08_2026-05-24-sale@gbc-news</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
       <category>live</category>
       <category>goods</category>
       <category>event</category>
@@ -5135,8 +5135,8 @@
     <item>
       <title>[发售] F-272 第1场个人演唱会 The Dissonant “I DOLL” 周边信息公开！</title>
       <link>https://gbc-firstriff.com/news/post-4.html</link>
-      <guid isPermaLink="false">firstriff-post-4-2026-06-03_2026-06-11-sale-1800@gbc-news</guid>
-      <pubDate>Wed, 03 Jun 2026 09:00:00 GMT</pubDate>
+      <guid isPermaLink="false">firstriff-post-4-2026-06-03_2026-06-11-sale@gbc-news</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
       <category>live</category>
       <category>goods</category>
       <category domain="group">f272</category>
@@ -5189,6 +5189,16 @@
       <description>无刺有刺首次东南亚巡演票务信息公开：曼谷8/14 19:30、雅加达8/16 19:00、新加坡8/19 20:00；各地票务分别于6/26、6/23、6/25当地时间12:00开售。</description>
     </item>
     <item>
+      <title>[发售] Canna Lily 第2场个人演唱会「枯歌的情景」决定举办！</title>
+      <link>https://gbc-firstriff.com/news/post-5.html</link>
+      <guid isPermaLink="false">firstriff-post-5-2026-06-26_2026-07-05-sale@gbc-news</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>event</category>
+      <category domain="group">canna-lily</category>
+      <description>Canna Lily 第2场个人演唱会「枯歌的情景」于2026年9月5日在 WWW X 举办（一部开演15:00／二部开演19:30）；先行抽选受理2026年6月26日21:00–7月5日23:59。</description>
+    </item>
+    <item>
       <title>[发售] 无刺有刺「凛音之理」SOUTHEAST ASIA TOUR 2026 票务发售信息公开！</title>
       <link>https://girls-band-cry.com/news/post-480.html</link>
       <guid isPermaLink="false">post-480-2026-06-26-sale-1200@gbc-news</guid>
@@ -5206,16 +5216,6 @@
       <category>event</category>
       <category domain="group">canna-lily</category>
       <description>Canna Lily 第1场个人演唱会「未明に咲く花」于2026年6月26日在代官山 UNIT 举办，开演19:00。先行抽选受理为2026年3月22日21:00–4月1日23:59。</description>
-    </item>
-    <item>
-      <title>[发售] Canna Lily 第2场个人演唱会「枯歌的情景」决定举办！</title>
-      <link>https://gbc-firstriff.com/news/post-5.html</link>
-      <guid isPermaLink="false">firstriff-post-5-2026-06-26_2026-07-05-sale-2100@gbc-news</guid>
-      <pubDate>Fri, 26 Jun 2026 12:00:00 GMT</pubDate>
-      <category>live</category>
-      <category>event</category>
-      <category domain="group">canna-lily</category>
-      <description>Canna Lily 第2场个人演唱会「枯歌的情景」于2026年9月5日在 WWW X 举办（一部开演15:00／二部开演19:30）；先行抽选受理2026年6月26日21:00–7月5日23:59。</description>
     </item>
     <item>
       <title>[发售] 2026年 RUPA 生日周边</title>

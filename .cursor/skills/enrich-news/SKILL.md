@@ -24,7 +24,9 @@ description: 批量核对、汉化并补录 gbc-news 抓取资讯的活动日期
    `--source` 可用 `gbc-news`、`gbc-firstriff`、`collabo-cafe`；需要跨源时省略。
 2. 逐条核对输出中的 `title`、`bodyText`、`eventDates` 与 `url`：
    - 按 [glossary.md](glossary.md) 翻译简体中文 `titleZh`、`summaryZh`，忠于原文，不扩写未证实信息。
+   - `summaryZh` 只写面向用户的事实摘要；**不要**写「无具体日不补录」等内部说明（那些放 `reviewNotes`）。
    - 有明确日期证据时订正或补录 `eventDates`；证据不足时不得猜测日期。
+   - **跨日时长 > 24 小时**：只保留 `date` / `endDate`（及 `kind`），**去掉** `startTime` / `endTime`。例如先行抽选 `3/22 21:00–4/1 23:59` → `{ date: "2026-03-22", endDate: "2026-04-01", kind: "sale" }`。单日或跨日但总时长 ≤ 24 小时的仍可保留时刻。
    - 明确无需发布增强的条目可标记 `skip`。
 3. 编辑 `data/enrichments/<sourceId>.json` 的 `items[id]`：
    - `contentFingerprint` 必须原样使用 pending 输出值。

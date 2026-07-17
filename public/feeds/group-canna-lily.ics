@@ -8,11 +8,11 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-WR-CALNAME:gbc-news · Canna Lily
 NAME:gbc-news · Canna Lily
 BEGIN:VEVENT
-UID:firstriff-post-2-2026-03-22_2026-04-01-sale-2100@gbc-news
-DTSTAMP:20260322T120000Z
-DTSTART:20260322T120000Z
-DTEND:20260401T145900Z
-TRANSP:OPAQUE
+UID:firstriff-post-2-2026-03-22_2026-04-01-sale@gbc-news
+DTSTAMP:20260322T000000Z
+DTSTART;VALUE=DATE:20260322
+DTEND;VALUE=DATE:20260402
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SUMMARY:[发售] Canna Lily 第1场个人演唱会「未明に咲く花」
  决定举办！
@@ -24,11 +24,11 @@ URL;VALUE=URI:https://gbc-firstriff.com/news/post-2.html
 CATEGORIES:canna-lily,live,event
 END:VEVENT
 BEGIN:VEVENT
-UID:firstriff-post-1-2026-03-28_2026-03-29-hold-0900@gbc-news
+UID:firstriff-post-1-2026-03-28_2026-03-29-hold@gbc-news
 DTSTAMP:20260328T000000Z
-DTSTART:20260328T000000Z
-DTEND:20260329T080000Z
-TRANSP:OPAQUE
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260330
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SUMMARY:[举办] AnimeJapan 2026 出展信息
 DESCRIPTION:Girls Band Cry（GBC）与 Girls Band Cry（GBC）First Riff 
@@ -38,6 +38,22 @@ DESCRIPTION:Girls Band Cry（GBC）与 Girls Band Cry（GBC）First Riff
  https://gbc-firstriff.com/news/post-1.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-1.html
 CATEGORIES:togenashi,canna-lily,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:firstriff-post-5-2026-06-26_2026-07-05-sale@gbc-news
+DTSTAMP:20260626T000000Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260706
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] Canna Lily 第2场个人演唱会「枯歌的情景」决
+ 定举办！
+DESCRIPTION:Canna Lily 第2场个人演唱会「枯歌的情景」于2026
+ 年9月5日在 WWW X 举办（一部开演15:00／二部开演19:30）；
+ 先行抽选受理2026年6月26日21:00–7月5日23:59。\n\n
+ https://gbc-firstriff.com/news/post-5.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-5.html
+CATEGORIES:canna-lily,live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:firstriff-post-2-2026-06-26-hold-1900@gbc-news
@@ -53,22 +69,6 @@ DESCRIPTION:Canna Lily 第1场个人演唱会「未明に咲く花」于202
  为2026年3月22日21:00–4月1日23:59。\n\n
  https://gbc-firstriff.com/news/post-2.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-2.html
-CATEGORIES:canna-lily,live,event
-END:VEVENT
-BEGIN:VEVENT
-UID:firstriff-post-5-2026-06-26_2026-07-05-sale-2100@gbc-news
-DTSTAMP:20260626T120000Z
-DTSTART:20260626T120000Z
-DTEND:20260705T145900Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[发售] Canna Lily 第2场个人演唱会「枯歌的情景」决
- 定举办！
-DESCRIPTION:Canna Lily 第2场个人演唱会「枯歌的情景」于2026
- 年9月5日在 WWW X 举办（一部开演15:00／二部开演19:30）；
- 先行抽选受理2026年6月26日21:00–7月5日23:59。\n\n
- https://gbc-firstriff.com/news/post-5.html
-URL;VALUE=URI:https://gbc-firstriff.com/news/post-5.html
 CATEGORIES:canna-lily,live,event
 END:VEVENT
 BEGIN:VEVENT
