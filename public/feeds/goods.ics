@@ -2170,20 +2170,17 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-393.html
 CATEGORIES:togenashi,goods,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-399-2025-10-03-hold@gbc-news
+UID:post-399-2025-10-03-sale@gbc-news
 DTSTAMP:20251003T000000Z
 DTSTART;VALUE=DATE:20251003
 DTEND;VALUE=DATE:20251004
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 10/3（金）～AniBirth新商品『おなまえアクキ
- ー』、『チケット風ビジュアルシート』、『HACOスタ』
- など劇場公開を記念としたグッズが登場！
-DESCRIPTION:2025/10/3（金）～AniBirth各店舗にて新商品が発売
- ！\n『おなまえアクキー』、『チケット風ビジュアルシ
- ート』、『HACOスタ』など劇場公開を記念としたグッズ
- が登場！\n【販売店舗】 AniBirth池袋PARCO店 AniBirth心斎橋P
- ARCO店\n\nhttps://girls-band-cry.com/news/post-399.html
+SUMMARY:[发售] 10/3（五）起 AniBirth 新商品「姓名钥匙扣」
+ 「票根风视觉卡」「HACO 立牌」等剧场公开纪念周边发售
+DESCRIPTION:纪念剧场版公开，AniBirth 池袋 PARCO・心斋桥 PARCO
+  店自 10/3 起发售姓名钥匙扣、票根风视觉卡、HACO 立牌
+ 等新周边。\n\nhttps://girls-band-cry.com/news/post-399.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-399.html
 CATEGORIES:togenashi,live,goods,cinema
 END:VEVENT
@@ -2212,15 +2209,12 @@ DTSTART;VALUE=DATE:20251004
 DTEND;VALUE=DATE:20251021
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 10月4日(土)より「ガールズバンドクライ」PO
- P UP SHOPが、全国のロフト3店舗にて開催決定！
-DESCRIPTION:アニメ「ガールズバンドクライ」のPOP UP SHOPが
- 、2025年10月4日(土)より全国のロフト3店舗にて開催予定
- です！\nチャイナ衣装の酒井香澄新規描き下ろしをはじ
- めとしたグッズを多数先行販売いたします。\n【大阪会
- 場】 開催期間：2025年10月4日(土)～10月20日(月) 開催場所
- ：なんばパークス5階 なんばロフト特設会場 営業時間
- ：11:00～21\n\nhttps://girls-band-cry.com/news/post-401.html
+SUMMARY:[举办] 10 月 4 日（六）起《Girls Band Cry》POP UP SHOP 
+ 于全国 Loft 三店举办！
+DESCRIPTION:《Girls Band Cry》POP UP SHOP 于 Loft 三店举办：大阪 
+ 10/4–10/20、东京池袋 10/30–11/12、名古屋 11/20–12/1，销
+ 售酒井香澄中式服装全新绘制周边。\n\n
+ https://girls-band-cry.com/news/post-401.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-401.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
@@ -2231,17 +2225,12 @@ DTSTART;VALUE=DATE:20251017
 DTEND;VALUE=DATE:20251018
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 新描き下ろしイラストグッズ公開！10/17(金)
- ～アトレ秋葉原にて《アニメ『ガールズバンドクライ
- 』POP UP SHOP 2025×アトレ秋葉原》開…
-DESCRIPTION:大人気アニメ「ガールズバンドクライ」のポッ
- プアップショップが今年もアトレ秋葉原で開催決定！\n
- 昨年2024年に続き今年もキャラクターデザイン手島nari描
- き下ろしによる、井芹仁菜、河原木桃香、安和すばる
- 、海老塚智、ルパ トゲナシトゲアリ5人の新規描き下ろ
- しイラストを使用した先行販売商品などを多数ライン
- ナップします。\n・描き下ろし フルグラフィックシー
- ムレスTシ\n\nhttps://girls-band-cry.com/news/post-396.html
+SUMMARY:[举办] 全新绘制插图周边公开！10/17（五）起于 Atre
+  秋叶原举办《Girls Band Cry POP UP SHOP》
+DESCRIPTION:《Girls Band Cry》弹出商店于 Atre 秋叶原 1/2F 特设
+ 会场举办（10/17 起），销售手岛 nari 全新绘制「命运之
+ 花」Ver. 周边等；购满赠明信片，馆内亦进行角色广告。
+ \n\nhttps://girls-band-cry.com/news/post-396.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-396.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
@@ -2252,15 +2241,30 @@ DTSTART;VALUE=DATE:20251017
 DTEND;VALUE=DATE:20251104
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 10/17(金)～《「劇場版総集編 ガールズバン
- ドクライ」カフェ》開催！
-DESCRIPTION:10月3日『劇場版総集編 ガールズバンドクライ 
- 【前編】 青春狂走曲』 11月14日『劇場版総集編 ガール
- ズバンドクライ 【後編】 なぁ、未来。\n』 それぞれの
- 公開を記念して、コラボカフェが2025年10月17日(金)～11
- 月3日(月・祝) の期間 CURE MAID CAFÉ(キュアメイドカフェ)
- で開催決定です！\n・牛丼も紅生姜もオムライスも全部
- ぶちこめ！\nト\n\nhttps://girls-band-cry.com/news/post-397.html
+SUMMARY:[举办] 10/17（五）起《「剧场版总集篇 Girls Band Cry
+ 」咖啡厅》举办！
+DESCRIPTION:纪念剧场版前后篇上映，联动咖啡厅于 Cure Maid C
+ afe 举办：2025 年 10 月 17 日–11 月 3 日；点单赠限定卡片
+ ，并与 Atre 秋叶原 POP UP SHOP 联动赠特典。\n仁菜生日饮
+ 品 10/22–28 限定提供。\n\n
+ https://girls-band-cry.com/news/post-397.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-397.html
+CATEGORIES:togenashi,live,goods,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-397-2025-10-22_2025-10-28-hold@gbc-news
+DTSTAMP:20251022T000000Z
+DTSTART;VALUE=DATE:20251022
+DTEND;VALUE=DATE:20251029
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 10/17（五）起《「剧场版总集篇 Girls Band Cry
+ 」咖啡厅》举办！
+DESCRIPTION:纪念剧场版前后篇上映，联动咖啡厅于 Cure Maid C
+ afe 举办：2025 年 10 月 17 日–11 月 3 日；点单赠限定卡片
+ ，并与 Atre 秋叶原 POP UP SHOP 联动赠特典。\n仁菜生日饮
+ 品 10/22–28 限定提供。\n\n
+ https://girls-band-cry.com/news/post-397.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-397.html
 CATEGORIES:togenashi,live,goods,event,cinema
 END:VEVENT
@@ -2287,15 +2291,12 @@ DTSTART;VALUE=DATE:20251030
 DTEND;VALUE=DATE:20251113
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 10月4日(土)より「ガールズバンドクライ」PO
- P UP SHOPが、全国のロフト3店舗にて開催決定！
-DESCRIPTION:アニメ「ガールズバンドクライ」のPOP UP SHOPが
- 、2025年10月4日(土)より全国のロフト3店舗にて開催予定
- です！\nチャイナ衣装の酒井香澄新規描き下ろしをはじ
- めとしたグッズを多数先行販売いたします。\n【大阪会
- 場】 開催期間：2025年10月4日(土)～10月20日(月) 開催場所
- ：なんばパークス5階 なんばロフト特設会場 営業時間
- ：11:00～21\n\nhttps://girls-band-cry.com/news/post-401.html
+SUMMARY:[举办] 10 月 4 日（六）起《Girls Band Cry》POP UP SHOP 
+ 于全国 Loft 三店举办！
+DESCRIPTION:《Girls Band Cry》POP UP SHOP 于 Loft 三店举办：大阪 
+ 10/4–10/20、东京池袋 10/30–11/12、名古屋 11/20–12/1，销
+ 售酒井香澄中式服装全新绘制周边。\n\n
+ https://girls-band-cry.com/news/post-401.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-401.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
@@ -2355,15 +2356,12 @@ DTSTART;VALUE=DATE:20251120
 DTEND;VALUE=DATE:20251202
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 10月4日(土)より「ガールズバンドクライ」PO
- P UP SHOPが、全国のロフト3店舗にて開催決定！
-DESCRIPTION:アニメ「ガールズバンドクライ」のPOP UP SHOPが
- 、2025年10月4日(土)より全国のロフト3店舗にて開催予定
- です！\nチャイナ衣装の酒井香澄新規描き下ろしをはじ
- めとしたグッズを多数先行販売いたします。\n【大阪会
- 場】 開催期間：2025年10月4日(土)～10月20日(月) 開催場所
- ：なんばパークス5階 なんばロフト特設会場 営業時間
- ：11:00～21\n\nhttps://girls-band-cry.com/news/post-401.html
+SUMMARY:[举办] 10 月 4 日（六）起《Girls Band Cry》POP UP SHOP 
+ 于全国 Loft 三店举办！
+DESCRIPTION:《Girls Band Cry》POP UP SHOP 于 Loft 三店举办：大阪 
+ 10/4–10/20、东京池袋 10/30–11/12、名古屋 11/20–12/1，销
+ 售酒井香澄中式服装全新绘制周边。\n\n
+ https://girls-band-cry.com/news/post-401.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-401.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT

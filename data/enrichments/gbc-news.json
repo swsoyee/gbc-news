@@ -1,6 +1,6 @@
 {
   "sourceId": "gbc-news",
-  "updatedAt": "2026-07-17T13:00:00.000Z",
+  "updatedAt": "2026-07-17T13:15:00.000Z",
   "items": {
     "post-483": {
       "id": "post-483",
@@ -985,6 +985,204 @@
           "kind": "hold"
         }
       ]
+    },
+    "post-396": {
+      "id": "post-396",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8669c0e6961e4536a27a3fe966fe69d3cba5be804c040b2666647da7fee987ca",
+      "reviewedAt": "2026-07-17T13:15:00.000Z",
+      "titleZh": "全新绘制插图周边公开！10/17（五）起于 Atre 秋叶原举办《Girls Band Cry POP UP SHOP》",
+      "summaryZh": "《Girls Band Cry》弹出商店于 Atre 秋叶原 1/2F 特设会场举办（10/17 起），销售手岛 nari 全新绘制「命运之花」Ver. 周边等；购满赠明信片，馆内亦进行角色广告。",
+      "eventDates": [
+        {
+          "date": "2025-10-17",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "正文未写结束日，不补录"
+    },
+    "post-397": {
+      "id": "post-397",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "3a86b53348b7080a94786003e052b0dd9095f840ad16400f83cd95b04cef5af6",
+      "reviewedAt": "2026-07-17T13:15:00.000Z",
+      "titleZh": "10/17（五）起《「剧场版总集篇 Girls Band Cry」咖啡厅》举办！",
+      "summaryZh": "纪念剧场版前后篇上映，联动咖啡厅于 Cure Maid Cafe 举办：2025 年 10 月 17 日–11 月 3 日；点单赠限定卡片，并与 Atre 秋叶原 POP UP SHOP 联动赠特典。仁菜生日饮品 10/22–28 限定提供。",
+      "eventDates": [
+        {
+          "date": "2025-10-17",
+          "endDate": "2025-11-03",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-10-22",
+          "endDate": "2025-10-28",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "补录生日饮品限定周"
+    },
+    "post-407": {
+      "id": "post-407",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "76600965e1b638751c40aa58a4f98f2763e7d5302e7f3bc0fc8e3bd56081d026",
+      "reviewedAt": "2026-07-17T13:15:00.000Z",
+      "titleZh": "10 月 11 日（六）・12 日（日）《【前篇】青春狂走曲》舞台问候门票一般发售通知",
+      "summaryZh": "《【前篇】青春狂走曲》10/11–12 舞台问候：ぴあ一般发售分别于 10/8 16:00、10/9 16:00 截止；于京都、名古屋、横滨等多剧场举办。",
+      "eventDates": [
+        {
+          "date": "2025-10-11",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-10-12",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "舞台日为 hold；去掉误标 sale"
+    },
+    "post-400": {
+      "id": "post-400",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "b028bcdf10de0151c0d34582fa266f4b3592dd6b8fbf722d7d1f0275ccceba41",
+      "reviewedAt": "2026-07-17T13:15:00.000Z",
+      "titleZh": "无刺有刺 2 张 EP 连续发售决定！& 先行配信也将陆续开始！",
+      "summaryZh": "无刺有刺 EP《小指立てませんか》（2025/11/19 发售）与《全部をさらして生きてやる》（2025/12/17 发售）决定发售，并陆续开始先行配信。",
+      "eventDates": [
+        {
+          "date": "2025-11-19",
+          "kind": "sale"
+        },
+        {
+          "date": "2025-12-17",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-401": {
+      "id": "post-401",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "5fad66d9c979a048df3113539ba75771ec4460b4bd3e59fb83aae4759c84b94a",
+      "reviewedAt": "2026-07-17T13:15:00.000Z",
+      "titleZh": "10 月 4 日（六）起《Girls Band Cry》POP UP SHOP 于全国 Loft 三店举办！",
+      "summaryZh": "《Girls Band Cry》POP UP SHOP 于 Loft 三店举办：大阪 10/4–10/20、东京池袋 10/30–11/12、名古屋 11/20–12/1，销售酒井香澄中式服装全新绘制周边。",
+      "eventDates": [
+        {
+          "date": "2025-10-04",
+          "endDate": "2025-10-20",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-10-30",
+          "endDate": "2025-11-12",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-11-20",
+          "endDate": "2025-12-01",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-403": {
+      "id": "post-403",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "edfd9156eb511c3e479be259c6010a24f4da185ea3affd9aa0c547fa94f3910d",
+      "reviewedAt": "2026-07-17T13:15:00.000Z",
+      "titleZh": "纪念无刺有刺 2 张 EP 发售，11/7（五）・12/12（五）举办线上 talk 配信！",
+      "summaryZh": "纪念 EP《小指立てませんか》《全部をさらして生きてやる》发售，分别于 11/7 19:00、12/12 19:00 在 Limista 举办线上 talk 配信＆签名会（理名・夕莉・朱李出演预定）。",
+      "eventDates": [
+        {
+          "date": "2025-11-07",
+          "kind": "hold",
+          "startTime": "19:00"
+        },
+        {
+          "date": "2025-12-12",
+          "kind": "hold",
+          "startTime": "19:00"
+        }
+      ],
+      "reviewNotes": "去掉误标 sale；正文无结束时刻"
+    },
+    "post-404": {
+      "id": "post-404",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "b9383fdc7739164aaab0d10217214858d5d3c865388684ce195113afe8d5e72c",
+      "reviewedAt": "2026-07-17T13:15:00.000Z",
+      "titleZh": "10/3（五）18:00 起后篇 Movi-Ticket 预售券（线上）发售！购买特典为手机壁纸！",
+      "summaryZh": "《【后篇】なぁ、未来。》Movi-Ticket 线上预售券于 10/3 18:00 起发售，购买特典为后篇主视觉手机壁纸。",
+      "eventDates": [
+        {
+          "date": "2025-10-03",
+          "kind": "sale",
+          "startTime": "18:00"
+        }
+      ]
+    },
+    "post-394": {
+      "id": "post-394",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "67dd29d9390a75be91ef9c68b34f77b658f0ae039cbc5e7e14f64783fec7f650",
+      "reviewedAt": "2026-07-17T13:15:00.000Z",
+      "titleZh": "《剧场版总集篇 Girls Band Cry【后篇】なぁ、未来。》正式预告 & 主视觉公开！Movi-Ticket 预售卡第 4 弹发售",
+      "summaryZh": "《【后篇】なぁ、未来。》正式预告与主视觉公开，2025 年 11 月 14 日上映；Movi-Ticket 预售卡第 4 弹于 10/3 10:00 起在通贩等渠道限量发售（附亚克力立牌特典）。",
+      "eventDates": [
+        {
+          "date": "2025-11-14",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-10-03",
+          "kind": "sale",
+          "startTime": "10:00"
+        }
+      ],
+      "reviewNotes": "补录上映日"
+    },
+    "post-399": {
+      "id": "post-399",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8ec584260fc929e78daf437c440adaeb2c365f8175d4d5b34dcebd6ab7abb9bc",
+      "reviewedAt": "2026-07-17T13:15:00.000Z",
+      "titleZh": "10/3（五）起 AniBirth 新商品「姓名钥匙扣」「票根风视觉卡」「HACO 立牌」等剧场公开纪念周边发售",
+      "summaryZh": "纪念剧场版公开，AniBirth 池袋 PARCO・心斋桥 PARCO 店自 10/3 起发售姓名钥匙扣、票根风视觉卡、HACO 立牌等新周边。",
+      "eventDates": [
+        {
+          "date": "2025-10-03",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "商品发售为 sale"
+    },
+    "post-395": {
+      "id": "post-395",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "23c7b76142747ade64bb145aa33a5f5417542f6cbc6d8927433f6869b556d1d2",
+      "reviewedAt": "2026-07-17T13:15:00.000Z",
+      "titleZh": "10 月 4 日（六）・5 日（日）《【前篇】青春狂走曲》舞台问候门票一般发售通知",
+      "summaryZh": "《【前篇】青春狂走曲》10/4–5 舞台问候：ぴあ一般发售分别于 10/1 16:00、10/2 16:00 截止；于川崎 Cinecitta、川崎、梅田、姬路等举办。",
+      "eventDates": [
+        {
+          "date": "2025-10-04",
+          "kind": "hold"
+        },
+        {
+          "date": "2025-10-05",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "舞台日为 hold"
     }
   }
 }
