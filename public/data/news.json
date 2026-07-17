@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-17T12:36:34.236Z",
+  "scrapedAt": "2026-07-17T12:37:29.105Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
@@ -10855,19 +10855,15 @@
       ],
       "eventDates": [
         {
-          "date": "2024-02-04",
+          "date": "2024-01-29",
+          "endDate": "2024-02-04",
           "kind": "hold"
-        },
-        {
-          "date": "2024-12-18",
-          "kind": "hold",
-          "endDate": "2024-12-24",
-          "startTime": "21:00",
-          "endTime": "23:59"
         }
       ],
       "summary": "劇中バンド「トゲナシトゲアリ」のメンバーが歌う MV第10弾「サヨナラサヨナラサヨナラ」 を公開いたしました🎊 MV公開を記念して、 アニメ「ガールズバンドクライ」公式X（旧Twitter）にてフォロー＆リポストキャンペーンを開催いたします✨ 【開催期間】 12月18日（月）21:00 ～ 12月24日（日） 23:59 【参加方法】 ①X（旧Twitte",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/01/MV10RTCP%E3%83%90%E3%83%8A%E3%83%BC.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/01/MV10RTCP%E3%83%90%E3%83%8A%E3%83%BC.png",
+      "titleZh": "第 10 弹 MV「サヨナラサヨナラサヨナラ」公开！公开纪念活动开始",
+      "summaryZh": "公开第 10 弹 MV「サヨナラサヨナラサヨナラ」；官方 X 关注＆转发活动截止 2/4，有机会获签名海报。"
     },
     {
       "id": "post-71",
@@ -10919,10 +10915,16 @@
         {
           "date": "2024-02-02",
           "kind": "sale"
+        },
+        {
+          "date": "2024-02-09",
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションの公式グッズショップ「AniBirth（アニバース）」に「ガールズバンドクライ」コーナーが誕生！ トゲナシトゲアリの5人が揃ったA5ステッカーシートやメンバーそれぞれの名前が入ったアクリルバッジ、衣装をモチーフにしたコードホルダー、ネオン風デザインのアイコンがおしゃれなピックセット、通常衣装のメンバーと特別衣装のメンバーが描かれた缶バッジな",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "AniBirth 涉谷 PARCO／心斋桥 PARCO「Girls Band Cry」常设专区 OPEN！",
+      "summaryZh": "AniBirth 涉谷店自 2/1、心斋桥店自 2/2 开设常设专区并上架新周边；东映官方商店自 2/9 起销售。"
     },
     {
       "id": "post-68",
@@ -10945,10 +10947,16 @@
           "kind": "hold",
           "startTime": "17:00",
           "endTime": "18:00"
+        },
+        {
+          "date": "2024-02-28",
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが製作するオリジナルアニメ「ガールズバンドクライ」の主題歌を歌う5人編成のガールズバンド “トゲナシトゲアリ” 2024年2月28日（水）の5th Single 『運命に賭けたい論理』の発売を記念して、今年第1回目となるオンライントーク配信＆サイン会の開催が決定！ 今回の企画は「朱李プレゼンツ：ジェスチャー伝言ゲーム」になります。ご期待くだ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/01/%E9%85%8D%E4%BF%A1%E6%83%85%E5%A0%B1_tb.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2024/01/%E9%85%8D%E4%BF%A1%E6%83%85%E5%A0%B1_tb.png",
+      "titleZh": "无刺有刺 5th Single《運命に賭けたい論理》发售纪念线上 talk 配信＆签名会举办通知",
+      "summaryZh": "纪念 2/28 发售的 5th Single，2 月 3 日 17:00–18:00 于 Limista 举办线上 talk；购入获签名视觉卡。"
     },
     {
       "id": "post-67",
@@ -11010,12 +11018,14 @@
       "eventDates": [
         {
           "date": "2023-12-25",
-          "kind": "hold",
-          "endDate": "2023-12-31"
+          "endDate": "2023-12-31",
+          "kind": "hold"
         }
       ],
       "summary": "『ガールズバンドクライ』TV放送決定を記念して、JR川崎駅でショートPV配信スタートしました！✨ ぜひ見てくださいね♬ 【配信場所】 JR川崎駅東西自由通路内「アゼリアビジョン」 【期間】 2023年12月25日（月）～12月31日（日） 👇YouTubeでも配信中👇",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/gbc_t1_hp.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/gbc_t1_hp.jpg",
+      "titleZh": "川崎站开始播放 PV！",
+      "summaryZh": "纪念 TV 播出决定，JR 川崎站阿塞丽娅视觉屏于 12/25–12/31 播放短 PV。"
     },
     {
       "id": "post-63",
@@ -11033,14 +11043,14 @@
       "eventDates": [
         {
           "date": "2023-12-21",
-          "kind": "hold",
           "endDate": "2024-01-03",
-          "startTime": "17:00",
-          "endTime": "23:59"
+          "kind": "hold"
         }
       ],
       "summary": "TVアニメ放送決定を記念して、 アニメ「ガールズバンドクライ」公式X（旧Twitter）にてフォロー＆リポストキャンペーンを開催いたします✨ 【開催期間】 12月21日（木）17:00 ～ 1月3日（水） 23:59 【参加方法】 ①X（旧Twitter）の＠girlsbandcryをフォロー Tweets by girlsbandcry ②キャンペーン告知",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/TV%E3%82%A2%E3%83%8B%E3%83%A1%E6%94%BE%E9%80%81%E8%A8%98%E5%BF%B5%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E3%83%90%E3%83%8A%E3%83%BC.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/TV%E3%82%A2%E3%83%8B%E3%83%A1%E6%94%BE%E9%80%81%E8%A8%98%E5%BF%B5%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E3%83%90%E3%83%8A%E3%83%BC.png",
+      "titleZh": "TV 动画播出决定纪念活动开始！",
+      "summaryZh": "纪念 TV 播出决定，官方 X 关注＆转发活动进行至 1/3；抽选 10 名获限定透明文件夹。"
     },
     {
       "id": "post-62",
@@ -11061,15 +11071,12 @@
           "kind": "hold",
           "startTime": "10:15",
           "endTime": "10:45"
-        },
-        {
-          "date": "2023-12-22",
-          "kind": "hold",
-          "startTime": "10:15"
         }
       ],
       "summary": "「ガールズバンドクライ」のテレビアニメ化を記念して、アニメの舞台となる川崎の放送局かわさきFM(@kawasakifm)でトゲナシトゲアリの特番放送が急遽決定しました！🎸 明日22日(金)10:15〜10:45オンエア、理名(Vo)と夕莉(Gt)が出演します！ 是非お聴きください！📻 放送局： かわさきFM 番組コーナー名： 『トゲナシトゲアリのトゲラジ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b1.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b1.png",
+      "titleZh": "川崎 FM 决定播出无刺有刺特别节目!!",
+      "summaryZh": "12/22 10:15–10:45 川崎 FM 播出特别节目，理名・夕莉出演。"
     },
     {
       "id": "post-61",
@@ -11106,10 +11113,27 @@
           "date": "2024-03-16",
           "kind": "hold",
           "startTime": "18:00"
+        },
+        {
+          "date": "2023-12-20",
+          "endDate": "2024-01-08",
+          "kind": "sale"
+        },
+        {
+          "date": "2024-01-09",
+          "endDate": "2024-01-15",
+          "kind": "sale"
+        },
+        {
+          "date": "2024-01-16",
+          "endDate": "2024-01-29",
+          "kind": "sale"
         }
       ],
       "summary": "3月16日(土)に横浜・1000CLUBにて開催します。 ライブタイトルは「薄明の序奏」。 テレビアニメの放送を直前に控える中、ファンに直接音楽と想いを届けます。 ここから本格始動するバンド活動の”序奏”となるステージをぜひ会場でご覧ください。 トゲナシトゲアリ1st ONE-MAN LIVE 「薄明の序奏」 ■開催日時：2024年3月16日(土) ■開場／",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/gbc_1stlive%E5%91%8A%E7%9F%A5_hp.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/gbc_1stlive%E5%91%8A%E7%9F%A5_hp.jpg",
+      "titleZh": "无刺有刺 1st ONE-MAN LIVE “薄明の序奏”举办决定！",
+      "summaryZh": "3/16 18:00 于横滨・1000 CLUB 举办；最速官方先行至 1/8，另有二次先行与全家先行。"
     },
     {
       "id": "post-58",
@@ -11146,7 +11170,9 @@
         }
       ],
       "summary": "【アーティスト】 トゲナシトゲアリ Vo.井芹 仁菜（CV:理名） Gt.河原木 桃香（CV:夕莉） Dr.安和 すばる（CV: 美怜） Key.海老塚 智（CV: 凪都） Ba.ルパ （CV: 朱李） 【発売日】 2023年12月20日（水） 【形態・価格・品番】 CD+Blu-ray : ¥3,960(Tax in)UMCK-5739 CD+DVD : ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "无刺有刺 4th Single《極私的極彩色アンサー》今日发售！",
+      "summaryZh": "无刺有刺 4th Single《極私的極彩色アンサー》于 12/20 发售；含 CD 剧场与 MV 影像盘。"
     },
     {
       "id": "post-57",
@@ -11179,14 +11205,14 @@
       "eventDates": [
         {
           "date": "2023-12-18",
-          "kind": "hold",
           "endDate": "2023-12-24",
-          "startTime": "21:00",
-          "endTime": "23:59"
+          "kind": "hold"
         }
       ],
       "summary": "劇中バンド「トゲナシトゲアリ」のメンバーが歌う MV第9弾「運命に賭けたい論理」 を公開いたしました🎊 MV公開を記念して、 アニメ「ガールズバンドクライ」公式X（旧Twitter）にてフォロー＆リポストキャンペーンを開催いたします✨ 【開催期間】 12月18日（月）21:00 ～ 12月24日（日） 23:59 【参加方法】 ①X（旧Twitter）の＠",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/MV9RT%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E5%91%8A%E7%9F%A5%E3%83%90%E3%83%8A%E3%83%BC.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/MV9RT%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E5%91%8A%E7%9F%A5%E3%83%90%E3%83%8A%E3%83%BC.png",
+      "titleZh": "第 9 弹 MV「運命に賭けたい論理」公开！公开纪念活动开始",
+      "summaryZh": "公开第 9 弹 MV；官方 X 关注＆转发活动进行至 12/24，抽选 5 名获签名海报。"
     },
     {
       "id": "post-55",
@@ -11203,16 +11229,14 @@
       ],
       "eventDates": [
         {
-          "date": "2023-12-20",
-          "kind": "sale"
-        },
-        {
           "date": "2024-02-28",
           "kind": "sale"
         }
       ],
       "summary": "【アーティスト】 トゲナシトゲアリ Vo.井芹 仁菜（CV:理名） Gt.河原木 桃香（CV:夕莉） Dr.安和 すばる（CV: 美怜） Key.海老塚 智（CV: 凪都） Ba.ルパ （CV: 朱李） 【発売日】 2023年12月20日（水） 【形態・価格・品番】 [CD+Blu-ray] ￥3,960 (Tax in) UMCK 5744 [CD+DVD",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png",
+      "titleZh": "5th Single《運命に賭けたい論理》/无刺有刺 2024 年 2 月 28 日（三）发售！",
+      "summaryZh": "无刺有刺 5th Single《運命に賭けたい論理》于 2024 年 2 月 28 日发售。"
     },
     {
       "id": "post-54",
@@ -11250,10 +11274,16 @@
           "kind": "hold",
           "startTime": "19:00",
           "endTime": "20:00"
+        },
+        {
+          "date": "2023-12-20",
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが製作するオリジナルアニメ「ガールズバンドクライ」の主題歌を歌う5人編成のガールズバンド “トゲナシトゲアリ” 12 月20日(水)の 4th Single『極私的極彩色アンサー』発売を記念し、大好評のオンライントーク配信＆サイン会【6回目】の開催が決定！ 今回の企画は「トゲトゲ版！きよしこの夜、プレゼント対決」になります。 ご期待ください",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/gbc_231222.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/gbc_231222.jpg",
+      "titleZh": "无刺有刺 4th Single《極私的極彩色アンサー》发售纪念线上 talk 配信＆签名会举办通知",
+      "summaryZh": "纪念 12/20 发售的 4th Single，12 月 22 日 19:00–20:00 于 Limista 举办线上 talk；购入可获交易卡签名。"
     },
     {
       "id": "post-51",
@@ -11291,7 +11321,9 @@
         }
       ],
       "summary": "12月20日(水)「Get to KAWASAKI 2023」に トゲナシトゲアリ が出演します！🎸 本作の舞台である川崎で、トゲナシトゲアリの新たな一歩をぜひ一緒にご覧ください！ 「Get to KAWASAKI 2023」 ■開催日時：12月20日(水) ■開場／開演：18:00／18:30 ■会場：川崎・セルビアンナイト ■出演： トゲナシトゲアリ／",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/image-7.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/image-7.png",
+      "titleZh": "「Get to KAWASAKI 2023」无刺有刺决定压轴出演！",
+      "summaryZh": "12/20 18:30 于川崎・塞尔维亚之夜出演，约 20:10 起压轴登场。"
     },
     {
       "id": "post-50",
@@ -11309,14 +11341,14 @@
       "eventDates": [
         {
           "date": "2023-11-27",
-          "kind": "hold",
           "endDate": "2023-12-10",
-          "startTime": "21:00",
-          "endTime": "23:59"
+          "kind": "hold"
         }
       ],
       "summary": "劇中バンド「トゲナシトゲアリ」のメンバーが歌う MV第8弾「傷つき傷つけ痛くて辛い」 を公開いたしました🎊 MV公開を記念して、 アニメ「ガールズバンドクライ」公式X（旧Twitter）にてフォロー＆リポストキャンペーンを開催いたします✨ 【開催期間】 11月27日（月）21:00 ～ 12月10日（日） 23:59 【参加方法】 ①X（旧Twitter）",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/11/RT%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E5%91%8A%E7%9F%A5HP%E3%83%90%E3%83%8A%E3%83%BC%E7%94%A8.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/11/RT%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3%E5%91%8A%E7%9F%A5HP%E3%83%90%E3%83%8A%E3%83%BC%E7%94%A8.png",
+      "titleZh": "第 8 弹 MV「傷つき傷つけ痛くて辛い」公开！公开纪念活动开始",
+      "summaryZh": "公开第 8 弹 MV；官方 X 关注＆转发活动进行至 12/10，抽选 5 名获签名海报。"
     },
     {
       "id": "post-49",
@@ -11339,7 +11371,9 @@
         }
       ],
       "summary": "12月20日(水)「Get to KAWASAKI 2023」に トゲナシトゲアリ が出演します！🎸 本作の舞台である川崎で、トゲナシトゲアリの新たな一歩をぜひ一緒にご覧ください！ 「Get to KAWASAKI 2023」 ■開催日時：12月20日(水) ■開場／開演：18:00／18:30 ■会場：川崎・セルビアンナイト ■出演： トゲナシトゲアリ／",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/image-7.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/image-7.png",
+      "titleZh": "「Get to KAWASAKI 2023」门票一般发售开始",
+      "summaryZh": "12/20 18:30 于川崎・塞尔维亚之夜出演的门票已开始一般发售。"
     },
     {
       "id": "post-48",
@@ -11395,7 +11429,9 @@
         }
       ],
       "summary": "東映アニメーションが製作するオリジナルアニメ「ガールズバンドクライ」の主題歌を歌う5人編成のガールズバンド“トゲナシトゲアリ” 3rd Single 『爆ぜて咲く』大好評発売中！そしてさらにミュージックビデオ1,000万回再生目前を記念して大好評のオンライントーク配信＆サイン会【5回目】の開催が決定！ 今回の企画は「夕莉王決定戦～メンバーはどのくらい夕莉のこ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/gbc_231222.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/gbc_231222.jpg",
+      "titleZh": "无刺有刺 3rd Single《爆ぜて咲く～MV 即将破千万播放～》线上 talk 配信＆签名会举办通知",
+      "summaryZh": "纪念 3rd Single 与 MV 播放量，12 月 2 日 17:00–18:00 于 Limista 举办线上 talk；购入可获交易卡签名。"
     },
     {
       "id": "post-45",
@@ -11415,15 +11451,18 @@
       "eventDates": [
         {
           "date": "2023-11-27",
-          "kind": "hold"
+          "kind": "hold",
+          "startTime": "19:00"
         },
         {
           "date": "2023-12-20",
-          "kind": "hold"
+          "kind": "sale"
         }
       ],
       "summary": "東映アニメーションが製作するオリジナルアニメーション「ガールズバンドクライ」から 飛び出したガールズバンド“トゲナシトゲアリ”Music Video第8弾『傷つき傷つけ痛くて辛い』公開を記念して、 HMV＆BOOKS SHIBUYA 5Fにてトークイベント【第3回目】の開催が決定！初公開となるMusic Videoをメンバーと一緒に観ましょう！ 【開催日時】",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/gbc_MV08_hp.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/gbc_MV08_hp.jpg",
+      "titleZh": "无刺有刺 MV 第 8 弹《傷つき傷つけ痛くて辛い》公开纪念活动举办通知",
+      "summaryZh": "11/27 19:00 于 HMV＆BOOKS SHIBUYA 5F 举办 talk＆特典会；当日预约 4th Single 可获海报签名。"
     },
     {
       "id": "post-44",
@@ -11444,7 +11483,9 @@
         }
       ],
       "summary": "12月20日（水）発売 トゲナシトゲアリ4rd Single「極私的極彩色アンサー」 店舗別特典絵柄が決定しました🎉 先着特典となりますので、この機会にぜひGETしてください！🎁 ▶CDのご予約は こちら",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/11/gbc_MV07_hp.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/11/gbc_MV07_hp.jpg",
+      "titleZh": "4th Single《極私的極彩色アンサー》各店特典图案决定通知",
+      "summaryZh": "12/20 发售的 4th Single 各店先着特典图案已决定。"
     },
     {
       "id": "post-43",
@@ -11462,16 +11503,19 @@
       "eventDates": [
         {
           "date": "2023-12-20",
-          "kind": "hold"
-        },
-        {
-          "date": "2023-12-20",
           "kind": "hold",
           "startTime": "18:30"
+        },
+        {
+          "date": "2023-11-10",
+          "endDate": "2023-11-19",
+          "kind": "sale"
         }
       ],
       "summary": "12月20日(水)開催「Get to KAWASAKI 2023」にトゲナシトゲアリが出演決定🎉 チケット最速先行受付開始🎫 ■開催日時：2023/12/20(水) ■開場：18:00 開演：18:30 ■会場：川崎・セルビアンナイト ■チケット：オールスタンディング4,500円(税込) ※1ドリンク代別 ※未就学児入場不可/6歳以上チケット必要 ※営利",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/image-7.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/image-7.png",
+      "titleZh": "12 月 20 日（三）「Get to KAWASAKI 2023」出演决定！",
+      "summaryZh": "12/20 18:30 于川崎・塞尔维亚之夜出演；最速先行申请期为 11/10–11/19。"
     },
     {
       "id": "post-42",
@@ -11489,14 +11533,14 @@
       "eventDates": [
         {
           "date": "2023-11-01",
-          "kind": "sale",
           "endDate": "2023-11-15",
-          "startTime": "13:00",
-          "endTime": "23:59"
+          "kind": "sale"
         }
       ],
       "summary": "トゲナシトゲアリのグッズが登場！ ラインナップはTシャツ、マフラータオル、バックステージパス風ステッカー、シリコンバンドの4種となっております！ Tシャツは黒と白の2色展開！ マフラータオルはシンプルでスタイリッシュなデザインです！ ライブハウスなどでもらえるバックステージパスをイメージしたステッカーも登場！メンバーカラーの5色展開です！ シリコンバンドはメ",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/11/post42.jpg"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/11/post42.jpg",
+      "titleZh": "东映动画官方商店开始受理无刺有刺周边预约！",
+      "summaryZh": "T 恤、毛巾、贴纸、硅胶手环等自 11/1 起于东映官方商店受理至 11/15，约 12 月中旬发货。"
     },
     {
       "id": "post-41",
@@ -11514,16 +11558,14 @@
       "eventDates": [
         {
           "date": "2023-11-10",
-          "kind": "hold"
-        },
-        {
-          "date": "2023-11-10",
           "kind": "hold",
           "startTime": "18:45"
         }
       ],
       "summary": "11月10日(金)開催「赤羽ReNY alpha presents Night Escape vol.9」にトゲナシトゲアリが出演！ バンドとして修行中のトゲナシトゲアリメンバーが、初の対バンライブに挑戦いたします。 バンド活動の軌跡をみなさんもぜひ会場でご覧ください。 「赤羽ReNY alpha presents Night Escape vol.9」 ■",
-      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/post41.png"
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/10/post41.png",
+      "titleZh": "11 月 10 日（五）「赤羽 ReNY alpha presents Night Escape vol.9」LIVE 信息",
+      "summaryZh": "无刺有刺于 11/10 18:45 在赤羽 ReNY alpha 首次参加对邦 LIVE。"
     },
     {
       "id": "post-40",

@@ -5026,6 +5026,376 @@
         }
       ],
       "reviewNotes": "票务先行跨日去时刻"
+    },
+    "post-72": {
+      "id": "post-72",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "39c14f40c09e6531ee100d408d2e77ed6969e74cfa8af7cea9fdabc08fb51e58",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "第 10 弹 MV「サヨナラサヨナラサヨナラ」公开！公开纪念活动开始",
+      "summaryZh": "公开第 10 弹 MV「サヨナラサヨナラサヨナラ」；官方 X 关注＆转发活动截止 2/4，有机会获签名海报。",
+      "eventDates": [
+        {
+          "date": "2024-01-29",
+          "endDate": "2024-02-04",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "正文误贴 12 月档期；以推文截止 2/4 为准"
+    },
+    "post-68": {
+      "id": "post-68",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "ba9569d771829dd8c3d4d91b905468509ad06e0a7cbab4acad5957f34a75f609",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "无刺有刺 5th Single《運命に賭けたい論理》发售纪念线上 talk 配信＆签名会举办通知",
+      "summaryZh": "纪念 2/28 发售的 5th Single，2 月 3 日 17:00–18:00 于 Limista 举办线上 talk；购入获签名视觉卡。",
+      "eventDates": [
+        {
+          "date": "2024-02-03",
+          "kind": "hold",
+          "startTime": "17:00",
+          "endTime": "18:00"
+        },
+        {
+          "date": "2024-02-28",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-69": {
+      "id": "post-69",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "9e1af7ea657ac463efc5ac681723381e7e9dcedc5bde2d8fc0b48957edf79333",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "AniBirth 涉谷 PARCO／心斋桥 PARCO「Girls Band Cry」常设专区 OPEN！",
+      "summaryZh": "AniBirth 涉谷店自 2/1、心斋桥店自 2/2 开设常设专区并上架新周边；东映官方商店自 2/9 起销售。",
+      "eventDates": [
+        {
+          "date": "2024-02-01",
+          "kind": "sale"
+        },
+        {
+          "date": "2024-02-02",
+          "kind": "sale"
+        },
+        {
+          "date": "2024-02-09",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-64": {
+      "id": "post-64",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "cc575e96377a5fe95104f154196bd81506fead7e43c9c97e19a2ab6a7efdc287",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "川崎站开始播放 PV！",
+      "summaryZh": "纪念 TV 播出决定，JR 川崎站阿塞丽娅视觉屏于 12/25–12/31 播放短 PV。",
+      "eventDates": [
+        {
+          "date": "2023-12-25",
+          "endDate": "2023-12-31",
+          "kind": "hold"
+        }
+      ]
+    },
+    "post-62": {
+      "id": "post-62",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "1f2db3d87cc7725b78a75a2cd6ddb7611925a164b47a7e641a0f46f39baa93f8",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "川崎 FM 决定播出无刺有刺特别节目!!",
+      "summaryZh": "12/22 10:15–10:45 川崎 FM 播出特别节目，理名・夕莉出演。",
+      "eventDates": [
+        {
+          "date": "2023-12-22",
+          "kind": "hold",
+          "startTime": "10:15",
+          "endTime": "10:45"
+        }
+      ],
+      "reviewNotes": "合并重复开播条目"
+    },
+    "post-63": {
+      "id": "post-63",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "28094cb8177cceda129a68f9436f4e639afe58ec5febbe36ce128bd15755d2c9",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "TV 动画播出决定纪念活动开始！",
+      "summaryZh": "纪念 TV 播出决定，官方 X 关注＆转发活动进行至 1/3；抽选 10 名获限定透明文件夹。",
+      "eventDates": [
+        {
+          "date": "2023-12-21",
+          "endDate": "2024-01-03",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "活动跨日去时刻"
+    },
+    "post-59": {
+      "id": "post-59",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "21d473f180efed3d5da506813027536614b561bd97a4831ab025756de69b5c03",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "无刺有刺 1st ONE-MAN LIVE “薄明の序奏”举办决定！",
+      "summaryZh": "3/16 18:00 于横滨・1000 CLUB 举办；最速官方先行至 1/8，另有二次先行与全家先行。",
+      "eventDates": [
+        {
+          "date": "2024-03-16",
+          "kind": "hold",
+          "startTime": "18:00"
+        },
+        {
+          "date": "2023-12-20",
+          "endDate": "2024-01-08",
+          "kind": "sale"
+        },
+        {
+          "date": "2024-01-09",
+          "endDate": "2024-01-15",
+          "kind": "sale"
+        },
+        {
+          "date": "2024-01-16",
+          "endDate": "2024-01-29",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "各先行跨日去时刻"
+    },
+    "post-60": {
+      "id": "post-60",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "6c3e8809701b5467da1ce8f7b8abd266d279034d3a8af38d9f90d72afe85ab9d",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "无刺有刺 4th Single《極私的極彩色アンサー》今日发售！",
+      "summaryZh": "无刺有刺 4th Single《極私的極彩色アンサー》于 12/20 发售；含 CD 剧场与 MV 影像盘。",
+      "eventDates": [
+        {
+          "date": "2023-12-20",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-55": {
+      "id": "post-55",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "91a86186d14af6af1ff3564cc9eff485be894b812f7e5b142ca7d7474e01c983",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "5th Single《運命に賭けたい論理》/无刺有刺 2024 年 2 月 28 日（三）发售！",
+      "summaryZh": "无刺有刺 5th Single《運命に賭けたい論理》于 2024 年 2 月 28 日发售。",
+      "eventDates": [
+        {
+          "date": "2024-02-28",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "本文发售日栏误贴 12/20，以标题 2/28 为准"
+    },
+    "post-56": {
+      "id": "post-56",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "ba327f343b33d2181d30607004f26486addad06ab911380a17d35a29f6ecb64d",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "第 9 弹 MV「運命に賭けたい論理」公开！公开纪念活动开始",
+      "summaryZh": "公开第 9 弹 MV；官方 X 关注＆转发活动进行至 12/24，抽选 5 名获签名海报。",
+      "eventDates": [
+        {
+          "date": "2023-12-18",
+          "endDate": "2023-12-24",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "活动跨日去时刻"
+    },
+    "post-53": {
+      "id": "post-53",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "655e9273656276484226bb40f526768af240f3925a2a9100f86b669b36169028",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "无刺有刺 4th Single《極私的極彩色アンサー》发售纪念线上 talk 配信＆签名会举办通知",
+      "summaryZh": "纪念 12/20 发售的 4th Single，12 月 22 日 19:00–20:00 于 Limista 举办线上 talk；购入可获交易卡签名。",
+      "eventDates": [
+        {
+          "date": "2023-12-22",
+          "kind": "hold",
+          "startTime": "19:00",
+          "endTime": "20:00"
+        },
+        {
+          "date": "2023-12-20",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-52": {
+      "id": "post-52",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "5b8551796b8252bd1c97953420c9303158114488c879c3ef8b89909d0d44f010",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "「Get to KAWASAKI 2023」无刺有刺决定压轴出演！",
+      "summaryZh": "12/20 18:30 于川崎・塞尔维亚之夜出演，约 20:10 起压轴登场。",
+      "eventDates": [
+        {
+          "date": "2023-12-20",
+          "kind": "hold",
+          "startTime": "18:30"
+        }
+      ]
+    },
+    "post-50": {
+      "id": "post-50",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "074815b3a8db8283fcc7e0f7aa003deefe21b809b8353a74eb2ec227ea0810e4",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "第 8 弹 MV「傷つき傷つけ痛くて辛い」公开！公开纪念活动开始",
+      "summaryZh": "公开第 8 弹 MV；官方 X 关注＆转发活动进行至 12/10，抽选 5 名获签名海报。",
+      "eventDates": [
+        {
+          "date": "2023-11-27",
+          "endDate": "2023-12-10",
+          "kind": "hold"
+        }
+      ],
+      "reviewNotes": "活动跨日去时刻"
+    },
+    "post-49": {
+      "id": "post-49",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "a2f3584d05abfb15c7914a07a15ae38f8f5708fa0e368037e2e65138320beda3",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "「Get to KAWASAKI 2023」门票一般发售开始",
+      "summaryZh": "12/20 18:30 于川崎・塞尔维亚之夜出演的门票已开始一般发售。",
+      "eventDates": [
+        {
+          "date": "2023-12-20",
+          "kind": "hold",
+          "startTime": "18:30"
+        }
+      ]
+    },
+    "post-45": {
+      "id": "post-45",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8c4a47b9d7993f83d62d144173fc12693c29b7c1e72e9730a7014e3b004982c1",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "无刺有刺 MV 第 8 弹《傷つき傷つけ痛くて辛い》公开纪念活动举办通知",
+      "summaryZh": "11/27 19:00 于 HMV＆BOOKS SHIBUYA 5F 举办 talk＆特典会；当日预约 4th Single 可获海报签名。",
+      "eventDates": [
+        {
+          "date": "2023-11-27",
+          "kind": "hold",
+          "startTime": "19:00"
+        },
+        {
+          "date": "2023-12-20",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-46": {
+      "id": "post-46",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "4ddaff978e09f51cbb429b7acefa125ef81905f807ab27ec250e24bc893e46fd",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "无刺有刺 3rd Single《爆ぜて咲く～MV 即将破千万播放～》线上 talk 配信＆签名会举办通知",
+      "summaryZh": "纪念 3rd Single 与 MV 播放量，12 月 2 日 17:00–18:00 于 Limista 举办线上 talk；购入可获交易卡签名。",
+      "eventDates": [
+        {
+          "date": "2023-12-02",
+          "kind": "hold",
+          "startTime": "17:00",
+          "endTime": "18:00"
+        }
+      ]
+    },
+    "post-44": {
+      "id": "post-44",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "2167f9e0f5dce288ff2e11103538fc73f01be2f2783dd62a372b6e84ebda0318",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "4th Single《極私的極彩色アンサー》各店特典图案决定通知",
+      "summaryZh": "12/20 发售的 4th Single 各店先着特典图案已决定。",
+      "eventDates": [
+        {
+          "date": "2023-12-20",
+          "kind": "sale"
+        }
+      ]
+    },
+    "post-43": {
+      "id": "post-43",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "bec29cce9790dc62460585972e70842b372e59df20191cbf9bf06417ca9b50ec",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "12 月 20 日（三）「Get to KAWASAKI 2023」出演决定！",
+      "summaryZh": "12/20 18:30 于川崎・塞尔维亚之夜出演；最速先行申请期为 11/10–11/19。",
+      "eventDates": [
+        {
+          "date": "2023-12-20",
+          "kind": "hold",
+          "startTime": "18:30"
+        },
+        {
+          "date": "2023-11-10",
+          "endDate": "2023-11-19",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "合并重复公演；先行跨日去时刻"
+    },
+    "post-42": {
+      "id": "post-42",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "4739874a1fc414dde1cdb5bd3e3db38ef416a3df0ea5a956fd778859b7590373",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "东映动画官方商店开始受理无刺有刺周边预约！",
+      "summaryZh": "T 恤、毛巾、贴纸、硅胶手环等自 11/1 起于东映官方商店受理至 11/15，约 12 月中旬发货。",
+      "eventDates": [
+        {
+          "date": "2023-11-01",
+          "endDate": "2023-11-15",
+          "kind": "sale"
+        }
+      ],
+      "reviewNotes": "受理跨日去时刻"
+    },
+    "post-41": {
+      "id": "post-41",
+      "sourceId": "gbc-news",
+      "status": "reviewed",
+      "contentFingerprint": "8b938adbdb7c73982ac0ae936ce6749526ccf3e98b4567bec15e78cacdfd9cc7",
+      "reviewedAt": "2026-07-17T18:30:00.000Z",
+      "titleZh": "11 月 10 日（五）「赤羽 ReNY alpha presents Night Escape vol.9」LIVE 信息",
+      "summaryZh": "无刺有刺于 11/10 18:45 在赤羽 ReNY alpha 首次参加对邦 LIVE。",
+      "eventDates": [
+        {
+          "date": "2023-11-10",
+          "kind": "hold",
+          "startTime": "18:45"
+        }
+      ],
+      "reviewNotes": "合并重复公演条目"
     }
   }
 }

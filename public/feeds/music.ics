@@ -506,42 +506,34 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-35.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-45-2023-11-27-hold@gbc-news
+UID:post-50-2023-11-27_2023-12-10-hold@gbc-news
 DTSTAMP:20231127T000000Z
 DTSTART;VALUE=DATE:20231127
-DTEND;VALUE=DATE:20231128
+DTEND;VALUE=DATE:20231211
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ MV第8弾『傷つき傷つけ痛
- くて辛い』公開記念イベント開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メーション「ガールズバンドクライ」から 飛び出した
- ガールズバンド“トゲナシトゲアリ”Music Video第8弾『
- 傷つき傷つけ痛くて辛い』公開を記念して、 HMV＆BOOKS S
- HIBUYA 5Fにてトークイベント【第3回目】の開催が決定！\
- n初公開となるMusic Videoをメンバーと一緒に観ましょう
- ！\n【開催日時】\n\nhttps://girls-band-cry.com/news/post-45.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-45.html
-CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-50-2023-11-27_2023-12-10-hold-2100@gbc-news
-DTSTAMP:20231127T120000Z
-DTSTART:20231127T120000Z
-DTEND:20231210T145900Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] 第8弾MV「傷つき傷つけ痛くて辛い」公開！
- 公開記念キャンペーンがスタート
-DESCRIPTION:劇中バンド「トゲナシトゲアリ」のメンバーが
- 歌う MV第8弾「傷つき傷つけ痛くて辛い」 を公開いたし
- ました MV公開を記念して、 アニメ「ガールズバンドク
- ライ」公式X（旧Twitter）にてフォロー＆リポストキャン
- ペーンを開催いたします 【開催期間】 11月27日（月）21
- :00 ～ 12月10日（日） 23:59 【参加方法】 ①X（旧Twitter）\
- n\nhttps://girls-band-cry.com/news/post-50.html
+SUMMARY:[举办] 第 8 弹 MV「傷つき傷つけ痛くて辛い」公开
+ ！公开纪念活动开始
+DESCRIPTION:公开第 8 弹 MV；官方 X 关注＆转发活动进行至 12
+ /10，抽选 5 名获签名海报。\n\n
+ https://girls-band-cry.com/news/post-50.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-50.html
 CATEGORIES:togenashi,music,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-45-2023-11-27-hold-1900@gbc-news
+DTSTAMP:20231127T100000Z
+DTSTART:20231127T100000Z
+DTEND:20231127T120000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 无刺有刺 MV 第 8 弹《傷つき傷つけ痛くて辛
+ い》公开纪念活动举办通知
+DESCRIPTION:11/27 19:00 于 HMV＆BOOKS SHIBUYA 5F 举办 talk＆特典会
+ ；当日预约 4th Single 可获海报签名。\n\n
+ https://girls-band-cry.com/news/post-45.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-45.html
+CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-46-2023-12-02-hold-1700@gbc-news
@@ -550,36 +542,26 @@ DTSTART:20231202T080000Z
 DTEND:20231202T090000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ 3rd Single『爆ぜて咲く～
- ミュージックビデオ1\,000万回再生目前～』 オンライン
- トーク配信＆サイン会開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド“トゲナシトゲアリ” 3rd Single 『爆ぜ
- て咲く』大好評発売中！\nそしてさらにミュージックビ
- デオ1\,000万回再生目前を記念して大好評のオンライン
- トーク配信＆サイン会【5回目】の開催が決定！\n今回
- の企画は「夕莉王決定戦～メンバーはどのくらい夕莉
- のこ\n\nhttps://girls-band-cry.com/news/post-46.html
+SUMMARY:[举办] 无刺有刺 3rd Single《爆ぜて咲く～MV 即将破
+ 千万播放～》线上 talk 配信＆签名会举办通知
+DESCRIPTION:纪念 3rd Single 与 MV 播放量，12 月 2 日 17:00–18:00
+  于 Limista 举办线上 talk；购入可获交易卡签名。\n\n
+ https://girls-band-cry.com/news/post-46.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-46.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-56-2023-12-18_2023-12-24-hold-2100@gbc-news
-DTSTAMP:20231218T120000Z
-DTSTART:20231218T120000Z
-DTEND:20231224T145900Z
-TRANSP:OPAQUE
+UID:post-56-2023-12-18_2023-12-24-hold@gbc-news
+DTSTAMP:20231218T000000Z
+DTSTART;VALUE=DATE:20231218
+DTEND;VALUE=DATE:20231225
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] 第9弾MV「運命に賭けたい論理」公開！公開
- 記念キャンペーンがスタート
-DESCRIPTION:劇中バンド「トゲナシトゲアリ」のメンバーが
- 歌う MV第9弾「運命に賭けたい論理」 を公開いたしまし
- た MV公開を記念して、 アニメ「ガールズバンドクライ
- 」公式X（旧Twitter）にてフォロー＆リポストキャンペー
- ンを開催いたします 【開催期間】 12月18日（月）21:00 
- ～ 12月24日（日） 23:59 【参加方法】 ①X（旧Twitter）の
- ＠\n\nhttps://girls-band-cry.com/news/post-56.html
+SUMMARY:[举办] 第 9 弹 MV「運命に賭けたい論理」公开！公
+ 开纪念活动开始
+DESCRIPTION:公开第 9 弹 MV；官方 X 关注＆转发活动进行至 12
+ /24，抽选 5 名获签名海报。\n\n
+ https://girls-band-cry.com/news/post-56.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-56.html
 CATEGORIES:togenashi,music,event
 END:VEVENT
@@ -608,52 +590,42 @@ DTSTART;VALUE=DATE:20231220
 DTEND;VALUE=DATE:20231221
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 4th Single「極私的極彩色アンサー」店舗別特
- 典絵柄決定のお知らせ
-DESCRIPTION:12月20日（水）発売 トゲナシトゲアリ4rd Single「
- 極私的極彩色アンサー」 店舗別特典絵柄が決定しまし
- た 先着特典となりますので、この機会にぜひGETしてく
- ださい！\n ▶CDのご予約は こちら\n\n
- https://girls-band-cry.com/news/post-44.html
+SUMMARY:[发售] 4th Single《極私的極彩色アンサー》各店特典
+ 图案决定通知
+DESCRIPTION:12/20 发售的 4th Single 各店先着特典图案已决定。
+ \n\nhttps://girls-band-cry.com/news/post-44.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-44.html
 CATEGORIES:togenashi,music
 END:VEVENT
 BEGIN:VEVENT
-UID:post-45-2023-12-20-hold@gbc-news
+UID:post-45-2023-12-20-sale@gbc-news
 DTSTAMP:20231220T000000Z
 DTSTART;VALUE=DATE:20231220
 DTEND;VALUE=DATE:20231221
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ MV第8弾『傷つき傷つけ痛
- くて辛い』公開記念イベント開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メーション「ガールズバンドクライ」から 飛び出した
- ガールズバンド“トゲナシトゲアリ”Music Video第8弾『
- 傷つき傷つけ痛くて辛い』公開を記念して、 HMV＆BOOKS S
- HIBUYA 5Fにてトークイベント【第3回目】の開催が決定！\
- n初公開となるMusic Videoをメンバーと一緒に観ましょう
- ！\n【開催日時】\n\nhttps://girls-band-cry.com/news/post-45.html
+SUMMARY:[发售] 无刺有刺 MV 第 8 弹《傷つき傷つけ痛くて辛
+ い》公开纪念活动举办通知
+DESCRIPTION:11/27 19:00 于 HMV＆BOOKS SHIBUYA 5F 举办 talk＆特典会
+ ；当日预约 4th Single 可获海报签名。\n\n
+ https://girls-band-cry.com/news/post-45.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-45.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
-UID:post-55-2023-12-20-sale@gbc-news
+UID:post-53-2023-12-20-sale@gbc-news
 DTSTAMP:20231220T000000Z
 DTSTART;VALUE=DATE:20231220
 DTEND;VALUE=DATE:20231221
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 5th Single「運命に賭けたい論理」/トゲナシ
- トゲアリ 2024年2月28日(水)発売！
-DESCRIPTION:【アーティスト】 トゲナシトゲアリ Vo.井芹 仁
- 菜（CV:理名） Gt.河原木 桃香（CV:夕莉） Dr.安和 すばる
- （CV: 美怜） Key.海老塚 智（CV: 凪都） Ba.ルパ （CV: 朱李
- ） 【発売日】 2023年12月20日（水） 【形態・価格・品番
- 】 [CD+Blu-ray] ￥3\,960 (Tax in) UMCK 5744 [CD+DVD\n\n
- https://girls-band-cry.com/news/post-55.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-55.html
-CATEGORIES:togenashi,music,cinema
+SUMMARY:[发售] 无刺有刺 4th Single《極私的極彩色アンサー
+ 》发售纪念线上 talk 配信＆签名会举办通知
+DESCRIPTION:纪念 12/20 发售的 4th Single，12 月 22 日 19:00–20:00
+  于 Limista 举办线上 talk；购入可获交易卡签名。\n\n
+ https://girls-band-cry.com/news/post-53.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-53.html
+CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-60-2023-12-20-sale@gbc-news
@@ -662,13 +634,10 @@ DTSTART;VALUE=DATE:20231220
 DTEND;VALUE=DATE:20231221
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] トゲナシトゲアリ4th Single「極私的極彩色ア
- ンサー」本日発売！
-DESCRIPTION:【アーティスト】 トゲナシトゲアリ Vo.井芹 仁
- 菜（CV:理名） Gt.河原木 桃香（CV:夕莉） Dr.安和 すばる
- （CV: 美怜） Key.海老塚 智（CV: 凪都） Ba.ルパ （CV: 朱李
- ） 【発売日】 2023年12月20日（水） 【形態・価格・品番
- 】 CD+Blu-ray : ¥3\,960(Tax in)UMCK-5739 CD+DVD :\n\n
+SUMMARY:[发售] 无刺有刺 4th Single《極私的極彩色アンサー
+ 》今日发售！
+DESCRIPTION:无刺有刺 4th Single《極私的極彩色アンサー》于 
+ 12/20 发售；含 CD 剧场与 MV 影像盘。\n\n
  https://girls-band-cry.com/news/post-60.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-60.html
 CATEGORIES:togenashi,music,cinema
@@ -680,19 +649,28 @@ DTSTART:20231222T100000Z
 DTEND:20231222T110000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ 4th Single『極私的極彩色
- アンサー』発売記念 オンライントーク配信＆サイン会 
- 開催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド “トゲナシトゲアリ” 12 月20日(水)の 4
- th Single『極私的極彩色アンサー』発売を記念し、大好
- 評のオンライントーク配信＆サイン会【6回目】の開催
- が決定！\n今回の企画は「トゲトゲ版！\nきよしこの夜
- 、プレゼント対決」になります。\nご期待ください\n\n
+SUMMARY:[举办] 无刺有刺 4th Single《極私的極彩色アンサー
+ 》发售纪念线上 talk 配信＆签名会举办通知
+DESCRIPTION:纪念 12/20 发售的 4th Single，12 月 22 日 19:00–20:00
+  于 Limista 举办线上 talk；购入可获交易卡签名。\n\n
  https://girls-band-cry.com/news/post-53.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-53.html
 CATEGORIES:togenashi,live,music,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-72-2024-01-29_2024-02-04-hold@gbc-news
+DTSTAMP:20240129T000000Z
+DTSTART;VALUE=DATE:20240129
+DTEND;VALUE=DATE:20240205
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 第 10 弹 MV「サヨナラサヨナラサヨナラ」公
+ 开！公开纪念活动开始
+DESCRIPTION:公开第 10 弹 MV「サヨナラサヨナラサヨナラ」
+ ；官方 X 关注＆转发活动截止 2/4，有机会获签名海报。\
+ n\nhttps://girls-band-cry.com/news/post-72.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-72.html
+CATEGORIES:togenashi,music,event,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-68-2024-02-03-hold-1700@gbc-news
@@ -701,38 +679,13 @@ DTSTART:20240203T080000Z
 DTEND:20240203T090000Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
-SUMMARY:[举办] トゲナシトゲアリ 5th Single『運命に賭けた
- い論理』発売記念 オンライントーク配信＆サイン会 開
- 催のご案内
-DESCRIPTION:東映アニメーションが製作するオリジナルアニ
- メ「ガールズバンドクライ」の主題歌を歌う5人編成の
- ガールズバンド “トゲナシトゲアリ” 2024年2月28日（
- 水）の5th Single 『運命に賭けたい論理』の発売を記念し
- て、今年第1回目となるオンライントーク配信＆サイン
- 会の開催が決定！\n今回の企画は「朱李プレゼンツ：ジ
- ェスチャー伝言ゲーム」になります。\nご期待くだ\n\n
+SUMMARY:[举办] 无刺有刺 5th Single《運命に賭けたい論理》
+ 发售纪念线上 talk 配信＆签名会举办通知
+DESCRIPTION:纪念 2/28 发售的 5th Single，2 月 3 日 17:00–18:00 
+ 于 Limista 举办线上 talk；购入获签名视觉卡。\n\n
  https://girls-band-cry.com/news/post-68.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-68.html
 CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-72-2024-02-04-hold@gbc-news
-DTSTAMP:20240204T000000Z
-DTSTART;VALUE=DATE:20240204
-DTEND;VALUE=DATE:20240205
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-SUMMARY:[举办] 第10弾MV「サヨナラサヨナラサヨナラ」公開
- ！公開記念キャンペーンがスタート
-DESCRIPTION:劇中バンド「トゲナシトゲアリ」のメンバーが
- 歌う MV第10弾「サヨナラサヨナラサヨナラ」 を公開い
- たしました MV公開を記念して、 アニメ「ガールズバン
- ドクライ」公式X（旧Twitter）にてフォロー＆リポストキ
- ャンペーンを開催いたします 【開催期間】 12月18日（
- 月）21:00 ～ 12月24日（日） 23:59 【参加方法】 ①X（旧Twi
- tte\n\nhttps://girls-band-cry.com/news/post-72.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-72.html
-CATEGORIES:togenashi,music,event,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-74-2024-02-27-hold-1900@gbc-news
@@ -756,16 +709,28 @@ DTSTART;VALUE=DATE:20240228
 DTEND;VALUE=DATE:20240229
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 5th Single「運命に賭けたい論理」/トゲナシ
- トゲアリ 2024年2月28日(水)発売！
-DESCRIPTION:【アーティスト】 トゲナシトゲアリ Vo.井芹 仁
- 菜（CV:理名） Gt.河原木 桃香（CV:夕莉） Dr.安和 すばる
- （CV: 美怜） Key.海老塚 智（CV: 凪都） Ba.ルパ （CV: 朱李
- ） 【発売日】 2023年12月20日（水） 【形態・価格・品番
- 】 [CD+Blu-ray] ￥3\,960 (Tax in) UMCK 5744 [CD+DVD\n\n
+SUMMARY:[发售] 5th Single《運命に賭けたい論理》/无刺有刺 2
+ 024 年 2 月 28 日（三）发售！
+DESCRIPTION:无刺有刺 5th Single《運命に賭けたい論理》于 202
+ 4 年 2 月 28 日发售。\n\n
  https://girls-band-cry.com/news/post-55.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-55.html
 CATEGORIES:togenashi,music,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-68-2024-02-28-sale@gbc-news
+DTSTAMP:20240228T000000Z
+DTSTART;VALUE=DATE:20240228
+DTEND;VALUE=DATE:20240229
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 无刺有刺 5th Single《運命に賭けたい論理》
+ 发售纪念线上 talk 配信＆签名会举办通知
+DESCRIPTION:纪念 2/28 发售的 5th Single，2 月 3 日 17:00–18:00 
+ 于 Limista 举办线上 talk；购入获签名视觉卡。\n\n
+ https://girls-band-cry.com/news/post-68.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-68.html
+CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:post-74-2024-02-28-sale@gbc-news
@@ -1451,25 +1416,6 @@ DESCRIPTION:纪念 Vol.6 豪华限定版发售，11 月 21 日 19:00–20:0
  https://girls-band-cry.com/news/post-251.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-251.html
 CATEGORIES:togenashi,live,music,event,cinema
-END:VEVENT
-BEGIN:VEVENT
-UID:post-72-2024-12-18_2024-12-24-hold-2100@gbc-news
-DTSTAMP:20241218T120000Z
-DTSTART:20241218T120000Z
-DTEND:20241224T145900Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SUMMARY:[举办] 第10弾MV「サヨナラサヨナラサヨナラ」公開
- ！公開記念キャンペーンがスタート
-DESCRIPTION:劇中バンド「トゲナシトゲアリ」のメンバーが
- 歌う MV第10弾「サヨナラサヨナラサヨナラ」 を公開い
- たしました MV公開を記念して、 アニメ「ガールズバン
- ドクライ」公式X（旧Twitter）にてフォロー＆リポストキ
- ャンペーンを開催いたします 【開催期間】 12月18日（
- 月）21:00 ～ 12月24日（日） 23:59 【参加方法】 ①X（旧Twi
- tte\n\nhttps://girls-band-cry.com/news/post-72.html
-URL;VALUE=URI:https://girls-band-cry.com/news/post-72.html
-CATEGORIES:togenashi,music,event,media
 END:VEVENT
 BEGIN:VEVENT
 UID:post-252-2024-12-22-hold-1500@gbc-news

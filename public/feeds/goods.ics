@@ -120,22 +120,16 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-15.html
 CATEGORIES:togenashi,music,goods,event
 END:VEVENT
 BEGIN:VEVENT
-UID:post-42-2023-11-01_2023-11-15-sale-1300@gbc-news
-DTSTAMP:20231101T040000Z
-DTSTART:20231101T040000Z
-DTEND:20231115T145900Z
-TRANSP:OPAQUE
+UID:post-42-2023-11-01_2023-11-15-sale@gbc-news
+DTSTAMP:20231101T000000Z
+DTSTART;VALUE=DATE:20231101
+DTEND;VALUE=DATE:20231116
+TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] 東映アニメーションオフィシャルストアに
- てトゲナシトゲアリのグッズの予約受付を開始！
-DESCRIPTION:トゲナシトゲアリのグッズが登場！\nラインナ
- ップはTシャツ、マフラータオル、バックステージパス
- 風ステッカー、シリコンバンドの4種となっております
- ！\nTシャツは黒と白の2色展開！\nマフラータオルはシ
- ンプルでスタイリッシュなデザインです！\nライブハウ
- スなどでもらえるバックステージパスをイメージした
- ステッカーも登場！\nメンバーカラーの5色展開です！\n
- シリコンバンドはメ\n\n
+SUMMARY:[发售] 东映动画官方商店开始受理无刺有刺周边预
+ 约！
+DESCRIPTION:T 恤、毛巾、贴纸、硅胶手环等自 11/1 起于东映
+ 官方商店受理至 11/15，约 12 月中旬发货。\n\n
  https://girls-band-cry.com/news/post-42.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-42.html
 CATEGORIES:togenashi,live,goods
@@ -147,16 +141,11 @@ DTSTART;VALUE=DATE:20240201
 DTEND;VALUE=DATE:20240202
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] AniBirth」渋谷PARCO／心斎橋PARCOにて「ガール
- ズバンドクライ」常設コーナーがOPEN！
-DESCRIPTION:東映アニメーションの公式グッズショップ「Ani
- Birth（アニバース）」に「ガールズバンドクライ」コー
- ナーが誕生！\nトゲナシトゲアリの5人が揃ったA5ステッ
- カーシートやメンバーそれぞれの名前が入ったアクリ
- ルバッジ、衣装をモチーフにしたコードホルダー、ネ
- オン風デザインのアイコンがおしゃれなピックセット
- 、通常衣装のメンバーと特別衣装のメンバーが描かれ
- た缶バッジな\n\nhttps://girls-band-cry.com/news/post-69.html
+SUMMARY:[发售] AniBirth 涉谷 PARCO／心斋桥 PARCO「Girls Band Cry
+ 」常设专区 OPEN！
+DESCRIPTION:AniBirth 涉谷店自 2/1、心斋桥店自 2/2 开设常设专
+ 区并上架新周边；东映官方商店自 2/9 起销售。\n\n
+ https://girls-band-cry.com/news/post-69.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-69.html
 CATEGORIES:togenashi,goods
 END:VEVENT
@@ -167,16 +156,26 @@ DTSTART;VALUE=DATE:20240202
 DTEND;VALUE=DATE:20240203
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
-SUMMARY:[发售] AniBirth」渋谷PARCO／心斎橋PARCOにて「ガール
- ズバンドクライ」常設コーナーがOPEN！
-DESCRIPTION:東映アニメーションの公式グッズショップ「Ani
- Birth（アニバース）」に「ガールズバンドクライ」コー
- ナーが誕生！\nトゲナシトゲアリの5人が揃ったA5ステッ
- カーシートやメンバーそれぞれの名前が入ったアクリ
- ルバッジ、衣装をモチーフにしたコードホルダー、ネ
- オン風デザインのアイコンがおしゃれなピックセット
- 、通常衣装のメンバーと特別衣装のメンバーが描かれ
- た缶バッジな\n\nhttps://girls-band-cry.com/news/post-69.html
+SUMMARY:[发售] AniBirth 涉谷 PARCO／心斋桥 PARCO「Girls Band Cry
+ 」常设专区 OPEN！
+DESCRIPTION:AniBirth 涉谷店自 2/1、心斋桥店自 2/2 开设常设专
+ 区并上架新周边；东映官方商店自 2/9 起销售。\n\n
+ https://girls-band-cry.com/news/post-69.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-69.html
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
+UID:post-69-2024-02-09-sale@gbc-news
+DTSTAMP:20240209T000000Z
+DTSTART;VALUE=DATE:20240209
+DTEND;VALUE=DATE:20240210
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] AniBirth 涉谷 PARCO／心斋桥 PARCO「Girls Band Cry
+ 」常设专区 OPEN！
+DESCRIPTION:AniBirth 涉谷店自 2/1、心斋桥店自 2/2 开设常设专
+ 区并上架新周边；东映官方商店自 2/9 起销售。\n\n
+ https://girls-band-cry.com/news/post-69.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-69.html
 CATEGORIES:togenashi,goods
 END:VEVENT
