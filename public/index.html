@@ -38,13 +38,68 @@
     />
     <style>
       :root {
-        color-scheme: light;
+        color-scheme: dark;
         --bg0: #101418;
         --bg1: #1a2229;
+        --bg2: #12171d;
         --ink: #f4efe6;
         --muted: #b7c0c8;
         --accent: #e85d4c;
+        --accent-hover: #ff8a7a;
+        --primary-ink: #1a0f0d;
         --line: rgba(244, 239, 230, 0.16);
+        --line-strong: rgba(244, 239, 230, 0.36);
+        --glow-accent: rgba(232, 93, 76, 0.28);
+        --glow-sale: rgba(90, 140, 180, 0.22);
+        --surface: rgba(255, 255, 255, 0.03);
+        --surface-hover: rgba(255, 255, 255, 0.1);
+        --field-bg: rgba(0, 0, 0, 0.28);
+        --panel-bg: rgba(0, 0, 0, 0.16);
+        --tooltip-bg: rgba(16, 20, 24, 0.96);
+        --accent-soft: rgba(232, 93, 76, 0.14);
+        --accent-softer: rgba(232, 93, 76, 0.1);
+        --accent-chip: rgba(232, 93, 76, 0.16);
+        --accent-chip-hover: rgba(232, 93, 76, 0.28);
+        --sale: #5a8cb4;
+        --sale-soft: rgba(90, 140, 180, 0.2);
+        --sale-chip: rgba(90, 140, 180, 0.2);
+        --sale-chip-hover: rgba(90, 140, 180, 0.32);
+        --month-bg: rgba(244, 239, 230, 0.03);
+        --grid-line: rgba(244, 239, 230, 0.06);
+        --grid-line-strong: rgba(244, 239, 230, 0.1);
+        --today-outline: rgba(232, 93, 76, 0.78);
+      }
+      :root[data-theme='light'] {
+        color-scheme: light;
+        --bg0: #f8f6f2;
+        --bg1: #ffffff;
+        --bg2: #f2eee7;
+        --ink: #1a2229;
+        --muted: #5c6770;
+        --accent: #d94a3a;
+        --accent-hover: #b9382b;
+        --primary-ink: #fff8f6;
+        --line: rgba(26, 34, 40, 0.14);
+        --line-strong: rgba(26, 34, 40, 0.3);
+        --glow-accent: rgba(217, 74, 58, 0.12);
+        --glow-sale: rgba(74, 126, 168, 0.1);
+        --surface: rgba(26, 34, 40, 0.035);
+        --surface-hover: rgba(26, 34, 40, 0.08);
+        --field-bg: rgba(26, 34, 40, 0.06);
+        --panel-bg: rgba(255, 255, 255, 0.55);
+        --tooltip-bg: rgba(255, 255, 255, 0.96);
+        --accent-soft: rgba(217, 74, 58, 0.12);
+        --accent-softer: rgba(217, 74, 58, 0.1);
+        --accent-chip: rgba(217, 74, 58, 0.14);
+        --accent-chip-hover: rgba(217, 74, 58, 0.22);
+        --sale: #4a7ea8;
+        --sale-soft: rgba(74, 126, 168, 0.16);
+        --sale-chip: rgba(74, 126, 168, 0.14);
+        --sale-chip-hover: rgba(74, 126, 168, 0.22);
+        --month-bg: rgba(26, 34, 40, 0.04);
+        --grid-line: rgba(26, 34, 40, 0.08);
+        --grid-line-strong: rgba(26, 34, 40, 0.12);
+        --today-outline: rgba(217, 74, 58, 0.72);
       }
       * {
         box-sizing: border-box;
@@ -55,9 +110,47 @@
         font-family: 'IBM Plex Sans JP', sans-serif;
         color: var(--ink);
         background:
-          radial-gradient(circle at 12% 18%, rgba(232, 93, 76, 0.28), transparent 42%),
-          radial-gradient(circle at 88% 0%, rgba(90, 140, 180, 0.22), transparent 36%),
-          linear-gradient(160deg, var(--bg0), var(--bg1) 55%, #12171d);
+          radial-gradient(circle at 12% 18%, var(--glow-accent), transparent 42%),
+          radial-gradient(circle at 88% 0%, var(--glow-sale), transparent 36%),
+          linear-gradient(160deg, var(--bg0), var(--bg1) 55%, var(--bg2));
+      }
+      .theme-toggle {
+        position: fixed;
+        top: 0.85rem;
+        right: 0.85rem;
+        z-index: 30;
+        min-width: 0;
+        padding: 0;
+        border: 1px solid var(--line);
+        background: var(--surface);
+        box-shadow: none;
+      }
+      .theme-toggle.btn-icon {
+        width: 2.15rem;
+        height: 2.15rem;
+      }
+      .theme-toggle:hover {
+        background: var(--surface-hover);
+        border-color: var(--line-strong);
+      }
+      .theme-toggle svg {
+        width: 1rem;
+        height: 1rem;
+      }
+      .theme-toggle .theme-icon-off {
+        display: none;
+      }
+      html[data-theme='light'] .theme-toggle .theme-icon-on {
+        display: none;
+      }
+      html[data-theme='light'] .theme-toggle .theme-icon-off {
+        display: block;
+      }
+      @media (max-width: 640px) {
+        .theme-toggle {
+          top: 0.65rem;
+          right: 0.65rem;
+        }
       }
       main {
         width: min(900px, calc(100% - 2rem));
@@ -103,11 +196,11 @@
         padding: 0.55rem 0.8rem;
         cursor: pointer;
         user-select: none;
-        background: rgba(255, 255, 255, 0.03);
+        background: var(--surface);
       }
       label.cat:has(input:checked) {
         border-color: var(--accent);
-        background: rgba(232, 93, 76, 0.14);
+        background: var(--accent-soft);
       }
       .actions {
         display: flex;
@@ -132,20 +225,20 @@
       }
       button:hover,
       a.btn:hover {
-        background: rgba(255, 255, 255, 0.1);
-        border-color: rgba(244, 239, 230, 0.36);
+        background: var(--surface-hover);
+        border-color: var(--line-strong);
       }
       button.primary,
       a.btn.primary {
         background: var(--accent);
         border-color: var(--accent);
-        color: #1a0f0d;
+        color: var(--primary-ink);
         font-weight: 700;
       }
       button.primary:hover,
       a.btn.primary:hover {
-        background: #ff8a7a;
-        border-color: #ff8a7a;
+        background: var(--accent-hover);
+        border-color: var(--accent-hover);
       }
       .links {
         display: grid;
@@ -173,7 +266,7 @@
         height: 2.85rem;
         line-height: calc(2.85rem - 2px);
         padding: 0 3rem 0 0.85rem;
-        background: rgba(0, 0, 0, 0.28);
+        background: var(--field-bg);
         border: 1px solid var(--line);
         font-size: 0.86rem;
       }
@@ -205,8 +298,8 @@
       }
       button.btn-icon:hover,
       a.btn-icon:hover {
-        background: rgba(255, 255, 255, 0.1);
-        border-color: rgba(244, 239, 230, 0.36);
+        background: var(--surface-hover);
+        border-color: var(--line-strong);
       }
       button.btn-icon:focus-visible,
       a.btn-icon:focus-visible {
@@ -217,12 +310,12 @@
       a.btn-icon.primary {
         background: var(--accent);
         border-color: var(--accent);
-        color: #1a0f0d;
+        color: var(--primary-ink);
       }
       button.btn-icon.primary:hover,
       a.btn-icon.primary:hover {
-        background: #ff8a7a;
-        border-color: #ff8a7a;
+        background: var(--accent-hover);
+        border-color: var(--accent-hover);
       }
       button.btn-icon svg,
       a.btn-icon svg {
@@ -242,9 +335,9 @@
         color: var(--accent);
       }
       button.btn-icon.copy-inline:hover {
-        background: rgba(232, 93, 76, 0.14);
+        background: var(--accent-soft);
         border-color: transparent;
-        color: #ff8a7a;
+        color: var(--accent-hover);
       }
       button.copy-inline[data-tooltip]::after {
         content: attr(data-tooltip);
@@ -254,7 +347,7 @@
         transform: translateX(-50%) translateY(0.15rem);
         padding: 0.28rem 0.5rem;
         border: 1px solid var(--line);
-        background: rgba(16, 20, 24, 0.96);
+        background: var(--tooltip-bg);
         color: var(--ink);
         font-size: 0.72rem;
         line-height: 1.2;
@@ -279,7 +372,7 @@
         margin: 0.9rem 0 0;
         padding: 0.75rem 0.85rem;
         border: 1px solid var(--accent);
-        background: rgba(232, 93, 76, 0.12);
+        background: var(--accent-soft);
         color: var(--ink);
         font-size: 0.92rem;
         line-height: 1.55;
@@ -312,12 +405,12 @@
       .calendar-views button.is-active {
         background: var(--accent);
         border-color: var(--accent);
-        color: #1a0f0d;
+        color: var(--primary-ink);
         font-weight: 700;
       }
       .calendar-views button.is-active:hover {
-        background: #ff8a7a;
-        border-color: #ff8a7a;
+        background: var(--accent-hover);
+        border-color: var(--accent-hover);
       }
       .section-head {
         display: flex;
@@ -337,12 +430,12 @@
       .section-head button.is-active {
         background: var(--accent);
         border-color: var(--accent);
-        color: #1a0f0d;
+        color: var(--primary-ink);
         font-weight: 700;
       }
       .section-head button.is-active:hover {
-        background: #ff8a7a;
-        border-color: #ff8a7a;
+        background: var(--accent-hover);
+        border-color: var(--accent-hover);
       }
       .calendar-nav {
         display: flex;
@@ -368,7 +461,7 @@
         overflow-x: auto;
         overflow-y: hidden;
         border: 1px solid var(--line);
-        background: rgba(0, 0, 0, 0.16);
+        background: var(--panel-bg);
       }
       .calendar-board.is-week-view,
       .calendar-board.is-day-view {
@@ -406,7 +499,7 @@
         font-weight: 700;
         line-height: 1;
         letter-spacing: -0.06em;
-        color: rgba(244, 239, 230, 0.03);
+        color: var(--month-bg);
         pointer-events: none;
         user-select: none;
         z-index: 0;
@@ -441,14 +534,14 @@
         letter-spacing: 0.08em;
         text-align: center;
         border-bottom: 1px solid var(--line);
-        background: rgba(255, 255, 255, 0.03);
+        background: var(--surface);
       }
       .calendar-day-cell {
         min-height: 7.2rem;
         border-right: 1px solid var(--line);
         border-bottom: 1px solid var(--line);
         padding: 0.35rem;
-        background: rgba(255, 255, 255, 0.02);
+        background: var(--surface);
       }
       .calendar-day-cell:nth-child(7n) {
         border-right: none;
@@ -458,8 +551,8 @@
         background: transparent;
       }
       .calendar-day-cell.is-today {
-        background: rgba(232, 93, 76, 0.1);
-        box-shadow: inset 0 0 0 2px rgba(232, 93, 76, 0.78);
+        background: var(--accent-softer);
+        box-shadow: inset 0 0 0 2px var(--today-outline);
       }
       .calendar-day-num {
         display: inline-flex;
@@ -479,7 +572,7 @@
       .calendar-day-cell.is-today .calendar-day-num {
         border-radius: 999px;
         background: var(--accent);
-        color: #1a0f0d;
+        color: var(--primary-ink);
       }
       .calendar-day-events {
         display: grid;
@@ -497,15 +590,15 @@
         white-space: nowrap;
         padding: 0.18rem 0.3rem;
         border-left: 2px solid var(--accent);
-        background: rgba(232, 93, 76, 0.16);
+        background: var(--accent-chip);
         color: var(--ink);
         font-size: 0.68rem;
         line-height: 1.35;
         text-decoration: none;
       }
       a.calendar-chip.is-sale {
-        border-left-color: #5a8cb4;
-        background: rgba(90, 140, 180, 0.2);
+        border-left-color: var(--sale);
+        background: var(--sale-chip);
       }
       a.calendar-chip.is-span {
         opacity: 0.88;
@@ -528,10 +621,10 @@
         visibility: visible;
       }
       a.calendar-chip:hover {
-        background: rgba(232, 93, 76, 0.28);
+        background: var(--accent-chip-hover);
       }
       a.calendar-chip.is-sale:hover {
-        background: rgba(90, 140, 180, 0.32);
+        background: var(--sale-chip-hover);
       }
       .calendar-event-tooltip {
         position: fixed;
@@ -540,7 +633,7 @@
         max-width: min(28rem, calc(100vw - 2rem));
         padding: 0.45rem 0.6rem;
         border: 1px solid var(--line);
-        background: rgba(16, 20, 24, 0.96);
+        background: var(--tooltip-bg);
         color: var(--ink);
         font-size: 0.78rem;
         line-height: 1.45;
@@ -617,7 +710,7 @@
           );
         position: relative;
         border-bottom: 1px solid var(--line);
-        background: rgba(255, 255, 255, 0.03);
+        background: var(--surface);
         min-height: calc(2.15rem + var(--allday-lanes, 1) * 1.25rem);
       }
       .calendar-time-corner {
@@ -638,8 +731,8 @@
         border-right: none;
       }
       .calendar-day-head.is-today {
-        background: rgba(232, 93, 76, 0.1);
-        box-shadow: inset 0 0 0 2px rgba(232, 93, 76, 0.78);
+        background: var(--accent-softer);
+        box-shadow: inset 0 0 0 2px var(--today-outline);
       }
       .calendar-day-head.is-rest-day .calendar-day-num,
       .calendar-day-head.is-holiday .calendar-day-num {
@@ -648,7 +741,7 @@
       .calendar-day-head.is-today .calendar-day-num {
         border-radius: 999px;
         background: var(--accent);
-        color: #1a0f0d;
+        color: var(--primary-ink);
       }
       .calendar-time-header > a.calendar-chip.is-allday {
         position: relative;
@@ -680,7 +773,7 @@
         border-right: 1px solid var(--line);
         color: var(--muted);
         font-size: 0.68rem;
-        background: rgba(255, 255, 255, 0.02);
+        background: var(--surface);
       }
       .calendar-hour-mark {
         position: relative;
@@ -688,7 +781,7 @@
         align-items: flex-start;
         justify-content: flex-end;
         padding: 0.15rem 0.25rem 0 0;
-        border-bottom: 1px solid rgba(244, 239, 230, 0.06);
+        border-bottom: 1px solid var(--grid-line);
       }
       .calendar-hour-label {
         pointer-events: none;
@@ -697,8 +790,8 @@
         display: flex;
         align-items: stretch;
         min-height: var(--toggle-row-height);
-        border-bottom: 1px solid rgba(244, 239, 230, 0.1);
-        background: rgba(255, 255, 255, 0.03);
+        border-bottom: 1px solid var(--grid-line-strong);
+        background: var(--surface);
       }
       .calendar-early-toggle {
         appearance: none;
@@ -726,7 +819,7 @@
       }
       .calendar-early-toggle:hover {
         color: var(--ink);
-        background: rgba(255, 255, 255, 0.06);
+        background: var(--surface-hover);
       }
       .calendar-timed-columns {
         display: grid;
@@ -745,15 +838,15 @@
             to bottom,
             transparent,
             transparent calc(var(--hour-row-height) - 1px),
-            rgba(244, 239, 230, 0.06) calc(var(--hour-row-height) - 1px),
-            rgba(244, 239, 230, 0.06) var(--hour-row-height)
+            var(--grid-line) calc(var(--hour-row-height) - 1px),
+            var(--grid-line) var(--hour-row-height)
           ),
           repeating-linear-gradient(
             to bottom,
             transparent,
             transparent calc(var(--hour-row-height) - 1px),
-            rgba(244, 239, 230, 0.06) calc(var(--hour-row-height) - 1px),
-            rgba(244, 239, 230, 0.06) var(--hour-row-height)
+            var(--grid-line) calc(var(--hour-row-height) - 1px),
+            var(--grid-line) var(--hour-row-height)
           );
         background-size:
           100% calc(var(--early-hours) * var(--hour-row-height)),
@@ -770,15 +863,15 @@
         left: 0;
         right: 0;
         height: var(--toggle-row-height);
-        border-bottom: 1px solid rgba(244, 239, 230, 0.1);
-        background: rgba(255, 255, 255, 0.03);
+        border-bottom: 1px solid var(--grid-line-strong);
+        background: var(--surface);
         pointer-events: none;
       }
       .calendar-time-col:last-child {
         border-right: none;
       }
       .calendar-time-col.is-today {
-        background-color: rgba(232, 93, 76, 0.06);
+        background-color: var(--accent-softer);
       }
       .calendar-timed-layer {
         position: absolute;
@@ -792,21 +885,21 @@
         padding: 0.2rem 0.3rem;
         overflow: hidden;
         border-left: 2px solid var(--accent);
-        background: rgba(232, 93, 76, 0.2);
+        background: var(--accent-chip);
         color: var(--ink);
         text-decoration: none;
         font-size: 0.68rem;
         line-height: 1.3;
       }
       a.calendar-timed-block.is-sale {
-        border-left-color: #5a8cb4;
-        background: rgba(90, 140, 180, 0.24);
+        border-left-color: var(--sale);
+        background: var(--sale-chip);
       }
       a.calendar-timed-block:hover {
-        background: rgba(232, 93, 76, 0.32);
+        background: var(--accent-chip-hover);
       }
       a.calendar-timed-block.is-sale:hover {
-        background: rgba(90, 140, 180, 0.36);
+        background: var(--sale-chip-hover);
       }
       .calendar-timed-time {
         color: var(--muted);
@@ -815,6 +908,7 @@
       }
       .calendar-timed-title {
         overflow: hidden;
+        line-clamp: 3;
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 3;
@@ -859,7 +953,7 @@
       a.project-card {
         display: block;
         border: 1px solid var(--line);
-        background: rgba(255, 255, 255, 0.03);
+        background: var(--surface);
         padding: 1.1rem 1.15rem;
         text-decoration: none;
         color: inherit;
@@ -869,7 +963,7 @@
       }
       a.project-card:hover {
         border-color: var(--accent);
-        background: rgba(232, 93, 76, 0.1);
+        background: var(--accent-softer);
       }
       a.project-card .project-name {
         display: block;
@@ -893,8 +987,47 @@
         letter-spacing: 0.02em;
       }
     </style>
+    <script src="/theme-boot.js"></script>
   </head>
   <body>
+    <button
+      type="button"
+      class="theme-toggle btn-icon"
+      id="theme-toggle"
+      aria-label="开灯"
+      title="开灯"
+    >
+      <svg
+        class="theme-icon theme-icon-on"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <path
+          fill="currentColor"
+          d="M12 2a7 7 0 0 0-4 12.74V18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3.26A7 7 0 0 0 12 2Zm-2 14v1h4v-1h-4Zm2 6a3 3 0 0 0 2.83-2h-5.66A3 3 0 0 0 12 22Z"
+        />
+      </svg>
+      <svg
+        class="theme-icon theme-icon-off"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <path
+          fill="currentColor"
+          d="M12 2a7 7 0 0 0-4 12.74V18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3.26A7 7 0 0 0 12 2Zm-2 14v1h4v-1h-4Zm2 6a3 3 0 0 0 2.83-2h-5.66A3 3 0 0 0 12 22Z"
+          opacity="0.45"
+        />
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          d="M4.5 4.5l15 15"
+        />
+      </svg>
+    </button>
     <main>
       <h1>gbc-news</h1>
       <p class="lead">分类订阅 Girls Band Cry 的最新消息。</p>

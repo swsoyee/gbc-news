@@ -536,3 +536,19 @@ export function chipLabel(segment: {
   const time = event.startTime && !continuesBefore ? `${event.startTime} ` : ''
   return `${kind} ${startMark}${time}${event.item.title}${endMark}`
 }
+
+export const THEME_STORAGE_KEY = 'gbc-news-theme'
+
+export const THEMES = ['dark', 'light'] as const
+
+export type ThemeName = (typeof THEMES)[number]
+
+export function isThemeName(value: string | null): value is ThemeName {
+  return value === 'dark' || value === 'light'
+}
+
+/** 解析有效主题：优先 localStorage，否则跟随系统浅色偏好 */
+export function resolveTheme(stored: string | null, prefersLight: boolean): ThemeName {
+  if (isThemeName(stored)) return stored
+  return prefersLight ? 'light' : 'dark'
+}

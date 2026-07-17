@@ -19,7 +19,20 @@ import {
   timedBlockStyleWithEarlyToggle,
   toIsoDate,
   toWebcal,
+  resolveTheme,
 } from '../src/web/subscribe-core.js'
+
+describe('resolveTheme', () => {
+  it('优先使用已存储的主题', () => {
+    expect(resolveTheme('light', false)).toBe('light')
+    expect(resolveTheme('dark', true)).toBe('dark')
+  })
+
+  it('无有效存储时跟随系统浅色偏好', () => {
+    expect(resolveTheme(null, true)).toBe('light')
+    expect(resolveTheme('invalid', false)).toBe('dark')
+  })
+})
 
 describe('buildFeedUrls', () => {
   const base = {

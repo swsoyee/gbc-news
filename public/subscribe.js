@@ -25,6 +25,9 @@ import {
   toIsoDate,
   toWebcal,
   withFeedRev,
+  isThemeName,
+  resolveTheme,
+  THEME_STORAGE_KEY,
 } from './subscribe-core.js'
 
 const GROUPS = [
@@ -66,6 +69,7 @@ const calendarPrevBtn = document.getElementById('calendar-prev')
 const calendarNextBtn = document.getElementById('calendar-next')
 const calendarTodayBtn = document.getElementById('calendar-today')
 const calendarViewBtns = document.querySelectorAll('[data-calendar-view]')
+const themeToggleBtn = document.getElementById('theme-toggle')
 
 const CHIPS_PER_DAY = 3
 
@@ -86,6 +90,64 @@ let feedRev = ''
 
 /** @type {Map<string, string>} 日本公共节假日：ISO 日期 → 名称 */
 let holidayNames = new Map()
+
+function prefersLightScheme() {
+  return window.matchMedia('(prefers-color-scheme: light)').matches
+}
+
+function hasStoredTheme() {
+  try {
+    return isThemeName(localStorage.getItem(THEME_STORAGE_KEY))
+  } catch {
+    return false
+  }
+}
+
+function readStoredTheme() {
+  try {
+    return resolveTheme(localStorage.getItem(THEME_STORAGE_KEY), prefersLightScheme())
+  } catch {
+    return resolveTheme(null, prefersLightScheme())
+  }
+}
+
+function getCurrentTheme() {
+  return document.documentElement.dataset.theme === 'light' ? 'light' : 'dark'
+}
+
+function themeColorFromCss() {
+  return getComputedStyle(document.documentElement).getPropertyValue('--bg0').trim()
+}
+
+function applyTheme(theme) {
+  document.documentElement.dataset.theme = theme === 'light' ? 'light' : 'dark'
+  const themeColor = themeColorFromCss()
+  if (themeColor) {
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', themeColor)
+  }
+  if (themeToggleBtn instanceof HTMLButtonElement) {
+    const nextAction = theme === 'light' ? '关灯' : '开灯'
+    themeToggleBtn.title = nextAction
+    themeToggleBtn.setAttribute('aria-label', nextAction)
+    themeToggleBtn.setAttribute('aria-pressed', theme === 'light' ? 'true' : 'false')
+  }
+}
+
+function setTheme(theme, persist = true) {
+  applyTheme(theme)
+  if (!persist) return
+  try {
+    localStorage.setItem(THEME_STORAGE_KEY, theme)
+  } catch {
+    // Ignore storage errors; the visual toggle should still work for this page.
+  }
+}
+
+applyTheme(readStoredTheme())
+
+window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', (event) => {
+  if (!hasStoredTheme()) setTheme(event.matches ? 'light' : 'dark', false)
+})
 
 function mountCheckboxes(container, items, name) {
   container.replaceChildren()
@@ -832,6 +894,10 @@ for (const button of calendarViewBtns) {
     refreshCalendarOnly()
   })
 }
+
+themeToggleBtn?.addEventListener('click', () => {
+  setTheme(getCurrentTheme() === 'light' ? 'dark' : 'light')
+})
 
 // 事件委托：静态区动态按钮 + 自定义区复制
 document.addEventListener('click', (event) => {

@@ -18,5 +18,11 @@
     "baseUrl": "."
   },
   "include": ["src/**/*.ts", "scripts/**/*.ts", "tests/**/*.ts", "netlify/functions/feed-entry.ts"],
-  "exclude": ["node_modules", "public", "data", "netlify/functions/feed.js"]
+  "exclude": [
+    "node_modules",
+    "public",
+    "data",
+    "netlify/functions/feed.js",
+    "src/web/theme-boot.ts"
+  ]
 }

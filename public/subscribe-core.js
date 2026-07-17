@@ -336,10 +336,21 @@ function chipLabel(segment) {
   const time = event.startTime && !continuesBefore ? `${event.startTime} ` : "";
   return `${kind} ${startMark}${time}${event.item.title}${endMark}`;
 }
+var THEME_STORAGE_KEY = "gbc-news-theme";
+var THEMES = ["dark", "light"];
+function isThemeName(value) {
+  return value === "dark" || value === "light";
+}
+function resolveTheme(stored, prefersLight) {
+  if (isThemeName(stored)) return stored;
+  return prefersLight ? "light" : "dark";
+}
 export {
   DAY_MINUTES,
   EARLY_HOURS,
   MIN_TIMED_BLOCK_MINUTES,
+  THEMES,
+  THEME_STORAGE_KEY,
   WEEKDAY_LABELS,
   buildCalendarEvents,
   buildDayMeta,
@@ -357,10 +368,12 @@ export {
   formatTimeRangeLabel,
   formatWeekLabel,
   isAllDayEvent,
+  isThemeName,
   labelList,
   layoutTimedLanes,
   mondayBasedWeekday,
   resolveEventWallRange,
+  resolveTheme,
   shiftDay,
   shiftMonth,
   startOfDay,
