@@ -1,8 +1,8 @@
 {
   "sourceId": "gamepedia",
-  "scrapedAt": "2026-07-17T13:59:55.405Z",
-  "mode": "full",
-  "maxPages": null,
+  "scrapedAt": "2026-07-18T05:32:53.447Z",
+  "mode": "incremental",
+  "maxPages": 3,
   "count": 45,
   "items": [
     {
