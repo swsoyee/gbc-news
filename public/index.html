@@ -640,6 +640,7 @@
       .calendar-event-tooltip {
         position: fixed;
         z-index: 20;
+        box-sizing: border-box;
         width: max-content;
         max-width: min(28rem, calc(100vw - 2rem));
         padding: 0.45rem 0.6rem;
@@ -690,6 +691,17 @@
       .calendar-event-tooltip-title {
         margin-top: 0.12rem;
       }
+      .calendar-event-tooltip-detail {
+        display: inline-block;
+        margin-top: 0.4rem;
+        color: var(--accent);
+        font-weight: 600;
+        text-decoration: underline;
+        text-underline-offset: 0.12em;
+      }
+      .calendar-event-tooltip-detail:hover {
+        color: var(--accent-hover);
+      }
       .calendar-event-tooltip.is-visible {
         opacity: 1;
         transform: translate(-50%, -100%);
@@ -699,6 +711,24 @@
       }
       .calendar-event-tooltip.is-below.is-visible {
         transform: translate(-50%, 0);
+      }
+      .calendar-event-tooltip.is-hide-instant {
+        transition: none;
+      }
+      .calendar-event-tooltip.is-sticky {
+        transform: translate(0, 0.2rem);
+        width: min(28rem, calc(100vw - 1.5rem));
+        max-width: calc(100vw - 1.5rem);
+      }
+      .calendar-event-tooltip.is-sticky.is-visible {
+        pointer-events: auto;
+        transform: translate(0, 0);
+      }
+      .calendar-event-tooltip.is-sticky.is-below {
+        transform: translate(0, -0.2rem);
+      }
+      .calendar-event-tooltip.is-sticky.is-below.is-visible {
+        transform: translate(0, 0);
       }
       .calendar-more {
         align-self: start;

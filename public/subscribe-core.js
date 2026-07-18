@@ -366,6 +366,7 @@ function formatCalendarEventTooltip(event) {
   const title = displayNewsTitle(event.item)
   const sourceId = event.item.sourceId ?? ''
   const sourceLabel = sourceDisplayLabel(sourceId)
+  const url = event.item.url
   const datePart =
     event.endDate && event.endDate !== event.date
       ? `${event.date} \u2013 ${event.endDate}`
@@ -380,6 +381,7 @@ function formatCalendarEventTooltip(event) {
     sourceLabel,
     sourceId,
     title,
+    url,
     ariaLabel: sourceLabel ? `${dateLine}. ${sourceLabel}. ${title}` : `${dateLine}. ${title}`,
   }
 }

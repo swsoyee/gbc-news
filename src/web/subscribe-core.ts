@@ -553,11 +553,13 @@ export function formatCalendarEventTooltip(event: CalendarEvent): {
   sourceLabel: string
   sourceId: string
   title: string
+  url: string
   ariaLabel: string
 } {
   const title = displayNewsTitle(event.item)
   const sourceId = event.item.sourceId ?? ''
   const sourceLabel = sourceDisplayLabel(sourceId)
+  const url = event.item.url
   const datePart =
     event.endDate && event.endDate !== event.date ? `${event.date} – ${event.endDate}` : event.date
   let dateLine = datePart
@@ -570,6 +572,7 @@ export function formatCalendarEventTooltip(event: CalendarEvent): {
     sourceLabel,
     sourceId,
     title,
+    url,
     ariaLabel: sourceLabel ? `${dateLine}. ${sourceLabel}. ${title}` : `${dateLine}. ${title}`,
   }
 }

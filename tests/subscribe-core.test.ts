@@ -165,6 +165,7 @@ describe('calendar helpers', () => {
       sourceLabel: '官方',
       sourceId: 'gbc-news',
       title: 'Tour',
+      url: 'https://example.com/1',
       ariaLabel: '2026-07-14 – 2026-07-16. 官方. Tour',
     })
 
@@ -195,6 +196,7 @@ describe('calendar helpers', () => {
       sourceLabel: 'キャラホビ',
       sourceId: 'gamepedia',
       title: '线上 talk',
+      url: 'https://example.com/2',
       ariaLabel: '2026-07-14 19:00–20:00. キャラホビ. 线上 talk',
     })
 

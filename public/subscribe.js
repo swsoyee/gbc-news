@@ -242,6 +242,14 @@ function buildCalendarEvents(groups, categories) {
 
 let calendarTooltipEl
 let calendarTooltipTimer
+let calendarTooltipSwitchTimer
+let calendarTooltipSticky = false
+let calendarTooltipAnchor = null
+let calendarTooltipDismissBound = false
+
+function isTouchCalendarUi() {
+  return window.matchMedia('(hover: none), (pointer: coarse)').matches
+}
 
 function getCalendarTooltip() {
   if (calendarTooltipEl) return calendarTooltipEl
@@ -252,11 +260,95 @@ function getCalendarTooltip() {
   return calendarTooltipEl
 }
 
-function showCalendarTooltip(anchor, parts) {
-  if (calendarTooltipTimer) window.clearTimeout(calendarTooltipTimer)
+function ensureCalendarTooltipDismiss() {
+  if (calendarTooltipDismissBound) return
+  calendarTooltipDismissBound = true
+  document.addEventListener(
+    'pointerdown',
+    (event) => {
+      if (!calendarTooltipSticky || !calendarTooltipEl?.classList.contains('is-visible')) return
+      const target = event.target
+      if (!(target instanceof Node)) return
+      if (calendarTooltipEl.contains(target)) return
+      if (calendarTooltipAnchor?.contains(target)) return
+      hideCalendarTooltip({ force: true })
+    },
+    true,
+  )
+}
+
+function positionCalendarTooltipAtPointer(x, y) {
+  const tooltip = getCalendarTooltip()
+  const pad = 12
+  const showBelow = y < 96
+  const left = Math.min(window.innerWidth - pad, Math.max(pad, x))
+  const top = showBelow ? y + 14 : y - 14
+  tooltip.style.left = `${left}px`
+  tooltip.style.top = `${top}px`
+  tooltip.style.maxHeight = ''
+  tooltip.style.overflowY = ''
+  tooltip.classList.toggle('is-below', showBelow)
+}
+
+function positionCalendarTooltipAtAnchor(anchor) {
   const tooltip = getCalendarTooltip()
   const rect = anchor.getBoundingClientRect()
   const showBelow = rect.top < 80
+  const left = Math.min(
+    window.innerWidth - 16,
+    Math.max(16, rect.left + Math.min(rect.width / 2, 72)),
+  )
+  tooltip.style.left = `${left}px`
+  tooltip.style.top = `${showBelow ? rect.bottom + 8 : rect.top - 8}px`
+  tooltip.style.maxHeight = ''
+  tooltip.style.overflowY = ''
+  tooltip.classList.toggle('is-below', showBelow)
+}
+
+/** 移动端 sticky：左上角定位（不用 translate -50%），按实测宽高夹进视口。 */
+function positionStickyCalendarTooltip(anchor) {
+  const tooltip = getCalendarTooltip()
+  const pad = 12
+  const maxWidth = window.innerWidth - pad * 2
+  tooltip.style.width = ''
+  tooltip.style.maxWidth = `${maxWidth}px`
+  tooltip.style.maxHeight = ''
+  tooltip.style.overflowY = ''
+
+  // 先放到安全区量尺寸（sticky 样式下 left/top 即盒子左上角）
+  tooltip.style.left = `${pad}px`
+  tooltip.style.top = `${pad}px`
+  tooltip.classList.add('is-below')
+  const tipWidth = Math.min(Math.max(tooltip.offsetWidth, 1), maxWidth)
+  const tipHeight = Math.max(tooltip.offsetHeight, 1)
+  const anchorRect = anchor.getBoundingClientRect()
+
+  let left = anchorRect.left + Math.min(anchorRect.width / 2, 48) - tipWidth / 2
+  left = Math.min(Math.max(pad, left), window.innerWidth - pad - tipWidth)
+
+  let top = anchorRect.bottom + 8
+  let below = true
+  if (top + tipHeight > window.innerHeight - pad) {
+    top = anchorRect.top - tipHeight - 8
+    below = false
+  }
+  if (top < pad) {
+    top = pad
+    below = true
+  }
+  const available = window.innerHeight - pad - top
+  if (tipHeight > available) {
+    tooltip.style.maxHeight = `${Math.max(120, available)}px`
+    tooltip.style.overflowY = 'auto'
+  }
+
+  tooltip.style.left = `${left}px`
+  tooltip.style.top = `${top}px`
+  tooltip.classList.toggle('is-below', below)
+}
+
+function fillCalendarTooltip(parts, options = {}) {
+  const tooltip = getCalendarTooltip()
   const metaEl = document.createElement('div')
   metaEl.className = 'calendar-event-tooltip-meta'
   const dateEl = document.createElement('div')
@@ -273,21 +365,89 @@ function showCalendarTooltip(anchor, parts) {
   const titleEl = document.createElement('div')
   titleEl.className = 'calendar-event-tooltip-title'
   titleEl.textContent = parts.title
-  tooltip.replaceChildren(metaEl, titleEl)
-  tooltip.style.left = `${Math.min(window.innerWidth - 16, Math.max(16, rect.left + rect.width / 2))}px`
-  tooltip.style.top = `${showBelow ? rect.bottom + 8 : rect.top - 8}px`
-  tooltip.classList.toggle('is-below', showBelow)
+  const nodes = [metaEl, titleEl]
+  if (options.showDetailLink) {
+    const detailEl = document.createElement('a')
+    detailEl.className = 'calendar-event-tooltip-detail'
+    detailEl.href = parts.url
+    detailEl.target = '_blank'
+    detailEl.rel = 'noopener'
+    detailEl.textContent = '查看详细'
+    nodes.push(detailEl)
+  }
+  tooltip.replaceChildren(...nodes)
+}
+
+function showCalendarTooltip(anchor, parts, options = {}) {
+  if (calendarTooltipTimer) window.clearTimeout(calendarTooltipTimer)
+  if (calendarTooltipSwitchTimer) window.clearTimeout(calendarTooltipSwitchTimer)
+  const sticky = Boolean(options.sticky)
+  calendarTooltipSticky = sticky
+  calendarTooltipAnchor = anchor
+  ensureCalendarTooltipDismiss()
+
+  const tooltip = getCalendarTooltip()
+  fillCalendarTooltip(parts, { showDetailLink: sticky || isTouchCalendarUi() })
+  tooltip.classList.toggle('is-sticky', sticky)
+  if (sticky) {
+    positionStickyCalendarTooltip(anchor)
+  } else if (typeof options.x === 'number' && typeof options.y === 'number') {
+    positionCalendarTooltipAtPointer(options.x, options.y)
+  } else {
+    positionCalendarTooltipAtAnchor(anchor)
+  }
   tooltip.classList.remove('is-visible')
   void tooltip.offsetWidth
   tooltip.classList.add('is-visible')
+  if (sticky) {
+    // 可见后尺寸可能变化，再夹一次
+    positionStickyCalendarTooltip(anchor)
+  }
 }
 
-function hideCalendarTooltip() {
+function scheduleShowCalendarTooltip(anchor, parts, pointer) {
+  if (calendarTooltipTimer) window.clearTimeout(calendarTooltipTimer)
+  if (calendarTooltipSwitchTimer) window.clearTimeout(calendarTooltipSwitchTimer)
+  const switching = Boolean(
+    calendarTooltipAnchor &&
+    calendarTooltipAnchor !== anchor &&
+    calendarTooltipEl?.classList.contains('is-visible'),
+  )
+  const delay = switching ? 240 : 0
+  const show = () => {
+    showCalendarTooltip(anchor, parts, {
+      x: pointer.x,
+      y: pointer.y,
+    })
+  }
+  if (delay === 0) {
+    show()
+    return
+  }
+  calendarTooltipSwitchTimer = window.setTimeout(show, delay)
+}
+
+function scheduleHideCalendarTooltip() {
+  if (calendarTooltipSwitchTimer) window.clearTimeout(calendarTooltipSwitchTimer)
+  if (calendarTooltipTimer) window.clearTimeout(calendarTooltipTimer)
+  hideCalendarTooltip()
+}
+
+function hideCalendarTooltip(options = {}) {
   if (!calendarTooltipEl) return
-  calendarTooltipEl.classList.remove('is-visible')
-  calendarTooltipTimer = window.setTimeout(() => {
-    if (calendarTooltipEl) calendarTooltipEl.replaceChildren()
-  }, 180)
+  if (calendarTooltipSticky && !options.force) return
+  if (calendarTooltipTimer) window.clearTimeout(calendarTooltipTimer)
+  if (calendarTooltipSwitchTimer) window.clearTimeout(calendarTooltipSwitchTimer)
+  calendarTooltipSticky = false
+  calendarTooltipAnchor = null
+  // 立刻关掉，避免桌面端离开色块后还悬空跟随造成卡顿感
+  calendarTooltipEl.classList.add('is-hide-instant')
+  calendarTooltipEl.classList.remove('is-visible', 'is-sticky')
+  calendarTooltipEl.replaceChildren()
+  calendarTooltipEl.style.maxHeight = ''
+  calendarTooltipEl.style.overflowY = ''
+  void calendarTooltipEl.offsetWidth
+  calendarTooltipEl.classList.remove('is-hide-instant')
 }
 
 function syncCalendarViewButtons() {
@@ -321,11 +481,44 @@ function syncCalendarNav() {
 
 function bindEventTooltip(el, event) {
   const parts = formatCalendarEventTooltip(event)
+  /** @type {{ x: number, y: number }} */
+  const pointer = { x: 0, y: 0 }
   el.setAttribute('aria-label', parts.ariaLabel)
-  el.addEventListener('mouseenter', () => showCalendarTooltip(el, parts))
-  el.addEventListener('mouseleave', hideCalendarTooltip)
-  el.addEventListener('focus', () => showCalendarTooltip(el, parts))
-  el.addEventListener('blur', hideCalendarTooltip)
+  el.addEventListener('mouseenter', (mouseEvent) => {
+    if (isTouchCalendarUi()) return
+    pointer.x = mouseEvent.clientX
+    pointer.y = mouseEvent.clientY
+    scheduleShowCalendarTooltip(el, parts, pointer)
+  })
+  el.addEventListener('mousemove', (mouseEvent) => {
+    if (isTouchCalendarUi() || calendarTooltipSticky) return
+    pointer.x = mouseEvent.clientX
+    pointer.y = mouseEvent.clientY
+    if (calendarTooltipAnchor !== el) return
+    if (!calendarTooltipEl?.classList.contains('is-visible')) return
+    positionCalendarTooltipAtPointer(pointer.x, pointer.y)
+  })
+  el.addEventListener('mouseleave', () => {
+    if (isTouchCalendarUi()) return
+    scheduleHideCalendarTooltip()
+  })
+  el.addEventListener('focus', () => {
+    if (isTouchCalendarUi()) return
+    const rect = el.getBoundingClientRect()
+    pointer.x = rect.left + Math.min(rect.width / 2, 72)
+    pointer.y = rect.top + rect.height / 2
+    scheduleShowCalendarTooltip(el, parts, pointer)
+  })
+  el.addEventListener('blur', () => {
+    if (isTouchCalendarUi()) return
+    scheduleHideCalendarTooltip()
+  })
+  el.addEventListener('click', (clickEvent) => {
+    if (!isTouchCalendarUi()) return
+    clickEvent.preventDefault()
+    clickEvent.stopPropagation()
+    showCalendarTooltip(el, parts, { sticky: true })
+  })
 }
 
 function appendDayCell(weekEl, cell, dayIndex, today) {
@@ -621,7 +814,7 @@ function withPreservedScroll(run) {
 function renderCalendar(groups, categories) {
   if (!calendarGridEl) return
 
-  hideCalendarTooltip()
+  hideCalendarTooltip({ force: true })
   const events = buildCalendarEvents(groups, categories)
   const today = localTodayIso()
   syncCalendarViewButtons()
