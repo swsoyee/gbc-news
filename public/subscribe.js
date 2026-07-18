@@ -456,27 +456,59 @@ function syncCalendarViewButtons() {
   }
 }
 
+/**
+ * @param {HTMLElement | null} button
+ * @param {string} label
+ */
+function setCalendarNavLabel(button, label) {
+  if (!button) return
+  const labelEl = button.querySelector('.calendar-nav-label')
+  if (labelEl) labelEl.textContent = label
+  else button.textContent = label
+  button.setAttribute('aria-label', label)
+}
+
 function syncCalendarNav() {
   if (!calendarPrevBtn || !calendarNextBtn || !calendarTodayBtn) return
   if (calendarView === 'week') {
-    calendarPrevBtn.textContent = '上周'
-    calendarPrevBtn.setAttribute('aria-label', '上周')
-    calendarNextBtn.textContent = '下周'
-    calendarNextBtn.setAttribute('aria-label', '下周')
-    calendarTodayBtn.textContent = '本周'
+    setCalendarNavLabel(calendarPrevBtn, '上周')
+    setCalendarNavLabel(calendarNextBtn, '下周')
+    setCalendarNavLabel(calendarTodayBtn, '本周')
   } else if (calendarView === 'day') {
-    calendarPrevBtn.textContent = '前一天'
-    calendarPrevBtn.setAttribute('aria-label', '前一天')
-    calendarNextBtn.textContent = '后一天'
-    calendarNextBtn.setAttribute('aria-label', '后一天')
-    calendarTodayBtn.textContent = '今天'
+    setCalendarNavLabel(calendarPrevBtn, '前一天')
+    setCalendarNavLabel(calendarNextBtn, '后一天')
+    setCalendarNavLabel(calendarTodayBtn, '今天')
   } else {
-    calendarPrevBtn.textContent = '上个月'
-    calendarPrevBtn.setAttribute('aria-label', '上个月')
-    calendarNextBtn.textContent = '下个月'
-    calendarNextBtn.setAttribute('aria-label', '下个月')
-    calendarTodayBtn.textContent = '本月'
+    setCalendarNavLabel(calendarPrevBtn, '上个月')
+    setCalendarNavLabel(calendarNextBtn, '下个月')
+    setCalendarNavLabel(calendarTodayBtn, '本月')
   }
+}
+
+/**
+ * 窄屏图标按钮：按下反馈用 class，松手后清掉，避免 sticky :hover。
+ * @param {HTMLElement | null} button
+ */
+function bindCalendarNavPressFeedback(button) {
+  if (!button) return
+  const clear = () => button.classList.remove('is-pressed')
+  button.addEventListener('pointerdown', () => {
+    button.classList.add('is-pressed')
+  })
+  button.addEventListener('pointerup', clear)
+  button.addEventListener('pointercancel', clear)
+  button.addEventListener('pointerleave', clear)
+  button.addEventListener('lostpointercapture', clear)
+  button.addEventListener('blur', clear)
+}
+
+/**
+ * @param {EventTarget | null} target
+ */
+function resetCalendarNavButton(target) {
+  if (!(target instanceof HTMLElement)) return
+  target.classList.remove('is-pressed')
+  target.blur()
 }
 
 function bindEventTooltip(el, event) {
@@ -1097,22 +1129,29 @@ toggleCatsBtn?.addEventListener('click', () => {
 groupsEl.addEventListener('change', refresh)
 catsEl.addEventListener('change', refresh)
 
-calendarPrevBtn?.addEventListener('click', () => {
+calendarPrevBtn?.addEventListener('click', (event) => {
   if (calendarView === 'week') calendarCursor = shiftDay(calendarCursor, -7)
   else if (calendarView === 'day') calendarCursor = shiftDay(calendarCursor, -1)
   else calendarCursor = shiftMonth(calendarCursor, -1)
   refreshCalendarOnly()
+  resetCalendarNavButton(event.currentTarget)
 })
-calendarNextBtn?.addEventListener('click', () => {
+calendarNextBtn?.addEventListener('click', (event) => {
   if (calendarView === 'week') calendarCursor = shiftDay(calendarCursor, 7)
   else if (calendarView === 'day') calendarCursor = shiftDay(calendarCursor, 1)
   else calendarCursor = shiftMonth(calendarCursor, 1)
   refreshCalendarOnly()
+  resetCalendarNavButton(event.currentTarget)
 })
-calendarTodayBtn?.addEventListener('click', () => {
+calendarTodayBtn?.addEventListener('click', (event) => {
   calendarCursor = startOfDay(new Date())
   refreshCalendarOnly()
+  resetCalendarNavButton(event.currentTarget)
 })
+
+bindCalendarNavPressFeedback(calendarPrevBtn)
+bindCalendarNavPressFeedback(calendarNextBtn)
+bindCalendarNavPressFeedback(calendarTodayBtn)
 
 for (const button of calendarViewBtns) {
   button.addEventListener('click', () => {

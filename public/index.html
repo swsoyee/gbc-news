@@ -233,8 +233,8 @@
           border-color 140ms ease-out,
           color 140ms ease-out;
       }
-      button:hover,
-      a.btn:hover {
+      button:active,
+      a.btn:active {
         background: var(--surface-hover);
         border-color: var(--line-strong);
       }
@@ -245,10 +245,22 @@
         color: var(--primary-ink);
         font-weight: 700;
       }
-      button.primary:hover,
-      a.btn.primary:hover {
+      button.primary:active,
+      a.btn.primary:active {
         background: var(--accent-hover);
         border-color: var(--accent-hover);
+      }
+      @media (hover: hover) {
+        button:hover,
+        a.btn:hover {
+          background: var(--surface-hover);
+          border-color: var(--line-strong);
+        }
+        button.primary:hover,
+        a.btn.primary:hover {
+          background: var(--accent-hover);
+          border-color: var(--accent-hover);
+        }
       }
       .links {
         display: grid;
@@ -453,6 +465,23 @@
         flex-wrap: wrap;
         align-items: center;
         gap: 0.45rem;
+      }
+      .calendar-nav > button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.3rem;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .calendar-nav-icon {
+        display: none;
+        width: 1.6rem;
+        height: 1.6rem;
+        pointer-events: none;
+      }
+      .calendar-nav-icon.is-dot {
+        width: 1rem;
+        height: 1rem;
       }
       .calendar-month-label {
         font-family: 'Space Grotesk', sans-serif;
@@ -989,6 +1018,42 @@
         -webkit-line-clamp: 3;
       }
       @media (max-width: 720px) {
+        .calendar-nav {
+          flex-wrap: nowrap;
+          width: 100%;
+          gap: 0.3rem;
+        }
+        .calendar-nav > button {
+          flex: 0 0 auto;
+          width: 2.65rem;
+          height: 2.65rem;
+          padding: 0;
+          gap: 0;
+        }
+        /* 图标模式：禁用 sticky hover，仅按下瞬间高亮 */
+        .calendar-nav > button:hover {
+          background: transparent;
+          border-color: var(--line);
+        }
+        .calendar-nav > button:active,
+        .calendar-nav > button.is-pressed {
+          background: var(--surface-hover);
+          border-color: var(--line-strong);
+        }
+        .calendar-nav-icon {
+          display: block;
+        }
+        .calendar-nav-label {
+          display: none;
+        }
+        .calendar-month-label {
+          flex: 1 1 auto;
+          min-width: 0;
+          font-size: 0.95rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
         .calendar-board,
         .calendar-board.is-week-view {
           overflow-x: hidden;
@@ -1257,10 +1322,40 @@
             </div>
           </div>
           <div class="calendar-nav">
-            <button type="button" id="calendar-prev" aria-label="上个月">上个月</button>
+            <button type="button" id="calendar-prev" aria-label="上个月">
+              <svg
+                class="calendar-nav-icon"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <path fill="currentColor" d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+              </svg>
+              <span class="calendar-nav-label">上个月</span>
+            </button>
             <span class="calendar-month-label" id="calendar-month-label">—</span>
-            <button type="button" id="calendar-next" aria-label="下个月">下个月</button>
-            <button type="button" id="calendar-today">本月</button>
+            <button type="button" id="calendar-next" aria-label="下个月">
+              <svg
+                class="calendar-nav-icon"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <path fill="currentColor" d="M8.59 16.59 10 18l6-6-6-6-1.41 1.41L13.17 12z" />
+              </svg>
+              <span class="calendar-nav-label">下个月</span>
+            </button>
+            <button type="button" id="calendar-today" aria-label="本月">
+              <svg
+                class="calendar-nav-icon is-dot"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <circle fill="currentColor" cx="12" cy="12" r="5" />
+              </svg>
+              <span class="calendar-nav-label">本月</span>
+            </button>
           </div>
         </div>
         <p class="calendar-note" id="calendar-note">按当前筛选显示</p>
