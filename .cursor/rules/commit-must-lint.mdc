@@ -1,14 +1,29 @@
 ---
-description: 每次 git commit 前必须先跑通 lint/format，失败不得提交
+description: commit 前先查技术负债，再跑 precommit；未过检不得提交
 alwaysApply: true
 ---
 
-# Commit 前必须过 lint
+# Commit 前检查
 
-在执行任何 `git commit` 之前：
+在执行任何 `git commit` 之前，按顺序：
 
-1. 先运行 `npm run precommit`（等价于 `npm run lint && npm run format:check`）
-2. 未通过则**禁止 commit**：先修复问题，再重新检查
+## 1. 技术负债速查
+
+对照**本次改动**（`git status` / `git diff`）快速自查，例如：
+
+- 文档/design 是否与实现矛盾（如已取消的自动去重仍写在架构图）
+- 新源/新常量是否未走单一注册表（`SOURCE_IDS` 等）
+- `.trellis/spec` / skill 是否滞后于行为
+- 明显重复逻辑、缺失校验、脆弱启发式、测试缺口
+
+**有负债**：向用户列出现象、位置与修改建议，**先征求是否一并处理**；不要默默带着已知债直接 commit（用户明确说「先提交、债另开」除外）。
+
+**无负债**：进入下一步。
+
+## 2. Lint / format
+
+1. 运行 `npm run precommit`（`npm run lint && npm run format:check`）
+2. 未通过则**禁止 commit**：先修复，再重新检查
 3. 不要用 `--no-verify` / `-n` 跳过 hook，除非用户明确要求
 
 仓库已配置：

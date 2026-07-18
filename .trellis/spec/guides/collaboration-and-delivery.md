@@ -19,6 +19,15 @@
 - Issue 正文链接到 `.trellis/tasks/<name>/prd.md`
 - Project 看板列建议：`Backlog` / `Ready` / `In Progress` / `Done`
 
+## Commit 前（强制）
+
+1. **技术负债速查**：对照本次 diff，检查文档/spec 是否脱节、源注册是否遗漏、明显重复或校验缺口等。
+   - 有债 → 先向用户给出修改建议并确认是否一并处理，再决定是否 commit。
+   - 无债 → 继续。
+2. **Lint / format**：运行 `npm run precommit`；未通过禁止 commit。
+
+详见 `.cursor/rules/commit-must-lint.mdc`。
+
 ## Lint 与 CI（强制）
 
 **推送前必须在本地跑通与 GitHub Actions 相同的检查，全部通过后才允许 `git push`。**
