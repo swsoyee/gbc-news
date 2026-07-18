@@ -988,6 +988,44 @@
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 3;
       }
+      @media (max-width: 720px) {
+        .calendar-board,
+        .calendar-board.is-week-view {
+          overflow-x: hidden;
+        }
+        .calendar-weekdays,
+        .calendar-week,
+        .calendar-grid {
+          min-width: 0;
+          grid-template-columns: repeat(7, minmax(0, 1fr));
+        }
+        .calendar-board.is-week-view .calendar-grid {
+          min-width: 0;
+        }
+        .calendar-day-cell {
+          padding: 0.25rem 0.15rem;
+        }
+        .calendar-day-num {
+          width: 1.35rem;
+          height: 1.35rem;
+          font-size: 0.75rem;
+        }
+        a.calendar-chip {
+          margin-left: 0.08rem;
+          margin-right: 0.08rem;
+          padding: 0.14rem 0.2rem;
+          font-size: 0.62rem;
+        }
+        .calendar-time-frame {
+          --cal-gutter: 2.35rem;
+          --cal-col-min: 0px;
+          min-width: 0;
+        }
+        .calendar-hour-mark {
+          padding-right: 0.15rem;
+          font-size: 0.62rem;
+        }
+      }
       @media (prefers-reduced-motion: reduce) {
         .calendar-week,
         a.calendar-chip.is-overflow,
