@@ -4,7 +4,7 @@
     <title>gbc-news · 全部</title>
     <link>https://gbc-news.netlify.app/</link>
     <description>ガールズバンドクライ 公式ニュース（全部）</description>
-    <lastBuildDate>Mon, 20 Jul 2026 06:22:45 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 15:16:20 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.netlify.app/feeds/all.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[举办] 动画《Girls Band Cry》官方网站开放！</title>
@@ -6260,6 +6260,16 @@
       <category>cinema</category>
       <category domain="group">togenashi</category>
       <description>Girls Band Cry（GBC）Special LIVE “赤色的响祭” 将于2026年11月3日在 Pia Arena MM 举办。票务最快先行抽选申请券封入2026年7月22日发售的剧场版总集篇前篇/后篇 Blu-ray &amp; DVD。</description>
+    </item>
+    <item>
+      <title>[举办] F-272 NEXT ONE-MAN LIVE 開催決定！</title>
+      <link>https://gbc-firstriff.com/news/post-7.html</link>
+      <guid isPermaLink="false">firstriff-post-7-2027-01-29-hold@gbc-news</guid>
+      <pubDate>Fri, 29 Jan 2027 00:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>event</category>
+      <category domain="group">f272</category>
+      <description>F-272 NEXT ONE-MAN LIVE の開催が決定。 チケット情報などの詳細は続報をお待ちください ■開催日時 2027年1月29日(金) ■会場 CLUB CITTA&apos; KAWASAKI https://clubcitta.co.jp/ ■F-272 公式HP/SNS ライブの最新情報はF-272 公式HPまたは公式Xをご確認ください。 公式HP</description>
     </item>
   </channel>
 </rss>

@@ -4,7 +4,7 @@
     <title>gbc-news · F-272</title>
     <link>https://gbc-news.netlify.app/</link>
     <description>ガールズバンドクライ 公式ニュース（F-272）</description>
-    <lastBuildDate>Mon, 20 Jul 2026 06:22:45 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 15:16:20 GMT</lastBuildDate>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gbc-news.netlify.app/feeds/group-f272.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[发售] F-272 第1场个人演唱会 The Dissonant “I DOLL” 决定举办！</title>
@@ -45,6 +45,16 @@
       <category>event</category>
       <category domain="group">f272</category>
       <description>F-272 第1场个人演唱会 The Dissonant “I DOLL” 于2026年7月20日在代官山 UNIT 举办，开演17:00。先行抽选受理为4月18日21:00–4月30日23:59；一般先着销售自5月24日10:00起，售完即止。</description>
+    </item>
+    <item>
+      <title>[举办] F-272 NEXT ONE-MAN LIVE 開催決定！</title>
+      <link>https://gbc-firstriff.com/news/post-7.html</link>
+      <guid isPermaLink="false">firstriff-post-7-2027-01-29-hold@gbc-news</guid>
+      <pubDate>Fri, 29 Jan 2027 00:00:00 GMT</pubDate>
+      <category>live</category>
+      <category>event</category>
+      <category domain="group">f272</category>
+      <description>F-272 NEXT ONE-MAN LIVE の開催が決定。 チケット情報などの詳細は続報をお待ちください ■開催日時 2027年1月29日(金) ■会場 CLUB CITTA&apos; KAWASAKI https://clubcitta.co.jp/ ■F-272 公式HP/SNS ライブの最新情報はF-272 公式HPまたは公式Xをご確認ください。 公式HP</description>
     </item>
   </channel>
 </rss>

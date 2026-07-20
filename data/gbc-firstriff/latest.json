@@ -1,10 +1,32 @@
 {
   "sourceId": "gbc-firstriff",
-  "scrapedAt": "2026-07-20T06:22:33.784Z",
+  "scrapedAt": "2026-07-20T15:16:08.955Z",
   "mode": "incremental",
   "maxPages": 3,
-  "count": 6,
+  "count": 7,
   "items": [
+    {
+      "id": "firstriff-post-7",
+      "title": "F-272 NEXT ONE-MAN LIVE 開催決定！",
+      "url": "https://gbc-firstriff.com/news/post-7.html",
+      "publishedAt": "2026-07-20T00:00:00.000Z",
+      "sourceId": "gbc-firstriff",
+      "categories": [
+        "live",
+        "event"
+      ],
+      "groups": [
+        "f272"
+      ],
+      "eventDates": [
+        {
+          "date": "2027-01-29",
+          "kind": "hold"
+        }
+      ],
+      "summary": "F-272 NEXT ONE-MAN LIVE の開催が決定。 チケット情報などの詳細は続報をお待ちください ■開催日時 2027年1月29日(金) ■会場 CLUB CITTA' KAWASAKI https://clubcitta.co.jp/ ■F-272 公式HP/SNS ライブの最新情報はF-272 公式HPまたは公式Xをご確認ください。 公式HP",
+      "bodyText": "F-272 NEXT ONE-MAN LIVE の開催が決定。 チケット情報などの詳細は続報をお待ちください ■開催日時 2027年1月29日(金) ■会場 CLUB CITTA' KAWASAKI https://clubcitta.co.jp/ ■F-272 公式HP/SNS ライブの最新情報はF-272 公式HPまたは公式Xをご確認ください。 公式HP - https://f-272.bzone.co.jp/ 公式X - https://x.com/F_272_GBC"
+    },
     {
       "id": "firstriff-post-6",
       "title": "Canna Lily 1st ONE-MAN LIVE「未明に咲く花」ライブグッズ事後通販開始！",

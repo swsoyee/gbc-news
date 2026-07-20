@@ -70,4 +70,20 @@ DESCRIPTION:F-272 第1场个人演唱会 The Dissonant “I DOLL” 于2026
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-3.html
 CATEGORIES:f272,live,event
 END:VEVENT
+BEGIN:VEVENT
+UID:firstriff-post-7-2027-01-29-hold@gbc-news
+DTSTAMP:20270129T000000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] F-272 NEXT ONE-MAN LIVE 開催決定！
+DESCRIPTION:F-272 NEXT ONE-MAN LIVE の開催が決定。\nチケット情
+ 報などの詳細は続報をお待ちください ■開催日時 2027
+ 年1月29日(金) ■会場 CLUB CITTA' KAWASAKI ■F-272 公式HP/SNS ラ
+ イブの最新情報はF-272 公式HPまたは公式Xをご確認くだ
+ さい。\n公式HP\n\nhttps://gbc-firstriff.com/news/post-7.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-7.html
+CATEGORIES:f272,live,event
+END:VEVENT
 END:VCALENDAR
