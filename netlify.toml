@@ -11,6 +11,19 @@
   to = "/.netlify/functions/feed"
   status = 200
 
+# 首页迁移至推活日历；RSS/iCal、静态数据与 API 仍保留在本域
+[[redirects]]
+  from = "/"
+  to = "https://oshi-news.netlify.app/"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/index.html"
+  to = "https://oshi-news.netlify.app/"
+  status = 302
+  force = true
+
 [[headers]]
   for = "/feeds/*"
   [headers.values]
