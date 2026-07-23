@@ -9523,6 +9523,27 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-480.html
 CATEGORIES:togenashi,live
 END:VEVENT
 BEGIN:VEVENT
+UID:post-484-2026-08-15-sale@gbc-news
+DTSTAMP:20260815T000000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] TVアニメエンディングの印象的なシーンを
+ 表現した「フルカラーTシャツ」が二次元コスパから登
+ 場！
+DESCRIPTION:TVアニメエンディングのワンシーンをフルカラ
+ ーで表現した「誰にもなれない私だから フルカラーTシ
+ ャツ」が二次元コスパから登場！\n普段の生活の中でも
+ 作品の世界観やキャラクターたちを身近に感じられ、
+ 日常使いはもちろん、ライブやイベントでも活躍する
+ アイテムです。\nさらにこの夏イベントでの先行販売も
+ 決定！\n8月15日(土)\,16日(日)東京ビッグサイトで開催の
+ 《コミ\n\nhttps://girls-band-cry.com/news/post-484.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-484.html
+CATEGORIES:togenashi,live,goods,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-480-2026-08-16-hold-1900@gbc-news
 DTSTAMP:20260816T100000Z
 DTSTART:20260816T100000Z

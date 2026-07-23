@@ -1,13 +1,36 @@
 {
-  "scrapedAt": "2026-07-23T06:06:50.022Z",
+  "scrapedAt": "2026-07-23T15:15:27.384Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 553,
+  "count": 554,
   "items": [
+    {
+      "id": "post-484",
+      "title": "TVアニメエンディングの印象的なシーンを表現した「フルカラーTシャツ」が二次元コスパから登場！",
+      "url": "https://girls-band-cry.com/news/post-484.html",
+      "publishedAt": "2026-07-23T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "live",
+        "goods",
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-08-15",
+          "kind": "sale"
+        }
+      ],
+      "summary": "TVアニメエンディングのワンシーンをフルカラーで表現した「誰にもなれない私だから フルカラーTシャツ」が二次元コスパから登場！ 普段の生活の中でも作品の世界観やキャラクターたちを身近に感じられ、日常使いはもちろん、ライブやイベントでも活躍するアイテムです。 さらにこの夏イベントでの先行販売も決定！ 8月15日(土),16日(日)東京ビッグサイトで開催の《コミ",
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+    },
     {
       "id": "firstriff-post-7",
       "title": "F-272 NEXT ONE-MAN LIVE 開催決定！",
