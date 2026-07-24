@@ -1,13 +1,36 @@
 {
-  "scrapedAt": "2026-07-24T05:54:50.847Z",
+  "scrapedAt": "2026-07-24T15:00:51.325Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 554,
+  "count": 555,
   "items": [
+    {
+      "id": "gamepedia-213285",
+      "title": "ドット調で推しを再現！自分で組み立てる『ガールズバンドクライ』ミタクルブロック！トゲナシトゲアリ5人の予約方法と詳細",
+      "url": "https://premium.gamepedia.jp/hobby/archives/213285",
+      "publishedAt": "2026-07-24T12:20:38.000Z",
+      "sourceId": "gamepedia",
+      "categories": [
+        "goods",
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-07-24",
+          "kind": "sale",
+          "endDate": "2026-08-31"
+        }
+      ],
+      "summary": "TVアニメ『ガールズバンドクライ』の劇中バンド「トゲナシトゲアリ」のメンバー5人を立体化したブロックフィギュア「ミタクルブロック」が、ミタクルブロック公式ECで期間限定受注販売を開始しました。 TVアニメ『ガールズバンドクライ』ミタクルブロ",
+      "imageUrl": "https://tfi.gamepedia.jp/image/w=1200,h=630,fit=pad,f=webp/media.gamepedia.jp/premium/wp-content/uploads/sites/5/2026/07/24211120/TV5_1-1.jpg"
+    },
     {
       "id": "post-484",
       "title": "TVアニメエンディングの印象的なシーンを表現した「フルカラーTシャツ」が二次元コスパから登場！",

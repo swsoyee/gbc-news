@@ -5187,6 +5187,25 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-473.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:gamepedia-213285-2026-07-24_2026-08-31-sale@gbc-news
+DTSTAMP:20260724T000000Z
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260901
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] ドット調で推しを再現！自分で組み立てる
+ 『ガールズバンドクライ』ミタクルブロック！トゲナ
+ シトゲアリ5人の予約方法と詳細
+DESCRIPTION:TVアニメ『ガールズバンドクライ』の劇中バン
+ ド「トゲナシトゲアリ」のメンバー5人を立体化したブ
+ ロックフィギュア「ミタクルブロック」が、ミタクル
+ ブロック公式ECで期間限定受注販売を開始しました。\nT
+ Vアニメ『ガールズバンドクライ』ミタクルブロ\n\n
+ https://premium.gamepedia.jp/hobby/archives/213285
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/213285
+CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-483-2026-07-26-sale@gbc-news
 DTSTAMP:20260726T000000Z
 DTSTART;VALUE=DATE:20260726
