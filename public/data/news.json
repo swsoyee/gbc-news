@@ -1,13 +1,41 @@
 {
-  "scrapedAt": "2026-08-10T04:44:08.872Z",
+  "scrapedAt": "2026-08-10T14:22:20.364Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 555,
+  "count": 556,
   "items": [
+    {
+      "id": "post-488",
+      "title": "トゲナシトゲアリ LIVE in HONG KONG“凛音の理” Special Edition 開催決定！",
+      "url": "https://girls-band-cry.com/news/post-488.html",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "live",
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-08-11",
+          "kind": "sale",
+          "startTime": "10:00"
+        },
+        {
+          "date": "2026-10-02",
+          "kind": "hold",
+          "startTime": "19:00"
+        }
+      ],
+      "summary": "トゲナシトゲアリ初の香港単独ライブ 「TOGENASHI TOGEARI LIVE in HONG KONG“凛音の理” Special Edition」の チケット発売情報が公開となりました。 TOGENASHI TOGEARI LIVE in HONG KONG“凛音の理” Special Edition ■日程：2026年10月2日(金) ■開場：17",
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+    },
     {
       "id": "gamepedia-213285",
       "title": "ドット調で推しを再現！自分で組み立てる『ガールズバンドクライ』ミタクルブロック！トゲナシトゲアリ5人の予約方法と詳細",

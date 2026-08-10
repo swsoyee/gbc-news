@@ -9400,6 +9400,23 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-488-2026-08-11-sale-1000@gbc-news
+DTSTAMP:20260811T010000Z
+DTSTART:20260811T010000Z
+DTEND:20260811T020000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] トゲナシトゲアリ LIVE in HONG KONG“凛音の理
+ ” Special Edition 開催決定！
+DESCRIPTION:トゲナシトゲアリ初の香港単独ライブ 「TOGENASH
+ I TOGEARI LIVE in HONG KONG“凛音の理” Special Edition」の チケ
+ ット発売情報が公開となりました。\nTOGENASHI TOGEARI LIVE i
+ n HONG KONG“凛音の理” Special Edition ■日程：2026年10月2日
+ (金) ■開場：17\n\nhttps://girls-band-cry.com/news/post-488.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-488.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-480-2026-08-14-hold-1930@gbc-news
 DTSTAMP:20260814T103000Z
 DTSTART:20260814T103000Z
@@ -9576,6 +9593,23 @@ DESCRIPTION:无刺有刺确定出演滋贺县草津市乌丸半岛芝生广
  https://girls-band-cry.com/news/post-474.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-474.html
 CATEGORIES:togenashi,live,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-488-2026-10-02-hold-1900@gbc-news
+DTSTAMP:20261002T100000Z
+DTSTART:20261002T100000Z
+DTEND:20261002T120000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] トゲナシトゲアリ LIVE in HONG KONG“凛音の理
+ ” Special Edition 開催決定！
+DESCRIPTION:トゲナシトゲアリ初の香港単独ライブ 「TOGENASH
+ I TOGEARI LIVE in HONG KONG“凛音の理” Special Edition」の チケ
+ ット発売情報が公開となりました。\nTOGENASHI TOGEARI LIVE i
+ n HONG KONG“凛音の理” Special Edition ■日程：2026年10月2日
+ (金) ■開場：17\n\nhttps://girls-band-cry.com/news/post-488.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-488.html
+CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-473-2026-11-03-hold@gbc-news

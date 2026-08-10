@@ -1,10 +1,39 @@
 {
   "sourceId": "gbc-news",
-  "scrapedAt": "2026-08-10T04:43:55.767Z",
+  "scrapedAt": "2026-08-10T14:22:08.010Z",
   "mode": "incremental",
   "maxPages": 5,
-  "count": 481,
+  "count": 482,
   "items": [
+    {
+      "id": "post-488",
+      "title": "トゲナシトゲアリ LIVE in HONG KONG“凛音の理” Special Edition 開催決定！",
+      "url": "https://girls-band-cry.com/news/post-488.html",
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "live",
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-08-11",
+          "kind": "sale",
+          "startTime": "10:00"
+        },
+        {
+          "date": "2026-10-02",
+          "kind": "hold",
+          "startTime": "19:00"
+        }
+      ],
+      "summary": "トゲナシトゲアリ初の香港単独ライブ 「TOGENASHI TOGEARI LIVE in HONG KONG“凛音の理” Special Edition」の チケット発売情報が公開となりました。 TOGENASHI TOGEARI LIVE in HONG KONG“凛音の理” Special Edition ■日程：2026年10月2日(金) ■開場：17",
+      "bodyText": "トゲナシトゲアリ初の香港単独ライブ 「TOGENASHI TOGEARI LIVE in HONG KONG“凛音の理” Special Edition」の チケット発売情報が公開となりました。 TOGENASHI TOGEARI LIVE in HONG KONG“凛音の理” Special Edition ■日程：2026年10月2日(金) ■開場：17:30／ 開演 19:00 ■会場：AsiaWorld-Summit（アジアワールド・エキスポ Hall 2） ■チケット発売日：8月11日(火)10:00 （現地時間） ■購入リンク 🔗 Cityline | https://shows.cityline.com/tc/2026/gostogenashi2026.html 🔗 Trip.com | https://hk.trip.com/t/togenashitogeari-hk 🔗 CTRIP | https://sdp.ctrip.com/?yvv7HnSE9F3 ■主催：Amuse Hong Kong｜EUPHORIC PRODUCTION HK｜Life&Live｜Medialink ■お問い合わせ： https://www.facebook.com/amusegroup.hk",
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+    },
     {
       "id": "post-484",
       "title": "TVアニメエンディングの印象的なシーンを表現した「フルカラーTシャツ」が二次元コスパから登場！",
