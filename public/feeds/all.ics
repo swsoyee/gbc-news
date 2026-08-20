@@ -9786,6 +9786,25 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-473.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-490-2026-12-05_2026-12-06-hold@gbc-news
+DTSTAMP:20261205T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] トゲナシトゲアリ『HIROSHIMA CONTI-NeW FeS 2026』
+ 出演決定！
+DESCRIPTION:2026年12月5日(土)6日(日)の2日間にかけて、広島
+ グリーンアリーナ及びその周辺会場で開催される複合
+ 型カルチャーフェス『HIROSHIMA CONTI-NeW FeS 2026』。\nトゲ
+ ナシトゲアリの出演が決定しました！\n■開催日時 2026
+ 年12月5日（土）～6日（日） ※出演日は後日発表いたし
+ ます。\n■開催場所 広島グリーンアリーナ（大・小）
+ 、サン\n\nhttps://girls-band-cry.com/news/post-490.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-490.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
 UID:firstriff-post-7-2027-01-29-hold@gbc-news
 DTSTAMP:20270129T000000Z
 DTSTART;VALUE=DATE:20270129

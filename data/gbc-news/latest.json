@@ -1,10 +1,34 @@
 {
   "sourceId": "gbc-news",
-  "scrapedAt": "2026-08-19T13:49:30.956Z",
+  "scrapedAt": "2026-08-20T03:51:04.946Z",
   "mode": "incremental",
   "maxPages": 5,
-  "count": 482,
+  "count": 483,
   "items": [
+    {
+      "id": "post-490",
+      "title": "トゲナシトゲアリ『HIROSHIMA CONTI-NeW FeS 2026』出演決定！",
+      "url": "https://girls-band-cry.com/news/post-490.html",
+      "publishedAt": "2026-08-20T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "live",
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-12-05",
+          "kind": "hold",
+          "endDate": "2026-12-06"
+        }
+      ],
+      "summary": "2026年12月5日(土)6日(日)の2日間にかけて、広島グリーンアリーナ及びその周辺会場で開催される複合型カルチャーフェス『HIROSHIMA CONTI-NeW FeS 2026』。 トゲナシトゲアリの出演が決定しました！ ■開催日時 2026年12月5日（土）～6日（日） ※出演日は後日発表いたします。 ■開催場所 広島グリーンアリーナ（大・小）、サン",
+      "bodyText": "2026年12月5日(土)6日(日)の2日間にかけて、広島グリーンアリーナ及びその周辺会場で開催される複合型カルチャーフェス『HIROSHIMA CONTI-NeW FeS 2026』。 トゲナシトゲアリの出演が決定しました！ ■開催日時 2026年12月5日（土）～6日（日） ※出演日は後日発表いたします。 ■開催場所 広島グリーンアリーナ（大・小）、サンクンガーデン、武道場ほか ■主催 HIROSHIMA CONTI-NeW FeS 実行委員会（実行委員長：テレビ新広島） ▶フェス公式HPは こちら 【本件に関するお問い合わせ先】 HIROSHIMA CONTI-NeW FeS 実行委員会 事務局（テレビ新広島内） E-mail：info@hiroshima-continew.com",
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+    },
     {
       "id": "post-488",
       "title": "トゲナシトゲアリ LIVE in HONG KONG“凛音の理” Special Edition 開催決定！",
