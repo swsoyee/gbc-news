@@ -1283,4 +1283,42 @@ DESCRIPTION:2025年公开的《剧场版总集篇 Girls Band Cry（GBC）
 URL;VALUE=URI:https://girls-band-cry.com/news/post-464.html
 CATEGORIES:togenashi,live,music,goods,event,cinema,media
 END:VEVENT
+BEGIN:VEVENT
+UID:post-489-2026-09-23-hold-1900@gbc-news
+DTSTAMP:20260923T100000Z
+DTSTART:20260923T100000Z
+DTEND:20260923T110000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 『ガールズバンドクライ』 2nd Anniversary LIVE 
+ Live Blu-ray & DVD 10/14(水)発売決定！＆発売記念オンラ…
+DESCRIPTION:2025年4月27日(日)に東京・Kanadevia Hallで開催され
+ た、TVアニメ『ガールズバンドクライ』の2周年を記念
+ するライブイベント【『ガールズバンドクライ』2nd Anni
+ versary LIVE】が映像作品としてリリースされることが決
+ 定！\n2026年10月14日(水)Release ご購入は こちら ▼タイト
+ ル 『ガールズバンドクライ』\n\n
+ https://girls-band-cry.com/news/post-489.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-489.html
+CATEGORIES:togenashi,live,event,cinema,media
+END:VEVENT
+BEGIN:VEVENT
+UID:post-489-2026-10-14-sale@gbc-news
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 『ガールズバンドクライ』 2nd Anniversary LIVE 
+ Live Blu-ray & DVD 10/14(水)発売決定！＆発売記念オンラ…
+DESCRIPTION:2025年4月27日(日)に東京・Kanadevia Hallで開催され
+ た、TVアニメ『ガールズバンドクライ』の2周年を記念
+ するライブイベント【『ガールズバンドクライ』2nd Anni
+ versary LIVE】が映像作品としてリリースされることが決
+ 定！\n2026年10月14日(水)Release ご購入は こちら ▼タイト
+ ル 『ガールズバンドクライ』\n\n
+ https://girls-band-cry.com/news/post-489.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-489.html
+CATEGORIES:togenashi,live,event,cinema,media
+END:VEVENT
 END:VCALENDAR

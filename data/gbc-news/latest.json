@@ -1,10 +1,41 @@
 {
   "sourceId": "gbc-news",
-  "scrapedAt": "2026-08-21T03:54:39.697Z",
+  "scrapedAt": "2026-08-21T13:50:39.532Z",
   "mode": "incremental",
   "maxPages": 5,
-  "count": 483,
+  "count": 484,
   "items": [
+    {
+      "id": "post-489",
+      "title": "『ガールズバンドクライ』 2nd Anniversary LIVE Live Blu-ray & DVD 10/14(水)発売決定！＆発売記念オンライントーク配信開催決定！",
+      "url": "https://girls-band-cry.com/news/post-489.html",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "live",
+        "event",
+        "cinema",
+        "media"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-09-23",
+          "kind": "hold",
+          "startTime": "19:00",
+          "endTime": "20:00"
+        },
+        {
+          "date": "2026-10-14",
+          "kind": "sale"
+        }
+      ],
+      "summary": "2025年4月27日(日)に東京・Kanadevia Hallで開催された、TVアニメ『ガールズバンドクライ』の2周年を記念するライブイベント【『ガールズバンドクライ』2nd Anniversary LIVE】が映像作品としてリリースされることが決定！ 📅2026年10月14日(水)Release 🔗ご購入は こちら ▼タイトル 『ガールズバンドクライ』",
+      "bodyText": "2025年4月27日(日)に東京・Kanadevia Hallで開催された、TVアニメ『ガールズバンドクライ』の2周年を記念するライブイベント【『ガールズバンドクライ』2nd Anniversary LIVE】が映像作品としてリリースされることが決定！ 📅2026年10月14日(水)Release 🔗ご購入は こちら ▼タイトル 『ガールズバンドクライ』 2nd Anniversary LIVE ▼アーティスト トゲナシトゲアリ ▼形態・品番・価格 Blu-ray ：UMXK-1147 ￥9,900（税込） DVD ：UMBK-1363 ￥8,800（税込） ▼仕様 デジジャケット仕様 三方背スリーブケース ▼共通特典 ・映像特典：2nd Anniversary LIVE ビハインド映像 ・封入特典：出演者インタビュー掲載メモリアルブックレット ▼収録内容 雑踏、僕らの街 極私的極彩色アンサー 理想的パラドクスとは 傷つき傷つけ痛くて辛い 運命に賭けたい論理 名もなき何もかも 空の箱 声なき魚 ETERNAL FLAME 〜空の箱〜/ダイヤモンドダスト Cycle Of Sorrow/ダイヤモンドダスト 空白とカタルシス 視界の隅 朽ちる音 蝶に結いた赤い糸 サヨナラサヨナラサヨナラ 渇く、憂う 闇に溶けてく 爆ぜて咲く 運命の華 誰にもなれない私だから ＜アンコール＞ ダレモ 最期の禱り ▼先着特典 クリアスタンド2個セット ※トゲナシトゲアリ＆ダイヤモンドダスト LIVE衣装ver./トゲナシトゲアリ＆ダイヤモンドダスト 私服ver. 2種のうち1種を提供 （絵柄はお選びいただけません） ■『ガールズバンドクライ』 2nd Anniversary LIVE発売記念オンライントーク配信 トゲナシトゲアリ「『ガールズバンドクライ』2nd Anniversary LIVE」の発売を記念して、オンライントーク配信＆サイン会の開催が決定！ ▼開催日時 2026年9月23日(水・祝) 19時スタート （20時終了予定） ▼【出演】（予定） トゲナシトゲアリ［fromガールズバンドクライ］ 理名 （井芹仁菜 役） 夕莉 （河原木桃香 役） 朱李 （ルパ 役） ▶詳細は こちら ▼配信ページはこちら",
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+    },
     {
       "id": "post-490",
       "title": "トゲナシトゲアリ『HIROSHIMA CONTI-NeW FeS 2026』出演決定！",
