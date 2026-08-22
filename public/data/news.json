@@ -1,13 +1,63 @@
 {
-  "scrapedAt": "2026-08-22T03:47:16.626Z",
+  "scrapedAt": "2026-08-22T13:36:47.349Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 558,
+  "count": 560,
   "items": [
+    {
+      "id": "collabo-girls-band-cry-momoka-jacket-acros-anime-store-goods2026",
+      "title": "ガルクラ 河原木桃香の着用ジャケット再現したアパレル 12月発売!",
+      "url": "https://collabo-cafe.com/events/collabo/girls-band-cry-momoka-jacket-acros-anime-store-goods2026/",
+      "publishedAt": "2026-08-22T08:00:53.000Z",
+      "sourceId": "collabo-cafe",
+      "categories": [
+        "goods"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-09-09",
+          "kind": "sale",
+          "startTime": "23:59"
+        }
+      ],
+      "summary": "「ガールズバンドクライ」から、河原木桃香が着用しているジャケットを忠実に再現した新作「桃香のジャケット」が2026年12月発売！",
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/866475c4dddc84f6ab34043fe103cd3d-18.jpg"
+    },
+    {
+      "id": "gamepedia-233381",
+      "title": "ガールズバンドクライ路地裏ver.発売記念フェア in ゲーマーズ開催！限定グッズ＆特典ポストカード情報",
+      "url": "https://premium.gamepedia.jp/hobby/archives/233381",
+      "publishedAt": "2026-08-22T07:15:31.000Z",
+      "sourceId": "gamepedia",
+      "categories": [
+        "goods",
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-08-14",
+          "kind": "hold",
+          "endDate": "2026-09-13"
+        },
+        {
+          "date": "2026-09-15",
+          "kind": "hold",
+          "endDate": "2026-10-05"
+        }
+      ],
+      "summary": "ゲーマーズ全店およびオンラインショップにて、「ガールズバンドクライ 路地裏ver. 発売記念フェア」が8月14日より開催中です。限定グッズの先行販売に加え、対象商品2,200円（税込）ごとに特典ポストカードをプレゼント。開催内容や参加方法を",
+      "imageUrl": "https://tfi.gamepedia.jp/image/w=1200,h=630,fit=pad,f=webp/media.gamepedia.jp/premium/wp-content/uploads/sites/5/2026/08/22161040/ver_in__1.jpg"
+    },
     {
       "id": "post-489",
       "title": "『ガールズバンドクライ』 2nd Anniversary LIVE Live Blu-ray & DVD 10/14(水)発売決定！＆発売記念オンライントーク配信開催決定！",

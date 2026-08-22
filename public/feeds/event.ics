@@ -5261,6 +5261,25 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-488.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
+UID:gamepedia-233381-2026-08-14_2026-09-13-hold@gbc-news
+DTSTAMP:20260814T000000Z
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260914
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] ガールズバンドクライ路地裏ver.発売記念フ
+ ェア in ゲーマーズ開催！限定グッズ＆特典ポストカー
+ ド情報
+DESCRIPTION:ゲーマーズ全店およびオンラインショップにて
+ 、「ガールズバンドクライ 路地裏ver. 発売記念フェア
+ 」が8月14日より開催中です。\n限定グッズの先行販売に
+ 加え、対象商品2\,200円（税込）ごとに特典ポストカー
+ ドをプレゼント。\n開催内容や参加方法を\n\n
+ https://premium.gamepedia.jp/hobby/archives/233381
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/233381
+CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-484-2026-08-15-sale@gbc-news
 DTSTAMP:20260815T000000Z
 DTSTART;VALUE=DATE:20260815
@@ -5405,6 +5424,25 @@ DESCRIPTION:无刺有刺确定出演 ROCK IN JAPAN FESTIVAL 2026。\n活动
  https://girls-band-cry.com/news/post-475.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-475.html
 CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-233381-2026-09-15_2026-10-05-hold@gbc-news
+DTSTAMP:20260915T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20261006
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] ガールズバンドクライ路地裏ver.発売記念フ
+ ェア in ゲーマーズ開催！限定グッズ＆特典ポストカー
+ ド情報
+DESCRIPTION:ゲーマーズ全店およびオンラインショップにて
+ 、「ガールズバンドクライ 路地裏ver. 発売記念フェア
+ 」が8月14日より開催中です。\n限定グッズの先行販売に
+ 加え、対象商品2\,200円（税込）ごとに特典ポストカー
+ ドをプレゼント。\n開催内容や参加方法を\n\n
+ https://premium.gamepedia.jp/hobby/archives/233381
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/233381
+CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-474-2026-09-19-hold@gbc-news

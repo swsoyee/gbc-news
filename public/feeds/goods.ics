@@ -3394,6 +3394,25 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-483.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
+UID:gamepedia-233381-2026-08-14_2026-09-13-hold@gbc-news
+DTSTAMP:20260814T000000Z
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260914
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] ガールズバンドクライ路地裏ver.発売記念フ
+ ェア in ゲーマーズ開催！限定グッズ＆特典ポストカー
+ ド情報
+DESCRIPTION:ゲーマーズ全店およびオンラインショップにて
+ 、「ガールズバンドクライ 路地裏ver. 発売記念フェア
+ 」が8月14日より開催中です。\n限定グッズの先行販売に
+ 加え、対象商品2\,200円（税込）ごとに特典ポストカー
+ ドをプレゼント。\n開催内容や参加方法を\n\n
+ https://premium.gamepedia.jp/hobby/archives/233381
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/233381
+CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-484-2026-08-15-sale@gbc-news
 DTSTAMP:20260815T000000Z
 DTSTART;VALUE=DATE:20260815
@@ -3413,6 +3432,45 @@ DESCRIPTION:TVアニメエンディングのワンシーンをフルカラ
  《コミ\n\nhttps://girls-band-cry.com/news/post-484.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-484.html
 CATEGORIES:togenashi,live,goods,event
+END:VEVENT
+BEGIN:VEVENT
+UID:collabo-girls-band-cry-momoka-jacket-acros-anime-store-goods2026-2026-0
+ 9-09-sale-2359@gbc-news
+DTSTAMP:20260909T145900Z
+DTSTART:20260909T145900Z
+DTEND:20260909T155900Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] ガルクラ 河原木桃香の着用ジャケット再現
+ したアパレル 12月発売!
+DESCRIPTION:「ガールズバンドクライ」から、河原木桃香が
+ 着用しているジャケットを忠実に再現した新作「桃香
+ のジャケット」が2026年12月発売！\n\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-momoka-jacket-acros
+ -anime-store-goods2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-momoka-jacket-acros
+ -anime-store-goods2026/
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
+UID:gamepedia-233381-2026-09-15_2026-10-05-hold@gbc-news
+DTSTAMP:20260915T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20261006
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] ガールズバンドクライ路地裏ver.発売記念フ
+ ェア in ゲーマーズ開催！限定グッズ＆特典ポストカー
+ ド情報
+DESCRIPTION:ゲーマーズ全店およびオンラインショップにて
+ 、「ガールズバンドクライ 路地裏ver. 発売記念フェア
+ 」が8月14日より開催中です。\n限定グッズの先行販売に
+ 加え、対象商品2\,200円（税込）ごとに特典ポストカー
+ ドをプレゼント。\n開催内容や参加方法を\n\n
+ https://premium.gamepedia.jp/hobby/archives/233381
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/233381
+CATEGORIES:togenashi,goods,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-474-2026-09-19-hold@gbc-news
