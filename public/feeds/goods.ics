@@ -3434,6 +3434,25 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-484.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
+UID:gamepedia-237732-2026-08-21-sale@gbc-news
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 【ガールズバンドクライ】描き下ろしパン
+ クファッションver.グッズ登場！アクリルカードなど限
+ 定アイテムをチェック
+DESCRIPTION:『ガールズバンドクライ』より、東映アニメー
+ ション描き下ろし「パンクファッションver.」の新作グ
+ ッズ12種が登場。\nアクリルカードや缶バッジなど、2026
+ 年8月21日（金）より通販サイト「AMNIBUS」で受注を開始
+ しました。\nこの機会に詳細や\n\n
+ https://premium.gamepedia.jp/hobby/archives/237732
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/237732
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
 UID:collabo-girls-band-cry-momoka-jacket-acros-anime-store-goods2026-2026-0
  9-09-sale-2359@gbc-news
 DTSTAMP:20260909T145900Z
