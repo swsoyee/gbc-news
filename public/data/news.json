@@ -1,13 +1,34 @@
 {
-  "scrapedAt": "2026-08-28T22:58:44.973Z",
+  "scrapedAt": "2026-08-29T09:55:05.418Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 561,
+  "count": 562,
   "items": [
+    {
+      "id": "gamepedia-238904",
+      "title": "『ガールズバンドクライ』SMARTOON®︎化！ピッコマで8月29日より独占配信スタート",
+      "url": "https://premium.gamepedia.jp/hobby/archives/238904",
+      "publishedAt": "2026-08-29T07:35:12.000Z",
+      "sourceId": "gamepedia",
+      "categories": [
+        "goods"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-08-29",
+          "kind": "hold"
+        }
+      ],
+      "summary": "TVアニメ『ガールズバンドクライ』のメディアミックスプロジェクトからSMARTOON®️新作『ガールズバンドクライ 〜Secret Live〜』が、2026年8月29日よりピッコマにて独占配信を開始します. 『ガールズバンドクライ』SMAR",
+      "imageUrl": "https://tfi.gamepedia.jp/image/w=1200,h=630,fit=pad,f=webp/media.gamepedia.jp/premium/wp-content/uploads/sites/5/2026/08/29162818/TVSMARTOON829_1.jpg"
+    },
     {
       "id": "gamepedia-237732",
       "title": "【ガールズバンドクライ】描き下ろしパンクファッションver.グッズ登場！アクリルカードなど限定アイテムをチェック",
