@@ -1,10 +1,26 @@
 {
   "sourceId": "gbc-news",
-  "scrapedAt": "2026-09-02T07:47:33.725Z",
+  "scrapedAt": "2026-09-02T17:05:24.186Z",
   "mode": "incremental",
   "maxPages": 5,
-  "count": 484,
+  "count": 485,
   "items": [
+    {
+      "id": "post-491",
+      "title": "“【Amazon.co.jp限定】劇場版総集編 ガールズバンドクライ 【前編+後編セット】 青春狂走曲+なぁ、未来(初回限定版)(2枚組)(キャラファイン(A4サイズ/額あり/映画ティザーイラストver.)付) [Blu-ray]”配送遅延に関して状況のご報告",
+      "url": "https://girls-band-cry.com/news/post-491.html",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "cinema"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "summary": "“【Amazon.co.jp限定】劇場版総集編 ガールズバンドクライ 【前編+後編セット】 青春狂走曲+なぁ、未来(初回限定版)(2枚組)(キャラファイン(A4サイズ/額あり/映画ティザーイラストver.)付) [Blu-ray]”ですが、『キャラファイン』の長期にわたる配送遅延が発生している件につきまして、ご予約いただいたお客様にはたいへんご心配をおかけし",
+      "bodyText": "“【Amazon.co.jp限定】劇場版総集編 ガールズバンドクライ 【前編+後編セット】 青春狂走曲+なぁ、未来(初回限定版)(2枚組)(キャラファイン(A4サイズ/額あり/映画ティザーイラストver.)付) [Blu-ray]”ですが、『キャラファイン』の長期にわたる配送遅延が発生している件につきまして、ご予約いただいたお客様にはたいへんご心配をおかけしており、また当社といたしましてもたいへん心苦しく思っております。 状況を調査しましたところ、９月中旬をめどに、Amazon.co.jpよりご購入のお客様に配送のご案内が通知されることとなりました。 ９月中旬にAmazon.co.jpから通知されるメールを必ずご確認いただきますようお願いします。 本件に関するお問い合わせやご意見に関しては、いったんユニバーサルミュージックで承りますが、個別の発送状況に関しては、個人情報の観点からAmazon.co.jpに直接お問い合わせいただけますようお願いいたします。 ユニバーサルミュージック カスタマー・サービスセンター（お客様相談窓口） （月～金 10:00～18:00 ※祝・祭日除く） https://support.universal-music.co.jp/hc/ja ※お問い合わせへの返答は、メールにてご連絡差し上げております。 ※お問い合わせの内容によっては、返信にお時間をいただく場合がございます。 【配送に関するお問い合わせ】 Amazon.co.jpヘルプ＆カスタマーサービス https://www.amazon.co.jp/gp/help/customer/display.html?nodeId=GSD587LKW72HKU2V",
+      "imageUrl": "https://girls-band-cry.com/wp-content/themes/gbc_v1-1/assets/images/common/img_thumb.png"
+    },
     {
       "id": "post-489",
       "title": "『ガールズバンドクライ』 2nd Anniversary LIVE Live Blu-ray & DVD 10/14(水)発売決定！＆発売記念オンライントーク配信開催決定！",

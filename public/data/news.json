@@ -1,13 +1,28 @@
 {
-  "scrapedAt": "2026-09-02T07:47:47.569Z",
+  "scrapedAt": "2026-09-02T17:05:38.786Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 562,
+  "count": 563,
   "items": [
+    {
+      "id": "post-491",
+      "title": "“【Amazon.co.jp限定】劇場版総集編 ガールズバンドクライ 【前編+後編セット】 青春狂走曲+なぁ、未来(初回限定版)(2枚組)(キャラファイン(A4サイズ/額あり/映画ティザーイラストver.)付) [Blu-ray]”配送遅延に関して状況のご報告",
+      "url": "https://girls-band-cry.com/news/post-491.html",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "cinema"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "summary": "“【Amazon.co.jp限定】劇場版総集編 ガールズバンドクライ 【前編+後編セット】 青春狂走曲+なぁ、未来(初回限定版)(2枚組)(キャラファイン(A4サイズ/額あり/映画ティザーイラストver.)付) [Blu-ray]”ですが、『キャラファイン』の長期にわたる配送遅延が発生している件につきまして、ご予約いただいたお客様にはたいへんご心配をおかけし",
+      "imageUrl": "https://girls-band-cry.com/wp-content/themes/gbc_v1-1/assets/images/common/img_thumb.png"
+    },
     {
       "id": "gamepedia-238904",
       "title": "『ガールズバンドクライ』SMARTOON®︎化！ピッコマで8月29日より独占配信スタート",
