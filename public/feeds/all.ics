@@ -9706,6 +9706,26 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
+UID:firstriff-post-8-2026-09-05-hold-1200@gbc-news
+DTSTAMP:20260905T030000Z
+DTSTART:20260905T030000Z
+DTEND:20260905T090000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」開催
+ 延期についてのお詫びとお知らせ
+DESCRIPTION:2026年9月5日(土)に開催を予定しておりました Can
+ na Lily 2nd ONE-MAN LIVE「枯れ歌の情景」 につきまして、出
+ 演者にインフルエンザ感染が確認されました。\nこれに
+ 伴い、本公演の開催を延期とさせていただくことを決
+ 定いたしました。\n開催直前のご案内となり深くお詫び
+ 申し上げます。\n振替公演の日程に関しましては、現在
+ 調整中のため、改めてご\n\n
+ https://gbc-firstriff.com/news/post-8.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-8.html
+CATEGORIES:canna-lily,live,event
+END:VEVENT
+BEGIN:VEVENT
 UID:firstriff-post-5-2026-09-05-hold-1500@gbc-news
 DTSTAMP:20260905T060000Z
 DTSTART:20260905T060000Z
