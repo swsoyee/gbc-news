@@ -1,13 +1,35 @@
 {
-  "scrapedAt": "2026-09-06T07:47:18.964Z",
+  "scrapedAt": "2026-09-06T16:07:26.404Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 564,
+  "count": 565,
   "items": [
+    {
+      "id": "collabo-girls-band-cry-nina-jacket-acros-anime-store-goods2026",
+      "title": "ガールズバンドクライ「仁菜のフード付きジャケット」1月発売!",
+      "url": "https://collabo-cafe.com/events/collabo/girls-band-cry-nina-jacket-acros-anime-store-goods2026/",
+      "publishedAt": "2026-09-06T08:00:31.000Z",
+      "sourceId": "collabo-cafe",
+      "categories": [
+        "goods"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-09-23",
+          "kind": "sale",
+          "startTime": "23:59"
+        }
+      ],
+      "summary": "アニメ「ガールズバンドクライ」から、新作アパレル「仁菜のフード付きジャケット」が2027年1月発売！価格は16,500円(税込)。",
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/37625d61d874dbebc002717cf8bfdf6b-7.jpg"
+    },
     {
       "id": "firstriff-post-8",
       "title": "Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」開催延期についてのお詫びとお知らせ",
