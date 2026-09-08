@@ -1,13 +1,35 @@
 {
-  "scrapedAt": "2026-09-07T18:11:46.419Z",
+  "scrapedAt": "2026-09-08T07:57:41.679Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 565,
+  "count": 566,
   "items": [
+    {
+      "id": "gamepedia-246699",
+      "title": "アニメ『ガールズバンドクライ』より、仁菜の私服ジャケットが再現！機能性も抜群の冬コーデ",
+      "url": "https://premium.gamepedia.jp/hobby/archives/246699",
+      "publishedAt": "2026-09-08T03:46:21.000Z",
+      "sourceId": "gamepedia",
+      "categories": [
+        "goods",
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-09-08",
+          "kind": "sale"
+        }
+      ],
+      "summary": "アニメ『ガールズバンドクライ』より、作中の設定デザインを忠実に再現した井芹仁菜着用のフード付きジャケットが、2026年9月8日より予約受付を開始しました。価格は16,500円（税込）で、2027年1月下旬の販売開始を予定しています。商品の特",
+      "imageUrl": "https://tfi.gamepedia.jp/image/w=1200,h=630,fit=pad,f=webp/media.gamepedia.jp/premium/wp-content/uploads/sites/5/2026/09/08124020/1-33.jpg"
+    },
     {
       "id": "collabo-girls-band-cry-nina-jacket-acros-anime-store-goods2026",
       "title": "ガールズバンドクライ「仁菜のフード付きジャケット」1月発売!",

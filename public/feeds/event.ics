@@ -5408,6 +5408,24 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-476.html
 CATEGORIES:togenashi,live,event
 END:VEVENT
 BEGIN:VEVENT
+UID:gamepedia-246699-2026-09-08-sale@gbc-news
+DTSTAMP:20260908T000000Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] アニメ『ガールズバンドクライ』より、仁
+ 菜の私服ジャケットが再現！機能性も抜群の冬コーデ
+DESCRIPTION:アニメ『ガールズバンドクライ』より、作中の
+ 設定デザインを忠実に再現した井芹仁菜着用のフード
+ 付きジャケットが、2026年9月8日より予約受付を開始し
+ ました。\n価格は16\,500円（税込）で、2027年1月下旬の販
+ 売開始を予定しています。\n商品の特\n\n
+ https://premium.gamepedia.jp/hobby/archives/246699
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/246699
+CATEGORIES:togenashi,goods,event
+END:VEVENT
+BEGIN:VEVENT
 UID:collabo-girls-band-cry-omatsuri-popup-store-tower-records2026-2026-09-1
  1_2026-09-21-hold@gbc-news
 DTSTAMP:20260911T000000Z
