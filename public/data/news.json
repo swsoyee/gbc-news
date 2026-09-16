@@ -1,13 +1,35 @@
 {
-  "scrapedAt": "2026-09-16T08:26:59.803Z",
+  "scrapedAt": "2026-09-16T17:34:45.628Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 566,
+  "count": 567,
   "items": [
+    {
+      "id": "post-492",
+      "title": "『ガールズバンドクライ』 2nd Anniversary LIVE Live 先着特典絵柄公開！",
+      "url": "https://girls-band-cry.com/news/post-492.html",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "live",
+        "cinema"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-10-14",
+          "kind": "sale"
+        }
+      ],
+      "summary": "2026年10月14日（水）発売 『ガールズバンドクライ』 2nd Anniversary LIVE Live Blu-ray & DVD 先着特典 ：クリアスタンド2個セット （トゲナシトゲアリ＆ダイヤモンドダスト LIVE衣装ver./トゲナシトゲアリ＆ダイヤモンドダスト 私服ver. 絵柄が決定しました！ ご予約・ご購入先着特典で、LIVE衣装ver.",
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+    },
     {
       "id": "gamepedia-246699",
       "title": "アニメ『ガールズバンドクライ』より、仁菜の私服ジャケットが再現！機能性も抜群の冬コーデ",

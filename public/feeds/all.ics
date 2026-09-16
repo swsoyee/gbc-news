@@ -9960,6 +9960,25 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-489.html
 CATEGORIES:togenashi,live,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
+UID:post-492-2026-10-14-sale@gbc-news
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 『ガールズバンドクライ』 2nd Anniversary LIVE 
+ Live 先着特典絵柄公開！
+DESCRIPTION:2026年10月14日（水）発売 『ガールズバンドクラ
+ イ』 2nd Anniversary LIVE Live Blu-ray & DVD 先着特典 ：クリア
+ スタンド2個セット （トゲナシトゲアリ＆ダイヤモンド
+ ダスト LIVE衣装ver./トゲナシトゲアリ＆ダイヤモンドダ
+ スト 私服ver. 絵柄が決定しました！\nご予約・ご購入先
+ 着特典で、LIVE衣装ver.\n\n
+ https://girls-band-cry.com/news/post-492.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-492.html
+CATEGORIES:togenashi,live,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-473-2026-11-03-hold@gbc-news
 DTSTAMP:20261103T000000Z
 DTSTART;VALUE=DATE:20261103

@@ -1,10 +1,33 @@
 {
   "sourceId": "gbc-news",
-  "scrapedAt": "2026-09-16T08:26:47.714Z",
+  "scrapedAt": "2026-09-16T17:34:41.857Z",
   "mode": "incremental",
   "maxPages": 5,
-  "count": 485,
+  "count": 486,
   "items": [
+    {
+      "id": "post-492",
+      "title": "『ガールズバンドクライ』 2nd Anniversary LIVE Live 先着特典絵柄公開！",
+      "url": "https://girls-band-cry.com/news/post-492.html",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "live",
+        "cinema"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-10-14",
+          "kind": "sale"
+        }
+      ],
+      "summary": "2026年10月14日（水）発売 『ガールズバンドクライ』 2nd Anniversary LIVE Live Blu-ray & DVD 先着特典 ：クリアスタンド2個セット （トゲナシトゲアリ＆ダイヤモンドダスト LIVE衣装ver./トゲナシトゲアリ＆ダイヤモンドダスト 私服ver. 絵柄が決定しました！ ご予約・ご購入先着特典で、LIVE衣装ver.",
+      "bodyText": "2026年10月14日（水）発売 『ガールズバンドクライ』 2nd Anniversary LIVE Live Blu-ray & DVD 先着特典 ：クリアスタンド2個セット （トゲナシトゲアリ＆ダイヤモンドダスト LIVE衣装ver./トゲナシトゲアリ＆ダイヤモンドダスト 私服ver. 絵柄が決定しました！ ご予約・ご購入先着特典で、LIVE衣装ver.もしくは私服ver.のうち1種をお渡しします。（絵柄はお選びいただけません） ▶ご購入は こちら",
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+    },
     {
       "id": "post-491",
       "title": "“【Amazon.co.jp限定】劇場版総集編 ガールズバンドクライ 【前編+後編セット】 青春狂走曲+なぁ、未来(初回限定版)(2枚組)(キャラファイン(A4サイズ/額あり/映画ティザーイラストver.)付) [Blu-ray]”配送遅延に関して状況のご報告",
