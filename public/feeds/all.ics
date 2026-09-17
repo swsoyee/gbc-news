@@ -9924,6 +9924,24 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,goods
 END:VEVENT
 BEGIN:VEVENT
+UID:gamepedia-254641-2026-09-28-sale-1000@gbc-news
+DTSTAMP:20260928T010000Z
+DTSTART:20260928T010000Z
+DTEND:20260928T020000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] 着るほどになじむ一着！『ガールズバンド
+ クライ』井芹仁菜モデルジャケットの魅力
+DESCRIPTION:アニメ『ガールズバンドクライ』の登場人物、
+ 井芹仁菜が着用するフード付きジャケットが忠実に再
+ 現され、受注販売を開始しました。\n受注締切は2026年9
+ 月28日(月)10:00まで。\n詳細や購入方法を詳しく紹介する
+ のでぜひ参考にしてください。\n井芹仁\n\n
+ https://premium.gamepedia.jp/hobby/archives/254641
+URL;VALUE=URI:https://premium.gamepedia.jp/hobby/archives/254641
+CATEGORIES:togenashi,goods
+END:VEVENT
+BEGIN:VEVENT
 UID:post-488-2026-10-02-hold-1900@gbc-news
 DTSTAMP:20261002T100000Z
 DTSTART:20261002T100000Z

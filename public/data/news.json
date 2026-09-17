@@ -1,13 +1,35 @@
 {
-  "scrapedAt": "2026-09-17T08:32:15.875Z",
+  "scrapedAt": "2026-09-17T17:34:18.302Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 567,
+  "count": 568,
   "items": [
+    {
+      "id": "gamepedia-254641",
+      "title": "着るほどになじむ一着！『ガールズバンドクライ』井芹仁菜モデルジャケットの魅力",
+      "url": "https://premium.gamepedia.jp/hobby/archives/254641",
+      "publishedAt": "2026-09-17T10:28:37.000Z",
+      "sourceId": "gamepedia",
+      "categories": [
+        "goods"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-09-28",
+          "kind": "sale",
+          "startTime": "10:00"
+        }
+      ],
+      "summary": "アニメ『ガールズバンドクライ』の登場人物、井芹仁菜が着用するフード付きジャケットが忠実に再現され、受注販売を開始しました。受注締切は2026年9月28日(月)10:00まで。詳細や購入方法を詳しく紹介するのでぜひ参考にしてください。 井芹仁",
+      "imageUrl": "https://tfi.gamepedia.jp/image/w=1200,h=630,fit=pad,f=webp/media.gamepedia.jp/premium/wp-content/uploads/sites/5/2026/09/17192442/1-83.jpg"
+    },
     {
       "id": "post-492",
       "title": "『ガールズバンドクライ』 2nd Anniversary LIVE Live 先着特典絵柄公開！",
