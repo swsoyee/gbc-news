@@ -1,13 +1,42 @@
 {
-  "scrapedAt": "2026-09-24T08:18:56.202Z",
+  "scrapedAt": "2026-09-24T17:49:06.744Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 568,
+  "count": 569,
   "items": [
+    {
+      "id": "post-493",
+      "title": "「トゲナシトゲアリ LIVE in 日本武道館 “奏檄の叫”」 Blu-ray & DVD発売決定！＆発オンライントーク配信開催決定！",
+      "url": "https://girls-band-cry.com/news/post-493.html",
+      "publishedAt": "2026-09-24T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "live",
+        "event",
+        "cinema"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-10-16",
+          "kind": "hold",
+          "startTime": "19:00",
+          "endTime": "20:00"
+        },
+        {
+          "date": "2026-11-04",
+          "kind": "sale"
+        }
+      ],
+      "summary": "昨年9月23日(火・祝)に“約束の地”日本武道館で開催した「トゲナシトゲアリ LIVE in 日本武道館 “奏檄の叫”」の映像パッケージが発売決定！ 📅2026年11月4日(水)Release 🔗ご購入は こちら 【タイトル】 トゲナシトゲアリ LIVE in 日本武道館 “奏檄の叫”<Live Blu-ray & DVD> 【発売日】 2026年11月",
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+    },
     {
       "id": "gamepedia-254641",
       "title": "着るほどになじむ一着！『ガールズバンドクライ』井芹仁菜モデルジャケットの魅力",

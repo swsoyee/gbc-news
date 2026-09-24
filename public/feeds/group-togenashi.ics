@@ -9819,6 +9819,26 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-492.html
 CATEGORIES:togenashi,live,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-493-2026-10-16-hold-1900@gbc-news
+DTSTAMP:20261016T100000Z
+DTSTART:20261016T100000Z
+DTEND:20261016T110000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 「トゲナシトゲアリ LIVE in 日本武道館 “奏
+ 檄の叫”」 Blu-ray & DVD発売決定！＆発オンライントーク
+ 配信開催決定！
+DESCRIPTION:昨年9月23日(火・祝)に“約束の地”日本武道館
+ で開催した「トゲナシトゲアリ LIVE in 日本武道館 “奏
+ 檄の叫”」の映像パッケージが発売決定！\n2026年11月4
+ 日(水)Release ご購入は こちら 【タイトル】 トゲナシト
+ ゲアリ LIVE in 日本武道館 “奏檄の叫”<Live Blu-ray & DVD> 
+ 【発売日】 2026年11月\n\n
+ https://girls-band-cry.com/news/post-493.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-493.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-473-2026-11-03-hold@gbc-news
 DTSTAMP:20261103T000000Z
 DTSTART;VALUE=DATE:20261103
@@ -9832,6 +9852,26 @@ DESCRIPTION:Girls Band Cry（GBC）Special LIVE “赤色的响祭” 将
  请券封入2026年7月22日发售的剧场版总集篇前篇/后篇 Blu-r
  ay & DVD。\n\nhttps://girls-band-cry.com/news/post-473.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-473.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-493-2026-11-04-sale@gbc-news
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 「トゲナシトゲアリ LIVE in 日本武道館 “奏
+ 檄の叫”」 Blu-ray & DVD発売決定！＆発オンライントーク
+ 配信開催決定！
+DESCRIPTION:昨年9月23日(火・祝)に“約束の地”日本武道館
+ で開催した「トゲナシトゲアリ LIVE in 日本武道館 “奏
+ 檄の叫”」の映像パッケージが発売決定！\n2026年11月4
+ 日(水)Release ご購入は こちら 【タイトル】 トゲナシト
+ ゲアリ LIVE in 日本武道館 “奏檄の叫”<Live Blu-ray & DVD> 
+ 【発売日】 2026年11月\n\n
+ https://girls-band-cry.com/news/post-493.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-493.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
