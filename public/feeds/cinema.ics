@@ -2713,6 +2713,23 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-473.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-494-2026-11-03-sale@gbc-news
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] 「トゲナシトゲアリ LIVE in 日本武道館 “奏
+ 檄の叫”」 Blu-ray & DVD 先着特典絵柄公開！
+DESCRIPTION:2026年11月3日（水）発売 「トゲナシトゲアリ LIV
+ E in 日本武道館 “奏檄の叫”」 Blu-ray & DVD 先着特典 マ
+ スキングテープ 絵柄が決定しました！\nご予約・ご購
+ 入先着特典となります。\n\n
+ https://girls-band-cry.com/news/post-494.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-494.html
+CATEGORIES:togenashi,live,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-493-2026-11-04-sale@gbc-news
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20261104

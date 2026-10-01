@@ -1,13 +1,35 @@
 {
-  "scrapedAt": "2026-09-30T18:20:38.663Z",
+  "scrapedAt": "2026-10-01T09:58:20.339Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 569,
+  "count": 570,
   "items": [
+    {
+      "id": "post-494",
+      "title": "「トゲナシトゲアリ LIVE in 日本武道館 “奏檄の叫”」 Blu-ray & DVD 先着特典絵柄公開！",
+      "url": "https://girls-band-cry.com/news/post-494.html",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "live",
+        "cinema"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-11-03",
+          "kind": "sale"
+        }
+      ],
+      "summary": "2026年11月3日（水）発売 「トゲナシトゲアリ LIVE in 日本武道館 “奏檄の叫”」 Blu-ray & DVD 先着特典 マスキングテープ 絵柄が決定しました！ ご予約・ご購入先着特典となります。",
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+    },
     {
       "id": "post-493",
       "title": "「トゲナシトゲアリ LIVE in 日本武道館 “奏檄の叫”」 Blu-ray & DVD発売決定！＆発オンライントーク配信開催決定！",
