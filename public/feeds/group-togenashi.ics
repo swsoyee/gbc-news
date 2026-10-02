@@ -9839,6 +9839,27 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-493.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-495-2026-10-17_2026-11-05-hold@gbc-news
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261106
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 手島nari描き下ろしイラスト公開！アニメ「
+ ガールズバンドクライ」POP UP SHOPがアトレ川崎で今年も
+ 開催決定！
+DESCRIPTION:大人気アニメ「ガールズバンドクライ」のポッ
+ プアップショップが作品の舞台にもなった「川崎」に
+ あるアトレ川崎1F「ツバキひろば」で昨年に引き続き202
+ 6年も開催決定！\n・開催期間：2026年10月17日(土)～11月5
+ 日(木) イラストは手島nari描き下ろし！！\nTVアニメオー
+ プニング主題歌「雑踏、僕らの街」の衣装に身を包ん
+ だトゲナシトゲアリの5人の新規イラス\n\n
+ https://girls-band-cry.com/news/post-495.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-495.html
+CATEGORIES:togenashi,live,goods,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-473-2026-11-03-hold@gbc-news
 DTSTAMP:20261103T000000Z
 DTSTART;VALUE=DATE:20261103

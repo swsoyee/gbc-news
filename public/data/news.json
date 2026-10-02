@@ -1,13 +1,37 @@
 {
-  "scrapedAt": "2026-10-01T18:46:45.074Z",
+  "scrapedAt": "2026-10-02T09:34:11.379Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 570,
+  "count": 571,
   "items": [
+    {
+      "id": "post-495",
+      "title": "手島nari描き下ろしイラスト公開！アニメ「ガールズバンドクライ」POP UP SHOPがアトレ川崎で今年も開催決定！",
+      "url": "https://girls-band-cry.com/news/post-495.html",
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "live",
+        "goods",
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-10-17",
+          "kind": "hold",
+          "endDate": "2026-11-05"
+        }
+      ],
+      "summary": "大人気アニメ「ガールズバンドクライ」のポップアップショップが作品の舞台にもなった「川崎」にあるアトレ川崎1F「ツバキひろば」で昨年に引き続き2026年も開催決定！ ・開催期間：2026年10月17日(土)～11月5日(木) イラストは手島nari描き下ろし！！ TVアニメオープニング主題歌「雑踏、僕らの街」の衣装に身を包んだトゲナシトゲアリの5人の新規イラス",
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+    },
     {
       "id": "post-494",
       "title": "「トゲナシトゲアリ LIVE in 日本武道館 “奏檄の叫”」 Blu-ray & DVD 先着特典絵柄公開！",
