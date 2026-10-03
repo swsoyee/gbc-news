@@ -138,4 +138,22 @@ DESCRIPTION:Canna Lily 第2场个人演唱会「枯歌的情景」于2026
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-5.html
 CATEGORIES:canna-lily,live,event
 END:VEVENT
+BEGIN:VEVENT
+UID:firstriff-post-10-2026-11-03-hold-1700@gbc-news
+DTSTAMP:20261103T080000Z
+DTSTART:20261103T080000Z
+DTEND:20261103T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] ガールズバンドクライ Special LIVE “赤色の
+ 響祭”にガルリフバンドゲスト参加決定！
+DESCRIPTION:ガールズバンドクライ Special LIVE “赤色の響祭
+ ”に、 「Canna Lily」「F-272」「クズミミズク」のゲスト
+ 参加が決定。\nガルリフバンドのゲスト参加を記念して
+ 、ガルリフ先行抽選販売を実施します。\n■開催日時 20
+ 26年11月3日(火・祝) 開場16:00/開演17:00 ■会場 ぴあアリ
+ ーナMM\n\nhttps://gbc-firstriff.com/news/post-10.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-10.html
+CATEGORIES:f272,canna-lily,live,event
+END:VEVENT
 END:VCALENDAR

@@ -1,10 +1,57 @@
 {
   "sourceId": "gbc-firstriff",
-  "scrapedAt": "2026-10-03T09:00:45.639Z",
+  "scrapedAt": "2026-10-03T17:08:26.098Z",
   "mode": "incremental",
   "maxPages": 3,
-  "count": 8,
+  "count": 10,
   "items": [
+    {
+      "id": "firstriff-post-10",
+      "title": "ガールズバンドクライ Special LIVE “赤色の響祭”にガルリフバンドゲスト参加決定！",
+      "url": "https://gbc-firstriff.com/news/post-10.html",
+      "publishedAt": "2026-10-03T00:00:00.000Z",
+      "sourceId": "gbc-firstriff",
+      "categories": [
+        "live",
+        "event"
+      ],
+      "groups": [
+        "f272",
+        "canna-lily"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-11-03",
+          "kind": "hold",
+          "startTime": "17:00"
+        }
+      ],
+      "summary": "ガールズバンドクライ Special LIVE “赤色の響祭”に、 「Canna Lily」「F-272」「クズミミズク」のゲスト参加が決定。 ガルリフバンドのゲスト参加を記念して、ガルリフ先行抽選販売を実施します。 ■開催日時 2026年11月3日(火・祝) 開場16:00/開演17:00 ■会場 ぴあアリーナMM https://pia-arena-mm",
+      "bodyText": "ガールズバンドクライ Special LIVE “赤色の響祭”に、 「Canna Lily」「F-272」「クズミミズク」のゲスト参加が決定。 ガルリフバンドのゲスト参加を記念して、ガルリフ先行抽選販売を実施します。 ■開催日時 2026年11月3日(火・祝) 開場16:00/開演17:00 ■会場 ぴあアリーナMM https://pia-arena-mm.jp/ ■チケット情報 ガルリフ先行抽選販売を実施します。 受付期間:2026年10月3日(土)20:00 ～ 2026年10月12日(月・祝)23:59 https://t.pia.jp/pia/event/event.do?eventCd=2629974"
+    },
+    {
+      "id": "firstriff-post-9",
+      "title": "クズミミズク修行中！公開練習ライブ 開催決定！",
+      "url": "https://gbc-firstriff.com/news/post-9.html",
+      "publishedAt": "2026-10-03T00:00:00.000Z",
+      "sourceId": "gbc-firstriff",
+      "categories": [
+        "live",
+        "event"
+      ],
+      "groups": [
+        "other"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-10-18",
+          "kind": "hold",
+          "startTime": "17:30"
+        }
+      ],
+      "summary": "クズミミズク修行中！公開練習ライブの開催が決定。 チケット情報などの詳細は続報をお待ちください ■開催日時 2026年10月18日(日) 開場 16:45/開演 17:30 ■会場 代官山SPACE ODD https://spaceodd.jp/ ■チケット情報 本イベントは抽選による無料招待制となります。 受付期間:2026年10月3日(土)20:00〜",
+      "bodyText": "クズミミズク修行中！公開練習ライブの開催が決定。 チケット情報などの詳細は続報をお待ちください ■開催日時 2026年10月18日(日) 開場 16:45/開演 17:30 ■会場 代官山SPACE ODD https://spaceodd.jp/ ■チケット情報 本イベントは抽選による無料招待制となります。 受付期間:2026年10月3日(土)20:00〜10/10(土)23:59 https://forms.gle/nny4gx7niY5DzZaEA ※入場時にドリンク代￥700が必要となります。ご了承ください。 ■クズミミズク 公式HP/SNS ライブの最新情報はクズミミズク 公式HPまたは公式Xをご確認ください。 公式HP - https://kuzumimizuku-official.com 公式X - https://x.com/kzmmzk_GBC"
+    },
     {
       "id": "firstriff-post-8",
       "title": "Canna Lily 2nd ONE-MAN LIVE「枯れ歌の情景」開催延期についてのお詫びとお知らせ",

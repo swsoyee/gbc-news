@@ -7,4 +7,22 @@ X-PUBLISHED-TTL:PT1H
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-WR-CALNAME:gbc-news · 其他/共通
 NAME:gbc-news · 其他/共通
+BEGIN:VEVENT
+UID:firstriff-post-9-2026-10-18-hold-1730@gbc-news
+DTSTAMP:20261018T083000Z
+DTSTART:20261018T083000Z
+DTEND:20261018T103000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] クズミミズク修行中！公開練習ライブ 開催
+ 決定！
+DESCRIPTION:クズミミズク修行中！\n公開練習ライブの開催
+ が決定。\nチケット情報などの詳細は続報をお待ちくだ
+ さい ■開催日時 2026年10月18日(日) 開場 16:45/開演 17:30 
+ ■会場 代官山SPACE ODD ■チケット情報 本イベントは抽
+ 選による無料招待制となります。\n受付期間:2026年10月3
+ 日(土)20:00〜\n\nhttps://gbc-firstriff.com/news/post-9.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-9.html
+CATEGORIES:other,live,event
+END:VEVENT
 END:VCALENDAR

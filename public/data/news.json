@@ -1,13 +1,58 @@
 {
-  "scrapedAt": "2026-10-03T09:00:58.878Z",
+  "scrapedAt": "2026-10-03T17:08:38.557Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 571,
+  "count": 573,
   "items": [
+    {
+      "id": "firstriff-post-10",
+      "title": "ガールズバンドクライ Special LIVE “赤色の響祭”にガルリフバンドゲスト参加決定！",
+      "url": "https://gbc-firstriff.com/news/post-10.html",
+      "publishedAt": "2026-10-03T00:00:00.000Z",
+      "sourceId": "gbc-firstriff",
+      "categories": [
+        "live",
+        "event"
+      ],
+      "groups": [
+        "f272",
+        "canna-lily"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-11-03",
+          "kind": "hold",
+          "startTime": "17:00"
+        }
+      ],
+      "summary": "ガールズバンドクライ Special LIVE “赤色の響祭”に、 「Canna Lily」「F-272」「クズミミズク」のゲスト参加が決定。 ガルリフバンドのゲスト参加を記念して、ガルリフ先行抽選販売を実施します。 ■開催日時 2026年11月3日(火・祝) 開場16:00/開演17:00 ■会場 ぴあアリーナMM https://pia-arena-mm"
+    },
+    {
+      "id": "firstriff-post-9",
+      "title": "クズミミズク修行中！公開練習ライブ 開催決定！",
+      "url": "https://gbc-firstriff.com/news/post-9.html",
+      "publishedAt": "2026-10-03T00:00:00.000Z",
+      "sourceId": "gbc-firstriff",
+      "categories": [
+        "live",
+        "event"
+      ],
+      "groups": [
+        "other"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-10-18",
+          "kind": "hold",
+          "startTime": "17:30"
+        }
+      ],
+      "summary": "クズミミズク修行中！公開練習ライブの開催が決定。 チケット情報などの詳細は続報をお待ちください ■開催日時 2026年10月18日(日) 開場 16:45/開演 17:30 ■会場 代官山SPACE ODD https://spaceodd.jp/ ■チケット情報 本イベントは抽選による無料招待制となります。 受付期間:2026年10月3日(土)20:00〜"
+    },
     {
       "id": "post-495",
       "title": "手島nari描き下ろしイラスト公開！アニメ「ガールズバンドクライ」POP UP SHOPがアトレ川崎で今年も開催決定！",

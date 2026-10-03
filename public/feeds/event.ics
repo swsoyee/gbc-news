@@ -5595,6 +5595,24 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-495.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
+UID:firstriff-post-9-2026-10-18-hold-1730@gbc-news
+DTSTAMP:20261018T083000Z
+DTSTART:20261018T083000Z
+DTEND:20261018T103000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] クズミミズク修行中！公開練習ライブ 開催
+ 決定！
+DESCRIPTION:クズミミズク修行中！\n公開練習ライブの開催
+ が決定。\nチケット情報などの詳細は続報をお待ちくだ
+ さい ■開催日時 2026年10月18日(日) 開場 16:45/開演 17:30 
+ ■会場 代官山SPACE ODD ■チケット情報 本イベントは抽
+ 選による無料招待制となります。\n受付期間:2026年10月3
+ 日(土)20:00〜\n\nhttps://gbc-firstriff.com/news/post-9.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-9.html
+CATEGORIES:other,live,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-473-2026-11-03-hold@gbc-news
 DTSTAMP:20261103T000000Z
 DTSTART;VALUE=DATE:20261103
@@ -5609,6 +5627,24 @@ DESCRIPTION:Girls Band Cry（GBC）Special LIVE “赤色的响祭” 将
  ay & DVD。\n\nhttps://girls-band-cry.com/news/post-473.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-473.html
 CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:firstriff-post-10-2026-11-03-hold-1700@gbc-news
+DTSTAMP:20261103T080000Z
+DTSTART:20261103T080000Z
+DTEND:20261103T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] ガールズバンドクライ Special LIVE “赤色の
+ 響祭”にガルリフバンドゲスト参加決定！
+DESCRIPTION:ガールズバンドクライ Special LIVE “赤色の響祭
+ ”に、 「Canna Lily」「F-272」「クズミミズク」のゲスト
+ 参加が決定。\nガルリフバンドのゲスト参加を記念して
+ 、ガルリフ先行抽選販売を実施します。\n■開催日時 20
+ 26年11月3日(火・祝) 開場16:00/開演17:00 ■会場 ぴあアリ
+ ーナMM\n\nhttps://gbc-firstriff.com/news/post-10.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-10.html
+CATEGORIES:f272,canna-lily,live,event
 END:VEVENT
 BEGIN:VEVENT
 UID:post-493-2026-11-04-sale@gbc-news
