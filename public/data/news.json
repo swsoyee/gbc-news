@@ -1,13 +1,45 @@
 {
-  "scrapedAt": "2026-10-04T17:24:35.528Z",
+  "scrapedAt": "2026-10-05T10:14:32.038Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 573,
+  "count": 574,
   "items": [
+    {
+      "id": "collabo-girls-band-cry-popup-atre-kawasaki-2026",
+      "title": "ガルクラ POP UP SHOP 2026 in アトレ川崎 10月17日より開催!",
+      "url": "https://collabo-cafe.com/events/collabo/girls-band-cry-popup-atre-kawasaki-2026/",
+      "publishedAt": "2026-10-05T05:00:24.000Z",
+      "sourceId": "collabo-cafe",
+      "categories": [
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-10-17",
+          "kind": "hold",
+          "endDate": "2026-10-18"
+        },
+        {
+          "date": "2026-10-17",
+          "kind": "hold",
+          "endDate": "2026-11-05"
+        },
+        {
+          "date": "2026-11-01",
+          "kind": "hold",
+          "endDate": "2026-11-02"
+        }
+      ],
+      "summary": "アニメ「ガールズバンドクライ」のポップアップショップ「ガールズバンドクライ POP UP SHOP 2026 × アトレ川崎」が、2026年10月17日より11月5日までアトレ川崎1F ツバキひろば 特設会場で開催決定!手島nari先生描き下ろしの「雑踏、僕らの街」衣装に身を包んだトゲナシトゲアリ5人の新規イラストを使用した新商品が多数ラインナップされ、グッ",
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/girls-band-cry-popup-2026-atre-kawasaki-eyecatch.jpg"
+    },
     {
       "id": "firstriff-post-10",
       "title": "ガールズバンドクライ Special LIVE “赤色の響祭”にガルリフバンドゲスト参加決定！",
