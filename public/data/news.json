@@ -1,13 +1,37 @@
 {
-  "scrapedAt": "2026-10-15T17:42:00.663Z",
+  "scrapedAt": "2026-10-16T08:01:42.180Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 574,
+  "count": 575,
   "items": [
+    {
+      "id": "post-496",
+      "title": "アニメ『ガールズバンドクライ』×楽久屋が、 10/26(月)より全国12店舗で開催決定！",
+      "url": "https://girls-band-cry.com/news/post-496.html",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "music",
+        "goods",
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-10-26",
+          "kind": "hold",
+          "endDate": "2026-11-29"
+        }
+      ],
+      "summary": "10月26日(月)より『ガールズバンドクライ』×楽久屋が開催決定！ 全国12店舗の楽久屋グループのお店で実施いたします。 浴衣をまとい、湯上がりのひとときを楽しむ5人の東映アニメーション新規描き下ろしイラストや、サウナポンチョを着た描き起こしミニキャライラストが登場！ 温浴施設内でのグッズ販売だけでなく、期間中は関連楽曲を使用した「ミュージックロウリュ」をお",
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png"
+    },
     {
       "id": "collabo-girls-band-cry-popup-atre-kawasaki-2026",
       "title": "ガルクラ POP UP SHOP 2026 in アトレ川崎 10月17日より開催!",

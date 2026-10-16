@@ -9908,6 +9908,26 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-495.html
 CATEGORIES:togenashi,live,goods,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-496-2026-10-26_2026-11-29-hold@gbc-news
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261130
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] アニメ『ガールズバンドクライ』×楽久屋
+ が、 10/26(月)より全国12店舗で開催決定！
+DESCRIPTION:10月26日(月)より『ガールズバンドクライ』×楽
+ 久屋が開催決定！\n全国12店舗の楽久屋グループのお店
+ で実施いたします。\n浴衣をまとい、湯上がりのひとと
+ きを楽しむ5人の東映アニメーション新規描き下ろしイ
+ ラストや、サウナポンチョを着た描き起こしミニキャ
+ ライラストが登場！\n温浴施設内でのグッズ販売だけで
+ なく、期間中は関連楽曲を使用した「ミュージックロ
+ ウリュ」をお\n\nhttps://girls-band-cry.com/news/post-496.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-496.html
+CATEGORIES:togenashi,music,goods,event
+END:VEVENT
+BEGIN:VEVENT
 UID:collabo-girls-band-cry-popup-atre-kawasaki-2026-2026-11-01_2026-11-02-h
  old@gbc-news
 DTSTAMP:20261101T000000Z
