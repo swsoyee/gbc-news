@@ -1,13 +1,35 @@
 {
-  "scrapedAt": "2026-10-18T16:26:03.983Z",
+  "scrapedAt": "2026-10-19T08:41:03.755Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 575,
+  "count": 576,
   "items": [
+    {
+      "id": "collabo-girls-band-cry-event-rakuya-2026",
+      "title": "ガールズバンドクライ × 楽久屋 10月26日よりコラボ開催!",
+      "url": "https://collabo-cafe.com/events/collabo/girls-band-cry-event-rakuya-2026/",
+      "publishedAt": "2026-10-19T01:15:52.000Z",
+      "sourceId": "collabo-cafe",
+      "categories": [
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-10-26",
+          "kind": "hold",
+          "endDate": "2026-11-29"
+        }
+      ],
+      "summary": "TVアニメ『ガールズバンドクライ』と、中外鉱業が運営する温浴施設「楽久屋」のコラボが、2026年10月26日から11月29日まで全国12店舗で開催されます。湯上がりの館内着姿の5人を描き下ろしたグッズの販売や入館特典のステッカーに加え、トゲナシトゲアリの楽曲を聞きながら楽しむ「ミュージックロウリュ」も行われます。",
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/girls-band-cry-event-rakuya-2026-keyvisual.jpg"
+    },
     {
       "id": "post-496",
       "title": "アニメ『ガールズバンドクライ』×楽久屋が、 10/26(月)より全国12店舗で開催決定！",

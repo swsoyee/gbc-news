@@ -10104,6 +10104,28 @@ URL;VALUE=URI:https://gbc-firstriff.com/news/post-9.html
 CATEGORIES:other,live,event
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-event-rakuya-2026-2026-10-26_2026-11-29-hold@gbc
+ -news
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261130
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] ガールズバンドクライ × 楽久屋 10月26日よ
+ りコラボ開催!
+DESCRIPTION:TVアニメ『ガールズバンドクライ』と、中外鉱
+ 業が運営する温浴施設「楽久屋」のコラボが、2026年10
+ 月26日から11月29日まで全国12店舗で開催されます。\n湯
+ 上がりの館内着姿の5人を描き下ろしたグッズの販売や
+ 入館特典のステッカーに加え、トゲナシトゲアリの楽
+ 曲を聞きながら楽しむ「ミュージックロウリュ」も行
+ われます。\n\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-event-rakuya-2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-event-rakuya-2026/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-496-2026-10-26_2026-11-29-hold@gbc-news
 DTSTAMP:20261026T000000Z
 DTSTART;VALUE=DATE:20261026
