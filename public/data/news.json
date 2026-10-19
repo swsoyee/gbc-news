@@ -1,13 +1,35 @@
 {
-  "scrapedAt": "2026-10-19T08:41:03.755Z",
+  "scrapedAt": "2026-10-19T19:11:24.074Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 576,
+  "count": 577,
   "items": [
+    {
+      "id": "collabo-girls-band-cry-pop-up-store-akiba2-2026",
+      "title": "ガールズバンドクライ 学園祭ライブVer. ストア in 東京 10月30日より開催!",
+      "url": "https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-akiba2-2026/",
+      "publishedAt": "2026-10-19T08:30:17.000Z",
+      "sourceId": "collabo-cafe",
+      "categories": [
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2025-10-30",
+          "kind": "hold",
+          "endDate": "2026-11-15"
+        }
+      ],
+      "summary": "ガールズバンドクライのポップアップストアが、秋葉原にて2025年10月30日〜11月15日まで開催される。新作グッズが登場！",
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/699bb525ca885b8b6106d1e3d0925239.jpeg"
+    },
     {
       "id": "collabo-girls-band-cry-event-rakuya-2026",
       "title": "ガールズバンドクライ × 楽久屋 10月26日よりコラボ開催!",

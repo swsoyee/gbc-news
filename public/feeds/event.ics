@@ -3782,6 +3782,26 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-413.html
 CATEGORIES:togenashi,live,goods,event,cinema,media
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-pop-up-store-akiba2-2026-2025-10-30_2026-11-15-h
+ old@gbc-news
+DTSTAMP:20251030T000000Z
+DTSTART;VALUE=DATE:20251030
+DTEND;VALUE=DATE:20261116
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] ガールズバンドクライ 学園祭ライブVer. ス
+ トア in 東京 10月30日より開催!
+DESCRIPTION:ガールズバンドクライのポップアップストアが
+ 、秋葉原にて2025年10月30日〜11月15日まで開催される。\n
+ 新作グッズが登場！\n\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-akiba2
+ -2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-pop-up-store-akiba2
+ -2026/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-401-2025-10-30_2025-11-12-hold@gbc-news
 DTSTAMP:20251030T000000Z
 DTSTART;VALUE=DATE:20251030
