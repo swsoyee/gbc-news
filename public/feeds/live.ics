@@ -5389,6 +5389,25 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-493.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-497-2026-11-14_2027-01-31-hold@gbc-news
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20270201
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 「『ガールズバンドクライ』特別企画展 」
+ 開催決定！
+DESCRIPTION:世界中にも根強いファンを持つ日本のアニメコ
+ ンテンツを活用したアニメの展示拠点・アニメ東京ス
+ テーションで「『ガールズバンドクライ』特別企画展
+ 」が、11月14日(土)より開催決定！\n▷会場 #アニメ東京
+ ステーション ▷開催期間 2026年11月14日(土)～2027年1月31
+ 日(日) 11時～19時 (最終入場18:30) ▷入場料 無料 ▼詳細
+ ▼ https:\n\nhttps://girls-band-cry.com/news/post-497.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-497.html
+CATEGORIES:togenashi,live,music,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-490-2026-12-05_2026-12-06-hold@gbc-news
 DTSTAMP:20261205T000000Z
 DTSTART;VALUE=DATE:20261205

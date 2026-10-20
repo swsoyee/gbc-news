@@ -1,13 +1,37 @@
 {
-  "scrapedAt": "2026-10-19T19:11:24.074Z",
+  "scrapedAt": "2026-10-20T08:22:06.319Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 577,
+  "count": 578,
   "items": [
+    {
+      "id": "post-497",
+      "title": "「『ガールズバンドクライ』特別企画展 」開催決定！",
+      "url": "https://girls-band-cry.com/news/post-497.html",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "live",
+        "music",
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-11-14",
+          "kind": "hold",
+          "endDate": "2027-01-31"
+        }
+      ],
+      "summary": "世界中にも根強いファンを持つ日本のアニメコンテンツを活用したアニメの展示拠点・アニメ東京ステーションで「『ガールズバンドクライ』特別企画展」が、11月14日(土)より開催決定！ ▷会場 #アニメ東京ステーション ▷開催期間 2026年11月14日(土)～2027年1月31日(日) 11時～19時 (最終入場18:30) ▷入場料 無料 ▼詳細▼ https:",
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+    },
     {
       "id": "collabo-girls-band-cry-pop-up-store-akiba2-2026",
       "title": "ガールズバンドクライ 学園祭ライブVer. ストア in 東京 10月30日より開催!",
