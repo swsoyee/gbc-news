@@ -1,13 +1,35 @@
 {
-  "scrapedAt": "2026-10-21T08:25:48.964Z",
+  "scrapedAt": "2026-10-21T17:58:00.843Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 578,
+  "count": 579,
   "items": [
+    {
+      "id": "collabo-girls-band-cry-gengaten-tenjikai-anime-tokyo-station-2026",
+      "title": "ガルクラ 特別企画展 in アニメ東京ステーション 11月14日より開催",
+      "url": "https://collabo-cafe.com/events/collabo/girls-band-cry-gengaten-tenjikai-anime-tokyo-station-2026/",
+      "publishedAt": "2026-10-21T06:15:36.000Z",
+      "sourceId": "collabo-cafe",
+      "categories": [
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-11-14",
+          "kind": "hold",
+          "endDate": "2027-01-31"
+        }
+      ],
+      "summary": "東映アニメーションが贈るオリジナルTVアニメ「ガールズバンドクライ (ガルクラ)」の特別企画展が、2026年11月14日〜2027年1月31日まで池袋のアニメ東京ステーションで入場無料で開催。等身大アクリルスタンドや作中シーンの再現コーナー、歴代LIVEポスター＆CD展示、井芹仁菜なりきりフォトスポット、AR体験コンテンツなどの展示内容と休館日を紹介します。",
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/girls-band-cry-gengaten-tenjikai-anime-tokyo-station-2026-eyecatch.jpg"
+    },
     {
       "id": "post-497",
       "title": "「『ガールズバンドクライ』特別企画展 」開催決定！",

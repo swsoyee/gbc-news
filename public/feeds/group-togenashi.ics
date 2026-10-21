@@ -10047,6 +10047,30 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-493.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-gengaten-tenjikai-anime-tokyo-station-2026-2026-
+ 11-14_2027-01-31-hold@gbc-news
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20270201
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] ガルクラ 特別企画展 in アニメ東京ステー
+ ション 11月14日より開催
+DESCRIPTION:東映アニメーションが贈るオリジナルTVアニメ
+ 「ガールズバンドクライ (ガルクラ)」の特別企画展が
+ 、2026年11月14日〜2027年1月31日まで池袋のアニメ東京ス
+ テーションで入場無料で開催。\n等身大アクリルスタン
+ ドや作中シーンの再現コーナー、歴代LIVEポスター＆CD
+ 展示、井芹仁菜なりきりフォトスポット、AR体験コンテ
+ ンツなどの展示内容と休館日を紹介します。\n\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-gengaten-tenjikai-a
+ nime-tokyo-station-2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-gengaten-tenjikai-a
+ nime-tokyo-station-2026/
+CATEGORIES:togenashi,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-497-2026-11-14_2027-01-31-hold@gbc-news
 DTSTAMP:20261114T000000Z
 DTSTART;VALUE=DATE:20261114
