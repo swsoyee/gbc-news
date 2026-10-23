@@ -1,10 +1,33 @@
 {
   "sourceId": "gbc-firstriff",
-  "scrapedAt": "2026-10-22T17:54:32.604Z",
+  "scrapedAt": "2026-10-23T08:24:08.338Z",
   "mode": "incremental",
   "maxPages": 3,
-  "count": 10,
+  "count": 11,
   "items": [
+    {
+      "id": "firstriff-post-11",
+      "title": "F-272 1.5th ONE-MAN LIVE The Dissonant \"I DOLL\" Re:LOAD 開催決定！",
+      "url": "https://gbc-firstriff.com/news/post-11.html",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "sourceId": "gbc-firstriff",
+      "categories": [
+        "live",
+        "event"
+      ],
+      "groups": [
+        "f272"
+      ],
+      "eventDates": [
+        {
+          "date": "2027-01-29",
+          "kind": "hold",
+          "startTime": "19:00"
+        }
+      ],
+      "summary": "F-272 1.5th ONE-MAN LIVE The Dissonant \"I DOLL\" Re:LOAD の開催が決定。 ■開催日時 2027年1月29日(金) 開場 18:00/開演 19:00 ■会場 CLUB CITTA' KAWASAKI https://clubcitta.co.jp/ ■チケット情報 先行抽選販売を実施します。 受付期間:2",
+      "bodyText": "F-272 1.5th ONE-MAN LIVE The Dissonant \"I DOLL\" Re:LOAD の開催が決定。 ■開催日時 2027年1月29日(金) 開場 18:00/開演 19:00 ■会場 CLUB CITTA' KAWASAKI https://clubcitta.co.jp/ ■チケット情報 先行抽選販売を実施します。 受付期間:2026年10月22日(木)21:00～11月4日(水)23:59 https://musing.jp/ticket/F272_202701/ ※チケットのお申し込みにはMusing会員登録（無料）が必要です。 ※チケットの販売は抽選となります。 ■F-272 公式HP/SNS ライブの最新情報はF-272 公式HPまたは公式Xをご確認ください。 公式HP - https://f-272.bzone.co.jp/ 公式X - https://x.com/F_272_GBC"
+    },
     {
       "id": "firstriff-post-10",
       "title": "ガールズバンドクライ Special LIVE “赤色の響祭”にガルリフバンドゲスト参加決定！",

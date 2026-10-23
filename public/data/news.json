@@ -1,13 +1,35 @@
 {
-  "scrapedAt": "2026-10-22T17:54:50.000Z",
+  "scrapedAt": "2026-10-23T08:24:26.037Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 579,
+  "count": 580,
   "items": [
+    {
+      "id": "firstriff-post-11",
+      "title": "F-272 1.5th ONE-MAN LIVE The Dissonant \"I DOLL\" Re:LOAD 開催決定！",
+      "url": "https://gbc-firstriff.com/news/post-11.html",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "sourceId": "gbc-firstriff",
+      "categories": [
+        "live",
+        "event"
+      ],
+      "groups": [
+        "f272"
+      ],
+      "eventDates": [
+        {
+          "date": "2027-01-29",
+          "kind": "hold",
+          "startTime": "19:00"
+        }
+      ],
+      "summary": "F-272 1.5th ONE-MAN LIVE The Dissonant \"I DOLL\" Re:LOAD の開催が決定。 ■開催日時 2027年1月29日(金) 開場 18:00/開演 19:00 ■会場 CLUB CITTA' KAWASAKI https://clubcitta.co.jp/ ■チケット情報 先行抽選販売を実施します。 受付期間:2"
+    },
     {
       "id": "collabo-girls-band-cry-gengaten-tenjikai-anime-tokyo-station-2026",
       "title": "ガルクラ 特別企画展 in アニメ東京ステーション 11月14日より開催",

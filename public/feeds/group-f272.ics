@@ -104,4 +104,21 @@ DESCRIPTION:F-272 NEXT ONE-MAN LIVE の開催が決定。\nチケット情
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-7.html
 CATEGORIES:f272,live,event
 END:VEVENT
+BEGIN:VEVENT
+UID:firstriff-post-11-2027-01-29-hold-1900@gbc-news
+DTSTAMP:20270129T100000Z
+DTSTART:20270129T100000Z
+DTEND:20270129T120000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] F-272 1.5th ONE-MAN LIVE The Dissonant "I DOLL" Re:LOAD 
+ 開催決定！
+DESCRIPTION:F-272 1.5th ONE-MAN LIVE The Dissonant "I DOLL" Re:LOAD の開
+ 催が決定。\n■開催日時 2027年1月29日(金) 開場 18:00/開演
+  19:00 ■会場 CLUB CITTA' KAWASAKI ■チケット情報 先行抽選
+ 販売を実施します。\n受付期間:2\n\n
+ https://gbc-firstriff.com/news/post-11.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-11.html
+CATEGORIES:f272,live,event
+END:VEVENT
 END:VCALENDAR
