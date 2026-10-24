@@ -1,12 +1,12 @@
 {
-  "scrapedAt": "2026-10-24T08:00:04.171Z",
+  "scrapedAt": "2026-10-24T16:30:57.341Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 581,
+  "count": 582,
   "items": [
     {
       "id": "post-500",
@@ -30,6 +30,29 @@
       ],
       "summary": "本日10/24は、トゲナシトゲアリ ボーカル“井芹仁菜”の誕生日！ 二次元コスパより、井芹仁菜の誕生日を記念して、新グッズが登場！ さらに特典プレゼントキャンペーンの実施が決定です。 現在アトレ川崎で開催している《 ガールズバンドクライ×アトレ川崎 POP UP SHOP 2026》および、仁菜の故郷 熊本県にある《九州アニメデッキ》で、 新グッズ ・井芹仁",
       "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+    },
+    {
+      "id": "post-498",
+      "title": "ガルクラ × 矢向湯コラボグッズ販売決定！",
+      "url": "https://girls-band-cry.com/news/post-498.html",
+      "publishedAt": "2026-10-24T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "live",
+        "goods",
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-10-31",
+          "kind": "sale"
+        }
+      ],
+      "summary": "♨️ #ガルクラ × #矢向湯 10/31（土）よりコラボグッズ販売決定！ 「湯上がり仁菜」描き下ろしイラスト使用のグッズを展開👏 スタンプツアーイラスト（すばる）のサウナハットも新発売🧖 📍販売場所 ⭐️GIRLS BAND CRY STAMP GALLERY ⭐️矢向湯（一部グッズ）",
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png"
     },
     {
       "id": "firstriff-post-11",

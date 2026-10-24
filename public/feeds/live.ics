@@ -5318,6 +5318,23 @@ URL;VALUE=URI:https://gbc-firstriff.com/news/post-9.html
 CATEGORIES:other,live,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-498-2026-10-31-sale@gbc-news
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[发售] ガルクラ × 矢向湯コラボグッズ販売決定！
+DESCRIPTION:️ #ガルクラ × #矢向湯 10/31（土）よりコラボ
+ グッズ販売決定！\n「湯上がり仁菜」描き下ろしイラス
+ ト使用のグッズを展開 スタンプツアーイラスト（すば
+ る）のサウナハットも新発売 販売場所 ⭐️GIRLS BAND CRY 
+ STAMP GALLERY ⭐️矢向湯（一部グッズ）\n\n
+ https://girls-band-cry.com/news/post-498.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-498.html
+CATEGORIES:togenashi,live,goods,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-473-2026-11-03-hold@gbc-news
 DTSTAMP:20261103T000000Z
 DTSTART;VALUE=DATE:20261103
