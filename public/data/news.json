@@ -1,13 +1,36 @@
 {
-  "scrapedAt": "2026-10-27T08:49:31.917Z",
+  "scrapedAt": "2026-10-27T18:37:26.082Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 582,
+  "count": 583,
   "items": [
+    {
+      "id": "post-501",
+      "title": "「ガールズバンドクライ Special LIVE “赤色の響祭”」開催記念Wフォロー＆リポストキャンペーン開催！",
+      "url": "https://girls-band-cry.com/news/post-501.html",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "live",
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-11-02",
+          "kind": "hold",
+          "startTime": "23:59"
+        }
+      ],
+      "summary": "「ガールズバンドクライ Special LIVE “赤色の響祭”」開催を記念して ガルクラ＆ガルリフ公式Xにてフォロー＆リポストキャンペーンを開催！ ご参加いただいた方の中から抽選で30名様に「ガールズバンドクライ Special LIVE “赤色の響祭”」キービジュアルポスターをプレゼント🎁 【開催期間】 2026年11月2日(月) 23:59まで 【参",
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png"
+    },
     {
       "id": "post-500",
       "title": "10/24(土)～井芹仁菜 誕生日記念 新グッズ発売＆特典プレゼントキャンペーンを実施！",

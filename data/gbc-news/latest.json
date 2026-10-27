@@ -1,10 +1,34 @@
 {
   "sourceId": "gbc-news",
-  "scrapedAt": "2026-10-27T08:49:12.469Z",
+  "scrapedAt": "2026-10-27T18:37:06.605Z",
   "mode": "incremental",
   "maxPages": 5,
-  "count": 493,
+  "count": 494,
   "items": [
+    {
+      "id": "post-501",
+      "title": "「ガールズバンドクライ Special LIVE “赤色の響祭”」開催記念Wフォロー＆リポストキャンペーン開催！",
+      "url": "https://girls-band-cry.com/news/post-501.html",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "live",
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-11-02",
+          "kind": "hold",
+          "startTime": "23:59"
+        }
+      ],
+      "summary": "「ガールズバンドクライ Special LIVE “赤色の響祭”」開催を記念して ガルクラ＆ガルリフ公式Xにてフォロー＆リポストキャンペーンを開催！ ご参加いただいた方の中から抽選で30名様に「ガールズバンドクライ Special LIVE “赤色の響祭”」キービジュアルポスターをプレゼント🎁 【開催期間】 2026年11月2日(月) 23:59まで 【参",
+      "bodyText": "「ガールズバンドクライ Special LIVE “赤色の響祭”」開催を記念して ガルクラ＆ガルリフ公式Xにてフォロー＆リポストキャンペーンを開催！ ご参加いただいた方の中から抽選で30名様に「ガールズバンドクライ Special LIVE “赤色の響祭”」キービジュアルポスターをプレゼント🎁 【開催期間】 2026年11月2日(月) 23:59まで 【参加方法】 ①X（旧Twitter）の ＠girlsbandcry と @gbc_firstriff をフォロー ②キャンペーン告知投稿をRepost ガールズバンドクライ Special LIVE “赤色の響祭”開催記念‼️ ／ #ガルクラ ＆ #ガルリフ Wフォロー＆リポストキャンペーン開催🎉 ＼ LIVEキービジュアルポスターを 抽選で30名様にプレゼント🎁 【参加方法】 1️⃣ @girlsbandcry @gbc_firstriff をフォロー 2️⃣この投稿をリポスト… pic.twitter.com/L7GgBff2gc &mdash; アニメ『ガールズバンドクライ』公式 (@girlsbandcry) October 27, 2026 ご参加お待ちしております！🎤🎸 ※本キャンペーンにより東映アニメーションが取得します個人情報は、本キャンペーンの実施、抽選、当選のご連絡及びプレゼントの発送に関する目的のみに利用し、東映アニメーションが定める個人情報保護に関する基本方針に従い、適正に取り扱います。",
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b5.png"
+    },
     {
       "id": "post-500",
       "title": "10/24(土)～井芹仁菜 誕生日記念 新グッズ発売＆特典プレゼントキャンペーンを実施！",

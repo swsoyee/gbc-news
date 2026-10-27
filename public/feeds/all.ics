@@ -10227,6 +10227,26 @@ URL;VALUE=URI:
 CATEGORIES:togenashi,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-501-2026-11-02-hold-2359@gbc-news
+DTSTAMP:20261102T145900Z
+DTSTART:20261102T145900Z
+DTEND:20261102T165900Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] 「ガールズバンドクライ Special LIVE “赤色
+ の響祭”」開催記念Wフォロー＆リポストキャンペーン
+ 開催！
+DESCRIPTION:「ガールズバンドクライ Special LIVE “赤色の響
+ 祭”」開催を記念して ガルクラ＆ガルリフ公式Xにてフ
+ ォロー＆リポストキャンペーンを開催！\nご参加いただ
+ いた方の中から抽選で30名様に「ガールズバンドクライ
+  Special LIVE “赤色の響祭”」キービジュアルポスターを
+ プレゼント 【開催期間】 2026年11月2日(月) 23:59まで 【
+ 参\n\nhttps://girls-band-cry.com/news/post-501.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-501.html
+CATEGORIES:togenashi,live,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-473-2026-11-03-hold@gbc-news
 DTSTAMP:20261103T000000Z
 DTSTART;VALUE=DATE:20261103
