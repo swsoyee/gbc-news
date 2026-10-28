@@ -1,13 +1,28 @@
 {
-  "scrapedAt": "2026-10-27T18:37:26.082Z",
+  "scrapedAt": "2026-10-28T09:29:31.532Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 583,
+  "count": 584,
   "items": [
+    {
+      "id": "post-502",
+      "title": "「トゲナシトゲアリ」とゲキクロのスペシャル・コラボ第2弾、ライヴでも活躍する新アイテムが只今より予約受付開始",
+      "url": "https://girls-band-cry.com/news/post-502.html",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "summary": "アニメ『ガールズバンドクライ』の作中バンド「トゲナシトゲアリ」と激ロックが運営するロック・ファッション特化型ショップ\"GEKIROCK CLOTHING\"とのコラボレーションの第2弾を実施！ 第2弾となる今回は、描き下ろしイラストなどを使用したオリジナル・デザインのアイテムが登場。ライヴでも活躍する充実のラインナップが只今より受付開始です。",
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b3.png"
+    },
     {
       "id": "post-501",
       "title": "「ガールズバンドクライ Special LIVE “赤色の響祭”」開催記念Wフォロー＆リポストキャンペーン開催！",
