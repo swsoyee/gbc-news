@@ -9990,6 +9990,78 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-496.html
 CATEGORIES:togenashi,music,goods,event
 END:VEVENT
 BEGIN:VEVENT
+UID:collabo-girls-band-cry-girl-meets-cat-acrylic-stand-familymart-2026-202
+ 6-10-30-hold@gbc-news
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] ガールズバンドクライ アクリルスタンド 10
+ 月30日ファミマに登場!
+DESCRIPTION:TVアニメ「ガールズバンドクライ」より、「ガ
+ ール ミーツ キャット」をテーマにした東映アニメーシ
+ ョン描き下ろしイラストのアクリルスタンドが、2026年1
+ 0月30日よりファミリーマートで発売決定!\n井芹仁菜・
+ 河原木桃香・安和すばる・海老塚智・ルパの全5種がラ
+ インナップされ、10時より取り扱い店舗にて順次発売さ
+ れる。\n\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-girl-meets-cat-acry
+ lic-stand-familymart-2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-girl-meets-cat-acry
+ lic-stand-familymart-2026/
+CATEGORIES:togenashi,event,goods
+END:VEVENT
+BEGIN:VEVENT
+UID:collabo-girls-band-cry-girl-meets-cat-acrylic-stand-familymart-2026-202
+ 6-10-30-hold-1000@gbc-news
+DTSTAMP:20261030T010000Z
+DTSTART:20261030T010000Z
+DTEND:20261030T030000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[举办] ガールズバンドクライ アクリルスタンド 10
+ 月30日ファミマに登場!
+DESCRIPTION:TVアニメ「ガールズバンドクライ」より、「ガ
+ ール ミーツ キャット」をテーマにした東映アニメーシ
+ ョン描き下ろしイラストのアクリルスタンドが、2026年1
+ 0月30日よりファミリーマートで発売決定!\n井芹仁菜・
+ 河原木桃香・安和すばる・海老塚智・ルパの全5種がラ
+ インナップされ、10時より取り扱い店舗にて順次発売さ
+ れる。\n\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-girl-meets-cat-acry
+ lic-stand-familymart-2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-girl-meets-cat-acry
+ lic-stand-familymart-2026/
+CATEGORIES:togenashi,event,goods
+END:VEVENT
+BEGIN:VEVENT
+UID:collabo-girls-band-cry-girl-meets-cat-acrylic-stand-familymart-2026-202
+ 6-10-30-sale-1000@gbc-news
+DTSTAMP:20261030T010000Z
+DTSTART:20261030T010000Z
+DTEND:20261030T020000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] ガールズバンドクライ アクリルスタンド 10
+ 月30日ファミマに登場!
+DESCRIPTION:TVアニメ「ガールズバンドクライ」より、「ガ
+ ール ミーツ キャット」をテーマにした東映アニメーシ
+ ョン描き下ろしイラストのアクリルスタンドが、2026年1
+ 0月30日よりファミリーマートで発売決定!\n井芹仁菜・
+ 河原木桃香・安和すばる・海老塚智・ルパの全5種がラ
+ インナップされ、10時より取り扱い店舗にて順次発売さ
+ れる。\n\n
+ https://collabo-cafe.com/events/collabo/girls-band-cry-girl-meets-cat-acry
+ lic-stand-familymart-2026/
+URL;VALUE=URI:
+ https://collabo-cafe.com/events/collabo/girls-band-cry-girl-meets-cat-acry
+ lic-stand-familymart-2026/
+CATEGORIES:togenashi,event,goods
+END:VEVENT
+BEGIN:VEVENT
 UID:post-498-2026-10-31-sale@gbc-news
 DTSTAMP:20261031T000000Z
 DTSTART;VALUE=DATE:20261031

@@ -1,13 +1,45 @@
 {
-  "scrapedAt": "2026-10-28T18:44:42.466Z",
+  "scrapedAt": "2026-10-29T09:42:51.214Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 584,
+  "count": 585,
   "items": [
+    {
+      "id": "collabo-girls-band-cry-girl-meets-cat-acrylic-stand-familymart-2026",
+      "title": "ガールズバンドクライ アクリルスタンド 10月30日ファミマに登場!",
+      "url": "https://collabo-cafe.com/events/collabo/girls-band-cry-girl-meets-cat-acrylic-stand-familymart-2026/",
+      "publishedAt": "2026-10-29T04:00:47.000Z",
+      "sourceId": "collabo-cafe",
+      "categories": [
+        "event",
+        "goods"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-10-30",
+          "kind": "hold"
+        },
+        {
+          "date": "2026-10-30",
+          "kind": "hold",
+          "startTime": "10:00"
+        },
+        {
+          "date": "2026-10-30",
+          "kind": "sale",
+          "startTime": "10:00"
+        }
+      ],
+      "summary": "TVアニメ「ガールズバンドクライ」より、「ガール ミーツ キャット」をテーマにした東映アニメーション描き下ろしイラストのアクリルスタンドが、2026年10月30日よりファミリーマートで発売決定!井芹仁菜・河原木桃香・安和すばる・海老塚智・ルパの全5種がラインナップされ、10時より取り扱い店舗にて順次発売される。",
+      "imageUrl": "https://collabo-cafe.com/wp-content/uploads/0f6ef972edebf02b4fdb5be9ed1cf271.jpg"
+    },
     {
       "id": "post-502",
       "title": "「トゲナシトゲアリ」とゲキクロのスペシャル・コラボ第2弾、ライヴでも活躍する新アイテムが只今より予約受付開始",
