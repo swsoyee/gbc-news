@@ -10484,4 +10484,21 @@ DESCRIPTION:F-272 1.5th ONE-MAN LIVE The Dissonant "I DOLL" Re:LOAD の開
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-11.html
 CATEGORIES:f272,live,event
 END:VEVENT
+BEGIN:VEVENT
+UID:firstriff-post-12-2027-02-07-hold@gbc-news
+DTSTAMP:20270207T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] Canna Lily 3rd ONE-MAN LIVE「迂回する旋律」開催
+ 決定！
+DESCRIPTION:Canna Lily 3rd ONE-MAN LIVE「迂回する旋律」の開催が
+ 決定。\n■開催日時 2027年2月7日(日) ■会場 EX THEATER ROPPO
+ NGI ■Canna Lily 公式SNS ライブの最新情報はCanna Lily 公式HP
+ または公式Xをご確認ください。\n公式HP - h\n\n
+ https://gbc-firstriff.com/news/post-12.html
+URL;VALUE=URI:https://gbc-firstriff.com/news/post-12.html
+CATEGORIES:canna-lily,live,event
+END:VEVENT
 END:VCALENDAR

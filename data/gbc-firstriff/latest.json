@@ -1,10 +1,32 @@
 {
   "sourceId": "gbc-firstriff",
-  "scrapedAt": "2026-10-31T09:28:44.635Z",
+  "scrapedAt": "2026-10-31T17:35:40.980Z",
   "mode": "incremental",
   "maxPages": 3,
-  "count": 11,
+  "count": 12,
   "items": [
+    {
+      "id": "firstriff-post-12",
+      "title": "Canna Lily 3rd ONE-MAN LIVE「迂回する旋律」開催決定！",
+      "url": "https://gbc-firstriff.com/news/post-12.html",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "sourceId": "gbc-firstriff",
+      "categories": [
+        "live",
+        "event"
+      ],
+      "groups": [
+        "canna-lily"
+      ],
+      "eventDates": [
+        {
+          "date": "2027-02-07",
+          "kind": "hold"
+        }
+      ],
+      "summary": "Canna Lily 3rd ONE-MAN LIVE「迂回する旋律」の開催が決定。 ■開催日時 2027年2月7日(日) ■会場 EX THEATER ROPPONGI https://www.ex-theater.com/ ■Canna Lily 公式SNS ライブの最新情報はCanna Lily 公式HPまたは公式Xをご確認ください。 公式HP - h",
+      "bodyText": "Canna Lily 3rd ONE-MAN LIVE「迂回する旋律」の開催が決定。 ■開催日時 2027年2月7日(日) ■会場 EX THEATER ROPPONGI https://www.ex-theater.com/ ■Canna Lily 公式SNS ライブの最新情報はCanna Lily 公式HPまたは公式Xをご確認ください。 公式HP - https://cannalily-official.com/ 公式X - https://x.com/CannaLily_GBC"
+    },
     {
       "id": "firstriff-post-11",
       "title": "F-272 1.5th ONE-MAN LIVE The Dissonant \"I DOLL\" Re:LOAD 開催決定！",

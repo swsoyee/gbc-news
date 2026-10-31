@@ -1,13 +1,34 @@
 {
-  "scrapedAt": "2026-10-31T09:29:02.333Z",
+  "scrapedAt": "2026-10-31T17:35:59.137Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 585,
+  "count": 586,
   "items": [
+    {
+      "id": "firstriff-post-12",
+      "title": "Canna Lily 3rd ONE-MAN LIVE「迂回する旋律」開催決定！",
+      "url": "https://gbc-firstriff.com/news/post-12.html",
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "sourceId": "gbc-firstriff",
+      "categories": [
+        "live",
+        "event"
+      ],
+      "groups": [
+        "canna-lily"
+      ],
+      "eventDates": [
+        {
+          "date": "2027-02-07",
+          "kind": "hold"
+        }
+      ],
+      "summary": "Canna Lily 3rd ONE-MAN LIVE「迂回する旋律」の開催が決定。 ■開催日時 2027年2月7日(日) ■会場 EX THEATER ROPPONGI https://www.ex-theater.com/ ■Canna Lily 公式SNS ライブの最新情報はCanna Lily 公式HPまたは公式Xをご確認ください。 公式HP - h"
+    },
     {
       "id": "collabo-girls-band-cry-girl-meets-cat-acrylic-stand-familymart-2026",
       "title": "ガールズバンドクライ アクリルスタンド 10月30日ファミマに登場!",
