@@ -372,4 +372,44 @@ DESCRIPTION:谜游戏《桃香（を）ワッショイ》为登陆 Nintendo
 URL;VALUE=URI:https://girls-band-cry.com/news/post-451.html
 CATEGORIES:togenashi,other
 END:VEVENT
+BEGIN:VEVENT
+UID:post-499-2026-11-06-sale-1800@gbc-news
+DTSTAMP:20261106T090000Z
+DTSTART:20261106T090000Z
+DTEND:20261106T100000Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SUMMARY:[发售] 『ガールズバンドクライ THE MOVIE』2027年5月2
+ 1日公開！ティザービジュアル＆特報＆前売券情報解禁
+ ！
+DESCRIPTION:『ガールズバンドクライ THE MOVIE』 2027年5月21日
+ (金)ROADSHOW!!\nキービジュアル＆特報映像を公開しました
+ ！\n【キャスト】 井芹 仁菜：理名 河原木 桃香：夕莉 
+ 安和 すばる：美怜 海老塚 智：凪都 ルパ：朱李 ヒナ：
+ 近藤玲奈 ナナ：松岡美里 リン：漆山ゆうき アイ：宮
+ 白桃子 【スタッフ】 原作 東映アニメーション 監督 酒
+ 井和男\n\nhttps://girls-band-cry.com/news/post-499.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-499.html
+CATEGORIES:togenashi,other
+END:VEVENT
+BEGIN:VEVENT
+UID:post-499-2027-05-21-hold@gbc-news
+DTSTAMP:20270521T000000Z
+DTSTART;VALUE=DATE:20270521
+DTEND;VALUE=DATE:20270522
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 『ガールズバンドクライ THE MOVIE』2027年5月2
+ 1日公開！ティザービジュアル＆特報＆前売券情報解禁
+ ！
+DESCRIPTION:『ガールズバンドクライ THE MOVIE』 2027年5月21日
+ (金)ROADSHOW!!\nキービジュアル＆特報映像を公開しました
+ ！\n【キャスト】 井芹 仁菜：理名 河原木 桃香：夕莉 
+ 安和 すばる：美怜 海老塚 智：凪都 ルパ：朱李 ヒナ：
+ 近藤玲奈 ナナ：松岡美里 リン：漆山ゆうき アイ：宮
+ 白桃子 【スタッフ】 原作 東映アニメーション 監督 酒
+ 井和男\n\nhttps://girls-band-cry.com/news/post-499.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-499.html
+CATEGORIES:togenashi,other
+END:VEVENT
 END:VCALENDAR

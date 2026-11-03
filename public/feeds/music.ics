@@ -1929,6 +1929,25 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-455.html
 CATEGORIES:togenashi,live,music,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-503-2026-03-28-hold@gbc-news
+DTSTAMP:20260328T000000Z
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260329
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 2027年3月舞台化決定！
+DESCRIPTION:アニメ『ガールズバンドクライ』の舞台化が決
+ 定！\n2027年3月21日（日）から3月28日（日）まで、東京
+ ・池袋のサンシャイン劇場にて上演されます。\n■公演
+ 期間： 2027年3月21日（日）～3月28日（日）11公演 ■会場
+ ： サンシャイン劇場 ■ 出演 河原木桃香役：七木奏音 
+ 井芹仁菜役：高瀬くるみ、安和すばる役：根本流風（
+ アイオケ）、海老塚智役：早川渚紗、\n\n
+ https://girls-band-cry.com/news/post-503.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-503.html
+CATEGORIES:togenashi,live,music,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-464-2026-04-24-hold-1900@gbc-news
 DTSTAMP:20260424T100000Z
 DTSTART:20260424T100000Z
@@ -2072,6 +2091,25 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-496.html
 CATEGORIES:togenashi,music,goods,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-503-2026-11-04_2026-12-20-hold@gbc-news
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261221
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 2027年3月舞台化決定！
+DESCRIPTION:アニメ『ガールズバンドクライ』の舞台化が決
+ 定！\n2027年3月21日（日）から3月28日（日）まで、東京
+ ・池袋のサンシャイン劇場にて上演されます。\n■公演
+ 期間： 2027年3月21日（日）～3月28日（日）11公演 ■会場
+ ： サンシャイン劇場 ■ 出演 河原木桃香役：七木奏音 
+ 井芹仁菜役：高瀬くるみ、安和すばる役：根本流風（
+ アイオケ）、海老塚智役：早川渚紗、\n\n
+ https://girls-band-cry.com/news/post-503.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-503.html
+CATEGORIES:togenashi,live,music,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-497-2026-11-14_2027-01-31-hold@gbc-news
 DTSTAMP:20261114T000000Z
 DTSTART;VALUE=DATE:20261114
@@ -2088,6 +2126,25 @@ DESCRIPTION:世界中にも根強いファンを持つ日本のアニメコ
  日(日) 11時～19時 (最終入場18:30) ▷入場料 無料 ▼詳細
  ▼ https:\n\nhttps://girls-band-cry.com/news/post-497.html
 URL;VALUE=URI:https://girls-band-cry.com/news/post-497.html
+CATEGORIES:togenashi,live,music,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-503-2027-03-21_2027-03-28-hold@gbc-news
+DTSTAMP:20270321T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270329
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 2027年3月舞台化決定！
+DESCRIPTION:アニメ『ガールズバンドクライ』の舞台化が決
+ 定！\n2027年3月21日（日）から3月28日（日）まで、東京
+ ・池袋のサンシャイン劇場にて上演されます。\n■公演
+ 期間： 2027年3月21日（日）～3月28日（日）11公演 ■会場
+ ： サンシャイン劇場 ■ 出演 河原木桃香役：七木奏音 
+ 井芹仁菜役：高瀬くるみ、安和すばる役：根本流風（
+ アイオケ）、海老塚智役：早川渚紗、\n\n
+ https://girls-band-cry.com/news/post-503.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-503.html
 CATEGORIES:togenashi,live,music,event
 END:VEVENT
 END:VCALENDAR

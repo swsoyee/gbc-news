@@ -1,13 +1,100 @@
 {
-  "scrapedAt": "2026-11-03T10:41:05.369Z",
+  "scrapedAt": "2026-11-03T20:02:24.759Z",
   "sources": [
     "gbc-news",
     "gbc-firstriff",
     "collabo-cafe",
     "gamepedia"
   ],
-  "count": 586,
+  "count": 589,
   "items": [
+    {
+      "id": "post-499",
+      "title": "『ガールズバンドクライ THE MOVIE』2027年5月21日公開！ティザービジュアル＆特報＆前売券情報解禁！",
+      "url": "https://girls-band-cry.com/news/post-499.html",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "other"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-11-06",
+          "kind": "sale",
+          "startTime": "18:00"
+        },
+        {
+          "date": "2027-05-21",
+          "kind": "hold"
+        }
+      ],
+      "summary": "『ガールズバンドクライ THE MOVIE』 2027年5月21日(金)ROADSHOW!! キービジュアル＆特報映像を公開しました！ 【キャスト】 井芹 仁菜：理名 河原木 桃香：夕莉 安和 すばる：美怜 海老塚 智：凪都 ルパ：朱李 ヒナ：近藤玲奈 ナナ：松岡美里 リン：漆山ゆうき アイ：宮白桃子 【スタッフ】 原作 東映アニメーション 監督 酒井和男 ",
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2026/10/GBCMV_%E3%83%A0%E3%83%93%E3%83%81%E3%82%B1%E7%AC%AC%E4%B8%80%E5%BC%BE_%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC_%E3%83%A8%E3%82%B3.jpg"
+    },
+    {
+      "id": "post-504",
+      "title": "トゲナシトゲアリ ONE-MAN LIVE “凛音の耀”in Kアリーナ横浜 開催決定！",
+      "url": "https://girls-band-cry.com/news/post-504.html",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "live",
+        "event",
+        "cinema"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-11-04",
+          "kind": "hold",
+          "endDate": "2026-12-09"
+        },
+        {
+          "date": "2027-03-20",
+          "kind": "hold"
+        }
+      ],
+      "summary": "トゲナシトゲアリ ONE-MAN LIVE “凛音の耀”の開催が決定しました！ ■開催日 2027年3月20日（土） ■会場 Kアリーナ横浜 チケット最速先行抽選申し込み券は、2026年11月4日（水）発売 トゲナシトゲアリ LIVE in 日本武道館 “奏檄の叫” Blu-ray & DVD に封入。 最速先行抽選申し込み期間 2026年11月4日（水）1",
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2026/11/K%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E6%A8%AA%E6%B5%9C%E3%80%8C%E5%87%9B%E9%9F%B3%E3%81%AE%E8%80%80%E3%80%8DKV%E3%83%A8%E3%82%B3%E5%AE%A3%E4%BC%9D%E7%94%A8.jpg"
+    },
+    {
+      "id": "post-503",
+      "title": "2027年3月舞台化決定！",
+      "url": "https://girls-band-cry.com/news/post-503.html",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "sourceId": "gbc-news",
+      "categories": [
+        "live",
+        "music",
+        "event"
+      ],
+      "groups": [
+        "togenashi"
+      ],
+      "eventDates": [
+        {
+          "date": "2026-03-28",
+          "kind": "hold"
+        },
+        {
+          "date": "2026-11-04",
+          "kind": "hold",
+          "endDate": "2026-12-20"
+        },
+        {
+          "date": "2027-03-21",
+          "kind": "hold",
+          "endDate": "2027-03-28"
+        }
+      ],
+      "summary": "アニメ『ガールズバンドクライ』の舞台化が決定！ 2027年3月21日（日）から3月28日（日）まで、東京・池袋のサンシャイン劇場にて上演されます。 ■公演期間： 2027年3月21日（日）～3月28日（日）11公演 ■会場： サンシャイン劇場 ■ 出演 河原木桃香役：七木奏音 井芹仁菜役：高瀬くるみ、安和すばる役：根本流風（アイオケ）、海老塚智役：早川渚紗、",
+      "imageUrl": "https://girls-band-cry.com/wp-content/uploads/2023/12/GBC_b2.png"
+    },
     {
       "id": "firstriff-post-12",
       "title": "Canna Lily 3rd ONE-MAN LIVE「迂回する旋律」開催決定！",

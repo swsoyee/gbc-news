@@ -4601,6 +4601,25 @@ URL;VALUE=URI:https://gbc-firstriff.com/news/post-1.html
 CATEGORIES:togenashi,canna-lily,live,event
 END:VEVENT
 BEGIN:VEVENT
+UID:post-503-2026-03-28-hold@gbc-news
+DTSTAMP:20260328T000000Z
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260329
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 2027年3月舞台化決定！
+DESCRIPTION:アニメ『ガールズバンドクライ』の舞台化が決
+ 定！\n2027年3月21日（日）から3月28日（日）まで、東京
+ ・池袋のサンシャイン劇場にて上演されます。\n■公演
+ 期間： 2027年3月21日（日）～3月28日（日）11公演 ■会場
+ ： サンシャイン劇場 ■ 出演 河原木桃香役：七木奏音 
+ 井芹仁菜役：高瀬くるみ、安和すばる役：根本流風（
+ アイオケ）、海老塚智役：早川渚紗、\n\n
+ https://girls-band-cry.com/news/post-503.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-503.html
+CATEGORIES:togenashi,live,music,event
+END:VEVENT
+BEGIN:VEVENT
 UID:post-458-2026-04-04-hold@gbc-news
 DTSTAMP:20260404T000000Z
 DTSTART;VALUE=DATE:20260404
@@ -5426,6 +5445,44 @@ URL;VALUE=URI:https://girls-band-cry.com/news/post-493.html
 CATEGORIES:togenashi,live,event,cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:post-503-2026-11-04_2026-12-20-hold@gbc-news
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261221
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 2027年3月舞台化決定！
+DESCRIPTION:アニメ『ガールズバンドクライ』の舞台化が決
+ 定！\n2027年3月21日（日）から3月28日（日）まで、東京
+ ・池袋のサンシャイン劇場にて上演されます。\n■公演
+ 期間： 2027年3月21日（日）～3月28日（日）11公演 ■会場
+ ： サンシャイン劇場 ■ 出演 河原木桃香役：七木奏音 
+ 井芹仁菜役：高瀬くるみ、安和すばる役：根本流風（
+ アイオケ）、海老塚智役：早川渚紗、\n\n
+ https://girls-band-cry.com/news/post-503.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-503.html
+CATEGORIES:togenashi,live,music,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-504-2026-11-04_2026-12-09-hold@gbc-news
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261210
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] トゲナシトゲアリ ONE-MAN LIVE “凛音の耀”in
+  Kアリーナ横浜 開催決定！
+DESCRIPTION:トゲナシトゲアリ ONE-MAN LIVE “凛音の耀”の開
+ 催が決定しました！\n■開催日 2027年3月20日（土） ■会
+ 場 Kアリーナ横浜 チケット最速先行抽選申し込み券は
+ 、2026年11月4日（水）発売 トゲナシトゲアリ LIVE in 日本
+ 武道館 “奏檄の叫” Blu-ray & DVD に封入。\n最速先行抽
+ 選申し込み期間 2026年11月4日（水）1\n\n
+ https://girls-band-cry.com/news/post-504.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-504.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
 UID:post-497-2026-11-14_2027-01-31-hold@gbc-news
 DTSTAMP:20261114T000000Z
 DTSTART;VALUE=DATE:20261114
@@ -5512,5 +5569,43 @@ DESCRIPTION:Canna Lily 3rd ONE-MAN LIVE「迂回する旋律」の開催が
  https://gbc-firstriff.com/news/post-12.html
 URL;VALUE=URI:https://gbc-firstriff.com/news/post-12.html
 CATEGORIES:canna-lily,live,event
+END:VEVENT
+BEGIN:VEVENT
+UID:post-504-2027-03-20-hold@gbc-news
+DTSTAMP:20270320T000000Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] トゲナシトゲアリ ONE-MAN LIVE “凛音の耀”in
+  Kアリーナ横浜 開催決定！
+DESCRIPTION:トゲナシトゲアリ ONE-MAN LIVE “凛音の耀”の開
+ 催が決定しました！\n■開催日 2027年3月20日（土） ■会
+ 場 Kアリーナ横浜 チケット最速先行抽選申し込み券は
+ 、2026年11月4日（水）発売 トゲナシトゲアリ LIVE in 日本
+ 武道館 “奏檄の叫” Blu-ray & DVD に封入。\n最速先行抽
+ 選申し込み期間 2026年11月4日（水）1\n\n
+ https://girls-band-cry.com/news/post-504.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-504.html
+CATEGORIES:togenashi,live,event,cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:post-503-2027-03-21_2027-03-28-hold@gbc-news
+DTSTAMP:20270321T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270329
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SUMMARY:[举办] 2027年3月舞台化決定！
+DESCRIPTION:アニメ『ガールズバンドクライ』の舞台化が決
+ 定！\n2027年3月21日（日）から3月28日（日）まで、東京
+ ・池袋のサンシャイン劇場にて上演されます。\n■公演
+ 期間： 2027年3月21日（日）～3月28日（日）11公演 ■会場
+ ： サンシャイン劇場 ■ 出演 河原木桃香役：七木奏音 
+ 井芹仁菜役：高瀬くるみ、安和すばる役：根本流風（
+ アイオケ）、海老塚智役：早川渚紗、\n\n
+ https://girls-band-cry.com/news/post-503.html
+URL;VALUE=URI:https://girls-band-cry.com/news/post-503.html
+CATEGORIES:togenashi,live,music,event
 END:VEVENT
 END:VCALENDAR
